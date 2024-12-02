@@ -1,0 +1,391 @@
+{
+    "jogos": [
+        {
+            "nome": "SpongeBob SquarePants: SuperSponge",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "bob",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Assault Retribution",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "assault",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Spider Man 2 Enter Electro",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "miranha",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "The Lost World Jurassic Park",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "jurassic",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Disruptor",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "disruptor",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "taifu",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Donald Duck Goin' Quackers",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "donald",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Moto Racer",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "moto",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Nightmare Creatures",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "nightmare",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Sonic The Hedgehog",
+            "imagem": "1.jpg",
+            "console": "Mega Drive",
+            "consigla": "md",
+            "curto": "sonic1",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "QuackShot",
+            "imagem": "1.jpg",
+            "console": "Mega Drive",
+            "consigla": "md",
+            "curto": "quackshot",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Zero Tolerance",
+            "imagem": "1.jpg",
+            "console": "Mega Drive",
+            "consigla": "md",
+            "curto": "zerotol",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Socket",
+            "imagem": "1.jpg",
+            "console": "Mega Drive",
+            "consigla": "md",
+            "curto": "socket",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Light Crusader",
+            "imagem": "1.jpg",
+            "console": "Mega Drive",
+            "consigla": "md",
+            "curto": "crusader",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Ice Climber",
+            "imagem": "1.jpg",
+            "console": "Nintendo (NES)",
+            "consigla": "nes",
+            "curto": "climber",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Adventure Island",
+            "imagem": "1.jpg",
+            "console": "Nintendo (NES)",
+            "consigla": "nes",
+            "curto": "advisland",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Gun.Smoke",
+            "imagem": "1.jpg",
+            "console": "Nintendo (NES)",
+            "consigla": "nes",
+            "curto": "gunsmoke",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "DuckTales",
+            "imagem": "1.jpg",
+            "console": "Nintendo (NES)",
+            "consigla": "nes",
+            "curto": "ducktales",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Jackal",
+            "imagem": "1.jpg",
+            "console": "Nintendo (NES)",
+            "consigla": "nes",
+            "curto": "jackal",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Super Mario 64",
+            "imagem": "1.jpg",
+            "console": "Nintendo 64",
+            "consigla": "n64",
+            "curto": "mario64",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Castlevania Legacy of Darkness",
+            "imagem": "1.jpg",
+            "console": "Nintendo 64",
+            "consigla": "n64",
+            "curto": "castlelod",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Hercules: The Legendary Journeys",
+            "imagem": "1.jpg",
+            "console": "Nintendo 64",
+            "consigla": "n64",
+            "curto": "hercules",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Disney's Tarzan",
+            "imagem": "1.jpg",
+            "console": "Nintendo 64",
+            "consigla": "n64",
+            "curto": "tarzan",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Cruis'n Exotica",
+            "imagem": "1.jpg",
+            "console": "Nintendo 64",
+            "consigla": "n64",
+            "curto": "exotica",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "God of War",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "gow1",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Red Dead Revolver",
+            "imagem": "1.png",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "revolver",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Cars",
+            "imagem": "1.png",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "cars",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Call of Duty Finest Hour",
+            "imagem": "1.png",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "finest",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "COD 2 Big Red One",
+            "imagem": "1.png",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "bigred",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Sonic The Hedgehog 2",
+            "imagem": "1.jpg",
+            "console": "Mega Drive",
+            "consigla": "md",
+            "curto": "sonic2",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Sonic The Hedgehog 3 & Knuckles",
+            "imagem": "1.jpg",
+            "console": "Mega Drive",
+            "consigla": "md",
+            "curto": "sonic3k",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "God of War 2",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "gow2",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Call of Duty World at War Final Fronts",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "fronts",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Sonic Adventure",
+            "imagem": "1.jpg",
+            "console": "Dreamcast",
+            "consigla": "dc",
+            "curto": "sonicadv",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Shadow of the Colossus",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "colossus",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Pandemonium",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "pandemonium",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Manhunt",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "manhunt1",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Road & Track Presents: The Need for Speed",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "thenfs",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Sonic Adventure 2",
+            "imagem": "1.jpg",
+            "console": "Dreamcast",
+            "consigla": "dc",
+            "curto": "sonicadv2",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
+            "imagem": "coco.jpg",
+            "console": "",
+            "consigla": "etc",
+            "curto": "",
+            "link": "https://drive.google.com/file/d/13GLcHstrwxP5MjyujZT2BthBPxgwM38i/view",
+            "standalone": 1
+        },
+        {
+            "nome": "Passeio de Bike pelo Parque Malwee em 2020",
+            "imagem": "bike2020.jpg",
+            "console": "",
+            "consigla": "etc",
+            "curto": "",
+            "link": "https://drive.google.com/file/d/13T0Vd5avB7rTIxq2Lu9u2LJO21mB4RF3/view",
+            "standalone": 1
+        },
+        {
+            "nome": "Testando Layout para Gameplays de PlayStation 1",
+            "imagem": "layout.jpg",
+            "console": "",
+            "consigla": "etc",
+            "curto": "",
+            "link": "https://drive.google.com/file/d/1T1eQI-25GnMSNYXU98AwS49-7sCrqQ9e/view",
+            "standalone": 1
+        },
+        {
+            "nome": "Sarrada do MarceloSouzaF",
+            "imagem": "sarrada.jpg",
+            "console": "",
+            "consigla": "etc",
+            "curto": "",
+            "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
+            "standalone": 1
+        }
+    ]
+}
