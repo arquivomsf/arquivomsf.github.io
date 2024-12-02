@@ -19,7 +19,7 @@
     </style>
     <script>
       function carregarDados() {
-        fetch("dados.json")
+        fetch("https://arquivomsf.github.io/dados.json")
           .then(response => response.json())
           .then(data => {
               for (var i = 0; i<data.consoles.length; i++){
