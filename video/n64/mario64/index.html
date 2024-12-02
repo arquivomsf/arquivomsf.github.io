@@ -12,8 +12,40 @@
     <title>Arquivo de Gameplays de Jogos Retro - MarceloSouzaF</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function carregarDados() {
+        fetch("videos.json")
+          .then(response => response.json())
+          .then(data => {
+              for (var i = 0; i<data.videos.length; i++){
+                  let vnome = data.videos[i].nome;
+                  let vimagem = data.videos[i].imagem;
+                  let vlink = data.videos[i].link;
+                  document.querySelector("#jsonParent").innerHTML += `
+                    <div class="col">
+                      <a href="${vlink}" class="blacklink">
+                        <img src="${i+1}.${vimagem}" alt="" class="img-fluid linkicon"><br>
+                        <span class="flow-text title">${vnome}</span>
+                      </a>
+                    </div>`;
+              }
+          })
+        fetch("../../../dados.json")
+          .then(response => response.json())
+          .then(data => {
+              for (var i = 0; i<data.consoles.length; i++){
+                  let cnome = data.consoles[i].nome;
+                  let csigla = data.consoles[i].sigla;
+                  document.querySelector("#conJsonParent").innerHTML += `
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="video/${csigla}">${cnome}</a>
+                    </li>`;
+              }
+          })
+        }
+  </script>
   </head>
-  <body>
+  <body onload="carregarDados()">
     <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="">Super Mario 64</a>
@@ -27,25 +59,8 @@
           </div>
           <div class="offcanvas-body">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5>
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../nes">Nintendo (NES)</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../n64">Nintendo 64</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../md">Mega Drive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../dc">Dreamcast</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../ps1">PlayStation 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../ps2">PlayStation 2</a>
-              </li>
+            <ul id="conJsonParent" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
             </ul>
           </div>
         </div>
@@ -55,190 +70,9 @@
     <nav class="navbar"><a class="navbar-brand" href="">Super Mario 64</a><button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button></nav>
 
     <div class="pagecontent container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1TPpW4zi1W-3723QO8smHJqDM7qlAew3i/view?usp=drive_link" class="blacklink">
-            <img src="1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 1</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1WpGB4Vpexi-1DTbjAivzPjXNVFLjviKd/view?usp=drive_link" class="blacklink">
-            <img src="2.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 2</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1KxfQrOPDpUaeJpGyfFRI2-XRF8a5nrz_/view?usp=drive_link" class="blacklink">
-            <img src="3.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 3</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1ldObyY3itfiSUcoSlv6v7dTfK-NXPhSa/view?usp=drive_link" class="blacklink">
-            <img src="4.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 4</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1mh3pDBZ2NyHM1Zwob0f3uTYPERIEQLwU/view?usp=drive_link" class="blacklink">
-            <img src="5.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 5</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1YT6_so8U7yETFKRIhEoAPrj0HDj1FVLj/view?usp=drive_link" class="blacklink">
-            <img src="6.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 6</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1ZlCx3B9tUMnIAxVLeKI4u3hAO_8d8G-a/view?usp=drive_link" class="blacklink">
-            <img src="7.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 7</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/17yai_wkFTZhSslCZ-q9prha_uOkxY9Y-/view?usp=drive_link" class="blacklink">
-            <img src="8.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 8</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1mGFaTidGZuc_XeUbRwX6_yJkXkJT_sUx/view?usp=drive_link" class="blacklink">
-            <img src="9.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 9</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1vEUhG7o0Zr7bZj3zK3DhAxMDPTJQmLs1/view?usp=drive_link" class="blacklink">
-            <img src="10.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 10</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1IvhVHLkPF17OQ3xMqjWuvXaOtaGIzcba/view?usp=drive_link" class="blacklink">
-            <img src="11.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 11</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1NbXJMoTvfnYErxCAJTzNXLIPnBFQs6sq/view?usp=drive_link" class="blacklink">
-            <img src="12.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 12</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1LzSbd1DtfLojMaGBzl-asAgKqo_MB5yo/view?usp=drive_link" class="blacklink">
-            <img src="13.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 13</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1qvbYlbYSfaq5m5WFhijWqRJlxSConis7/view?usp=drive_link" class="blacklink">
-            <img src="14.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 14</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1LGeIeSyn29wvHcMzFLUJZj3nXlCUTma_/view?usp=drive_link" class="blacklink">
-            <img src="15.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 15</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1jLKd3Cd0OdJjSCw3WqhYMGHf75U1XMv9/view?usp=drive_link" class="blacklink">
-            <img src="16.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 16</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1RfMynMw2suO2cLQfDrAeASSc19QmVCkA/view?usp=drive_link" class="blacklink">
-            <img src="17.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 17</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1-Wnj2pE5cVkT5T709ceV3VjuyEobhytD/view?usp=drive_link" class="blacklink">
-            <img src="18.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 18</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1UE-Ja8bNqxJiI1aYZon5mKlYIHn_2DTr/view?usp=drive_link" class="blacklink">
-            <img src="19.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 19</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1PlM48g6wOugBPZB2S2t0yBJkKbAq_D0R/view?usp=drive_link" class="blacklink">
-            <img src="20.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 20</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1VF8hRb-05JUi_PkMoPRJW_CpQUwxlY3Z/view?usp=drive_link" class="blacklink">
-            <img src="21.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 21</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1wRNaH6KX4dwxhNitPLgcs-ycaZovapo9/view?usp=drive_link" class="blacklink">
-            <img src="22.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 22</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1zcPk1Qkd9mdrXV4YmcUdpYTZq87GfmXK/view?usp=drive_link" class="blacklink">
-            <img src="23.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 23</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1eJq4NjDr_ibUw0MY1_pXf6s3hrZxHymY/view?usp=drive_link" class="blacklink">
-            <img src="24.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 24</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1jJDjFy-I3NB9FPokpyLDCbWzdpcpS7QO/view?usp=drive_link" class="blacklink">
-            <img src="25.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 25</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1WGJKdK78v8TAnuMcIsel_0599ZV5haH2/view?usp=drive_link" class="blacklink">
-            <img src="26.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Super Mario 64 de Nintendo 64 - Parte 26 Final</span>
-          </a>
-        </div>
+      <div id="jsonParent" class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        
+      </div>
     </div>
-  </div>
   </body>
 </html>
