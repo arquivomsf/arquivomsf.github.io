@@ -82,6 +82,15 @@
             "standalone": 0
         },
         {
+            "nome": "Metal Slug X",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "slugx",
+            "link": "",
+            "standalone": 0
+        },
+        {
             "nome": "Sonic The Hedgehog",
             "imagem": "1.jpg",
             "console": "Mega Drive",
@@ -386,6 +395,32 @@
             "curto": "",
             "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
             "standalone": 1
+        }
+    ],
+    "consoles": [
+        {
+            "nome": "Nintendo (NES)",
+            "sigla": "nes"
+        },
+        {
+            "nome": "Nintendo 64",
+            "sigla": "n64"
+        },
+        {
+            "nome": "Mega Drive",
+            "sigla": "md"
+        },
+        {
+            "nome": "Dreamcast",
+            "sigla": "dc"
+        },
+        {
+            "nome": "PlayStation 1",
+            "sigla": "ps1"
+        },
+        {
+            "nome": "PlayStation 2",
+            "sigla": "ps2"
         }
     ]
 }

@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       function carregarJogos() {
-      fetch("jogos.json")
+        fetch("dados.json")
           .then(response => response.json())
           .then(data => {
               for (var i = 0; i<data.jogos.length; i++){
@@ -32,8 +32,7 @@
                             <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
                             <span class="flow-text title">${jnome}</span></a><br>
                             <a href="video/${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
-                          </div>
-                          <tr>`;
+                          </div>`;
                   } else {
                       document.querySelector("#jsonParent").innerHTML += `
                           <div class="col">
@@ -41,9 +40,20 @@
                               <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon"><br>
                               <span class="flow-text title">${jnome}</span>
                             </a>
-                          </div>
-                          <tr>`;
+                          </div>`;
                   }
+              }
+          })
+        fetch("dados.json")
+          .then(response => response.json())
+          .then(data => {
+              for (var i = 0; i<data.consoles.length; i++){
+                  let cnome = data.consoles[i].nome;
+                  let csigla = data.consoles[i].sigla;
+                  document.querySelector("#conJsonParent").innerHTML += `
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="video/${csigla}">${cnome}</a>
+                    </li>`;
               }
           })
         }
@@ -63,25 +73,8 @@
           </div>
           <div class="offcanvas-body">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5>
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/nes">Nintendo (NES)</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/n64">Nintendo 64</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/md">Mega Drive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/dc">Dreamcast</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/ps1">PlayStation 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/ps2">PlayStation 2</a>
-              </li>
+            <ul id="conJsonParent" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              
             </ul>
           </div>
         </div>
