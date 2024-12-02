@@ -18,18 +18,32 @@
           .then(data => {
               for (var i = 0; i<data.jogos.length; i++){
                   let jnome = data.jogos[i].nome;
-                  let jformato = data.jogos[i].formato;
+                  let jimagem = data.jogos[i].imagem;
                   let jconsole = data.jogos[i].console;
                   let jconsigla = data.jogos[i].consigla;
                   let jcurto = data.jogos[i].curto;
+                  let jlink = data.jogos[i].link;
+                  let jstandalone = data.jogos[i].standalone;
+                  if(jstandalone == 0){
                       document.querySelector("#jsonParent").innerHTML += `
                           <div class="col">
                             <a href="video/${jconsigla}/${jcurto}" class="blacklink">
-                            <img src="video/${jconsigla}/${jcurto}/1.${jformato}" alt="" class="img-fluid linkicon"><br>
+                            <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
                             <span class="flow-text title">${jnome}</span></a><br>
                             <a href="video/${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
                           </div>
                           <tr>`;
+                  }
+                  if(jstandalone == 1){
+                      document.querySelector("#jsonParent").innerHTML += `
+                          <div class="col">
+                            <a href="${jlink}" class="blacklink">
+                              <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon"><br>
+                              <span class="flow-text title">${jnome}</span>
+                            </a>
+                          </div>
+                          <tr>`;
+                  }
               }
           })
   </script>
