@@ -1,14 +1,24 @@
 {
     "videos": [
         {
-            "nome": "Metal Slug X de PlayStation 1 - Parte 1",
+            "nome": "DuckTales de NES - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1_mmuaDSK02z90rA-iuWo0R0z8NDEiGRz/view"
+            "link": "https://drive.google.com/file/d/1uRi7oylOhGY1a1YCpR2tOqoSLUcn9x36/view"
         },
         {
-            "nome": "Metal Slug X de PlayStation 1 - Parte 2",
+            "nome": "DuckTales de NES - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1AYij8sim4eDhkX8FvdXot2xR6CqM9GWk/view"
+            "link": "https://drive.google.com/file/d/1INh-jPFmlsm-vnItx9ZK3T2XIRFZxAYL/view"
+        },
+        {
+            "nome": "DuckTales de NES - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1gB3PyorT6L5DVAgK69ecQyi66cO-Dtuu/view"
+        },
+        {
+            "nome": "DuckTales de NES - Parte 4 Final",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1LOGZveGaekxP9uMxLiYapFBbRnnzRqXf/view"
         }
     ]
 }

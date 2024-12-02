@@ -1,14 +1,19 @@
 {
     "videos": [
         {
-            "nome": "Metal Slug X de PlayStation 1 - Parte 1",
+            "nome": "Gun.Smoke de NES - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1_mmuaDSK02z90rA-iuWo0R0z8NDEiGRz/view"
+            "link": "https://drive.google.com/file/d/1bwscnYbsxhEaObYy-iNs_HPGq2iBgbE-/view"
         },
         {
-            "nome": "Metal Slug X de PlayStation 1 - Parte 2",
+            "nome": "Gun.Smoke de NES - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1AYij8sim4eDhkX8FvdXot2xR6CqM9GWk/view"
+            "link": "https://drive.google.com/file/d/1pz9oWIkr7tf2B9bXYTMycvFjlrHXT8FF/view"
+        },
+        {
+            "nome": "Gun.Smoke de NES - Parte 3 Final",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1NBtF3eDs7n3FDS9c9uM39hIaZzy2hz7-/view"
         }
     ]
 }
