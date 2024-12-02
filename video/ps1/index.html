@@ -12,8 +12,43 @@
     <title>Arquivo de Gameplays de Jogos Retro - MarceloSouzaF</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function carregarDados() {
+        fetch("../../dados.json")
+          .then(response => response.json())
+          .then(data => {
+              for (var i = 0; i<data.jogos.length; i++){
+                  let jnome = data.jogos[i].nome;
+                  let jimagem = data.jogos[i].imagem;
+                  let jconsigla = data.jogos[i].consigla;
+                  let jcurto = data.jogos[i].curto;
+                  if(jconsigla == "ps1"){
+                      document.querySelector("#jsonParent").innerHTML += `
+                          <div class="col">
+                            <a href="${jcurto}" class="blacklink">
+                              <img src="${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
+                              <span class="flow-text title">${jnome}</span>
+                            </a>
+                          </div>`;
+                  }
+              }
+          })
+        fetch("../../dados.json")
+          .then(response => response.json())
+          .then(data => {
+              for (var i = 0; i<data.consoles.length; i++){
+                  let cnome = data.consoles[i].nome;
+                  let csigla = data.consoles[i].sigla;
+                  document.querySelector("#conJsonParent").innerHTML += `
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="video/${csigla}">${cnome}</a>
+                    </li>`;
+              }
+          })
+        }
+  </script>
   </head>
-  <body>
+  <body onload="carregarDados()">
     <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="">Arquivo - PlayStation 1</a>
@@ -27,25 +62,8 @@
           </div>
           <div class="offcanvas-body">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5>
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../nes">Nintendo (NES)</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../n64">Nintendo 64</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../md">Mega Drive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../dc">Dreamcast</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../ps1">PlayStation 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../ps2">PlayStation 2</a>
-              </li>
+            <ul id="conJsonParent" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
             </ul>
           </div>
         </div>
@@ -55,92 +73,9 @@
     <nav class="navbar"><a class="navbar-brand" href="">Arquivo - PlayStation 1</a><button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button></nav>
 
     <div class="pagecontent container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-
-        <div class="col">
-          <a href="bob" class="blacklink">
-            <img src="bob/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">SpongeBob SquarePants: SuperSponge</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="assault" class="blacklink">
-            <img src="assault/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Assault Retribution</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="miranha" class="blacklink">
-            <img src="miranha/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Spider Man 2 Enter Electro</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="jurassic" class="blacklink">
-            <img src="jurassic/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">The Lost World Jurassic Park</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="disruptor" class="blacklink">
-            <img src="disruptor/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Disruptor</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="taifu" class="blacklink">
-            <img src="taifu/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Tai Fu Wrath of the Tiger</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="donald" class="blacklink">
-            <img src="donald/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Donald Duck Goin' Quackers</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="moto" class="blacklink">
-            <img src="moto/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Moto Racer</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="nightmare" class="blacklink">
-            <img src="nightmare/1.jpg" alt="" class="img-fluid linkicon"><br>
-              <span class="flow-text title">Nightmare Creatures</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="slugx" class="blacklink">
-            <img src="slugx/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Metal Slug X</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="pandemonium" class="blacklink">
-            <img src="pandemonium/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Pandemonium</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="thenfs" class="blacklink">
-            <img src="thenfs/1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Road & Track Presents: The Need for Speed</span>
-          </a>
-        </div>
+      <div id="jsonParent" class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        
+      </div>
     </div>
-  </div>
   </body>
 </html>

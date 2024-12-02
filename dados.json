@@ -397,6 +397,17 @@
             "standalone": 1
         }
     ],
+    "futurosjogos": [
+        {
+            "nome": "The Nightmare Before Christmas: Oogie's Revenge",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "nbxmas",
+            "link": "",
+            "standalone": 0
+        }
+    ],
     "consoles": [
         {
             "nome": "Nintendo (NES)",
