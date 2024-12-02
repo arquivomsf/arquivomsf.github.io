@@ -1,0 +1,18 @@
+{
+    "jogos": [
+        {
+            "nome": "SpongeBob SquarePants: SuperSponge",
+            "formato": "jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "bob"
+        },
+        {
+            "nome": "Assault Retribution",
+            "formato": "jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "assault"
+        }
+    ]
+}
