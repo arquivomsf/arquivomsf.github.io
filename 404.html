@@ -17,8 +17,24 @@
             font-size: 48px;
         }
     </style>
+    <script>
+      function carregarDados() {
+        fetch("dados.json")
+          .then(response => response.json())
+          .then(data => {
+              for (var i = 0; i<data.consoles.length; i++){
+                  let cnome = data.consoles[i].nome;
+                  let csigla = data.consoles[i].sigla;
+                  document.querySelector("#conJsonParent").innerHTML += `
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="video/${csigla}">${cnome}</a>
+                    </li>`;
+              }
+          })
+        }
+  </script>
   </head>
-  <body>
+  <body onload="carregarDados()">
     <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="">Página Não Encontrada</a>
@@ -32,25 +48,8 @@
           </div>
           <div class="offcanvas-body">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5>
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/nes">Nintendo (NES)</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/n64">Nintendo 64</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/md">Mega Drive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/dc">Dreamcast</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/ps1">PlayStation 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="video/ps2">PlayStation 2</a>
-              </li>
+            <ul id="conJsonParent" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              
             </ul>
           </div>
         </div>
