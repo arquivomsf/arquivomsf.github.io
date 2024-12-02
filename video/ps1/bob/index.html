@@ -12,8 +12,40 @@
     <title>Arquivo de Gameplays de Jogos Retro - MarceloSouzaF</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function carregarDados() {
+        fetch("videos.json")
+          .then(response => response.json())
+          .then(data => {
+              for (var i = 0; i<data.videos.length; i++){
+                  let vnome = data.videos[i].nome;
+                  let vimagem = data.videos[i].imagem;
+                  let vlink = data.videos[i].link;
+                  document.querySelector("#jsonParent").innerHTML += `
+                    <div class="col">
+                      <a href="${vlink}" class="blacklink">
+                        <img src="${i+1}.${vimagem}" alt="" class="img-fluid linkicon"><br>
+                        <span class="flow-text title">${vnome}</span>
+                      </a>
+                    </div>`;
+              }
+          })
+        fetch("../../../dados.json")
+          .then(response => response.json())
+          .then(data => {
+              for (var i = 0; i<data.consoles.length; i++){
+                  let cnome = data.consoles[i].nome;
+                  let csigla = data.consoles[i].sigla;
+                  document.querySelector("#conJsonParent").innerHTML += `
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="video/${csigla}">${cnome}</a>
+                    </li>`;
+              }
+          })
+        }
+  </script>
   </head>
-  <body>
+  <body onload="carregarDados()">
     <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="">SpongeBob SquarePants: SuperSponge</a>
@@ -27,25 +59,8 @@
           </div>
           <div class="offcanvas-body">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5>
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../nes">Nintendo (NES)</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../n64">Nintendo 64</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../md">Mega Drive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../dc">Dreamcast</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../ps1">PlayStation 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../../ps2">PlayStation 2</a>
-              </li>
+            <ul id="conJsonParent" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
             </ul>
           </div>
         </div>
@@ -55,64 +70,9 @@
     <nav class="navbar"><a class="navbar-brand" href="">SpongeBob SquarePants: SuperSponge</a><button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button></nav>
 
     <div class="pagecontent container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1m2JlrQweFAdlaOCQe4KFCrk89NWiPcgs/view" class="blacklink">
-            <img src="1.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Bob Esponja de PlayStation 1 - Parte 1</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/16V5CBKcATwp5riloOhFp5udsMTuaTghI/view" class="blacklink">
-            <img src="2.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Bob Esponja de PlayStation 1 - Parte 2</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1paqFziYnTPLDEPgni-O71VJXxD2astLG/view" class="blacklink">
-            <img src="3.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Bob Esponja de PlayStation 1 - Parte 3</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1V1fs2sRGq98p9YJQrrLXI7ZQP6Y3l70r/view" class="blacklink">
-            <img src="4.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Bob Esponja de PlayStation 1 - Parte 4</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1Hv5_7_oFTID4LZG1JhkEX6N4I9qmDUvf/view" class="blacklink">
-            <img src="5.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Bob Esponja de PlayStation 1 - Parte 5</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1oQD6P4OiUHvU_m3wzGilJxfAUmlSQA2k/view" class="blacklink">
-            <img src="6.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Bob Esponja de PlayStation 1 - Parte 6</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/1c-eHYJ_QZ7OwiZfNso3a5J-hut8Wdp20/view" class="blacklink">
-            <img src="7.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Bob Esponja de PlayStation 1 - Parte 7</span>
-          </a>
-        </div>
-
-        <div class="col">
-          <a href="https://drive.google.com/file/d/13JSPiHjVr68ZL1tAMMpYC49TSiGdBjHg/view" class="blacklink">
-            <img src="8.jpg" alt="" class="img-fluid linkicon"><br>
-            <span class="flow-text title">Bob Esponja de PlayStation 1 - Parte 8</span>
-          </a>
-        </div>
+      <div id="jsonParent" class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        
+      </div>
     </div>
-  </div>
   </body>
 </html>

@@ -1,14 +1,19 @@
 {
     "videos": [
         {
-            "nome": "Metal Slug X de PlayStation 1 - Parte 1",
+            "nome": "Disney's Tarzan de Nintendo 64 - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1_mmuaDSK02z90rA-iuWo0R0z8NDEiGRz/view"
+            "link": "https://drive.google.com/file/d/1kTAlVtyuQJPloG7MeSZITJ9gvEF6_LPU/view"
         },
         {
-            "nome": "Metal Slug X de PlayStation 1 - Parte 2",
+            "nome": "Disney's Tarzan de Nintendo 64 - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1AYij8sim4eDhkX8FvdXot2xR6CqM9GWk/view"
+            "link": "https://drive.google.com/file/d/1cTck33v-sS9UhbJXiayhMXMI0NzFjCfY/view"
+        },
+        {
+            "nome": "Disney's Tarzan de Nintendo 64 - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1b0F0o9KG4An676ClGDBOhWUa4-HCZ4_S/view"
         }
     ]
 }
