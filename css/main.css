@@ -35,3 +35,9 @@ a:active {
 .navbartext {
   color: white !important;
 }
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 4.2vw !important;
+  }
+}
