@@ -54,3 +54,7 @@ a:hover {
 a:active { 
   text-decoration: none; 
 }
+
+.header404{
+  font-size: 48px;
+}
