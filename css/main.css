@@ -1,31 +1,14 @@
-.col {
-  margin: 1rem 0;
+html {
+  scroll-padding-top: calc(4.40625rem + 20px);
 }
 
-.title {
-  color: black;
+body > .container {
+  margin-top: 20px;
 }
 
-.subtitle {
-  color: rgb(150, 148, 148);
-}
-
-.pagecontent {
-  margin-top: 1rem;
-  padding-top: 0.5rem;
-}
-
-a:link { 
-  text-decoration: none; 
-} 
-a:visited { 
-  text-decoration: none; 
-} 
-a:hover { 
-  text-decoration: none; 
-} 
-a:active { 
-  text-decoration: none; 
+.navbar.fixed-top {
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .navbarbg {
@@ -40,4 +23,34 @@ a:active {
   .navbar-brand {
     font-size: 4.2vw !important;
   }
+}
+
+.col {
+  margin: 1rem 0;
+}
+
+.title {
+  color: black;
+}
+
+.subtitle {
+  color: rgb(150, 148, 148);
+}
+
+/*.pagecontent {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+}*/
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
 }
