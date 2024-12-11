@@ -17,12 +17,12 @@ function carregarJogos() {
               let jcurto = data.jogos[i].curto;
               let jlink = data.jogos[i].link;
               let jstandalone = data.jogos[i].standalone;
-              let stringPesquisaInsen = "";
+              /*let stringPesquisaInsen = "";
               console.log(stringPesquisa.localeCompare(stringPesquisaInsen, 'pt-BR', {sensitivity: 'base'}));
               if(stringPesquisa.localeCompare(stringPesquisaInsen, 'pt-BR', {sensitivity: 'base'}) == 0){
                 stringPesquisa = jnome;
-              }
-              if(jnome.includes(stringPesquisa)) {
+              }*/
+              if(jnome.toLowerCase().includes(stringPesquisa.toLowerCase())) {
                 if(jstandalone == 0){
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
