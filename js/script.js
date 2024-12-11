@@ -20,6 +20,7 @@ function carregarJogos() {
               let nomecomp;
               nomecomp = jnome.replaceAll("\\s", "");
               nomecomp = nomecomp.replaceAll("[^a-zA-Z0-9]+","");
+              console.log("stringPesquisa: "+ stringPesquisa + "nomecomp: " + nomecomp);
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
                 if(jstandalone == 0){
                     document.querySelector("#jsonParent").innerHTML += `
