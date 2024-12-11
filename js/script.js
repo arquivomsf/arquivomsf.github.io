@@ -17,12 +17,10 @@ function carregarJogos() {
               let jcurto = data.jogos[i].curto;
               let jlink = data.jogos[i].link;
               let jstandalone = data.jogos[i].standalone;
-              /*let stringPesquisaInsen = "";
-              console.log(stringPesquisa.localeCompare(stringPesquisaInsen, 'pt-BR', {sensitivity: 'base'}));
-              if(stringPesquisa.localeCompare(stringPesquisaInsen, 'pt-BR', {sensitivity: 'base'}) == 0){
-                stringPesquisa = jnome;
-              }*/
-              if(jnome.toLowerCase().includes(stringPesquisa.toLowerCase())) {
+              let nomecomp;
+              /*nomecomp = jnome.replaceAll("\\s", "");*/
+              nomecomp = jnome.replaceAll("[^a-zA-Z0-9]+","");
+              if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
                 if(jstandalone == 0){
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
@@ -66,6 +64,12 @@ function carregarConsoles() {
 
 function pesquisarJogo() {
     stringPesquisa = document.querySelector("#inputPesquisa").value;
+    /*stringPesquisa = stringPesquisa.replaceAll("\\s", "");
+    stringPesquisa = stringPesquisa.replaceAll(":", "");
+    stringPesquisa = stringPesquisa.replaceAll(".", "");
+    stringPesquisa = stringPesquisa.replaceAll(",", "");
+    stringPesquisa = stringPesquisa.replaceAll("'", "");*/
+    stringPesquisa = stringPesquisa.replaceAll("[^a-zA-Z0-9]+","");
     resetarJogos();
     carregarJogos();
 }
