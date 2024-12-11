@@ -19,7 +19,14 @@ function carregarJogos() {
               let jstandalone = data.jogos[i].standalone;
               let nomecomp;
               nomecomp = jnome.replaceAll(/\s/g, "");
-              nomecomp = nomecomp.replaceAll("[^a-zA-Z0-9]","");
+              nomecomp = nomecomp.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
+              nomecomp = nomecomp.replaceAll(/[áàâãÁÀÂÃ]/g,"a");
+              nomecomp = nomecomp.replaceAll(/[íïÍÏ]/g,"i");
+              nomecomp = nomecomp.replaceAll(/[éèêÉÈ]/g,"e");
+              nomecomp = nomecomp.replaceAll(/[ñÑ]/g,"n");
+              nomecomp = nomecomp.replaceAll(/[óôõöÓÔÕÖ]/g,"o");
+              nomecomp = nomecomp.replaceAll(/[Ç]/g,"c");
+              nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
               console.log("stringPesquisa: "+ stringPesquisa + " " + "nomecomp: " + nomecomp);
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
                 if(jstandalone == 0){
@@ -66,7 +73,14 @@ function carregarConsoles() {
 function pesquisarJogo() {
     stringPesquisa = document.querySelector("#inputPesquisa").value;
     stringPesquisa = stringPesquisa.replaceAll(/\s/g, "");
-    stringPesquisa = stringPesquisa.replaceAll("[^a-zA-Z0-9]","");
+    stringPesquisa = stringPesquisa.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
+    stringPesquisa = stringPesquisa.replaceAll(/[áàâãÁÀÂÃ]/g,"a");
+    stringPesquisa = stringPesquisa.replaceAll(/[íïÍÏ]/g,"i");
+    stringPesquisa = stringPesquisa.replaceAll(/[éèêÉÈ]/g,"e");
+    stringPesquisa = stringPesquisa.replaceAll(/[ñÑ]/g,"n");
+    stringPesquisa = stringPesquisa.replaceAll(/[óôõöÓÔÕÖ]/g,"o");
+    stringPesquisa = stringPesquisa.replaceAll(/[Ç]/g,"c");
+    stringPesquisa = stringPesquisa.replaceAll(/[úÚ]/g,"u");
     resetarJogos();
     carregarJogos();
 }
