@@ -17,6 +17,8 @@ function carregarJogos() {
               let jcurto = data.jogos[i].curto;
               let jlink = data.jogos[i].link;
               let jstandalone = data.jogos[i].standalone;
+              let stringPesquisaInsen = "";
+              console.log(stringPesquisa.localeCompare(stringPesquisaInsen, 'pt-BR', {sensitivity: 'base'}));
               if(jnome.includes(stringPesquisa)) {
                 if(jstandalone == 0){
                     document.querySelector("#jsonParent").innerHTML += `
