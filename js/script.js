@@ -19,7 +19,7 @@ function carregarJogos() {
               let jstandalone = data.jogos[i].standalone;
               let stringPesquisaInsen = "";
               console.log(stringPesquisa.localeCompare(stringPesquisaInsen, 'pt-BR', {sensitivity: 'base'}));
-              if(jnome.includes(stringPesquisa)) {
+              if(jnome.includes(stringPesquisa) || stringPesquisaInsen == 1) {
                 if(jstandalone == 0){
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
