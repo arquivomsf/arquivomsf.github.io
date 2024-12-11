@@ -19,7 +19,7 @@ function carregarJogos() {
               let jstandalone = data.jogos[i].standalone;
               let nomecomp;
               nomecomp = jnome.replaceAll(/\s/g, "");
-              nomecomp = nomecomp.replaceAll("[^a-zA-Z0-9]+","");
+              nomecomp = nomecomp.replaceAll("[^a-zA-Z0-9]","");
               console.log("stringPesquisa: "+ stringPesquisa + " " + "nomecomp: " + nomecomp);
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
                 if(jstandalone == 0){
@@ -66,7 +66,7 @@ function carregarConsoles() {
 function pesquisarJogo() {
     stringPesquisa = document.querySelector("#inputPesquisa").value;
     stringPesquisa = stringPesquisa.replaceAll(/\s/g, "");
-    stringPesquisa = stringPesquisa.replaceAll("[^a-zA-Z0-9]+","");
+    stringPesquisa = stringPesquisa.replaceAll("[^a-zA-Z0-9]","");
     resetarJogos();
     carregarJogos();
 }
