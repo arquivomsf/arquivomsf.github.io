@@ -58,3 +58,18 @@ a:active {
 .header404{
   font-size: 48px;
 }
+
+.float-right {
+  float: right !important;
+}
+
+#inputPesquisa {
+  width: calc(100% - 50px);
+}
+
+#inputPesquisa:focus {
+  background-color: #3b3b3b;
+  border: 1px solid white;
+  outline: none !important;
+  box-shadow: none;
+}
