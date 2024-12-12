@@ -7,6 +7,21 @@ function start() {
     carregarDados();
 }
 
+function start404(){
+    fetch("https://arquivomsf.github.io/dados.json")
+      .then(response => response.json())
+      .then(data => {
+          for (var i = 0; i<data.consoles.length; i++){
+              let cnome = data.consoles[i].nome;
+              let csigla = data.consoles[i].sigla;
+              document.querySelector("#conJsonParent").innerHTML += `
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="video/${csigla}">${cnome}</a>
+                </li>`;
+          }
+      })
+}
+
 function carregarDados() {
     carregarJogos();
     carregarConsoles();
@@ -104,6 +119,9 @@ function setPesquisa() {
         document.querySelector(".navbar-brand").style.display = "block";
         document.querySelector(".navbar-toggler").style.display = "block";
         document.querySelector("#inputPesquisaContainer").style.display = "none";
+        resetarString();
+        resetarJogos();
+        carregarJogos();
         document.querySelector("#pesquisarBtn").innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-search" viewBox="0 2 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>';
     } else {
         document.querySelector(".navbar-brand").style.display = "none";
@@ -120,9 +138,6 @@ function changePesquisa() {
         setPesquisa();
     } else {
         pesquisando = 0;
-        resetarString();
-        resetarJogos();
-        carregarJogos();
         setPesquisa();
     }
 }
