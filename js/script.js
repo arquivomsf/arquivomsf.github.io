@@ -92,6 +92,13 @@ function pesquisarJogo() {
     carregarJogos();
 }
 
+if (!pesquisando == 0) {
+    setInterval(function () {
+        resetarJogos();
+        carregarJogos();
+    }, 100);
+}
+
 function setPesquisa() {
     if (pesquisando == 0) {
         document.querySelector("#inputPesquisa").style.display = "none";
