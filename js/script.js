@@ -153,8 +153,3 @@ function resetarString() {
     document.querySelector("#inputPesquisa").value = "";
     stringPesquisa = "";
 }
-
-function teste() {
-    var pathnameArray = window.location.pathname.split("/");
-console.log(pathnameArray);
-}
