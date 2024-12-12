@@ -63,13 +63,44 @@ a:active {
   float: right !important;
 }
 
-#inputPesquisa {
-  width: calc(100% - 50px);
-}
-
 #inputPesquisa:focus {
   background-color: #3b3b3b;
   border: 1px solid white;
   outline: none !important;
   box-shadow: none;
+}
+
+.navbar-brand {
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar-brand.hide {
+  display: none;
+}
+
+.navbar-toggler {
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar-toggler.hide {
+  display: none;
+}
+
+@keyframes abrir {
+  from {
+    width: 0px;
+  }
+  to {
+    width: calc(100% - 50px);
+  }
+}
+
+#inputPesquisaContainer {
+  width: 0px;
+  animation-name: abrir;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
