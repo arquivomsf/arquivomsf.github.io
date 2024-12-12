@@ -2,7 +2,7 @@ var stringPesquisa = "";
 var pesquisando = 0;
 
 function start() {
-    document.querySelector("#inputPesquisa").value = "";
+    resetarString();
     setPesquisa();
     carregarDados();
 }
@@ -120,6 +120,9 @@ function changePesquisa() {
         setPesquisa();
     } else {
         pesquisando = 0;
+        resetarString();
+        resetarJogos();
+        carregarJogos();
         setPesquisa();
     }
 }
@@ -129,4 +132,9 @@ function checarStringVazia() {
         pesquisando = 0;
         setPesquisa();
     }
+}
+
+function resetarString() {
+    document.querySelector("#inputPesquisa").value = "";
+    stringPesquisa = "";
 }
