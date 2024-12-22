@@ -361,6 +361,15 @@
             "standalone": 0
         },
         {
+            "nome": "The Nightmare Before Christmas: Oogie's Revenge",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "nbxmas",
+            "link": "",
+            "standalone": 0
+        },
+        {
             "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
             "imagem": "coco.jpg",
             "console": "",
@@ -399,11 +408,11 @@
     ],
     "futurosjogos": [
         {
-            "nome": "The Nightmare Before Christmas: Oogie's Revenge",
+            "nome": "Grand Theft Auto III",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "nbxmas",
+            "curto": "gta3",
             "link": "",
             "standalone": 0
         },
