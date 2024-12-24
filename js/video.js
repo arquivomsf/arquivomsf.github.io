@@ -24,9 +24,9 @@ function carregarVideos() {
               let vlink = data.videos[i].link;
               if(i == episodioAtual){
                 document.querySelector(".page-name").innerHTML = `${vnome}`;
+                let vpreview = vlink.replaceAll("view", "preview");
+                document.querySelector("#jsonIframe").src = `${vpreview}`;
               }
-              let vpreview = vlink.replaceAll("view", "preview");
-              document.querySelector("#jsonIframe").src = `${vpreview}`;
           }
       })
 }
