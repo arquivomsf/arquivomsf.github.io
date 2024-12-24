@@ -1,0 +1,118 @@
+html {
+  scroll-padding-top: calc(4.40625rem + 20px);
+}
+
+body > .container {
+  margin-top: 20px;
+}
+
+.navbar.fixed-top {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.navbarbg {
+  background-color: rgb(43, 48, 53);
+}
+
+.navbartext, .home-icon {
+  color: white !important;
+}
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 4.2vw !important;
+  }
+}
+
+.col {
+  margin: 1rem 0;
+}
+
+.title {
+  color: black;
+}
+
+.subtitle {
+  color: rgb(150, 148, 148);
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+.header404{
+  font-size: 48px;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.navbar-brand {
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar-brand.hide {
+  display: none;
+}
+
+.navbar-toggler {
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar-toggler.hide {
+  display: none;
+}
+
+#inputPesquisaContainer {
+  position: absolute;
+  width: 100%;
+  margin-left: -12px;
+}
+
+#inputPesquisa.not-searching {
+  width: 0px;
+  opacity: 0;
+}
+
+#inputPesquisa:not(:focus).searching {
+  width: calc(100% - 60px);
+}
+
+#inputPesquisa:focus {
+  width: calc(100% - 60px);
+  opacity: 1;
+  background-color: #3b3b3b;
+  border: 1px solid white;
+  outline: none !important;
+  box-shadow: none;
+  transition-property: width, background-color, border, outline;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+#pesquisarBtn {
+  z-index: 1;
+  position: absolute;
+}
+
+#pesquisarBtn.not-searching {
+  z-index: 0;
+  position: relative;
+}
+
+.page-name {
+  padding-left: 5px;
+}
