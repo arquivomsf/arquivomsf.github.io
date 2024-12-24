@@ -113,7 +113,20 @@ a:active {
   min-height: 4rem;
 }
 
+@media only screen and (max-width: 767px) {
+  .videoplayer {
+    width: 100vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .videoplayer {
+    width: 80vw;
+  }
+}
+
 #jsonIframe {
-  width: 100vw;
+  width: 100%;
+  height: calc(100vh - 4rem - 20px);
+  margin-top: 10px;
   aspect-ratio: 16 / 9;
 }
