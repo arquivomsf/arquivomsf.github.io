@@ -112,3 +112,8 @@ a:active {
 .navbar {
   min-height: 4rem;
 }
+
+#jsonIframe {
+  width: 100vw;
+  aspect-ratio: 16 / 9;
+}
