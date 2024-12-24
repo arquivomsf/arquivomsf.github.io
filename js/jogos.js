@@ -1,4 +1,19 @@
+var consoleAtual;
+var jogoAtual;
+
 function carregarDados() {
+  procurarParam();
+  carregarVideos();
+  carregarConsoles();
+}
+
+function procurarParam() {
+  let searchParams = new URLSearchParams(window.location.search);
+  consoleAtual = searchParams.get('con');
+  jogoAtual = searchParams.get('id');
+}
+
+function carregarVideos() {
     fetch("videos.json")
       .then(response => response.json())
       .then(data => {
@@ -9,22 +24,37 @@ function carregarDados() {
               document.querySelector("#jsonParent").innerHTML += `
                 <div class="col">
                   <a href="${vlink}" class="blacklink">
-                    <img src="${i+1}.${vimagem}" alt="" class="img-fluid linkicon"><br>
+                    <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon"><br>
                     <span class="flow-text title">${vnome}</span>
                   </a>
                 </div>`;
           }
       })
-    fetch("../../../dados.json")
-      .then(response => response.json())
-      .then(data => {
-          for (var i = 0; i<data.consoles.length; i++){
-              let cnome = data.consoles[i].nome;
-              let csigla = data.consoles[i].sigla;
-              document.querySelector("#conJsonParent").innerHTML += `
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../../${csigla}">${cnome}</a>
-                </li>`;
+}
+
+function carregarConsoles() {
+  fetch("dados.json")
+  .then(response => response.json())
+  .then(data => {
+      for (var i = 0; i<data.consoles.length; i++){
+          let cnome = data.consoles[i].nome;
+          let csigla = data.consoles[i].sigla;
+          document.querySelector("#conJsonParent").innerHTML += `
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
+            </li>`;
+      }
+  })
+  fetch("dados.json")
+  .then(response => response.json())
+  .then(data => {
+      for (var i = 0; i<data.jogos.length; i++){
+          let jnome = data.jogos[i].nome;
+          let jcurto = data.jogos[i].curto;
+          if(jcurto == jogoAtual){
+            document.querySelector(".page-name").innerHTML = `${jnome}`;
+            document.title = `Arquivo - ${jnome}`;
           }
-      })
+      }
+  })
 }
