@@ -39,10 +39,10 @@ function carregarJogos() {
                 if(jstandalone == 0){
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
-                          <a href="video/${jconsigla}/${jcurto}" class="blacklink">
+                          <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
                           <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
                           <span class="flow-text title">${jnome}</span></a><br>
-                          <a href="video/${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
+                          <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
                         </div>`;
                 } else {
                     document.querySelector("#jsonParent").innerHTML += `
@@ -71,7 +71,7 @@ function carregarConsoles() {
               let csigla = data.consoles[i].sigla;
               document.querySelector("#conJsonParent").innerHTML += `
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="video/${csigla}">${cnome}</a>
+                  <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
                 </li>`;
           }
       })
@@ -86,7 +86,7 @@ function start404(){
               let csigla = data.consoles[i].sigla;
               document.querySelector("#conJsonParent").innerHTML += `
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="video/${csigla}">${cnome}</a>
+                  <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
                 </li>`;
           }
       })
