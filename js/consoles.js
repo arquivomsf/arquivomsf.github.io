@@ -45,8 +45,8 @@ function carregarJogos() {
                 if(jconsigla == consoleAtual){
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
-                          <a href="${jcurto}" class="blacklink">
-                            <img src="${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
+                          <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
+                            <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
                             <span class="flow-text title">${jnome}</span>
                           </a>
                         </div>`;

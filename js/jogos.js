@@ -14,7 +14,7 @@ function procurarParam() {
 }
 
 function carregarVideos() {
-    fetch("videos.json")
+    fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
       .then(response => response.json())
       .then(data => {
           for (var i = 0; i<data.videos.length; i++){
