@@ -73,6 +73,7 @@ a:active {
 .navbar-brand {
   display: block;
   transition: 0.3s;
+  overflow-wrap: break-word;
 }
 
 .navbar-brand.hide {
