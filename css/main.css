@@ -109,6 +109,7 @@ a:active {
   padding-left: 5px;
   max-width: 100%;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .container-auto {
