@@ -22,7 +22,7 @@ function carregarJogos() {
               let jconsole = data.jogos[i].console;
               let jconsigla = data.jogos[i].consigla;
               let jcurto = data.jogos[i].curto;
-              let jlink = data.jogos[i].link;
+              //let jlink = data.jogos[i].link;
               let jstandalone = data.jogos[i].standalone;
               let nomecomp;
               nomecomp = jnome.replaceAll(/\s/g, "");
@@ -45,9 +45,18 @@ function carregarJogos() {
                           <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
                         </div>`;
                 } else {
+                    /*
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
                           <a href="${jlink}" class="blacklink">
+                            <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon"><br>
+                            <span class="flow-text title">${jnome}</span>
+                          </a>
+                        </div>`;
+                    */
+                    document.querySelector("#jsonParent").innerHTML += `
+                        <div class="col">
+                          <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
                             <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon"><br>
                             <span class="flow-text title">${jnome}</span>
                           </a>

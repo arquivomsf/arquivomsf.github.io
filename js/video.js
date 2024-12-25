@@ -16,6 +16,23 @@ function procurarParam() {
 }
 
 function carregarVideos() {
+  if (consoleAtual == "etc") {
+    fetch(`dados.json`)
+      .then(response => response.json())
+      .then(data => {
+          for (var i = 0; i<data.jogos.length; i++){
+              let vnome = data.jogos[i].nome;
+              let vcurto = data.jogos[i].curto;
+              let vlink = data.jogos[i].link;
+              if(vcurto == jogoAtual){
+                document.querySelector(".page-name").innerHTML = `${vnome}`;
+                let vpreview = vlink.replaceAll("view", "preview");
+                document.querySelector("#jsonIframe").src = `${vpreview}`;
+              }
+          }
+      })
+    return
+  }
     fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
       .then(response => response.json())
       .then(data => {
