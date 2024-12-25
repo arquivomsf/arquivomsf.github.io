@@ -20,8 +20,14 @@ body > .container {
 }
 
 @media (max-width: 575px) {
-  .navbar-brand {
+  .page-name {
     font-size: 4.2vw !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .page-name {
+    font-size: 1.25rem !important;
   }
 }
 
@@ -36,11 +42,6 @@ body > .container {
 .subtitle {
   color: rgb(150, 148, 148);
 }
-
-/*.pagecontent {
-  margin-top: 1rem;
-  padding-top: 0.5rem;
-}*/
 
 a:link { 
   text-decoration: none; 
@@ -70,34 +71,6 @@ a:active {
   box-shadow: none;
 }
 
-/*
-.navbar-brand {
-  display: block;
-  transition: 0.3s;
-}
-
-.navbar-brand.hide {
-  display: none;
-}
-
-.navbar-toggler {
-  display: block;
-  transition: 0.3s;
-}
-
-.navbar-toggler.hide {
-  display: none;
-}
-*/
-
-/*@keyframes abrir {
-  from {
-    width: 0px;
-  }
-  to {
-    width: calc(100% - 50px);
-  }
-}*/
 @keyframes abrir {
   from {
     width: 0px;
@@ -116,10 +89,10 @@ a:active {
 }
 
 .page-name {
-  /*padding-left: 5px;*/
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: white;
 }
 
 .default-container {
