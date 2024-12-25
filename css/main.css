@@ -70,6 +70,7 @@ a:active {
   box-shadow: none;
 }
 
+/*
 .navbar-brand {
   display: block;
   transition: 0.3s;
@@ -87,13 +88,22 @@ a:active {
 .navbar-toggler.hide {
   display: none;
 }
+*/
 
-@keyframes abrir {
+/*@keyframes abrir {
   from {
     width: 0px;
   }
   to {
     width: calc(100% - 50px);
+  }
+}*/
+@keyframes abrir {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
   }
 }
 
@@ -117,7 +127,7 @@ a:active {
 }
 
 .navbar {
-  min-height: 4rem;
+  min-height: 3.5rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -141,10 +151,3 @@ a:active {
     aspect-ratio: 16 / 9;
   }
 }
-
-/*#jsonIframe {
-  width: 100%;
-  height: calc(100vh - 4rem - 20px);
-  margin-top: 10px;
-  aspect-ratio: 16 / 9;
-}*/
