@@ -124,16 +124,27 @@ a:active {
   .videoplayer {
     width: 100vw;
   }
+  #jsonIframe {
+    width: 100%;
+    margin-top: 10px;
+    aspect-ratio: 16 / 9;
+  }
 }
 @media only screen and (min-width: 768px) {
   .videoplayer {
     width: 80vw;
   }
+  #jsonIframe {
+    width: 100%;
+    height: calc(100vh - 4rem - 20px);
+    margin-top: 10px;
+    aspect-ratio: 16 / 9;
+  }
 }
 
-#jsonIframe {
+/*#jsonIframe {
   width: 100%;
   height: calc(100vh - 4rem - 20px);
   margin-top: 10px;
   aspect-ratio: 16 / 9;
-}
+}*/
