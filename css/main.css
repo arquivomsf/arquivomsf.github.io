@@ -131,19 +131,9 @@ a:active {
   }
 }
 
-/*#jsonIframe {
+#jsonIframe {
   width: 100%;
   height: calc(100vh - 4rem - 20px);
   margin-top: 10px;
   aspect-ratio: 16 / 9;
-}*/
-
-#jsonIframe {
-  max-height: 100%;
-  margin-top: 15px;
-}
-
-.jsondiv {
-  max-height: calc(100vh - 4rem - 20px);
-  overflow: hidden;
 }
