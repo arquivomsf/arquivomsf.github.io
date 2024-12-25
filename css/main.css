@@ -116,8 +116,13 @@ a:active {
 }
 
 .page-name {
-  padding-left: 5px;
+  /*padding-left: 5px;*/
   max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.default-container {
   overflow: hidden;
   text-overflow: ellipsis;
 }
