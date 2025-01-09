@@ -18,7 +18,7 @@ body > .container {
 .navbartext, .home-icon {
   color: white !important;
 }
-
+/*
 @media (max-width: 575px) {
   .page-name {
     font-size: 4.2vw !important;
@@ -30,7 +30,7 @@ body > .container {
     font-size: 1.25rem !important;
   }
 }
-
+*/
 .col {
   margin: 1rem 0;
 }
@@ -93,6 +93,7 @@ a:active {
   overflow: hidden;
   text-overflow: ellipsis;
   color: white;
+  font-size: clamp(0.25rem, 2.5vw, 1.25rem) !important;
 }
 
 .default-container {
