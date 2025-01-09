@@ -168,3 +168,48 @@ function resetarString() {
     document.querySelector("#inputPesquisa").value = "";
     stringPesquisa = "";
 }
+
+function carregarStats(){
+    carregarConsoles();
+    let ccounter = 0;
+    let jcounter = 0;
+    let scounter = 0;
+    let epcounter = 0;
+    fetch("dados.json")
+      .then(response => response.json())
+      .then(data => {
+          for (var i = 0; i<data.consoles.length; i++){
+            ccounter++;
+            document.querySelector(".counter-con").innerHTML = `Consoles: ${ccounter}`;
+          }
+      })
+      fetch("dados.json")
+      .then(response => response.json())
+      .then(data => {
+          for (var i = 0; i<data.jogos.length; i++){
+            let jstandalone = data.jogos[i].standalone;
+            let jconsigla = data.jogos[i].consigla;
+            let jcurto = data.jogos[i].curto;
+            if(jstandalone == 0){
+                jcounter++;
+                document.querySelector(".counter-jogo").innerHTML = `Jogos: ${jcounter}`;
+                fetch(`video/${jconsigla}/${jcurto}/videos.json`)
+                .then(response => response.json())
+                .then(data => {
+                    for (var i = 0; i<data.videos.length; i++){
+                        epcounter++;
+                        document.querySelector(".counter-ep").innerHTML = `Total de episódios de jogos: ${epcounter}`;
+                        document.querySelector(".counter-total").innerHTML = `Total de vídeos: ${epcounter+scounter}`;
+                        document.querySelector(".counter-mediaep").innerHTML = `Média de episódios por jogo: ${Math.round(epcounter/jcounter)}`;
+                    }
+                })
+            }
+            if(jstandalone == 1){
+                scounter++;
+                document.querySelector(".counter-standalone").innerHTML = `Total de vídeos standalone: ${scounter}`;
+                document.querySelector(".counter-total").innerHTML = `Total de vídeos: ${epcounter+scounter}`;
+                document.querySelector(".counter-mediaep").innerHTML = `Média de episódios por jogo: ${Math.round(epcounter/jcounter)}`;
+            }
+          }
+      })
+}
