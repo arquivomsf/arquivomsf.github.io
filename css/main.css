@@ -142,5 +142,6 @@ a:active {
   right: 3%;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 0 3px 0 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
