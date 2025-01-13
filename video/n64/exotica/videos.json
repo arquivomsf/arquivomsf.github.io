@@ -3,22 +3,26 @@
         {
             "nome": "Cruis'n Exotica de Nintendo 64 - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1lUqE-B6glkRoczqSPRKlnMFy9Bj8LKGT/view"
+            "link": "https://drive.google.com/file/d/1lUqE-B6glkRoczqSPRKlnMFy9Bj8LKGT/view",
+            "duracao": "34:09"
         },
         {
             "nome": "Cruis'n Exotica de Nintendo 64 - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1gu5U8MHzdZx0NBXwXPaV3vvVckBTm_uc/view"
+            "link": "https://drive.google.com/file/d/1gu5U8MHzdZx0NBXwXPaV3vvVckBTm_uc/view",
+            "duracao": "31:22"
         },
         {
             "nome": "Cruis'n Exotica de Nintendo 64 - Parte 3",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1aCO56zdfe8a5X6YFGkO5v8fHK9QF6sKg/view"
+            "link": "https://drive.google.com/file/d/1aCO56zdfe8a5X6YFGkO5v8fHK9QF6sKg/view",
+            "duracao": "45:13"
         },
         {
             "nome": "Cruis'n Exotica de Nintendo 64 - Parte 4 FINAL",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1B2xhMUrFZZ9lT66GE4i4DAEVXFwgZgoi/view"
+            "link": "https://drive.google.com/file/d/1B2xhMUrFZZ9lT66GE4i4DAEVXFwgZgoi/view",
+            "duracao": "18:48"
         }
     ]
 }

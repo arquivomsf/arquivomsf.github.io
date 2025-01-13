@@ -3,42 +3,50 @@
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1m2JlrQweFAdlaOCQe4KFCrk89NWiPcgs/view"
+            "link": "https://drive.google.com/file/d/1m2JlrQweFAdlaOCQe4KFCrk89NWiPcgs/view",
+            "duracao": "52:40"
         },
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/16V5CBKcATwp5riloOhFp5udsMTuaTghI/view"
+            "link": "https://drive.google.com/file/d/16V5CBKcATwp5riloOhFp5udsMTuaTghI/view",
+            "duracao": "51:58"
         },
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 3",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1paqFziYnTPLDEPgni-O71VJXxD2astLG/view"
+            "link": "https://drive.google.com/file/d/1paqFziYnTPLDEPgni-O71VJXxD2astLG/view",
+            "duracao": "49:10"
         },
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 4",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1V1fs2sRGq98p9YJQrrLXI7ZQP6Y3l70r/view"
+            "link": "https://drive.google.com/file/d/1V1fs2sRGq98p9YJQrrLXI7ZQP6Y3l70r/view",
+            "duracao": "53:09"
         },
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 5",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Hv5_7_oFTID4LZG1JhkEX6N4I9qmDUvf/view"
+            "link": "https://drive.google.com/file/d/1Hv5_7_oFTID4LZG1JhkEX6N4I9qmDUvf/view",
+            "duracao": "52:01"
         },
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 6",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1oQD6P4OiUHvU_m3wzGilJxfAUmlSQA2k/view"
+            "link": "https://drive.google.com/file/d/1oQD6P4OiUHvU_m3wzGilJxfAUmlSQA2k/view",
+            "duracao": "51:33"
         },
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 7",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1c-eHYJ_QZ7OwiZfNso3a5J-hut8Wdp20/view"
+            "link": "https://drive.google.com/file/d/1c-eHYJ_QZ7OwiZfNso3a5J-hut8Wdp20/view",
+            "duracao": "52:27"
         },
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 8",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/13JSPiHjVr68ZL1tAMMpYC49TSiGdBjHg/view"
+            "link": "https://drive.google.com/file/d/13JSPiHjVr68ZL1tAMMpYC49TSiGdBjHg/view",
+            "duracao": "28:30"
         }
     ]
 }

@@ -3,32 +3,38 @@
         {
             "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Qmh3N6MCIda-tw0H5_WN4gKYt8nhWBBt/view"
+            "link": "https://drive.google.com/file/d/1Qmh3N6MCIda-tw0H5_WN4gKYt8nhWBBt/view",
+            "duracao": "59:57"
         },
         {
             "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1MbHLXkiqZkz50f-juMccXhmjcBzu2zck/view"
+            "link": "https://drive.google.com/file/d/1MbHLXkiqZkz50f-juMccXhmjcBzu2zck/view",
+            "duracao": "42:00"
         },
         {
             "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 3",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1K9KifnDWNObK8d3OKPwRoCRCElxW0w7O/view"
+            "link": "https://drive.google.com/file/d/1K9KifnDWNObK8d3OKPwRoCRCElxW0w7O/view",
+            "duracao": "52:07"
         },
         {
             "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 4",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1V8d6gSEGUOvolvX-l7eqyIhcmc0fouq8/view"
+            "link": "https://drive.google.com/file/d/1V8d6gSEGUOvolvX-l7eqyIhcmc0fouq8/view",
+            "duracao": "57:51"
         },
         {
             "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 5",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1toRgU2lYFQ0Ve-NPlidUvSsGqWc9MPWg/view"
+            "link": "https://drive.google.com/file/d/1toRgU2lYFQ0Ve-NPlidUvSsGqWc9MPWg/view",
+            "duracao": "38:59"
         },
         {
             "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 6",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ZPXQx6bQ1B9XIZTP-jpMU1OU_sw9oT77/view"
+            "link": "https://drive.google.com/file/d/1ZPXQx6bQ1B9XIZTP-jpMU1OU_sw9oT77/view",
+            "duracao": "33:36"
         }
     ]
 }

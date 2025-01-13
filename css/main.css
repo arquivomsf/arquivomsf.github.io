@@ -130,3 +130,17 @@ a:active {
     aspect-ratio: 16 / 9;
   }
 }
+
+.thumbnail {
+  position: relative;
+}
+
+.video-length {
+  z-index: 2;
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0 3px 0 3px;
+}

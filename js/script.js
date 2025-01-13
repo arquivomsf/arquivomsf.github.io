@@ -54,10 +54,23 @@ function carregarJogos() {
                           </a>
                         </div>`;
                     */
+                   /*
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
                           <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
                             <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon"><br>
+                            <span class="flow-text title">${jnome}</span>
+                          </a>
+                        </div>`;
+                    */
+                    let jduracao = data.jogos[i].duracao;
+                    document.querySelector("#jsonParent").innerHTML += `
+                        <div class="col">
+                          <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
+                            <div class="thumbnail">
+                                <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
+                                <span class="video-length">${jduracao}</span>
+                            </div>
                             <span class="flow-text title">${jnome}</span>
                           </a>
                         </div>`;

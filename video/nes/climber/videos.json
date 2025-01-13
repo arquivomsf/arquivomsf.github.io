@@ -3,22 +3,26 @@
         {
             "nome": "Ice Climber de NES - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1dX_HbDWVpaUMp6YBkL-0eO01TxQ0dxHY/view"
+            "link": "https://drive.google.com/file/d/1dX_HbDWVpaUMp6YBkL-0eO01TxQ0dxHY/view",
+            "duracao": "55:23"
         },
         {
             "nome": "Ice Climber de NES - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ZLxWDmdNUl3mKFKWELKYhtzS3YLKDnbj/view"
+            "link": "https://drive.google.com/file/d/1ZLxWDmdNUl3mKFKWELKYhtzS3YLKDnbj/view",
+            "duracao": "56:03"
         },
         {
             "nome": "Ice Climber de NES - Parte 3",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1tx015rucUV-y2dI-nFcSH3Qlt4AA8opk/view"
+            "link": "https://drive.google.com/file/d/1tx015rucUV-y2dI-nFcSH3Qlt4AA8opk/view",
+            "duracao": "53:12"
         },
         {
             "nome": "Ice Climber de NES - Parte 4 Final",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1-eBxrT1hy4u3tcD2erSr9WpWsc40FVl_/view"
+            "link": "https://drive.google.com/file/d/1-eBxrT1hy4u3tcD2erSr9WpWsc40FVl_/view",
+            "duracao": "17:50"
         }
     ]
 }

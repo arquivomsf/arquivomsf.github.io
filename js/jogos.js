@@ -20,7 +20,7 @@ function carregarVideos() {
           for (var i = 0; i<data.videos.length; i++){
               let vnome = data.videos[i].nome;
               let vimagem = data.videos[i].imagem;
-              let vlink = data.videos[i].link;
+              let vduracao = data.videos[i].duracao;
               /*document.querySelector("#jsonParent").innerHTML += `
                 <div class="col">
                   <a href="${vlink}" class="blacklink">
@@ -28,10 +28,20 @@ function carregarVideos() {
                     <span class="flow-text title">${vnome}</span>
                   </a>
                 </div>`;*/
-                document.querySelector("#jsonParent").innerHTML += `
+                /*document.querySelector("#jsonParent").innerHTML += `
                 <div class="col">
                   <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&id=${i}" class="blacklink">
                     <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon"><br>
+                    <span class="flow-text title">${vnome}</span>
+                  </a>
+                </div>`;*/
+                document.querySelector("#jsonParent").innerHTML += `
+                <div class="col">
+                  <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&id=${i}" class="blacklink">
+                    <div class="thumbnail">
+                      <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
+                      <span class="video-length">${vduracao}</span>
+                    </div>
                     <span class="flow-text title">${vnome}</span>
                   </a>
                 </div>`;

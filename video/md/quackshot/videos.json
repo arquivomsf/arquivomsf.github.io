@@ -3,32 +3,38 @@
         {
             "nome": "QuackShot de Mega Drive - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ExJ9Zlzh4BO6P1WeIYVRQzrOe4TN7Q_N/view"
+            "link": "https://drive.google.com/file/d/1ExJ9Zlzh4BO6P1WeIYVRQzrOe4TN7Q_N/view",
+            "duracao": "56:52"
         },
         {
             "nome": "QuackShot de Mega Drive - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/14EgTLNlsmix5rNeXMUD2z-5jp4kQIAOv/view"
+            "link": "https://drive.google.com/file/d/14EgTLNlsmix5rNeXMUD2z-5jp4kQIAOv/view",
+            "duracao": "55:27"
         },
         {
             "nome": "QuackShot de Mega Drive - Parte 3",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1d5Oa8SsK5Keye0_7KGrFOTjjxmcRK4Lb/view"
+            "link": "https://drive.google.com/file/d/1d5Oa8SsK5Keye0_7KGrFOTjjxmcRK4Lb/view",
+            "duracao": "52:00"
         },
         {
             "nome": "QuackShot de Mega Drive - Parte 4",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1DgdxyhLbk5_2NBQf40JWQccMJtRF7Mx8/view"
+            "link": "https://drive.google.com/file/d/1DgdxyhLbk5_2NBQf40JWQccMJtRF7Mx8/view",
+            "duracao": "54:32"
         },
         {
             "nome": "QuackShot de Mega Drive - Parte 5",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1kLZgaUybPoSWTcs8NCyGVYjttySNr6mT/view"
+            "link": "https://drive.google.com/file/d/1kLZgaUybPoSWTcs8NCyGVYjttySNr6mT/view",
+            "duracao": "53:32"
         },
         {
             "nome": "QuackShot de Mega Drive - Parte 6",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1KpUND8NrYg9d788BxoRYpm5bRn-1656T/view"
+            "link": "https://drive.google.com/file/d/1KpUND8NrYg9d788BxoRYpm5bRn-1656T/view",
+            "duracao": "40:05"
         }
     ]
 }

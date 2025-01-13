@@ -3,42 +3,50 @@
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1XGik3rRoEVd1Oe5nAOzLWIBGbV_Ud2Hf/view"
+            "link": "https://drive.google.com/file/d/1XGik3rRoEVd1Oe5nAOzLWIBGbV_Ud2Hf/view",
+            "duracao": "37:23"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/17WMfHap2zp9cJWs69CTtSa5Y_9Ip7he1/view"
+            "link": "https://drive.google.com/file/d/17WMfHap2zp9cJWs69CTtSa5Y_9Ip7he1/view",
+            "duracao": "19:28"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 3",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Qfbq9KmWhCRsj57lKTxL_yrxh3hcKz8Q/view"
+            "link": "https://drive.google.com/file/d/1Qfbq9KmWhCRsj57lKTxL_yrxh3hcKz8Q/view",
+            "duracao": "37:21"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 4",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1oJdfiw6nXkrFk103dPEIMwdkEL57NK41/view"
+            "link": "https://drive.google.com/file/d/1oJdfiw6nXkrFk103dPEIMwdkEL57NK41/view",
+            "duracao": "22:56"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 5",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ryB5cgFbm5Xm7ySTEQITbx7Y6Tn_PMrU/view"
+            "link": "https://drive.google.com/file/d/1ryB5cgFbm5Xm7ySTEQITbx7Y6Tn_PMrU/view",
+            "duracao": "41:32"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 6",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1_QrUjy0OFdsUSeKgQucUbBmI1uJEgtKF/view"
+            "link": "https://drive.google.com/file/d/1_QrUjy0OFdsUSeKgQucUbBmI1uJEgtKF/view",
+            "duracao": "30:02"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 7",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1FaWvQDkDP0RvgSjaqTjhEVuxUnFeoocE/view"
+            "link": "https://drive.google.com/file/d/1FaWvQDkDP0RvgSjaqTjhEVuxUnFeoocE/view",
+            "duracao": "31:15"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 8 Final",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/12Nptop2wBvHt2Yxo98l7UpglHaILWce9/view"
+            "link": "https://drive.google.com/file/d/12Nptop2wBvHt2Yxo98l7UpglHaILWce9/view",
+            "duracao": "13:29"
         }
     ]
 }

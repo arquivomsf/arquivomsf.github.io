@@ -3,32 +3,38 @@
         {
             "nome": "Homem Aranha 2 de PlayStation 1 - Parte 1",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1-JaBLf1E8Wol4fdBHQJQZKv3w5IKmVHY/view"
+            "link": "https://drive.google.com/file/d/1-JaBLf1E8Wol4fdBHQJQZKv3w5IKmVHY/view",
+            "duracao": "49:20"
         },
         {
             "nome": "Homem Aranha 2 de PlayStation 1 - Parte 2",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1TfdvYJr-_DcXYoEWWJvvN5X9zxuNJTbs/view"
+            "link": "https://drive.google.com/file/d/1TfdvYJr-_DcXYoEWWJvvN5X9zxuNJTbs/view",
+            "duracao": "44:28"
         },
         {
             "nome": "Homem Aranha 2 de PlayStation 1 - Parte 3",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Pi2oGw5IQEokOzouIT_uNi-8JKz8LbF5/view"
+            "link": "https://drive.google.com/file/d/1Pi2oGw5IQEokOzouIT_uNi-8JKz8LbF5/view",
+            "duracao": "45:40"
         },
         {
             "nome": "Homem Aranha 2 de PlayStation 1 - Parte 4",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1uoCA7f2BAZTharii_W0Pod6SlP6RpqaD/view"
+            "link": "https://drive.google.com/file/d/1uoCA7f2BAZTharii_W0Pod6SlP6RpqaD/view",
+            "duracao": "38:32"
         },
         {
             "nome": "Homem Aranha 2 de PlayStation 1 - Parte 5",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1GMgu6lFggcZ8dP9swy1F40ZhzwLVfvm0/view"
+            "link": "https://drive.google.com/file/d/1GMgu6lFggcZ8dP9swy1F40ZhzwLVfvm0/view",
+            "duracao": "41:23"
         },
         {
             "nome": "Homem Aranha 2 de PlayStation 1 - Parte 6",
             "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1-fd8JWCAiGO5UDpO7iBmdj-x0MWFUiyw/view"
+            "link": "https://drive.google.com/file/d/1-fd8JWCAiGO5UDpO7iBmdj-x0MWFUiyw/view",
+            "duracao": "52:09"
         }
     ]
 }
