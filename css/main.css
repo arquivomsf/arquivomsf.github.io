@@ -60,42 +60,6 @@ a:active {
   font-size: 48px;
 }
 
-.float-right {
-  float: right !important;
-}
-
-#inputPesquisa:focus {
-  background-color: #3b3b3b;
-  border: 1px solid white;
-  outline: none !important;
-  box-shadow: none;
-}
-
-@keyframes abrir {
-  from {
-    width: 0px;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-#inputPesquisaContainer {
-  width: 0px;
-  animation-name: abrir;
-  animation-duration: 0.3s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
-
-.page-name {
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: white;
-  font-size: clamp(0.25rem, 2.5vw, 1.25rem) !important;
-}
-
 .default-container {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -103,10 +67,6 @@ a:active {
 
 .container-auto {
   max-width: 100%;
-}
-
-.navbar {
-  min-height: 3.5rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -145,4 +105,150 @@ a:active {
   padding-left: 3px;
   padding-right: 3px;
   font-family: "Arial", serif;
+}
+
+.fake-container {
+  /*align-items: center;*/
+  padding-left: calc(1.5rem * .5);
+  padding-right: calc(1.5rem * .5);
+  /*justify-content: space-between;*/
+  width: 100%;
+}
+
+/*
+@media only screen and (max-width: 575px) {
+  .fake-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .fake-container {
+    width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fake-container {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fake-container {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .fake-container {
+    width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .fake-container {
+    width: 1320px;
+  }
+}
+*/
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.page-name {
+  /*max-width: 100%;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+  /*font-size: clamp(1rem, 2.5vw, 1.25rem) !important;*/
+  font-size: 1.25rem;
+  display: block;
+  padding-top: .25rem;
+  /*padding-bottom: .5rem;*/
+}
+
+.page-name-home {
+  padding-left: .25rem;
+}
+
+@media only screen and (min-width: 835px) {
+  .page-name-one {
+    max-width: 90%;
+  }
+  .page-name-two {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .page-name-two {
+    max-width: 77%;
+  }
+}
+
+@media only screen and (min-width: 435px) {
+  .page-name-two {
+    max-width: 67%;
+  }
+}
+
+@media only screen and (max-width: 434px) {
+  .page-name-two {
+    max-width: 57%;
+  }
+}
+
+@media only screen and (min-width: 427px) {
+  .page-name-one {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .page-name-one {
+    max-width: 70%;
+  }
+}
+
+.navbar {
+  min-height: 3.5rem;
+  overflow: hidden;
+}
+
+.always-block {
+  display: block !important;
+}
+
+/*.name-wrapper {
+  max-width: 60vw;
+}*/
+
+#inputPesquisa:focus {
+  background-color: #3b3b3b;
+  border: 1px solid white;
+  outline: none !important;
+  box-shadow: none;
+}
+
+@keyframes abrir {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#inputPesquisaContainer {
+  width: 0px;
+  animation-name: abrir;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }

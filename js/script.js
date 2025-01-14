@@ -141,16 +141,22 @@ function setPesquisa() {
         document.querySelector(".default-container").style.display = "block";
         document.querySelector(".search-container").style.display = "none";
         let allSearchBtn = document.querySelectorAll(".pesquisar-btn");
-        for (let i = 0; i < allSearchBtn.length; i++) {
+        /*for (let i = 0; i < allSearchBtn.length; i++) {
             allSearchBtn[i].innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-search" viewBox="0 2 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>';
+        }*/
+        for (let i = 0; i < allSearchBtn.length; i++) {
+            allSearchBtn[i].innerHTML = '<i class="fa fa-search"></i>';
         }
     } else {
         document.querySelector(".default-container").style.display = "none";
         document.querySelector(".search-container").style.display = "block";
         document.querySelector("#inputPesquisa").focus();
         let allSearchBtn = document.querySelectorAll(".pesquisar-btn");
-        for (let i = 0; i < allSearchBtn.length; i++) {
+        /*for (let i = 0; i < allSearchBtn.length; i++) {
             allSearchBtn[i].innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-x-lg" viewBox="0 2 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg>';
+        }*/
+        for (let i = 0; i < allSearchBtn.length; i++) {
+            allSearchBtn[i].innerHTML = '<i class="fa fa-close"></i>';
         }
     }
 }
@@ -188,12 +194,21 @@ function carregarStats(){
     let jcounter = 0;
     let scounter = 0;
     let epcounter = 0;
+    let jhorascounter = 0;
+    let jmincounter = 0;
+    let jsegcounter = 0;
+    let shorascounter = 0;
+    let smincounter = 0;
+    let ssegcounter = 0;
+    let thorascounter = 0;
+    let tmincounter = 0;
+    let tsegcounter = 0;
     fetch("dados.json")
       .then(response => response.json())
       .then(data => {
           for (var i = 0; i<data.consoles.length; i++){
             ccounter++;
-            document.querySelector(".counter-con").innerHTML = `Consoles: ${ccounter}`;
+            document.querySelector(".counter-con").innerHTML = `${ccounter} consoles`;
           }
       })
       fetch("dados.json")
@@ -205,24 +220,84 @@ function carregarStats(){
             let jcurto = data.jogos[i].curto;
             if(jstandalone == 0){
                 jcounter++;
-                document.querySelector(".counter-jogo").innerHTML = `Jogos: ${jcounter}`;
+                document.querySelector(".counter-jogo").innerHTML = `${jcounter} jogos`;
                 fetch(`video/${jconsigla}/${jcurto}/videos.json`)
                 .then(response => response.json())
                 .then(data => {
                     for (var i = 0; i<data.videos.length; i++){
-                        epcounter++;
-                        document.querySelector(".counter-ep").innerHTML = `Total de episódios de jogos: ${epcounter}`;
-                        document.querySelector(".counter-total").innerHTML = `Total de vídeos: ${epcounter+scounter}`;
-                        document.querySelector(".counter-mediaep").innerHTML = `Média de episódios por jogo: ${Math.round(epcounter/jcounter)}`;
+                        let vduracao = data.videos[i].duracao;
+                        if (vduracao != "Perdido") {
+                            const vtempoatual = vduracao.split(":");
+                            epcounter++;
+                            jmincounter += Number(vtempoatual[0]);
+                            jsegcounter += Number(vtempoatual[1]);
+                            tmincounter += Number(vtempoatual[0]);
+                            tsegcounter += Number(vtempoatual[1]);
+                            console.log("jogo "+jmincounter+":"+jsegcounter+"/"+tmincounter+":"+tsegcounter);
+                        }
+                        document.querySelector(".counter-ep").innerHTML = `${epcounter} vídeos de jogos`;
+                        document.querySelector(".counter-total").innerHTML = `${epcounter+scounter} vídeos arquivados`;
+                        document.querySelector(".counter-mediaep").innerHTML = `${Math.round(epcounter/jcounter)} vídeos por jogo (média)`;
+                        /*document.querySelector(".counter-tempototaljogo").innerHTML = `${Math.round(jhorascounter)}h ${Math.round(jmincounter)}m ${Math.round(jsegcounter)}s de vídeos de jogos`;
+                        document.querySelector(".counter-tempototal").innerHTML = `${Math.round(thorascounter)}h ${Math.round(tmincounter)}m ${Math.round(tsegcounter)}s de vídeos arquivados`;*/
                     }
                 })
             }
             if(jstandalone == 1){
+                let jduracao = data.jogos[i].duracao;
+                const jtempoatual = jduracao.split(":");
                 scounter++;
-                document.querySelector(".counter-standalone").innerHTML = `Total de vídeos standalone: ${scounter}`;
-                document.querySelector(".counter-total").innerHTML = `Total de vídeos: ${epcounter+scounter}`;
-                document.querySelector(".counter-mediaep").innerHTML = `Média de episódios por jogo: ${Math.round(epcounter/jcounter)}`;
+                smincounter += Number(jtempoatual[0]);
+                ssegcounter += Number(jtempoatual[1]);
+                tmincounter += Number(jtempoatual[0]);
+                tsegcounter += Number(jtempoatual[1]);
+                console.log("standalone "+smincounter+":"+ssegcounter+"/"+tmincounter+":"+tsegcounter);
+                document.querySelector(".counter-standalone").innerHTML = `${scounter} vídeos standalone`;
+                document.querySelector(".counter-total").innerHTML = `${epcounter+scounter} vídeos arquivados`;
+                document.querySelector(".counter-mediaep").innerHTML = `${Math.round(epcounter/jcounter)} vídeos por jogo (média)`;
+                /*document.querySelector(".counter-tempototalstandalone").innerHTML = `${Math.round(shorascounter)}h ${Math.round(smincounter)}m ${Math.round(ssegcounter)}s de vídeos standalone`;
+                document.querySelector(".counter-tempototal").innerHTML = `${Math.round(thorascounter)}h ${Math.round(tmincounter)}m ${Math.round(tsegcounter)}s de vídeos arquivados`;*/
             }
           }
       })
+      setInterval(function () {
+        if (ssegcounter >= 60) {
+            //console.log("smin = "+smincounter+" sseg = "+ssegcounter+" sseg depois = "+ssegcounter%60);
+            smincounter += Math.trunc(ssegcounter/60);
+            ssegcounter = ssegcounter%60;
+            //console.log("smin depois = "+smincounter);
+        }
+        if (smincounter >= 60) {
+            //console.log("sh = "+shorascounter+" smin = "+smincounter+" smin depois = "+smincounter%60);
+            shorascounter += Math.trunc(smincounter/60);
+            smincounter = smincounter%60;
+            //console.log("sh depois = "+shorascounter);
+        }
+        if (jsegcounter >= 60) {
+            //console.log("jmin = "+jmincounter+" jseg = "+jsegcounter+" jseg depois = "+jsegcounter%60);
+            jmincounter += Math.trunc(jsegcounter/60);
+            jsegcounter = jsegcounter%60;
+            //console.log("jmin depois = "+jmincounter);
+        }
+        if (jmincounter >= 60) {
+            //console.log("jh = "+jhorascounter+" jmin = "+jmincounter+" jmin depois = "+jmincounter%60);
+            jhorascounter += Math.trunc(jmincounter/60);
+            jmincounter = jmincounter%60;
+            //console.log("jh depois = "+jhorascounter);
+        }
+        thorascounter = shorascounter + jhorascounter;
+        tmincounter = smincounter + jmincounter;
+        tsegcounter = ssegcounter + jsegcounter;
+        if (tsegcounter >= 60) {
+            tmincounter += Math.trunc(tsegcounter/60);
+            tsegcounter = tsegcounter%60;
+        }
+        if (tmincounter >= 60) {
+            thorascounter += Math.trunc(tmincounter/60);
+            tmincounter = tmincounter%60;
+        }
+        document.querySelector(".counter-tempototalstandalone").innerHTML = `${Math.round(shorascounter)}h ${Math.round(smincounter)}m ${Math.round(ssegcounter)}s de vídeos standalone`;
+        document.querySelector(".counter-tempototaljogo").innerHTML = `${Math.round(jhorascounter)}h ${Math.round(jmincounter)}m ${Math.round(jsegcounter)}s de vídeos de jogos`;
+        document.querySelector(".counter-tempototal").innerHTML = `${Math.round(thorascounter)}h ${Math.round(tmincounter)}m ${Math.round(tsegcounter)}s de vídeos arquivados`;
+    }, 500);
 }
