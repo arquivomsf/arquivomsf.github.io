@@ -408,6 +408,16 @@
             "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
             "duracao": "0:57",
             "standalone": 1
+        },
+        {
+            "nome": "A MAIOR LIVE DO CANAL - 10 Horas de Duração",
+            "imagem": "livegrandona.png",
+            "console": "",
+            "consigla": "etc",
+            "curto": "livegrandona",
+            "link": "https://drive.google.com/file/d/1e0wEfw1_aTMMA1_C3kmaZwg2MmQ0mpfs/view",
+            "duracao": "4:08",
+            "standalone": 1
         }
     ],
     "futurosjogos": [
@@ -419,15 +429,6 @@
             "curto": "gta3",
             "link": "",
             "standalone": 0
-        },
-        {
-            "nome": "live de sla quantas horas",
-            "imagem": "livegrandona.jpg",
-            "console": "",
-            "consigla": "etc",
-            "curto": "",
-            "link": "asiudiuasbn",
-            "standalone": 1
         }
     ],
     "consoles": [
