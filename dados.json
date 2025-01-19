@@ -370,6 +370,15 @@
             "standalone": 0
         },
         {
+            "nome": "Grand Theft Auto III",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "gta3",
+            "link": "",
+            "standalone": 0
+        },
+        {
             "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
             "imagem": "coco.jpg",
             "console": "",
@@ -416,7 +425,7 @@
             "consigla": "etc",
             "curto": "livegrandona",
             "link": "https://drive.google.com/file/d/1e0wEfw1_aTMMA1_C3kmaZwg2MmQ0mpfs/view",
-            "duracao": "4:08",
+            "duracao": "4:09",
             "standalone": 1
         }
     ],
