@@ -385,7 +385,9 @@
             "consigla": "etc",
             "curto": "coco",
             "link": "https://drive.google.com/file/d/13GLcHstrwxP5MjyujZT2BthBPxgwM38i/view",
+            "linkyt": "https://youtu.be/RDhv4UDwxYQ",
             "duracao": "5:25",
+            "plataforma": "yt",
             "standalone": 1
         },
         {
@@ -396,6 +398,7 @@
             "curto": "bike2020",
             "link": "https://drive.google.com/file/d/13T0Vd5avB7rTIxq2Lu9u2LJO21mB4RF3/view",
             "duracao": "4:00",
+            "plataforma": "gdrive",
             "standalone": 1
         },
         {
@@ -405,7 +408,9 @@
             "consigla": "etc",
             "curto": "layout",
             "link": "https://drive.google.com/file/d/1T1eQI-25GnMSNYXU98AwS49-7sCrqQ9e/view",
+            "linkyt": "https://youtu.be/RbITng3g_vE",
             "duracao": "25:37",
+            "plataforma": "yt",
             "standalone": 1
         },
         {
@@ -416,6 +421,7 @@
             "curto": "sarrada",
             "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
             "duracao": "0:57",
+            "plataforma": "gdrive",
             "standalone": 1
         },
         {
@@ -426,6 +432,7 @@
             "curto": "livegrandona",
             "link": "https://drive.google.com/file/d/1e0wEfw1_aTMMA1_C3kmaZwg2MmQ0mpfs/view",
             "duracao": "4:09",
+            "plataforma": "gdrive",
             "standalone": 1
         }
     ],

@@ -45,6 +45,35 @@ function carregarVideos() {
                     <span class="flow-text title">${vnome}</span>
                   </a>
                 </div>`;
+                /*
+                teste yt
+
+                let vplat = data.videos[i].plataforma;
+                let vlinkyt = data.videos[i].linkyt;
+                if (vplat == "gdrive") {
+                  document.querySelector("#jsonParent").innerHTML += `
+                    <div class="col">
+                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&id=${i}" class="blacklink">
+                        <div class="thumbnail">
+                          <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length">${vduracao}</span>
+                        </div>
+                        <span class="flow-text title">${vnome}</span>
+                      </a>
+                    </div>`;
+                } else if (vplat == "yt") {
+                  document.querySelector("#jsonParent").innerHTML += `
+                    <div class="col">
+                      <a href="${vlinkyt}" target="_blank" class="blacklink">
+                        <div class="thumbnail">
+                          <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length">${vduracao}</span>
+                        </div>
+                        <span class="flow-text title">${vnome}</span>
+                      </a>
+                    </div>`;
+                }
+                */
           }
       })
 }

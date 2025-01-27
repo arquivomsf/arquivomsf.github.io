@@ -64,6 +64,7 @@ function carregarJogos() {
                         </div>`;
                     */
                     let jduracao = data.jogos[i].duracao;
+                    /*
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
                           <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
@@ -74,6 +75,33 @@ function carregarJogos() {
                             <span class="flow-text title">${jnome}</span>
                           </a>
                         </div>`;
+                    */
+                    let jplat = data.jogos[i].plataforma;
+                    let jlinkyt = data.jogos[i].linkyt;
+                   if (jplat == "gdrive") {
+                    document.querySelector("#jsonParent").innerHTML += `
+                        <div class="col">
+                        <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
+                            <div class="thumbnail">
+                                <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
+                                <span class="video-length">${jduracao}</span>
+                            </div>
+                            <span class="flow-text title">${jnome}</span>
+                        </a>
+                        </div>`;
+                   } else if (jplat == "yt") {
+                    document.querySelector("#jsonParent").innerHTML += `
+                        <div class="col">
+                          <a href="${jlinkyt}" target="_blank" class="blacklink">
+                            <div class="thumbnail">
+                                <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
+                                <span class="video-length">${jduracao}</span>
+                            </div>
+                            <span class="flow-text title">${jnome}</span>
+                          </a>
+                        </div>`;
+                   }
+                    
                 }
               }
           }
