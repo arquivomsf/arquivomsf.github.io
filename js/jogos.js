@@ -61,7 +61,7 @@ function carregarVideos() {
                         <span class="flow-text title">${vnome}</span>
                       </a>
                     </div>`;
-                } else if (vplat == "yt") {
+                } else if (vplat == "youtube") {
                   document.querySelector("#jsonParent").innerHTML += `
                     <div class="col">
                       <a href="${vlinkyt}" target="_blank" class="blacklink">

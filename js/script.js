@@ -89,7 +89,7 @@ function carregarJogos() {
                             <span class="flow-text title">${jnome}</span>
                         </a>
                         </div>`;
-                   } else if (jplat == "yt") {
+                   } else if (jplat == "youtube") {
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
                           <a href="${jlinkyt}" target="_blank" class="blacklink">

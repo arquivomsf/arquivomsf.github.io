@@ -4,55 +4,73 @@
             "nome": "GTA 3 de PlayStation 2 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1eLHRBHVexbNzPKNjQuGn_wK_ow6nO1Dw/view",
-            "duracao": "42:34"
+            "linkyt": "",
+            "duracao": "42:34",
+            "plataforma": "gdrive"
         },
         {
             "nome": "GTA 3 de PlayStation 2 - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1OcSXkBkQ8OBwS5AldUtoB-PZskuJYHas/view",
-            "duracao": "42:56"
+            "linkyt": "",
+            "duracao": "42:56",
+            "plataforma": "gdrive"
         },
         {
             "nome": "GTA 3 de PlayStation 2 - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1QFS3EzaciPX-EHn6HDHuG6w-ewu_jU-9/view",
-            "duracao": "24:32"
+            "linkyt": "",
+            "duracao": "24:32",
+            "plataforma": "gdrive"
         },
         {
             "nome": "GTA 3 de PlayStation 2 - Parte 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1tmiWhK8PZceQwvaTDRoG3PXTKN0FR-nI/view",
-            "duracao": "42:58"
+            "linkyt": "",
+            "duracao": "42:58",
+            "plataforma": "gdrive"
         },
         {
             "nome": "GTA 3 de PlayStation 2 - Parte 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1nEuNAFqCr-VTZ13cwzrYGPA5WWpnGmCq/view",
-            "duracao": "43:35"
+            "linkyt": "",
+            "duracao": "43:35",
+            "plataforma": "gdrive"
         },
         {
             "nome": "GTA 3 de PlayStation 2 - Parte 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Ef1RYQO2Xzfssg7Hc8v66e3ErOHc4qyy/view",
-            "duracao": "41:17"
+            "linkyt": "",
+            "duracao": "41:17",
+            "plataforma": "gdrive"
         },
         {
             "nome": "GTA 3 de PlayStation 2 - Parte 7",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1dQoxOZ-DsWzmgqP9fuFEOlXELQBdacec/view",
-            "duracao": "39:21"
+            "linkyt": "",
+            "duracao": "39:21",
+            "plataforma": "gdrive"
         },
         {
             "nome": "GTA 3 de PlayStation 2 - Parte 8",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1WwiX6-Y2kwm--gqhyvLYCv23ZRTY7XES/view",
-            "duracao": "40:42"
+            "linkyt": "",
+            "duracao": "40:42",
+            "plataforma": "gdrive"
         },
         {
             "nome": "GTA 3 de PlayStation 2 - Parte 9",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1prwB64zOr4mDbt3LmqZCOnSw5-U8Sbaw/view",
-            "duracao": "39:31"
+            "linkyt": "",
+            "duracao": "39:31",
+            "plataforma": "gdrive"
         }
     ]
 }

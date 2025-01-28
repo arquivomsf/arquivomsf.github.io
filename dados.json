@@ -387,7 +387,7 @@
             "link": "https://drive.google.com/file/d/13GLcHstrwxP5MjyujZT2BthBPxgwM38i/view",
             "linkyt": "https://youtu.be/RDhv4UDwxYQ",
             "duracao": "5:25",
-            "plataforma": "yt",
+            "plataforma": "youtube",
             "standalone": 1
         },
         {
@@ -410,7 +410,7 @@
             "link": "https://drive.google.com/file/d/1T1eQI-25GnMSNYXU98AwS49-7sCrqQ9e/view",
             "linkyt": "https://youtu.be/RbITng3g_vE",
             "duracao": "25:37",
-            "plataforma": "yt",
+            "plataforma": "youtube",
             "standalone": 1
         },
         {
@@ -436,7 +436,7 @@
             "standalone": 1
         },
         {
-            "nome": "kkkkkkkkk",
+            "nome": "Marcelo reagindo à comentários em vídeo de Subway Money",
             "imagem": "kkkkkkkkk.jpg",
             "console": "",
             "consigla": "etc",
@@ -444,7 +444,7 @@
             "link": "",
             "linkyt": "https://youtu.be/OiCMeA0VREM",
             "duracao": "2:05",
-            "plataforma": "yt",
+            "plataforma": "youtube",
             "standalone": 1
         }
     ],
