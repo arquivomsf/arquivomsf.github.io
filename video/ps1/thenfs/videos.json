@@ -4,31 +4,41 @@
             "nome": "The Need for Speed de PlayStation 1 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1kb8GAJSHwSnH8tg2oDP4lHoSVfMh_bnn/view",
-            "duracao": "49:38"
+            "linkyt": "",
+            "duracao": "49:38",
+            "plataforma": "gdrive"
         },
         {
             "nome": "The Need for Speed de PlayStation 1 - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1rBwUxvn7OttVQcWFtsDJjUsoyx7AZfIU/view",
-            "duracao": "46:55"
+            "linkyt": "",
+            "duracao": "46:55",
+            "plataforma": "gdrive"
         },
         {
             "nome": "The Need for Speed de PlayStation 1 - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Nr-bam0XWEM0YVBi6uaNUlkH9jvT2RiR/view",
-            "duracao": "39:40"
+            "linkyt": "",
+            "duracao": "39:40",
+            "plataforma": "gdrive"
         },
         {
             "nome": "The Need for Speed de PlayStation 1 - Parte 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1LWre-PUxxb2ZPrwCPpAt7e1Ch6BM3qCJ/view",
-            "duracao": "51:06"
+            "linkyt": "",
+            "duracao": "51:06",
+            "plataforma": "gdrive"
         },
         {
             "nome": "The Need for Speed de PlayStation 1 - Parte 5 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1I6Z1FTj57rzU-QjZEiwfYPAW36abi7in/view",
-            "duracao": "29:25"
+            "linkyt": "",
+            "duracao": "29:25",
+            "plataforma": "gdrive"
         }
     ]
 }

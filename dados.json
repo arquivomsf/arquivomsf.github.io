@@ -446,6 +446,30 @@
             "duracao": "2:05",
             "plataforma": "youtube",
             "standalone": 1
+        },
+        {
+            "nome": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
+            "imagem": "besouro.jpg",
+            "console": "",
+            "consigla": "etc",
+            "curto": "besouro",
+            "link": "",
+            "linkyt": "https://youtu.be/KMGz80arNjQ",
+            "duracao": "8:13",
+            "plataforma": "youtube",
+            "standalone": 1
+        },
+        {
+            "nome": "Fim da maior live do canal (10 Horas)",
+            "imagem": "maiorliveclipe.jpg",
+            "console": "",
+            "consigla": "etc",
+            "curto": "maiorliveclipe",
+            "link": "",
+            "linkyt": "https://youtu.be/ysesUFblPpw",
+            "duracao": "2:39",
+            "plataforma": "youtube",
+            "standalone": 1
         }
     ],
     "futurosjogos": [

@@ -4,13 +4,17 @@
             "nome": "Metal Slug X de PlayStation 1 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1_mmuaDSK02z90rA-iuWo0R0z8NDEiGRz/view",
-            "duracao": "54:26"
+            "linkyt": "",
+            "duracao": "54:26",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Metal Slug X de PlayStation 1 - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1AYij8sim4eDhkX8FvdXot2xR6CqM9GWk/view",
-            "duracao": "35:13"
+            "linkyt": "",
+            "duracao": "35:13",
+            "plataforma": "gdrive"
         }
     ]
 }

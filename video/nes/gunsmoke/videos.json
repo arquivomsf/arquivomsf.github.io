@@ -4,19 +4,25 @@
             "nome": "Gun.Smoke de NES - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1bwscnYbsxhEaObYy-iNs_HPGq2iBgbE-/view",
-            "duracao": "54:48"
+            "linkyt": "",
+            "duracao": "54:48",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Gun.Smoke de NES - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1pz9oWIkr7tf2B9bXYTMycvFjlrHXT8FF/view",
-            "duracao": "52:33"
+            "linkyt": "",
+            "duracao": "52:33",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Gun.Smoke de NES - Parte 3 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1NBtF3eDs7n3FDS9c9uM39hIaZzy2hz7-/view",
-            "duracao": "41:23"
+            "linkyt": "",
+            "duracao": "41:23",
+            "plataforma": "gdrive"
         }
     ]
 }

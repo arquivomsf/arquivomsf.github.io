@@ -4,19 +4,25 @@
             "nome": "Jackal de NES - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Jn0ApCnvOepLXw3Zo5qvBA7q356wLZM6/view",
-            "duracao": "50:25"
+            "linkyt": "",
+            "duracao": "50:25",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Jackal de NES - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ZpTWengJ8wx5T0sQnwKjSp-_W5M2PRJI/view",
-            "duracao": "37:06"
+            "linkyt": "",
+            "duracao": "37:06",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Jackal de NES - Parte 3 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1teSpGpES2xuJPTlsi9eNAMdRAtx6Roac/view",
-            "duracao": "32:35"
+            "linkyt": "",
+            "duracao": "32:35",
+            "plataforma": "gdrive"
         }
     ]
 }

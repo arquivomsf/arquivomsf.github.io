@@ -35,6 +35,7 @@ function carregarVideos() {
                     <span class="flow-text title">${vnome}</span>
                   </a>
                 </div>`;*/
+                /*
                 document.querySelector("#jsonParent").innerHTML += `
                 <div class="col">
                   <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&id=${i}" class="blacklink">
@@ -45,9 +46,7 @@ function carregarVideos() {
                     <span class="flow-text title">${vnome}</span>
                   </a>
                 </div>`;
-                /*
-                teste yt
-
+                */
                 let vplat = data.videos[i].plataforma;
                 let vlinkyt = data.videos[i].linkyt;
                 if (vplat == "gdrive") {
@@ -73,7 +72,6 @@ function carregarVideos() {
                       </a>
                     </div>`;
                 }
-                */
           }
       })
 }

@@ -4,55 +4,73 @@
             "nome": "Adventure Island de NES - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1-rGda4rTkpm80sxp1a37XTrJ3UX_gagD/view",
-            "duracao": "50:54"
+            "linkyt": "",
+            "duracao": "50:54",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Adventure Island de NES - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1zuPePyqCSMurbgv7Dw_qwuNKrN--lHGA/view",
-            "duracao": "56:15"
+            "linkyt": "",
+            "duracao": "56:15",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Adventure Island de NES - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1qzeZwVQdOh7wBIE-hDVFS2lA7aZqWBR-/view",
-            "duracao": "53:54"
+            "linkyt": "",
+            "duracao": "53:54",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Adventure Island de NES - Parte 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/11m3GJqJmV80aELRxKKAnC8C2ROMKQI0A/view",
-            "duracao": "49:08"
+            "linkyt": "",
+            "duracao": "49:08",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Adventure Island de NES - Parte 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1TYjPyz_S78yk44PZnF9pKAWFzcAGRJNA/view",
-            "duracao": "51:24"
+            "linkyt": "",
+            "duracao": "51:24",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Adventure Island de NES - Parte 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1w4U4kwmYjbdHSu64cTO5ORb0u4yxAHrJ/view",
-            "duracao": "56:29"
+            "linkyt": "",
+            "duracao": "56:29",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Adventure Island de NES - Parte 7",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ZUjyWkiCScA4i_V8WOc7e7qKi_66Lni2/view",
-            "duracao": "49:28"
+            "linkyt": "",
+            "duracao": "49:28",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Adventure Island de NES - Parte 8",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/11GNqgRm3KNV6SK3FFAIrPm2FvCHrP_rc/view",
-            "duracao": "52:01"
+            "linkyt": "",
+            "duracao": "52:01",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Adventure Island de NES - Parte 9 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1-HXOncuOIkor655iJuxHtwm3_ruUEaIj/view",
-            "duracao": "16:45"
+            "linkyt": "",
+            "duracao": "16:45",
+            "plataforma": "gdrive"
         }
     ]
 }

@@ -4,25 +4,33 @@
             "nome": "Sonic The Hedgehog de Mega Drive - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1G_JPnp9TOZxQ4SUqHCUS-sHKJuZzP6Jx/view",
-            "duracao": "53:09"
+            "linkyt": "",
+            "duracao": "53:09",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Sonic The Hedgehog de Mega Drive - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1OkDhM3zbYx_6cT8fgpci40_a0D8y-ff7/view",
-            "duracao": "50:59"
+            "linkyt": "",
+            "duracao": "50:59",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Sonic The Hedgehog de Mega Drive - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1rG05HSYQL36evSd01jB-pXf2SmBDDGDn/view",
-            "duracao": "49:42"
+            "linkyt": "",
+            "duracao": "49:42",
+            "plataforma": "gdrive"
         },
         {
             "nome": "Sonic The Hedgehog de Mega Drive - Parte 4 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1rQmbBOLiTvyQMYBXMbIpmdNyPexCTgSx/view",
-            "duracao": "50:45"
+            "linkyt": "",
+            "duracao": "50:45",
+            "plataforma": "gdrive"
         }
     ]
 }

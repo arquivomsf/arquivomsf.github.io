@@ -4,25 +4,33 @@
             "nome": "DuckTales de NES - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1uRi7oylOhGY1a1YCpR2tOqoSLUcn9x36/view",
-            "duracao": "56:59"
+            "linkyt": "",
+            "duracao": "56:59",
+            "plataforma": "gdrive"
         },
         {
             "nome": "DuckTales de NES - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1INh-jPFmlsm-vnItx9ZK3T2XIRFZxAYL/view",
-            "duracao": "36:28"
+            "linkyt": "",
+            "duracao": "36:28",
+            "plataforma": "gdrive"
         },
         {
             "nome": "DuckTales de NES - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1gB3PyorT6L5DVAgK69ecQyi66cO-Dtuu/view",
-            "duracao": "47:34"
+            "linkyt": "",
+            "duracao": "47:34",
+            "plataforma": "gdrive"
         },
         {
             "nome": "DuckTales de NES - Parte 4 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1LOGZveGaekxP9uMxLiYapFBbRnnzRqXf/view",
-            "duracao": "42:17"
+            "linkyt": "",
+            "duracao": "42:17",
+            "plataforma": "gdrive"
         }
     ]
 }
