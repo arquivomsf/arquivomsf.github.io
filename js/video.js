@@ -29,7 +29,7 @@ function carregarVideos() {
                 document.querySelector(".page-name").innerHTML = `${vnome}`;
                 document.title = `${vnome}`;
                 document.querySelector('meta[property="og:title"]').setAttribute("content", `${vnome}`);
-                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${vimagem}`);
+                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${vimagem}`);
                 let vpreview = vlink.replaceAll("view", "preview");
                 document.querySelector("#jsonIframe").src = `${vpreview}`;
               }
