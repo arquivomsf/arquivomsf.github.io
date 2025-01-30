@@ -21,6 +21,9 @@ function carregarVideos() {
               let vnome = data.videos[i].nome;
               let vimagem = data.videos[i].imagem;
               let vduracao = data.videos[i].duracao;
+              if (i == 0) {
+                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/1.${vimagem}`);
+              }
               /*document.querySelector("#jsonParent").innerHTML += `
                 <div class="col">
                   <a href="${vlink}" class="blacklink">
@@ -98,6 +101,7 @@ function carregarConsoles() {
           if(jcurto == jogoAtual){
             document.querySelector(".page-name").innerHTML = `${jnome}`;
             document.title = `Arquivo - ${jnome}`;
+            document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${jnome}`);
           }
       }
   })

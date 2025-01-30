@@ -24,8 +24,12 @@ function carregarVideos() {
               let vnome = data.jogos[i].nome;
               let vcurto = data.jogos[i].curto;
               let vlink = data.jogos[i].link;
+              let vimagem = data.jogos[i].imagem;
               if(vcurto == jogoAtual){
                 document.querySelector(".page-name").innerHTML = `${vnome}`;
+                document.title = `${vnome}`;
+                document.querySelector('meta[property="og:title"]').setAttribute("content", `${vnome}`);
+                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${vimagem}`);
                 let vpreview = vlink.replaceAll("view", "preview");
                 document.querySelector("#jsonIframe").src = `${vpreview}`;
               }
@@ -39,8 +43,12 @@ function carregarVideos() {
           for (var i = 0; i<data.videos.length; i++){
               let vnome = data.videos[i].nome;
               let vlink = data.videos[i].link;
+              let vimagem = data.videos[i].imagem;
               if(i == episodioAtual){
                 document.querySelector(".page-name").innerHTML = `${vnome}`;
+                document.title = `${vnome}`;
+                document.querySelector('meta[property="og:title"]').setAttribute("content", `${vnome}`);
+                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}`);
                 let vpreview = vlink.replaceAll("view", "preview");
                 document.querySelector("#jsonIframe").src = `${vpreview}`;
               }

@@ -70,6 +70,7 @@ function carregarConsoles() {
               if(csigla == consoleAtual){
                 document.querySelector(".page-name").innerHTML = `${cnome}`;
                 document.title = `Arquivo - ${cnome}`;
+                document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${cnome}`);
               }
               document.querySelector("#conJsonParent").innerHTML += `
                 <li class="nav-item">
