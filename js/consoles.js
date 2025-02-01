@@ -3,11 +3,13 @@ var pathnameArray = window.location.pathname.split("/");
 var consoleAtual;
 var stringPesquisa = "";
 var pesquisando = 0;
+var tema = "";
 
 function start() {
     resetarString();
     setPesquisa();
     carregarDados();
+    startTema();
 }
 
 function carregarDados() {
@@ -152,4 +154,36 @@ function checarStringVazia() {
 function resetarString() {
     document.querySelector("#inputPesquisa").value = "";
     stringPesquisa = "";
+}
+
+function startTema() {
+    tema = localStorage.getItem("tema");
+    if (tema == null) {
+        tema = "default";
+        document.getElementById("default").checked = true;
+        localStorage.setItem("tema", "default");
+        return
+    }
+    if (tema == "default") {
+        document.body.classList.remove("oldtheme");
+        localStorage.setItem("tema", "default");
+        return
+    }
+    if (tema == "old") {
+        document.body.classList.add("oldtheme");
+        localStorage.setItem("tema", "old");
+    }
+}
+
+function setTema(tema_esc) {
+    tema = tema_esc.value;
+    if (tema == "default") {
+        document.body.classList.remove("oldtheme");
+        localStorage.setItem("tema", "default");
+        return
+    }
+    if (tema == "old") {
+        document.body.classList.add("oldtheme");
+        localStorage.setItem("tema", "old");
+    }
 }

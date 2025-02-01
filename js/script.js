@@ -1,10 +1,12 @@
 var stringPesquisa = "";
 var pesquisando = 0;
+var tema = "";
 
 function start() {
     resetarString();
     setPesquisa();
     carregarDados();
+    startTema();
 }
 
 function carregarDados() {
@@ -328,4 +330,36 @@ function carregarStats(){
         document.querySelector(".counter-tempototaljogo").innerHTML = `${Math.round(jhorascounter)}h ${Math.round(jmincounter)}m ${Math.round(jsegcounter)}s de vídeos de jogos`;
         document.querySelector(".counter-tempototal").innerHTML = `${Math.round(thorascounter)}h ${Math.round(tmincounter)}m ${Math.round(tsegcounter)}s de vídeos arquivados`;
     }, 500);
+}
+
+function startTema() {
+    tema = localStorage.getItem("tema");
+    if (tema == null) {
+        tema = "default";
+        document.getElementById("default").checked = true;
+        localStorage.setItem("tema", "default");
+        return
+    }
+    if (tema == "default") {
+        document.body.classList.remove("oldtheme");
+        localStorage.setItem("tema", "default");
+        return
+    }
+    if (tema == "old") {
+        document.body.classList.add("oldtheme");
+        localStorage.setItem("tema", "old");
+    }
+}
+
+function setTema(tema_esc) {
+    tema = tema_esc.value;
+    if (tema == "default") {
+        document.body.classList.remove("oldtheme");
+        localStorage.setItem("tema", "default");
+        return
+    }
+    if (tema == "old") {
+        document.body.classList.add("oldtheme");
+        localStorage.setItem("tema", "old");
+    }
 }

@@ -58,12 +58,30 @@
 
       <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5>
+          <!--<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5>-->
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5><br>
           <ul id="conJsonParent" class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
+          </ul><br>
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Tema</h5><br>
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page">Padrão</a>
+              <label class="switch">
+                <input type="radio" id="default" onclick="setTema(this);" name="choose_theme" value="default">
+                <span class="slider round"></span>
+              </label>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page">Velho</a>
+              <label class="switch">
+                <input type="radio" id="old" onclick="setTema(this);" name="choose_theme" value="old">
+                <span class="slider round"></span>
+              </label>
+            </li>
           </ul>
         </div>
       </div>

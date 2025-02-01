@@ -1,11 +1,13 @@
 var consoleAtual;
 var jogoAtual;
 var episodioAtual;
+var tema = "";
 
 function carregarDados() {
   procurarParam();
   carregarVideos();
   carregarConsoles();
+  startTema();
 }
 
 function procurarParam() {
@@ -69,4 +71,36 @@ function carregarConsoles() {
             </li>`;
       }
   })
+}
+
+function startTema() {
+  tema = localStorage.getItem("tema");
+  if (tema == null) {
+      tema = "default";
+      document.getElementById("default").checked = true;
+      localStorage.setItem("tema", "default");
+      return
+  }
+  if (tema == "default") {
+      document.body.classList.remove("oldtheme");
+      localStorage.setItem("tema", "default");
+      return
+  }
+  if (tema == "old") {
+      document.body.classList.add("oldtheme");
+      localStorage.setItem("tema", "old");
+  }
+}
+
+function setTema(tema_esc) {
+  tema = tema_esc.value;
+  if (tema == "default") {
+      document.body.classList.remove("oldtheme");
+      localStorage.setItem("tema", "default");
+      return
+  }
+  if (tema == "old") {
+      document.body.classList.add("oldtheme");
+      localStorage.setItem("tema", "old");
+  }
 }
