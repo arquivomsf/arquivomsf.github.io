@@ -142,6 +142,7 @@ function start404(){
                 </li>`;
           }
       })
+    startTema();
 }
 
 function pesquisarJogo() {
@@ -220,6 +221,7 @@ function resetarString() {
 
 function carregarStats(){
     carregarConsoles();
+    startTema();
     let ccounter = 0;
     let jcounter = 0;
     let scounter = 0;

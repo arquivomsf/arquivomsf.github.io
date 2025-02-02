@@ -535,6 +535,10 @@ body.oldtheme > .pagecontent > div > div > a > img.img-fluid {
   margin-bottom: 15px !important;
 }
 
+body.oldtheme > .pagecontent > div > div > a > div > img.img-fluid {
+  margin-bottom: 15px !important;
+}
+
 body.oldtheme > .pagecontent > div > div > a > span.subtitle {
   color: #222 !important;
   font-size: 0.8rem !important;
