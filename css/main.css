@@ -531,11 +531,7 @@ body.oldtheme > .pagecontent > div > div > a > span.title:hover {
   text-decoration: underline;
 }
 
-body.oldtheme > .pagecontent > div > div > a > img.img-fluid {
-  margin-bottom: 15px !important;
-}
-
-body.oldtheme > .pagecontent > div > div > a > div > img.img-fluid {
+body.oldtheme > .pagecontent > div > div > a > img.img-fluid, body.oldtheme > .pagecontent > div > div > a > div > img.img-fluid, body.oldtheme > .pagecontent > div > div > a > span.video-length, body.oldtheme > .pagecontent > div > div > a > div > span.video-length {
   margin-bottom: 15px !important;
 }
 
