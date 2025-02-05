@@ -584,7 +584,7 @@ body[data-tema="old"] > .pagecontent > p > a.btn-dark > i.fa-home {
   color: rgba(51, 51, 51, .6) !important;
 }
 
-body[data-tema="old"] > .pagecontent > p > a.btn-dark:hover body[data-tema="old"] > .pagecontent > p > a.btn-dark > i.fa-home {
+body[data-tema="old"] > .pagecontent > p > a.btn-dark:hover i.fa-home {
   color: rgba(51, 51, 51, 1) !important;
 }
 
