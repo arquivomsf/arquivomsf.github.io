@@ -580,12 +580,8 @@ body[data-tema="old"] > .pagecontent > p > a.btn-dark:hover {
   box-shadow: 0 1px 2px rgba(0,0,0,0.25),inset 0 0 3px #fff !important;
 }
 
-body[data-tema="old"] > .pagecontent > p > a.btn-dark > i.fa-home {
+body[data-tema="old"] > .pagecontent > p > a.btn-dark:not(:hover) i.fa-home {
   color: rgba(51, 51, 51, .6) !important;
-}
-
-body[data-tema="old"] > .pagecontent > p > a.btn-dark:hover i.fa-home {
-  color: rgba(51, 51, 51, 1) !important;
 }
 
 body[data-tema="old"] > .pagecontent > .card, body[data-tema="old"] > .pagecontent > .card > ul, body[data-tema="old"] > .pagecontent > .card > ul > li {
