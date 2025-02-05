@@ -320,6 +320,7 @@ select {
   outline: none !important;
   box-shadow: none;
   color: white;
+  padding: 0.5rem 1rem;
 }
 
 
