@@ -345,14 +345,23 @@ function startTema() {
     }
     if (tema == "default") {
         document.body.classList.remove("theme-old");
+        document.body.classList.remove("theme-dracula");
         document.getElementById("themes_select").value = tema;
         localStorage.setItem("tema", "default");
         return
     }
     if (tema == "old") {
+        document.body.classList.remove("theme-dracula");
         document.body.classList.add("theme-old");
         document.getElementById("themes_select").value = tema;
         localStorage.setItem("tema", "old");
+        return
+    }
+    if (tema == "dracula") {
+        document.body.classList.remove("theme-old");
+        document.body.classList.add("theme-dracula");
+        document.getElementById("themes_select").value = tema;
+        localStorage.setItem("tema", "dracula");
     }
 }
 
@@ -360,11 +369,19 @@ function setTema(tema_esc) {
     tema = tema_esc.value;
     if (tema == "default") {
         document.body.classList.remove("theme-old");
+        document.body.classList.remove("theme-dracula");
         localStorage.setItem("tema", "default");
         return
     }
     if (tema == "old") {
+        document.body.classList.remove("theme-dracula");
         document.body.classList.add("theme-old");
         localStorage.setItem("tema", "old");
+        return
+    }
+    if (tema == "dracula") {
+        document.body.classList.remove("theme-old");
+        document.body.classList.add("theme-dracula");
+        localStorage.setItem("tema", "dracula");
     }
 }
