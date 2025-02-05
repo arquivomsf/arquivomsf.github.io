@@ -77,50 +77,18 @@ function startTema() {
   tema = localStorage.getItem("tema");
   if (tema == null) {
       tema = "default";
-      //document.getElementById("default").checked = true;
       document.getElementById("themes_select").value = tema;
-      localStorage.setItem("tema", "default");
+      document.body.setAttribute("data-tema", tema);
+      localStorage.setItem("tema", tema);
       return
   }
-  if (tema == "default") {
-      document.body.classList.remove("theme-old");
-      document.body.classList.remove("theme-dracula");
-      document.getElementById("themes_select").value = tema;
-      localStorage.setItem("tema", "default");
-      return
-  }
-  if (tema == "old") {
-      document.body.classList.remove("theme-dracula");
-      document.body.classList.add("theme-old");
-      document.getElementById("themes_select").value = tema;
-      localStorage.setItem("tema", "old");
-      return
-  }
-  if (tema == "dracula") {
-      document.body.classList.remove("theme-old");
-      document.body.classList.add("theme-dracula");
-      document.getElementById("themes_select").value = tema;
-      localStorage.setItem("tema", "dracula");
-  }
+  document.getElementById("themes_select").value = tema;
+  document.body.setAttribute("data-tema", tema);
+  localStorage.setItem("tema", tema);
 }
 
 function setTema(tema_esc) {
   tema = tema_esc.value;
-  if (tema == "default") {
-      document.body.classList.remove("theme-old");
-      document.body.classList.remove("theme-dracula");
-      localStorage.setItem("tema", "default");
-      return
-  }
-  if (tema == "old") {
-      document.body.classList.remove("theme-dracula");
-      document.body.classList.add("theme-old");
-      localStorage.setItem("tema", "old");
-      return
-  }
-  if (tema == "dracula") {
-      document.body.classList.remove("theme-old");
-      document.body.classList.add("theme-dracula");
-      localStorage.setItem("tema", "dracula");
-  }
+  document.body.setAttribute("data-tema", tema);
+  localStorage.setItem("tema", tema);
 }

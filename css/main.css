@@ -324,38 +324,38 @@ select {
 
 
 /*old theme*/
-body.theme-old {
+body[data-tema="old"] {
   font-family: Arial !important;
 }
 
-body.theme-old > .navbar {
+body[data-tema="old"] > .navbar {
   background-color: rgb(241, 241, 241) !important;
   color: rgb(51, 51, 51) !important;
 }
 
-body.theme-old > .navbar > .offcanvas {
+body[data-tema="old"] > .navbar > .offcanvas {
   /*background-color: rgb(241, 241, 241) !important;
   color: rgb(51, 51, 51) !important;*/
   background-color: #272727;
 }
 
-body.theme-old > .navbar > center > div > span.page-name {
+body[data-tema="old"] > .navbar > center > div > span.page-name {
   color: rgb(51, 51, 51) !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
   color: #fff !important;
   padding: 0.5rem 1rem !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-body > ul > li {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > ul > li {
   border-top: 1px solid #323232 !important;
   border-bottom: 1px solid #1b1b1b !important;
   border-left: 0 !important;
   color: #ededed !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-body > ul > li:hover {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > ul > li:hover {
   border-top: 1px solid #323232 !important;
   border-bottom: 1px solid #1b1b1b !important;
   color: #ededed !important;
@@ -363,20 +363,20 @@ body.theme-old > .navbar > .offcanvas > .offcanvas-body > ul > li:hover {
   background: #1c1c1c !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-body > ul > li > a, body.theme-old > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a, body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
   padding: 0.5rem 1rem;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-body > ul > li > .switch {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > ul > li > .switch {
   margin: 0.5rem 1rem;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
   margin: 0.5rem 1rem;
   width: 90% !important;
 }
 
-body.theme-old > .navbar > center > div > button {
+body[data-tema="old"] > .navbar > center > div > button {
   color: rgba(51, 51, 51, .6) !important;
   background-color: rgb(249, 249, 249) !important;
   border: 1px solid rgb(213, 213, 213) !important;
@@ -384,7 +384,7 @@ body.theme-old > .navbar > center > div > button {
   border-radius: 4px !important;
 }
 
-body.theme-old > .navbar > center > div > button:hover {
+body[data-tema="old"] > .navbar > center > div > button:hover {
   color: rgba(51, 51, 51, 1) !important;
   background-color: rgb(249, 249, 249) !important;
   border: 1px solid rgb(213, 213, 213) !important;
@@ -394,7 +394,7 @@ body.theme-old > .navbar > center > div > button:hover {
   box-shadow: 0 1px 2px rgba(0,0,0,0.25),inset 0 0 3px #fff !important;
 }
 
-body.theme-old > .navbar > div > div > button {
+body[data-tema="old"] > .navbar > div > div > button {
   color: rgba(51, 51, 51, .6) !important;
   background-color: rgb(249, 249, 249) !important;
   border: 1px solid rgb(213, 213, 213) !important;
@@ -402,7 +402,7 @@ body.theme-old > .navbar > div > div > button {
   border-radius: 4px !important;
 }
 
-body.theme-old > .navbar > div > div > button:hover {
+body[data-tema="old"] > .navbar > div > div > button:hover {
   color: rgba(51, 51, 51, 1) !important;
   background-color: rgb(249, 249, 249) !important;
   border: 1px solid rgb(213, 213, 213) !important;
@@ -412,7 +412,7 @@ body.theme-old > .navbar > div > div > button:hover {
   box-shadow: 0 1px 2px rgba(0,0,0,0.25),inset 0 0 3px #fff !important;
 }
 
-body.theme-old > .navbar > center > div > a.home-icon > button {
+body[data-tema="old"] > .navbar > center > div > a.home-icon > button {
   color: rgba(51, 51, 51, .6) !important;
   background-color: rgb(249, 249, 249) !important;
   border: 1px solid rgb(213, 213, 213) !important;
@@ -420,7 +420,7 @@ body.theme-old > .navbar > center > div > a.home-icon > button {
   border-radius: 4px !important;
 }
 
-body.theme-old > .navbar > center > div > a.home-icon > button:hover {
+body[data-tema="old"] > .navbar > center > div > a.home-icon > button:hover {
   color: rgba(51, 51, 51, 1) !important;
   background-color: rgb(249, 249, 249) !important;
   border: 1px solid rgb(213, 213, 213) !important;
@@ -430,21 +430,21 @@ body.theme-old > .navbar > center > div > a.home-icon > button:hover {
   box-shadow: 0 1px 2px rgba(0,0,0,0.25),inset 0 0 3px #fff !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-header {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-header {
   background: #6a6a6a !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-body {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body {
   background-color: #272727 !important;
   padding: 0 0 0 0 !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-body > ul {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > ul {
   padding-right: 0 !important;
   margin-top: -25px !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-header > button {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-header > button {
   /*
   color: rgb(51, 51, 51) !important;
   background-color: rgb(249, 249, 249) !important;
@@ -463,30 +463,30 @@ body.theme-old > .navbar > .offcanvas > .offcanvas-header > button {
   opacity: 1 !important;
 }
 
-body.theme-old > .navbar > .offcanvas > .offcanvas-header > button::before {
+body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-header > button::before {
   /*content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z'/%3E%3C/svg%3E") !important;*/
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z'/%3E%3C/svg%3E");
   color: #fff !important;
 }
 
-body.theme-old > .navbar > div > div > div > input {
+body[data-tema="old"] > .navbar > div > div > div > input {
   color: rgb(51, 51, 51) !important;
   background-color: rgb(255, 255, 255) !important;
   border: 1px solid rgb(213, 213, 213) !important;
   border-radius: 4px !important;
 }
 
-body.theme-old > .navbar > center > div > button.pesquisar-btn {
+body[data-tema="old"] > .navbar > center > div > button.pesquisar-btn {
   margin-right: 5px !important;
 }
 
-body.theme-old > .pagecontent {
+body[data-tema="old"] > .pagecontent {
   text-align: left !important;
   align-content: center !important;
   margin-bottom: 20px !important;
 }
 
-body.theme-old > .pagecontent > div.row {
+body[data-tema="old"] > .pagecontent > div.row {
   display: grid !important;
   /*grid-template: auto / 88% !important;*/
   row-gap: 0.5rem !important;
@@ -495,26 +495,26 @@ body.theme-old > .pagecontent > div.row {
 }
 
 @media only screen and (max-width: 575px) {
-  body.theme-old > .pagecontent > div.row {
+  body[data-tema="old"] > .pagecontent > div.row {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
 
 @media only screen and (min-width: 576px) {
-  body.theme-old > .pagecontent > div.row {
+  body[data-tema="old"] > .pagecontent > div.row {
     /*grid-template: auto / 44% 44% !important;*/
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  body.theme-old > .pagecontent > div.row {
+  body[data-tema="old"] > .pagecontent > div.row {
     /*grid-template: auto / 22% 22% 22% 22% !important;*/
     grid-template-columns: repeat(4, 1fr) !important;
   }
 }
 
-body.theme-old > .pagecontent > div > div.col {
+body[data-tema="old"] > .pagecontent > div > div.col {
   border: 1px solid rgb(213, 213, 213) !important;
   width: 100% !important;
   height: 100% !important;
@@ -522,39 +522,39 @@ body.theme-old > .pagecontent > div > div.col {
   padding-bottom: 20px !important;
 }
 
-body.theme-old > .pagecontent > div > div.col:hover {
+body[data-tema="old"] > .pagecontent > div > div.col:hover {
   background: #f6f6f6 !important;
   border: 1px solid #ebebeb !important;
 }
 
-body.theme-old > .pagecontent > div > div.col:hover a > span.subtitle {
+body[data-tema="old"] > .pagecontent > div > div.col:hover a > span.subtitle {
   color: #438bc5 !important;
 }
 
-body.theme-old > .pagecontent > div > div > a > span {
+body[data-tema="old"] > .pagecontent > div > div > a > span {
   margin-left: 1px !important;
   margin-right: 1px !important;
 }
 
-body.theme-old > .pagecontent > div > div > a > span.title {
+body[data-tema="old"] > .pagecontent > div > div > a > span.title {
   color: #438bc5 !important;
   font-weight: bold !important;
 }
 
-body.theme-old > .pagecontent > div > div > a > span.title:hover {
+body[data-tema="old"] > .pagecontent > div > div > a > span.title:hover {
   text-decoration: underline;
 }
 
-body.theme-old > .pagecontent > div > div > a > img.img-fluid, body.theme-old > .pagecontent > div > div > a > div > img.img-fluid, body.theme-old > .pagecontent > div > div > a > span.video-length, body.theme-old > .pagecontent > div > div > a > div > span.video-length {
+body[data-tema="old"] > .pagecontent > div > div > a > img.img-fluid, body[data-tema="old"] > .pagecontent > div > div > a > div > img.img-fluid, body[data-tema="old"] > .pagecontent > div > div > a > span.video-length, body[data-tema="old"] > .pagecontent > div > div > a > div > span.video-length {
   margin-bottom: 15px !important;
 }
 
-body.theme-old > .pagecontent > div > div > a > span.subtitle {
+body[data-tema="old"] > .pagecontent > div > div > a > span.subtitle {
   color: #222 !important;
   font-size: 0.8rem !important;
 }
 
-body.theme-old > .pagecontent > div > div > a > span.subtitle:hover {
+body[data-tema="old"] > .pagecontent > div > div > a > span.subtitle:hover {
   text-decoration: underline;
 }
 
@@ -575,59 +575,59 @@ body.theme-old > .pagecontent > div > div > a > span.subtitle:hover {
   --dracula-yellow: #f1fa8c;
 }
 
-body.theme-dracula {
+body[data-tema="dracula"] {
   background-color: var(--dracula-bg) !important;
 }
 
-body.theme-dracula > .navbar {
+body[data-tema="dracula"] > .navbar {
   background-color: var(--dracula-sel) !important;
   color: var(--dracula-fg) !important;
 }
 
-body.theme-old > .navbar > center > div > span.page-name {
+body[data-tema="dracula"] > .navbar > center > div > span.page-name {
   color: var(--dracula-fg) !important;
 }
 
-body.theme-dracula > .navbar > center > div > button {
+body[data-tema="dracula"] > .navbar > center > div > button {
   background-color: var(--dracula-sel) !important;
 }
 
-body.theme-dracula > .navbar > center > div > a.home-icon > button {
+body[data-tema="dracula"] > .navbar > center > div > a.home-icon > button {
   background-color: var(--dracula-sel) !important;
 }
 
-body.theme-dracula > .pagecontent > div > div > a > span.title {
+body[data-tema="dracula"] > .pagecontent > div > div > a > span.title {
   color: var(--dracula-red) !important;
 }
 
-body.theme-dracula > .pagecontent > div > div > a > span.subtitle {
+body[data-tema="dracula"] > .pagecontent > div > div > a > span.subtitle {
   color: var(--dracula-orange) !important;
   font-style: italic !important;
 }
 
-body.theme-dracula > .pagecontent > div > div > a > span.video-length, body.theme-dracula > .pagecontent > div > div > a > div > span.video-length {
+body[data-tema="dracula"] > .pagecontent > div > div > a > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.video-length {
   color: var(--dracula-fg) !important;
 }
 
-body.theme-dracula > .navbar > .offcanvas {
+body[data-tema="dracula"] > .navbar > .offcanvas {
   background-color: var(--dracula-sel) !important;
 }
 
-body.theme-dracula > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
+body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
   color: var(--dracula-red) !important;
 }
 
-body.theme-dracula > .navbar > .offcanvas > .offcanvas-body > ul > li > a {
+body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a {
   color: var(--dracula-orange) !important;
   font-style: italic !important;
 }
 
-body.theme-dracula > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
   background-color: var(--dracula-sel) !important;
   border: 1px solid var(--dracula-fg) !important;
   color: var(--dracula-orange) !important;
 }
 
-body.theme-dracula > .pagecontent > div > div.col > p {
+body[data-tema="dracula"] > .pagecontent > div > div.col > p {
   color: var(--dracula-fg) !important;
 }
