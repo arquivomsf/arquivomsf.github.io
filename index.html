@@ -16,7 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body onload="start()">
+  <body class="dracula" onload="start()">
     <!--<div class="navbar navbar-dark bg-dark fixed-top default-container">
       <div class="container">
       <div class="hstack gap-3">
@@ -68,18 +68,10 @@
           <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Tema</h5><br>
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page">Padrão</a>
-              <label class="switch">
-                <input type="radio" id="default" onclick="setTema(this);" name="choose_theme" value="default">
-                <span class="slider round"></span>
-              </label>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page">Velho</a>
-              <label class="switch">
-                <input type="radio" id="old" onclick="setTema(this);" name="choose_theme" value="old">
-                <span class="slider round"></span>
-              </label>
+              <select onchange="setTema(this);" name="choose_theme" id="themes_select">
+                <option value="default">Padrão</option>
+                <option value="old">Velho</option>
+              </select>
             </li>
           </ul>
         </div>

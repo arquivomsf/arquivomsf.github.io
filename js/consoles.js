@@ -160,17 +160,20 @@ function startTema() {
     tema = localStorage.getItem("tema");
     if (tema == null) {
         tema = "default";
-        document.getElementById("default").checked = true;
+        //document.getElementById("default").checked = true;
+        document.getElementById("themes_select").value = tema;
         localStorage.setItem("tema", "default");
         return
     }
     if (tema == "default") {
-        document.body.classList.remove("oldtheme");
+        document.body.classList.remove("theme-old");
+        document.getElementById("themes_select").value = tema;
         localStorage.setItem("tema", "default");
         return
     }
     if (tema == "old") {
-        document.body.classList.add("oldtheme");
+        document.body.classList.add("theme-old");
+        document.getElementById("themes_select").value = tema;
         localStorage.setItem("tema", "old");
     }
 }
@@ -178,12 +181,12 @@ function startTema() {
 function setTema(tema_esc) {
     tema = tema_esc.value;
     if (tema == "default") {
-        document.body.classList.remove("oldtheme");
+        document.body.classList.remove("theme-old");
         localStorage.setItem("tema", "default");
         return
     }
     if (tema == "old") {
-        document.body.classList.add("oldtheme");
+        document.body.classList.add("theme-old");
         localStorage.setItem("tema", "old");
     }
 }
