@@ -772,6 +772,11 @@ body[data-tema="terminal"] > .navbar > center > div > a.home-icon > button {
   background-color: black !important;
 }
 
+body[data-tema="terminal"] > .pagecontent > p > a.btn-dark {
+  background-color: black !important;
+  color: white !important;
+}
+
 body[data-tema="terminal"] > .navbar > div > div > div > input {
   background-color: black !important;
 }
