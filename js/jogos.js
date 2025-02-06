@@ -26,32 +26,6 @@ function carregarVideos() {
               if (i == 0) {
                 document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/1.${vimagem}`);
               }
-              /*document.querySelector("#jsonParent").innerHTML += `
-                <div class="col">
-                  <a href="${vlink}" class="blacklink">
-                    <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon"><br>
-                    <span class="flow-text title">${vnome}</span>
-                  </a>
-                </div>`;*/
-                /*document.querySelector("#jsonParent").innerHTML += `
-                <div class="col">
-                  <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&id=${i}" class="blacklink">
-                    <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon"><br>
-                    <span class="flow-text title">${vnome}</span>
-                  </a>
-                </div>`;*/
-                /*
-                document.querySelector("#jsonParent").innerHTML += `
-                <div class="col">
-                  <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&id=${i}" class="blacklink">
-                    <div class="thumbnail">
-                      <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
-                      <span class="video-length">${vduracao}</span>
-                    </div>
-                    <span class="flow-text title">${vnome}</span>
-                  </a>
-                </div>`;
-                */
                 let vplat = data.videos[i].plataforma;
                 let vlinkyt = data.videos[i].linkyt;
                 if (vplat == "gdrive") {

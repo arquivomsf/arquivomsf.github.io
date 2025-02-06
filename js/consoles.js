@@ -1,5 +1,4 @@
 var pathnameArray = window.location.pathname.split("/");
-/*var consoleAtual = pathnameArray[2];*/
 var consoleAtual;
 var stringPesquisa = "";
 var pesquisando = 0;
@@ -42,7 +41,6 @@ function carregarJogos() {
               nomecomp = nomecomp.replaceAll(/[óôõöÓÔÕÖ]/g,"o");
               nomecomp = nomecomp.replaceAll(/[Ç]/g,"c");
               nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
-              /*console.log("stringPesquisa: "+ stringPesquisa.toLowerCase() + " " + "nomecomp: " + nomecomp.toLowerCase());*/
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
                 if(jconsigla == consoleAtual){
                     document.querySelector("#jsonParent").innerHTML += `
@@ -109,9 +107,6 @@ function setPesquisa() {
         document.querySelector(".default-container").style.display = "block";
         document.querySelector(".search-container").style.display = "none";
         let allSearchBtn = document.querySelectorAll(".pesquisar-btn");
-        /*for (let i = 0; i < allSearchBtn.length; i++) {
-            allSearchBtn[i].innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-search" viewBox="0 2 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>';
-        }*/
         for (let i = 0; i < allSearchBtn.length; i++) {
             allSearchBtn[i].innerHTML = '<i class="fa fa-search"></i>';
         }
@@ -120,9 +115,6 @@ function setPesquisa() {
         document.querySelector(".search-container").style.display = "block";
         document.querySelector("#inputPesquisa").focus();
         let allSearchBtn = document.querySelectorAll(".pesquisar-btn");
-        /*for (let i = 0; i < allSearchBtn.length; i++) {
-            allSearchBtn[i].innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-x-lg" viewBox="0 2 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg>';
-        }*/
         for (let i = 0; i < allSearchBtn.length; i++) {
             allSearchBtn[i].innerHTML = '<i class="fa fa-close"></i>';
         }

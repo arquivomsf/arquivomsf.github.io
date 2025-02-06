@@ -56,19 +56,7 @@ body > .container {
 .navbartext, .home-icon {
   color: white !important;
 }
-/*
-@media (max-width: 575px) {
-  .page-name {
-    font-size: 4.2vw !important;
-  }
-}
 
-@media (min-width: 576px) {
-  .page-name {
-    font-size: 1.25rem !important;
-  }
-}
-*/
 .col {
   margin: 1rem 0;
 }
@@ -142,54 +130,13 @@ a:active {
   background-color: rgba(0, 0, 0, 0.7);
   padding-left: 3px;
   padding-right: 3px;
-  /*font-family: "Arial", serif !important;*/
 }
 
 .fake-container {
-  /*align-items: center;*/
   padding-left: calc(1.5rem * .5);
   padding-right: calc(1.5rem * .5);
-  /*justify-content: space-between;*/
   width: 100%;
 }
-
-/*
-@media only screen and (max-width: 575px) {
-  .fake-container {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-  .fake-container {
-    width: 540px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .fake-container {
-    width: 720px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .fake-container {
-    width: 960px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .fake-container {
-    width: 1140px;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .fake-container {
-    width: 1320px;
-  }
-}
-*/
 
 .float-left {
   float: left !important;
@@ -200,15 +147,12 @@ a:active {
 }
 
 .page-name {
-  /*max-width: 100%;*/
   overflow: hidden;
   text-overflow: ellipsis;
   color: white;
-  /*font-size: clamp(1rem, 2.5vw, 1.25rem) !important;*/
   font-size: 1.25rem;
   display: block;
   padding-top: .25rem;
-  /*padding-bottom: .5rem;*/
 }
 
 .page-name-home {
@@ -262,10 +206,6 @@ a:active {
 .always-block {
   display: block !important;
 }
-
-/*.name-wrapper {
-  max-width: 60vw;
-}*/
 
 #inputPesquisa:focus {
   background-color: #3b3b3b;
@@ -377,8 +317,6 @@ body[data-tema="old"] > .navbar {
 }
 
 body[data-tema="old"] > .navbar > .offcanvas {
-  /*background-color: rgb(241, 241, 241) !important;
-  color: rgb(51, 51, 51) !important;*/
   background-color: #272727;
 }
 
@@ -488,12 +426,6 @@ body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > ul {
 }
 
 body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-header > button {
-  /*
-  color: rgb(51, 51, 51) !important;
-  background-color: rgb(249, 249, 249) !important;
-  border: 1px solid rgb(213, 213, 213) !important;
-  background-image: linear-gradient(#fefefe, #e3e3e3) !important;
-  */
   background: 0 !important;
   color: #fff !important;
   border: 1px solid rgb(213, 213, 213) !important;
@@ -532,10 +464,8 @@ body[data-tema="old"] > .pagecontent {
 
 body[data-tema="old"] > .pagecontent > div.row {
   display: grid !important;
-  /*grid-template: auto / 88% !important;*/
   row-gap: 0.5rem !important;
   column-gap: 1rem !important;
-  /*width: 100% !important;*/
 }
 
 @media only screen and (max-width: 575px) {
@@ -546,14 +476,12 @@ body[data-tema="old"] > .pagecontent > div.row {
 
 @media only screen and (min-width: 576px) {
   body[data-tema="old"] > .pagecontent > div.row {
-    /*grid-template: auto / 44% 44% !important;*/
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 
 @media only screen and (min-width: 768px) {
   body[data-tema="old"] > .pagecontent > div.row {
-    /*grid-template: auto / 22% 22% 22% 22% !important;*/
     grid-template-columns: repeat(4, 1fr) !important;
   }
 }
