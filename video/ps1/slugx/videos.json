@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Metal Slug X (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvvnCnS8XNajYcfKW_5cg_8H",
+            "quantidade": "2"
+        }
+    ],
     "videos": [
         {
             "nome": "Metal Slug X de PlayStation 1 - Parte 1",

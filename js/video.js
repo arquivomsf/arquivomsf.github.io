@@ -7,7 +7,6 @@ function carregarDados() {
   procurarParam();
   carregarVideos();
   carregarConsoles();
-  startTema();
 }
 
 function procurarParam() {
@@ -70,6 +69,13 @@ function carregarConsoles() {
               <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
             </li>`;
       }
+      for (var i = 0; i<data.temas.length; i++){
+        let tnome = data.temas[i].nome;
+        let tvalor = data.temas[i].valor;
+        document.querySelector("#themes_select").innerHTML += `
+          <option value="${tvalor}">${tnome}</option>`;
+      }
+      startTema();
   })
 }
 

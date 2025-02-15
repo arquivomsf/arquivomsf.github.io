@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Bob Esponja (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvs6kEhCWP6eTx7jXo3lV8q9",
+            "quantidade": "8"
+        }
+    ],
     "videos": [
         {
             "nome": "Bob Esponja de PlayStation 1 - Parte 1",

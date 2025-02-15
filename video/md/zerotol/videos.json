@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Zero Tolerance (MD)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvvExT_FzITR3nEt_i9Zy-nY",
+            "quantidade": "13"
+        }
+    ],
     "videos": [
         {
             "nome": "Zero Tolerance de Mega Drive - Parte 1",

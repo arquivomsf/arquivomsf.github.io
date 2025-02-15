@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Sonic The Hedgehog (MD)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvuyrihR_1UZ6kec-paeWPdo",
+            "quantidade": "4"
+        }
+    ],
     "videos": [
         {
             "nome": "Sonic The Hedgehog de Mega Drive - Parte 1",

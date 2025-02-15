@@ -28,6 +28,21 @@
   src: url('../assets/fonts/adwaita-mono/AdwaitaMono-BoldItalic.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'MPlus-Regular';
+  src: url('../assets/fonts/mplus/mplus-1p-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MPlus-Bold';
+  src: url('../assets/fonts/mplus/mplus-1p-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InterUI-Regular';
+  src: url('../assets/fonts/inter-ui/inter-ui-regular.ttf') format('truetype');
+}
+
 body {
   font-family: 'AdwaitaSans-Regular' !important;
 }
@@ -130,6 +145,26 @@ a:active {
   background-color: rgba(0, 0, 0, 0.7);
   padding-left: 3px;
   padding-right: 3px;
+}
+
+.playlist-length {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 25%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.playlist-info-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .fake-container {
@@ -517,7 +552,7 @@ body[data-tema="old"] > .pagecontent > div > div > a > span.title:hover {
   text-decoration: underline;
 }
 
-body[data-tema="old"] > .pagecontent > div > div > a > img.img-fluid, body[data-tema="old"] > .pagecontent > div > div > a > div > img.img-fluid, body[data-tema="old"] > .pagecontent > div > div > a > span.video-length, body[data-tema="old"] > .pagecontent > div > div > a > div > span.video-length {
+body[data-tema="old"] > .pagecontent > div > div > a > div.thumbnail {
   margin-bottom: 15px !important;
 }
 
@@ -625,7 +660,7 @@ body[data-tema="dracula"] > .pagecontent > div > div > a > span.subtitle {
   font-style: italic !important;
 }
 
-body[data-tema="dracula"] > .pagecontent > div > div > a > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.video-length {
+body[data-tema="dracula"] > .pagecontent > div > div > a > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.playlist-length {
   color: var(--dracula-fg) !important;
 }
 
@@ -659,6 +694,28 @@ body[data-tema="dracula"] > .pagecontent > p, body[data-tema="dracula"] > .pagec
 body[data-tema="dracula"] > .pagecontent > p > a.btn-dark {
   background-color: var(--dracula-sel) !important;
   color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > .card, body[data-tema="dracula"] > .pagecontent > .card > ul, body[data-tema="dracula"] > .pagecontent > .card > ul > li {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: var(--dracula-bg) !important;
+  color: var(--dracula-orange) !important;
+  font-style: italic;
+}
+
+body[data-tema="dracula"] > .pagecontent > .card > ul > li {
+  padding-left: 0 !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > .card > ul > li::before {
+  content: "•";
+  margin-right: 5px;
+}
+
+body[data-tema="dracula"] > .pagecontent > p > i:not(.fa) {
+  font-style: normal;
+  color: var(--dracula-purple) !important;
 }
 
 
@@ -715,4 +772,251 @@ body[data-tema="terminal"] > .navbar > .offcanvas {
 
 body[data-tema="terminal"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
   background-color: black !important;
+}
+
+body[data-tema="terminal"] > .pagecontent > .card, body[data-tema="terminal"] > .pagecontent > .card > ul, body[data-tema="terminal"] > .pagecontent > .card > ul > li {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+body[data-tema="terminal"] > .pagecontent > .card > ul > li {
+  padding-left: 0 !important;
+}
+
+body[data-tema="terminal"] > .pagecontent > .card > ul > li::before {
+  content: ">";
+  margin-right: 5px;
+}
+
+body[data-tema="terminal"] > .pagecontent > p > i:not(.fa) {
+  font-style: normal;
+  &::before {
+    content: "[";
+  }
+  &::after {
+    content: "]";
+  }
+}
+
+
+/*retro theme*/
+body[data-tema="retro"] {
+  font-family: 'InterUI-Regular' !important;
+  background-color: #282828 !important;
+  color: white !important;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > span.title {
+  color: white !important;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > img.img-fluid, body[data-tema="retro"] > .pagecontent > div > div > a > div > img.img-fluid {
+  border-bottom: 1px solid #51514F;
+  padding-bottom: 10px;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > div > .playlist-length {
+  height: calc(100% - 10px);
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > div > .video-length {
+  margin-bottom: 10px;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > span.subtitle {
+  color: #99999B !important;
+  font-size: 0.9rem !important;
+}
+
+body[data-tema="retro"] > .navbar {
+  background-color: #282828 !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > span.page-name {
+  font-family: 'MPlus-Bold' !important;
+  color: #00D9AE !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > button {
+  background-color: #282828 !important;
+}
+
+body[data-tema="retro"] > .navbar > div > div > button:not(.btn-close) {
+  background-color: #282828 !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > a.home-icon > button {
+  background-color: #282828 !important;
+}
+
+body[data-tema="retro"] > .pagecontent > p > a.btn-dark {
+  background-color: #282828 !important;
+  color: white !important;
+}
+
+body[data-tema="retro"] > .navbar > div > div > div > input {
+  background-color: #2D2D2D !important;
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas {
+  background-color: #2D2D2D !important;
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+  background-color: #2D2D2D !important;
+  border: 0 !important;
+  padding-left: 0 !important;
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
+  font-family: 'MPlus-Bold' !important;
+  color: #00D9AE !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > button.pesquisar-btn {
+  margin-right: 5px !important;
+}
+
+body[data-tema="retro"] > .pagecontent > .card, body[data-tema="retro"] > .pagecontent > .card > ul, body[data-tema="retro"] > .pagecontent > .card > ul > li {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #282828 !important;
+  color: white !important;
+}
+
+body[data-tema="retro"] > .pagecontent > .card > ul {
+  border-top: 1px solid #51514F !important;
+}
+
+body[data-tema="retro"] > .pagecontent > .card > ul > li {
+  padding-left: 0 !important;
+  border-bottom: 1px solid #51514F !important;
+}
+
+body[data-tema="retro"] > .pagecontent > div > .col:not(:hover) {
+  padding: 4px 4px 4px 4px !important;
+}
+
+body[data-tema="retro"] > .pagecontent > div > .col:hover {
+  padding: 4px 4px 4px 4px !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas > .offcanvas-body > ul > li:not(:hover) {
+  padding: 4px 4px 4px 4px !important;
+  border-top: 1px solid #51514F;
+  border-bottom: 1px solid #51514F;
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas > .offcanvas-body > ul > li:hover {
+  padding: 5px 4px 5px 4px !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+body[data-tema="retro"] > .navbar > center > div > button:not(:hover), body[data-tema="retro"] > .navbar > center > div > a > button:not(:hover) {
+  color: white !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > button:hover, body[data-tema="retro"] > .navbar > center > div > a > button:hover {
+  color: #00D9AE !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+body[data-tema="retro"] > .navbar > div > div > button:not(:hover) {
+  color: white !important;
+}
+
+body[data-tema="retro"] > .navbar > div > div > button:hover {
+  color: #00D9AE !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+body[data-tema="retro"] > .pagecontent > p > a.btn-dark:not(:hover) {
+  color: white !important;
+}
+
+body[data-tema="retro"] > .pagecontent > p > a.btn-dark:hover {
+  color: #00D9AE !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+@keyframes borderColor {
+  0% {
+    background-color: #268FC2;
+  }
+  100% {
+    background-color: #82E4E6;
+  }
 }

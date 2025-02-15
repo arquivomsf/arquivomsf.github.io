@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Homem Aranha 2 (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvtHE6X6S5Ok-C4O3DxcEsd-",
+            "quantidade": "6"
+        }
+    ],
     "videos": [
         {
             "nome": "Homem Aranha 2 de PlayStation 1 - Parte 1",

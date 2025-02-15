@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Nightmare Creatures (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvt_VXLnWjqCZuZ7svmyY3pM",
+            "quantidade": "13"
+        }
+    ],
     "videos": [
         {
             "nome": "Nightmare Creatures de PlayStation 1 - Parte 1",

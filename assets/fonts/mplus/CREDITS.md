@@ -1,0 +1,1 @@
+[M+ P Type-1 Regular](http://mplus-fonts.osdn.jp/design.html#mplus_p1) typeface by the [M+ Fonts Project](http://mplus-fonts.osdn.jp/) covered under the [Free License](http://mplus-fonts.osdn.jp/about-en.html#license).

@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "The Lost World Jurassic Park (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvsiMz3cFR8oEoqr8TToHQQB",
+            "quantidade": "13"
+        }
+    ],
     "videos": [
         {
             "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 1",

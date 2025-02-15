@@ -6,7 +6,6 @@ function carregarDados() {
   procurarParam();
   carregarVideos();
   carregarConsoles();
-  startTema();
 }
 
 function procurarParam() {
@@ -16,6 +15,33 @@ function procurarParam() {
 }
 
 function carregarVideos() {
+    fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
+      .then(response => response.json())
+      .then(data => {
+        if (data.hasOwnProperty("playlist")) {
+        for (var i = 0; i<data.playlist.length; i++){
+          let pnome = data.playlist[i].nome;
+          let pimagem = data.playlist[i].imagem;
+          let plink = data.playlist[i].link;
+          let pquantidade = data.playlist[i].quantidade;
+          document.querySelector("#jsonParent").innerHTML += `
+                    <div class="col">
+                      <a href="${plink}" target="_blank" class="blacklink">
+                        <div class="thumbnail">
+                          <img src="video/${consoleAtual}/${jogoAtual}/1.${pimagem}" alt="" class="img-fluid linkicon">
+                          <div class="playlist-length">
+                            <div class="playlist-info-wrapper">
+                              <i class="fa fa-list"></i>
+                              <span>${pquantidade}</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="flow-text title">${pnome}</span>
+                      </a>
+                    </div>`;
+        }
+      }
+      })
     fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
       .then(response => response.json())
       .then(data => {
@@ -67,6 +93,13 @@ function carregarConsoles() {
               <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
             </li>`;
       }
+      for (var i = 0; i<data.temas.length; i++){
+        let tnome = data.temas[i].nome;
+        let tvalor = data.temas[i].valor;
+        document.querySelector("#themes_select").innerHTML += `
+          <option value="${tvalor}">${tnome}</option>`;
+      }
+      startTema();
   })
   fetch("dados.json")
   .then(response => response.json())

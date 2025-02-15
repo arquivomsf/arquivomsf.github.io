@@ -497,5 +497,27 @@
             "nome": "PlayStation 2",
             "sigla": "ps2"
         }
+    ],
+    "temas": [
+        {
+            "nome": "Padrão",
+            "valor": "default"
+        },
+        {
+            "nome": "Velho",
+            "valor": "old"
+        },
+        {
+            "nome": "Dracula",
+            "valor": "dracula"
+        },
+        {
+            "nome": "Terminal",
+            "valor": "terminal"
+        },
+        {
+            "nome": "Retro",
+            "valor": "retro"
+        }
     ]
 }

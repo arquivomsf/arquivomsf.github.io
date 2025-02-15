@@ -6,7 +6,6 @@ function start() {
     resetarString();
     setPesquisa();
     carregarDados();
-    startTema();
 }
 
 function carregarDados() {
@@ -94,6 +93,13 @@ function carregarConsoles() {
                   <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
                 </li>`;
           }
+          for (var i = 0; i<data.temas.length; i++){
+            let tnome = data.temas[i].nome;
+            let tvalor = data.temas[i].valor;
+            document.querySelector("#themes_select").innerHTML += `
+              <option value="${tvalor}">${tnome}</option>`;
+          }
+          startTema();
       })
 }
 
@@ -109,8 +115,14 @@ function start404(){
                   <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
                 </li>`;
           }
+          for (var i = 0; i<data.temas.length; i++){
+            let tnome = data.temas[i].nome;
+            let tvalor = data.temas[i].valor;
+            document.querySelector("#themes_select").innerHTML += `
+              <option value="${tvalor}">${tnome}</option>`;
+          }
+          startTema();
       })
-    startTema();
 }
 
 function pesquisarJogo() {
@@ -183,7 +195,6 @@ function resetarString() {
 
 function carregarStats(){
     carregarConsoles();
-    startTema();
     let ccounter = 0;
     let jcounter = 0;
     let scounter = 0;

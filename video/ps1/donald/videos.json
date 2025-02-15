@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Donald Duck Goin Quackers (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvvr7KQIkIZko_RVQLSYRP5-",
+            "quantidade": "6"
+        }
+    ],
     "videos": [
         {
             "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 1",

@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Disruptor (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvv7wPYtbmnalUmXvRqh98Oe",
+            "quantidade": "14"
+        }
+    ],
     "videos": [
         {
             "nome": "Disruptor de PlayStation 1 - Parte 1",

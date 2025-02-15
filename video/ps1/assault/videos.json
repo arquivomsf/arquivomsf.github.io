@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Assault Retribution (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvv9q-uOfGsxbMHiqHI2fUHN",
+            "quantidade": "4"
+        }
+    ],
     "videos": [
         {
             "nome": "Assault Retribution de PlayStation 1 - Parte 1",
