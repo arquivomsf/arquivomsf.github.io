@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Light Crusader (MD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsaQRW8_D-uckPkZkrgs7a0",
+            "quantidade": "15"
+        }
+    ],
     "videos": [
         {
             "nome": "Light Crusader de Mega Drive - Parte 1",
@@ -84,41 +92,41 @@
             "nome": "Light Crusader de Mega Drive - Parte 11",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1HUrphVVkq10W_VmnNtuwWLHW7T6Fpysr/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/JPSUBWd43es",
             "duracao": "52:33",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Light Crusader de Mega Drive - Parte 12",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1n8Ob8a7HD7U_2uZMeSeBM3ZkLQCwxvye/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/vcflft4cZOA",
             "duracao": "50:47",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Light Crusader de Mega Drive - Parte 13",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1fVT2TicHiJFlGBMiPYbJHAvyBwBiLQST/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/f_8v1-HGNa0",
             "duracao": "58:55",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Light Crusader de Mega Drive - Parte 14",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/16nUtDv6PfJPcCn_3IFxHMfiJQ5O7qrKu/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/VDFSwIntGZQ",
             "duracao": "48:55",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Light Crusader de Mega Drive - Parte 15",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1FN78s_0MWH3UyjD8BVJcVaoKP6EELo3w/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/7WWETm9X58s",
             "duracao": "46:37",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
