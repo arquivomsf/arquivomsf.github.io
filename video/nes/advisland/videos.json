@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Adventure Island (NES)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv6Wb3utAfgWf4QW0knRy79",
+            "quantidade": "9"
+        }
+    ],
     "videos": [
         {
             "nome": "Adventure Island de NES - Parte 1",
@@ -28,49 +36,49 @@
             "nome": "Adventure Island de NES - Parte 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/11m3GJqJmV80aELRxKKAnC8C2ROMKQI0A/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/hKbGnr0nu_w",
             "duracao": "49:08",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Adventure Island de NES - Parte 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1TYjPyz_S78yk44PZnF9pKAWFzcAGRJNA/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/f81S05Bq53s",
             "duracao": "51:24",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Adventure Island de NES - Parte 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1w4U4kwmYjbdHSu64cTO5ORb0u4yxAHrJ/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Z8zlPXyZfqw",
             "duracao": "56:29",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Adventure Island de NES - Parte 7",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ZUjyWkiCScA4i_V8WOc7e7qKi_66Lni2/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/VTvUQ3bTJSQ",
             "duracao": "49:28",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Adventure Island de NES - Parte 8",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/11GNqgRm3KNV6SK3FFAIrPm2FvCHrP_rc/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/gYMrKttuvaY",
             "duracao": "52:01",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Adventure Island de NES - Parte 9 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1-HXOncuOIkor655iJuxHtwm3_ruUEaIj/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/I7dBigJHuQ0",
             "duracao": "16:45",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }

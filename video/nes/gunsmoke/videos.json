@@ -1,28 +1,36 @@
 {
+    "playlist": [
+        {
+            "nome": "Gun.Smoke (NES)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsYVOzRUCYDR5hUxItmw4R_",
+            "quantidade": "3"
+        }
+    ],
     "videos": [
         {
             "nome": "Gun.Smoke de NES - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1bwscnYbsxhEaObYy-iNs_HPGq2iBgbE-/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/14HcJXgxzG0",
             "duracao": "54:48",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gun.Smoke de NES - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1pz9oWIkr7tf2B9bXYTMycvFjlrHXT8FF/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/uJitFqp6_SI",
             "duracao": "52:33",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gun.Smoke de NES - Parte 3 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1NBtF3eDs7n3FDS9c9uM39hIaZzy2hz7-/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/vW9xka30JAc",
             "duracao": "41:23",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
