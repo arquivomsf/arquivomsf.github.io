@@ -1,36 +1,44 @@
 {
+    "playlist": [
+        {
+            "nome": "DuckTales (NES)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvu3JKZ_srB8sZQpRv67jLL8",
+            "quantidade": "4"
+        }
+    ],
     "videos": [
         {
             "nome": "DuckTales de NES - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1uRi7oylOhGY1a1YCpR2tOqoSLUcn9x36/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/QUpcgOE73YU",
             "duracao": "56:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "DuckTales de NES - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1INh-jPFmlsm-vnItx9ZK3T2XIRFZxAYL/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/QWBPSRGEd9E",
             "duracao": "36:28",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "DuckTales de NES - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1gB3PyorT6L5DVAgK69ecQyi66cO-Dtuu/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/B2RHRacQnQQ",
             "duracao": "47:34",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "DuckTales de NES - Parte 4 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1LOGZveGaekxP9uMxLiYapFBbRnnzRqXf/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ie9cFuj0lLk",
             "duracao": "42:17",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
