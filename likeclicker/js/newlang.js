@@ -115,6 +115,15 @@ function updateLang(selLang) {
 
         //FOLLOWER
         followersName = data.upgrade_items[0].followers[0].followersName;
+        document.querySelector(".followers-name").innerHTML = followersName;
+        plusFollower = data.upgrade_items[0].followers[0].plusFollower;
+        document.querySelector(".plus-follower").innerHTML = plusFollower;
+
+        //FAN
+        fansName = data.upgrade_items[0].fans[0].fansName;
+        document.querySelector(".fans-name").innerHTML = fansName;
+        plusFan = data.upgrade_items[0].fans[0].plusFan;
+        document.querySelector(".plus-fan").innerHTML = plusFan;
 
         //TABS
         tabUpgrades = data.tabs[0].menu[0].tabUpgrades;

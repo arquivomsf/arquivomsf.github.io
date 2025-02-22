@@ -1,6 +1,7 @@
 var activetab;
 var activeshoptab;
 
+//scale effect on click
 function likeClickEffect() {
     document.querySelector("#LikeBtnDiv").style.animation = "likeclicked 0.3s linear 1";
     setTimeout(()=>{
@@ -8,10 +9,12 @@ function likeClickEffect() {
     },30);
 }
 
+//click
 function likeClick(lpc) {
     lpc = 0;
 }
 
+//change menu tab
 function changeTab(selTab) {
     activetab = selTab;
     if (activetab == "likes") {
@@ -55,6 +58,7 @@ function changeTab(selTab) {
     }
 }
 
+//change shop tab
 function changeShopTab(selTab) {
     activeshoptab = selTab;
     if (activeshoptab == "common") {
@@ -81,5 +85,56 @@ function changeShopTab(selTab) {
     }
 }
 
+//default tabs
 changeTab("likes");
 changeShopTab("common");
+
+function createShopItems() {
+    var shop_items_get = JSON.parse(common_shop_items);
+    var itemName = Object.keys(shop_items_get);
+
+    for( var i=0; i<itemName.length; i++ ){
+        let divname = shop_items_get[itemName[i]].divname;
+        let shopitemclass = shop_items_get[itemName[i]].shopitemclass;
+        let shopitemid = shop_items_get[itemName[i]].shopitemid;
+        let divclass = shop_items_get[itemName[i]].divclass;
+        let itemaction = shop_items_get[itemName[i]].itemaction;
+        let iconclass = shop_items_get[itemName[i]].iconclass;
+        let iconname = shop_items_get[itemName[i]].iconname;
+        let spanclass = shop_items_get[itemName[i]].spanclass;
+        let namespanclass = shop_items_get[itemName[i]].namespanclass;
+        let namespanid = shop_items_get[itemName[i]].namespanid;
+        let lpsspanclass = shop_items_get[itemName[i]].lpsspanclass;
+        let lpsspanid = shop_items_get[itemName[i]].lpsspanid;
+        let costspanclass = shop_items_get[itemName[i]].costspanclass;
+        let costspanid = shop_items_get[itemName[i]].costspanid;
+        document.querySelector("#CommonUpgrades").innerHTML += `
+            <div id="${divname}">
+					<center>
+					<div class="${shopitemclass}" id="${shopitemid}" class="rounded">
+						<table class="ItemTable">
+							<td class="ItemCell">
+								<div class="${divclass} float-right BuyButton" onClick="${itemaction}" title="">
+									<center>
+										<i class="material-icons ${iconclass}" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">${iconname}</i><br>
+										<span class="${spanclass}" style="padding-left: 5px; padding-right: 5px;">+1 Follower</span>
+									</center>
+								</div>
+							</td>
+							<td class="ItemCell">
+								<div class="ItemInfo">
+									<span class="${namespanclass}">Followers: </span><span id="${namespanid}">0</span><br />
+									<span class="${lpsspanclass}">LPS: </span><span id="${lpsspanid}">1</span><br />
+									<span class="${costspanclass}">Cost: </span><span id="${costspanid}">10</span>
+								</div>
+							</td>
+						</table>
+					</div>
+					</center>
+					<br>
+				</div>
+        `;
+          }
+}
+
+createShopItems();

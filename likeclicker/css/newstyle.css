@@ -33,8 +33,8 @@
 }
 
 section {
-    padding-top: 34px;
-    scroll-padding-top: 34px;
+    padding-top: 40px;
+    scroll-padding-top: 40px;
     position: absolute;
     top: 0;
     left: 50%;
@@ -74,12 +74,20 @@ section {
     width: 100%;
 }
 
+.allshoptabs {
+    border-bottom: 1px solid var(--border-color);
+    line-height: calc(1rem*2);
+}
+
 .menutab {
     width: 100%;
+    height: 100%;
     background-color: var(--tab-color-default);
     text-align: center;
     display: flex;
     display: -webkit-flex;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
 
 .menutab.active {
@@ -113,4 +121,30 @@ section {
 
 .pointer-events {
     pointer-events: none !important;
+}
+
+.float-right {
+    float: right;
+}
+
+#ShopSection {
+    margin-top: 15px;
+}
+
+.ItemTable {
+    width: 100%;
+}
+
+.ItemCell {
+    width: 50%;
+}
+
+.ItemInfo {
+    margin-left: 5px;
+}
+
+.BuyButton {
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
 }

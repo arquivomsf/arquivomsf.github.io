@@ -24,12 +24,14 @@
         {
             "followers": [
                 {
-                    "followersName": "Seguidores"
+                    "followersName": "Seguidores: ",
+                    "plusFollower": "+1 Seguidor"
                 }
             ],
             "fans": [
                 {
-                    
+                    "fansName": "Fãs: ",
+                    "plusFan": "+1 Fã"
                 }
             ],
             "papparazzi": [
