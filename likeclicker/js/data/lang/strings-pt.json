@@ -1,0 +1,99 @@
+{
+    "misc": [
+        {
+            "yesString": "Sim",
+            "noString": "Não"
+        }
+    ],
+    "likes": [
+        {
+            
+        }
+    ],
+    "alerts": [
+        {
+            
+        }
+    ],
+    "upgrades": [
+        {
+            
+        }
+    ],
+    "upgrade_items": [
+        {
+            "followers": [
+                {
+                    "followersName": "Seguidores"
+                }
+            ],
+            "fans": [
+                {
+                    
+                }
+            ],
+            "papparazzi": [
+                {
+                    
+                }
+            ],
+            "stalkers": [
+                {
+                    
+                }
+            ],
+            "lunatics": [
+                {
+                    
+                }
+            ],
+            "bots": [
+                {
+                    
+                }
+            ]
+        }
+    ],
+    "lpc": [
+        {
+
+        }
+    ],
+    "tabs": [
+        {
+            "menu": [
+                {
+                    "tabUpgrades": "Melhorias",
+                    "tabLikes": "Likes",
+                    "tabConfig": "Config."
+                }
+            ],
+            "shop": [
+                {
+                    "tabShopCommon": "Melhorias Comuns",
+                    "tabShopSpecial": "Melhorias Especiais"
+                }
+            ]
+        }
+    ],
+    "credits": [
+        {
+
+        }
+    ],
+    "config": [
+        {
+
+        }
+    ],
+    "egg": [
+        {
+
+        }
+    ],
+    "lang": [
+        {
+
+        }
+    ]
+}

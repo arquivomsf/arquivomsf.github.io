@@ -1203,7 +1203,7 @@ function loadGame() {
 	}
 	botLPS = JSON.parse(localStorage.getItem("botLPS"));
 	if (JSON.parse(localStorage.getItem("botLPS")) == null) {
-		botLPS = 16;
+		botLPS = 32;
 	}
 	bots = JSON.parse(localStorage.getItem("bots"));
 	if (JSON.parse(localStorage.getItem("bots")) == null) {
