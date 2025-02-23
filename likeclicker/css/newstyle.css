@@ -224,12 +224,13 @@
     width: min-content;
 }
 
-#LikeBtnDiv:not(:hover) {
-    scale: 1 !important;
-}
-
-#LikeBtnDiv:hover {
-    scale: 0.95;
+@media only screen and (min-width: 601px) {
+    #LikeBtnDiv:not(:hover) {
+        scale: 1 !important;
+    }
+    #LikeBtnDiv:hover {
+        scale: 0.95;
+    }
 }
 
 @keyframes likeclicked {
@@ -457,7 +458,7 @@
 
 @media only screen and (max-width: 600px) {
     .config-category, .config-option, .config-hr {
-        width: 100%;
+        width: 90%;
     }
 }
 
