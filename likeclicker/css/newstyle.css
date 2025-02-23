@@ -4,7 +4,7 @@
     --text-color: black;
     --tab-color-default: #c1c1c1;
     --tab-color-active: #a3a3a3;
-    --dracula-green: #50fa7b;
+    --option-hover: rgba(0,0,0,.1);
     --dracula-orange: #ffb86c;
     --dracula-pink: #ff79c6;
     --dracula-purple: #bd93f9;
@@ -32,14 +32,38 @@
 	user-select: none;
 }
 
-section {
+.sections-overlap {
     padding-top: 40px;
-    scroll-padding-top: 40px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
+    padding-bottom: 95px;
+}
+
+.TabOpening.:not(.hide) {
+    opacity: 1;
+    display: block;
+    @starting-style {
+        opacity: 0;
+    }
+}
+
+.TabOpening.hide {
+    opacity: 0;
+    display: none;
+    @starting-style {
+        opacity: 1;
+    }
+}
+
+.TabOpening {
+	animation: opac 0.3s;
+}
+
+@keyframes opac {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
   
 #TopActionBar {
@@ -49,6 +73,7 @@ section {
     border-bottom: 1px solid var(--border-color);
     position: fixed;
     top: 0;
+    z-index: 5;
 }
 
 #LikeTopBar {
@@ -66,6 +91,99 @@ section {
     color: var(--text-color);
     display: inline-flex;
     vertical-align: middle;
+}
+
+@font-face {
+	font-family: 'fontelloicons';
+	src: url('fontelloicons/font/fontello.eot?87245832');
+	src: url('fontelloicons/font/fontello.eot?87245832#iefix') format('embedded-opentype'),
+		url('fontelloicons/font/fontello.woff?87245832') format('woff'),
+		url('fontelloicons/font/fontello.ttf?87245832') format('truetype'),
+		url('fontelloicons/font/fontello.svg?87245832#fontelloicons') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+.fontelloicons:before {
+	text-decoration: none;
+	transition: color 0.3s ease;
+	font-family: 'fontelloicons';
+	speak: none;
+	display: inline-block;
+	font-variant: normal;
+}
+
+.fontelloicons {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.fontelloicons.icon-reddit:before {
+    content: '\f281';
+}
+
+.fontelloicons.icon-github:before {
+    content: '\f09b';
+}
+
+.fontelloicons.icon-twitter:before {
+    content: '\f099';
+}
+
+.fontelloicons.icon-toggle-on:before {
+    content: '\f205';
+}
+
+.fontelloicons.icon-toggle-off:before {
+    content: '\f204';
+}
+
+.fontelloicons.icon-android:before {
+    content: '\e80a';
+}
+
+.fontelloicons.icon-windows:before {
+    content: '\f17a';
+}
+
+.fontelloicons.icon-desktop:before {
+    content: '\e807';
+}
+
+.fontelloicons.icon-trash:before {
+    content: '\e806';
+}
+
+.fontelloicons.icon-info-circled:before {
+    content: '\f085';
+}
+
+.fontelloicons.icon-code:before {
+    content: '\f121';
+}
+
+.fontelloicons.icon-changelog:before {
+    content: '\e808';
+}
+
+.fontelloicons.icon-save:before {
+    content: '\e80b';
+}
+
+.fontelloicons.icon-load:before {
+    content: '\f02f';
+}
+
+.fontelloicons.icon-brush:before {
+    content: '\f1fc';
+}
+
+.fontelloicons.icon-musics:before {
+    content: '\e801';
+}
+
+.fontelloicons.icon-language:before {
+    content: '\e80d';
 }
 
 .alltabs {
@@ -100,6 +218,10 @@ section {
 
 .menutabcontent, .menutabcontent > * {
     margin: auto;
+}
+
+#LikeBtnDiv {
+    width: min-content;
 }
 
 #LikeBtnDiv:not(:hover) {
@@ -208,10 +330,15 @@ section {
 .ItemDesc {
     width: 80%;
     margin: auto;
-    opacity: 0;
-    font-size: 0;
-    line-height: 0;
-    display: none;
+}
+
+@media only screen and (min-width: 601px) {
+    .ItemDesc {
+        opacity: 0;
+        font-size: 0;
+        line-height: 0;
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 601px) {
@@ -233,7 +360,11 @@ section {
     margin: auto;
 }
 
-.itemlps-mobile {
+.item-lps1.itemlps-mobile {
+    margin-left: 10px;
+}
+
+.item-name.item-name-mobile {
     margin-left: 10px;
 }
 
@@ -275,4 +406,95 @@ section {
     .hide-mobile {
         display: none;
     }
+}
+
+.toast-area {
+    right: 5px;
+    position: absolute;
+    transform: translateY(-105%);
+}
+
+.newupgradeicon.:not(.hide) {
+    opacity: 1;
+    display: block;
+    @starting-style {
+        opacity: 0;
+    }
+}
+
+.newupgradeicon.hide {
+    opacity: 0;
+    display: none;
+    @starting-style {
+        opacity: 1;
+    }
+}
+
+.newupgradeicon {
+	animation: opac 0.3s;
+}
+
+@keyframes opac {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.config-category, .config-option {
+    text-align: left;
+}
+
+.config-category, .config-option, .config-hr {
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .config-category, .config-option, .config-hr {
+        width: 100%;
+    }
+}
+
+.config-category {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.config-option {
+    background-color: var(--main-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 5px 0 5px 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.config-option:hover {
+    background-color: var(--option-hover);
+}
+
+.config-hr {
+    margin: 1rem 0;
+    border: 1px solid var(--border-color);
+    opacity: .25;
+}
+
+.checkbox {
+    padding-right: 5px;
+}
+
+.checkbox.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.checkbox:not(.hidden) {
+    display: block;
+    visibility: initial;
 }

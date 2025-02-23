@@ -7,7 +7,10 @@
     ],
     "likes": [
         {
-            
+            "likeCountString1": "Você tem ",
+            "likeCountString2": " likes",
+            "lpcCountString": "Likes por Click (LpC): ",
+            "lpsCountString": "Likes por Segundo (LpS): "
         }
     ],
     "alerts": [
@@ -17,7 +20,10 @@
     ],
     "upgrades": [
         {
-            
+            "costString": "Preço: ",
+            "shopLpsString1": "Adiciona ",
+            "shopLpsString2": " de LpS",
+            "upgradeString": "Melhorar"
         }
     ],
     "upgrade_items": [
@@ -34,31 +40,36 @@
                     "plusFan": "+1 Fã"
                 }
             ],
-            "papparazzi": [
+            "paparazzi": [
                 {
-                    
+                    "paparazziName": "Paparazzi: ",
+                    "plusPaparazzo": "+1 Paparazzo"
                 }
             ],
             "stalkers": [
                 {
-                    
+                    "stalkersName": "Stalkers: ",
+                    "plusStalker": "+1 Stalker"
                 }
             ],
             "lunatics": [
                 {
-                    
+                    "lunaticsName": "Lunáticos: ",
+                    "plusLunatic": "+1 Lunático"
                 }
             ],
             "bots": [
                 {
-                    
+                    "botsName": "Bots: ",
+                    "plusBot": "+1 Bot"
+                }
+            ],
+            "lpc": [
+                {
+                    "lpcLevel": "Nível: ",
+                    "lpcCompleteString": "Aumentar Likes por Click"
                 }
             ]
-        }
-    ],
-    "lpc": [
-        {
-
         }
     ],
     "tabs": [
@@ -85,7 +96,19 @@
     ],
     "config": [
         {
-
+            "saveLoadCategory": "Salvar e Carregar",
+            "darkThemeCategory": "Tema Escuro",
+            "langCategory": "Idioma",
+            "resetGameCategory": "Gerenciar dados do jogo",
+            "aboutCategory": "Sobre",
+            "saveGameLabel": "Salvar jogo",
+            "loadGameLabel": "Carregar jogo",
+            "autoSaveLabel": "Salvamento automático",
+            "darkThemeLabel": "Tema escuro",
+            "changeLangLabel": "Idioma",
+            "resetGameLabel": "Apagar todos os dados",
+            "gameVersionLabel": "Versão: ",
+            "creditsLabel": "Créditos"
         }
     ],
     "egg": [

@@ -17,42 +17,36 @@ function likeClick(lpc) {
 //change menu tab
 function changeTab(selTab) {
     activetab = selTab;
+    var x=window.scrollX;
+    window.scrollTo(x, 0);
     if (activetab == "likes") {
-        document.querySelector("#LikeSection").style.zIndex = -1;
-        document.querySelector("#LikeSection").style.opacity = 1;
+        document.querySelector("#LikeSection").classList.remove("hide");
         document.querySelector("#LikeSection").classList.remove("pointer-events");
         document.querySelector(".likestab").classList.add("active");
     } else {
-        document.querySelector("#LikeSection").style.zIndex = 0;
-        document.querySelector("#LikeSection").style.opacity = 0;
+        document.querySelector("#LikeSection").classList.add("hide");
         document.querySelector("#LikeSection").classList.add("pointer-events");
         document.querySelector(".likestab").classList.remove("active");
     }
     if (activetab == "shop") {
-        document.querySelector("#ShopSection").style.zIndex = -1;
-        document.querySelector("#ShopSection").style.opacity = 1;
+        document.querySelector("#ShopSection").classList.remove("hide");
         document.querySelector("#ShopSection").classList.remove("pointer-events");
         document.querySelector(".shoptab").classList.add("active");
-        document.querySelector(".allshoptabs").style.zIndex = -1;
-        document.querySelector(".allshoptabs").style.opacity = 1;
+        document.querySelector(".allshoptabs").classList.remove("hide");
         document.querySelector(".allshoptabs").classList.remove("pointer-events");
     } else {
-        document.querySelector("#ShopSection").style.zIndex = 0;
-        document.querySelector("#ShopSection").style.opacity = 0;
+        document.querySelector("#ShopSection").classList.add("hide");
         document.querySelector("#ShopSection").classList.add("pointer-events");
         document.querySelector(".shoptab").classList.remove("active");
-        document.querySelector(".allshoptabs").style.zIndex = 0;
-        document.querySelector(".allshoptabs").style.opacity = 0;
+        document.querySelector(".allshoptabs").classList.add("hide");
         document.querySelector(".allshoptabs").classList.add("pointer-events");
     }
     if (activetab == "config") {
-        document.querySelector("#ConfigSection").style.zIndex = -1;
-        document.querySelector("#ConfigSection").style.opacity = 1;
+        document.querySelector("#ConfigSection").classList.remove("hide");
         document.querySelector("#ConfigSection").classList.remove("pointer-events");
         document.querySelector(".configtab").classList.add("active");
     } else {
-        document.querySelector("#ConfigSection").style.zIndex = 0;
-        document.querySelector("#ConfigSection").style.opacity = 0;
+        document.querySelector("#ConfigSection").classList.add("hide");
         document.querySelector("#ConfigSection").classList.add("pointer-events");
         document.querySelector(".configtab").classList.remove("active");
     }
@@ -62,24 +56,20 @@ function changeTab(selTab) {
 function changeShopTab(selTab) {
     activeshoptab = selTab;
     if (activeshoptab == "common") {
-        document.querySelector("#CommonUpgrades").style.zIndex = -1;
-        document.querySelector("#CommonUpgrades").style.opacity = 1;
+        document.querySelector("#CommonUpgrades").classList.remove("hide");
         document.querySelector("#CommonUpgrades").classList.remove("pointer-events");
         document.querySelector(".commontab").classList.add("active");
     } else {
-        document.querySelector("#CommonUpgrades").style.zIndex = 0;
-        document.querySelector("#CommonUpgrades").style.opacity = 0;
+        document.querySelector("#CommonUpgrades").classList.add("hide");
         document.querySelector("#CommonUpgrades").classList.add("pointer-events");
         document.querySelector(".commontab").classList.remove("active");
     }
     if (activeshoptab == "special") {
-        document.querySelector("#SpecialUpgrades").style.zIndex = -1;
-        document.querySelector("#SpecialUpgrades").style.opacity = 1;
+        document.querySelector("#SpecialUpgrades").classList.remove("hide");
         document.querySelector("#SpecialUpgrades").classList.remove("pointer-events");
         document.querySelector(".specialtab").classList.add("active");
     } else {
-        document.querySelector("#SpecialUpgrades").style.zIndex = 0;
-        document.querySelector("#SpecialUpgrades").style.opacity = 0;
+        document.querySelector("#SpecialUpgrades").classList.add("hide");
         document.querySelector("#SpecialUpgrades").classList.add("pointer-events");
         document.querySelector(".specialtab").classList.remove("active");
     }
@@ -109,78 +99,22 @@ function createShopItems() {
         let costspanclass = shop_items_get[itemName[i]].costspanclass;
         let costspanid = shop_items_get[itemName[i]].costspanid;
         let descspanclass = shop_items_get[itemName[i]].descspanclass;
-        /*document.querySelector("#CommonUpgrades").innerHTML += `
-            <div id="${divname}">
-					<center>
-					<div class="shopitem ${shopitemclass}" id="${shopitemid}" class="rounded">
-						<table class="ItemTable">
-							<td class="ItemCell">
-								<div class="${divclass} float-right BuyButton" onClick="${itemaction}" title="">
-									<center>
-										<i class="material-icons ${iconclass}" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">${iconname}</i><br>
-										<span class="${spanclass}" style="padding-left: 5px; padding-right: 5px;">+1 Follower</span>
-									</center>
-								</div>
-							</td>
-							<td class="ItemCell">
-								<div class="ItemInfo">
-									<span class="${namespanclass}">Followers: </span><span id="${namespanid}">0</span><br />
-									<span class="${lpsspanclass}">LPS: </span><span id="${lpsspanid}">1</span><br />
-									<span class="${costspanclass}">Cost: </span><span id="${costspanid}">10</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					</center>
-					<br>
-				</div>
-        `;*/
-        /*document.querySelector("#CommonUpgrades").innerHTML += `
-            <div id="${divname}" class="shopitem parent-flex">
-            <div class="child-flex">
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 ItemTable">
-                <div class="col ItemCell ItemBuy">
-                    <div class="${divclass} BuyButton" onClick="${itemaction}" title="">
-						<div class="BuyButtonContent">
-							<i class="material-icons ${iconclass} shop-add-icon">${iconname}</i><br>
-							<span class="${spanclass}" style="padding-left: 5px; padding-right: 5px;">+1 Follower</span>
-						</div>
-					</div>
-            </div>
-            <div class="col ItemCell ItemInfo parent-flex">
-                <div class="child-flex-vertical">
-                    <span class="${costspanclass}">Cost: </span><span id="${costspanid}">10</span><br />
-                    <span class="${lpsspanclass}">LPS: </span><span id="${lpsspanid}">1</span><br />
-				</div>
-            </div>
-            <div class="col ItemCell ItemHave">
-                <div class="parent-flex">
-                <div class="child-flex-vertical">
-					<span class="${namespanclass}">Followers: </span><span id="${namespanid}">0</span><br />
-				</div>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-        <br>
-        `;*/
         document.querySelector("#CommonUpgrades").innerHTML += `
             <div id="${divname}" class="shopitem">
-            <div class="ItemDiv">
+            <div class="ItemDiv ${shopitemclass}" id="${shopitemid}">
             <div class="ItemTable ItemRow">
             <div class="ItemCell ItemBuy">
-                    <div class="${divclass} BuyButton" onClick="${itemaction}" title="">
+                    <div class="${divclass} BuyButton pointer" onClick="${itemaction}">
 						<div class="BuyButtonContent">
 							<i class="material-icons ${iconclass} shop-add-icon">${iconname}</i><br>
-							<span class="${spanclass}" style="padding-left: 5px; padding-right: 5px;">+1 Follower</span>
+							<span class="${spanclass}">+1 Follower</span>
 						</div>
 					</div>
             </div>
             <div class="ItemCell ItemInfo parent-flex hide-mobile">
                 <div class="child-flex-vertical">
-                    <span class="${costspanclass}">Cost: </span><span id="${costspanid}">10</span><br />
-                    <span class="${lpsspanclass}">LPS: </span><span id="${lpsspanid}">1</span><br />
+                    <span class="${costspanclass} item-cost">Cost: </span><span id="${costspanid}">10</span><br />
+                    <span class="${lpsspanclass} item-lps1"></span><span id="${lpsspanid}">1</span><span class="${lpsspanclass} item-lps2"></span><br />
 				</div>
             </div>
             <div class="ItemCell ItemHave float-right">
@@ -194,8 +128,8 @@ function createShopItems() {
             <div class="ItemTable ItemRow hide-pc">
             <div class="ItemCell ItemInfoMobile parent-flex">
                 <div class="child-flex-vertical">
-                    <span class="${costspanclass}">Cost: </span><span id="${costspanid}">10</span>
-                    <span class="${lpsspanclass} itemlps-mobile">LPS: </span><span id="${lpsspanid}">1</span><br />
+                    <span class="${costspanclass} item-cost">Cost: </span><span id="${costspanid}">10</span>
+                    <span class="${lpsspanclass} item-lps1 itemlps-mobile"></span><span id="${lpsspanid}">1</span><span class="${lpsspanclass} item-lps2 itemlps-mobile"></span><br />
 				</div>
             </div>
             </div>
@@ -210,7 +144,135 @@ function createShopItems() {
         </div>
         <br>
         `;
-          }
+    }
 }
 
 createShopItems();
+
+function createSpecialShopItem(item) {
+    var shop_items_get = JSON.parse(special_shop_items);
+
+    let onlyonce = shop_items_get[item].onlyonce;
+    let divname = shop_items_get[item].divname;
+    let shopitemclass = shop_items_get[item].shopitemclass;
+    let shopitemid = shop_items_get[item].shopitemid;
+    let divclass = shop_items_get[item].divclass;
+    let itemaction = shop_items_get[item].itemaction;
+    let iconclass = shop_items_get[item].iconclass;
+    let iconname = shop_items_get[item].iconname;
+    let namespanclass = shop_items_get[item].namespanclass;
+    let levelspanclass = shop_items_get[item].levelspanclass;
+    let levelspanid = shop_items_get[item].levelspanid;
+    let lpccomplete = shop_items_get[item].lpccomplete;
+    let costspanclass = shop_items_get[item].costspanclass;
+    let costspanid = shop_items_get[item].costspanid;
+    let descspanclass = shop_items_get[item].descspanclass;
+
+    if (onlyonce == "false") {
+    document.querySelector("#SpecialUpgrades").innerHTML += `
+            <div id="${divname}" class="shopitem">
+            <div class="ItemDiv ${shopitemclass}" id="${shopitemid}">
+            <div class="ItemTable ItemRow">
+            <div class="ItemCell ItemBuy">
+                    <div class="${divclass} BuyButton pointer" onClick="${itemaction}">
+						<div class="BuyButtonContent">
+							<i class="material-icons ${iconclass} shop-add-icon">${iconname}</i><br>
+							<span class="${namespanclass}">+1 Follower</span>
+						</div>
+					</div>
+            </div>
+            <div class="ItemCell ItemInfo parent-flex hide-mobile">
+                <div class="child-flex-vertical">
+                    <span class="${costspanclass} item-cost">Cost: </span><span id="${costspanid}">10</span><br />
+                    <span class="${lpccomplete} item-name">+1 LpC</span><br />
+				</div>
+            </div>
+            <div class="ItemCell ItemHave float-right">
+                <div class="parent-flex">
+                <div class="child-flex-vertical item-number">
+					<span class="${levelspanclass}">Followers: </span><span id="${levelspanid}">0</span><br />
+				</div>
+                </div>
+            </div>
+            </div>
+            <div class="ItemTable ItemRow hide-pc">
+            <div class="ItemCell ItemInfoMobile parent-flex">
+                <div class="child-flex-vertical">
+                    <span class="${costspanclass} item-cost">Cost: </span><span id="${costspanid}">10</span>
+                    <span class="${lpccomplete} item-name item-name-mobile">+1 LpC</span><br />
+				</div>
+            </div>
+            </div>
+            <div class="ItemTable ItemRow">
+            <div class="ItemCell ItemDesc parent-flex">
+                <div class="child-flex">
+                    <span class="${descspanclass}">description</span>
+				</div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <br>
+        `;
+    } else {
+        //create "only once" upgrade
+    }
+}
+
+createSpecialShopItem("click");
+
+function createConfigOptions() {
+    var option_items_get = JSON.parse(option_items);
+    var itemName = Object.keys(option_items_get);
+
+    for( var i=0; i<itemName.length; i++ ){
+        let type = option_items_get[itemName[i]].type;
+        let textclass = option_items_get[itemName[i]].textclass;
+        let action = option_items_get[itemName[i]].action;
+        let icon = option_items_get[itemName[i]].icon;
+        let checkoffid = option_items_get[itemName[i]].checkoffid;
+        let checkonid = option_items_get[itemName[i]].checkonid;
+        if (type == "category_name") {
+            document.querySelector("#ConfigPage").innerHTML += `
+            <div class="config-category">
+                <b class="${textclass}">Categoria</b>
+            </div>
+            <hr class="config-hr">
+            `;
+        }
+        if (type == "option_simple") {
+            document.querySelector("#ConfigPage").innerHTML += `
+            <div class="config-option pointer" onclick="${action}">
+				<i class="fontelloicons ${icon}"></i>
+				<span class="${textclass}">Texto</span>
+			</div>
+            `;
+        }
+        if (type == "option_modal") {
+            document.querySelector("#ConfigPage").innerHTML += `
+            <div class="config-option pointer" data-bs-toggle="modal" data-bs-target="${action}">
+				<i class="fontelloicons ${icon}"></i>
+				<span class="${textclass}">Texto</span>
+			</div>
+            `;
+        }
+        if (type == "option_check") {
+            document.querySelector("#ConfigPage").innerHTML += `
+            <div class="config-option pointer" onclick="${action}">
+				<i class="fontelloicons ${icon}"></i>
+				<span class="${textclass}">Texto</span>
+                <i id="${checkoffid}" class="material-icons float-right checkbox hidden">check_box_outline_blank</i>
+				<i id="${checkonid}" class="material-icons float-right checkbox">check_box</i>
+			</div>
+            `;
+        }
+    }
+}
+
+createConfigOptions();
+
+//openToast function
+function openToast(selToast) {
+    let toastElement = document.getElementById(selToast);
+    bootstrap.Toast.getOrCreateInstance(toastElement).show();
+}

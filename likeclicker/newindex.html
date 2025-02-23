@@ -39,11 +39,12 @@
 				<span id="LabelLikes">0</span>
 			</div>
 		</div>
-        <section id="LikeSection">
+        <div class="sections-overlap">
+        <div class="TabOpening" id="LikeSection">
             <center>
-                <div id="LikePage" class="TabOpening">
+                <div id="LikePage">
 			<div id="LikeDiv" style="width: 100%;">
-				<div class="like-icon-title" id="LikeBtnDiv" onClick="likeClick(lpc); likeClickEffect()" title="Like">
+				<div class="like-icon-title pointer" id="LikeBtnDiv" onClick="likeClick(lpc); likeClickEffect()" title="Like">
 					<i class="material-icons likeicon" id="like-icon" style="font-size: 180px; color: black; display: inline-flex; vertical-align: middle;">thumb_up</i>
 				</div>
 				<div>
@@ -54,57 +55,74 @@
 			</div>
 			</div>
             </center>
-        </section>
-        <section id="ShopSection">
+        </div>
+        <div class="TabOpening" id="ShopSection">
             <center>
-                <div id="ShopPage" class="TabOpening">
-                    <section>
-                    <div id="CommonUpgrades">
+                <div id="ShopPage">
+                    <div class="TabOpening" id="CommonUpgrades">
 
                     </div>
-                    </section>
-                    <section>
-                    <div id="SpecialUpgrades">
-                        MELHORIAS ESPECIAIS
+                    <div class="TabOpening" id="SpecialUpgrades">
+
                     </div>
-                    </section>
                 </div>
             </center>
-        </section>
-        <section id="ConfigSection">
+        </div>
+        <div class="TabOpening" id="ConfigSection">
             <center>
-                <div id="ConfigPage" class="TabOpening">
-                    CONFIGURAÇÕES
+                <div id="ConfigPage">
+
                 </div>
             </center>
-        </section>
+        </div>
+        </div>
         <div class="alltabs">
-        <div class="hstack gap-0 allshoptabs">
-            <div class="menutab commontab create-border" onclick="changeShopTab('common')">
+        <div class="hstack gap-0 toast-area">
+            <div class="vstack gap-0">
+                <div id="NotEnoughLikesToast" class="toast align-items-center float-right" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body enough-likes">
+                            You don't have enough likes
+                        </div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div id="GameSavedToast" class="toast align-items-center float-right" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body game-saved">
+                            Game saved
+                        </div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hstack gap-0 allshoptabs TabOpening">
+            <div class="menutab commontab pointer create-border" onclick="changeShopTab('common')">
                 <div class="menutabcontent">
                     <p id="LabelMenu"><span class="tab-common">Common Upgrades</span></p>
                 </div>
             </div>
-            <div class="menutab specialtab" onclick="changeShopTab('special')">
+            <div class="menutab specialtab pointer" onclick="changeShopTab('special')">
                 <div class="menutabcontent">
-                    <p id="LabelMenu"><span class="tab-special">Special Upgrades</span></p>
+                    <p id="LabelMenu"><span class="tab-special">Special Upgrades</span> <span class="badge bg-danger newupgradeicon hide">!</span></p>
                 </div>
             </div>
           </div>
         <div class="hstack gap-0">
-            <div class="menutab shoptab create-border" onclick="changeTab('shop')">
+            <div class="menutab shoptab pointer create-border" onclick="changeTab('shop')">
                 <div class="menutabcontent">
                     <i class="material-icons menuicon1">shopping_cart</i>
-                    <p id="LabelMenu"><span class="tab-upgrades">Upgrades</span> <span id="newupgradeicon" class="badge bg-danger">!</span></p>
+                    <p id="LabelMenu"><span class="tab-upgrades">Upgrades</span> <span class="badge bg-danger newupgradeicon newupgradeicon hide">!</span></p>
                 </div>
             </div>
-            <div class="menutab likestab create-border" onclick="changeTab('likes')">
+            <div class="menutab likestab pointer create-border" onclick="changeTab('likes')">
                 <div class="menutabcontent">
                     <i class="material-icons menuicon2">thumb_up</i>
 					<p id="LabelMenu"><span class="tab-likes">Likes</span></p>
                 </div>
             </div>
-            <div class="menutab configtab" onclick="changeTab('config')">
+            <div class="menutab configtab pointer" onclick="changeTab('config')">
                 <div class="menutabcontent">
                     <i class="material-icons menuicon3">settings</i>
 					<p id="LabelMenu"><span class="tab-config">Config.</span></p>
