@@ -215,7 +215,7 @@ section {
 }
 
 @media only screen and (min-width: 601px) {
-    .ItemDiv:not(:hover) .ItemDesc {
+    .ItemDiv:hover .ItemDesc {
         opacity: 1;
         font-size: inherit;
         line-height: inherit;

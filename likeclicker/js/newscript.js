@@ -214,31 +214,3 @@ function createShopItems() {
 }
 
 createShopItems();
-
-/*function setDescPos() {
-    document.querySelector(".ItemDesc").style.display = "none";
-    console.log("desc = "+document.querySelector(".ItemDesc").style.display);
-}
-
-function descOut(hovering_obj) {
-    let cur_obj = document.querySelector("."+hovering_obj);
-    if (cur_obj.classList.contains('hidden')) {
-        cur_obj.classList.remove('hidden');
-        setTimeout(function () {
-            cur_obj.classList.remove('visuallyhidden');
-        }, 20);
-      } else {
-        cur_obj.classList.add('visuallyhidden');    
-        cur_obj.addEventListener('transitionend', function(e) {
-            cur_obj.classList.add('hidden');
-        }, {
-          capture: false,
-          once: true,
-          passive: false
-        });
-      }
-}
-
-function descHover(hovering_obj) {
-    
-}*/
