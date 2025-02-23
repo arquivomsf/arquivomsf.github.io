@@ -28,7 +28,7 @@
 }
 
 * {
-    transition: 0.3s ease;
+    transition: 0.3s ease, display 0.3s ease allow-discrete;
 	user-select: none;
 }
 
@@ -123,8 +123,28 @@ section {
     pointer-events: none !important;
 }
 
+.float-left {
+    float: left;
+}
+
 .float-right {
     float: right;
+}
+
+.parent-flex {
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.child-flex {
+    margin: auto;
+    width: 100%;
+}
+
+.child-flex-vertical {
+    margin: auto 0 auto 0;
 }
 
 #ShopSection {
@@ -135,16 +155,124 @@ section {
     width: 100%;
 }
 
-.ItemCell {
-    width: 50%;
+.shopitem {
+    border: 1px solid var(--border-color);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80%;
 }
 
-.ItemInfo {
-    margin-left: 5px;
+@media only screen and (max-width: 600px) {
+    .shopitem {
+        width: 100%;
+    }
 }
 
 .BuyButton {
     text-align: center;
     border: 1px solid var(--border-color);
     border-radius: 5px;
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.BuyButtonContent {
+    margin: auto;
+}
+
+.shop-add-icon {
+    font-size: 50px !important;
+}
+
+.ItemRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+
+.ItemBuy {
+    align-items: center;
+    width: 35%;
+}
+
+.ItemInfo {
+    width: 35%;
+}
+
+.ItemDesc {
+    width: 80%;
+    margin: auto;
+    opacity: 0;
+    font-size: 0;
+    line-height: 0;
+    display: none;
+}
+
+@media only screen and (min-width: 601px) {
+    .ItemDiv:not(:hover) .ItemDesc {
+        opacity: 1;
+        font-size: inherit;
+        line-height: inherit;
+        display: block;
+        @starting-style {
+            opacity: 0;
+            font-size: 0;
+            line-height: 0;
+        }
+    }
+}
+
+.ItemInfoMobile {
+    width: 80%;
+    margin: auto;
+}
+
+.itemlps-mobile {
+    margin-left: 10px;
+}
+
+.ItemHave {
+    /*width: min-content !important;*/
+    width: 20%;
+}
+
+.item-number {
+    right: 12%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 600px) {
+    .item-number {
+        right: 3%;
+    }
+    .ItemBuy {
+        margin-left: 3%;
+    }
+}
+
+.hide-pc {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-pc {
+        display: block;
+    }
+}
+
+.hide-mobile {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-mobile {
+        display: none;
+    }
 }

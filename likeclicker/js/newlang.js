@@ -139,3 +139,5 @@ function updateLang(selLang) {
     }
     );
 }
+
+updateLang("pt");

@@ -14,7 +14,8 @@ var common_shop_items = `
             "lpsspanclass": "lps-follower-string",
             "lpsspanid": "followerLPS",
             "costspanclass": "cost-follower-string",
-            "costspanid": "followerCost"
+            "costspanid": "followerCost",
+            "descspanclass": "desc-follower-string"
     },
     "fans": {
             "divname": "FansDiv",
@@ -30,7 +31,8 @@ var common_shop_items = `
             "lpsspanclass": "lps-fan-string",
             "lpsspanid": "fanLPS",
             "costspanclass": "cost-fan-string",
-            "costspanid": "fanCost"  
+            "costspanid": "fanCost",
+            "descspanclass": "desc-fan-string"
     }
 }
 `

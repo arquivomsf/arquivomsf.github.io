@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Super Mario 64 (N64)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuvyJKr5_BRreC14LrD8Pip",
+            "quantidade": "26"
+        }
+    ],
     "videos": [
         {
             "nome": "Super Mario 64 de Nintendo 64 - Parte 1",
@@ -172,25 +180,25 @@
             "nome": "Super Mario 64 de Nintendo 64 - Parte 22",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1wRNaH6KX4dwxhNitPLgcs-ycaZovapo9/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/9m-oT3oMMyk",
             "duracao": "45:21",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Super Mario 64 de Nintendo 64 - Parte 23",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1zcPk1Qkd9mdrXV4YmcUdpYTZq87GfmXK/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/9GFkFDRNyQg",
             "duracao": "51:56",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Super Mario 64 de Nintendo 64 - Parte 24",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1eJq4NjDr_ibUw0MY1_pXf6s3hrZxHymY/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Qot7UipLGdA",
             "duracao": "51:44",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Super Mario 64 de Nintendo 64 - Parte 25",
@@ -198,7 +206,7 @@
             "link": "https://drive.google.com/file/d/1jJDjFy-I3NB9FPokpyLDCbWzdpcpS7QO/view",
             "linkyt": "",
             "duracao": "32:58",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Super Mario 64 de Nintendo 64 - Parte 26 Final",
@@ -206,7 +214,7 @@
             "link": "https://drive.google.com/file/d/1WGJKdK78v8TAnuMcIsel_0599ZV5haH2/view",
             "linkyt": "",
             "duracao": "31:29",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
