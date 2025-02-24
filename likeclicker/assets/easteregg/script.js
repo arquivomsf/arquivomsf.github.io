@@ -4,7 +4,7 @@ var myObstacles = [];
 var myScore;
 
 function startGame() {
-	myGamePiece = new component(30, 30, "tiny_ship.png", 10, 120, "image");
+	myGamePiece = new component(32, 23, "tiny_ship_crop.png", 10, 120, "image");
 	myBackground = new component(656, 270, "sky3.jpg", 0, 0, "background");
 	myScore = new component("15px", "Consolas", "black", 15, 40, "text");
     myGameArea.start();
@@ -13,7 +13,7 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 480;
+        this.canvas.width = 466;
         this.canvas.height = 270;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
@@ -59,8 +59,23 @@ function component(width, height, color, x, y, type) {
         }
     }
     this.newPos = function() {
-        this.x += this.speedX;
-        this.y += this.speedY;   
+        if (this == myGamePiece) {
+            if (this.x + this.speedX > 0 && this.speedX < 0) {
+                this.x += this.speedX;
+            }
+            if ((this.x+this.width) + this.speedX < myGameArea.canvas.width && this.speedX > 0) {
+                this.x += this.speedX;
+            }
+            if (this.y + this.speedY > 0 && this.speedY < 0) {
+                this.y += this.speedY;
+            }
+            if ((this.y+this.height) + this.speedY < myGameArea.canvas.height && this.speedY > 0) {
+                this.y += this.speedY;
+            }
+        } else {
+            this.x += this.speedX;
+            this.y += this.speedY;
+        }
 		if (this.type == "background") {
       if (this.x == -(this.width)) {
         this.x = 0;
@@ -113,34 +128,53 @@ function updateGameArea() {
         myObstacles[i].newPos();
         myObstacles[i].update();
     }
-    myScore.text="SCORE: " + myGameArea.frameNo;
-    myScore.update();
+    document.getElementById("scoretext").innerHTML = myGameArea.frameNo;
+    /*myScore.text = myGameArea.frameNo;
+    myScore.update();*/
     myGamePiece.newPos();    
     myGamePiece.update();
 }
 
 function everyinterval(n) {
+    myGameArea.canvas.width = window.innerWidth;
+    myBackground.update();
     if ((myGameArea.frameNo / n) % 1 == 0) {return true;}
     return false;
 }
 
 function moveup() {
-    myGamePiece.speedY = -3; 
+    myGamePiece.speedY = -3;
 }
 
 function movedown() {
-    myGamePiece.speedY = 3; 
+    myGamePiece.speedY = 3;
 }
 
 function moveleft() {
-    myGamePiece.speedX = -3; 
+    myGamePiece.speedX = -3;
 }
 
 function moveright() {
-    myGamePiece.speedX = 3; 
+    myGamePiece.speedX = 3;
 }
 
 function clearmove() {
-    myGamePiece.speedX = 0; 
-    myGamePiece.speedY = 0; 
+    myGamePiece.speedX = 0;
+    myGamePiece.speedY = 0;
+}
+
+if (new URLSearchParams(window.location.search).get('dark') == "1") {
+    document.documentElement.style.setProperty('--main-bg', '#333333');
+    document.documentElement.style.setProperty('--border-color', 'white');
+    document.documentElement.style.setProperty('--text-color', 'white');
+    document.documentElement.style.setProperty('--option-hover', '#575757');
+    document.documentElement.style.setProperty('--focus-shadow', 'rgba(255, 255, 255, .8)');
+    document.documentElement.style.setProperty('--close-filter', 'invert(1)');
+} else {
+    document.documentElement.style.setProperty('--main-bg', 'white');
+    document.documentElement.style.setProperty('--border-color', 'black');
+    document.documentElement.style.setProperty('--text-color', 'black');
+    document.documentElement.style.setProperty('--option-hover', 'rgba(0,0,0,.1)');
+    document.documentElement.style.setProperty('--focus-shadow', 'rgba(255, 255, 255, .8)');
+    document.documentElement.style.setProperty('--close-filter', 'none');
 }

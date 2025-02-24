@@ -1,5 +1,4 @@
-var activetab;
-var activeshoptab;
+var activetab, activeshoptab, darkenabled;
 
 //scale effect on click
 function likeClickEffect() {
@@ -16,6 +15,7 @@ function likeClick(lpc) {
 
 //change menu tab
 function changeTab(selTab) {
+    unknvar = 0;
     activetab = selTab;
     var x=window.scrollX;
     window.scrollTo(x, 0);
@@ -79,6 +79,7 @@ function changeShopTab(selTab) {
 changeTab("likes");
 changeShopTab("common");
 
+//create common upgrades
 function createShopItems() {
     var shop_items_get = JSON.parse(common_shop_items);
     var itemName = Object.keys(shop_items_get);
@@ -149,6 +150,7 @@ function createShopItems() {
 
 createShopItems();
 
+//create special upgrades
 function createSpecialShopItem(item) {
     var shop_items_get = JSON.parse(special_shop_items);
 
@@ -221,6 +223,7 @@ function createSpecialShopItem(item) {
 
 createSpecialShopItem("click");
 
+//create options
 function createConfigOptions() {
     var option_items_get = JSON.parse(option_items);
     var itemName = Object.keys(option_items_get);
@@ -230,12 +233,12 @@ function createConfigOptions() {
         let textclass = option_items_get[itemName[i]].textclass;
         let action = option_items_get[itemName[i]].action;
         let icon = option_items_get[itemName[i]].icon;
-        let checkoffid = option_items_get[itemName[i]].checkoffid;
-        let checkonid = option_items_get[itemName[i]].checkonid;
+        let checkname = option_items_get[itemName[i]].checkname;
+        let checkid = option_items_get[itemName[i]].checkid;
         if (type == "category_name") {
             document.querySelector("#ConfigPage").innerHTML += `
             <div class="config-category">
-                <b class="${textclass}">Categoria</b>
+                <b class="category-text ${textclass}">Categoria</b>
             </div>
             <hr class="config-hr">
             `;
@@ -258,12 +261,12 @@ function createConfigOptions() {
         }
         if (type == "option_check") {
             document.querySelector("#ConfigPage").innerHTML += `
-            <div class="config-option pointer" onclick="${action}">
-				<i class="fontelloicons ${icon}"></i>
-				<span class="${textclass}">Texto</span>
-                <i id="${checkoffid}" class="material-icons float-right checkbox hidden">check_box_outline_blank</i>
-				<i id="${checkonid}" class="material-icons float-right checkbox">check_box</i>
-			</div>
+            <label class="config-option option-check-label pointer" for="${checkid}">
+                <i class="fontelloicons ${icon}"></i>
+                <span class="${textclass}">Texto</span>
+                <input class="check-input" onchange="${action}" type="checkbox" name="${checkname}" id="${checkid}">
+                <span class="check-input-visual check-input-visual-option float-right"></span>
+            </label>
             `;
         }
     }
@@ -276,3 +279,53 @@ function openToast(selToast) {
     let toastElement = document.getElementById(selToast);
     bootstrap.Toast.getOrCreateInstance(toastElement).show();
 }
+
+//openModal function
+function openModal(selModal) {
+    let modalElement = document.getElementById(selModal);
+    bootstrap.Modal.getOrCreateInstance(modalElement).show();
+}
+
+//egg
+var unknvar = 0;
+var unknurl = "assets/easteregg/index.html";
+
+function unknfunc(){
+	if (unknvar < 4){
+		unknvar++;
+        console.log(unknvar);
+	} else {
+        unknvar = 0;
+        console.log(unknvar);
+        openModal('minigameModal');
+        resetunkdlg();
+	}
+}
+
+function resetunkdlg(){
+	document.getElementById('minigameiframe').src = unknurl + "?dark=" + darkenabled;
+}
+
+//dark theme
+function clickDarkTheme() {
+    if (document.getElementById('darkCheck').checked) {
+        darkenabled = 1;
+        document.documentElement.style.setProperty('--main-bg', '#333333');
+        document.documentElement.style.setProperty('--border-color', 'white');
+        document.documentElement.style.setProperty('--text-color', 'white');
+        document.documentElement.style.setProperty('--option-hover', '#575757');
+        document.documentElement.style.setProperty('--focus-shadow', 'rgba(255, 255, 255, .8)');
+        document.documentElement.style.setProperty('--close-filter', 'invert(1)');
+    } else {
+        darkenabled = 0;
+        document.documentElement.style.setProperty('--main-bg', 'white');
+        document.documentElement.style.setProperty('--border-color', 'black');
+        document.documentElement.style.setProperty('--text-color', 'black');
+        document.documentElement.style.setProperty('--option-hover', 'rgba(0,0,0,.1)');
+        document.documentElement.style.setProperty('--focus-shadow', 'rgba(255, 255, 255, .8)');
+        document.documentElement.style.setProperty('--close-filter', 'none');
+    }
+    
+}
+
+//document.getElementById('darkCheck').click();

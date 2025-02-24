@@ -1,9 +1,6 @@
 melhorias especiais de uso unico
-descrições
-option modals
-integrar js
-css tema escuro var
-salvar e carregar
-pesquisar melhor verificação entre mobile/pc
 tradução em ingles
+descrições
+integrar js
+salvar e carregar
 substituir jogo atual

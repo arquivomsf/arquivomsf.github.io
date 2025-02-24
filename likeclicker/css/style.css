@@ -1,3 +1,14 @@
+:root {
+    --main-bg: white;
+    --border-color: black;
+    --text-color: black;
+    --tab-color-default: #c1c1c1;
+    --tab-color-active: #a3a3a3;
+    --option-hover: rgba(0,0,0,.1);
+    --focus-shadow: rgba(255, 255, 255, .8);
+    --close-filter: none;
+}
+
 .page    { display: none; /*padding: 0 0.5em;*/ }
 
 #loading {
@@ -355,18 +366,6 @@ body {
 	padding-top: 35px;
 }
 
-#movebtn {
-	border: 1px solid black;
-	cursor: pointer;
-	border-radius: 5px;
-	transition: background 0.5s;
-	min-width: 50px;
-}
-
-#movebtn:hover {
-	background:rgba(0,0,0,.1);
-}
-
 #movebtn:focus {
 	outline: 0;
 }
@@ -422,4 +421,33 @@ body {
 
 .btn-close:not(.darkthemed) {
 	filter: none !important;
+}
+
+#movebtn {
+	border: 1px solid var(--border-color);
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background 0.5s;
+	min-width: 50px;
+}
+
+#movebtn:hover {
+    background-color: var(--option-hover);
+	color: var(--text-color);
+}
+
+.vr {
+    background-color: var(--border-color) !important;
+}
+
+canvas {
+    background-color: var(--main-bg);
+}
+
+.egg-page {
+    background-color: var(--main-bg);
+}
+
+#scorelabel, #scoretext {
+    color: var(--text-color);
 }

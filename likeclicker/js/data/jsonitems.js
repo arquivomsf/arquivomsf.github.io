@@ -134,104 +134,104 @@ var option_items = `
             "textclass": "save-load-category",
             "action": "",
             "icon": "",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "save": {
             "type": "option_simple",
             "textclass": "save-game-label",
             "action": "saveGame(); saveLang()",
             "icon": "icon-save",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "load": {
             "type": "option_simple",
             "textclass": "load-game-label",
             "action": "loadGame(); loadLang()",
             "icon": "icon-load",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "autosave": {
             "type": "option_check",
             "textclass": "auto-save-label",
             "action": "enableDisableAutoSave()",
             "icon": "icon-save",
-            "checkoffid": "savedisabled",
-            "checkonid": "saveenabled"
+            "checkname": "autoSaveOption",
+            "checkid": "autoSaveCheck"
     },
     "darkcategory": {
             "type": "category_name",
             "textclass": "dark-theme-category",
             "action": "",
             "icon": "",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "darktheme": {
             "type": "option_check",
             "textclass": "dark-theme-label",
             "action": "clickDarkTheme()",
             "icon": "icon-brush",
-            "checkoffid": "darkthemedisabled",
-            "checkonid": "darkthemeenabled"
+            "checkname": "darkOption",
+            "checkid": "darkCheck"
     },
     "langcategory": {
             "type": "category_name",
             "textclass": "lang-category",
             "action": "",
             "icon": "",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "lang": {
             "type": "option_modal",
             "textclass": "change-lang-label",
             "action": "#langModal",
             "icon": "icon-language",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "resetcategory": {
             "type": "category_name",
             "textclass": "reset-game-category",
             "action": "",
             "icon": "",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "reset": {
             "type": "option_modal",
             "textclass": "reset-game-label",
             "action": "#resetModal",
             "icon": "icon-trash",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "about": {
             "type": "category_name",
             "textclass": "about-category",
             "action": "",
             "icon": "",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "version": {
             "type": "option_simple",
             "textclass": "game-version-label",
             "action": "unknfunc()",
             "icon": "icon-info-circled",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     },
     "credits": {
             "type": "option_modal",
             "textclass": "credits-label",
             "action": "#creditsModal",
             "icon": "icon-changelog",
-            "checkoffid": "",
-            "checkonid": ""
+            "checkname": "",
+            "checkid": ""
     }
 }
 `

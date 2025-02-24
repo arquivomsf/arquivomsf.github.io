@@ -15,7 +15,8 @@
     ],
     "alerts": [
         {
-            
+            "enoughLikes": "Você não tem likes suficientes",
+            "gameSaved": "Jogo salvo"
         }
     ],
     "upgrades": [
@@ -31,43 +32,50 @@
             "followers": [
                 {
                     "followersName": "Seguidores: ",
-                    "plusFollower": "+1 Seguidor"
+                    "plusFollower": "+1 Seguidor",
+                    "descFollower": "desc1"
                 }
             ],
             "fans": [
                 {
                     "fansName": "Fãs: ",
-                    "plusFan": "+1 Fã"
+                    "plusFan": "+1 Fã",
+                    "descFan": "desc2"
                 }
             ],
             "paparazzi": [
                 {
                     "paparazziName": "Paparazzi: ",
-                    "plusPaparazzo": "+1 Paparazzo"
+                    "plusPaparazzo": "+1 Paparazzo",
+                    "descPaparazzo": "desc3"
                 }
             ],
             "stalkers": [
                 {
                     "stalkersName": "Stalkers: ",
-                    "plusStalker": "+1 Stalker"
+                    "plusStalker": "+1 Stalker",
+                    "descStalker": "desc4"
                 }
             ],
             "lunatics": [
                 {
                     "lunaticsName": "Lunáticos: ",
-                    "plusLunatic": "+1 Lunático"
+                    "plusLunatic": "+1 Lunático",
+                    "descLunatic": "desc5"
                 }
             ],
             "bots": [
                 {
                     "botsName": "Bots: ",
-                    "plusBot": "+1 Bot"
+                    "plusBot": "+1 Bot",
+                    "descBot": "desc6"
                 }
             ],
             "lpc": [
                 {
                     "lpcLevel": "Nível: ",
-                    "lpcCompleteString": "Aumentar Likes por Click"
+                    "lpcCompleteString": "Aumentar Likes por Click",
+                    "descLpc": "desc-lpc"
                 }
             ]
         }
@@ -89,11 +97,6 @@
             ]
         }
     ],
-    "credits": [
-        {
-
-        }
-    ],
     "config": [
         {
             "saveLoadCategory": "Salvar e Carregar",
@@ -111,14 +114,33 @@
             "creditsLabel": "Créditos"
         }
     ],
+    "reset": [
+        {
+            "resetDialogHeader": "Atenção!",
+            "resetDialogString": "Você quer mesmo apagar todos os dados do jogo?"
+        }
+    ],
     "egg": [
         {
-
+            "eggDialogHeader": "Segredo",
+            "eggDialogRestartString": "Reiniciar jogo",
+            "eggDialogSourceString1": "A versão original deste jogo pode ser encontrada ",
+            "eggDialogSourceString2": "aqui",
+            "eggDialogSourceStringSky": "Imagem de céu por ",
+            "eggDialogSourceStringShip": "Imagem de nave por "
+        }
+    ],
+    "credits": [
+        {
+            "creditsDialogHeader": "Créditos",
+            "creditsDialogString": "<span class='credits-string'><p><b><h6>Like Clicker</h6></b></p><p><span>Dirigido por TechHero</span><br><span>Desenvolvido por TechHero</span><br><span>Programado por TechHero</span><br><span>Idealizado por TechHero</span><br><span>Design de jogo por TechHero</span><br><span>Balanceamento de jogo por TechHero</span><br></p><br><br><p>Tudo por TechHero?</p></span>"
         }
     ],
     "lang": [
         {
-
+            "langDialogHeader": "Idioma",
+            "langDialogStringEn": "Inglês (English)",
+            "langDialogStringPt": "Português"
         }
     ]
 }

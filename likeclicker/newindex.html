@@ -44,8 +44,8 @@
             <center>
                 <div id="LikePage">
 			<div id="LikeDiv" style="width: 100%;">
-				<div class="like-icon-title pointer" id="LikeBtnDiv" onClick="likeClick(lpc); likeClickEffect()" title="Like">
-					<i class="material-icons likeicon" id="like-icon" style="font-size: 180px; color: black; display: inline-flex; vertical-align: middle;">thumb_up</i>
+				<div class="like-icon-title pointer" id="LikeBtnDiv" onClick="likeClick(lpc); likeClickEffect();" title="Like">
+					<i class="material-icons likeicon" id="like-icon">thumb_up</i>
 				</div>
 				<div>
 					<span class="like-string-one">You have </span><span id="likestxt">0</span><span class="like-string-two"> likes</span></span><br>
@@ -84,7 +84,7 @@
                         <div class="toast-body enough-likes">
                             You don't have enough likes
                         </div>
-                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                        <button type="button" class="btn-close btn-close-toast me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
                     </div>
                 </div>
                 <div id="GameSavedToast" class="toast align-items-center float-right" role="alert" aria-live="assertive" aria-atomic="true">
@@ -92,7 +92,7 @@
                         <div class="toast-body game-saved">
                             Game saved
                         </div>
-                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                        <button type="button" class="btn-close btn-close-toast me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
                     </div>
                 </div>
             </div>
@@ -100,35 +100,139 @@
         <div class="hstack gap-0 allshoptabs TabOpening">
             <div class="menutab commontab pointer create-border" onclick="changeShopTab('common')">
                 <div class="menutabcontent">
-                    <p id="LabelMenu"><span class="tab-common">Common Upgrades</span></p>
+                    <p id="LabelMenu"><span class="tab-text tab-common">Common Upgrades</span></p>
                 </div>
             </div>
             <div class="menutab specialtab pointer" onclick="changeShopTab('special')">
                 <div class="menutabcontent">
-                    <p id="LabelMenu"><span class="tab-special">Special Upgrades</span> <span class="badge bg-danger newupgradeicon hide">!</span></p>
+                    <p id="LabelMenu"><span class="tab-text tab-special">Special Upgrades</span> <span class="badge bg-danger newupgradeicon hide">!</span></p>
                 </div>
             </div>
           </div>
         <div class="hstack gap-0">
             <div class="menutab shoptab pointer create-border" onclick="changeTab('shop')">
                 <div class="menutabcontent">
-                    <i class="material-icons menuicon1">shopping_cart</i>
-                    <p id="LabelMenu"><span class="tab-upgrades">Upgrades</span> <span class="badge bg-danger newupgradeicon newupgradeicon hide">!</span></p>
+                    <i class="material-icons tab-icon menuicon1">shopping_cart</i>
+                    <p id="LabelMenu"><span class="tab-text tab-upgrades">Upgrades</span> <span class="tab-text badge bg-danger newupgradeicon newupgradeicon hide">!</span></p>
                 </div>
             </div>
             <div class="menutab likestab pointer create-border" onclick="changeTab('likes')">
                 <div class="menutabcontent">
-                    <i class="material-icons menuicon2">thumb_up</i>
-					<p id="LabelMenu"><span class="tab-likes">Likes</span></p>
+                    <i class="material-icons tab-icon menuicon2">thumb_up</i>
+					<p id="LabelMenu"><span class="tab-text tab-likes">Likes</span></p>
                 </div>
             </div>
             <div class="menutab configtab pointer" onclick="changeTab('config')">
                 <div class="menutabcontent">
-                    <i class="material-icons menuicon3">settings</i>
-					<p id="LabelMenu"><span class="tab-config">Config.</span></p>
+                    <i class="material-icons tab-icon menuicon3">settings</i>
+					<p id="LabelMenu"><span class="tab-text tab-config">Config.</span></p>
                 </div>
             </div>
           </div>
+        </div>
+    </div>
+    <div class="modal fade" id="resetModal" data-bs-keyboard="true" tabindex="-1" aria-labelledby="resetModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 reset-dialog-header text-danger" id="resetModalLabel">Warning</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="reset-game-dialog-text">
+                    <center class="reset-dialog-string">Do you really want to erase all game data?</center>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-no" data-bs-dismiss="modal">No</button>
+              <button type="button" class="btn btn-danger btn-yes" data-bs-dismiss="modal" onClick="resetGame(); resetLang()">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="minigameModal" class="modal fade" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="eggModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title egg-dialog-header" id="eggModalLabel">Minigame Easteregg</h5>
+                    <button type="button" class="btn-close close-credits" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <iframe id="minigameiframe" src="" height="480" width="100%" scrolling="no" style="border: none;"></iframe>
+                        <br>
+                        <p><button class="egg-dialog-restart-string pointer" id="reseteggbtn" onclick="resetunkdlg()">Restart Game</button></p>
+                        <div class="egg-text">
+                            <p><span class="egg-dialog-source-string-one">This game can be found </span>
+                            <a class="egg-dialog-source-string-two" href="https://www.w3schools.com/graphics/game_intro.asp">here</a><span>.</span><br>
+                            <span class="egg-dialog-source-string-sky">Sky image by </span><a href="https://opengameart.org/users/downdate">Downdate</a><span>.</span><br>
+                            <span class="egg-dialog-source-string-ship">Ship image by </span><a href="https://opengameart.org/users/gobusto">Gobusto</a><span>.</span></p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="creditsModal" data-bs-keyboard="true" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 credits-dialog-header" id="creditsModalLabel">Credits</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="credits-text">
+                    <center>
+                        <span class="credits-dialog-string"><p><b><h6>Like Clicker</h6></b></p>
+                        <p><span>Directed by TechHero</span><br>
+                        <span>Developed by TechHero</span><br>
+                        <span>Programmed by TechHero</span><br>
+                        <span>Idealized by TechHero</span><br>
+                        <span>Game design by TechHero</span><br>
+                        <span>Game balance by TechHero</span><br>
+                        </p>
+                        <br>
+                        <br>
+                        <p>All by TechHero?</p></span>
+                    </center>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="langModal" class="modal" data-bs-keyboard="true" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable dialog" style="width: 100%;">
+            <div class="modal-content" style="height: 400px;">
+                <div class="modal-header">
+                    <h5 class="modal-title lang-dialog-header">Language</h5>
+                    <button type="button" class="btn-close close-credits" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="changelog-text">
+                        <center>
+                            <ul class="custom-list-group">
+                                <li class="custom-list-group-item pointer">
+                                    <label class="custom-list-group-label pointer" for="RadioEN">
+                                        <span class="lang-dialog-string-en">English</span>
+                                        <input class="radio-input" type="radio" name="langOptions" id="RadioEN" value="en" onchange="updateLang(this.value);">
+                                        <span class="radio-input-visual"></span>
+                                    </label>
+                                </li>
+                                <li class="custom-list-group-item pointer">
+                                    <label class="custom-list-group-label pointer" for="RadioPT">
+                                        <span class="lang-dialog-string-pt">Portuguese</span>
+                                        <input class="radio-input" type="radio" name="langOptions" id="RadioPT" value="pt" onchange="updateLang(this.value);">
+                                        <span class="radio-input-visual"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <!--<p><button type="button" class="btn btn-outline-dark language-english" onClick="setLang('en')" data-bs-dismiss="modal">English</button><br></p>
+                            <p><button type="button" class="btn btn-outline-dark language-portuguese" onClick="setLang('pt')" data-bs-dismiss="modal">Portuguese</button><br></p>
+                            -->
+                        </center>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script type="text/javascript" src="js/data/jsonitems.js"></script>
