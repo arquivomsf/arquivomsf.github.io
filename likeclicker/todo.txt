@@ -1,6 +1,3 @@
-melhorias especiais de uso unico
-tradução em ingles
-descrições
 integrar js
 salvar e carregar
 substituir jogo atual

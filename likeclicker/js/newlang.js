@@ -23,10 +23,7 @@ var costString;
 var shopLpsString1;
 var shopLpsString2;
 var upgradeString;
-var warningString;
-var useOnceString1;
-var useOnceString2;
-var doubleRewardString;
+var onlyOnceString;
 var plusLPC;
 var lpcLevel;
 var lpcCompleteString;
@@ -35,32 +32,46 @@ var descLpc;
 //FOLLOWER
 var plusFollower;
 var followersName;
-var hypeFollowers;
 var descFollower;
+var doubleFollowers;
+var doubleFollowersName;
+var descDoubleFollowers;
 
 //FAN
 var plusFan;
 var fansName;
 var hypeFans;
 var descFan;
+var doubleFans;
+var doubleFansName;
+var descDoubleFans;
 
 //PAPARAZZI
 var plusPaparazzo;
 var paparazziName;
 var hypePaparazzi;
 var descPaparazzo;
+var doublePaparazzi;
+var doublePaparazziName;
+var descDoublePaparazzi;
 
 //STALKER
 var plusStalker;
 var stalkersName;
 var hypeStalkers;
 var descStalker;
+var doubleStalkers;
+var doubleStalkersName;
+var descDoubleStalkers;
 
 //LUNATICS
 var plusLunatic;
 var lunaticsName;
 var hypeLunatics;
 var descLunatic;
+var doubleLunatics;
+var doubleLunaticsName;
+var descDoubleLunatics;
 
 //BOTS
 var plusBot;
@@ -68,6 +79,9 @@ var botsName;
 var botPlan;
 var botPlan2;
 var descBot;
+var doubleBots;
+var doubleBotsName;
+var descDoubleBots;
 
 //TABS
 var tabUpgrades;
@@ -163,10 +177,16 @@ function updateLang(selLang) {
         document.querySelectorAll(".upgrade-string").forEach(el => {
             el.innerHTML = upgradeString;
         });
+        onlyOnceString = data.upgrades[0].onlyOnce;
+        document.querySelectorAll(".only-once-string").forEach(el => {
+            el.innerHTML = onlyOnceString;
+        });
         lpcLevel = data.upgrade_items[0].lpc[0].lpcLevel;
         document.querySelector(".level-lpc-string").innerHTML = lpcLevel;
         lpcCompleteString = data.upgrade_items[0].lpc[0].lpcCompleteString;
-        document.querySelector(".lpc-complete-string").innerHTML = lpcCompleteString;
+        document.querySelectorAll(".lpc-complete-string").forEach(el => {
+            el.innerHTML = lpcCompleteString;
+        });
         descLpc = data.upgrade_items[0].lpc[0].descLpc;
         document.querySelector(".desc-lpc-string").innerHTML = descLpc;
 
@@ -177,6 +197,16 @@ function updateLang(selLang) {
         document.querySelector(".plus-follower").innerHTML = plusFollower;
         descFollower = data.upgrade_items[0].followers[0].descFollower;
         document.querySelector(".desc-follower-string").innerHTML = descFollower;
+        if (document.querySelector(".double-followers-string") !== null) {
+            doubleFollowers = data.upgrade_items[0].doubleFollowers[0].doubleFollowers;
+            document.querySelector(".double-followers-string").innerHTML = doubleFollowers;
+            doubleFollowersName = data.upgrade_items[0].doubleFollowers[0].doubleFollowersName;
+            document.querySelectorAll(".double-followers-name").forEach(el => {
+                el.innerHTML = doubleFollowersName;
+            });
+            descDoubleFollowers = data.upgrade_items[0].doubleFollowers[0].descDoubleFollowers;
+            document.querySelector(".desc-double-followers-string").innerHTML = descDoubleFollowers;
+        }
 
         //FANS
         fansName = data.upgrade_items[0].fans[0].fansName;
@@ -185,6 +215,16 @@ function updateLang(selLang) {
         document.querySelector(".plus-fan").innerHTML = plusFan;
         descFan = data.upgrade_items[0].fans[0].descFan;
         document.querySelector(".desc-fan-string").innerHTML = descFan;
+        if (document.querySelector(".double-fans-string") !== null) {
+            doubleFans = data.upgrade_items[0].doubleFans[0].doubleFans;
+            document.querySelector(".double-fans-string").innerHTML = doubleFans;
+            doubleFansName = data.upgrade_items[0].doubleFans[0].doubleFansName;
+            document.querySelectorAll(".double-fans-name").forEach(el => {
+                el.innerHTML = doubleFansName;
+            });
+            descDoubleFans = data.upgrade_items[0].doubleFans[0].descDoubleFans;
+            document.querySelector(".desc-double-fans-string").innerHTML = descDoubleFans;
+        }
 
         //PAPARAZZI
         paparazziName = data.upgrade_items[0].paparazzi[0].paparazziName;
@@ -193,6 +233,16 @@ function updateLang(selLang) {
         document.querySelector(".plus-paparazzo").innerHTML = plusPaparazzo;
         descPaparazzo = data.upgrade_items[0].paparazzi[0].descPaparazzo;
         document.querySelector(".desc-paparazzo-string").innerHTML = descPaparazzo;
+        if (document.querySelector(".double-paparazzi-string") !== null) {
+            doublePaparazzi = data.upgrade_items[0].doublePaparazzi[0].doublePaparazzi;
+            document.querySelector(".double-paparazzi-string").innerHTML = doublePaparazzi;
+            doublePaparazziName = data.upgrade_items[0].doublePaparazzi[0].doublePaparazziName;
+            document.querySelectorAll(".double-paparazzi-name").forEach(el => {
+                el.innerHTML = doublePaparazziName;
+            });
+            descDoublePaparazzi = data.upgrade_items[0].doublePaparazzi[0].descDoublePaparazzi;
+            document.querySelector(".desc-double-paparazzi-string").innerHTML = descDoublePaparazzi;
+        }
 
         //STALKERS
         stalkersName = data.upgrade_items[0].stalkers[0].stalkersName;
@@ -201,6 +251,16 @@ function updateLang(selLang) {
         document.querySelector(".plus-stalker").innerHTML = plusStalker;
         descStalker = data.upgrade_items[0].stalkers[0].descStalker;
         document.querySelector(".desc-stalker-string").innerHTML = descStalker;
+        if (document.querySelector(".double-stalkers-string") !== null) {
+            doubleStalkers = data.upgrade_items[0].doubleStalkers[0].doubleStalkers;
+            document.querySelector(".double-stalkers-string").innerHTML = doubleStalkers;
+            doubleStalkersName = data.upgrade_items[0].doubleStalkers[0].doubleStalkersName;
+            document.querySelectorAll(".double-stalkers-name").forEach(el => {
+                el.innerHTML = doubleStalkersName;
+            });
+            descDoubleStalkers = data.upgrade_items[0].doubleStalkers[0].descDoubleStalkers;
+            document.querySelector(".desc-double-stalkers-string").innerHTML = descDoubleStalkers;
+        }
 
         //LUNATICS
         lunaticsName = data.upgrade_items[0].lunatics[0].lunaticsName;
@@ -209,6 +269,16 @@ function updateLang(selLang) {
         document.querySelector(".plus-lunatic").innerHTML = plusLunatic;
         descLunatic = data.upgrade_items[0].lunatics[0].descLunatic;
         document.querySelector(".desc-lunatic-string").innerHTML = descLunatic;
+        if (document.querySelector(".double-lunatics-string") !== null) {
+            doubleLunatics = data.upgrade_items[0].doubleLunatics[0].doubleLunatics;
+            document.querySelector(".double-lunatics-string").innerHTML = doubleLunatics;
+            doubleLunaticsName = data.upgrade_items[0].doubleLunatics[0].doubleLunaticsName;
+            document.querySelectorAll(".double-lunatics-name").forEach(el => {
+                el.innerHTML = doubleLunaticsName;
+            });
+            descDoubleLunatics = data.upgrade_items[0].doubleLunatics[0].descDoubleLunatics;
+            document.querySelector(".desc-double-lunatics-string").innerHTML = descDoubleLunatics;
+        }
 
         //BOTS
         botsName = data.upgrade_items[0].bots[0].botsName;
@@ -217,6 +287,16 @@ function updateLang(selLang) {
         document.querySelector(".plus-bot").innerHTML = plusBot;
         descBot = data.upgrade_items[0].bots[0].descBot;
         document.querySelector(".desc-bot-string").innerHTML = descBot;
+        if (document.querySelector(".double-bots-string") !== null) {
+            doubleBots = data.upgrade_items[0].doubleBots[0].doubleBots;
+            document.querySelector(".double-bots-string").innerHTML = doubleBots;
+            doubleBotsName = data.upgrade_items[0].doubleBots[0].doubleBotsName;
+            document.querySelectorAll(".double-bots-name").forEach(el => {
+                el.innerHTML = doubleBotsName;
+            });
+            descDoubleBots = data.upgrade_items[0].doubleBots[0].descDoubleBots;
+            document.querySelector(".desc-double-bots-string").innerHTML = descDoubleBots;
+        }
 
         //TABS
         tabUpgrades = data.tabs[0].menu[0].tabUpgrades;

@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Castlevania Legacy of Darkness (N64)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuJceLsgskcuAaxuPvFqNge",
+            "quantidade": "13"
+        }
+    ],
     "videos": [
         {
             "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 1",
@@ -68,41 +76,41 @@
             "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 9",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1h0jGhCjIvMDIW9TCx2FPR_wmUYcg1isV/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/z8nNVw1KyH4",
             "duracao": "50:19",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 10",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1dcAIh-Ij2RlX714-IZinkrJJiAOTzYGC/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Bm5uGnrEdwI",
             "duracao": "54:22",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 11",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1yhkbCdSY6-eK5u3Pc9zVHwD_vukqex1u/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/fVdWBVmlew0",
             "duracao": "51:32",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 12",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/18PaS0HhyzvTKJM9h9OmPEHX1_Gs-zo87/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/bfyzobIwJCs",
             "duracao": "42:06",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 13",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1sVL0LFuWGUrp63rj0B5SZwPkASi3JWMi/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/qf0SplSyORQ",
             "duracao": "52:44",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }

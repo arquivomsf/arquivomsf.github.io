@@ -12,6 +12,7 @@
 html {
     color: var(--text-color);
     background-color: var(--main-bg);
+    overflow-x: hidden;
 }
 
 .sections-overlap {
@@ -31,6 +32,33 @@ html {
   width: 100vw;
   height: 100vh;
   background-color: var(--main-bg);
+}
+
+#tab-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-bg);
+    opacity: 0;
+    pointer-events: none;
+}
+
+@keyframes tabloading {
+    0% {
+        opacity: 0;
+    }
+	25% {
+		opacity: 1;
+	}
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 * {
@@ -193,11 +221,16 @@ html {
     content: '\e80d';
 }
 
+/*.newupgradeicon {
+    color: white;
+}*/
+
 .alltabs {
     position: fixed;
     bottom: 0;
     width: 100%;
     color: black;
+    z-index: 5;
 }
 
 .tab-icon {
@@ -236,9 +269,13 @@ html {
     width: min-content;
 }
 
+#LikeBtnDiv.click {
+    animation: likeclicked 0.1s linear;
+}
+
 @media only screen and (min-width: 601px) {
     #LikeBtnDiv:not(:hover) {
-        scale: 1 !important;
+        scale: 1;
     }
     #LikeBtnDiv:hover {
         scale: 0.95;
@@ -250,7 +287,7 @@ html {
         scale: 0.85;
     }
     100% {
-        scale: 1;
+        scale: 0.95;
     }
 }
 
@@ -309,15 +346,20 @@ html {
 
 .BuyButton {
     text-align: center;
+    background-color: var(--main-bg);
     border: 1px solid var(--border-color);
     border-radius: 5px;
     width: 180px;
-    height: 100px;
+    min-height: 100px;
     text-align: center;
     display: flex;
     display: -webkit-flex;
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
+}
+
+.BuyButton:hover {
+    background-color: var(--option-hover);
 }
 
 .BuyButtonContent {

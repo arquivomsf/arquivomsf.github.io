@@ -24,7 +24,8 @@
             "costString": "Preço: ",
             "shopLpsString1": "Adiciona ",
             "shopLpsString2": " de LpS",
-            "upgradeString": "Melhorar"
+            "upgradeString": "Melhorar",
+            "onlyOnce": "Você só pode<br>comprar isso<br>uma vez!"
         }
     ],
     "upgrade_items": [
@@ -33,49 +34,91 @@
                 {
                     "followersName": "Seguidores: ",
                     "plusFollower": "+1 Seguidor",
-                    "descFollower": "desc1"
+                    "descFollower": "Depois de tanto tempo fazendo conteúdo que só você e talvez a sua mãe viam, alguém finalmente se interessou e te seguiu!"
                 }
             ],
             "fans": [
                 {
                     "fansName": "Fãs: ",
                     "plusFan": "+1 Fã",
-                    "descFan": "desc2"
+                    "descFan": "Alguns dos seguidores começaram a se aprofundar nas partes obscuras seu conteúdo e até em partes da sua vida real. Essas pessoas estão se autodenominando seus fãs."
                 }
             ],
             "paparazzi": [
                 {
                     "paparazziName": "Paparazzi: ",
                     "plusPaparazzo": "+1 Paparazzo",
-                    "descPaparazzo": "desc3"
+                    "descPaparazzo": "Certo dia, você ouviu o barulho do obturador de uma câmera enquanto andava pela rua. Quando você se virou para olhar o que era, percebeu que alguém mediocremente escondido tirou uma foto sua, talvez na expectativa de capturar a beleza da sua espontaneidade. Depois de presenciar a mesma situação se repetir várias vezes todos os dias, você se trancou em casa e evitou sair de novo."
                 }
             ],
             "stalkers": [
                 {
                     "stalkersName": "Stalkers: ",
                     "plusStalker": "+1 Stalker",
-                    "descStalker": "desc4"
+                    "descStalker": "Ainda pior do que os paparazzi são aquelas pessoas esquisitas que você um dia calhou de responder por mensagem privada. Os stalkers se apaixonaram tanto por você que descobriram todas as suas informações pessoais e passam na sua casa diariamente para tentar conseguir uma chance de falar com você."
                 }
             ],
             "lunatics": [
                 {
                     "lunaticsName": "Lunáticos: ",
                     "plusLunatic": "+1 Lunático",
-                    "descLunatic": "desc5"
+                    "descLunatic": "Certamente não são insuportáveis como os paparazzi, nem perigosos como os stalkers, mas eles não ficam para trás em determinação, dedicando todas as 24 horas do dia para você e suas criações."
                 }
             ],
             "bots": [
                 {
                     "botsName": "Bots: ",
                     "plusBot": "+1 Bot",
-                    "descBot": "desc6"
+                    "descBot": "Chegou o momento em que você percebeu o limite das capacidades da humanidade. Para ultrapassar a consciência humana e todas as suas falhas, é necessário ter ao seu lado um exército de máquinas perfeitas, que funcionam exclusivamente para te dar likes de forma assustadoramente rápida e em quantidades comicamente enormes."
                 }
             ],
             "lpc": [
                 {
                     "lpcLevel": "Nível: ",
                     "lpcCompleteString": "Aumentar Likes por Click",
-                    "descLpc": "desc-lpc"
+                    "descLpc": "Aumentar a sua própria capacidade de spam, liberando a incrível técnica de dar vários likes no seu próprio conteúdo com um só click."
+                }
+            ],
+            "doubleFollowers": [
+                {
+                    "doubleFollowersName": "Seguidores 2x LpS",
+                    "doubleFollowers": "Estratégia de Engajamento",
+                    "descDoubleFollowers": "Incentivar diversas formas de engajamento entre os seguidores para fazer o algoritmo da rede social mostrar o seu conteúdo nas recomendações de todos os usuários."
+                }
+            ],
+            "doubleFans": [
+                {
+                    "doubleFansName": "Fãs 2x LpS",
+                    "doubleFans": "Melhorar o Conteúdo",
+                    "descDoubleFans": "Estudar as analytics da sua rede social e decidir com mais conhecimento quais tipos de conteúdo valem a pena continuar sendo produzidos, aumentando a qualidade no geral. Como resultado, os fãs que você já tem se sentirão ainda mais cativados a te dar likes."
+                }
+            ],
+            "doublePaparazzi": [
+                {
+                    "doublePaparazziName": "Paparazzi 2x LpS",
+                    "doublePaparazzi": "Aparecer em Público",
+                    "descDoublePaparazzi": "Depois de muito tempo sem pôr os pés fora de casa, sair para um local de acesso público para que os paparazzi consigam tirar novas fotos de você (ainda sem o seu consentimento, é claro)."
+                }
+            ],
+            "doubleStalkers": [
+                {
+                    "doubleStalkersName": "Stalkers 2x LpS",
+                    "doubleStalkers": "Dar Corda pra Gente Ruim",
+                    "descDoubleStalkers": "Não faça isso..."
+                }
+            ],
+            "doubleLunatics": [
+                {
+                    "doubleLunaticsName": "Lunáticos 2x LpS",
+                    "doubleLunatics": "Agradar os Fãs Lunáticos",
+                    "descDoubleLunatics": "Reconhecer a existência dos fãs lunáticos, principalmente mencionando eles pessoalmente, para que se animem e deem ainda mais likes."
+                }
+            ],
+            "doubleBots": [
+                {
+                    "doubleBotsName": "Bots 2x LpS",
+                    "doubleBots": "Melhorar Serviço de Bots",
+                    "descDoubleBots": "Pagar um pouquinho mais para subir o plano do serviço de bots e receber ainda mais contas inflando as suas estatisticas com números empolgantes (infelizmente, isso também significa que você não é famoso de verdade)."
                 }
             ]
         }
@@ -102,13 +145,13 @@
             "saveLoadCategory": "Salvar e Carregar",
             "darkThemeCategory": "Tema Escuro",
             "langCategory": "Idioma",
-            "resetGameCategory": "Gerenciar dados do jogo",
+            "resetGameCategory": "Gerenciar Dados do Jogo",
             "aboutCategory": "Sobre",
             "saveGameLabel": "Salvar jogo",
             "loadGameLabel": "Carregar jogo",
             "autoSaveLabel": "Salvamento automático",
             "darkThemeLabel": "Tema escuro",
-            "changeLangLabel": "Idioma",
+            "changeLangLabel": "Idioma do jogo",
             "resetGameLabel": "Apagar todos os dados",
             "gameVersionLabel": "Versão: ",
             "creditsLabel": "Créditos"

@@ -32,6 +32,7 @@
 </head>
 <body>
     <div id="loading"></div>
+    <div id="tab-loading"></div>
     <div class="page">
         <div id="TopActionBar">
 			<div id="LikeTopBar">
@@ -44,13 +45,13 @@
             <center>
                 <div id="LikePage">
 			<div id="LikeDiv" style="width: 100%;">
-				<div class="like-icon-title pointer" id="LikeBtnDiv" onClick="likeClick(lpc); likeClickEffect();" title="Like">
-					<i class="material-icons likeicon" id="like-icon">thumb_up</i>
+				<div class="like-icon-title pointer parent-flex" id="LikeBtnDiv" onmouseout="resetAnimation(this,'click',100)" onClick="likeClick(lpc);triggerAnimation(this,'click',0);">
+					<i class="material-icons likeicon child-flex" id="like-icon">thumb_up</i>
 				</div>
 				<div>
 					<span class="like-string-one">You have </span><span id="likestxt">0</span><span class="like-string-two"> likes</span></span><br>
-					<span class="lpc-home-string" data-toggle="tooltip" title="Number of Likes per Click">LPC: </span><span id="lpc">1</span><br>
-					<span class="lps-home-string" data-toggle="tooltip" title="Number of Likes per Second">LPS: </span><span id="lps">0</span><br>
+					<span class="lpc-home-string">LPC: </span><span id="lpc">1</span><br>
+					<span class="lps-home-string">LPS: </span><span id="lps">0</span><br>
 				</div>
 			</div>
 			</div>
@@ -105,7 +106,7 @@
             </div>
             <div class="menutab specialtab pointer" onclick="changeShopTab('special')">
                 <div class="menutabcontent">
-                    <p id="LabelMenu"><span class="tab-text tab-special">Special Upgrades</span> <span class="badge bg-danger newupgradeicon hide">!</span></p>
+                    <p id="LabelMenu"><span class="tab-text tab-special">Special Upgrades</span> <span class="badge bg-danger tab-text newupgradeicon hide">!</span></p>
                 </div>
             </div>
           </div>
@@ -113,7 +114,7 @@
             <div class="menutab shoptab pointer create-border" onclick="changeTab('shop')">
                 <div class="menutabcontent">
                     <i class="material-icons tab-icon menuicon1">shopping_cart</i>
-                    <p id="LabelMenu"><span class="tab-text tab-upgrades">Upgrades</span> <span class="tab-text badge bg-danger newupgradeicon newupgradeicon hide">!</span></p>
+                    <p id="LabelMenu"><span class="tab-text tab-upgrades">Upgrades</span> <span class="tab-text badge bg-danger tab-text newupgradeicon newupgradeicon hide">!</span></p>
                 </div>
             </div>
             <div class="menutab likestab pointer create-border" onclick="changeTab('likes')">
@@ -201,8 +202,8 @@
         </div>
       </div>
     <div id="langModal" class="modal" data-bs-keyboard="true" tabindex="-1">
-        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable dialog" style="width: 100%;">
-            <div class="modal-content" style="height: 400px;">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable" style="width: 100%;">
+            <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title lang-dialog-header">Language</h5>
                     <button type="button" class="btn-close close-credits" data-bs-dismiss="modal" aria-label="Close"></button>
