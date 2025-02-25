@@ -1,9 +1,46 @@
-var activetab, activeshoptab, darkenabled;
+var likes, lps, lpc;
+var activetab, activeshoptab, darkenabled, autosaveenabled;
+var followers, fans, paparazzi, stalkers, lunatics, bots;
+var followersLPS, fansLPS, paparazziLPS, stalkersLPS, lunaticsLPS, botsLPS;
+var followersDoublePurchased, fansDoublePurchased, paparazziDoublePurchased, stalkersDoublePurchased, lunaticsDoublePurchased, botsDoublePurchased;
 var uniqueUpgradesAvailable = 0;
 
+
+//normal upgrade scale
+//Math.floor(<get lps default cost> * Math.pow(1.15,<current item quantity>));
+
+//click upgrade scale
+//Math.floor(<get lpc default cost> * Math.pow(1.175,lpc));
+
+//not enough likes
+//openToast("NotEnoughLikesToast");
+
+//game saved
+//openToast("GameSavedToast");
+
+
 //click
-function likeClick(lpc) {
-    lpc = 0;
+function likeClick() {
+    likes = likes + lpc;
+	updateElementDisplay(document.getElementById("likestxt"),likes);
+    updateElementDisplay(document.getElementById("LabelLikes"),likes);
+}
+
+//lps logic
+window.setInterval(function(){
+	likes += lps;
+	updateElementDisplay(document.getElementById("likestxt"),likes);
+    updateElementDisplay(document.getElementById("LabelLikes"),likes);
+}, 1000);
+
+function updateLPSValue() {
+    lps = ((followersLPS * followersDoublePurchased) * followers) + ((fansLPS * fansDoublePurchased) * fans) + ((paparazziLPS * paparazziDoublePurchased) * paparazzi) + ((stalkersLPS * stalkersDoublePurchased) * stalkers) + ((lunaticsLPS * lunaticsDoublePurchased) * lunatics) + ((botsLPS * botsDoublePurchased) * bots);
+    updateElementDisplay(document.getElementById("lps"),lps);
+}
+
+//update like display
+function updateElementDisplay(element,value) {
+    element.innerHTML = value;
 }
 
 //animations functions
@@ -20,6 +57,13 @@ function resetAnimation(element,animation,delay) {
         element.classList.remove(animation);
         void element.offsetWidth;
     },delay);
+}
+
+//check double condition
+function checkDoubleCondition(target,condition,create_id) {
+    if (target >= 10 && condition == 0) {
+        createSpecialShopItem(create_id);
+    }
 }
 
 //change menu tab

@@ -292,3 +292,54 @@ var option_items = `
     }
 }
 `
+
+var default_values = `
+{
+    "followers": {
+            "lps": "1",
+            "cost": "10",
+            "doublecost": "500",
+            "doubledefault": "1"
+    },
+    "fans": {
+            "lps": "2",
+            "cost": "100",
+            "doublecost": "1000",
+            "doubledefault": "1"
+    },
+    "paparazzi": {
+            "lps": "4",
+            "cost": "500",
+            "doublecost": "6000",
+            "doubledefault": "1"
+    },
+    "stalkers": {
+            "lps": "8",
+            "cost": "1000",
+            "doublecost": "12000",
+            "doubledefault": "1"
+    },
+    "lunatics": {
+            "lps": "16",
+            "cost": "5000",
+            "doublecost": "25000",
+            "doubledefault": "1"
+    },
+    "bots": {
+            "lps": "32",
+            "cost": "10000",
+            "doublecost": "50000",
+            "doubledefault": "1"
+    },
+    "lpc": {
+            "cost": "1000",
+            "default": "1"
+    },
+    "lang": {
+        "default": "en"
+    },
+    "autosave": {
+        "default": "1"
+    }
+}
+`
