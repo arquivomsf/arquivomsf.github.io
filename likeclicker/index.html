@@ -1,589 +1,242 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
-		<title>Like Clicker</title>
-		<link rel="icon" type="image/png" href="https://arquivomsf.github.io/likeclicker/assets/icon.png" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-		<script type="text/javascript" src="js/loading.js"></script>
-		<meta name="description" content="Jogue Like Clicker, o melhor jogo clicker do mundo! É... Só que não...">
-		<meta property="og:title" content="Like Clicker">
-		<meta property="og:description" content="Jogue Like Clicker, o melhor jogo clicker do mundo! É... Só que não...">
-		<meta property="og:url" content="https://arquivomsf.github.io/likeclicker/">
-		<meta property="og:image" content="https://arquivomsf.github.io/likeclicker/assets/likeclicker.jpg">
-		<meta name="keywords" content="techhero tech hero like clicker likeclicker">
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:title" content="Like Clicker">
-		<meta name="twitter:description" content="Jogue Like Clicker, o melhor jogo clicker do mundo! É... Só que não...">
-		<meta name="twitter:image" content="https://arquivomsf.github.io/likeclicker/assets/likeclicker.jpg">
-		<link rel="manifest" href="manifest.json">
-
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="application-name" content="Like Clicker">
-<meta name="apple-mobile-web-app-title" content="Like Clicker">
-<meta name="msapplication-starturl" content="/">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link rel="icon" type="image/png" sizes="512x512" href="assets/web-icon.png">
-<link rel="apple-touch-icon" type="image/png" sizes="512x512" href="assets/web-icon.png">
-	</head>
-	<body onload="loadGame(); loadLang()">
-		<div id="loading"></div>
-		<div class="page">
-		<div id="TopActionBar" style="width: 100%; background: white; height: 34px; border-bottom: 1px solid black; position: fixed; margin-top: -5px;">
-			<div id="LikeTopBar" style="float: left; margin-left: 5px; padding-top: 3px;">
-				<i id="mini-like-icon" class="material-icons likelabelicon" style="vertical-align: text-top; color: black;">thumb_up</i>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<title>Like Clicker</title>
+	<link rel="icon" type="image/png" href="https://arquivomsf.github.io/likeclicker/assets/icon.png" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/loading.js"></script>
+	<meta name="description" content="Jogue Like Clicker, o melhor jogo clicker do mundo! É... Só que não...">
+	<meta property="og:title" content="Like Clicker">
+	<meta property="og:description" content="Jogue Like Clicker, o melhor jogo clicker do mundo! É... Só que não...">
+	<meta property="og:url" content="https://arquivomsf.github.io/likeclicker/">
+	<meta property="og:image" content="https://arquivomsf.github.io/likeclicker/assets/likeclicker.jpg">
+	<meta name="keywords" content="techhero tech hero like clicker likeclicker">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Like Clicker">
+	<meta name="twitter:description" content="Jogue Like Clicker, o melhor jogo clicker do mundo! É... Só que não...">
+	<meta name="twitter:image" content="https://arquivomsf.github.io/likeclicker/assets/likeclicker.jpg">
+	<link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Like Clicker">
+    <meta name="apple-mobile-web-app-title" content="Like Clicker">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/web-icon.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="assets/web-icon.png">
+</head>
+<body>
+    <div id="loading"></div>
+    <div id="tab-loading"></div>
+    <div class="page">
+        <div id="TopActionBar">
+			<div id="LikeTopBar">
+				<i id="mini-like-icon" class="material-icons likelabelicon">thumb_up</i>
 				<span id="LabelLikes">0</span>
 			</div>
 		</div>
-		<section>
-		<center>
-			<div id="LikePage" class="TabOpening">
+        <div class="sections-overlap">
+        <div class="TabOpening" id="LikeSection">
+            <center>
+                <div id="LikePage">
 			<div id="LikeDiv" style="width: 100%;">
-				<div class="like-icon-title" id="LikeBtnDiv" onClick="likeClick(lpc)" title="Like">
-					<i onmouseover="showLikeOverlay()" onmouseout="hideLikeOverlay()" class="material-icons likeicon" id="like-icon" style="font-size: 180px; color: black; display: inline-flex; vertical-align: middle;">thumb_up</i>
+				<div class="like-icon-title pointer parent-flex" id="LikeBtnDiv" onmouseout="resetAnimation(this,'click',100)" onClick="likeClick();triggerAnimation(this,'click',0);">
+					<i class="material-icons likeicon child-flex" id="like-icon">thumb_up</i>
 				</div>
 				<div>
 					<span class="like-string-one">You have </span><span id="likestxt">0</span><span class="like-string-two"> likes</span></span><br>
-					<span class="lpc-home-string" data-toggle="tooltip" title="Number of Likes per Click">LPC: </span><span id="lpc">1</span><br>
-					<span class="lps-home-string" data-toggle="tooltip" title="Number of Likes per Second">LPS: </span><span id="lps">0</span><br>
+					<span class="lpc-home-string">LPC: </span><span id="lpc">1</span><br>
+					<span class="lps-home-string">LPS: </span><span id="lps">0</span><br>
 				</div>
 			</div>
 			</div>
-			<div id="NotEnoughLikes" style="display: none; visibility: hidden;">
-				<div class="alert alert-dark" role="alert">
-					<span class="enough-likes" style="padding-right: 5px;">You don't have enough likes.</span>
-					<button type="button" id="CloseAlert" onclick="removeNotEnoughLikes()" class="btn-close" aria-label="Close"></button>
-				</div>
-			</div>
-			<div id="SaveGameAlert" style="display: none; visibility: hidden;">
-				<div class="alert alert-dark" role="alert">
-					<span class="game-saved" style="padding-right: 5px;">Game saved.</span>
-					<button type="button" id="CloseAlert" onclick="removeSaveGameAlert()" class="btn-close" aria-label="Close"></button>
-				</div>
-			</div>
-			<div id="ShopPage" class="TabOpening" style="display: none; visibility: hidden;">
-			<div class="TabOpening" id="ShopTab" style="width: 100%; float: left; margin-bottom: 160px; margin-top: 5px;">
-				<div id="FollowersDiv" style="width: 100%;">
-					<center>
-					<div class="shopitem1" id="GainFollower" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem1btn plus-follower-title" id="BuyButton" onClick="gainFollower()" title="+1 Follower">
-									<center>
-										<i class="material-icons shopitem1icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span class="plus-follower" style="padding-left: 5px; padding-right: 5px;">+1 Follower</span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span class="followers-name">Followers: </span><span id="followers">0</span><br />
-									<span class="lps-follower-string">LPS: </span><span id="followerLPS">1</span><br />
-									<span class="cost-follower-string">Cost: </span><span id="followerCost">10</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					</center>
-					<br>
-				</div>
-				<div id="FanDiv">
-					<div class="shopitem2" id="GainFan" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem2btn plus-fan-title" id="BuyButton" onClick="gainFan()" title="+1 Fan">
-									<center>
-										<i class="material-icons shopitem2icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span class="plus-fan" style="padding-left: 5px; padding-right: 5px;">+1 Fan</span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span class="fans-name">Fans: </span><span id="fans">0</span><br />
-									<span class="lps-fan-string">LPS: </span><span id="FansLPS">2</span><br />
-									<span class="cost-fan-string">Cost: </span><span id="FansCost">100</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br>
-				</div>
-				<div id="PaparazziDiv">
-					<div class="shopitem3" id="GainPaparazzi" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem3btn plus-paparazzi-title" id="BuyButton" onClick="gainPaparazzi()" title="+1 Paparazzi">
-									<center>
-										<i class="material-icons shopitem3icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span class="plus-paparazzi" style="padding-left: 5px; padding-right: 5px;">+1 Paparazzi</span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span class="paparazzis-name">Paparazzis: </span><span id="paparazzis">0</span><br />
-									<span class="lps-paparazzi-string">LPS: </span><span id="paparazzisLPS">4</span><br />
-									<span class="cost-paparazzi-string">Cost: </span><span id="paparazzisCost">500</span>
-								</div>
-							</td>
-						</table>
-							
-					</div>
-					<br>
-				</div>
-				<div id="StalkerDiv">
-					<div class="shopitem4" id="GainStalker" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem4btn plus-stalker-title" id="BuyButton" onClick="gainStalker()" title="+1 Stalker">
-									<center>
-										<i class="material-icons shopitem4icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span class="plus-stalker" style="padding-left: 5px; padding-right: 5px;">+1 Stalker</span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span class="stalkers-name">Stalkers: </span><span id="stalkers">0</span><br />
-									<span class="lps-stalker-string">LPS: </span><span id="stalkersLPS">8</span><br />
-									<span class="cost-stalker-string">Cost: </span><span id="stalkersCost">1000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br>
-				</div>
-				<div id="LunaticFanDiv">
-					<div class="shopitem5" id="GainLunatic" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem5btn plus-lunatic-title" id="BuyButton" onClick="gainLunatic()" title="+1 Lunatic">
-									<center>
-										<i class="material-icons shopitem5icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span class="plus-lunatic" style="padding-left: 5px; padding-right: 5px;">+1 Lunatic</span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span class="lunatics-name">Lunatics: </span><span id="lunatics">0</span><br />
-									<span class="lps-lunatic-string">LPS: </span><span id="lunaticsLPS">16</span><br />
-									<span class="cost-lunatic-string">Cost: </span><span id="lunaticsCost">5000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br>
-				</div>
-				<div id="BotDiv">
-					<div class="shopitem6" id="AddBot" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem6btn plus-bot-title" id="BuyButton" onClick="addBot()" title="+1 Bot">
-									<center>
-										<i class="material-icons shopitem6icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span class="plus-bot" style="padding-left: 5px; padding-right: 5px;">+1 Bot</span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span class="bots-name">Bots: </span><span id="bots">0</span><br />
-									<span class="lps-bot-string">LPS: </span><span id="botLPS">32</span><br />
-									<span class="cost-bot-string">Cost: </span><span id="botCost">10000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-				</div>
-			</div>
-			<div class="TabOpening" id="UpgradeTab" style="width: 100%; float: right; display: none; visibility: hidden; margin-bottom: 160px; margin-top: 5px;">
-				<div id="ClickDiv">
-					<div class="shopitem7" id="AddClick" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem7btn plus-lpc-title" id="BuyButton" onClick="addClick()" title="Buy +1 LPC (Likes per Click)">
-									<center>
-										<i class="material-icons shopitem7icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span class="upgrade-string" style="padding-left: 5px; padding-right: 5px;">Upgrade</span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span class="lpc-complete-string">Likes per click</span><br>
-									<span class="level-lpc-string">Level: </span><span id="lpcshop">1</span><br>
-									<span class="cost-lpc-string">Cost: </span><span id="addClickCost">1000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-				</div>
-				<br id="brUpgradeLPC">
-				<div id="FollowerDiv">
-					<div class="shopitem8" id="HypeFollowers" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem8btn hype-followers-title" id="BuyButton" onClick="hypeFollowersFunc()" title="Hype Followers (2x LPS)">
-									<center>
-										<i class="material-icons shopitem8icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span style="padding-left: 5px; padding-right: 5px;"><span class="hype-followers-string-one">Hype Followers</span><br><span class="hype-followers-string-two">(2x LPS)</span></span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span><b class="warning-follower-string">Warning</b>:<br> <span class="useonce-follower-string-one">You can only</span><br><span class="useonce-follower-string-two"> use this once!</span></span><br>
-									<span class="cost-follower-hype">Cost: </span><span id="hypeFollowersCost">500</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br id="brHypeFollowers">
-				</div>
-				<div id="FanDiv">
-					<div class="shopitem9" id="HypeFans" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem9btn hype-fans-title" id="BuyButton" onClick="hypeFansFunc()" title="Hype Fans (2x LPS)">
-									<center>
-										<i class="material-icons shopitem9icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span style="padding-left: 5px; padding-right: 5px;"><span class="hype-fans-string-one">Hype Fans</span><br><span class="hype-fans-string-two">(2x LPS)</span></span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span><b class="warning-fan-string">Warning</b>:<br> <span class="useonce-fan-string-one">You can only</span><br><span class="useonce-fan-string-two"> use this once!</span></span><br>
-									<span class="cost-fan-hype">Cost: </span><span id="hypeFansCost">1000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br id="brHypeFans">
-				</div>
-				<div id="PaparazziDiv">
-					<div class="shopitem10" id="HypePaparazzis" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem10btn hype-paparazzis-title" id="BuyButton" onClick="hypePaparazzisFunc()" title="Hype Paparazzis (2x LPS)">
-									<center>
-										<i class="material-icons shopitem10icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span style="padding-left: 5px; padding-right: 5px;"><span class="hype-paparazzis-string-one">Hype Paparazzis</span><br><span class="hype-paparazzis-string-two">(2x LPS)</span></span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span><b class="warning-paparazzi-string">Warning</b>:<br> <span class="useonce-paparazzi-string-one">You can only</span><br><span class="useonce-paparazzi-string-two"> use this once!</span></span><br>
-									<span class="cost-paparazzi-hype">Cost: </span><span id="hypePaparazzisCost">6000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br id="brHypePaparazzis">
-				</div>
-				<div id="StalkerDiv">
-					<div class="shopitem11" id="HypeStalkers" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem11btn hype-stalkers-title" id="BuyButton" onClick="hypeStalkersFunc()" title="Hype Stalkers (2x LPS)">
-									<center>
-										<i class="material-icons shopitem11icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span style="padding-left: 5px; padding-right: 5px;"><span class="hype-stalkers-string-one">Hype Stalkers</span><br><span class="hype-stalkers-string-two">(2x LPS)</span></span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span><b class="warning-stalker-string">Warning</b>:<br> <span class="useonce-stalker-string-one">You can only</span><br><span class="useonce-stalker-string-two"> use this once!</span></span><br>
-									<span class="cost-stalker-hype">Cost: </span><span id="hypeStalkersCost">12000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br id="brHypeStalkers">
-				</div>
-				<div id="LunaticDiv">
-					<div class="shopitem12" id="HypeLunatics" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem12btn hype-lunatics-title" id="BuyButton" onClick="hypeLunaticsFunc()" title="Hype Lunatics (2x LPS)">
-									<center>
-										<i class="material-icons shopitem12icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span style="padding-left: 5px; padding-right: 5px;"><span class="hype-lunatics-string-one">Hype Lunatics</span><br><span class="hype-lunatics-string-two">(2x LPS)</span></span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span><b class="warning-lunatic-string">Warning</b>:<br> <span class="useonce-lunatic-string-one">You can only</span><br><span class="useonce-lunatic-string-two"> use this once!</span></span><br>
-									<span class="cost-lunatic-hype">Cost: </span><span id="hypeLunaticsCost">25000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br id="brHypeLunatics">
-				</div>
-				<div id="BotDiv">
-					<div class="shopitem13" id="DoubleBots" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem13btn bots-plan-title" id="BuyButton" onClick="doubleBots()" title="Upgrade Bots Plan (2x LPS)">
-									<center>
-										<i class="material-icons shopitem13icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span style="padding-left: 5px; padding-right: 5px;"><span class="bots-plan-string-one">Upgrade Bots Plan</span><br><span class="bots-plan-string-two">(2x LPS)</span></span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span><b class="warning-bot-string">Warning</b>:<br> <span class="useonce-bot-string-one">You can only</span><br><span class="useonce-bot-string-two"> use this once!</span></span><br>
-									<span class="cost-bot-hype">Cost: </span><span id="doubleBotsCost">50000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-					<br id="brDoubleBot">
-				</div>
-				<!--<div id="ClickDiv">
-					<div class="shopitem14" id="DoubleClick" class="rounded">
-						<table id="ItemTable">
-							<td id="ItemCell">
-								<div class="shopitem14btn" id="BuyButton" onClick="doubleClick()" title="Buy x2 LPC (Likes per Click)">
-									<center>
-										<i class="material-icons shopitem14icon" id="like-icon" style="font-size: 50px; color: black; display: inline-flex; vertical-align: middle;">add</i><br>
-										<span style="padding-left: 5px; padding-right: 5px;">x2 LPC<br> (Clicks)</span>
-									</center>
-								</div>
-							</td>
-							<td style="width: 5px;"></td>
-							<td id="ItemCell">
-								<div id="ItemInfo">
-									<span><b>Warning</b>:<br> You can only<br> use this once!</span><br>
-									Cost: <span id="doubleClickCost">45000</span>
-								</div>
-							</td>
-						</table>
-					</div>
-				</div>-->
-			</div>
-			</div>
-			</center>
-			<div id="SettingsPage" class="TabOpening" style="display: none; visibility: hidden;">
-				<center><h4 class="tab-config-title">Config.</h4></center>
-				<div id="CategoryDiv">
-					<div>
-						<b class="save-and-load" id="Category">Save and Load</b>
-						<hr class="confighr2" style="border: 1px solid black;">
-						<div class="configoption2 save-game-title" id="SettingsOption" title="Save the game" onclick="saveGame(); saveLang()">
-							<i class="fontelloicons icon-save option2icon" style="color: black; display: inline-flex; font-size: 20px; line-height: 1;"></i>
-							<span class="save-game-string">Save game</span>
-						</div>
-						<div class="configoption3 load-game-title" id="SettingsOption" title="Load the game" onclick="loadGame(); loadLang()">
-							<i class="fontelloicons icon-load option3icon" style="color: black; display: inline-flex; font-size: 20px; line-height: 1;"></i>
-							<span class="load-game-string">Load game</span>
-						</div>
-						<div class="configoption4 auto-save-title" id="SettingsOption" title="Enable/Disable auto save" onclick="enableDisableAutoSave()">
-							<i class="fontelloicons icon-save option4icon" style="color: black; display: inline-flex; font-size: 20px; line-height: 1;"></i>
-							<span class="autosave auto-save-string">Auto save</span>
-							<i id="savedisabled" style="float: right; padding-right: 5px; display: none; visibility: hidden;" class="material-icons">check_box_outline_blank</i>
-							<i id="saveenabled" style="float: right; padding-right: 5px;" class="material-icons">check_box</i>
-						</div>
-					</div>
-					<br>
-					<div>
-						<b class="dark-theme-category" id="Category">Dark Theme</b>
-						<hr class="confighr1" style="border: 1px solid black;">
-						<div class="configoption1 dark-theme-title" id="SettingsOption" title="Enable/Disable dark theme" onclick="clickDarkTheme()">
-							<i class="fontelloicons icon-brush option1icon" style="color: black; display: inline-flex; font-size: 20px; line-height: 1;"></i>
-							<span class="darktheme dark-theme-option">Dark theme</span>
-							<i id="darkthemedisabled" style="float: right; padding-right: 5px;" class="material-icons">check_box_outline_blank</i>
-							<i id="darkthemeenabled" style="float: right; padding-right: 5px; display: none; visibility: hidden;" class="material-icons">check_box</i>
-						</div>
-					</div>
-					<br>
-					<div>
-						<b class="reset-game-string" id="Category">Reset</b>
-						<hr class="confighr3" style="border: 1px solid black;">
-						<div class="reset configoption5 reset-game-title" id="SettingsOption" title="Reset the game" data-bs-toggle="modal" data-bs-target="#resetModal">
-							<i class="fontelloicons icon-trash option5icon" style="color: black; display: inline-flex; font-size: 20px; line-height: 1;"></i>
-							<span class="erase-data-string">Erase data</span>
-						</div>
-					</div>
-				</div>
-				<!--<br>
-				<div id="CategoryDiv">
-					<b class="language-category" id="Category">Language</b>
-					<hr class="confighr4" style="border: 1px solid black;">
-					<div class="showlanguage configoption6 language-option-title" id="SettingsOption" title="Choose the language of the game" data-bs-toggle="modal" data-bs-target="#languageModal">
-						<i class="fontelloicons icon-language option6icon" style="color: black; display: inline-flex; font-size: 20px; line-height: 1;"></i>
-						<span class="language-option-string">Language</span>
-					</div>
-				</div>-->
-				<br>
-				<div id="CategoryDiv">
-					<div>
-						<b class="about-category" id="Category">About</b>
-						<hr class="confighr5" style="border: 1px solid black;">
-						<div class="configoption7 game-version-title" id="SettingsOption" title="Version: 1.4.0" onclick="unknfunc()">
-							<i class="fontelloicons icon-info-circled option7icon" style="color: black; display: inline-flex; font-size: 20px; line-height: 1;"></i>
-							<span class="game-version-string">Version: 1.4.0</span>
-						</div>
-						<div class="configoption8 credits-option-title" id="SettingsOption" title="Credits of the game" data-bs-toggle="modal" data-bs-target="#creditsModal">
-							<i class="fontelloicons icon-changelog option8icon" style="color: black; display: inline-flex; font-size: 20px; line-height: 1;"></i>
-							<span class="credits-option-string">Credits</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<table id="MenuTabsTable" style="width: 100%;">
-			<td class="commontab" id="MenuShopTab" onClick="showShopTab()">
-				<center>
-					<p></p>
-					<p id="LabelMenu"><span class="common-upgrades">Common Upgrades</span></p>
-				</center>
-			</td>
-			<td id="MenuUpgradesTab" onClick="showUpgradesTab()">
-				<center>
-					<p></p>
-					<p id="LabelMenu"><span class="special-upgrades">Special Upgrades</span> <span id="newupgradeicon2" class="badge bg-danger">!</span></p>
-				</center>
-			</td>
-		</table>
-		<table id="MenuTable">
-			<td id="MenuCellShop" onClick="showShop()">
-				<center>
-					<p></p>
-					<i class="material-icons menuicon1" style="color: black; display: inline-flex; vertical-align: middle;">shopping_cart</i>
-					<p id="LabelMenu"><span class="tab-upgrades">Upgrades</span> <span id="newupgradeicon" class="badge bg-danger">!</span></p>
-				</center>
-			</td>
-			<td id="MenuCellHome" onClick="showHome()">
-				<center>
-					<p></p>
-					<i class="material-icons menuicon2" style="color: black; display: inline-flex; vertical-align: middle;">thumb_up</i>
-					<p id="LabelMenu"><span class="tab-likes">Likes</span></p>
-				</center>
-			</td>
-			<td id="MenuCellSettings" onClick="showSettings()">
-				<center>
-					<p></p>
-					<i class="material-icons menuicon3" style="color: black; display: inline-flex; vertical-align: middle;">settings</i>
-					<p id="LabelMenu"><span class="tab-config">Config.</span></p>
-				</center>
-			</td>
-		</table>
-		<div class="modal fade" id="resetModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="resetModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <h1 class="modal-title fs-5 reset-game-dialog-title" id="resetModalLabel">Reset the game</h1>
-				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<div class="reset-game-dialog-text">
-						<center class="reset-game-dialog-string">Do you really want to reset the game?</center>
-					</div>
-				</div>
-				<div class="modal-footer">
-				  <button type="button" class="btn btn-secondary reset-game-dialog-btn-no" data-bs-dismiss="modal">No</button>
-				  <button type="button" class="btn btn-danger reset-game-dialog-btn-yes" data-bs-dismiss="modal" onClick="resetGame(); resetLang()">Yes</button>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		<div id="minigameModal" class="modal fade" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="eggModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="eggModalLabel">Minigame Easteregg</h5>
-						<button type="button" class="btn-close close-credits" data-bs-dismiss="modal" aria-label="Close" onclick="resetCount()"></button>
-					</div>
-					<div class="modal-body">
-						<center>
-							<iframe id="minigameiframe" src="assets/easteregg/index.html" height="450" width="100%" scrolling="no" style="border: none;"></iframe>
-							<br>
-							<p><button class="restart-minigame-string" id="reseteggbtn" onclick="resetunkdlg()">Restart Game</button></p>
-							<div class="changelog-text">
-								<p><span class="minigame-source-string-one">This game can be found </span>
-								<a class="minigame-source-string-two" href="https://www.w3schools.com/graphics/game_intro.asp">here</a><span>.</span><br>
-								<span class="minigame-source-sky">Sky image by </span><a href="https://opengameart.org/users/downdate">Downdate</a><span>.</span><br>
-								<span class="minigame-source-ship">Ship image by </span><a href="https://opengameart.org/users/gobusto">Gobusto</a><span>.</span></p>
-							</div>
-						</center>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="creditsModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <h1 class="modal-title fs-5 credits-title" id="creditsModalLabel">Credits</h1>
-				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<div class="credits-text">
-						<center>
-							<span class="credits-string"><p><b><h6>Like Clicker</h6></b></p>
-							<p><span>Directed by TechHero</span><br>
-							<span>Developed by TechHero</span><br>
-							<span>Programmed by TechHero</span><br>
-							<span>Idealized by TechHero</span><br>
-							<span>Game design by TechHero</span><br>
-							<span>Game balance by TechHero</span><br>
-							</p>
-							<br>
-							<br>
-							<p>All by TechHero?</p></span>
-						</center>
-					</div>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		<div id="languageModal" class="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
-			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable dialog" style="width: 100%;">
-				<div class="modal-content" style="height: 400px;">
-					<div class="modal-header">
-						<h5 class="modal-title language-title" style="color:black;">Language</h5>
-						<!--<button type="button" class="btn-close close-credits" data-bs-dismiss="modal" aria-label="Close"></button>-->
-					</div>
-					<div class="modal-body">
-						<div class="changelog-text">
-							<center>
-								<p><button type="button" class="btn btn-outline-dark language-english" onClick="setLang('en')" data-bs-dismiss="modal">English</button><br></p>
-								<p><button type="button" class="btn btn-outline-dark language-portuguese" onClick="setLang('pt')" data-bs-dismiss="modal">Portuguese</button><br></p>
-							</center>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script type="text/javascript" src="js/lang.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-		</div>
-	</body>
-</html>
+            </center>
+        </div>
+        <div class="TabOpening" id="ShopSection">
+            <center>
+                <div id="ShopPage">
+                    <div class="TabOpening" id="CommonUpgrades">
+
+                    </div>
+                    <div class="TabOpening" id="SpecialUpgrades">
+
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div class="TabOpening" id="ConfigSection">
+            <center>
+                <div id="ConfigPage">
+
+                </div>
+            </center>
+        </div>
+        </div>
+        <div class="alltabs">
+        <div class="hstack gap-0 toast-area">
+            <div class="vstack gap-0">
+                <div id="NotEnoughLikesToast" class="toast align-items-center float-right" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-inline-flex float-right">
+                        <div class="toast-body enough-likes">
+                            You don't have enough likes
+                        </div>
+                        <button type="button" class="btn-close btn-close-toast me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div id="GameSavedToast" class="toast align-items-center float-right" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-inline-flex float-right">
+                        <div class="toast-body game-saved">
+                            Game saved
+                        </div>
+                        <button type="button" class="btn-close btn-close-toast me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hstack gap-0 allshoptabs TabOpening">
+            <div class="menutab commontab pointer create-border" onclick="changeShopTab('common')">
+                <div class="menutabcontent">
+                    <p id="LabelMenu"><span class="tab-text tab-common">Common Upgrades</span></p>
+                </div>
+            </div>
+            <div class="menutab specialtab pointer" onclick="changeShopTab('special')">
+                <div class="menutabcontent">
+                    <p id="LabelMenu"><span class="tab-text tab-special">Special Upgrades</span> <span class="badge bg-danger tab-text newupgradeicon hide">!</span></p>
+                </div>
+            </div>
+          </div>
+        <div class="hstack gap-0">
+            <div class="menutab shoptab pointer create-border" onclick="changeTab('shop')">
+                <div class="menutabcontent">
+                    <i class="material-icons tab-icon menuicon1">shopping_cart</i>
+                    <p id="LabelMenu"><span class="tab-text tab-upgrades">Upgrades</span> <span class="tab-text badge bg-danger tab-text newupgradeicon newupgradeicon hide">!</span></p>
+                </div>
+            </div>
+            <div class="menutab likestab pointer create-border" onclick="changeTab('likes')">
+                <div class="menutabcontent">
+                    <i class="material-icons tab-icon menuicon2">thumb_up</i>
+					<p id="LabelMenu"><span class="tab-text tab-likes">Likes</span></p>
+                </div>
+            </div>
+            <div class="menutab configtab pointer" onclick="changeTab('config')">
+                <div class="menutabcontent">
+                    <i class="material-icons tab-icon menuicon3">settings</i>
+					<p id="LabelMenu"><span class="tab-text tab-config">Config.</span></p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="resetModal" data-bs-keyboard="true" tabindex="-1" aria-labelledby="resetModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 reset-dialog-header text-danger" id="resetModalLabel">Warning</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="reset-game-dialog-text">
+                    <center class="reset-dialog-string">Do you really want to erase all game data?</center>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-no" data-bs-dismiss="modal">No</button>
+              <button type="button" class="btn btn-danger btn-yes" data-bs-dismiss="modal" onClick="resetGame()">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="minigameModal" class="modal fade" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="eggModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title egg-dialog-header" id="eggModalLabel">Minigame Easteregg</h5>
+                    <button type="button" class="btn-close close-credits" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <iframe id="minigameiframe" src="" height="480" width="100%" scrolling="no" style="border: none;"></iframe>
+                        <br>
+                        <p><button class="egg-dialog-restart-string pointer" id="reseteggbtn" onclick="resetunkdlg()">Restart Game</button></p>
+                        <div class="egg-text">
+                            <p><span class="egg-dialog-source-string-one">This game can be found </span>
+                            <a class="egg-dialog-source-string-two" href="https://www.w3schools.com/graphics/game_intro.asp">here</a><span>.</span><br>
+                            <span class="egg-dialog-source-string-sky">Sky image by </span><a href="https://opengameart.org/users/downdate">Downdate</a><span>.</span><br>
+                            <span class="egg-dialog-source-string-ship">Ship image by </span><a href="https://opengameart.org/users/gobusto">Gobusto</a><span>.</span></p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="creditsModal" data-bs-keyboard="true" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 credits-dialog-header" id="creditsModalLabel">Credits</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="credits-text">
+                    <center>
+                        <span class="credits-dialog-string"><p><b><h6>Like Clicker</h6></b></p>
+                        <p><span>Directed by TechHero</span><br>
+                        <span>Developed by TechHero</span><br>
+                        <span>Programmed by TechHero</span><br>
+                        <span>Idealized by TechHero</span><br>
+                        <span>Game design by TechHero</span><br>
+                        <span>Game balance by TechHero</span><br>
+                        </p>
+                        <br>
+                        <br>
+                        <p>All by TechHero?</p></span>
+                    </center>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="langModal" class="modal" data-bs-keyboard="true" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable" style="width: 100%;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title lang-dialog-header">Language</h5>
+                    <button type="button" class="btn-close close-credits" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="changelog-text">
+                        <center>
+                            <ul class="custom-list-group">
+                                <li class="custom-list-group-item pointer">
+                                    <label class="custom-list-group-label pointer" for="RadioEN">
+                                        <span class="lang-dialog-string-en">English</span>
+                                        <input class="radio-input" type="radio" name="langOptions" id="RadioEN" value="en" onchange="updateLang(this.value);">
+                                        <span class="radio-input-visual"></span>
+                                    </label>
+                                </li>
+                                <li class="custom-list-group-item pointer">
+                                    <label class="custom-list-group-label pointer" for="RadioPT">
+                                        <span class="lang-dialog-string-pt">Portuguese</span>
+                                        <input class="radio-input" type="radio" name="langOptions" id="RadioPT" value="pt" onchange="updateLang(this.value);">
+                                        <span class="radio-input-visual"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <!--<p><button type="button" class="btn btn-outline-dark language-english" onClick="setLang('en')" data-bs-dismiss="modal">English</button><br></p>
+                            <p><button type="button" class="btn btn-outline-dark language-portuguese" onClick="setLang('pt')" data-bs-dismiss="modal">Portuguese</button><br></p>
+                            -->
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/data/jsonitems.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/lang.js"></script>
+</body>

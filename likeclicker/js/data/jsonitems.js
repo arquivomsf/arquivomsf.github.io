@@ -3,79 +3,79 @@ var common_shop_items = `
     "followers": {
             "divname": "FollowersDiv",
             "shopitemid": "GainFollower",
-            "itemaction": "gainFollower()",
+            "itemaction": "buyCommon(followers,'followers',followersNextCost,'followersNextCost',followersBaseCost,followersDoublePurchased,'doubleFollowers')",
             "iconname": "add",
             "spanclass": "plus-follower",
             "namespanclass": "followers-name",
             "namespanid": "followers",
             "lpsspanclass": "lps-follower-string",
-            "lpsspanid": "followerLPS",
-            "costspanid": "followerCost",
+            "lpsspanid": "followersLPS",
+            "costspanid": "followersNextCost",
             "descspanclass": "desc-follower-string"
     },
     "fans": {
             "divname": "FansDiv",
             "shopitemid": "GainFan",
-            "itemaction": "gainFan()",
+            "itemaction": "buyCommon(fans,'fans',fansNextCost,'fansNextCost',fansBaseCost,fansDoublePurchased,'doubleFans')",
             "iconname": "add",
             "spanclass": "plus-fan",
             "namespanclass": "fans-name",
             "namespanid": "fans",
             "lpsspanclass": "lps-fan-string",
-            "lpsspanid": "fanLPS",
-            "costspanid": "fanCost",
+            "lpsspanid": "fansLPS",
+            "costspanid": "fansNextCost",
             "descspanclass": "desc-fan-string"
     },
     "paparazzi": {
             "divname": "PaparazziDiv",
             "shopitemid": "GainPaparazzo",
-            "itemaction": "gainPaparazzo()",
+            "itemaction": "buyCommon(paparazzi,'paparazzi',paparazziNextCost,'paparazziNextCost',paparazziBaseCost,paparazziDoublePurchased,'doublePaparazzi')",
             "iconname": "add",
             "spanclass": "plus-paparazzo",
             "namespanclass": "paparazzi-name",
             "namespanid": "paparazzi",
             "lpsspanclass": "lps-paparazzo-string",
-            "lpsspanid": "paparazzoLPS",
-            "costspanid": "paparazzoCost",
+            "lpsspanid": "paparazziLPS",
+            "costspanid": "paparazziNextCost",
             "descspanclass": "desc-paparazzo-string"
     },
     "stalkers": {
             "divname": "StalkersDiv",
             "shopitemid": "GainStalker",
-            "itemaction": "gainStalker()",
+            "itemaction": "buyCommon(stalkers,'stalkers',stalkersNextCost,'stalkersNextCost',stalkersBaseCost,stalkersDoublePurchased,'doubleStalkers')",
             "iconname": "add",
             "spanclass": "plus-stalker",
             "namespanclass": "stalkers-name",
             "namespanid": "stalkers",
             "lpsspanclass": "lps-stalker-string",
-            "lpsspanid": "stalkerLPS",
-            "costspanid": "stalkerCost",
+            "lpsspanid": "stalkersLPS",
+            "costspanid": "stalkersNextCost",
             "descspanclass": "desc-stalker-string"
     },
     "lunatics": {
             "divname": "LunaticsDiv",
             "shopitemid": "GainLunatic",
-            "itemaction": "gainLunatic()",
+            "itemaction": "buyCommon(lunatics,'lunatics',lunaticsNextCost,'lunaticsNextCost',lunaticsBaseCost,lunaticsDoublePurchased,'doubleLunatics')",
             "iconname": "add",
             "spanclass": "plus-lunatic",
             "namespanclass": "lunatics-name",
             "namespanid": "lunatics",
             "lpsspanclass": "lps-lunatic-string",
-            "lpsspanid": "lunaticLPS",
-            "costspanid": "lunaticCost",
+            "lpsspanid": "lunaticsLPS",
+            "costspanid": "lunaticsNextCost",
             "descspanclass": "desc-lunatic-string"
     },
     "bots": {
             "divname": "BotsDiv",
             "shopitemid": "GainBot",
-            "itemaction": "gainBot()",
+            "itemaction": "buyCommon(bots,'bots',botsNextCost,'botsNextCost',botsBaseCost,botsDoublePurchased,'doubleBots')",
             "iconname": "add",
             "spanclass": "plus-bot",
             "namespanclass": "bots-name",
             "namespanid": "bots",
             "lpsspanclass": "lps-bot-string",
-            "lpsspanid": "botLPS",
-            "costspanid": "botCost",
+            "lpsspanid": "botsLPS",
+            "costspanid": "botsNextCost",
             "descspanclass": "desc-bot-string"
     }
 }
@@ -87,27 +87,27 @@ var special_shop_items = `
             "onlyonce": "false",
             "divname": "ClickDiv",
             "shopitemid": "AddClick",
-            "itemaction": "addClick()",
+            "itemaction": "buyCommon(lpc,'lpc',lpcNextCost,'lpcNextCost',lpcBaseCost,'','')",
             "iconname": "add",
             "namespanclass": "upgrade-string",
             "lpccomplete": "lpc-complete-string",
             "levelspanclass": "level-lpc-string",
             "levelspanid": "lpcshop",
-            "costspanid": "addClickCost",
+            "costspanid": "lpcNextCost",
             "descspanclass": "desc-lpc-string",
             "destroyclass": ""
     },
     "doubleFollowers": {
             "onlyonce": "true",
             "divname": "DoubleFollowersDiv",
-            "shopitemid": "DoubeFollowers",
-            "itemaction": "doubeFollowers()",
+            "shopitemid": "DoubleFollowers",
+            "itemaction": "buySpecial(followersDoubleCost,'destroy-double-followers','followersDoublePurchased',followersLPS,'followersLPS')",
             "iconname": "add",
             "namespanclass": "double-followers-string",
             "lpccomplete": "double-followers-name",
             "levelspanclass": "",
             "levelspanid": "",
-            "costspanid": "doubleFollowersCost",
+            "costspanid": "followersDoubleCost",
             "descspanclass": "desc-double-followers-string",
             "destroyclass": "destroy-double-followers"
     },
@@ -115,13 +115,13 @@ var special_shop_items = `
             "onlyonce": "true",
             "divname": "DoubleFansDiv",
             "shopitemid": "DoubeFans",
-            "itemaction": "doubeFans()",
+            "itemaction": "buySpecial(fansDoubleCost,'destroy-double-fans','fansDoublePurchased',fansLPS,'fansLPS')",
             "iconname": "add",
             "namespanclass": "double-fans-string",
             "lpccomplete": "double-fans-name",
             "levelspanclass": "",
             "levelspanid": "",
-            "costspanid": "doubleFansCost",
+            "costspanid": "fansDoubleCost",
             "descspanclass": "desc-double-fans-string",
             "destroyclass": "destroy-double-fans"
     },
@@ -129,13 +129,13 @@ var special_shop_items = `
             "onlyonce": "true",
             "divname": "DoublePaparazziDiv",
             "shopitemid": "DoubePaparazzi",
-            "itemaction": "doubePaparazzi()",
+            "itemaction": "buySpecial(paparazziDoubleCost,'destroy-double-paparazzi','paparazziDoublePurchased',paparazziLPS,'paparazziLPS')",
             "iconname": "add",
             "namespanclass": "double-paparazzi-string",
             "lpccomplete": "double-paparazzi-name",
             "levelspanclass": "",
             "levelspanid": "",
-            "costspanid": "doublePaparazziCost",
+            "costspanid": "paparazziDoubleCost",
             "descspanclass": "desc-double-paparazzi-string",
             "destroyclass": "destroy-double-paparazzi"
     },
@@ -143,13 +143,13 @@ var special_shop_items = `
             "onlyonce": "true",
             "divname": "DoubleStalkersDiv",
             "shopitemid": "DoubeStalkers",
-            "itemaction": "doubeStalkers()",
+            "itemaction": "buySpecial(stalkersDoubleCost,'destroy-double-stalkers','stalkersDoublePurchased',stalkersLPS,'stalkersLPS')",
             "iconname": "add",
             "namespanclass": "double-stalkers-string",
             "lpccomplete": "double-stalkers-name",
             "levelspanclass": "",
             "levelspanid": "",
-            "costspanid": "doubleStalkersCost",
+            "costspanid": "stalkersDoubleCost",
             "descspanclass": "desc-double-stalkers-string",
             "destroyclass": "destroy-double-stalkers"
     },
@@ -157,13 +157,13 @@ var special_shop_items = `
             "onlyonce": "true",
             "divname": "DoubleLunaticsDiv",
             "shopitemid": "DoubeLunatics",
-            "itemaction": "doubeLunatics()",
+            "itemaction": "buySpecial(lunaticsDoubleCost,'destroy-double-lunatics','lunaticsDoublePurchased',lunaticsLPS,'lunaticsLPS')",
             "iconname": "add",
             "namespanclass": "double-lunatics-string",
             "lpccomplete": "double-lunatics-name",
             "levelspanclass": "",
             "levelspanid": "",
-            "costspanid": "doubleLunaticsCost",
+            "costspanid": "lunaticsDoubleCost",
             "descspanclass": "desc-double-lunatics-string",
             "destroyclass": "destroy-double-lunatics"
     },
@@ -171,13 +171,13 @@ var special_shop_items = `
             "onlyonce": "true",
             "divname": "DoubleBotsDiv",
             "shopitemid": "DoubeBots",
-            "itemaction": "doubeBots()",
+            "itemaction": "buySpecial(botsDoubleCost,'destroy-double-bots','botsDoublePurchased',botsLPS,'botsLPS')",
             "iconname": "add",
             "namespanclass": "double-bots-string",
             "lpccomplete": "double-bots-name",
             "levelspanclass": "",
             "levelspanid": "",
-            "costspanid": "doubleBotsCost",
+            "costspanid": "botsDoubleCost",
             "descspanclass": "desc-double-bots-string",
             "destroyclass": "destroy-double-bots"
     }
@@ -197,7 +197,7 @@ var option_items = `
     "save": {
             "type": "option_simple",
             "textclass": "save-game-label",
-            "action": "saveGame(); saveLang()",
+            "action": "saveGame()",
             "icon": "icon-save",
             "checkname": "",
             "checkid": ""
@@ -205,7 +205,7 @@ var option_items = `
     "load": {
             "type": "option_simple",
             "textclass": "load-game-label",
-            "action": "loadGame(); loadLang()",
+            "action": "loadGame()",
             "icon": "icon-load",
             "checkname": "",
             "checkid": ""
@@ -289,57 +289,6 @@ var option_items = `
             "icon": "icon-changelog",
             "checkname": "",
             "checkid": ""
-    }
-}
-`
-
-var default_values = `
-{
-    "followers": {
-            "lps": "1",
-            "cost": "10",
-            "doublecost": "500",
-            "doubledefault": "1"
-    },
-    "fans": {
-            "lps": "2",
-            "cost": "100",
-            "doublecost": "1000",
-            "doubledefault": "1"
-    },
-    "paparazzi": {
-            "lps": "4",
-            "cost": "500",
-            "doublecost": "6000",
-            "doubledefault": "1"
-    },
-    "stalkers": {
-            "lps": "8",
-            "cost": "1000",
-            "doublecost": "12000",
-            "doubledefault": "1"
-    },
-    "lunatics": {
-            "lps": "16",
-            "cost": "5000",
-            "doublecost": "25000",
-            "doubledefault": "1"
-    },
-    "bots": {
-            "lps": "32",
-            "cost": "10000",
-            "doublecost": "50000",
-            "doubledefault": "1"
-    },
-    "lpc": {
-            "cost": "1000",
-            "default": "1"
-    },
-    "lang": {
-        "default": "en"
-    },
-    "autosave": {
-        "default": "1"
     }
 }
 `

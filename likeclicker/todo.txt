@@ -1,16 +1,2 @@
-js: trocar função propria de jsonitems por função generica com valores buyItem(item,itemLPS) buyLPC() buySpecial(item,targetLPS,purchased,destroy_id)
-js: no load e na compra do item 10, checkDoubleCondition(target,condition,create_id)
-js: double default = 1, double purchased = 2
-js: shop click buy + update lpc display + update likes display (if enough)
-js: shop normal buy + update lps display + update likes display (if enough)
-js: shop double buy + update lps display + update likes display (if enough)
-js: formatação dos numeros
-salvar e carregar
-save: likes + quantidade de cada item + lps de cada item + cada double purchased + lpc + dark theme + autosave
-save: toast
-save: autosave = cada 1min[10000] save()
-load: checar default + carregar save + update all displays
-load: dark theme check (se null > pega default / não salva, se 0 > light, se 1 > dark)
-reset save: em resumo, local storage clear > reload game (se eu conseguir com f5 é melhor ainda)
-
-substituir jogo atual
+clicar rapido em comprar gera 2 doubles
+solução: fazer o check double só agir caso não exista um double com o mesmo class

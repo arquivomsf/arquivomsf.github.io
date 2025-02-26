@@ -163,7 +163,7 @@ function clearmove() {
     myGamePiece.speedY = 0;
 }
 
-if (new URLSearchParams(window.location.search).get('dark') == "1") {
+if (new URLSearchParams(window.location.search).get('dark') == "true") {
     document.documentElement.style.setProperty('--main-bg', '#333333');
     document.documentElement.style.setProperty('--border-color', 'white');
     document.documentElement.style.setProperty('--text-color', 'white');
