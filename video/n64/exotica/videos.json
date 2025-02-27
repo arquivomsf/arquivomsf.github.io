@@ -1,36 +1,44 @@
 {
+    "playlist": [
+        {
+            "nome": "Cruis'n Exotica (N64)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvue6NCeKZ6vD6DeMKzjvi6N",
+            "quantidade": "4"
+        }
+    ],
     "videos": [
         {
             "nome": "Cruis'n Exotica de Nintendo 64 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1lUqE-B6glkRoczqSPRKlnMFy9Bj8LKGT/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/bPU3ziFWobg",
             "duracao": "34:09",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cruis'n Exotica de Nintendo 64 - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1gu5U8MHzdZx0NBXwXPaV3vvVckBTm_uc/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/jrLWFQJJJTo",
             "duracao": "31:22",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cruis'n Exotica de Nintendo 64 - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1aCO56zdfe8a5X6YFGkO5v8fHK9QF6sKg/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/zoHMo_Rp3k0",
             "duracao": "45:13",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cruis'n Exotica de Nintendo 64 - Parte 4 FINAL",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1B2xhMUrFZZ9lT66GE4i4DAEVXFwgZgoi/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/LSaK3-6G4gQ",
             "duracao": "18:48",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }

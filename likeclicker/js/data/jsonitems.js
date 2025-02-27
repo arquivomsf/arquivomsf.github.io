@@ -3,7 +3,7 @@ var common_shop_items = `
     "followers": {
             "divname": "FollowersDiv",
             "shopitemid": "GainFollower",
-            "itemaction": "buyCommon(followers,'followers',followersNextCost,'followersNextCost',followersBaseCost,followersDoublePurchased,'doubleFollowers')",
+            "itemaction": "buyCommon(followers,'followers',followersNextCost,'followersNextCost',followersBaseCost,followersDoublePurchased,'doubleFollowers','DoubleFollowersDiv')",
             "iconname": "add",
             "spanclass": "plus-follower",
             "namespanclass": "followers-name",
@@ -16,7 +16,7 @@ var common_shop_items = `
     "fans": {
             "divname": "FansDiv",
             "shopitemid": "GainFan",
-            "itemaction": "buyCommon(fans,'fans',fansNextCost,'fansNextCost',fansBaseCost,fansDoublePurchased,'doubleFans')",
+            "itemaction": "buyCommon(fans,'fans',fansNextCost,'fansNextCost',fansBaseCost,fansDoublePurchased,'doubleFans','DoubleFansDiv)",
             "iconname": "add",
             "spanclass": "plus-fan",
             "namespanclass": "fans-name",
@@ -29,7 +29,7 @@ var common_shop_items = `
     "paparazzi": {
             "divname": "PaparazziDiv",
             "shopitemid": "GainPaparazzo",
-            "itemaction": "buyCommon(paparazzi,'paparazzi',paparazziNextCost,'paparazziNextCost',paparazziBaseCost,paparazziDoublePurchased,'doublePaparazzi')",
+            "itemaction": "buyCommon(paparazzi,'paparazzi',paparazziNextCost,'paparazziNextCost',paparazziBaseCost,paparazziDoublePurchased,'doublePaparazzi','DoublePaparazziDiv)",
             "iconname": "add",
             "spanclass": "plus-paparazzo",
             "namespanclass": "paparazzi-name",
@@ -42,7 +42,7 @@ var common_shop_items = `
     "stalkers": {
             "divname": "StalkersDiv",
             "shopitemid": "GainStalker",
-            "itemaction": "buyCommon(stalkers,'stalkers',stalkersNextCost,'stalkersNextCost',stalkersBaseCost,stalkersDoublePurchased,'doubleStalkers')",
+            "itemaction": "buyCommon(stalkers,'stalkers',stalkersNextCost,'stalkersNextCost',stalkersBaseCost,stalkersDoublePurchased,'doubleStalkers','DoubleStalkersDiv)",
             "iconname": "add",
             "spanclass": "plus-stalker",
             "namespanclass": "stalkers-name",
@@ -55,7 +55,7 @@ var common_shop_items = `
     "lunatics": {
             "divname": "LunaticsDiv",
             "shopitemid": "GainLunatic",
-            "itemaction": "buyCommon(lunatics,'lunatics',lunaticsNextCost,'lunaticsNextCost',lunaticsBaseCost,lunaticsDoublePurchased,'doubleLunatics')",
+            "itemaction": "buyCommon(lunatics,'lunatics',lunaticsNextCost,'lunaticsNextCost',lunaticsBaseCost,lunaticsDoublePurchased,'doubleLunatics','DoubleLunaticsDiv)",
             "iconname": "add",
             "spanclass": "plus-lunatic",
             "namespanclass": "lunatics-name",
@@ -68,7 +68,7 @@ var common_shop_items = `
     "bots": {
             "divname": "BotsDiv",
             "shopitemid": "GainBot",
-            "itemaction": "buyCommon(bots,'bots',botsNextCost,'botsNextCost',botsBaseCost,botsDoublePurchased,'doubleBots')",
+            "itemaction": "buyCommon(bots,'bots',botsNextCost,'botsNextCost',botsBaseCost,botsDoublePurchased,'doubleBots','DoubleBotsDiv)",
             "iconname": "add",
             "spanclass": "plus-bot",
             "namespanclass": "bots-name",

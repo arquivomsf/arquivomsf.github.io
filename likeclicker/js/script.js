@@ -62,7 +62,7 @@ function changeTab(selTab) {
     activetab = selTab;
     var x=window.scrollX;
     window.scrollTo(x, 0);
-    document.getElementById("tab-loading").style.animation = "tabloading 0.6s alternate";
+    document.getElementById("tab-loading").style.animation = "tabloading 1s alternate";
     setTimeout(()=>{
         document.getElementById("tab-loading").style.animation = "none";
     },600);
@@ -106,7 +106,7 @@ function changeShopTab(selTab) {
     activeshoptab = selTab;
     var x=window.scrollX;
     window.scrollTo(x, 0);
-    document.getElementById("tab-loading").style.animation = "tabloading 0.6s alternate";
+    document.getElementById("tab-loading").style.animation = "tabloading 1s alternate";
     setTimeout(()=>{
         document.getElementById("tab-loading").style.animation = "none";
     },600);
@@ -463,7 +463,7 @@ function clickDarkTheme() {
 }
 
 //buy common item
-function buyCommon(item,itemName,itemNextCost,itemNextCostName,itemBaseCost,itemPurchased,itemDoubleCreateID) {
+function buyCommon(item,itemName,itemNextCost,itemNextCostName,itemBaseCost,itemPurchased,itemDoubleCreateID,itemDoubleDivID) {
     if(likes >= itemNextCost) {
         likes -= itemNextCost;
         eval(itemName+"+=1");
@@ -474,7 +474,7 @@ function buyCommon(item,itemName,itemNextCost,itemNextCostName,itemBaseCost,item
         updateNextCost(item,itemName,itemBaseCost,itemNextCostName,false);
         updateElementDisplay(document.getElementById("likestxt"),likes,false);
         updateElementDisplay(document.getElementById("LabelLikes"),likes,false);
-        if (itemName !== "lpc") checkDoubleCondition(item+1,itemPurchased,itemDoubleCreateID);
+        if (itemName !== "lpc") checkDoubleCondition(item+1,itemPurchased,itemDoubleCreateID,itemDoubleDivID);
     } else {
         openToast("NotEnoughLikesToast");
     }
@@ -504,9 +504,9 @@ function buySpecial(itemDoubleCost,itemDestroyClass,itemPurchasedName,targetLPS,
 }
 
 //check double condition
-function checkDoubleCondition(target,condition,create_key) {
+function checkDoubleCondition(target,condition,create_key,double_divid) {
     if (target >= 10 && condition == 1) {
-        createSpecialShopItem(create_key);
+        if (document.getElementById(double_divid) == null) createSpecialShopItem(create_key);
     }
 }
 

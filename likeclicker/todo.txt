@@ -1,2 +1,0 @@
-clicar rapido em comprar gera 2 doubles
-solução: fazer o check double só agir caso não exista um double com o mesmo class

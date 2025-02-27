@@ -1,28 +1,36 @@
 {
+    "playlist": [
+        {
+            "nome": "Disney's Tarzan (N64)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvs77j0Pjyjkl5cMwIqTvSsw",
+            "quantidade": "3"
+        }
+    ],
     "videos": [
         {
             "nome": "Disney's Tarzan de Nintendo 64 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1kTAlVtyuQJPloG7MeSZITJ9gvEF6_LPU/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/sE-jgYsmXP8",
             "duracao": "53:08",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Disney's Tarzan de Nintendo 64 - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1cTck33v-sS9UhbJXiayhMXMI0NzFjCfY/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/mXs3RZ4rbJw",
             "duracao": "51:03",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Disney's Tarzan de Nintendo 64 - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1b0F0o9KG4An676ClGDBOhWUa4-HCZ4_S/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/7pSUhBO7eZk",
             "duracao": "48:36",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }

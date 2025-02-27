@@ -1,0 +1,20 @@
+{
+    "videos": [
+        {
+            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1qCPjRkSg05nmgGXblL-myRKpFTeAnr3g/view",
+            "linkyt": "",
+            "duracao": "20:00",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1_MRQbVVw-c8mKe6iR9GFoaaJhjuFXMwK/view",
+            "linkyt": "",
+            "duracao": "20:05",
+            "plataforma": "gdrive"
+        }
+    ]
+}
