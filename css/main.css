@@ -1023,3 +1023,111 @@ body[data-tema="retro"] > .pagecontent > p > a.btn-dark:hover {
     background-color: #82E4E6;
   }
 }
+
+
+/*estante theme*/
+body[data-tema="estante"] {
+  color: white !important;
+  --background-wood4: url("../assets/img/Wood004_1K-JPG_Color.jpg");
+  --background-wood93: url("../assets/img/Wood093_1K-JPG_Color.jpg");
+  background-image: var(--background-wood4);
+}
+
+body[data-tema="estante"] > .pagecontent > div > div > a > span.title {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+body[data-tema="estante"] > .pagecontent > div > div > a > span.subtitle {
+  color: white !important;
+  font-size: 0.8rem !important;
+}
+
+body[data-tema="estante"] > .navbar {
+  background-image: var(--background-wood93);
+  border-bottom: 5px solid sienna;
+}
+
+body[data-tema="estante"] > .navbar > center > div > span.page-name {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+body[data-tema="estante"] > .navbar > center > div > button {
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+body[data-tema="estante"] > .navbar > div > div > button:not(.btn-close) {
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+body[data-tema="estante"] > .navbar > center > div > a.home-icon > button {
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+body[data-tema="estante"] > .pagecontent > p > a.btn-dark {
+  color: white !important;
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+body[data-tema="estante"] > .navbar > div > div > div > input {
+  background-image: none;
+  background-color: transparent;
+  border-color: sienna;
+}
+
+body[data-tema="estante"] > .navbar > div > div > div > input:focus {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+body[data-tema="estante"] > .navbar > .offcanvas {
+  background-image: var(--background-wood4);
+}
+
+body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+  background-color: transparent !important;
+}
+
+body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul.navbar-nav {
+  background-image: var(--background-wood93);
+  border: 5px solid sienna;
+  padding-right: 0 !important;
+}
+
+body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul.navbar-nav > .nav-item {
+  padding: 0 1rem 0 1rem;
+}
+
+body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul.navbar-nav > .nav-item+.nav-item {
+  border-top: 5px solid sienna;
+}
+
+body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul.navbar-nav > .nav-item > select {
+  border: 0px solid transparent;
+  padding-left: 0 !important;
+}
+
+body[data-tema="estante"] > .pagecontent > .card, body[data-tema="estante"] > .pagecontent > .card > ul, body[data-tema="estante"] > .pagecontent > .card > ul > li {
+  border-color: sienna  !important;
+  background-color: transparent !important;
+  color: white !important;
+}
+
+body[data-tema="estante"] > .pagecontent > .card > ul > li {
+  padding-left: 0 !important;
+}
+
+body[data-tema="estante"] > .pagecontent > .row > .col {
+  background-image: var(--background-wood93);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

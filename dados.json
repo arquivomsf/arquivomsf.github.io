@@ -536,6 +536,10 @@
         {
             "nome": "Retro",
             "valor": "retro"
+        },
+        {
+            "nome": "Estante",
+            "valor": "estante"
         }
     ]
 }
