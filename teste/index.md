@@ -45,3 +45,6 @@ Uma compilação de Fragmentos baseados em conceitos descartados da versão fina
 [PC](https://github.com/kikachangames/kuradashi/releases/download/1.0/Higurashi_Kuradashi-1.0-pc.zip)
 
 [Página do projeto](https://kikachangames.github.io/kuradashi/)
+
+
+[teste 2](/teste2)
