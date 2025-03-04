@@ -18,13 +18,17 @@ function carregarVideos() {
     fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
       .then(response => response.json())
       .then(data => {
-        if (data.hasOwnProperty("playlist")) {
-        for (var i = 0; i<data.playlist.length; i++){
-          let pnome = data.playlist[i].nome;
-          let pimagem = data.playlist[i].imagem;
-          let plink = data.playlist[i].link;
-          let pquantidade = data.playlist[i].quantidade;
-          document.querySelector("#jsonParent").innerHTML += `
+        for (var i = 0; i<data.videos.length; i++){
+              let vnome = data.videos[i].nome;
+              let vimagem = data.videos[i].imagem;
+              let vduracao = data.videos[i].duracao;
+              if (i == 0) {
+                if (data.hasOwnProperty("playlist")) {
+                let pnome = data.playlist[i].nome;
+                let pimagem = data.playlist[i].imagem;
+                let plink = data.playlist[i].link;
+                let pquantidade = data.playlist[i].quantidade;
+                document.querySelector("#jsonParent").innerHTML += `
                     <div class="col">
                       <a href="${plink}" target="_blank" class="blacklink">
                         <div class="thumbnail">
@@ -39,17 +43,7 @@ function carregarVideos() {
                         <span class="flow-text title">${pnome}</span>
                       </a>
                     </div>`;
-        }
-      }
-      })
-    fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
-      .then(response => response.json())
-      .then(data => {
-          for (var i = 0; i<data.videos.length; i++){
-              let vnome = data.videos[i].nome;
-              let vimagem = data.videos[i].imagem;
-              let vduracao = data.videos[i].duracao;
-              if (i == 0) {
+                }
                 document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/1.${vimagem}`);
               }
                 let vplat = data.videos[i].plataforma;
@@ -77,7 +71,7 @@ function carregarVideos() {
                       </a>
                     </div>`;
                 }
-          }
+        }
       })
 }
 
