@@ -388,6 +388,15 @@
             "standalone": 0
         },
         {
+            "nome": "Shadow the Hedgehog (VOD)",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "shadow-vod",
+            "link": "",
+            "standalone": 0
+        },
+        {
             "nome": "The Sims",
             "imagem": "1.jpg",
             "console": "PlayStation 2",

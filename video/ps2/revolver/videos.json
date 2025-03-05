@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Red Dead Revolver (N64)",
+            "imagem": "png",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvMM8D-I1W1LBuh2PgL4dJy",
+            "quantidade": "13"
+        }
+    ],
     "videos": [
         {
             "nome": "Red Dead Revolver de PlayStation 2 - Parte 1",
