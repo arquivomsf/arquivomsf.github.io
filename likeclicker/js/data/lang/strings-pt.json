@@ -118,7 +118,7 @@
                 {
                     "doubleBotsName": "Bots 2x LpS",
                     "doubleBots": "Melhorar Serviço de Bots",
-                    "descDoubleBots": "Pagar um pouquinho mais para subir o plano do serviço de bots e receber ainda mais contas inflando as suas estatisticas com números empolgantes (infelizmente, isso também significa que você não é famoso de verdade)."
+                    "descDoubleBots": "Pagar um pouquinho mais para subir o plano do serviço de bots e receber ainda mais contas inflando as suas estatísticas com números empolgantes (infelizmente, isso também significa que você não é famoso de verdade)."
                 }
             ]
         }
@@ -181,9 +181,11 @@
     ],
     "lang": [
         {
-            "langDialogHeader": "Idioma",
+            "langDialogHeader": "Idiomas",
             "langDialogStringEn": "Inglês (English)",
-            "langDialogStringPt": "Português"
+            "langDialogStringPt": "Português",
+            "langDialogStringHen": "Hiper Inglês (Hyper English)",
+            "langDialogStringHpt": "Hiper Português"
         }
     ]
 }

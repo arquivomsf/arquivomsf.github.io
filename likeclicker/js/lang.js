@@ -1,6 +1,6 @@
 var lang = "pt";
 //var nf = new Intl.NumberFormat(lang, {style:'decimal'});
-var gameVersion = "2.0.0";
+var gameVersion = "2.0.1";
 
 //MISC
 var yesString;
@@ -110,8 +110,12 @@ var eggDialogSourceStringShip;
 var creditsDialogHeader;
 var creditsDialogString;
 var langDialogHeader;
+
+//CONFIG-DIALOG-LANG
 var langDialogStringEn;
 var langDialogStringPt;
+var langDialogStringHen;
+var langDialogStringHpt;
 
 //EASTEREGG
 var restartMinigameString;
@@ -327,10 +331,16 @@ function updateLang(selLang) {
         updateElementDisplay(document.querySelector(".credits-dialog-string"),creditsDialogString,false);
         langDialogHeader = data.lang[0].langDialogHeader;
         updateElementDisplay(document.querySelector(".lang-dialog-header"),langDialogHeader,false);
+
+        //CONFIG-DIALOG-LANG
         langDialogStringEn = data.lang[0].langDialogStringEn;
         updateElementDisplay(document.querySelector(".lang-dialog-string-en"),langDialogStringEn,false);
         langDialogStringPt = data.lang[0].langDialogStringPt;
         updateElementDisplay(document.querySelector(".lang-dialog-string-pt"),langDialogStringPt,false);
+        langDialogStringHen = data.lang[0].langDialogStringHen;
+        updateElementDisplay(document.querySelector(".lang-dialog-string-hen"),langDialogStringHen,false);
+        langDialogStringHpt = data.lang[0].langDialogStringHpt;
+        updateElementDisplay(document.querySelector(".lang-dialog-string-hpt"),langDialogStringHpt,false);
     }
     );
 

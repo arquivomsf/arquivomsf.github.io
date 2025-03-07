@@ -181,9 +181,11 @@
     ],
     "lang": [
         {
-            "langDialogHeader": "Language",
+            "langDialogHeader": "Languages",
             "langDialogStringEn": "English",
-            "langDialogStringPt": "Portuguese (Português)"
+            "langDialogStringPt": "Portuguese (Português)",
+            "langDialogStringHen": "Hyper English",
+            "langDialogStringHpt": "Hyper Portuguese (Hiper Português)"
         }
     ]
 }
