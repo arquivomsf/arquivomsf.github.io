@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Cars (N64)",
+            "imagem": "png",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt4EGfwmwJYd89uWBYUrxka",
+            "quantidade": "16"
+        }
+    ],
     "videos": [
         {
             "nome": "Cars de PlayStation 2 - Parte 1",
@@ -68,65 +76,65 @@
             "nome": "Cars de PlayStation 2 - Parte 9",
             "imagem": "png",
             "link": "https://drive.google.com/file/d/1HntRdi4Oij0xMEqPJa-daQMt_K1U_FYL/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/u4IOuwmCza4",
             "duracao": "32:16",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cars de PlayStation 2 - Parte 10",
             "imagem": "png",
             "link": "https://drive.google.com/file/d/1CVcJ81NLn9Fg4LYJBuexv4MFizf1TFcJ/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/VVwGkBrRMN8",
             "duracao": "28:23",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cars de PlayStation 2 - Parte 11",
             "imagem": "png",
             "link": "https://drive.google.com/file/d/16rZwYm-2OC4ZHDCWxq4G9z-3D7rY9GTe/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Me5xJrs3M8A",
             "duracao": "30:46",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cars de PlayStation 2 - Parte 12",
             "imagem": "png",
             "link": "https://drive.google.com/file/d/1TM7AmBLxJdr9TR_01cA4TsHz2ItN2zSU/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/_s0Xregoi9s",
             "duracao": "27:20",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cars de PlayStation 2 - Parte 13",
             "imagem": "png",
             "link": "https://drive.google.com/file/d/1cifh8ib1S_hBMdON6alDy_mvg6j2Ge-1/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/iqjKi7R2SQo",
             "duracao": "53:10",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cars de PlayStation 2 - Parte 14",
             "imagem": "png",
             "link": "https://drive.google.com/file/d/1E0CoJfzHoJfGowScxvDpHAq0T9g16VbV/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ZHc3igi7beY",
             "duracao": "45:34",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cars de PlayStation 2 - Parte 15",
             "imagem": "png",
             "link": "https://drive.google.com/file/d/1AJl12Yf_04D4XiozUW8MLtprIABBzvgo/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/dAk6XbUI7k0",
             "duracao": "55:05",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Cars de PlayStation 2 - Parte 16 FINAL",
             "imagem": "png",
             "link": "https://drive.google.com/file/d/1L8AvJuPOWeOmbgN0g5m0lfIv7NmAY168/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/f-TiY9ck7AI",
             "duracao": "23:50",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
