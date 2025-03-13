@@ -340,6 +340,37 @@ select {
   margin: calc(-.5 * 1rem) calc(-.5 * 1rem) calc(-.5 * 1rem) auto;
 }
 
+/*custom breadcrumb*/
+.title-breadcrumb {
+  /*margin-top: 0;
+  padding: 0;*/
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.title-breadcrumb-item + .title-breadcrumb-item {
+  padding-left: 0.5rem;
+}
+
+.title-breadcrumb-item + .title-breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  content: ">";
+  font-weight: normal;
+}
+
+.title-breadcrumb-item > a {
+  color: white;
+}
+
+.title-breadcrumb-item.active {
+  font-weight: bold;
+}
+
+
+
+
 
 /*old theme*/
 body[data-tema="old"] {
@@ -358,6 +389,26 @@ body[data-tema="old"] > .navbar > .offcanvas {
 body[data-tema="old"] > .navbar > center > div > span.page-name {
   color: rgb(51, 51, 51) !important;
 }
+
+body[data-tema="old"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  color: rgb(51, 51, 51) !important;
+}
+
+body[data-tema="old"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
+  font-weight: normal;
+}
+
+body[data-tema="old"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
+  color: #438bc5 !important;
+}
+
+body[data-tema="old"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a:hover {
+  text-decoration: underline;
+}
+
+/*body[data-tema="old"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active > a {
+  color: var(--dracula-red) !important;
+}*/
 
 body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
   color: #fff !important;
@@ -609,6 +660,9 @@ body[data-tema="old"] > .pagecontent > .card > ul > li::before {
 }
 
 
+
+
+
 /*dracula theme tananaaaan aquela musica do bach*/
 
 :root {
@@ -636,6 +690,22 @@ body[data-tema="dracula"] > .navbar {
 
 body[data-tema="dracula"] > .navbar > center > div > span.page-name {
   color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
+  font-weight: normal;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
+  color: var(--dracula-orange) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active > a {
+  color: var(--dracula-red) !important;
 }
 
 body[data-tema="dracula"] > .navbar > center > div > button {
@@ -722,6 +792,9 @@ body[data-tema="dracula"] > .pagecontent > p > i:not(.fa) {
 }
 
 
+
+
+
 /*terminal theme*/
 body[data-tema="terminal"] {
   font-family: 'AdwaitaMono-Regular' !important;
@@ -746,6 +819,18 @@ body[data-tema="terminal"] > .navbar {
 body[data-tema="terminal"] > .navbar > center > div > span.page-name {
   color: white !important;
   font-weight: bold !important;
+}
+
+body[data-tema="terminal"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  color: white !important;
+}
+
+body[data-tema="terminal"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
+  font-weight: bold !important;
+}
+
+body[data-tema="terminal"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
+  font-weight: normal !important;
 }
 
 body[data-tema="terminal"] > .navbar > center > div > button {
@@ -804,6 +889,9 @@ body[data-tema="terminal"] > .pagecontent > p > i:not(.fa) {
 }
 
 
+
+
+
 /*retro theme*/
 body[data-tema="retro"] {
   font-family: 'InterUI-Regular' !important;
@@ -837,8 +925,12 @@ body[data-tema="retro"] > .navbar {
   background-color: #282828 !important;
 }
 
-body[data-tema="retro"] > .navbar > center > div > span.page-name {
+body[data-tema="retro"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
   font-family: 'MPlus-Bold' !important;
+  color: white !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active > a {
   color: #00D9AE !important;
 }
 
@@ -1025,6 +1117,9 @@ body[data-tema="retro"] > .pagecontent > p > a.btn-dark:hover {
 }
 
 
+
+
+
 /*estante theme*/
 body[data-tema="estante"] {
   color: white !important;
@@ -1051,6 +1146,18 @@ body[data-tema="estante"] > .navbar {
 body[data-tema="estante"] > .navbar > center > div > span.page-name {
   color: white !important;
   font-weight: bold !important;
+}
+
+body[data-tema="estante"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  color: white !important;
+}
+
+body[data-tema="estante"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
+  font-weight: bold !important;
+}
+
+body[data-tema="estante"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
+  font-weight: normal !important;
 }
 
 body[data-tema="estante"] > .navbar > center > div > button {

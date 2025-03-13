@@ -27,7 +27,9 @@ function carregarVideos() {
               let vlink = data.jogos[i].link;
               let vimagem = data.jogos[i].imagem;
               if(vcurto == jogoAtual){
-                document.querySelector(".page-name").innerHTML = `${vnome}`;
+                //document.querySelector(".page-name").innerHTML = `${vnome}`;
+                document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item video-name active"></div>`;
+                document.querySelector(".video-name").innerHTML = `<a href="">${vnome}</a>`;
                 document.title = `${vnome}`;
                 document.querySelector('meta[property="og:title"]').setAttribute("content", `${vnome}`);
                 document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${vimagem}`);
@@ -46,7 +48,26 @@ function carregarVideos() {
               let vlink = data.videos[i].link;
               let vimagem = data.videos[i].imagem;
               if(i == episodioAtual){
-                document.querySelector(".page-name").innerHTML = `${vnome}`;
+                //document.querySelector(".page-name").innerHTML = `${vnome}`;
+                fetch(`dados.json`)
+                .then(response => response.json())
+                .then(data => {
+                  for (var i = 0; i<data.consoles.length; i++){
+                    let cnome = data.consoles[i].nome;
+                    let csigla = data.consoles[i].sigla;
+                    if (csigla == consoleAtual) {
+                      document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item console-name"><a href="console?id=${csigla}">${cnome}</a></div>`;
+                      for (var i = 0; i<data.jogos.length; i++){
+                        let jnome = data.jogos[i].nome;
+                        let jcurto = data.jogos[i].curto;
+                        if (jcurto == jogoAtual) {
+                          document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item game-name"><a href="jogo?id=${jcurto}&con=${csigla}">${jnome}</a></div>`;
+                          document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item video-name active"><a href="">Parte ${Number(episodioAtual)+1}</a></div>`;
+                        }
+                      }
+                    }
+                  }
+                })
                 document.title = `${vnome}`;
                 document.querySelector('meta[property="og:title"]').setAttribute("content", `${vnome}`);
                 document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}`);

@@ -67,7 +67,8 @@ function carregarConsoles() {
               let cnome = data.consoles[i].nome;
               let csigla = data.consoles[i].sigla;
               if(csigla == consoleAtual){
-                document.querySelector(".page-name").innerHTML = `${cnome}`;
+                //document.querySelector(".page-name").innerHTML = `${cnome}`;
+                document.querySelector(".console-name").innerHTML = `<a href="">${cnome}</a>`;
                 document.title = `Arquivo - ${cnome}`;
                 document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${cnome}`);
               }

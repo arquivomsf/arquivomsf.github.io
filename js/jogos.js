@@ -100,9 +100,13 @@ function carregarConsoles() {
   .then(data => {
       for (var i = 0; i<data.jogos.length; i++){
           let jnome = data.jogos[i].nome;
+          let jconsole = data.jogos[i].console;
+          let jconsigla = data.jogos[i].consigla;
           let jcurto = data.jogos[i].curto;
           if(jcurto == jogoAtual){
-            document.querySelector(".page-name").innerHTML = `${jnome}`;
+            //document.querySelector(".page-name").innerHTML = `${jnome}`;
+            document.querySelector(".game-name").innerHTML = `<a href="">${jnome}</a>`;
+            document.querySelector(".console-name").innerHTML = `<a href="console?id=${jconsigla}">${jconsole}</a>`;
             document.title = `Arquivo - ${jnome}`;
             document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${jnome}`);
           }
