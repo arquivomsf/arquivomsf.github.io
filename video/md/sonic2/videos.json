@@ -1,68 +1,76 @@
 {
+    "playlist": [
+        {
+            "nome": "Sonic The Hedgehog 2 (MD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv90FtntweDm7MC1GxeyoMt",
+            "quantidade": "8"
+        }
+    ],
     "videos": [
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1XGik3rRoEVd1Oe5nAOzLWIBGbV_Ud2Hf/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/tfnLnIklCCE",
             "duracao": "37:23",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/17WMfHap2zp9cJWs69CTtSa5Y_9Ip7he1/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/obXC9e1sQYk",
             "duracao": "19:28",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Qfbq9KmWhCRsj57lKTxL_yrxh3hcKz8Q/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/r95p_aFvjEo",
             "duracao": "37:21",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1oJdfiw6nXkrFk103dPEIMwdkEL57NK41/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/k1-08RmfNUs",
             "duracao": "22:56",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ryB5cgFbm5Xm7ySTEQITbx7Y6Tn_PMrU/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/AuFNhs3qzYc",
             "duracao": "41:32",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1_QrUjy0OFdsUSeKgQucUbBmI1uJEgtKF/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/urc--rBPx2o",
             "duracao": "30:02",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 7",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1FaWvQDkDP0RvgSjaqTjhEVuxUnFeoocE/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/9gP5SlxuOxo",
             "duracao": "31:15",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 8 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/12Nptop2wBvHt2Yxo98l7UpglHaILWce9/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/diw_upUtIhA",
             "duracao": "13:29",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
