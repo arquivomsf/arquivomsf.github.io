@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "God of War 2 (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvcYHPKf8owBdR_m_2JH_ND",
+            "quantidade": "15"
+        }
+    ],
     "videos": [
         {
             "nome": "God of War 2 de PlayStation 2 - Parte 1",
@@ -68,57 +76,57 @@
             "nome": "God of War 2 de PlayStation 2 - Parte 9",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/17p-mZXQ9kZMKlB1l2Pu8zuouy90m8K4r/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/YBA9k6j-e-s",
             "duracao": "38:12",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "God of War 2 de PlayStation 2 - Parte 10",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1XSpl0n3Isd8Bp_3Ygx-20jZrHDsZIlVW/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/plVLDAZZHvw",
             "duracao": "39:17",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "God of War 2 de PlayStation 2 - Parte 11",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1mlnOQZnHmrIkn-e75tD772e4P0zH6mAC/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/kDzGxamB1LA",
             "duracao": "41:03",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "God of War 2 de PlayStation 2 - Parte 12",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/11DMnhM81szfMhCOy7kiigTRikcjR4HYw/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/YnzacMXtmto",
             "duracao": "40:40",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "God of War 2 de PlayStation 2 - Parte 13",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1rvqhA74jYXgauOPpdHxqi21vOL8DvAeQ/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/p9lpmWQcBxI",
             "duracao": "40:53",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "God of War 2 de PlayStation 2 - Parte 14",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1No7d1QDjifgbrhFbASn4WOeC9ike8-jw/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/USjTb-TpyIY",
             "duracao": "32:42",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "God of War 2 de PlayStation 2 - Parte 15 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1LU8EXOy0JFQjvhvnsmWBFCbDVleKMXAc/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/_xJqQ8vv4r4",
             "duracao": "27:24",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
