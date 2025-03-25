@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Sonic Adventure (DC)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsQLkEmfL7gTHcckPMB5M5R",
+            "quantidade": "26"
+        }
+    ],
     "videos": [
         {
             "nome": "Sonic Adventure de Dreamcast - Parte 1",
@@ -172,41 +180,41 @@
             "nome": "Sonic Adventure de Dreamcast - Parte 22",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/17CVrq9J7TDuwODkqq9HQW3_AshFo2sg1/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/eIepoZbdyJ8",
             "duracao": "20:30",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure de Dreamcast - Parte 23",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/15PcGby_cPMgnP1UoT5R6hglouBfLaa-g/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/4jcYOu0qR4Q",
             "duracao": "18:38",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure de Dreamcast - Parte 24",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1T2ZkA9isWmZhjJTHXm6bbvqLtX5qJviW/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/RmBRGOZY7D8",
             "duracao": "46:50",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure de Dreamcast - Parte 25",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1aTlx6a8TdU9m-cHXLKDpeOffYO897B2i/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/akr05zwtQ0Q",
             "duracao": "13:11",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure de Dreamcast - Parte 26 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1fUunxrCACDJZ0UmabgnMYtcjp04Khlmx/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/UFPc6983Osk",
             "duracao": "36:55",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
