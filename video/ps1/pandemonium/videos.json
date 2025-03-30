@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Pandemonium (PS1)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsQzXJNt19nQ-ngt0EVXqFv",
+            "quantidade": "13"
+        }
+    ],
     "videos": [
         {
             "nome": "Pandemonium de PlayStation 1 - Parte 1",
@@ -60,49 +68,49 @@
             "nome": "Pandemonium de PlayStation 1 - Parte 8",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/108K3WrKS_Z0aYbu1Ilyai0o9ckLJdD9N/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/HSrS7ryGcmA",
             "duracao": "41:50",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Pandemonium de PlayStation 1 - Parte 9",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1BmkFt2KNQCTMjXkel9sEi0dVDY6Q4eD2/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ucnuuCTn7Ys",
             "duracao": "35:51",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Pandemonium de PlayStation 1 - Parte 10",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1_9cZCoOX6Hk9lXUtTDTypg2eBAWLl4u8/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/iZQ0J2SLh3Y",
             "duracao": "27:32",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Pandemonium de PlayStation 1 - Parte 11",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1abVO6szxPmP_tWcFAoTQqJomQu6oIhpR/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/DxXg4EmH-uI",
             "duracao": "39:27",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Pandemonium de PlayStation 1 - Parte 12",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/19NFX3k_O1NBDoYFT5ksO-wg5SSQPay7T/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/V-uAa4gOiAI",
             "duracao": "29:32",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Pandemonium de PlayStation 1 - Parte 13 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1J0b8WfEiuKwNFW9oelL5dsbo14ce0KZ9/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/N1o0jMLTWeI",
             "duracao": "23:50",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
