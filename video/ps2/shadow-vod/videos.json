@@ -1,20 +1,28 @@
 {
+    "playlist": [
+        {
+            "nome": "Shadow the Hedgehog (PS2 - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvlSULCuPu2A5SMbtTIyYGG",
+            "quantidade": "2"
+        }
+    ],
     "videos": [
         {
             "nome": "Shadow the Hedgehog (PS2) - VOD 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/19LNnlQh-C_6z597LLiJFA5eei1VFbirA/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/gZepsoCOaSo",
             "duracao": "1:08:03",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Shadow the Hedgehog (PS2) - VOD 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1QK0My3Qr70l3ETwexS11zjqaraT3g1DX/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/je0QET9131k",
             "duracao": "1:42:26",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
