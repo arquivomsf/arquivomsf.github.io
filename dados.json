@@ -406,6 +406,24 @@
             "standalone": 0
         },
         {
+            "nome": "The Sims (VOD)",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "sims-vod",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Killzone",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "killzone",
+            "link": "",
+            "standalone": 0
+        },
+        {
             "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
             "imagem": "coco.jpg",
             "console": "",

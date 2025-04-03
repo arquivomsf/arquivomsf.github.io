@@ -1,0 +1,100 @@
+{
+    "playlist": [
+        {
+            "nome": "The Sims (PS2 - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuKtJXr6hC2CFeEHDaLKE3p",
+            "quantidade": "11"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "The Sims (PS2) - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Tmt3uE74ILI",
+            "duracao": "1:46:08",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/6uTUyzZH07g",
+            "duracao": "1:42:52",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/ewGeDwjkoW0",
+            "duracao": "54:34",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/WnlxVlr8p_g",
+            "duracao": "59:01",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 5",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/jLo7fJoARs0",
+            "duracao": "59:02",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 6",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/uveuAhP4ZhY",
+            "duracao": "55:00",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 7",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/xtlFBNkFrnE",
+            "duracao": "1:36:52",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 8",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/K9EXCvl0qwg",
+            "duracao": "42:22",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 9",
+            "imagem": "jpg",
+            "link": "https://youtu.be/XsHk6y5lMpI",
+            "linkyt": "",
+            "duracao": "29:44",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 10",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/qJ9DCZXv8Vg",
+            "duracao": "1:42:01",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Sims (PS2) - VOD 11",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/uAT2jURUwog",
+            "duracao": "31:12",
+            "plataforma": "youtube"
+        }
+    ]
+}
