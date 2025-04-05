@@ -53,7 +53,7 @@ function carregarJogos() {
                         <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
                             <div class="thumbnail">
                                 <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
-                                <span class="video-length">${jduracao}</span>
+                                <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${jduracao}</span>
                             </div>
                             <span class="flow-text title">${jnome}</span>
                         </a>
@@ -64,7 +64,7 @@ function carregarJogos() {
                           <a href="${jlinkyt}" target="_blank" class="blacklink">
                             <div class="thumbnail">
                                 <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
-                                <span class="video-length">${jduracao}</span>
+                                <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${jduracao}</span>
                             </div>
                             <span class="flow-text title">${jnome}</span>
                           </a>

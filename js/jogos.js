@@ -54,7 +54,7 @@ function carregarVideos() {
                       <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&id=${i}" class="blacklink">
                         <div class="thumbnail">
                           <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length">${vduracao}</span>
+                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${vduracao}</span>
                         </div>
                         <span class="flow-text title">${vnome}</span>
                       </a>
@@ -65,7 +65,7 @@ function carregarVideos() {
                       <a href="${vlinkyt}" target="_blank" class="blacklink">
                         <div class="thumbnail">
                           <img src="video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length">${vduracao}</span>
+                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${vduracao}</span>
                         </div>
                         <span class="flow-text title">${vnome}</span>
                       </a>
