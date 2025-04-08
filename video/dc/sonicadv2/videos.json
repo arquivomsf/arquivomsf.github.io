@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Sonic Adventure 2 (DC)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsIlUHJtGEb0i1sT_tS2GYe",
+            "quantidade": "21"
+        }
+    ],
     "videos": [
         {
             "nome": "Sonic Adventure 2 de Dreamcast - Parte 1",
@@ -116,57 +124,57 @@
             "nome": "Sonic Adventure 2 de Dreamcast - Parte 15",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1cNvmLeDkkZILCa3IZ_YElKj1fmRxNyJi/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ezvGavU_aXw",
             "duracao": "35:50",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure 2 de Dreamcast - Parte 16",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/17hOiEfDe9FwsOiBUGsGgt3QoUCDO9loy/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/WFRwbXWhzkE",
             "duracao": "49:25",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure 2 de Dreamcast - Parte 17",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1dAZl1k6sd-GOSxnRd7NIqtrpRemsBVWh/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/r_YncmtgK8c",
             "duracao": "44:51",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure 2 de Dreamcast - Parte 18",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1BmCq03QV7mZwXoiVSL3fSjsazr_hbKZQ/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/qcwlsbQ6Ju8",
             "duracao": "41:09",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure 2 de Dreamcast - Parte 19",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1VVUIjPtIBBnUkkOL8zLbez6NjfOWDigx/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/mAmEKyzrTok",
             "duracao": "41:30",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure 2 de Dreamcast - Parte 20",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ho_r2zsbsQFbLHxQxkmIi0BQs9cs-Oyz/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/XexT2uQZBH0",
             "duracao": "40:06",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Sonic Adventure 2 de Dreamcast - Parte 21 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1akTtnDsQjpz0GzbNJ2RLyZ4yvgHA5tVG/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/g-ld4cMU-l0",
             "duracao": "20:36",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
