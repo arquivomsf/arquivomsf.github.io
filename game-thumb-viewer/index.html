@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta name="google-site-verification" content="u-zGz_yPaStfXV8a4wSrEtvgXc9bDZ04MQ8FJE9yzck" />
+    <meta charset="utf-8">
+    <meta property="og:title" content="Game Thumbnail Viewer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="script.js"></script>
+    <title>Game Thumbnail Viewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      select {
+        background: white;
+        color: black;
+        outline: solid 1px black !important;
+      }
+      input {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border: solid 1px black;
+      }
+      .btn-custom-light {
+        --bs-btn-color: var(--bs-black);
+        --bs-btn-bg: var(--bs-gray-200);
+        --bs-btn-border-color: var(--bs-black);
+        --bs-btn-hover-color: var(--bs-black);
+        --bs-btn-hover-bg: var(--bs-white);
+        --bs-btn-hover-border-color: #{shade-color($bs-black, 10%)};
+      }
+    </style>
+  </head>
+  <body onload="start()">
+    <div class="navbar navbar-dark bg-dark fixed-top default-container">
+      <center><div class="fake-container">
+        <span class="page-name float-left">Game Thumbnail Viewer</span>
+      </div></center>
+    </div>
+    
+    <div class="pagecontent container text-center">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col">
+          <img src="" class="img-fluid img-preview">
+        </div>
+        <div class="col">
+          <p>
+            <span>System</span><br>
+            <select id="system">
+              
+            </select>
+          </p>
+          <p>
+            <span>Type</span><br>
+            <select id="type">
+              
+            </select>
+          </p>
+          <p>
+            <span>Game</span><br>
+            <input id="name" type="text">
+          </p>
+          <br>
+          <p>
+            <button onclick="getImage()" class="btn btn-custom-light">Get Image</button>
+          </p>
+        </div>
+      </div>
+  </div>
+  </body>
+</html>

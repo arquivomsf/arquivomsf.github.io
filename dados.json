@@ -517,6 +517,21 @@
             "standalone": 1
         }
     ],
+    "futurosjogos": [
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge",
+            "imagem": "1.jpg",
+            "console": "Game Boy Advance",
+            "consigla": "gba",
+            "curto": "banjogrunty",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "Game Boy Advance",
+            "sigla": "gba"
+        }
+    ],
     "consoles": [
         {
             "nome": "Nintendo (NES)",
