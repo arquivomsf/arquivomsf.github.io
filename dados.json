@@ -582,6 +582,10 @@
         {
             "nome": "Estante",
             "valor": "estante"
+        },
+        {
+            "nome": "Internet Ruim",
+            "valor": "netruim"
         }
     ]
 }

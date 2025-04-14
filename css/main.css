@@ -1238,3 +1238,178 @@ body[data-tema="estante"] > .pagecontent > .row > .col {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
+
+
+
+/*netruim theme*/
+body[data-tema="netruim"] {
+  font-family: 'Times New Roman' !important;
+  line-height: 1.5rem !important;
+  /*background-color: black !important;
+  color: white !important;*/
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a > img {
+  /*opacity: 0 !important;
+  height: 5px;*/
+  image-rendering: pixelated;
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a > div > img {
+  /*opacity: 0 !important;
+  height: 5px;*/
+  image-rendering: pixelated;
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a > div > .playlist-length {
+  transform: translateX(-200%);
+  background-color: white;
+  color: black;
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a > div > .video-length {
+  transform: translateX(-200%);
+  background-color: white;
+  color: black;
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a:link > span.title {
+  color: revert !important;
+  font-weight: bold !important;
+  text-decoration: underline;
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a:link > span.subtitle {
+  color: revert !important;
+  font-size: 1rem !important;
+  text-decoration: underline;
+}
+
+body[data-tema="netruim"] > .navbar {
+  background-color: white !important;
+}
+
+body[data-tema="netruim"] > .navbar > center > div > span.page-name {
+  color: black !important;
+  font-weight: bold !important;
+}
+
+body[data-tema="netruim"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  color: black !important;
+}
+
+body[data-tema="netruim"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
+  font-weight: bold !important;
+}
+
+body[data-tema="netruim"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
+  font-weight: normal !important;
+}
+
+body[data-tema="netruim"] > .navbar > center > div > button {
+  background-color: white !important;
+  color: black !important;
+  border: none;
+}
+
+body[data-tema="netruim"] > .navbar > center > div > button > i.fa-search::before {
+  content: "search";
+}
+
+body[data-tema="netruim"] > .navbar > center > div > button > i.fa-bars::before {
+  content: "bars";
+}
+
+body[data-tema="netruim"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a > i.fa-home::before {
+  content: "home";
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a > div > .video-length > i.fa-file-video-o::before {
+  content: "gd";
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a > div > .video-length > i.fa-youtube-play::before {
+  content: "yt";
+}
+
+body[data-tema="netruim"] > .pagecontent > div > div > a > div > .playlist-length > div > i.fa-list::before {
+  content: "list";
+}
+
+body[data-tema="netruim"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas > i.fa-close::before {
+  content: "close";
+}
+
+body[data-tema="netruim"] > .navbar > div > div > button:not(.btn-close) {
+  background-color: white !important;
+}
+
+body[data-tema="netruim"] > .navbar > center > div > a.home-icon > button {
+  background-color: white !important;
+}
+
+body[data-tema="netruim"] > .pagecontent > p > a.btn-dark {
+  background-color: white !important;
+  color: black !important;
+}
+
+body[data-tema="netruim"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas {
+  border: none;
+  color: black !important;
+}
+
+body[data-tema="netruim"] > .navbar > div > div > div > input {
+  background-color: white !important;
+  color: black !important;
+}
+
+body[data-tema="netruim"] > .navbar > .offcanvas {
+  background-color: white !important;
+  color: black !important;
+}
+
+body[data-tema="netruim"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a:link {
+  background-color: white !important;
+  color: revert !important;
+  font-size: 1rem !important;
+  text-decoration: underline;
+}
+
+body[data-tema="netruim"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+  background-color: revert !important;
+  color: black !important;
+  border: revert;
+  box-shadow: revert;
+}
+
+body[data-tema="netruim"] > .pagecontent {
+  background-color: white;
+}
+
+body[data-tema="netruim"] > .pagecontent > .card, body[data-tema="netruim"] > .pagecontent > .card > ul, body[data-tema="netruim"] > .pagecontent > .card > ul > li {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: white !important;
+  color: black !important;
+}
+
+body[data-tema="netruim"] > .pagecontent > .card > ul > li {
+  padding-left: 0 !important;
+}
+
+body[data-tema="netruim"] > .pagecontent > .card > ul > li::before {
+  content: ">";
+  margin-right: 5px;
+}
+
+body[data-tema="netruim"] > .pagecontent > p > i:not(.fa) {
+  font-style: normal;
+  &::before {
+    content: "[";
+  }
+  &::after {
+    content: "]";
+  }
+}
