@@ -515,6 +515,18 @@
             "duracao": "2:39",
             "plataforma": "youtube",
             "standalone": 1
+        },
+        {
+            "nome": "Tentando jogar o melhor jogo de corrida de todos os tempos",
+            "imagem": "mostwantedteste.jpg",
+            "console": "",
+            "consigla": "etc",
+            "curto": "mostwantedteste",
+            "link": "https://drive.google.com/file/d/1QWkoiRKTLcG8zBjQ5liwaCdaPznh-9mh/view",
+            "linkyt": "",
+            "duracao": "28:20",
+            "plataforma": "gdrive",
+            "standalone": 1
         }
     ],
     "futurosjogos": [
@@ -530,6 +542,19 @@
         {
             "nome": "Game Boy Advance",
             "sigla": "gba"
+        },
+        {
+            "nome": "Need for Speed: Most Wanted",
+            "imagem": "1.jpg",
+            "console": "GameCube",
+            "consigla": "gc",
+            "curto": "nfsmostwanted",
+            "link": "",
+            "standalone": 0
+        },
+        {
+            "nome": "GameCube",
+            "sigla": "gc"
         }
     ],
     "consoles": [
