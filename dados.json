@@ -611,6 +611,10 @@
         {
             "nome": "Internet Ruim",
             "valor": "netruim"
+        },
+        {
+            "nome": "Neobrutalismo",
+            "valor": "neob"
         }
     ]
 }

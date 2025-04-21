@@ -1237,6 +1237,16 @@ body[data-tema="estante"] > .pagecontent > .row > .col {
   background-image: var(--background-wood93);
   padding-top: 10px;
   padding-bottom: 10px;
+  border-top: 5px solid sienna;
+  border-bottom: 5px solid sienna;
+}
+
+body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+1) {
+  border-left: 5px solid sienna;
+}
+
+body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+4) {
+  border-right: 5px solid sienna;
 }
 
 
@@ -1412,4 +1422,218 @@ body[data-tema="netruim"] > .pagecontent > p > i:not(.fa) {
   &::after {
     content: "]";
   }
+}
+
+
+
+
+
+/*neob theme*/
+:root {
+  --neob-yellow: #ffeca8;
+  --neob-blue: #b5d1fa;
+  --neob-green: #b0f7b3;
+  --neob-pink: #edb0f7;
+  --neob-orange: #ffb877;
+  --neob-purple: #d7c3ff;
+}
+
+body[data-tema="neob"] {
+  background-color: var(--neob-yellow) !important;
+  color: black;
+  text-transform: uppercase;
+}
+
+body[data-tema="neob"] > .navbar {
+  background-color: inherit !important;
+}
+
+body[data-tema="neob"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  color: black !important;
+}
+
+body[data-tema="neob"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item::before {
+  color: black !important;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button, body[data-tema="neob"] > .navbar > div > div > button {
+  color: black !important;
+}
+
+body[data-tema="neob"] > .navbar > div > div > div > input, body[data-tema="neob"] > .navbar > div > div > div > input:focus {
+  color: black !important;
+  background-color: var(--neob-purple) !important;
+  border: 1px solid black !important;
+  border-radius: 0;
+  box-shadow: 5px 5px !important;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button.pesquisar-btn, body[data-tema="neob"] > .navbar > div > div > button.pesquisar-btn {
+  background-color: var(--neob-pink);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button.pesquisar-btn {
+  margin-right: 8px;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button:nth-child(2) {
+  background-color: var(--neob-blue);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button.pesquisar-btn, body[data-tema="neob"] > .navbar > div > div > button.close-offcanvas {
+  background-color: var(--neob-yellow);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+}
+
+body[data-tema="neob"] > .pagecontent > .row {
+  column-gap: 3%;
+  margin-left: 0;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col > a > .subtitle {
+  color: darkgray;
+  font-size: 0.8rem;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+1) {
+  background-color: var(--neob-blue);
+  padding: 10px;
+  border: 1px solid black;
+  width: 97%;
+  box-shadow: 10px 10px;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+2) {
+  background-color: var(--neob-green);
+  padding: 10px;
+  border: 1px solid black;
+  width: 97%;
+  box-shadow: 10px 10px;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+3) {
+  background-color: var(--neob-pink);
+  padding: 10px;
+  border: 1px solid black;
+  width: 97%;
+  box-shadow: 10px 10px;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+4) {
+  background-color: var(--neob-orange);
+  padding: 10px;
+  border: 1px solid black;
+  width: 97%;
+  box-shadow: 10px 10px;
+}
+
+@media only screen and (min-width: 576px) {
+  body[data-tema="neob"] > .pagecontent > .row {
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+  }
+  
+  body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+1) {
+    background-color: var(--neob-blue);
+    padding: 10px;
+    border: 1px solid black;
+    width: 48%;
+  }
+
+  body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+2) {
+    background-color: var(--neob-green);
+    padding: 10px;
+    border: 1px solid black;
+    width: 48%;
+  }
+
+  body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+3) {
+    background-color: var(--neob-pink);
+    padding: 10px;
+    border: 1px solid black;
+    width: 48%;
+  }
+
+  body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+4) {
+    background-color: var(--neob-orange);
+    padding: 10px;
+    border: 1px solid black;
+    width: 48%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+1) {
+    background-color: var(--neob-blue);
+    padding: 10px;
+    border: 1px solid black;
+    width: 22%;
+  }
+
+  body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+2) {
+    background-color: var(--neob-green);
+    padding: 10px;
+    border: 1px solid black;
+    width: 22%;
+  }
+
+  body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+3) {
+    background-color: var(--neob-pink);
+    padding: 10px;
+    border: 1px solid black;
+    width: 22%;
+  }
+
+  body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(4n+4) {
+    background-color: var(--neob-orange);
+    padding: 10px;
+    border: 1px solid black;
+    width: 22%;
+  }
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-header, body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body {
+  background-color: var(--neob-green);
+  color: black;
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a {
+  color: black;
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li {
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li+li {
+  margin-top: 15px;
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(4n+1) {
+  background-color: var(--neob-pink);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(4n+2) {
+  background-color: var(--neob-purple);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(4n+3) {
+  background-color: var(--neob-yellow);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(4n+4) {
+  background-color: var(--neob-blue);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+  background-color: inherit;
+  color: black;
+  border: none;
+  box-shadow: none;
 }
