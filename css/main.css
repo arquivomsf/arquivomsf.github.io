@@ -1241,12 +1241,43 @@ body[data-tema="estante"] > .pagecontent > .row > .col {
   border-bottom: 5px solid sienna;
 }
 
-body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+1) {
+body[data-tema="estante"] > .pagecontent > .row > .col {
   border-left: 5px solid sienna;
+  border-right: 5px solid sienna;
 }
 
-body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+4) {
-  border-right: 5px solid sienna;
+@media only screen and (min-width: 576px) {
+  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(2n+1) {
+    border-left: 5px solid sienna;
+    border-right: none;
+  }
+  
+  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(2n+2) {
+    border-left: none;
+    border-right: 5px solid sienna;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+1) {
+    border-left: 5px solid sienna;
+    border-right: none;
+  }
+
+  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+2) {
+    border-left: none;
+    border-right: none;
+  }
+
+  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+3) {
+    border-left: none;
+    border-right: none;
+  }
+  
+  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+4) {
+    border-left: none;
+    border-right: 5px solid sienna;
+  }
 }
 
 
@@ -1318,7 +1349,7 @@ body[data-tema="netruim"] > .navbar > center > div > span.page-name > .title-bre
   font-weight: normal !important;
 }
 
-body[data-tema="netruim"] > .navbar > center > div > button {
+body[data-tema="netruim"] > .navbar > center > div > button, body[data-tema="netruim"] > .navbar > div > div > button {
   background-color: white !important;
   color: black !important;
   border: none;
@@ -1349,6 +1380,10 @@ body[data-tema="netruim"] > .pagecontent > div > div > a > div > .playlist-lengt
 }
 
 body[data-tema="netruim"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas > i.fa-close::before {
+  content: "close";
+}
+
+body[data-tema="netruim"] > .navbar > div > div > button > i.fa-close::before {
   content: "close";
 }
 
@@ -1422,6 +1457,38 @@ body[data-tema="netruim"] > .pagecontent > p > i:not(.fa) {
   &::after {
     content: "]";
   }
+}
+
+/*body[data-tema="netruim"] > .navbar > div > div > #inputPesquisaContainer {
+  all: initial;
+}*/
+
+body[data-tema="netruim"] > .navbar > div > div > div > #inputPesquisa {
+  all: revert;
+}
+
+body[data-tema="netruim"] > .navbar > div > div > div > #inputPesquisa:focus {
+  all: revert;
+  outline: revert !important;
+  color: revert !important;
+  background-color: revert !important;
+}
+
+body[data-tema="netruim"] > .navbar > div > div > div > input {
+  all: revert;
+}
+
+body[data-tema="netruim"] > .navbar > div > div > div > input:focus {
+  all: revert;
+  outline: revert !important;
+  color: revert !important;
+  background-color: revert !important;
+}
+
+body[data-tema="netruim"] > .navbar > div > div > div > input {
+  width: 100% !important;
+  line-height: 1.5rem !important;
+  box-sizing: border-box !important;
 }
 
 
@@ -1636,4 +1703,27 @@ body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li > sele
   color: black;
   border: none;
   box-shadow: none;
+}
+
+body[data-tema="neob"] > .pagecontent > p > a:not(.likebutton) {
+  background-color: var(--neob-green);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+  color: black !important;
+}
+
+body[data-tema="neob"] > .pagecontent > p > a.likebutton {
+  background-color: var(--neob-blue);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+  color: black !important;
+}
+
+body[data-tema="neob"] > .pagecontent > .card > ul > li {
+  border-color: black !important;
+  background-color: var(--neob-purple) !important;
+}
+
+body[data-tema="neob"] > .pagecontent > .header404 {
+  font-weight: bolder !important;
 }
