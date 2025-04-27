@@ -527,6 +527,18 @@
             "duracao": "28:20",
             "plataforma": "gdrive",
             "standalone": 1
+        },
+        {
+            "nome": "Marcelo conversando sobre jogos da Rockstar",
+            "imagem": "rockstarcomp.jpg",
+            "console": "",
+            "consigla": "etc",
+            "curto": "rockstarcomp",
+            "link": "",
+            "linkyt": "https://youtu.be/m4gjIiIMU2Y",
+            "duracao": "10:35",
+            "plataforma": "youtube",
+            "standalone": 1
         }
     ],
     "futurosjogos": [
