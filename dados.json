@@ -424,6 +424,15 @@
             "standalone": 0
         },
         {
+            "nome": "Banjo-Kazooie: Grunty's Revenge",
+            "imagem": "1.jpg",
+            "console": "Game Boy Advance",
+            "consigla": "gba",
+            "curto": "banjogrunty",
+            "link": "",
+            "standalone": 0
+        },
+        {
             "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
             "imagem": "coco.jpg",
             "console": "",
@@ -577,6 +586,10 @@
         {
             "nome": "Nintendo 64",
             "sigla": "n64"
+        },
+        {
+            "nome": "Game Boy Advance",
+            "sigla": "gba"
         },
         {
             "nome": "Mega Drive",
