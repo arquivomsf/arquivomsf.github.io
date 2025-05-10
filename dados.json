@@ -552,17 +552,13 @@
     ],
     "futurosjogos": [
         {
-            "nome": "Banjo-Kazooie: Grunty's Revenge",
+            "nome": "Grand Theft Auto: Vice City",
             "imagem": "1.jpg",
-            "console": "Game Boy Advance",
-            "consigla": "gba",
-            "curto": "banjogrunty",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "gtavc",
             "link": "",
             "standalone": 0
-        },
-        {
-            "nome": "Game Boy Advance",
-            "sigla": "gba"
         },
         {
             "nome": "Need for Speed: Most Wanted",
