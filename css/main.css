@@ -1005,11 +1005,17 @@ body[data-tema="retro"] > .pagecontent > div > .col:hover {
     top: calc(-1 * 2px);
     left: calc(-1 * 2px);
     z-index: -1;
-    width: calc(100% + 2px * 2);
+    width: 100%;
     height: calc(100% + 2px * 2);
     background: #268FC2;
     border-radius: 2px;
     animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+@media (min-width: 576px) {
+  body[data-tema="retro"] > .pagecontent > div > .col:hover::after {
+    width: calc(100% + 2px * 2);
   }
 }
 
