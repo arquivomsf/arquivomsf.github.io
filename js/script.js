@@ -23,7 +23,6 @@ function carregarJogos() {
               let jconsole = data.jogos[i].console;
               let jconsigla = data.jogos[i].consigla;
               let jcurto = data.jogos[i].curto;
-              let jstandalone = data.jogos[i].standalone;
               let nomecomp;
               nomecomp = jnome.replaceAll(/\s/g, "");
               nomecomp = nomecomp.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
@@ -35,50 +34,74 @@ function carregarJogos() {
               nomecomp = nomecomp.replaceAll(/[Ç]/g,"c");
               nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
-                if(jstandalone == 0){
-                    document.querySelector("#jsonParent").innerHTML += `
-                        <div class="col">
-                          <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
-                          <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
-                          <span class="flow-text title">${jnome}</span></a><br>
-                          <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
-                        </div>`;
-                } else {
-                    let jduracao = data.jogos[i].duracao;
-                    let jplat = data.jogos[i].plataforma;
-                    let jlinkyt = data.jogos[i].linkyt;
-                   if (jplat == "gdrive") {
-                    document.querySelector("#jsonParent").innerHTML += `
-                        <div class="col">
-                        <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
-                            <div class="thumbnail">
-                                <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
-                                <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${jduracao}</span>
-                            </div>
-                            <span class="flow-text title">${jnome}</span>
-                        </a>
-                        </div>`;
-                   } else if (jplat == "youtube") {
-                    document.querySelector("#jsonParent").innerHTML += `
-                        <div class="col">
-                          <a href="${jlinkyt}" target="_blank" class="blacklink">
-                            <div class="thumbnail">
-                                <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
-                                <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${jduracao}</span>
-                            </div>
-                            <span class="flow-text title">${jnome}</span>
-                          </a>
-                        </div>`;
-                   }
-                    
-                }
+                document.querySelector("#jsonParent").innerHTML += `
+                    <div class="col game-item">
+                        <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
+                        <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
+                        <span class="flow-text title">${jnome}</span></a><br>
+                        <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
+                    </div>`;
               }
+              if (document.querySelector(".game-item") !== null) document.querySelector(".c-series").style.display = "block";
+          }
+      })
+
+      fetch("dados.json")
+      .then(response => response.json())
+      .then(data => {
+          for (var i = 0; i<data.standalone.length; i++){
+              let jnome = data.standalone[i].nome;
+              let jimagem = data.standalone[i].imagem;
+              let jconsigla = data.standalone[i].consigla;
+              let jcurto = data.standalone[i].curto;
+              let nomecomp;
+              nomecomp = jnome.replaceAll(/\s/g, "");
+              nomecomp = nomecomp.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
+              nomecomp = nomecomp.replaceAll(/[áàâãÁÀÂÃ]/g,"a");
+              nomecomp = nomecomp.replaceAll(/[íïÍÏ]/g,"i");
+              nomecomp = nomecomp.replaceAll(/[éèêÉÈ]/g,"e");
+              nomecomp = nomecomp.replaceAll(/[ñÑ]/g,"n");
+              nomecomp = nomecomp.replaceAll(/[óôõöÓÔÕÖ]/g,"o");
+              nomecomp = nomecomp.replaceAll(/[Ç]/g,"c");
+              nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
+              if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
+                    let jduracao = data.standalone[i].duracao;
+                    let jplat = data.standalone[i].plataforma;
+                    let jlinkyt = data.standalone[i].linkyt;
+                    if (jplat == "gdrive") {
+                        document.querySelector("#standParent").innerHTML += `
+                            <div class="col stand-item">
+                            <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
+                                <div class="thumbnail">
+                                    <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
+                                    <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${jduracao}</span>
+                                </div>
+                                <span class="flow-text title">${jnome}</span>
+                            </a>
+                            </div>`;
+                    } else if (jplat == "youtube") {
+                        document.querySelector("#standParent").innerHTML += `
+                            <div class="col stand-item">
+                            <a href="${jlinkyt}" target="_blank" class="blacklink">
+                                <div class="thumbnail">
+                                    <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
+                                    <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${jduracao}</span>
+                                </div>
+                                <span class="flow-text title">${jnome}</span>
+                            </a>
+                            </div>`;
+                   }
+              }
+              if (document.querySelector(".stand-item") !== null) document.querySelector(".c-standalone").style.display = "block";
           }
       })
 }
 
 function resetarJogos(){
-    document.querySelector("#jsonParent").innerHTML = ""
+    document.querySelector("#jsonParent").innerHTML = "";
+    document.querySelector(".c-series").style.display = "none";
+    document.querySelector("#standParent").innerHTML = "";
+    document.querySelector(".c-standalone").style.display = "none";
 }
 
 function carregarConsoles() {
@@ -220,45 +243,41 @@ function carregarStats(){
       .then(response => response.json())
       .then(data => {
           for (var i = 0; i<data.jogos.length; i++){
-            let jstandalone = data.jogos[i].standalone;
             let jconsigla = data.jogos[i].consigla;
             let jcurto = data.jogos[i].curto;
-            if(jstandalone == 0){
-                jcounter++;
-                document.querySelector(".counter-jogo").innerHTML = `${jcounter} jogos`;
-                fetch(`video/${jconsigla}/${jcurto}/videos.json`)
-                .then(response => response.json())
-                .then(data => {
-                    for (var i = 0; i<data.videos.length; i++){
-                        let vduracao = data.videos[i].duracao;
-                        if (vduracao != "Perdido") {
-                            const vtempoatual = vduracao.split(":");
-                            epcounter++;
-                            jmincounter += Number(vtempoatual[0]);
-                            jsegcounter += Number(vtempoatual[1]);
-                            tmincounter += Number(vtempoatual[0]);
-                            tsegcounter += Number(vtempoatual[1]);
-                            console.log("jogo "+jmincounter+":"+jsegcounter+"/"+tmincounter+":"+tsegcounter);
-                        }
-                        document.querySelector(".counter-ep").innerHTML = `${epcounter} vídeos de jogos`;
-                        document.querySelector(".counter-total").innerHTML = `${epcounter+scounter} vídeos arquivados`;
-                        document.querySelector(".counter-mediaep").innerHTML = `${Math.round(epcounter/jcounter)} vídeos por jogo (média)`;
+            jcounter++;
+            document.querySelector(".counter-jogo").innerHTML = `${jcounter} jogos`;
+            fetch(`video/${jconsigla}/${jcurto}/videos.json`)
+            .then(response => response.json())
+            .then(data => {
+                for (var i = 0; i<data.videos.length; i++){
+                    let vduracao = data.videos[i].duracao;
+                    if (vduracao !== "Perdido") {
+                        const vtempoatual = vduracao.split(":");
+                        epcounter++;
+                        jmincounter += Number(vtempoatual[0]);
+                        jsegcounter += Number(vtempoatual[1]);
+                        tmincounter += Number(vtempoatual[0]);
+                        tsegcounter += Number(vtempoatual[1]);
+                        console.log("jogo "+jmincounter+":"+jsegcounter+"/"+tmincounter+":"+tsegcounter);
                     }
-                })
-            }
-            if(jstandalone == 1){
-                let jduracao = data.jogos[i].duracao;
-                const jtempoatual = jduracao.split(":");
-                scounter++;
-                smincounter += Number(jtempoatual[0]);
-                ssegcounter += Number(jtempoatual[1]);
-                tmincounter += Number(jtempoatual[0]);
-                tsegcounter += Number(jtempoatual[1]);
-                console.log("standalone "+smincounter+":"+ssegcounter+"/"+tmincounter+":"+tsegcounter);
-                document.querySelector(".counter-standalone").innerHTML = `${scounter} vídeos standalone`;
-                document.querySelector(".counter-total").innerHTML = `${epcounter+scounter} vídeos arquivados`;
-                document.querySelector(".counter-mediaep").innerHTML = `${Math.round(epcounter/jcounter)} vídeos por jogo (média)`;
-            }
+                    document.querySelector(".counter-ep").innerHTML = `${epcounter} vídeos de jogos`;
+                    document.querySelector(".counter-total").innerHTML = `${epcounter+scounter} vídeos arquivados`;
+                    document.querySelector(".counter-mediaep").innerHTML = `${Math.round(epcounter/jcounter)} vídeos por jogo (média)`;
+                }
+            })
+          }
+          for (var i = 0; i<data.standalone.length; i++){
+            let sduracao = data.standalone[i].duracao;
+            const stempoatual = sduracao.split(":");
+            scounter++;
+            smincounter += Number(stempoatual[0]);
+            ssegcounter += Number(stempoatual[1]);
+            tmincounter += Number(stempoatual[0]);
+            tsegcounter += Number(stempoatual[1]);
+            console.log("standalone "+smincounter+":"+ssegcounter+"/"+tmincounter+":"+tsegcounter);
+            document.querySelector(".counter-standalone").innerHTML = `${scounter} vídeos standalone`;
+            document.querySelector(".counter-total").innerHTML = `${epcounter+scounter} vídeos arquivados`;
           }
       })
       setInterval(function () {

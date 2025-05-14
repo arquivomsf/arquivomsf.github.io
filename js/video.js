@@ -21,13 +21,12 @@ function carregarVideos() {
     fetch(`dados.json`)
       .then(response => response.json())
       .then(data => {
-          for (var i = 0; i<data.jogos.length; i++){
-              let vnome = data.jogos[i].nome;
-              let vcurto = data.jogos[i].curto;
-              let vlink = data.jogos[i].link;
-              let vimagem = data.jogos[i].imagem;
+          for (var i = 0; i<data.standalone.length; i++){
+              let vnome = data.standalone[i].nome;
+              let vcurto = data.standalone[i].curto;
+              let vlink = data.standalone[i].link;
+              let vimagem = data.standalone[i].imagem;
               if(vcurto == jogoAtual){
-                //document.querySelector(".page-name").innerHTML = `${vnome}`;
                 document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item video-name active"></div>`;
                 document.querySelector(".video-name").innerHTML = `<a href="">${vnome}</a>`;
                 document.title = `${vnome}`;
@@ -48,7 +47,6 @@ function carregarVideos() {
               let vlink = data.videos[i].link;
               let vimagem = data.videos[i].imagem;
               if(i == episodioAtual){
-                //document.querySelector(".page-name").innerHTML = `${vnome}`;
                 fetch(`dados.json`)
                 .then(response => response.json())
                 .then(data => {

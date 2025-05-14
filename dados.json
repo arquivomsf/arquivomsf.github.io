@@ -5,549 +5,438 @@
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "bob",
-            "link": "",
-            "standalone": 0
+            "curto": "bob"
         },
         {
             "nome": "Assault Retribution",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "assault",
-            "link": "",
-            "standalone": 0
+            "curto": "assault"
         },
         {
             "nome": "Spider Man 2 Enter Electro",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "miranha",
-            "link": "",
-            "standalone": 0
+            "curto": "miranha"
         },
         {
             "nome": "The Lost World Jurassic Park",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "jurassic",
-            "link": "",
-            "standalone": 0
+            "curto": "jurassic"
         },
         {
             "nome": "Disruptor",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "disruptor",
-            "link": "",
-            "standalone": 0
+            "curto": "disruptor"
         },
         {
             "nome": "Tai Fu Wrath of the Tiger",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "taifu",
-            "link": "",
-            "standalone": 0
+            "curto": "taifu"
         },
         {
             "nome": "Donald Duck Goin' Quackers",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "donald",
-            "link": "",
-            "standalone": 0
+            "curto": "donald"
         },
         {
             "nome": "Moto Racer",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "moto",
-            "link": "",
-            "standalone": 0
+            "curto": "moto"
         },
         {
             "nome": "Nightmare Creatures",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "nightmare",
-            "link": "",
-            "standalone": 0
+            "curto": "nightmare"
         },
         {
             "nome": "Metal Slug X",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "slugx",
-            "link": "",
-            "standalone": 0
+            "curto": "slugx"
         },
         {
             "nome": "Sonic The Hedgehog",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic1",
-            "link": "",
-            "standalone": 0
+            "curto": "sonic1"
         },
         {
             "nome": "QuackShot",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "quackshot",
-            "link": "",
-            "standalone": 0
+            "curto": "quackshot"
         },
         {
             "nome": "Zero Tolerance",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "zerotol",
-            "link": "",
-            "standalone": 0
+            "curto": "zerotol"
         },
         {
             "nome": "Socket",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "socket",
-            "link": "",
-            "standalone": 0
+            "curto": "socket"
         },
         {
             "nome": "Light Crusader",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "crusader",
-            "link": "",
-            "standalone": 0
+            "curto": "crusader"
         },
         {
             "nome": "Ice Climber",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "climber",
-            "link": "",
-            "standalone": 0
+            "curto": "climber"
         },
         {
             "nome": "Adventure Island",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "advisland",
-            "link": "",
-            "standalone": 0
+            "curto": "advisland"
         },
         {
             "nome": "Gun.Smoke",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "gunsmoke",
-            "link": "",
-            "standalone": 0
+            "curto": "gunsmoke"
         },
         {
             "nome": "DuckTales",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "ducktales",
-            "link": "",
-            "standalone": 0
+            "curto": "ducktales"
         },
         {
             "nome": "Jackal",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "jackal",
-            "link": "",
-            "standalone": 0
+            "curto": "jackal"
         },
         {
             "nome": "Super Mario 64",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "mario64",
-            "link": "",
-            "standalone": 0
+            "curto": "mario64"
         },
         {
             "nome": "Castlevania Legacy of Darkness",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "castlelod",
-            "link": "",
-            "standalone": 0
+            "curto": "castlelod"
         },
         {
             "nome": "Hercules: The Legendary Journeys",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "hercules",
-            "link": "",
-            "standalone": 0
+            "curto": "hercules"
         },
         {
             "nome": "Disney's Tarzan",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "tarzan",
-            "link": "",
-            "standalone": 0
+            "curto": "tarzan"
         },
         {
             "nome": "Cruis'n Exotica",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "exotica",
-            "link": "",
-            "standalone": 0
+            "curto": "exotica"
         },
         {
             "nome": "God of War",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gow1",
-            "link": "",
-            "standalone": 0
+            "curto": "gow1"
         },
         {
             "nome": "Red Dead Revolver",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "revolver",
-            "link": "",
-            "standalone": 0
+            "curto": "revolver"
         },
         {
             "nome": "Cars",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "cars",
-            "link": "",
-            "standalone": 0
+            "curto": "cars"
         },
         {
             "nome": "Call of Duty Finest Hour",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "finest",
-            "link": "",
-            "standalone": 0
+            "curto": "finest"
         },
         {
             "nome": "COD 2 Big Red One",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "bigred",
-            "link": "",
-            "standalone": 0
+            "curto": "bigred"
         },
         {
             "nome": "Sonic The Hedgehog 2",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic2",
-            "link": "",
-            "standalone": 0
+            "curto": "sonic2"
         },
         {
             "nome": "Sonic The Hedgehog 3 & Knuckles",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic3k",
-            "link": "",
-            "standalone": 0
+            "curto": "sonic3k"
         },
         {
             "nome": "God of War 2",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gow2",
-            "link": "",
-            "standalone": 0
+            "curto": "gow2"
         },
         {
             "nome": "Call of Duty World at War Final Fronts",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "fronts",
-            "link": "",
-            "standalone": 0
+            "curto": "fronts"
         },
         {
             "nome": "Sonic Adventure",
             "imagem": "1.jpg",
             "console": "Dreamcast",
             "consigla": "dc",
-            "curto": "sonicadv",
-            "link": "",
-            "standalone": 0
+            "curto": "sonicadv"
         },
         {
             "nome": "Shadow of the Colossus",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "colossus",
-            "link": "",
-            "standalone": 0
+            "curto": "colossus"
         },
         {
             "nome": "Pandemonium",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "pandemonium",
-            "link": "",
-            "standalone": 0
+            "curto": "pandemonium"
         },
         {
             "nome": "Manhunt",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "manhunt1",
-            "link": "",
-            "standalone": 0
+            "curto": "manhunt1"
         },
         {
             "nome": "Road & Track Presents: The Need for Speed",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "thenfs",
-            "link": "",
-            "standalone": 0
+            "curto": "thenfs"
         },
         {
             "nome": "Sonic Adventure 2",
             "imagem": "1.jpg",
             "console": "Dreamcast",
             "consigla": "dc",
-            "curto": "sonicadv2",
-            "link": "",
-            "standalone": 0
+            "curto": "sonicadv2"
         },
         {
             "nome": "The Nightmare Before Christmas: Oogie's Revenge",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "nbxmas",
-            "link": "",
-            "standalone": 0
+            "curto": "nbxmas"
         },
         {
             "nome": "Grand Theft Auto III",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gta3",
-            "link": "",
-            "standalone": 0
+            "curto": "gta3"
         },
         {
             "nome": "Shadow the Hedgehog",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "shadow",
-            "link": "",
-            "standalone": 0
+            "curto": "shadow"
         },
         {
             "nome": "Shadow the Hedgehog (VOD)",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "shadow-vod",
-            "link": "",
-            "standalone": 0
+            "curto": "shadow-vod"
         },
         {
             "nome": "The Sims",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "sims",
-            "link": "",
-            "standalone": 0
+            "curto": "sims"
         },
         {
             "nome": "The Sims (VOD)",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "sims-vod",
-            "link": "",
-            "standalone": 0
+            "curto": "sims-vod"
         },
         {
             "nome": "Killzone",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "killzone",
-            "link": "",
-            "standalone": 0
+            "curto": "killzone"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge",
             "imagem": "1.jpg",
             "console": "Game Boy Advance",
             "consigla": "gba",
-            "curto": "banjogrunty",
-            "link": "",
-            "standalone": 0
-        },
+            "curto": "banjogrunty"
+        }
+    ],
+    "standalone": [
         {
             "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
             "imagem": "coco.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "coco",
             "link": "https://drive.google.com/file/d/13GLcHstrwxP5MjyujZT2BthBPxgwM38i/view",
             "linkyt": "https://youtu.be/RDhv4UDwxYQ",
             "duracao": "5:25",
-            "plataforma": "youtube",
-            "standalone": 1
+            "plataforma": "youtube"
         },
         {
             "nome": "Passeio de Bike pelo Parque Malwee em 2020",
             "imagem": "bike2020.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "bike2020",
             "link": "https://drive.google.com/file/d/13T0Vd5avB7rTIxq2Lu9u2LJO21mB4RF3/view",
+            "linkyt": "",
             "duracao": "4:00",
-            "plataforma": "gdrive",
-            "standalone": 1
+            "plataforma": "gdrive"
         },
         {
             "nome": "Testando Layout para Gameplays de PlayStation 1",
             "imagem": "layout.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "layout",
             "link": "https://drive.google.com/file/d/1T1eQI-25GnMSNYXU98AwS49-7sCrqQ9e/view",
             "linkyt": "https://youtu.be/RbITng3g_vE",
             "duracao": "25:37",
-            "plataforma": "youtube",
-            "standalone": 1
+            "plataforma": "youtube"
         },
         {
             "nome": "Sarrada do MarceloSouzaF",
             "imagem": "sarrada.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "sarrada",
             "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
+            "linkyt": "",
             "duracao": "0:57",
-            "plataforma": "gdrive",
-            "standalone": 1
+            "plataforma": "gdrive"
         },
         {
             "nome": "A MAIOR LIVE DO CANAL - 10 Horas de Duração",
             "imagem": "livegrandona.png",
-            "console": "",
             "consigla": "etc",
             "curto": "livegrandona",
             "link": "https://drive.google.com/file/d/1FQL6YPA3jEm78vd_F3wM6CzO-MyXm04J/view",
+            "linkyt": "",
             "duracao": "4:09",
-            "plataforma": "gdrive",
-            "standalone": 1
+            "plataforma": "gdrive"
         },
         {
             "nome": "Marcelo reagindo à comentários em vídeo de Subway Money",
             "imagem": "kkkkkkkkk.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "kkkkkkkkk",
             "link": "",
             "linkyt": "https://youtu.be/OiCMeA0VREM",
             "duracao": "2:05",
-            "plataforma": "youtube",
-            "standalone": 1
+            "plataforma": "youtube"
         },
         {
             "nome": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
             "imagem": "besouro.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "besouro",
             "link": "",
             "linkyt": "https://youtu.be/KMGz80arNjQ",
             "duracao": "8:13",
-            "plataforma": "youtube",
-            "standalone": 1
+            "plataforma": "youtube"
         },
         {
             "nome": "Fim da maior live do canal (10 Horas)",
             "imagem": "maiorliveclipe.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "maiorliveclipe",
             "link": "",
             "linkyt": "https://youtu.be/ysesUFblPpw",
             "duracao": "2:39",
-            "plataforma": "youtube",
-            "standalone": 1
+            "plataforma": "youtube"
         },
         {
             "nome": "Tentando jogar o melhor jogo de corrida de todos os tempos",
             "imagem": "mostwantedteste.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "mostwantedteste",
             "link": "https://drive.google.com/file/d/1QWkoiRKTLcG8zBjQ5liwaCdaPznh-9mh/view",
             "linkyt": "",
             "duracao": "28:20",
-            "plataforma": "gdrive",
-            "standalone": 1
+            "plataforma": "gdrive"
         },
         {
             "nome": "Marcelo conversando sobre jogos da Rockstar",
             "imagem": "rockstarcomp.jpg",
-            "console": "",
             "consigla": "etc",
             "curto": "rockstarcomp",
             "link": "",
             "linkyt": "https://youtu.be/m4gjIiIMU2Y",
             "duracao": "10:35",
-            "plataforma": "youtube",
-            "standalone": 1
+            "plataforma": "youtube"
         }
     ],
     "futurosjogos": [
@@ -556,18 +445,14 @@
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gtavc",
-            "link": "",
-            "standalone": 0
+            "curto": "gtavc"
         },
         {
             "nome": "Need for Speed: Most Wanted",
             "imagem": "1.jpg",
             "console": "GameCube",
             "consigla": "gc",
-            "curto": "nfsmostwanted",
-            "link": "",
-            "standalone": 0
+            "curto": "nfsmostwanted"
         },
         {
             "nome": "GameCube",

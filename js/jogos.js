@@ -18,18 +18,13 @@ function carregarVideos() {
     fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
       .then(response => response.json())
       .then(data => {
-        for (var i = 0; i<data.videos.length; i++){
-              let vnome = data.videos[i].nome;
-              let vimagem = data.videos[i].imagem;
-              let vduracao = data.videos[i].duracao;
-              if (i == 0) {
-                if (data.hasOwnProperty("playlist")) {
+        if (data.hasOwnProperty("playlist")) {
                 let pnome = data.playlist[0].nome;
                 let pimagem = data.playlist[0].imagem;
                 let plink = data.playlist[0].link;
                 let pquantidade = data.playlist[0].quantidade;
-                document.querySelector("#jsonParent").innerHTML += `
-                    <div class="col">
+                document.querySelector("#extrasParent").innerHTML += `
+                    <div class="col extras-item">
                       <a href="${plink}" target="_blank" class="blacklink">
                         <div class="thumbnail">
                           <img src="video/${consoleAtual}/${jogoAtual}/1.${pimagem}" alt="" class="img-fluid linkicon">
@@ -43,9 +38,45 @@ function carregarVideos() {
                         <span class="flow-text title">${pnome}</span>
                       </a>
                     </div>`;
-                }
+          document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
+          document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
+          if (document.querySelector(".extras-item") == null) {
+            document.querySelector(".c-extras").remove();
+            document.querySelector(".c-videos").remove();
+          }
+        }
+        if (data.hasOwnProperty("analise")) {
+                  let anome = data.analise[0].nome;
+                  let aimagem = data.analise[0].imagem;
+                  let alink = data.analise[0].link;
+                  let aduracao = data.analise[0].duracao;
+                  document.querySelector("#extrasParent").innerHTML += `
+                    <div class="col extras-item">
+                      <a href="${alink}" target="_blank" class="blacklink">
+                        <div class="thumbnail">
+                          <img src="video/${consoleAtual}/${jogoAtual}/analise.${aimagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${aduracao}</span>
+                        </div>
+                        <span class="flow-text title">${anome}</span>
+                      </a>
+                    </div>`;
+          document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
+          document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
+          if (document.querySelector(".extras-item") == null) {
+            document.querySelector(".c-extras").remove();
+            document.querySelector(".c-videos").remove();
+          }
+        }
+      })
+
+    fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
+      .then(response => response.json())
+      .then(data => {
+        for (var i = 0; i<data.videos.length; i++){
+              let vnome = data.videos[i].nome;
+              let vimagem = data.videos[i].imagem;
+              let vduracao = data.videos[i].duracao;
                 document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/1.${vimagem}`);
-              }
                 let vplat = data.videos[i].plataforma;
                 let vlinkyt = data.videos[i].linkyt;
                 if (vplat == "gdrive") {
@@ -71,24 +102,6 @@ function carregarVideos() {
                       </a>
                     </div>`;
                 }
-              if (i == data.videos.length - 1) {
-                if (data.hasOwnProperty("analise")) {
-                  let anome = data.analise[0].nome;
-                  let aimagem = data.analise[0].imagem;
-                  let alink = data.analise[0].link;
-                  let aduracao = data.analise[0].duracao;
-                  document.querySelector("#jsonParent").innerHTML += `
-                    <div class="col">
-                      <a href="${alink}" target="_blank" class="blacklink">
-                        <div class="thumbnail">
-                          <img src="video/${consoleAtual}/${jogoAtual}/analise.${aimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${aduracao}</span>
-                        </div>
-                        <span class="flow-text title">${anome}</span>
-                      </a>
-                    </div>`;
-                }
-              }
         }
       })
 }
