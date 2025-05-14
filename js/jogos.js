@@ -24,10 +24,10 @@ function carregarVideos() {
               let vduracao = data.videos[i].duracao;
               if (i == 0) {
                 if (data.hasOwnProperty("playlist")) {
-                let pnome = data.playlist[i].nome;
-                let pimagem = data.playlist[i].imagem;
-                let plink = data.playlist[i].link;
-                let pquantidade = data.playlist[i].quantidade;
+                let pnome = data.playlist[0].nome;
+                let pimagem = data.playlist[0].imagem;
+                let plink = data.playlist[0].link;
+                let pquantidade = data.playlist[0].quantidade;
                 document.querySelector("#jsonParent").innerHTML += `
                     <div class="col">
                       <a href="${plink}" target="_blank" class="blacklink">
@@ -71,6 +71,24 @@ function carregarVideos() {
                       </a>
                     </div>`;
                 }
+              if (i == data.videos.length - 1) {
+                if (data.hasOwnProperty("analise")) {
+                  let anome = data.analise[0].nome;
+                  let aimagem = data.analise[0].imagem;
+                  let alink = data.analise[0].link;
+                  let aduracao = data.analise[0].duracao;
+                  document.querySelector("#jsonParent").innerHTML += `
+                    <div class="col">
+                      <a href="${alink}" target="_blank" class="blacklink">
+                        <div class="thumbnail">
+                          <img src="video/${consoleAtual}/${jogoAtual}/analise.${aimagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${aduracao}</span>
+                        </div>
+                        <span class="flow-text title">${anome}</span>
+                      </a>
+                    </div>`;
+                }
+              }
         }
       })
 }

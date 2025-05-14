@@ -7,6 +7,14 @@
             "quantidade": "9"
         }
     ],
+    "analise": [
+        {
+            "nome": "Adventure Island de NES | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/28rvnCAJbbY",
+            "duracao": "10:34"
+        }
+    ],
     "videos": [
         {
             "nome": "Adventure Island de NES - Parte 1",
