@@ -1,0 +1,239 @@
+/*neob theme*/
+:root {
+  --neob-yellow: #ffeca8;
+  --neob-blue: #b5d1fa;
+  --neob-darkblue: #32b8e6;
+  --neob-bluepurple: #445ba7;
+  --neob-green: #b0f7b3;
+  --neob-darkgreen: #3c9025;
+  --neob-pink: #edb0f7;
+  --neob-darkpink: #e3529f;
+  --neob-orange: #ffb877;
+  --neob-purple: #d7c3ff;
+  --neob-red: #ed1d28;
+}
+
+body[data-tema="neob"] {
+  background-color: var(--neob-yellow) !important;
+  color: black;
+  text-transform: uppercase;
+}
+
+body[data-tema="neob"] > .navbar {
+  /*background-color: inherit !important;*/
+  background-color: var(--neob-darkblue) !important;
+  border-bottom: 2px black solid;
+}
+
+body[data-tema="neob"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  color: black !important;
+}
+
+body[data-tema="neob"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item::before {
+  color: black !important;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button, body[data-tema="neob"] > .navbar > div > div > button {
+  color: black !important;
+}
+
+body[data-tema="neob"] > .navbar > div > div > div > input, body[data-tema="neob"] > .navbar > div > div > div > input:focus {
+  color: black !important;
+  background-color: var(--neob-purple) !important;
+  border: 1px solid black !important;
+  border-radius: 0;
+  box-shadow: 5px 5px !important;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button.pesquisar-btn, body[data-tema="neob"] > .navbar > div > div > button.pesquisar-btn {
+  background-color: var(--neob-pink);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button.pesquisar-btn {
+  margin-right: 8px;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button:nth-child(2) {
+  background-color: var(--neob-blue);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+}
+
+body[data-tema="neob"] > .navbar > center > div > button.pesquisar-btn, body[data-tema="neob"] > .navbar > div > div > button.close-offcanvas {
+  background-color: var(--neob-yellow);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+}
+
+body[data-tema="neob"] > .pagecontent > .row {
+  column-gap: 3%;
+  margin-left: 0;
+}
+
+body[data-tema="neob"] > .pagecontent > .video-category, body[data-tema="neob"] > .pagecontent > div > .video-category {
+  padding-bottom: 1.5rem;
+}
+
+body[data-tema="neob"] > .pagecontent > div > b, body[data-tema="neob"] > .pagecontent > div > div > b {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  width: 97%;
+  box-shadow: 10px 10px;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .game-item {
+  padding-bottom: 20px !important;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .game-item > br{
+  margin-bottom: 4px;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col > a > .title {
+  font-weight: bold;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col > a > .subtitle {
+  color: black;
+  font-size: 0.8rem;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  width: 97%;
+  box-shadow: 5px 5px black;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col > a > img, body[data-tema="neob"] > .pagecontent > .row > .col > a > div > img {
+  border: 2px solid black;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col {
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+  width: 97%;
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+1) {
+  background-color: var(--neob-blue);
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+2) {
+  background-color: var(--neob-green);
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+3) {
+  background-color: var(--neob-pink);
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+4) {
+  background-color: var(--neob-orange);
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+5) {
+  background-color: var(--neob-purple);
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+6) {
+  background-color: var(--neob-red);
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+7) {
+  background-color: var(--neob-darkgreen);
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+8) {
+  background-color: var(--neob-darkblue);
+}
+
+body[data-tema="neob"] > .pagecontent > .row > .col:nth-child(9n+9) {
+  background-color: var(--neob-darkpink);
+}
+
+@media only screen and (min-width: 576px) {
+  body[data-tema="neob"] > .pagecontent > .row {
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+  }
+
+  body[data-tema="neob"] > .pagecontent > .row > .col {
+    width: 48%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body[data-tema="neob"] > .pagecontent > .row > .col {
+    width: 22%;
+  }
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-header, body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body {
+  background-color: var(--neob-green);
+  color: black;
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a {
+  color: black;
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li {
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li+li {
+  margin-top: 15px;
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(5n+1) {
+  background-color: var(--neob-pink);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(5n+2) {
+  background-color: var(--neob-orange);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(5n+3) {
+  background-color: var(--neob-yellow);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(5n+4) {
+  background-color: var(--neob-purple);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li:nth-child(5n+5) {
+  background-color: var(--neob-blue);
+}
+
+body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+  background-color: inherit;
+  color: black;
+  border: none;
+  box-shadow: none;
+}
+
+body[data-tema="neob"] > .pagecontent > p > a:not(.likebutton) {
+  background-color: var(--neob-green);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+  color: black !important;
+}
+
+body[data-tema="neob"] > .pagecontent > p > a.likebutton {
+  background-color: var(--neob-blue);
+  border-radius: 0;
+  box-shadow: 5px 5px;
+  color: black !important;
+}
+
+body[data-tema="neob"] > .pagecontent > .card > ul > li {
+  border-color: black !important;
+  background-color: var(--neob-purple) !important;
+}
+
+body[data-tema="neob"] > .pagecontent > .header404 {
+  font-weight: bolder !important;
+}

@@ -1,7 +1,6 @@
 var consoleAtual;
 var jogoAtual;
 var episodioAtual;
-var tema = "";
 
 function carregarDados() {
   procurarParam();
@@ -96,24 +95,4 @@ function carregarConsoles() {
       }
       startTema();
   })
-}
-
-function startTema() {
-  tema = localStorage.getItem("tema");
-  if (tema == null) {
-      tema = "default";
-      document.getElementById("themes_select").value = tema;
-      document.body.setAttribute("data-tema", tema);
-      localStorage.setItem("tema", tema);
-      return
-  }
-  document.getElementById("themes_select").value = tema;
-  document.body.setAttribute("data-tema", tema);
-  localStorage.setItem("tema", tema);
-}
-
-function setTema(tema_esc) {
-  tema = tema_esc.value;
-  document.body.setAttribute("data-tema", tema);
-  localStorage.setItem("tema", tema);
 }

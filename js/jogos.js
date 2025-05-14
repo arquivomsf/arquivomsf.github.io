@@ -1,6 +1,5 @@
 var consoleAtual;
 var jogoAtual;
-var tema = "";
 
 function carregarDados() {
   procurarParam();
@@ -135,7 +134,6 @@ function carregarConsoles() {
           let jconsigla = data.jogos[i].consigla;
           let jcurto = data.jogos[i].curto;
           if(jcurto == jogoAtual){
-            //document.querySelector(".page-name").innerHTML = `${jnome}`;
             document.querySelector(".game-name").innerHTML = `<a href="">${jnome}</a>`;
             document.querySelector(".console-name").innerHTML = `<a href="console?id=${jconsigla}">${jconsole}</a>`;
             document.title = `Arquivo - ${jnome}`;
@@ -143,24 +141,4 @@ function carregarConsoles() {
           }
       }
   })
-}
-
-function startTema() {
-  tema = localStorage.getItem("tema");
-  if (tema == null) {
-      tema = "default";
-      document.getElementById("themes_select").value = tema;
-      document.body.setAttribute("data-tema", tema);
-      localStorage.setItem("tema", tema);
-      return
-  }
-  document.getElementById("themes_select").value = tema;
-  document.body.setAttribute("data-tema", tema);
-  localStorage.setItem("tema", tema);
-}
-
-function setTema(tema_esc) {
-  tema = tema_esc.value;
-  document.body.setAttribute("data-tema", tema);
-  localStorage.setItem("tema", tema);
 }

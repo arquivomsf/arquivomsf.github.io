@@ -1,0 +1,229 @@
+/*retro theme*/
+body[data-tema="retro"] {
+  font-family: 'InterUI-Regular' !important;
+  background-color: #282828 !important;
+  color: white !important;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > span.title {
+  color: white !important;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > img.img-fluid, body[data-tema="retro"] > .pagecontent > div > div > a > div > img.img-fluid {
+  border-bottom: 1px solid #51514F;
+  padding-bottom: 10px;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > div > .playlist-length {
+  height: calc(100% - 10px);
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > div > .video-length {
+  margin-bottom: 10px;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > span.subtitle {
+  color: #99999B !important;
+  font-size: 0.9rem !important;
+}
+
+body[data-tema="retro"] > .navbar {
+  background-color: #282828 !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  font-family: 'MPlus-Bold' !important;
+  color: white !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active > a {
+  color: #00D9AE !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > button {
+  background-color: #282828 !important;
+}
+
+body[data-tema="retro"] > .navbar > div > div > button:not(.btn-close) {
+  background-color: #282828 !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > a.home-icon > button {
+  background-color: #282828 !important;
+}
+
+body[data-tema="retro"] > .pagecontent > p > a.btn-dark {
+  background-color: #282828 !important;
+  color: white !important;
+}
+
+body[data-tema="retro"] > .navbar > div > div > div > input {
+  background-color: #2D2D2D !important;
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas {
+  background-color: #2D2D2D !important;
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+  background-color: #2D2D2D !important;
+  border: 0 !important;
+  padding-left: 0 !important;
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
+  font-family: 'MPlus-Bold' !important;
+  color: #00D9AE !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > button.pesquisar-btn {
+  margin-right: 5px !important;
+}
+
+body[data-tema="retro"] > .pagecontent > .card, body[data-tema="retro"] > .pagecontent > .card > ul, body[data-tema="retro"] > .pagecontent > .card > ul > li {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #282828 !important;
+  color: white !important;
+}
+
+body[data-tema="retro"] > .pagecontent > .card > ul {
+  border-top: 1px solid #51514F !important;
+}
+
+body[data-tema="retro"] > .pagecontent > .card > ul > li {
+  padding-left: 0 !important;
+  border-bottom: 1px solid #51514F !important;
+}
+
+body[data-tema="retro"] > .pagecontent > div > .col:not(:hover) {
+  padding: 4px 4px 4px 4px !important;
+}
+
+body[data-tema="retro"] > .pagecontent > div > .col:hover {
+  padding: 4px 4px 4px 4px !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: 100%;
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+@media (min-width: 576px) {
+  body[data-tema="retro"] > .pagecontent > div > .col:hover::after {
+    width: calc(100% + 2px * 2);
+  }
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas > .offcanvas-body > ul > li:not(:hover) {
+  padding: 4px 4px 4px 4px !important;
+  border-top: 1px solid #51514F;
+  border-bottom: 1px solid #51514F;
+}
+
+body[data-tema="retro"] > .navbar > .offcanvas > .offcanvas-body > ul > li:hover {
+  padding: 5px 4px 5px 4px !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+body[data-tema="retro"] > .navbar > center > div > button:not(:hover), body[data-tema="retro"] > .navbar > center > div > a > button:not(:hover) {
+  color: white !important;
+}
+
+body[data-tema="retro"] > .navbar > center > div > button:hover, body[data-tema="retro"] > .navbar > center > div > a > button:hover {
+  color: #00D9AE !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+body[data-tema="retro"] > .navbar > div > div > button:not(:hover) {
+  color: white !important;
+}
+
+body[data-tema="retro"] > .navbar > div > div > button:hover {
+  color: #00D9AE !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+body[data-tema="retro"] > .pagecontent > p > a.btn-dark:not(:hover) {
+  color: white !important;
+}
+
+body[data-tema="retro"] > .pagecontent > p > a.btn-dark:hover {
+  color: #00D9AE !important;
+  position: relative;
+  background-color: #282828 !important;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: calc(100% + 2px * 2);
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}
+
+@keyframes borderColor {
+  0% {
+    background-color: #268FC2;
+  }
+  100% {
+    background-color: #82E4E6;
+  }
+}

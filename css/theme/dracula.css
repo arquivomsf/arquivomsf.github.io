@@ -1,0 +1,131 @@
+/*dracula theme tananaaaan aquela musica do bach*/
+
+:root {
+  --dracula-bg: #282a36;
+  --dracula-sel: #44475a;
+  --dracula-fg: #f8f8f2;
+  --dracula-comm: #6272a4;
+  --dracula-cyan: #8be9fd;
+  --dracula-green: #50fa7b;
+  --dracula-orange: #ffb86c;
+  --dracula-pink: #ff79c6;
+  --dracula-purple: #bd93f9;
+  --dracula-red: #ff5555;
+  --dracula-yellow: #f1fa8c;
+}
+
+body[data-tema="dracula"] {
+  background-color: var(--dracula-bg) !important;
+}
+
+body[data-tema="dracula"] > .navbar {
+  background-color: var(--dracula-sel) !important;
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
+  font-weight: normal;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
+  color: var(--dracula-orange) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active > a {
+  color: var(--dracula-red) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > button {
+  background-color: var(--dracula-sel) !important;
+}
+
+body[data-tema="dracula"] > .navbar > div > div > button:not(.btn-close) {
+  background-color: var(--dracula-sel) !important;
+}
+
+body[data-tema="dracula"] > .navbar > center > div > a.home-icon > button {
+  background-color: var(--dracula-sel) !important;
+}
+
+body[data-tema="dracula"] > .navbar > div > div > div > input {
+  background-color: var(--dracula-bg) !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > div > b, body[data-tema="dracula"] > .pagecontent > div > div > b {
+  color: var(--dracula-yellow) !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > div > div > a > span.title {
+  color: var(--dracula-red) !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > div > div > a > span.subtitle {
+  color: var(--dracula-orange) !important;
+  font-style: italic !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > div > div > a > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.playlist-length {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .navbar > .offcanvas {
+  background-color: var(--dracula-sel) !important;
+}
+
+body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
+  color: var(--dracula-red) !important;
+}
+
+body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a {
+  color: var(--dracula-orange) !important;
+  font-style: italic !important;
+}
+
+body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+  background-color: var(--dracula-sel) !important;
+  border: 1px solid var(--dracula-fg) !important;
+  color: var(--dracula-orange) !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > div > div.col > p {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > p, body[data-tema="dracula"] > .pagecontent > h4 {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > p > a.btn-dark {
+  background-color: var(--dracula-sel) !important;
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > .card, body[data-tema="dracula"] > .pagecontent > .card > ul, body[data-tema="dracula"] > .pagecontent > .card > ul > li {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: var(--dracula-bg) !important;
+  color: var(--dracula-orange) !important;
+  font-style: italic;
+}
+
+body[data-tema="dracula"] > .pagecontent > .card > ul > li {
+  padding-left: 0 !important;
+}
+
+body[data-tema="dracula"] > .pagecontent > .card > ul > li::before {
+  content: "•";
+  margin-right: 5px;
+}
+
+body[data-tema="dracula"] > .pagecontent > p > i:not(.fa) {
+  font-style: normal;
+  color: var(--dracula-purple) !important;
+}
