@@ -521,6 +521,10 @@
         {
             "nome": "Neobrutalismo",
             "valor": "neob"
+        },
+        {
+            "nome": "Arredondado",
+            "valor": "arredondado"
         }
     ]
 }
