@@ -43,12 +43,6 @@ body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title
 }
 
 body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > h5 {
-  /*text-shadow: none;
-  font-weight: bold;
-  margin: 5% 5% 0 5% !important;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;*/
-
   font-weight: bold;
   color: black;
   border-bottom: 1px solid transparent;
@@ -61,28 +55,12 @@ body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title
   padding-top: 0.8rem !important;
 }
 
-/*body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > h5:first-child {
-  background: linear-gradient(to right, #0a4cb1 , #2059c8);
-  color: #f7f9fc !important;
-}
-
-body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > h5:not(:first-child) {
-  background: linear-gradient(to right, #ffffff , #ccccff);
-  color: #2059c8 !important;
-}*/
-
 body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > ul {
-  /*background-color: #d6dff7;*/
   text-shadow: none;
-  /*font-weight: bold;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;*/
-  margin: 0 5% 0 5% !important;
+   margin: 0 5% 0 5% !important;
 }
 
 body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > ul > li:hover a {
-  /*color: #74aafc !important;*/
   text-decoration: underline !important;
 }
 
@@ -106,14 +84,6 @@ body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select
   width: 90% !important;
 
   color: #222;
-  /*border: 1px solid #7f9db9;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 15 17' shape-rendering='crispEdges'%3E%3Cpath stroke='%23e6eefc' d='M0 0h1'/%3E%3Cpath stroke='%23d1e0fd' d='M1 0h1M0 1h1m3 0h2M2 3h1M2 4h1'/%3E%3Cpath stroke='%23cad8f9' d='M2 0h1M0 2h1'/%3E%3Cpath stroke='%23c4d3f7' d='M3 0h1M0 3h1M0 4h1'/%3E%3Cpath stroke='%23bfd0f8' d='M4 0h2M0 5h1'/%3E%3Cpath stroke='%23bdcef7' d='M6 0h1M0 6h1'/%3E%3Cpath stroke='%23baccf4' d='M7 0h1m6 2h1m-1 5h1m-1 1h1'/%3E%3Cpath stroke='%23b8cbf6' d='M8 0h1M0 7h1M0 8h1'/%3E%3Cpath stroke='%23b7caf5' d='M9 0h2M0 9h1'/%3E%3Cpath stroke='%23b5c8f7' d='M11 0h1'/%3E%3Cpath stroke='%23b3c7f5' d='M12 0h1'/%3E%3Cpath stroke='%23afc5f4' d='M13 0h1'/%3E%3Cpath stroke='%23dce6f9' d='M14 0h1'/%3E%3Cpath stroke='%23e1eafe' d='M1 1h1'/%3E%3Cpath stroke='%23dae6fe' d='M2 1h1M1 2h1'/%3E%3Cpath stroke='%23d4e1fc' d='M3 1h1M1 3h1M1 4h1'/%3E%3Cpath stroke='%23d0ddfc' d='M6 1h1M1 5h1'/%3E%3Cpath stroke='%23cedbfd' d='M7 1h1M4 2h2'/%3E%3Cpath stroke='%23cad9fd' d='M8 1h1M6 2h1M3 5h1'/%3E%3Cpath stroke='%23c8d8fb' d='M9 1h2'/%3E%3Cpath stroke='%23c5d6fc' d='M11 1h1M2 11h4'/%3E%3Cpath stroke='%23c2d3fc' d='M12 1h1m-2 1h1M1 11h1m0 1h2m-2 1h2'/%3E%3Cpath stroke='%23bccefa' d='M13 1h1m-1 1h1m-1 1h1m-1 1h1M3 15h4'/%3E%3Cpath stroke='%23b9c9f3' d='M14 1h1M3 16h4'/%3E%3Cpath stroke='%23d8e3fc' d='M2 2h1'/%3E%3Cpath stroke='%23d1defd' d='M3 2h1'/%3E%3Cpath stroke='%23c9d8fc' d='M7 2h1M4 3h3M4 4h3M3 6h1m1 0h2M1 7h1M1 8h1'/%3E%3Cpath stroke='%23c5d5fc' d='M8 2h1m-8 8h5'/%3E%3Cpath stroke='%23c5d3fc' d='M9 2h2'/%3E%3Cpath stroke='%23bed0fc' d='M12 2h1M8 3h1M8 4h1m-8 8h1m-1 1h1m0 1h1m1 0h3'/%3E%3Cpath stroke='%23cddbfc' d='M3 3h1M3 4h1M1 6h2'/%3E%3Cpath stroke='%23c8d5fb' d='M7 3h1M7 4h1'/%3E%3Cpath stroke='%23bbcefd' d='M9 3h4M9 4h4M8 5h1M7 6h1'/%3E%3Cpath stroke='%23bcccf3' d='M14 3h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23ceddfd' d='M2 5h1'/%3E%3Cpath stroke='%23c8d6fb' d='M4 5h4M1 9h3'/%3E%3Cpath stroke='%23bacdfc' d='M9 5h2m1 0h2M1 14h1'/%3E%3Cpath stroke='%23b9cdfb' d='M11 5h1M8 6h2m2 0h2m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%234d6185' d='M4 6h1m5 0h1M3 7h3m3 0h3M4 8h3m1 0h3M5 9h5m-4 1h3m-2 1h1'/%3E%3Cpath stroke='%23b7cdfc' d='M11 6h1m0 1h1m-1 1h1'/%3E%3Cpath stroke='%23cad8fd' d='M2 7h1M2 8h2'/%3E%3Cpath stroke='%23c1d3fb' d='M6 7h2M7 8h1M4 9h1'/%3E%3Cpath stroke='%23b6cefb' d='M8 7h1m2 1h1m-2 1h3m-2 1h2'/%3E%3Cpath stroke='%23b6cdfb' d='M13 9h1m-6 6h1'/%3E%3Cpath stroke='%23b9cbf3' d='M14 9h1'/%3E%3Cpath stroke='%23b4c8f6' d='M0 10h1'/%3E%3Cpath stroke='%23bdd3fb' d='M9 10h2m-4 4h1'/%3E%3Cpath stroke='%23b5cdfa' d='M13 10h1'/%3E%3Cpath stroke='%23b5c9f3' d='M14 10h1'/%3E%3Cpath stroke='%23b1c7f6' d='M0 11h1'/%3E%3Cpath stroke='%23c3d5fd' d='M6 11h1'/%3E%3Cpath stroke='%23bad4fc' d='M8 11h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23b2cffb' d='M9 11h4m-2 3h1'/%3E%3Cpath stroke='%23b1cbfa' d='M13 11h1m-3 4h1'/%3E%3Cpath stroke='%23b3c8f5' d='M14 11h1m-7 5h3'/%3E%3Cpath stroke='%23adc3f6' d='M0 12h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23c2d5fc' d='M4 12h4m-4 1h4'/%3E%3Cpath stroke='%23b7d3fc' d='M9 12h2m-2 1h2m-3 1h1'/%3E%3Cpath stroke='%23b3d1fc' d='M11 12h1m-1 1h1'/%3E%3Cpath stroke='%23afcdfb' d='M12 12h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23afcbfa' d='M13 12h1m-1 1h1'/%3E%3Cpath stroke='%23b2c8f4' d='M14 12h1m-1 1h1m-4 3h1'/%3E%3Cpath stroke='%23c1d2fb' d='M3 14h1'/%3E%3Cpath stroke='%23b6d1fb' d='M9 14h2'/%3E%3Cpath stroke='%23adc9f9' d='M13 14h1m-2 1h1'/%3E%3Cpath stroke='%23b1c6f3' d='M14 14h1m-3 2h1'/%3E%3Cpath stroke='%23abc1f4' d='M0 15h1'/%3E%3Cpath stroke='%23b7cbf9' d='M1 15h1'/%3E%3Cpath stroke='%23b9cefb' d='M2 15h1'/%3E%3Cpath stroke='%23b9cffb' d='M7 15h1'/%3E%3Cpath stroke='%23b2cdfb' d='M9 15h2'/%3E%3Cpath stroke='%23aec8f7' d='M13 15h1'/%3E%3Cpath stroke='%23b0c5f2' d='M14 15h1m-2 1h1'/%3E%3Cpath stroke='%23dbe3f8' d='M0 16h1'/%3E%3Cpath stroke='%23b7c6f1' d='M1 16h1'/%3E%3Cpath stroke='%23b8c9f2' d='M2 16h1m4 0h1'/%3E%3Cpath stroke='%23d9e3f6' d='M14 16h1'/%3E%3C/svg%3E");
-  background-color: #fff;
-  background-position: top 2px right 2px;
-  background-repeat: no-repeat;
-  border-radius: 0;
-  appearance: none;*/
-
   box-shadow: inset -1px -1px #fff,inset 1px 1px grey,inset -2px -2px #dfdfdf,inset 2px 2px #0a0a0a;
   background-color: #fff;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 6H4v1h1v1h1v1h1v1h1V9h1V8h1V7h1V6z' fill='%23000'/%3E%3C/svg%3E");
@@ -127,10 +97,6 @@ body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select
   padding: 3px 32px 3px 4px;
 }
 
-/*body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select:hover {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 15 17' shape-rendering='crispEdges'%3E%3Cpath stroke='%23cfdbec' d='M0 0h1'/%3E%3Cpath stroke='%23b4c7eb' d='M1 0h1M0 1h1'/%3E%3Cpath stroke='%23abbee9' d='M2 0h1M0 2h1'/%3E%3Cpath stroke='%23a5b9e7' d='M3 0h1M0 3h1M0 4h1'/%3E%3Cpath stroke='%23a0b4e5' d='M4 0h2'/%3E%3Cpath stroke='%239cb2e5' d='M6 0h1M0 6h1'/%3E%3Cpath stroke='%2398b1e4' d='M7 0h1'/%3E%3Cpath stroke='%2397aee2' d='M8 0h1M0 7h1M0 8h1'/%3E%3Cpath stroke='%2395ade5' d='M9 0h2M0 9h1'/%3E%3Cpath stroke='%2394abe4' d='M11 0h1'/%3E%3Cpath stroke='%2390aae4' d='M12 0h1M0 10h1'/%3E%3Cpath stroke='%238aa6e3' d='M13 0h1M0 12h1m-1 1h1'/%3E%3Cpath stroke='%23c2cfea' d='M14 0h1'/%3E%3Cpath stroke='%23fdffff' d='M1 1h1'/%3E%3Cpath stroke='%23f6ffff' d='M2 1h1M1 2h1'/%3E%3Cpath stroke='%23eefcff' d='M3 1h1M1 3h1M1 4h1'/%3E%3Cpath stroke='%23e9faff' d='M4 1h2M3 2h1M2 3h1M2 4h1'/%3E%3Cpath stroke='%23e5f6ff' d='M6 1h1M1 5h2'/%3E%3Cpath stroke='%23e3f4ff' d='M7 1h1M4 2h2'/%3E%3Cpath stroke='%23dff2fe' d='M8 1h1M6 2h1M3 5h1'/%3E%3Cpath stroke='%23dbf1ff' d='M9 1h2'/%3E%3Cpath stroke='%23d8edfc' d='M11 1h1M2 11h4'/%3E%3Cpath stroke='%23d4e9fc' d='M12 1h1m-2 1h1M1 11h1m0 1h1m-1 1h1'/%3E%3Cpath stroke='%23cde2fc' d='M13 1h1m-1 1h1m-1 1h1m-1 1h1M3 15h3'/%3E%3Cpath stroke='%2397ace0' d='M14 1h1M3 16h4'/%3E%3Cpath stroke='%23f2feff' d='M2 2h1'/%3E%3Cpath stroke='%23ddf0fe' d='M7 2h1M4 3h3M4 4h3M3 6h1m1 0h2M1 7h1M1 8h1'/%3E%3Cpath stroke='%23d8ebfc' d='M8 2h1m-8 8h5'/%3E%3Cpath stroke='%23d8eafc' d='M9 2h2'/%3E%3Cpath stroke='%23d0e5fc' d='M12 2h1M8 3h1M8 4h1m-8 8h1m-1 1h1m0 1h1'/%3E%3Cpath stroke='%2398aee1' d='M14 2h1m-1 5h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23e2f3fd' d='M3 3h1M3 4h1M1 6h1'/%3E%3Cpath stroke='%23dcecfd' d='M7 3h1M7 4h1'/%3E%3Cpath stroke='%23cde4fc' d='M9 3h4M9 4h4M8 5h1'/%3E%3Cpath stroke='%239bafe0' d='M14 3h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%239db3e6' d='M0 5h1'/%3E%3Cpath stroke='%23dcedfd' d='M4 5h4M1 9h3'/%3E%3Cpath stroke='%23cae2fd' d='M9 5h2m1 0h2M1 14h1m4 1h1'/%3E%3Cpath stroke='%23c8e1fb' d='M11 5h1M8 6h2m2 0h2m-1 1h1m-1 1h1M2 15h1'/%3E%3Cpath stroke='%23e1f2fe' d='M2 6h1'/%3E%3Cpath stroke='%234d6185' d='M4 6h1m5 0h1M3 7h3m3 0h3M4 8h3m1 0h3M5 9h5m-4 1h3m-2 1h1'/%3E%3Cpath stroke='%23d2eafe' d='M7 6h1M6 7h2M7 8h1M4 9h1'/%3E%3Cpath stroke='%23c6e2fd' d='M11 6h1m0 1h1m-1 1h1'/%3E%3Cpath stroke='%23dff0fc' d='M2 7h1M2 8h2'/%3E%3Cpath stroke='%23c5e3fc' d='M8 7h1m2 1h1m-2 1h4m-3 1h2m-5 5h1'/%3E%3Cpath stroke='%23ceeafd' d='M9 10h2m-4 4h1'/%3E%3Cpath stroke='%23c2e2fc' d='M13 10h1m-5 5h2'/%3E%3Cpath stroke='%2392ade2' d='M14 10h1'/%3E%3Cpath stroke='%238da9e4' d='M0 11h1'/%3E%3Cpath stroke='%23d5ebfd' d='M6 11h1'/%3E%3Cpath stroke='%23cbedff' d='M8 11h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23c0e4fc' d='M9 11h4m-2 3h1'/%3E%3Cpath stroke='%23bee0fc' d='M13 11h1'/%3E%3Cpath stroke='%2391abe1' d='M14 11h1m-7 5h3'/%3E%3Cpath stroke='%23d5eafd' d='M3 12h1m-1 1h1'/%3E%3Cpath stroke='%23d4ebfc' d='M4 12h3m-3 1h3'/%3E%3Cpath stroke='%23d2ecfe' d='M7 12h1m-1 1h1'/%3E%3Cpath stroke='%23c6ebff' d='M9 12h2m-2 1h2m-3 1h1'/%3E%3Cpath stroke='%23c2eaff' d='M11 12h1m-1 1h1'/%3E%3Cpath stroke='%23bde3fd' d='M12 12h1m-1 1h1'/%3E%3Cpath stroke='%23b9ddfb' d='M13 12h1m-1 1h1m-1 1h1m-2 1h1'/%3E%3Cpath stroke='%238da9e1' d='M14 12h1m-1 1h1m-3 3h1'/%3E%3Cpath stroke='%2388a3e3' d='M0 14h1'/%3E%3Cpath stroke='%23d2e9fe' d='M3 14h1'/%3E%3Cpath stroke='%23d0e8fc' d='M4 14h3'/%3E%3Cpath stroke='%23c4e8fe' d='M9 14h2'/%3E%3Cpath stroke='%23bde0fb' d='M12 14h1m-2 1h1'/%3E%3Cpath stroke='%238fa7df' d='M14 14h1'/%3E%3Cpath stroke='%2387a0de' d='M0 15h1'/%3E%3Cpath stroke='%23c5ddfc' d='M1 15h1'/%3E%3Cpath stroke='%23c8e3fb' d='M7 15h1'/%3E%3Cpath stroke='%23b9dafb' d='M13 15h1'/%3E%3Cpath stroke='%238ca7de' d='M14 15h1m-2 1h1'/%3E%3Cpath stroke='%23c3cde7' d='M0 16h1'/%3E%3Cpath stroke='%2393a7df' d='M1 16h1'/%3E%3Cpath stroke='%2396acdf' d='M2 16h1m4 0h1'/%3E%3Cpath stroke='%2390abe0' d='M11 16h1'/%3E%3Cpath stroke='%23becbe6' d='M14 16h1'/%3E%3C/svg%3E");
-}*/
-
 body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select:active {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0h16v17H0V0zm1 16h14V1H1v15z' fill='gray'/%3E%3Cpath fill='silver' d='M1 1h14v15H1z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 7H5v1h1v1h1v1h1v1h1v-1h1V9h1V8h1V7z' fill='%23000'/%3E%3C/svg%3E");
 }
@@ -143,64 +109,38 @@ body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select
 
 body[data-tema="98"] > .navbar > center > div > button {
   color: #222 !important;
-  /*border: 1px solid #003c74;
-  background: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
-  box-shadow: none;
-  border-radius: 3px !important;*/
-
   border: none;
   background: silver;
   box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
   border-radius: 0;
 }
 
-/*body[data-tema="98"] > .navbar > center > div > button:hover {
-  box-shadow: inset -1px 1px #fff0cf,inset 1px 2px #fdd889,inset -2px 2px #fbc761,inset 2px -2px #e5a01a;
-}*/
-
 body[data-tema="98"] > .navbar > center > div > button:active {
-  /*box-shadow: none;
-  background: linear-gradient(180deg,#cdcac3,#e3e3db 8%,#e5e5de 94%,#f2f2f1);*/
-
   background: silver !important;
   border: none !important;
   box-shadow: inset -1px -1px #fff,inset 1px 1px #0a0a0a,inset -2px -2px #dfdfdf,inset 2px 2px grey;
 }
 
 body[data-tema="98"] > .navbar > center > div > button:focus {
-  /*box-shadow: inset -1px 1px #cee7ff,inset 1px 2px #98b8ea,inset -2px 2px #bcd4f6,inset 1px -1px #89ade4,inset 2px -2px #89ade4;*/
   outline: 1px dotted #000;
   outline-offset: -4px;
 }
 
 body[data-tema="98"] > .navbar > div > div > button {
   color: #222 !important;
-  /*border: 1px solid #003c74;
-  background: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
-  box-shadow: none;
-  border-radius: 3px !important;*/
-
   border: none;
   background: silver;
   box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
   border-radius: 0;
 }
 
-/*body[data-tema="98"] > .navbar > div > div > button:hover {
-  box-shadow: inset -1px 1px #fff0cf,inset 1px 2px #fdd889,inset -2px 2px #fbc761,inset 2px -2px #e5a01a;
-}*/
-
 body[data-tema="98"] > .navbar > div > div > button:active:not(.close-offcanvas) {
-  /*box-shadow: none;
-  background: linear-gradient(180deg,#cdcac3,#e3e3db 8%,#e5e5de 94%,#f2f2f1);*/
-
   background: silver !important;
   border: none !important;
   box-shadow: inset -1px -1px #fff,inset 1px 1px #0a0a0a,inset -2px -2px #dfdfdf,inset 2px 2px grey;
 }
 
 body[data-tema="98"] > .navbar > div > div > button:focus {
-  /*box-shadow: inset -1px 1px #cee7ff,inset 1px 2px #98b8ea,inset -2px 2px #bcd4f6,inset 1px -1px #89ade4,inset 2px -2px #89ade4;*/
   outline: 1px dotted #000;
   outline-offset: -4px;
 }
@@ -231,11 +171,8 @@ body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-header {
 }
 
 body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-body {
-  /*background-color: #6c86db !important;*/
   padding: 0 0 0 0 !important;
   
-  /*box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;*/
-  /*border-left: 2px solid #dfdfdf;*/
   background-color: white;
   background-image: url("../../assets/img/wvleft.bmp");
   background-repeat: no-repeat;
@@ -250,12 +187,9 @@ body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-header > button {
   background: silver;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0h2v1h1v1h2V1h1V0h2v1H7v1H6v1H5v1h1v1h1v1h1v1H6V6H5V5H3v1H2v1H0V6h1V5h1V4h1V3H2V2H1V1H0V0z' fill='%23000'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  /*background-position: 50%;
-  box-shadow: none;*/
   box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
   border-radius: 0;
   background-position: top 7px left 8px;
-  /*transition: background .1s;*/
   border: none;
   height: 21px;
   width: 21px;
@@ -265,28 +199,12 @@ body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-header > button > i.fa-
   display: none;
 }
 
-/*body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas:hover {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 21 21' shape-rendering='crispEdges'%3E%3Cpath stroke='%23b5c6ef' d='M1 0h1m17 0h1M0 1h1m19 0h1M0 19h1m19 0h1M1 20h1m17 0h1'/%3E%3Cpath stroke='%23f4f6fd' d='M2 0h1m17 2h1M0 18h1m17 2h1'/%3E%3Cpath stroke='%23fff' d='M3 0h15M0 3h1m19 0h1M0 4h1m19 0h1M0 5h1m5 0h1m7 0h1m5 0h1M0 6h1m4 0h3m5 0h3m4 0h1M0 7h1m5 0h3m3 0h3m5 0h1M0 8h1m6 0h3m1 0h3m6 0h1M0 9h1m7 0h5m7 0h1M0 10h1m8 0h3m8 0h1M0 11h1m7 0h5m7 0h1M0 12h1m6 0h3m1 0h2m7 0h1M0 13h1m5 0h3m3 0h3m5 0h1M0 14h1m4 0h3m5 0h3m4 0h1M0 15h1m5 0h1m7 0h1m5 0h1M0 16h1m19 0h1M0 17h1m19 0h1M3 20h3m5 0h7'/%3E%3Cpath stroke='%23f5f7fd' d='M18 0h1M0 2h1m19 16h1M2 20h1'/%3E%3Cpath stroke='%23ffe4e1' d='M1 1h1'/%3E%3Cpath stroke='%23ff9285' d='M2 1h1m4 3h1M2 7h1'/%3E%3Cpath stroke='%23ff8c7f' d='M3 1h1'/%3E%3Cpath stroke='%23ff8375' d='M4 1h1m5 3h1'/%3E%3Cpath stroke='%23ff7b6c' d='M5 1h1M3 12h1'/%3E%3Cpath stroke='%23ff7868' d='M6 1h1m3 4h1'/%3E%3Cpath stroke='%23ff7362' d='M7 1h1'/%3E%3Cpath stroke='%23ff7363' d='M8 1h1m2 4h1M2 12h1'/%3E%3Cpath stroke='%23ff705f' d='M9 1h1M6 16h1'/%3E%3Cpath stroke='%23ff6f5f' d='M10 1h1'/%3E%3Cpath stroke='%23ff6e5d' d='M11 1h1m4 1h1m-5 3h1M2 13h1'/%3E%3Cpath stroke='%23ff6b5a' d='M12 1h1M3 15h1'/%3E%3Cpath stroke='%23f65' d='M13 1h2'/%3E%3Cpath stroke='%23ff6250' d='M15 1h1M2 15h1'/%3E%3Cpath stroke='%23ff5d4a' d='M16 1h1'/%3E%3Cpath stroke='%23fa5643' d='M17 1h1'/%3E%3Cpath stroke='%23eb6151' d='M18 1h1'/%3E%3Cpath stroke='%23f5dad7' d='M19 1h1'/%3E%3Cpath stroke='%23ff9386' d='M1 2h1'/%3E%3Cpath stroke='%23ffaea5' d='M2 2h1'/%3E%3Cpath stroke='%23ffb2a9' d='M3 2h1'/%3E%3Cpath stroke='%23ffa99f' d='M4 2h1'/%3E%3Cpath stroke='%23ff9e93' d='M5 2h1m0 1h1M5 4h1'/%3E%3Cpath stroke='%23ff998d' d='M6 2h1M4 6h1'/%3E%3Cpath stroke='%23ff9488' d='M7 2h1m0 1h1'/%3E%3Cpath stroke='%23ff9083' d='M8 2h1M3 8h1'/%3E%3Cpath stroke='%23ff8e80' d='M9 2h1'/%3E%3Cpath stroke='%23ff8b7d' d='M10 2h1M5 8h1M3 9h1'/%3E%3Cpath stroke='%23ff887a' d='M11 2h1m0 1h1M5 9h1'/%3E%3Cpath stroke='%23ff8475' d='M12 2h1M8 5h1'/%3E%3Cpath stroke='%23ff8172' d='M13 2h1M7 9h1m-3 3h1'/%3E%3Cpath stroke='%23ff7c6d' d='M14 2h1'/%3E%3Cpath stroke='%23ff7666' d='M15 2h1M1 7h1m1 6h1m0 1h1'/%3E%3Cpath stroke='%23fc6352' d='M17 2h1'/%3E%3Cpath stroke='%23e54' d='M18 2h1'/%3E%3Cpath stroke='%23d3594b' d='M19 2h1'/%3E%3Cpath stroke='%23ff8d80' d='M1 3h1'/%3E%3Cpath stroke='%23ffb3ab' d='M2 3h1'/%3E%3Cpath stroke='%23ffb8b0' d='M3 3h1'/%3E%3Cpath stroke='%23ffb0a6' d='M4 3h1M3 4h1'/%3E%3Cpath stroke='%23ffa49a' d='M5 3h1'/%3E%3Cpath stroke='%23ff988d' d='M7 3h1M6 4h1'/%3E%3Cpath stroke='%23ff9184' d='M9 3h1'/%3E%3Cpath stroke='%23ff8e81' d='M10 3h1M4 8h1'/%3E%3Cpath stroke='%23ff8c7e' d='M11 3h1M2 8h1'/%3E%3Cpath stroke='%23ff8576' d='M13 3h1M6 9h1m-4 1h1'/%3E%3Cpath stroke='%23ff7f70' d='M14 3h1M1 5h1m0 5h1m1 2h1'/%3E%3Cpath stroke='%23ff796a' d='M15 3h1M2 11h1'/%3E%3Cpath stroke='%23ff7161' d='M16 3h1M3 14h1'/%3E%3Cpath stroke='%23fc6857' d='M17 3h1'/%3E%3Cpath stroke='%23ed5948' d='M18 3h1M6 18h1'/%3E%3Cpath stroke='%23cb4233' d='M19 3h1'/%3E%3Cpath stroke='%23ff8577' d='M1 4h1m0 5h1'/%3E%3Cpath stroke='%23ffaaa0' d='M2 4h1'/%3E%3Cpath stroke='%23ffa89e' d='M4 4h1'/%3E%3Cpath stroke='%23ff8d7f' d='M8 4h1'/%3E%3Cpath stroke='%23ff8879' d='M9 4h1'/%3E%3Cpath stroke='%23ff8071' d='M11 4h1M8 6h1'/%3E%3Cpath stroke='%23ff7a6b' d='M12 4h1M1 6h1m7 0h1m-6 7h1'/%3E%3Cpath stroke='%23ff7969' d='M13 4h1'/%3E%3Cpath stroke='%23ff7464' d='M14 4h1m-5 2h1'/%3E%3Cpath stroke='%23ff7060' d='M15 4h1'/%3E%3Cpath stroke='%23ff6c5b' d='M16 4h1m-4 1h1'/%3E%3Cpath stroke='%23fc6655' d='M17 4h1'/%3E%3Cpath stroke='%23ef5c4b' d='M18 4h1'/%3E%3Cpath stroke='%23cc4636' d='M19 4h1'/%3E%3Cpath stroke='%23ffa095' d='M2 5h1'/%3E%3Cpath stroke='%23ffa59b' d='M3 5h1'/%3E%3Cpath stroke='%23ff9f94' d='M4 5h1'/%3E%3Cpath stroke='%23ffd5d1' d='M5 5h1'/%3E%3Cpath stroke='%23ff8a7c' d='M7 5h1'/%3E%3Cpath stroke='%23ff7e6f' d='M9 5h1'/%3E%3Cpath stroke='%23ffc2bb' d='M15 5h1'/%3E%3Cpath stroke='%23ff6554' d='M16 5h1'/%3E%3Cpath stroke='%23fc6453' d='M17 5h1'/%3E%3Cpath stroke='%23ee5d4d' d='M18 5h1'/%3E%3Cpath stroke='%23cd4939' d='M19 5h1'/%3E%3Cpath stroke='%23ff998e' d='M2 6h1'/%3E%3Cpath stroke='%23ff9d92' d='M3 6h1'/%3E%3Cpath stroke='%23ff6f5e' d='M11 6h1'/%3E%3Cpath stroke='%23ff6a58' d='M12 6h1'/%3E%3Cpath stroke='%23ff6451' d='M16 6h1'/%3E%3Cpath stroke='%23fd6451' d='M17 6h1'/%3E%3Cpath stroke='%23ee5e4d' d='M18 6h1'/%3E%3Cpath stroke='%23ce4a3a' d='M19 6h1'/%3E%3Cpath stroke='%23ff968a' d='M3 7h1'/%3E%3Cpath stroke='%23ff9487' d='M4 7h1'/%3E%3Cpath stroke='%23ff8f82' d='M5 7h1'/%3E%3Cpath stroke='%23ff7968' d='M9 7h1m-3 8h1'/%3E%3Cpath stroke='%23ff7463' d='M10 7h1'/%3E%3Cpath stroke='%23ff6f5d' d='M11 7h1'/%3E%3Cpath stroke='%23ff6450' d='M15 7h1'/%3E%3Cpath stroke='%23ff6552' d='M16 7h1'/%3E%3Cpath stroke='%23fd6653' d='M17 7h1'/%3E%3Cpath stroke='%23f0604e' d='M18 7h1'/%3E%3Cpath stroke='%23ce4a3b' d='M19 7h1'/%3E%3Cpath stroke='%23ff7565' d='M1 8h1'/%3E%3Cpath stroke='%23ff8677' d='M6 8h1m-2 2h1'/%3E%3Cpath stroke='%23ff7664' d='M10 8h1'/%3E%3Cpath stroke='%23ff6a53' d='M14 8h1'/%3E%3Cpath stroke='%23ff6953' d='M15 8h1'/%3E%3Cpath stroke='%23ff6b55' d='M16 8h1'/%3E%3Cpath stroke='%23fd6b56' d='M17 8h1'/%3E%3Cpath stroke='%23f06350' d='M18 8h1'/%3E%3Cpath stroke='%23cf4c3b' d='M19 8h1'/%3E%3Cpath stroke='%23ff6d5d' d='M1 9h1'/%3E%3Cpath stroke='%23ff8b7c' d='M4 9h1'/%3E%3Cpath stroke='%23ff775d' d='M13 9h1'/%3E%3Cpath stroke='%23ff745a' d='M14 9h1'/%3E%3Cpath stroke='%23ff7359' d='M15 9h1'/%3E%3Cpath stroke='%23ff735a' d='M16 9h1'/%3E%3Cpath stroke='%23fd715a' d='M17 9h1'/%3E%3Cpath stroke='%23f16752' d='M18 9h1'/%3E%3Cpath stroke='%23d24e3c' d='M19 9h1'/%3E%3Cpath stroke='%23ff6a59' d='M1 10h1m2 6h1'/%3E%3Cpath stroke='%23ff8778' d='M4 10h1'/%3E%3Cpath stroke='%23ff8374' d='M6 10h1m-3 1h2'/%3E%3Cpath stroke='%23ff8171' d='M7 10h1m-5 1h1'/%3E%3Cpath stroke='%23ff8271' d='M8 10h1m-2 1h1'/%3E%3Cpath stroke='%23ff8369' d='M12 10h1'/%3E%3Cpath stroke='%23ff8165' d='M13 10h1'/%3E%3Cpath stroke='%23ff7e61' d='M14 10h1'/%3E%3Cpath stroke='%23ff7d5f' d='M15 10h1'/%3E%3Cpath stroke='%23ff7b5f' d='M16 10h1'/%3E%3Cpath stroke='%23fd775d' d='M17 10h1'/%3E%3Cpath stroke='%23f36a53' d='M18 10h1'/%3E%3Cpath stroke='%23d34e3c' d='M19 10h1'/%3E%3Cpath stroke='%23ff6553' d='M1 11h1'/%3E%3Cpath stroke='%23ff8273' d='M6 11h1'/%3E%3Cpath stroke='%23ff8c6c' d='M13 11h1'/%3E%3Cpath stroke='%23ff8969' d='M14 11h1'/%3E%3Cpath stroke='%23ff8665' d='M15 11h1'/%3E%3Cpath stroke='%23ff8262' d='M16 11h1'/%3E%3Cpath stroke='%23fd7c5e' d='M17 11h1'/%3E%3Cpath stroke='%23f46d54' d='M18 11h1'/%3E%3Cpath stroke='%23d64f3b' d='M19 11h1'/%3E%3Cpath stroke='%23ff5f4d' d='M1 12h1'/%3E%3Cpath stroke='%23ff8070' d='M6 12h1'/%3E%3Cpath stroke='%23ff9279' d='M10 12h1'/%3E%3Cpath stroke='%23fff8f6' d='M13 12h1'/%3E%3Cpath stroke='%23ff936f' d='M14 12h1'/%3E%3Cpath stroke='%23ff906c' d='M15 12h1'/%3E%3Cpath stroke='%23ff8967' d='M16 12h1'/%3E%3Cpath stroke='%23fe7f5f' d='M17 12h1'/%3E%3Cpath stroke='%23f56e52' d='M18 12h1'/%3E%3Cpath stroke='%23d84f39' d='M19 12h1'/%3E%3Cpath stroke='%23ff5c4a' d='M1 13h1'/%3E%3Cpath stroke='%23ff7d6e' d='M5 13h1'/%3E%3Cpath stroke='%23ff907a' d='M9 13h1'/%3E%3Cpath stroke='%23ff957c' d='M10 13h1'/%3E%3Cpath stroke='%23ff9a7e' d='M11 13h1'/%3E%3Cpath stroke='%23ff9670' d='M15 13h1'/%3E%3Cpath stroke='%23ff8e68' d='M16 13h1'/%3E%3Cpath stroke='%23fe815e' d='M17 13h1'/%3E%3Cpath stroke='%23f66c4f' d='M18 13h1'/%3E%3Cpath stroke='%23da4d36' d='M19 13h1'/%3E%3Cpath stroke='%23ff5744' d='M1 14h1'/%3E%3Cpath stroke='%23ff6857' d='M2 14h1'/%3E%3Cpath stroke='%23ff8672' d='M8 14h1'/%3E%3Cpath stroke='%23ff8f78' d='M9 14h1'/%3E%3Cpath stroke='%23ff967c' d='M10 14h1'/%3E%3Cpath stroke='%23ff9c7e' d='M11 14h1'/%3E%3Cpath stroke='%23ffa07e' d='M12 14h1'/%3E%3Cpath stroke='%23ff8e66' d='M16 14h1'/%3E%3Cpath stroke='%23fe7f5a' d='M17 14h1m-3 3h1'/%3E%3Cpath stroke='%23f76a4b' d='M18 14h1'/%3E%3Cpath stroke='%23da4a33' d='M19 14h1'/%3E%3Cpath stroke='%23ff523f' d='M1 15h1'/%3E%3Cpath stroke='%23ff7160' d='M4 15h1'/%3E%3Cpath stroke='%23ffc7c1' d='M5 15h1'/%3E%3Cpath stroke='%23ff836f' d='M8 15h1'/%3E%3Cpath stroke='%23ff8b74' d='M9 15h1'/%3E%3Cpath stroke='%23ff9379' d='M10 15h1'/%3E%3Cpath stroke='%23ff9a7c' d='M11 15h1'/%3E%3Cpath stroke='%23ff9e7c' d='M12 15h1'/%3E%3Cpath stroke='%23ffa07a' d='M13 15h1'/%3E%3Cpath stroke='%23ffd5c5' d='M15 15h1'/%3E%3Cpath stroke='%23ff8b62' d='M16 15h1'/%3E%3Cpath stroke='%23fe7c56' d='M17 15h1'/%3E%3Cpath stroke='%23f76545' d='M18 15h1'/%3E%3Cpath stroke='%23db4931' d='M19 15h1'/%3E%3Cpath stroke='%23ff4f3a' d='M1 16h1'/%3E%3Cpath stroke='%23ff5c49' d='M2 16h1'/%3E%3Cpath stroke='%23ff6452' d='M3 16h1'/%3E%3Cpath stroke='%23ff6e5e' d='M5 16h1'/%3E%3Cpath stroke='%23ff7462' d='M7 16h1'/%3E%3Cpath stroke='%23ff7c68' d='M8 16h1'/%3E%3Cpath stroke='%23ff846d' d='M9 16h1'/%3E%3Cpath stroke='%23ff8b71' d='M10 16h1'/%3E%3Cpath stroke='%23ff9174' d='M11 16h1'/%3E%3Cpath stroke='%23ff9674' d='M12 16h1'/%3E%3Cpath stroke='%23ff9571' d='M13 16h1'/%3E%3Cpath stroke='%23ff946d' d='M14 16h1'/%3E%3Cpath stroke='%23ff8d66' d='M15 16h1'/%3E%3Cpath stroke='%23ff855c' d='M16 16h1'/%3E%3Cpath stroke='%23fe7650' d='M17 16h1'/%3E%3Cpath stroke='%23f66141' d='M18 16h1'/%3E%3Cpath stroke='%23da462f' d='M19 16h1'/%3E%3Cpath stroke='%23fa4935' d='M1 17h1'/%3E%3Cpath stroke='%23fb5441' d='M2 17h1'/%3E%3Cpath stroke='%23fc5c4a' d='M3 17h1'/%3E%3Cpath stroke='%23fb6150' d='M4 17h1'/%3E%3Cpath stroke='%23fc6554' d='M5 17h1'/%3E%3Cpath stroke='%23fc6756' d='M6 17h1'/%3E%3Cpath stroke='%23fc6a58' d='M7 17h1'/%3E%3Cpath stroke='%23fc715c' d='M8 17h1'/%3E%3Cpath stroke='%23fc7761' d='M9 17h1'/%3E%3Cpath stroke='%23fd7e64' d='M10 17h1'/%3E%3Cpath stroke='%23fd8367' d='M11 17h1'/%3E%3Cpath stroke='%23fe8566' d='M12 17h1'/%3E%3Cpath stroke='%23fe8664' d='M13 17h1'/%3E%3Cpath stroke='%23fe8460' d='M14 17h1'/%3E%3Cpath stroke='%23fe7651' d='M16 17h1'/%3E%3Cpath stroke='%23fc6b47' d='M17 17h1'/%3E%3Cpath stroke='%23f2573a' d='M18 17h1'/%3E%3Cpath stroke='%23d4402a' d='M19 17h1'/%3E%3Cpath stroke='%23e85848' d='M1 18h1'/%3E%3Cpath stroke='%23ed4a37' d='M2 18h1'/%3E%3Cpath stroke='%23ec4f3d' d='M3 18h1'/%3E%3Cpath stroke='%23ee5443' d='M4 18h1'/%3E%3Cpath stroke='%23ed5746' d='M5 18h1'/%3E%3Cpath stroke='%23ee5a48' d='M7 18h1'/%3E%3Cpath stroke='%23ef5e4b' d='M8 18h1'/%3E%3Cpath stroke='%23f0644e' d='M9 18h1'/%3E%3Cpath stroke='%23f16750' d='M10 18h1'/%3E%3Cpath stroke='%23f46c52' d='M11 18h1'/%3E%3Cpath stroke='%23f66d51' d='M12 18h1'/%3E%3Cpath stroke='%23f66e51' d='M13 18h1'/%3E%3Cpath stroke='%23f66c4e' d='M14 18h1'/%3E%3Cpath stroke='%23f86a4a' d='M15 18h1'/%3E%3Cpath stroke='%23f76343' d='M16 18h1'/%3E%3Cpath stroke='%23f3583a' d='M17 18h1'/%3E%3Cpath stroke='%23e54930' d='M18 18h1'/%3E%3Cpath stroke='%23cd5140' d='M19 18h1'/%3E%3Cpath stroke='%23f6d9d6' d='M1 19h1'/%3E%3Cpath stroke='%23d25344' d='M2 19h1'/%3E%3Cpath stroke='%23c93c2b' d='M3 19h1'/%3E%3Cpath stroke='%23ca3f2f' d='M4 19h1'/%3E%3Cpath stroke='%23ca4131' d='M5 19h1'/%3E%3Cpath stroke='%23ca4333' d='M6 19h1'/%3E%3Cpath stroke='%23cc4332' d='M7 19h1'/%3E%3Cpath stroke='%23cf4434' d='M8 19h1'/%3E%3Cpath stroke='%23d24936' d='M9 19h1'/%3E%3Cpath stroke='%23d34936' d='M10 19h1'/%3E%3Cpath stroke='%23d84b37' d='M11 19h1'/%3E%3Cpath stroke='%23da4c36' d='M12 19h1'/%3E%3Cpath stroke='%23dc4d36' d='M13 19h1'/%3E%3Cpath stroke='%23d94933' d='M14 19h1'/%3E%3Cpath stroke='%23de4a32' d='M15 19h1'/%3E%3Cpath stroke='%23dd482f' d='M16 19h1'/%3E%3Cpath stroke='%23d6402a' d='M17 19h1'/%3E%3Cpath stroke='%23cf5140' d='M18 19h1'/%3E%3Cpath stroke='%23f1d8d5' d='M19 19h1'/%3E%3Cpath stroke='%23fefefe' d='M6 20h1m3 0h1'/%3E%3Cpath stroke='%23fdfdfd' d='M7 20h1m1 0h1'/%3E%3Cpath stroke='%23fcfcfc' d='M8 20h1'/%3E%3C/svg%3E");
-}*/
-
 body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas:active {
-  /*background: silver;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0h2v1h1v1h2V1h1V0h2v1H7v1H6v1H5v1h1v1h1v1h1v1H6V6H5V5H3v1H2v1H0V6h1V5h1V4h1V3H2V2H1V1H0V0z' fill='%23000'/%3E%3C/svg%3E");
-  */
   box-shadow: inset -1px -1px #fff,inset 1px 1px #0a0a0a,inset -2px -2px #dfdfdf,inset 2px 2px grey;
 }
 
-/*body[data-tema="98"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas:focus {
-  box-shadow: none !important;
-  outline: none;
-}*/
-
 body[data-tema="98"] > .navbar > div > div > div > input {
   color: #222 !important;
-  /*border: 1px solid #7f9db9 !important;
-  background-color: #fff !important;
-  border-radius: 0;*/
-
   box-shadow: inset -1px -1px #fff,inset 1px 1px grey,inset -2px -2px #dfdfdf,inset 2px 2px #0a0a0a !important;
 
   border: 1px solid #7f9db9 !important;
@@ -294,11 +212,6 @@ body[data-tema="98"] > .navbar > div > div > div > input {
   appearance: none;
   border-radius: 0;
 }
-
-/*body[data-tema="98"] > .navbar > div > div > div > input::selection {
-  background: #2267cb;
-  color: #fff;
-}*/
 
 body[data-tema="98"] > .navbar > div > div > div > input:focus {
   outline: none;
@@ -316,9 +229,7 @@ body[data-tema="98"] > .pagecontent {
 }
 
 body[data-tema="98"] > .pagecontent > #jsonParent:has(.col), body[data-tema="98"] > .pagecontent > #standParent:has(.col), body[data-tema="98"] > .pagecontent > #extrasParent:has(.col) {
-  /*background: linear-gradient(180deg,#fcfcfe,#f4f3ee);*/
   background-color: silver !important;
-  /*border: 1px solid #919b9c;*/
   padding: 15px;
 
   box-shadow: inset 1px 1px #fff,inset 2px 2px #dfdfdf,inset -1px -1px #0a0a0a,inset -2px -2px grey;
@@ -367,21 +278,13 @@ body[data-tema="98"] > .pagecontent > div > div.col {
 
   box-shadow: none;
   background-color: silver !important;
-  /*border: 1px solid #d0d0bf;
-  border-radius: 4px;*/
 
   box-shadow: inset 1px 1px #fff,inset 2px 2px #dfdfdf,inset -1px -1px #0a0a0a,inset -2px -2px grey;
 }
 
 body[data-tema="98"] > .pagecontent > .video-category, body[data-tema="98"] > .pagecontent > div > .video-category {
-  /*background: #fcfcfe;*/
-  /*background-color: silver !important;*/
-  /*border: 1px solid;
-  border-color: #919b9c;*/
   margin-right: -1px;
   border-bottom: 1px solid transparent;
-  /*border-top: 1px solid #e68b2c;
-  box-shadow: inset 0 2px #ffc73c;*/
   width: fit-content;
   padding: 0 10px !important;
   margin: 0 0 -2px;
@@ -442,37 +345,20 @@ body[data-tema="98"] > .pagecontent > p > a.btn-dark:not(.likebutton) {
 
 body[data-tema="98"] > .pagecontent > p > a.btn-dark {
   color: #222 !important;
-  /*border: 1px solid #003c74;
-  background: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
-  box-shadow: none;
-  border-radius: 3px !important;*/
-
   border: none;
   background: silver;
   box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
   border-radius: 0;
 }
 
-/*body[data-tema="98"] > .pagecontent > p > a.btn-dark:hover {
-  box-shadow: inset -1px 1px #fff0cf,inset 1px 2px #fdd889,inset -2px 2px #fbc761,inset 2px -2px #e5a01a;
-}*/
-
 body[data-tema="98"] > .pagecontent > p > a.btn-dark:active {
-  /*box-shadow: none;
-  background: linear-gradient(180deg,#cdcac3,#e3e3db 8%,#e5e5de 94%,#f2f2f1);*/
-
   box-shadow: inset -1px -1px #fff,inset 1px 1px #0a0a0a,inset -2px -2px #dfdfdf,inset 2px 2px grey;
 }
 
 body[data-tema="98"] > .pagecontent > p > a.btn-dark:focus {
-  /*box-shadow: inset -1px 1px #cee7ff,inset 1px 2px #98b8ea,inset -2px 2px #bcd4f6,inset 1px -1px #89ade4,inset 2px -2px #89ade4;*/
   outline: 1px dotted #000;
   outline-offset: -4px;
 }
-
-/*body[data-tema="98"] > .pagecontent > p > a.btn-dark:not(:hover) i.fa-home {
-  color: rgba(51, 51, 51, .6) !important;
-}*/
 
 body[data-tema="98"] > .pagecontent > .card {
   background-color: silver !important;
