@@ -9,14 +9,26 @@ function startTema() {
         localStorage.setItem("tema", tema);
     }
     document.getElementById("themes_select").value = tema;
-    if (tema !== "default" && document.getElementById("style-"+tema) == null) document.head.insertAdjacentHTML('beforeend',`<link rel="stylesheet" id="style-${tema}" href="css/theme/${tema}.css" />`);
+    if (document.querySelector(".header404") == null) {
+        if (tema !== "default" && document.getElementById("style-"+tema) == null) {
+            document.head.insertAdjacentHTML('beforeend',`<link rel="stylesheet" id="style-${tema}" href="css/theme/${tema}.css" />`);
+        }
+    } else if (tema !== "default" && document.getElementById("style-"+tema) == null) {
+        document.head.insertAdjacentHTML('beforeend',`<link rel="stylesheet" id="style-${tema}" href="https://arquivomsf.github.io/css/theme/${tema}.css" />`);
+    }
     document.body.setAttribute("data-tema", tema);
     localStorage.setItem("tema", tema);
 }
 
 function setTema(tema_esc) {
     tema = tema_esc.value;
-    if (tema !== "default" && document.getElementById("style-"+tema) == null) document.head.insertAdjacentHTML('beforeend',`<link rel="stylesheet" id="style-${tema}" href="css/theme/${tema}.css" />`);
+    if (document.querySelector(".header404") == null) {
+        if (tema !== "default" && document.getElementById("style-"+tema) == null) {
+            document.head.insertAdjacentHTML('beforeend',`<link rel="stylesheet" id="style-${tema}" href="css/theme/${tema}.css" />`);
+        }
+    } else if (tema !== "default" && document.getElementById("style-"+tema) == null) {
+        document.head.insertAdjacentHTML('beforeend',`<link rel="stylesheet" id="style-${tema}" href="https://arquivomsf.github.io/css/theme/${tema}.css" />`);
+    }
     document.body.setAttribute("data-tema", tema);
     localStorage.setItem("tema", tema);
 }

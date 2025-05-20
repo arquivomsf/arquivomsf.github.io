@@ -525,6 +525,14 @@
         {
             "nome": "Arredondado",
             "valor": "arredondado"
+        },
+        {
+            "nome": "98",
+            "valor": "98"
+        },
+        {
+            "nome": "XP",
+            "valor": "xp"
         }
     ]
 }

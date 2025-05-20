@@ -43,6 +43,20 @@
   src: url('../assets/fonts/inter-ui/inter-ui-regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Pixelated MS Sans Serif';
+  src: url('../assets/fonts/ms-sans-serif/MS Sans Serif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pixelated MS Sans Serif';
+  src: url('../assets/fonts/ms-sans-serif-bold/MS Sans Serif Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   font-family: 'AdwaitaSans-Regular' !important;
 }
