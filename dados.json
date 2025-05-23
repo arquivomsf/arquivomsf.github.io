@@ -5,336 +5,392 @@
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "bob"
+            "curto": "bob",
+            "vod": "0"
         },
         {
             "nome": "Assault Retribution",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "assault"
+            "curto": "assault",
+            "vod": "0"
         },
         {
             "nome": "Spider Man 2 Enter Electro",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "miranha"
+            "curto": "miranha",
+            "vod": "0"
         },
         {
             "nome": "The Lost World Jurassic Park",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "jurassic"
+            "curto": "jurassic",
+            "vod": "0"
         },
         {
             "nome": "Disruptor",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "disruptor"
+            "curto": "disruptor",
+            "vod": "0"
         },
         {
             "nome": "Tai Fu Wrath of the Tiger",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "taifu"
+            "curto": "taifu",
+            "vod": "0"
         },
         {
             "nome": "Donald Duck Goin' Quackers",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "donald"
+            "curto": "donald",
+            "vod": "0"
         },
         {
             "nome": "Moto Racer",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "moto"
+            "curto": "moto",
+            "vod": "0"
         },
         {
             "nome": "Nightmare Creatures",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "nightmare"
+            "curto": "nightmare",
+            "vod": "0"
         },
         {
             "nome": "Metal Slug X",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "slugx"
+            "curto": "slugx",
+            "vod": "0"
         },
         {
             "nome": "Sonic The Hedgehog",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic1"
+            "curto": "sonic1",
+            "vod": "0"
         },
         {
             "nome": "QuackShot",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "quackshot"
+            "curto": "quackshot",
+            "vod": "0"
         },
         {
             "nome": "Zero Tolerance",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "zerotol"
+            "curto": "zerotol",
+            "vod": "0"
         },
         {
             "nome": "Socket",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "socket"
+            "curto": "socket",
+            "vod": "0"
         },
         {
             "nome": "Light Crusader",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "crusader"
+            "curto": "crusader",
+            "vod": "0"
         },
         {
             "nome": "Ice Climber",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "climber"
+            "curto": "climber",
+            "vod": "0"
         },
         {
             "nome": "Adventure Island",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "advisland"
+            "curto": "advisland",
+            "vod": "0"
         },
         {
             "nome": "Gun.Smoke",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "gunsmoke"
+            "curto": "gunsmoke",
+            "vod": "0"
         },
         {
             "nome": "DuckTales",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "ducktales"
+            "curto": "ducktales",
+            "vod": "0"
         },
         {
             "nome": "Jackal",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "jackal"
+            "curto": "jackal",
+            "vod": "0"
         },
         {
             "nome": "Super Mario 64",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "mario64"
+            "curto": "mario64",
+            "vod": "0"
         },
         {
             "nome": "Castlevania Legacy of Darkness",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "castlelod"
+            "curto": "castlelod",
+            "vod": "0"
         },
         {
             "nome": "Hercules: The Legendary Journeys",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "hercules"
+            "curto": "hercules",
+            "vod": "0"
         },
         {
             "nome": "Disney's Tarzan",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "tarzan"
+            "curto": "tarzan",
+            "vod": "0"
         },
         {
             "nome": "Cruis'n Exotica",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "exotica"
+            "curto": "exotica",
+            "vod": "0"
         },
         {
             "nome": "God of War",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gow1"
+            "curto": "gow1",
+            "vod": "0"
         },
         {
             "nome": "Red Dead Revolver",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "revolver"
+            "curto": "revolver",
+            "vod": "0"
         },
         {
             "nome": "Cars",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "cars"
+            "curto": "cars",
+            "vod": "0"
         },
         {
             "nome": "Call of Duty Finest Hour",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "finest"
+            "curto": "finest",
+            "vod": "0"
         },
         {
             "nome": "COD 2 Big Red One",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "bigred"
+            "curto": "bigred",
+            "vod": "0"
         },
         {
             "nome": "Sonic The Hedgehog 2",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic2"
+            "curto": "sonic2",
+            "vod": "0"
         },
         {
             "nome": "Sonic The Hedgehog 3 & Knuckles",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic3k"
+            "curto": "sonic3k",
+            "vod": "0"
         },
         {
             "nome": "God of War 2",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gow2"
+            "curto": "gow2",
+            "vod": "0"
         },
         {
             "nome": "Call of Duty World at War Final Fronts",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "fronts"
+            "curto": "fronts",
+            "vod": "0"
         },
         {
             "nome": "Sonic Adventure",
             "imagem": "1.jpg",
             "console": "Dreamcast",
             "consigla": "dc",
-            "curto": "sonicadv"
+            "curto": "sonicadv",
+            "vod": "0"
         },
         {
             "nome": "Shadow of the Colossus",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "colossus"
+            "curto": "colossus",
+            "vod": "0"
         },
         {
             "nome": "Pandemonium",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "pandemonium"
+            "curto": "pandemonium",
+            "vod": "0"
         },
         {
             "nome": "Manhunt",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "manhunt1"
+            "curto": "manhunt1",
+            "vod": "0"
         },
         {
             "nome": "Road & Track Presents: The Need for Speed",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "thenfs"
+            "curto": "thenfs",
+            "vod": "0"
         },
         {
             "nome": "Sonic Adventure 2",
             "imagem": "1.jpg",
             "console": "Dreamcast",
             "consigla": "dc",
-            "curto": "sonicadv2"
+            "curto": "sonicadv2",
+            "vod": "0"
         },
         {
             "nome": "The Nightmare Before Christmas: Oogie's Revenge",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "nbxmas"
+            "curto": "nbxmas",
+            "vod": "0"
         },
         {
             "nome": "Grand Theft Auto III",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gta3"
+            "curto": "gta3",
+            "vod": "0"
         },
         {
             "nome": "Shadow the Hedgehog",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "shadow"
+            "curto": "shadow",
+            "vod": "0"
         },
         {
-            "nome": "Shadow the Hedgehog (VOD)",
+            "nome": "Shadow the Hedgehog",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "shadow-vod"
+            "curto": "shadow-vod",
+            "vod": "1"
         },
         {
             "nome": "The Sims",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "sims"
+            "curto": "sims",
+            "vod": "0"
         },
         {
-            "nome": "The Sims (VOD)",
+            "nome": "The Sims",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "sims-vod"
+            "curto": "sims-vod",
+            "vod": "1"
         },
         {
             "nome": "Killzone",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "killzone"
+            "curto": "killzone",
+            "vod": "0"
+        },
+        {
+            "nome": "Killzone",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "killzone-vod",
+            "vod": "1"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge",
             "imagem": "1.jpg",
             "console": "Game Boy Advance",
             "consigla": "gba",
-            "curto": "banjogrunty"
+            "curto": "banjogrunty",
+            "vod": "0"
         }
     ],
     "standalone": [

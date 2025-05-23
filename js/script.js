@@ -19,6 +19,7 @@ function carregarJogos() {
               let jconsole = data.jogos[i].console;
               let jconsigla = data.jogos[i].consigla;
               let jcurto = data.jogos[i].curto;
+              let jvod = data.jogos[i].vod;
               let nomecomp;
               nomecomp = jnome.replaceAll(/\s/g, "");
               nomecomp = nomecomp.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
@@ -30,13 +31,26 @@ function carregarJogos() {
               nomecomp = nomecomp.replaceAll(/[Ç]/g,"c");
               nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
-                document.querySelector("#jsonParent").innerHTML += `
+                if (jvod == 0) {
+                    document.querySelector("#jsonParent").innerHTML += `
                     <div class="col game-item">
                         <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
-                        <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
-                        <span class="flow-text title">${jnome}</span></a><br>
+                            <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
+                            <span class="flow-text title">${jnome}</span></a><br>
                         <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
                     </div>`;
+                } else {
+                    document.querySelector("#jsonParent").innerHTML += `
+                    <div class="col game-item">
+                        <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
+                            <div class="thumbnail">
+                                <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
+                                <span class="video-length">VOD</span>
+                            </div>
+                            <span class="flow-text title">${jnome}</span></a><br>
+                        <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
+                    </div>`;
+                }
               }
               if (document.querySelector(".game-item") !== null) document.querySelector(".c-series").style.display = "block";
           }

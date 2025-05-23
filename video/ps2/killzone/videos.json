@@ -1,12 +1,28 @@
 {
+    "playlist": [
+        {
+            "nome": "Killzone (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvu3IXNVAialSHe5ywX4Z-IO",
+            "quantidade": "33"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Killzone de PlayStation 2 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/AytR5ZxLnLg",
+            "duracao": "22:42"
+        }
+    ],
     "videos": [
         {
             "nome": "Killzone de PlayStation 2 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1miM8SKjMECSHgCFEV9JULa-Z-Cd9F3mw/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/oJ-Tudm2mdo",
             "duracao": "15:01",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Killzone de PlayStation 2 - Parte 2",
