@@ -151,6 +151,22 @@
             "linkyt": "",
             "duracao": "30:30",
             "plataforma": "gdrive"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 20",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1kSEL88spQfx5EKwFK3Jsnc3Ng8rtuAFe/view",
+            "linkyt": "",
+            "duracao": "17:11",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 21",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1gMcU2uv3rFdcRgTg5pF5A-r351d7XYwu/view",
+            "linkyt": "",
+            "duracao": "45:03",
+            "plataforma": "gdrive"
         }
     ]
 }
