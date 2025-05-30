@@ -367,7 +367,7 @@ body[data-tema="xp"] > .pagecontent > div > div > a > span.title:hover {
   text-decoration: underline;
 }
 
-body[data-tema="xp"] > .pagecontent > div > div > a > div.thumbnail {
+body[data-tema="xp"] > .pagecontent > div > div > a > div.thumbnail, body[data-tema="xp"] > .pagecontent > div > div > a > img {
   margin-bottom: 15px !important;
 }
 
