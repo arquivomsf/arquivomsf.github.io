@@ -1,0 +1,20 @@
+{
+    "videos": [
+        {
+            "nome": "GTA Vice City de PlayStation 2 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Rm4SFtN8rkx3ESC-fQvVcc4oG481U-ki/view",
+            "linkyt": "",
+            "duracao": "33:29",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "GTA Vice City de PlayStation 2 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/18tVEPKli6T9hUgzpJ7-vKApoLyWcA1Rt/view",
+            "linkyt": "",
+            "duracao": "45:04",
+            "plataforma": "gdrive"
+        }
+    ]
+}

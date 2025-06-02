@@ -391,6 +391,14 @@
             "consigla": "gba",
             "curto": "banjogrunty",
             "vod": "0"
+        },
+        {
+            "nome": "Grand Theft Auto: Vice City",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "gtavc",
+            "vod": "0"
         }
     ],
     "standalone": [
@@ -497,18 +505,12 @@
     ],
     "futurosjogos": [
         {
-            "nome": "Grand Theft Auto: Vice City",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "gtavc"
-        },
-        {
             "nome": "Need for Speed: Most Wanted",
             "imagem": "1.jpg",
             "console": "GameCube",
             "consigla": "gc",
-            "curto": "nfsmostwanted"
+            "curto": "nfsmostwanted",
+            "vod": "0"
         },
         {
             "nome": "GameCube",
