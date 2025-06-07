@@ -515,6 +515,14 @@
         {
             "nome": "GameCube",
             "sigla": "gc"
+        },
+        {
+            "nome": "Black",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "black",
+            "vod": "0"
         }
     ],
     "consoles": [
