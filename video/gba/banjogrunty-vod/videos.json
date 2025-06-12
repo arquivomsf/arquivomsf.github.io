@@ -1,0 +1,20 @@
+{
+    "playlist": [
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge (GBA - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvYBgEBkD7MHX7HJx_ogdvt",
+            "quantidade": "10"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/NtecAxd0Y8A",
+            "duracao": "1:17:36",
+            "plataforma": "youtube"
+        }
+    ]
+}

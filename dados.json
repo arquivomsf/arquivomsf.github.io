@@ -393,6 +393,14 @@
             "vod": "0"
         },
         {
+            "nome": "Banjo-Kazooie: Grunty's Revenge",
+            "imagem": "1.jpg",
+            "console": "Game Boy Advance",
+            "consigla": "gba",
+            "curto": "banjogrunty-vod",
+            "vod": "1"
+        },
+        {
             "nome": "Grand Theft Auto: Vice City",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
@@ -488,9 +496,9 @@
             "consigla": "etc",
             "curto": "mostwantedteste",
             "link": "https://drive.google.com/file/d/1QWkoiRKTLcG8zBjQ5liwaCdaPznh-9mh/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/LpDp_1i87sE",
             "duracao": "28:20",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Marcelo conversando sobre jogos da Rockstar",
@@ -599,6 +607,10 @@
         {
             "nome": "XP",
             "valor": "xp"
+        },
+        {
+            "nome": "7",
+            "valor": "7"
         }
     ]
 }

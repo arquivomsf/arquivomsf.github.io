@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge (GBA)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtGOEQ6PVVPW8lZdnjIEUwJ",
+            "quantidade": "22"
+        }
+    ],
     "videos": [
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 1",
@@ -84,97 +92,97 @@
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 11",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Rb_sb3lRlzg9lYJUPtahsATGPFSW6FEp/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/V2c--nQAfzY",
             "duracao": "30:00",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 12",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Ln41VVKB3Qr7VObMTKtdlbDhj1RKRgFQ/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/2sF5Te15bJ0",
             "duracao": "25:07",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 13",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1UxQii-kwwLk_ef0nCcEPAaq-xq2MeENS/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/RIMk4zy0zBY",
             "duracao": "30:07",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 14",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Ne8Nw1jCqSe9PFwXUqy34cglSVUW0Ln5/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/bdrsJafZNtQ",
             "duracao": "26:22",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 15",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1o1Aw8jB91jupfgMClG1tAuqvMBm9AaKu/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/OqcvZjKrg9A",
             "duracao": "30:02",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 16",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1_01yCTIRIpIKSWhsWarqqe5j-NWBwNNk/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Mp7jH9WgkQU",
             "duracao": "29:36",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 17",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1NHsuhZEzDmqDTnK86wM3zy-zHpvswrcX/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/CTbIpsKaIYs",
             "duracao": "25:42",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 18",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/12H2jl_knSWrx5MMgVDsq3HjdaBngw5LR/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/P128KwiuP0I",
             "duracao": "25:53",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 19",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1x8aTZyIntZCtVMqXA5IAE4vCize0mT5F/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/wujMqKigpGk",
             "duracao": "30:30",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 20",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1kSEL88spQfx5EKwFK3Jsnc3Ng8rtuAFe/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/1w5Je8hk3f4",
             "duracao": "17:11",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 21",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1gMcU2uv3rFdcRgTg5pF5A-r351d7XYwu/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/K51rbCevqAo",
             "duracao": "45:03",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - Parte 22 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1BXQ3hIR6zK5cqGnF6mmZy9jXVZgaFPeO/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/SLzOaPfLJFE",
             "duracao": "25:47",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
