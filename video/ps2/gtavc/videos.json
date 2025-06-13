@@ -1,52 +1,63 @@
 {
+    "extras": [
+        {
+            "nome": "GTA Vice City de PlayStation 2 - Parte 4 (Original)",
+            "id": "gtavc_4_original",
+            "imagem": "4.jpg",
+            "link": "https://drive.google.com/file/d/19tWK7h-h_juzGus_ENdQd6Zj6WB78Ncq/view",
+            "linkyt": "https://youtu.be/TbUj2vQ4mhI",
+            "duracao": "45:06",
+            "plataforma": "gdrive"
+        }
+    ],
     "videos": [
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Rm4SFtN8rkx3ESC-fQvVcc4oG481U-ki/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/4oS5oeK4esA",
             "duracao": "33:29",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/18tVEPKli6T9hUgzpJ7-vKApoLyWcA1Rt/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Kf5CSujx9I8",
             "duracao": "45:04",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Jqpd4Iw-PJHbryoQsu7E91m0vjwbH-gD/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/e9hxivRYXoc",
             "duracao": "40:21",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/19tWK7h-h_juzGus_ENdQd6Zj6WB78Ncq/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/TbUj2vQ4mhI",
             "duracao": "45:06",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1pcfP6UtzZ-leHpabmY2HVeqMZ8Bsw_0R/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/uMDuTw851Kc",
             "duracao": "40:48",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1-ECMhxko_2taxh53KrBHRB5oaF8QKnJ0/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Xg867PRT_eo",
             "duracao": "34:01",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 7",

@@ -66,6 +66,43 @@ function carregarVideos() {
             document.querySelector(".c-videos").remove();
           }
         }
+        if (data.hasOwnProperty("extras")) {
+                  let enome = data.extras[0].nome;
+                  let eimagem = data.extras[0].imagem;
+                  let elinkyt = data.extras[0].linkyt;
+                  let eduracao = data.extras[0].duracao;
+                  let eplat = data.extras[0].plataforma;
+                  let eid = data.extras[0].id;
+                  if (eplat == "gdrive") {
+                  document.querySelector("#extrasParent").innerHTML += `
+                    <div class="col extras-item">
+                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&extra=true&id=${eid}" class="blacklink">
+                        <div class="thumbnail">
+                          <img src="video/${consoleAtual}/${jogoAtual}/${eimagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${eduracao}</span>
+                        </div>
+                        <span class="flow-text title">${enome}</span>
+                      </a>
+                    </div>`;
+                } else if (eplat == "youtube") {
+                  document.querySelector("#extrasParent").innerHTML += `
+                    <div class="col extras-item">
+                      <a href="${elinkyt}" target="_blank" class="blacklink">
+                        <div class="thumbnail">
+                          <img src="video/${consoleAtual}/${jogoAtual}/${eimagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${eduracao}</span>
+                        </div>
+                        <span class="flow-text title">${enome}</span>
+                      </a>
+                    </div>`;
+                }
+          document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
+          document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
+          if (document.querySelector(".extras-item") == null) {
+            document.querySelector(".c-extras").remove();
+            document.querySelector(".c-videos").remove();
+          }
+        }
       })
 
     fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
