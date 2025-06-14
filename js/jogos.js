@@ -67,12 +67,13 @@ function carregarVideos() {
           }
         }
         if (data.hasOwnProperty("extras")) {
-                  let enome = data.extras[0].nome;
-                  let eimagem = data.extras[0].imagem;
-                  let elinkyt = data.extras[0].linkyt;
-                  let eduracao = data.extras[0].duracao;
-                  let eplat = data.extras[0].plataforma;
-                  let eid = data.extras[0].id;
+          for (var i = 0; i<data.extras.length; i++){
+                  let enome = data.extras[i].nome;
+                  let eimagem = data.extras[i].imagem;
+                  let elinkyt = data.extras[i].linkyt;
+                  let eduracao = data.extras[i].duracao;
+                  let eplat = data.extras[i].plataforma;
+                  let eid = data.extras[i].id;
                   if (eplat == "gdrive") {
                   document.querySelector("#extrasParent").innerHTML += `
                     <div class="col extras-item">
@@ -102,6 +103,7 @@ function carregarVideos() {
             document.querySelector(".c-extras").remove();
             document.querySelector(".c-videos").remove();
           }
+        }
         }
       })
 
