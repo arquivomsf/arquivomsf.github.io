@@ -191,33 +191,33 @@
             "nome": "GTA Vice City de PlayStation 2 - Parte 19",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1KIhRltEfO_GDhxa0IGB24oTxlsS7CN3h/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/J1XfN0Kqigk",
             "duracao": "30:02",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 20",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1z6nsy3w2Oxz6xvRavm7BvD83IYRn7lFe/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/aAsqKWGcgMY",
             "duracao": "30:04",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 21",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1jMhczZg8hsIv5ugWf_kYgVLXOqhsfefy/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/KcL3vMrexjs",
             "duracao": "24:20",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 22",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/10SpDHGtbyHvTjO7SKy0P2dxng511ZbSZ/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Rh1BuunYwL8",
             "duracao": "22:16",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "GTA Vice City de PlayStation 2 - Parte 23",
@@ -257,6 +257,14 @@
             "link": "https://drive.google.com/file/d/1VZftsz2eExSHjO-CakrSR0H8XkNeSUs2/view",
             "linkyt": "",
             "duracao": "25:57",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "GTA Vice City de PlayStation 2 - Parte 28",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1FEJaPzK8C9QJLQyuiny5JPvl4uslLTxw/view",
+            "linkyt": "",
+            "duracao": "30:02",
             "plataforma": "gdrive"
         }
     ]
