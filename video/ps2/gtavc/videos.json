@@ -60,6 +60,15 @@
             "linkyt": "https://youtu.be/b2jWjm1xYWA",
             "duracao": "30:03",
             "plataforma": "gdrive"
+        },
+        {
+            "nome": "GTA Vice City de PlayStation 2 - Parte 36 (Original)",
+            "id": "gtavc_36_original",
+            "imagem": "36.jpg",
+            "link": "https://drive.google.com/file/d/1BFGJVpsBnw6iSE4U1LXQH12gz1Caxr1c/view",
+            "linkyt": "https://youtu.be/76icjLaZgVo",
+            "duracao": "45:04",
+            "plataforma": "gdrive"
         }
     ],
     "videos": [
@@ -333,6 +342,22 @@
             "link": "https://drive.google.com/file/d/1UTYUZJrQLxEc_wOls4seVTUXtqNRSJUb/view",
             "linkyt": "https://youtu.be/8h-tuTeOcUQ",
             "duracao": "45:00",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA Vice City de PlayStation 2 - Parte 35",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1nATN7J5aMHs_zq4ihnzMdJvld20egBT0/view",
+            "linkyt": "https://youtu.be/ItYOt_JBnnY",
+            "duracao": "45:01",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA Vice City de PlayStation 2 - Parte 36",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1BFGJVpsBnw6iSE4U1LXQH12gz1Caxr1c/view",
+            "linkyt": "https://youtu.be/76icjLaZgVo",
+            "duracao": "45:04",
             "plataforma": "youtube"
         }
     ]
