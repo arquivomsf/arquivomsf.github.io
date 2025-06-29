@@ -4,7 +4,7 @@
             "nome": "Grand Theft Auto: Vice City (PS2)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvu11lvZpt8RPAxUDzDB8tdH",
-            "quantidade": "17"
+            "quantidade": "37"
         }
     ],
     "analise": [
@@ -358,6 +358,14 @@
             "link": "https://drive.google.com/file/d/1BFGJVpsBnw6iSE4U1LXQH12gz1Caxr1c/view",
             "linkyt": "https://youtu.be/76icjLaZgVo",
             "duracao": "45:04",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA Vice City de PlayStation 2 - Parte 37 Final",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1QDcId170XM3uLCmv0sfg3ELCADPYmIAy/view",
+            "linkyt": "https://youtu.be/j98T4MNmab0",
+            "duracao": "26:38",
             "plataforma": "youtube"
         }
     ]
