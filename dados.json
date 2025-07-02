@@ -407,6 +407,14 @@
             "consigla": "ps2",
             "curto": "gtavc",
             "vod": "0"
+        },
+        {
+            "nome": "Black",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "black",
+            "vod": "0"
         }
     ],
     "standalone": [
@@ -523,14 +531,6 @@
         {
             "nome": "GameCube",
             "sigla": "gc"
-        },
-        {
-            "nome": "Black",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "black",
-            "vod": "0"
         }
     ],
     "consoles": [
