@@ -415,6 +415,14 @@
             "consigla": "ps2",
             "curto": "black",
             "vod": "0"
+        },
+        {
+            "nome": "Scarface: The World Is Yours",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "scarface",
+            "vod": "0"
         }
     ],
     "standalone": [
@@ -531,14 +539,6 @@
         {
             "nome": "GameCube",
             "sigla": "gc"
-        },
-        {
-            "nome": "Scarface: The World Is Yours",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "scarface",
-            "vod": "0"
         }
     ],
     "consoles": [
