@@ -1,0 +1,52 @@
+{
+    "videos": [
+        {
+            "nome": "Expedition 33 - Gameplay 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/11N_qs6cOqsmIJHOSOmszJSbvTfeCvVcn/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Expedition 33 - Gameplay 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1-lyVYL8PKn2rzrEOnfCvalqNCtMIzN-v/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Expedition 33 - Gameplay 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1jv5RfVR3ksVZwFY-B4PUBLE4Ht68ZP7n/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Expedition 33 - Gameplay 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1TPUbxje1XmJMBYCVfApi1SVH9bzb4xsz/view",
+            "linkyt": "",
+            "duracao": "00:58",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Expedition 33 - Gameplay 5",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/18aCGDuaNhAxTf62q7Kp9GvOayh5lv0Qv/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Expedition 33 - Gameplay 6",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1ifs2pmzMVAWI3b74aKQ7gi3rhbpkOl1-/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        }
+    ]
+}
