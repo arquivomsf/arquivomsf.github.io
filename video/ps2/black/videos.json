@@ -1,92 +1,100 @@
 {
+    "playlist": [
+        {
+            "nome": "Black (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuO6UfNzoKGRcPi1o00OTZr",
+            "quantidade": "11"
+        }
+    ],
     "videos": [
         {
             "nome": "Black de PlayStation 2 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1SG89rKPoTLs-ZhEJ18Vr_bdm6LXY-6o7/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/RhLxZdYvFhs",
             "duracao": "45:01",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1woUUSMNcmvrI62tUs0hnYs6adv9NJwV2/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/MAAcIH1CaKg",
             "duracao": "39:30",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1NC6lQ_-Ad6i0vbfNL29ALU66hdgx3Qss/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/YafIhubDYXQ",
             "duracao": "45:06",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1maGwS56sNoUUCuE357YKGyjAkmNw9IrU/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/yMGIdpGlLgU",
             "duracao": "36:48",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1iHyr8_nr2kU9_gyNc5dt6zcdqRoAXUym/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/tlLReIbWGk0",
             "duracao": "24:04",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/12KYsL9-aq_mroz_4EypLnuT5bPaPlhZi/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/xQfRzbw6bbg",
             "duracao": "43:31",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 7",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1iBRaOn3ud0uKiH_oJ_mCi-1kRAlZtyph/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ido5tvDO0OI",
             "duracao": "45:01",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 8",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1WOkYZNyMjRD8CX7gDOD7cd9Wrdw5FG2W/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/rVKO6UYv_TI",
             "duracao": "41:25",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 9",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1oKOC956lBHWQ2aGh8a0v-teBHOHiG5N-/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/5vFuIsWZg3k",
             "duracao": "37:27",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 10",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1EyYNIYCEiLtLAs3jhnJXznS0I6dCQZKl/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Dn4D8cFKgng",
             "duracao": "45:03",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Black de PlayStation 2 - Parte 11 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/18hkqslPGMq3KMDMesyB1URRlHFP-SlEw/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/8V33_n1Pqvo",
             "duracao": "21:06",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }

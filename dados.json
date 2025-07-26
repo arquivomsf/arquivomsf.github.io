@@ -533,6 +533,16 @@
             "linkyt": "https://youtu.be/m4gjIiIMU2Y",
             "duracao": "10:35",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay de Killzone 2 no PlayStation 3",
+            "imagem": "killzone2gameplay.jpg",
+            "consigla": "etc",
+            "curto": "killzone2gameplay",
+            "link": "",
+            "linkyt": "",
+            "duracao": "34:47",
+            "plataforma": "gdrive"
         }
     ],
     "futurosjogos": [
