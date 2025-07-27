@@ -1,0 +1,20 @@
+{
+    "playlist": [
+        {
+            "nome": "Black (PS2 - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/watch?v=UTvRv-D6iSs&list=PL1_Ius-LHAvs20cVh8Sdss2Vx4VbDZQFJ",
+            "quantidade": "6"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Black (PS2) - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/UTvRv-D6iSs",
+            "duracao": "1:09:25",
+            "plataforma": "youtube"
+        }
+    ]
+}
