@@ -15,6 +15,22 @@
             "linkyt": "https://youtu.be/UTvRv-D6iSs",
             "duracao": "1:09:25",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Black (PS2) - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/nLxp9FHpo94",
+            "duracao": "1:15:53",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Black (PS2) - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/kd0YekCAjdQ",
+            "duracao": "25:05",
+            "plataforma": "youtube"
         }
     ]
 }
