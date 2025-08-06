@@ -551,6 +551,16 @@
             "linkyt": "https://youtu.be/q4OuFcihe9I",
             "duracao": "34:47",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Testando filtros do emulador",
+            "imagem": "emufiltros.jpg",
+            "consigla": "etc",
+            "curto": "emufiltros",
+            "link": "",
+            "linkyt": "https://youtu.be/4P92D3gxZQw",
+            "duracao": "24:18",
+            "plataforma": "youtube"
         }
     ],
     "futurosjogos": [
@@ -565,6 +575,14 @@
         {
             "nome": "GameCube",
             "sigla": "gc"
+        },
+        {
+            "nome": "Super Mario Bros.",
+            "imagem": "1.jpg",
+            "console": "Nintendo (NES)",
+            "consigla": "nes",
+            "curto": "mario1",
+            "vod": "0"
         }
     ],
     "consoles": [

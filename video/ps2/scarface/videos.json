@@ -1,52 +1,60 @@
 {
+    "playlist": [
+        {
+            "nome": "Scarface: The World Is Yours (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtHdDsNA7T_dyJtfYqCn2uf",
+            "quantidade": "0"
+        }
+    ],
     "videos": [
         {
             "nome": "Scarface de PlayStation 2 - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1bqM83SP2bwdYEzB5kjsM4Wu0V4YLdkh_/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/vnMVlNmSyvk",
             "duracao": "44:13",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Scarface de PlayStation 2 - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1RpDi1dDIhT1yhugraWfoEut_UkRhBBMP/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/PxV2rPWc0BM",
             "duracao": "44:23",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Scarface de PlayStation 2 - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1o7UQ2UZkgnuHGu81RAeC9oFI-QYsSILB/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/JexzEEc3pwY",
             "duracao": "43:51",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Scarface de PlayStation 2 - Parte 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ZTsIeI_M2F3XDQkh6AjW67yR3xgp46km/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Cn-EeesbLjQ",
             "duracao": "37:38",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Scarface de PlayStation 2 - Parte 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1K3jp_SrwFZ32kd1UO_lmT44FhrWBo7WN/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/cPiV4Qoxh7Y",
             "duracao": "43:45",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Scarface de PlayStation 2 - Parte 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1AIVcJRReY8yOW0NpsQFvBBcptH2dXPT6/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/U1nZvwbPV8M",
             "duracao": "37:28",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Scarface de PlayStation 2 - Parte 7",
@@ -158,6 +166,38 @@
             "link": "https://drive.google.com/file/d/1hmpGRYj5BrkzBnBDUugdC244C0bvl_cU/view",
             "linkyt": "",
             "duracao": "42:45",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 21",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Odgr0lqLh3QouSwlexRGRSv_xOttYGO1/view",
+            "linkyt": "",
+            "duracao": "42:52",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 22",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1HU8H4Nrl3V3Py9vFmUC6ebvENVJ_tPBn/view",
+            "linkyt": "",
+            "duracao": "13:39",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 23",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Ba_1LeLDSugSLKCmwQGDASoCGDAMyS2O/view",
+            "linkyt": "",
+            "duracao": "25:02",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 24",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/11cI9Gs21FWxRJLXPT0IMzZpn4N8z5bXg/view",
+            "linkyt": "",
+            "duracao": "39:53",
             "plataforma": "gdrive"
         }
     ]
