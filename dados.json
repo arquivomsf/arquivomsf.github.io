@@ -417,6 +417,14 @@
             "vod": "0"
         },
         {
+            "nome": "Black",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "black-vod",
+            "vod": "1"
+        },
+        {
             "nome": "Scarface: The World Is Yours",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
@@ -431,14 +439,6 @@
             "consigla": "xbox",
             "curto": "expedition33",
             "vod": "0"
-        },
-        {
-            "nome": "Black",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "black-vod",
-            "vod": "1"
         }
     ],
     "standalone": [
@@ -573,6 +573,14 @@
             "vod": "0"
         },
         {
+            "nome": "Super Mario Sunshine",
+            "imagem": "1.jpg",
+            "console": "GameCube",
+            "consigla": "gc",
+            "curto": "sunshine",
+            "vod": "0"
+        },
+        {
             "nome": "GameCube",
             "sigla": "gc"
         },
@@ -583,6 +591,14 @@
             "consigla": "nes",
             "curto": "mario1",
             "vod": "0"
+        },
+        {
+            "nome": "Scarface: The World Is Yours",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "scarface-vod",
+            "vod": "1"
         }
     ],
     "consoles": [
