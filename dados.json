@@ -433,6 +433,14 @@
             "vod": "0"
         },
         {
+            "nome": "Scarface: The World Is Yours",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "scarface-vod",
+            "vod": "1"
+        },
+        {
             "nome": "Clair Obscur: Expedition 33 (Clipes)",
             "imagem": "1.jpg",
             "console": "Xbox",
@@ -571,6 +579,16 @@
             "linkyt": "https://youtu.be/I7COFJf3u5U",
             "duracao": "27:30",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Tech mostrando o ovo dele",
+            "imagem": "ovo.png",
+            "consigla": "etc",
+            "curto": "ovo",
+            "link": "",
+            "linkyt": "https://youtu.be/UNsiqLRMA30",
+            "duracao": "01:20",
+            "plataforma": "youtube"
         }
     ],
     "futurosjogos": [
@@ -603,12 +621,12 @@
             "vod": "0"
         },
         {
-            "nome": "Scarface: The World Is Yours",
+            "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
             "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "scarface-vod",
-            "vod": "1"
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "lilo",
+            "vod": "0"
         }
     ],
     "consoles": [

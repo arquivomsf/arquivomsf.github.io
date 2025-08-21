@@ -1,0 +1,31 @@
+{
+    "playlist": [
+        {
+            "nome": "Disney's Lilo & Stitch: Trouble in Paradise (PS1)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=",
+            "quantidade": "0"
+        }
+    ],
+    "extras": [
+        {
+            "nome": "Tech mostrando o ovo dele",
+            "id": "ovo",
+            "imagem": "ovo.png",
+            "link": "",
+            "linkyt": "https://youtu.be/UNsiqLRMA30",
+            "duracao": "01:20",
+            "plataforma": "youtube"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Lilo e Stitch de PlayStation 1 - Parte 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "",
+            "duracao": "00:00",
+            "plataforma": "gdrive"
+        }
+    ]
+}

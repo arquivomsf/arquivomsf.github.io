@@ -295,6 +295,22 @@
             "linkyt": "https://youtu.be/SGxBAhwApxk",
             "duracao": "25:33",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 37",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/e_-VBJYemkU",
+            "duracao": "47:01",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 38",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Gw3a9XNzRII",
+            "duracao": "49:51",
+            "plataforma": "youtube"
         }
     ]
 }
