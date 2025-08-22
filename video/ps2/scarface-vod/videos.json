@@ -4,7 +4,27 @@
             "nome": "Scarface: The World Is Yours (PS2 - VOD)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvlSULCuPu2A5SMbtTIyYGG",
-            "quantidade": "24"
+            "quantidade": "25"
+        }
+    ],
+    "extras": [
+        {
+            "nome": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀",
+            "id": "moggador",
+            "imagem": "../../etc/moggador.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/I7COFJf3u5U",
+            "duracao": "27:30",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 13.5",
+            "id": "scarface13-5",
+            "imagem": "scarface13-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/-WRKi0vDyIc",
+            "duracao": "26:25",
+            "plataforma": "youtube"
         }
     ],
     "videos": [
@@ -102,6 +122,22 @@
             "link": "",
             "linkyt": "https://youtu.be/YbYNiEb5FsM",
             "duracao": "2:41:55",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 13",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/6deApwyeJ7I",
+            "duracao": "48:43",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 14",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/0zcjBQKJ7Rg",
+            "duracao": "2:33:28",
             "plataforma": "youtube"
         }
     ]
