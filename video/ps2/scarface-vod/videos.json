@@ -3,7 +3,7 @@
         {
             "nome": "Scarface: The World Is Yours (PS2 - VOD)",
             "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvlSULCuPu2A5SMbtTIyYGG",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsUpa2KcirXIxLkqFxct8m0",
             "quantidade": "25"
         }
     ],
@@ -24,6 +24,15 @@
             "link": "",
             "linkyt": "https://youtu.be/-WRKi0vDyIc",
             "duracao": "26:25",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 23.5",
+            "id": "scarface23-5",
+            "imagem": "scarface23-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/wk15V2vsc3I",
+            "duracao": "15:28",
             "plataforma": "youtube"
         }
     ],
@@ -138,6 +147,78 @@
             "link": "",
             "linkyt": "https://youtu.be/0zcjBQKJ7Rg",
             "duracao": "2:33:28",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 15",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/mMzYZ6lOUUA",
+            "duracao": "48:09",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 16",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/tXW-10SLxnU",
+            "duracao": "27:24",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 17",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/wKjzn3QZ0ak",
+            "duracao": "47:50",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 18 (Incompleto)",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/0E2BcWEWk_M",
+            "duracao": "1:25:21",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 19",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/-7VRQXwrZcs",
+            "duracao": "1:11:03",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 20",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/qZWQVmOHOgI",
+            "duracao": "1:24:17",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 21",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/8hidjBWtGJI",
+            "duracao": "54:44",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 22",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/AKIwtSvcPGU",
+            "duracao": "1:38:42",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface: The World Is Yours (PS2) - VOD 23",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/XcfAaxUiG3I",
+            "duracao": "41:06",
             "plataforma": "youtube"
         }
     ]
