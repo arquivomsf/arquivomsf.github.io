@@ -1,0 +1,20 @@
+{
+    "playlist": [
+        {
+            "nome": "Harry Potter and the Philosopher's Stone (PS1)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=",
+            "quantidade": "0"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Harry Potter de PlayStation 1 - Parte 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "",
+            "duracao": "00:00",
+            "plataforma": "gdrive"
+        }
+    ]
+}

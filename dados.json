@@ -447,6 +447,14 @@
             "consigla": "xbox",
             "curto": "expedition33",
             "vod": "0"
+        },
+        {
+            "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "lilo-vod",
+            "vod": "1"
         }
     ],
     "standalone": [
@@ -621,12 +629,36 @@
             "vod": "0"
         },
         {
+            "nome": "Super Mario Bros.",
+            "imagem": "1.jpg",
+            "console": "Nintendo (NES)",
+            "consigla": "nes",
+            "curto": "mario1-vod",
+            "vod": "1"
+        },
+        {
             "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "lilo",
             "vod": "0"
+        },
+        {
+            "nome": "Harry Potter and the Philosopher's Stone",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "harry",
+            "vod": "0"
+        },
+        {
+            "nome": "Harry Potter and the Philosopher's Stone",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "harry-vod",
+            "vod": "1"
         }
     ],
     "consoles": [

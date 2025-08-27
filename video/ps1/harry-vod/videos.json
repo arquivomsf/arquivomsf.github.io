@@ -1,0 +1,20 @@
+{
+    "playlist": [
+        {
+            "nome": "Harry Potter and the Philosopher's Stone (PS1 - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=",
+            "quantidade": "4"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Harry Potter (PS1) - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "",
+            "duracao": "00:00",
+            "plataforma": "youtube"
+        }
+    ]
+}
