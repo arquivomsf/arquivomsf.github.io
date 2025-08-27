@@ -1,10 +1,10 @@
 {
     "playlist": [
         {
-            "nome": "Disney's Lilo & Stitch: Trouble in Paradise (PS1)",
+            "nome": "Disney's Lilo & Stitch: Trouble in Paradise (PS1 - VOD)",
             "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=",
-            "quantidade": "0"
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsEv8AMLCVCbGfeIK5rqp-f",
+            "quantidade": "5"
         }
     ],
     "extras": [
@@ -20,7 +20,7 @@
         {
             "nome": "Lilo e Stitch de PS1 - Cena 1",
             "id": "lilo_cena1",
-            "imagem": "../lilo-vod/lilo_cena1.png",
+            "imagem": "lilo_cena1.png",
             "link": "https://drive.google.com/file/d/15pvtlwLkyxN7zQODHjEioi2QL30VoRc6/view",
             "linkyt": "",
             "duracao": "01:27",
@@ -29,7 +29,7 @@
         {
             "nome": "Lilo e Stitch de PS1 - Cena 2",
             "id": "lilo_cena2",
-            "imagem": "../lilo-vod/lilo_cena2.png",
+            "imagem": "lilo_cena2.png",
             "link": "https://drive.google.com/file/d/1ywkaoYGjfP3i8jpXpnN4_aEPVwGqYIKT/view",
             "linkyt": "",
             "duracao": "00:26",
@@ -38,7 +38,7 @@
         {
             "nome": "Lilo e Stitch de PS1 - Cena 3",
             "id": "lilo_cena3",
-            "imagem": "../lilo-vod/lilo_cena3.png",
+            "imagem": "lilo_cena3.png",
             "link": "https://drive.google.com/file/d/1gG3RsIMQm5q7nM8O9Vm7zAnm7DRkJp5s/view",
             "linkyt": "",
             "duracao": "00:30",
@@ -47,7 +47,7 @@
         {
             "nome": "Lilo e Stitch de PS1 - Cena 4",
             "id": "lilo_cena4",
-            "imagem": "../lilo-vod/lilo_cena4.png",
+            "imagem": "lilo_cena4.png",
             "link": "https://drive.google.com/file/d/1oQDuNQh2MpZXsjtJcpYRG25GAwf3sP5x/view",
             "linkyt": "",
             "duracao": "00:41",
@@ -56,7 +56,7 @@
         {
             "nome": "Lilo e Stitch de PS1 - Cena 5",
             "id": "lilo_cena5",
-            "imagem": "../lilo-vod/lilo_cena5.png",
+            "imagem": "lilo_cena5.png",
             "link": "https://drive.google.com/file/d/17758R90XfQSq9JDg24lwbeZqAzFSYBwU/view",
             "linkyt": "",
             "duracao": "00:26",
@@ -65,7 +65,7 @@
         {
             "nome": "Lilo e Stitch de PS1 - Cena 6",
             "id": "lilo_cena6",
-            "imagem": "../lilo-vod/lilo_cena6.png",
+            "imagem": "lilo_cena6.png",
             "link": "https://drive.google.com/file/d/1A8RVp2g1Qkue0rbrfVnLmpsHyhYTbC3C/view",
             "linkyt": "",
             "duracao": "00:58",
@@ -74,7 +74,7 @@
         {
             "nome": "Lilo e Stitch de PS1 - Cena 7",
             "id": "lilo_cena7",
-            "imagem": "../lilo-vod/lilo_cena7.png",
+            "imagem": "lilo_cena7.png",
             "link": "https://drive.google.com/file/d/1Bd7v9FLftL8hi56XPYLSgTRgQOtld7Se/view",
             "linkyt": "",
             "duracao": "01:18",
@@ -83,12 +83,44 @@
     ],
     "videos": [
         {
-            "nome": "Lilo e Stitch de PlayStation 1 - Parte 1",
+            "nome": "Lilo e Stitch (PS1) - VOD 1",
             "imagem": "jpg",
             "link": "",
-            "linkyt": "",
-            "duracao": "00:00",
-            "plataforma": "gdrive"
+            "linkyt": "https://youtu.be/EI2aKwaPTTE",
+            "duracao": "31:12",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Lilo e Stitch (PS1) - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/jU1ZwpT5LPA",
+            "duracao": "33:11",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Lilo e Stitch (PS1) - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/E8PAm-cire0",
+            "duracao": "1:40:14",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Lilo e Stitch (PS1) - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Z-_28Z_9Qi8",
+            "duracao": "23:27",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Lilo e Stitch (PS1) - VOD Extra",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/qrRCrjKBeiQ",
+            "duracao": "17:27",
+            "plataforma": "youtube"
         }
     ]
 }
