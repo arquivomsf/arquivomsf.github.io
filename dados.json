@@ -455,6 +455,14 @@
             "consigla": "ps1",
             "curto": "lilo-vod",
             "vod": "1"
+        },
+        {
+            "nome": "Harry Potter and the Philosopher's Stone",
+            "imagem": "1.png",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "harry-vod",
+            "vod": "1"
         }
     ],
     "standalone": [
@@ -651,14 +659,6 @@
             "consigla": "ps1",
             "curto": "harry",
             "vod": "0"
-        },
-        {
-            "nome": "Harry Potter and the Philosopher's Stone",
-            "imagem": "1.jpg",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "harry-vod",
-            "vod": "1"
         }
     ],
     "consoles": [
