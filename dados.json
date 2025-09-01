@@ -449,6 +449,14 @@
             "vod": "0"
         },
         {
+            "nome": "Super Mario Bros.",
+            "imagem": "1.jpg",
+            "console": "Nintendo (NES)",
+            "consigla": "nes",
+            "curto": "mario1",
+            "vod": "0"
+        },
+        {
             "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
@@ -627,14 +635,6 @@
         {
             "nome": "GameCube",
             "sigla": "gc"
-        },
-        {
-            "nome": "Super Mario Bros.",
-            "imagem": "1.jpg",
-            "console": "Nintendo (NES)",
-            "consigla": "nes",
-            "curto": "mario1",
-            "vod": "0"
         },
         {
             "nome": "Super Mario Bros.",
