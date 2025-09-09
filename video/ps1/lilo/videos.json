@@ -1,10 +1,10 @@
 {
     "playlist": [
         {
-            "nome": "Disney's Lilo & Stitch: Trouble in Paradise (PS1)",
+            "nome": "Lilo & Stitch: Trouble in Paradise (PS1)",
             "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=",
-            "quantidade": "0"
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuutb-aPo0Y7YT36JWBiobI",
+            "quantidade": "?"
         }
     ],
     "extras": [
@@ -83,12 +83,12 @@
     ],
     "videos": [
         {
-            "nome": "Lilo e Stitch de PlayStation 1 - Parte 1",
+            "nome": "Lilo & Stitch de PS1 - Parte 1",
             "imagem": "jpg",
             "link": "",
-            "linkyt": "",
-            "duracao": "00:00",
-            "plataforma": "gdrive"
+            "linkyt": "https://youtu.be/JhtkFOHpTiM",
+            "duracao": "30:29",
+            "plataforma": "youtube"
         }
     ]
 }

@@ -461,8 +461,24 @@
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
+            "curto": "lilo",
+            "vod": "0"
+        },
+        {
+            "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
             "curto": "lilo-vod",
             "vod": "1"
+        },
+        {
+            "nome": "Resident Evil 4 Remake (Clipes)",
+            "imagem": "1.jpg",
+            "console": "Xbox",
+            "consigla": "xbox",
+            "curto": "re4remake",
+            "vod": "0"
         },
         {
             "nome": "Harry Potter and the Philosopher's Stone",
@@ -643,14 +659,6 @@
             "consigla": "nes",
             "curto": "mario1-vod",
             "vod": "1"
-        },
-        {
-            "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
-            "imagem": "1.jpg",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "lilo",
-            "vod": "0"
         },
         {
             "nome": "Harry Potter and the Philosopher's Stone",

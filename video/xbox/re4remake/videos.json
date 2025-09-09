@@ -1,0 +1,36 @@
+{
+    "videos": [
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1HRFplN5wca5v63L_2-F4he0KxT6EMnzt/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Du_8D48Zu0OQOAkfydXRfNFX6KfVuj_S/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1RObRAfN8OYu3Fxb8AwoV2tm0wj6LNdYY/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1bP_PYbv0QLvO7jCdQCSciaSvKcu2M83I/view",
+            "linkyt": "",
+            "duracao": "00:59",
+            "plataforma": "gdrive"
+        }
+    ]
+}
