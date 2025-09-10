@@ -89,6 +89,14 @@
             "linkyt": "https://youtu.be/JhtkFOHpTiM",
             "duracao": "30:29",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Lilo & Stitch de PS1 - Parte 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/qkOI6p1mBEo",
+            "duracao": "33:24",
+            "plataforma": "youtube"
         }
     ]
 }
