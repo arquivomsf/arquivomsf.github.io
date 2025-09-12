@@ -16,7 +16,9 @@
             "linkyt": "https://youtu.be/UNsiqLRMA30",
             "duracao": "01:20",
             "plataforma": "youtube"
-        },
+        }
+    ],
+    "backup": [
         {
             "nome": "Lilo e Stitch de PS1 - Cena 1",
             "id": "lilo_cena1",
@@ -86,24 +88,32 @@
             "nome": "Lilo & Stitch de PS1 - Parte 1",
             "imagem": "jpg",
             "link": "",
-            "linkyt": "https://youtu.be/JhtkFOHpTiM",
-            "duracao": "29:07",
+            "linkyt": "https://youtu.be/gd5MhVpg02E",
+            "duracao": "30:29",
             "plataforma": "youtube"
         },
         {
             "nome": "Lilo & Stitch de PS1 - Parte 2",
             "imagem": "jpg",
             "link": "",
-            "linkyt": "https://youtu.be/qkOI6p1mBEo",
-            "duracao": "33:24",
+            "linkyt": "https://youtu.be/2M2yX8ihnSo",
+            "duracao": "33:47",
             "plataforma": "youtube"
         },
         {
             "nome": "Lilo & Stitch de PS1 - Parte 3",
             "imagem": "jpg",
             "link": "",
-            "linkyt": "https://youtu.be/YRY3tazvBeQ",
+            "linkyt": "https://youtu.be/pSs09UgOyf4",
             "duracao": "48:26",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Lilo & Stitch de PS1 - Parte 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/hRSBbvihN6c",
+            "duracao": "40:46",
             "plataforma": "youtube"
         }
     ]

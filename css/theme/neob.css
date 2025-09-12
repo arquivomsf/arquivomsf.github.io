@@ -237,3 +237,26 @@ body[data-tema="neob"] > .pagecontent > .card > ul > li {
 body[data-tema="neob"] > .pagecontent > .header404 {
   font-weight: bolder !important;
 }
+
+body[data-tema="neob"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link {
+  border: none !important;
+}
+
+body[data-tema="neob"] > .tabs-navbar > .tabs-stack > .tab-btn {
+  border-radius: 0;
+  box-shadow: 5px 5px;
+  color: black !important;
+  border: 1px solid black;
+}
+
+body[data-tema="neob"] > .tabs-navbar > .tabs-stack > .tab-btn:nth-child(3n+1) {
+  background-color: var(--neob-yellow);
+}
+
+body[data-tema="neob"] > .tabs-navbar > .tabs-stack > .tab-btn:nth-child(3n+2) {
+  background-color: var(--neob-green);
+}
+
+body[data-tema="neob"] > .tabs-navbar > .tabs-stack > .tab-btn:nth-child(3n+3) {
+  background-color: var(--neob-pink);
+}

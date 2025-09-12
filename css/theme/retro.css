@@ -227,3 +227,25 @@ body[data-tema="retro"] > .pagecontent > p > a.btn-dark:hover {
     background-color: #82E4E6;
   }
 }
+
+body[data-tema="retro"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link.active {
+  color: #00D9AE !important;
+}
+
+/*body[data-tema="retro"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link:not(.active):hover {
+  border-color: #282828 !important;
+  position: relative;
+  border-radius: 2px;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 2px);
+    left: calc(-1 * 2px);
+    z-index: -1;
+    width: 100%;
+    height: calc(100% + 2px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}*/

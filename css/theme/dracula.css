@@ -129,3 +129,7 @@ body[data-tema="dracula"] > .pagecontent > p > i:not(.fa) {
   font-style: normal;
   color: var(--dracula-purple) !important;
 }
+
+body[data-tema="dracula"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link.active {
+  color: var(--dracula-red) !important;
+}

@@ -90,3 +90,7 @@ body[data-tema="terminal"] > .pagecontent > p > i:not(.fa) {
     content: "]";
   }
 }
+
+body[data-tema="terminal"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link.active {
+  color: white !important;
+}

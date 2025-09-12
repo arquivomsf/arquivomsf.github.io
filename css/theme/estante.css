@@ -178,3 +178,7 @@ body[data-tema="estante"] > .pagecontent > .row > .col {
 body[data-tema="estante"] > .pagecontent > .row > .col:last-child {
   border-right: 5px solid sienna;
 }
+
+body[data-tema="estante"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link.active {
+  color: white !important;
+}

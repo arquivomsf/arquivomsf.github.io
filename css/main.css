@@ -187,6 +187,11 @@ a:active {
   width: 100%;
 }
 
+.fake-container-nowid {
+  padding-left: calc(1.5rem * .5);
+  padding-right: calc(1.5rem * .5);
+}
+
 .float-left {
   float: left !important;
 }
@@ -386,4 +391,21 @@ select {
   font-size: 1.5rem;
   padding-top: 1.2rem;
   padding-bottom: 1rem;
+}
+
+.tabs-navbar {
+  width: 100%;
+  user-select: none;
+}
+
+.tabs-stack {
+  width: 100%;
+}
+
+.tab-btn {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
 }

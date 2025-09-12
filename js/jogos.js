@@ -2,6 +2,7 @@ var consoleAtual;
 var jogoAtual;
 
 function carregarDados() {
+  setTab("",'jsonParent');
   procurarParam();
   carregarVideos();
   carregarConsoles();
@@ -17,6 +18,7 @@ function carregarVideos() {
     fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
       .then(response => response.json())
       .then(data => {
+        document.querySelector(".tabs-navbar").style.display = "none";
         if (data.hasOwnProperty("playlist")) {
                 let pnome = data.playlist[0].nome;
                 let pimagem = data.playlist[0].imagem;
@@ -37,12 +39,13 @@ function carregarVideos() {
                         <span class="flow-text title">${pnome}</span>
                       </a>
                     </div>`;
-          document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
-          document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
-          if (document.querySelector(".extras-item") == null) {
+          //document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
+          //document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
+          /*if (document.querySelector(".extras-item") == null) {
             document.querySelector(".c-extras").remove();
             document.querySelector(".c-videos").remove();
-          }
+          }*/
+         document.querySelector(".tabs-navbar").style.display = "flex";
         }
         if (data.hasOwnProperty("analise")) {
                   let anome = data.analise[0].nome;
@@ -59,12 +62,13 @@ function carregarVideos() {
                         <span class="flow-text title">${anome}</span>
                       </a>
                     </div>`;
-          document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
-          document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
-          if (document.querySelector(".extras-item") == null) {
+          //document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
+          //document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
+          /*if (document.querySelector(".extras-item") == null) {
             document.querySelector(".c-extras").remove();
             document.querySelector(".c-videos").remove();
-          }
+          }*/
+         document.querySelector(".tabs-navbar").style.display = "flex";
         }
         if (data.hasOwnProperty("extras")) {
           for (var i = 0; i<data.extras.length; i++){
@@ -97,12 +101,13 @@ function carregarVideos() {
                       </a>
                     </div>`;
                 }
-          document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
-          document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
-          if (document.querySelector(".extras-item") == null) {
+          //document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
+          //document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
+          /*if (document.querySelector(".extras-item") == null) {
             document.querySelector(".c-extras").remove();
             document.querySelector(".c-videos").remove();
-          }
+          }*/
+         document.querySelector(".tabs-navbar").style.display = "flex";
         }
         }
       })
@@ -180,4 +185,18 @@ function carregarConsoles() {
           }
       }
   })
+}
+
+function setTab(cur_el,selected_tab) {
+    if (cur_el != "") {
+        document.querySelectorAll(".tab-link").forEach(el => {
+            el.classList.remove("active");
+        });
+        cur_el.classList.add("active");
+    }
+
+    document.querySelectorAll(".tab-content").forEach(el => {
+        el.classList.add("hidden");
+    });
+    document.querySelector("#"+selected_tab).classList.remove("hidden");
 }

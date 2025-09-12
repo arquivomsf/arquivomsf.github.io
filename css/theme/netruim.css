@@ -324,3 +324,7 @@ body[data-tema="netruim"] > .navbar > div > div > div > input {
   line-height: 1.5rem !important;
   box-sizing: border-box !important;
 }
+
+body[data-tema="netruim"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link {
+  transition: none !important;
+}

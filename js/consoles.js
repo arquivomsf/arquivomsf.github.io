@@ -2,6 +2,7 @@ var pathnameArray = window.location.pathname.split("/");
 var consoleAtual;
 
 function start() {
+  setTab("",'jsonParent');
     resetarString();
     setPesquisa();
     carregarDados();
@@ -27,6 +28,7 @@ function carregarJogos() {
               let jimagem = data.jogos[i].imagem;
               let jconsigla = data.jogos[i].consigla;
               let jcurto = data.jogos[i].curto;
+              let jvod = data.jogos[i].vod;
               let nomecomp;
               nomecomp = jnome.replaceAll(/\s/g, "");
               nomecomp = nomecomp.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
@@ -39,6 +41,7 @@ function carregarJogos() {
               nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
                 if(jconsigla == consoleAtual){
+                    if(jvod == 0){
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
                           <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
@@ -46,6 +49,19 @@ function carregarJogos() {
                             <span class="flow-text title">${jnome}</span>
                           </a>
                         </div>`;
+                    } else {
+                      document.querySelector("#vodParent").innerHTML += `
+                        <div class="col">
+                          <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
+                            <!--<div class="thumbnail">
+                                <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
+                                <span class="video-length">VOD</span>
+                            </div>-->
+                            <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
+                            <span class="flow-text title">${jnome}</span>
+                          </a>
+                        </div>`;
+                    }
                 }
               }
           }
@@ -81,4 +97,18 @@ function carregarConsoles() {
           }
           startTema();
       })
+}
+
+function setTab(cur_el,selected_tab) {
+    if (cur_el != "") {
+        document.querySelectorAll(".tab-link").forEach(el => {
+            el.classList.remove("active");
+        });
+        cur_el.classList.add("active");
+    }
+
+    document.querySelectorAll(".tab-content").forEach(el => {
+        el.classList.add("hidden");
+    });
+    document.querySelector("#"+selected_tab).classList.remove("hidden");
 }

@@ -1,4 +1,5 @@
 function start() {
+    setTab("",'jsonParent');
     resetarString();
     setPesquisa();
     carregarDados();
@@ -40,19 +41,20 @@ function carregarJogos() {
                         <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
                     </div>`;
                 } else {
-                    document.querySelector("#jsonParent").innerHTML += `
+                    document.querySelector("#vodParent").innerHTML += `
                     <div class="col game-item">
                         <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
-                            <div class="thumbnail">
+                            <!--<div class="thumbnail">
                                 <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
                                 <span class="video-length">VOD</span>
-                            </div>
+                            </div>-->
+                            <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
                             <span class="flow-text title">${jnome}</span></a><br>
                         <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
                     </div>`;
                 }
               }
-              if (document.querySelector(".game-item") !== null) document.querySelector(".c-series").style.display = "block";
+              //if (document.querySelector(".game-item") !== null) document.querySelector(".c-series").style.display = "block";
           }
       })
 
@@ -102,7 +104,7 @@ function carregarJogos() {
                             </div>`;
                    }
               }
-              if (document.querySelector(".stand-item") !== null) document.querySelector(".c-standalone").style.display = "block";
+              //if (document.querySelector(".stand-item") !== null) document.querySelector(".c-standalone").style.display = "block";
           }
       })
 }
@@ -254,4 +256,18 @@ function carregarStats(){
         document.querySelector(".counter-tempototaljogo").innerHTML = `${Math.round(jhorascounter)}h ${Math.round(jmincounter)}m ${Math.round(jsegcounter)}s de vídeos de jogos`;
         document.querySelector(".counter-tempototal").innerHTML = `${Math.round(thorascounter)}h ${Math.round(tmincounter)}m ${Math.round(tsegcounter)}s de vídeos arquivados`;
     }, 500);
+}
+
+function setTab(cur_el,selected_tab) {
+    if (cur_el != "") {
+        document.querySelectorAll(".tab-link").forEach(el => {
+            el.classList.remove("active");
+        });
+        cur_el.classList.add("active");
+    }
+
+    document.querySelectorAll(".tab-content").forEach(el => {
+        el.classList.add("hidden");
+    });
+    document.querySelector("#"+selected_tab).classList.remove("hidden");
 }
