@@ -1,36 +1,52 @@
 {
+    "playlist": [
+        {
+            "nome": "Super Mario Bros. (NES) ",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsGgynFMKb-ymrEpswJ4Z9l",
+            "quantidade": "4"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Super Mario Bros de NES | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/NN06Y7oSTYw",
+            "duracao": "9:51"
+        }
+    ],
     "videos": [
         {
             "nome": "Super Mario Bros de NES - Parte 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1R-Tvzb90fEkPNqiKnmqZjLm2ar_GN3Kj/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/lpFpGvZ2cFQ",
             "duracao": "28:01",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Super Mario Bros de NES - Parte 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1vSlfDn_YytfQr67CEpQkXcef627IywuK/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/dBkg6PbPxDo",
             "duracao": "28:23",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Super Mario Bros de NES - Parte 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1cfjWI_WDTpRFLJTGipR2zqVr0Tfwt3Je/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/aQY1DSyfSMc",
             "duracao": "33:44",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Super Mario Bros de NES - Parte 4 Final",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/17g7CSy87pxJU-iidPBs4taGtyihPodf4/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/hI-Kwoxcp70",
             "duracao": "41:37",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
