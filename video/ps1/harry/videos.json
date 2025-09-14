@@ -1,20 +1,20 @@
 {
     "playlist": [
         {
-            "nome": "Harry Potter and the Philosopher's Stone (PS1)",
+            "nome": "Harry Potter e a Pedra Filosofal (PS1)",
             "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=",
-            "quantidade": "0"
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuq_xQyiS68xxQEDGizuOfe",
+            "quantidade": "?"
         }
     ],
     "videos": [
         {
-            "nome": "Harry Potter de PlayStation 1 - Parte 1",
+            "nome": "Harry Potter e a Pedra Filosofal de PS1 - Parte 1",
             "imagem": "jpg",
             "link": "",
-            "linkyt": "",
-            "duracao": "00:00",
-            "plataforma": "gdrive"
+            "linkyt": "https://youtu.be/B1x_ev3YEH8",
+            "duracao": "52:30",
+            "plataforma": "youtube"
         }
     ]
 }
