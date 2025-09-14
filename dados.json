@@ -2,6 +2,7 @@
     "jogos": [
         {
             "nome": "SpongeBob SquarePants: SuperSponge",
+            "tags": "SpongeBob SquarePants: SuperSponge bob esponja",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -10,6 +11,7 @@
         },
         {
             "nome": "Assault Retribution",
+            "tags": "Assault Retribution",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -18,6 +20,7 @@
         },
         {
             "nome": "Spider Man 2 Enter Electro",
+            "tags": "Spider Man 2 Enter Electro homem aranha miranha",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -26,6 +29,7 @@
         },
         {
             "nome": "The Lost World Jurassic Park",
+            "tags": "The Lost World Jurassic Park dino dinossauro",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -34,6 +38,7 @@
         },
         {
             "nome": "Disruptor",
+            "tags": "Disruptor",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -42,6 +47,7 @@
         },
         {
             "nome": "Tai Fu Wrath of the Tiger",
+            "tags": "Tai Fu Wrath of the Tiger taifu",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -50,6 +56,7 @@
         },
         {
             "nome": "Donald Duck Goin' Quackers",
+            "tags": "Donald Duck Goin' Quackers pato donald disney",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -58,6 +65,7 @@
         },
         {
             "nome": "Moto Racer",
+            "tags": "Moto Racer",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -66,6 +74,7 @@
         },
         {
             "nome": "Nightmare Creatures",
+            "tags": "Nightmare Creatures",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -74,6 +83,7 @@
         },
         {
             "nome": "Metal Slug X",
+            "tags": "Metal Slug X",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -82,6 +92,7 @@
         },
         {
             "nome": "Sonic The Hedgehog",
+            "tags": "Sonic The Hedgehog sega Sonic 1",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
@@ -90,6 +101,7 @@
         },
         {
             "nome": "QuackShot",
+            "tags": "QuackShot disney pato donald duck",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
@@ -98,6 +110,7 @@
         },
         {
             "nome": "Zero Tolerance",
+            "tags": "Zero Tolerance",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
@@ -106,6 +119,7 @@
         },
         {
             "nome": "Socket",
+            "tags": "Socket tipo sonic soniclike",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
@@ -114,6 +128,7 @@
         },
         {
             "nome": "Light Crusader",
+            "tags": "Light Crusader action rpg de ação",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
@@ -122,6 +137,7 @@
         },
         {
             "nome": "Ice Climber",
+            "tags": "Ice Climber nintendo",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
@@ -130,6 +146,7 @@
         },
         {
             "nome": "Adventure Island",
+            "tags": "Adventure Island",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
@@ -138,6 +155,7 @@
         },
         {
             "nome": "Gun.Smoke",
+            "tags": "Gun.Smoke",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
@@ -146,6 +164,7 @@
         },
         {
             "nome": "DuckTales",
+            "tags": "DuckTales disney Scrooge McDuck Tio Patinhas McPato",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
@@ -154,6 +173,7 @@
         },
         {
             "nome": "Jackal",
+            "tags": "Jackal",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
@@ -162,6 +182,7 @@
         },
         {
             "nome": "Super Mario 64",
+            "tags": "Super Mario 64 nintendo",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
@@ -170,6 +191,7 @@
         },
         {
             "nome": "Castlevania Legacy of Darkness",
+            "tags": "Castlevania Legacy of Darkness Castlevania 64",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
@@ -178,6 +200,7 @@
         },
         {
             "nome": "Hercules: The Legendary Journeys",
+            "tags": "Hercules: The Legendary Journeys",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
@@ -186,6 +209,7 @@
         },
         {
             "nome": "Disney's Tarzan",
+            "tags": "Disney's Tarzan",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
@@ -194,6 +218,7 @@
         },
         {
             "nome": "Cruis'n Exotica",
+            "tags": "Cruis'n Exotica",
             "imagem": "1.jpg",
             "console": "Nintendo 64",
             "consigla": "n64",
@@ -202,6 +227,7 @@
         },
         {
             "nome": "God of War",
+            "tags": "God of War deus da guerra bom de guerra",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -210,6 +236,7 @@
         },
         {
             "nome": "Red Dead Revolver",
+            "tags": "Red Dead Revolver red dead redemption",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -218,6 +245,7 @@
         },
         {
             "nome": "Cars",
+            "tags": "Cars carros",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -226,6 +254,7 @@
         },
         {
             "nome": "Call of Duty Finest Hour",
+            "tags": "Call of Duty Finest Hour cod",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -234,6 +263,7 @@
         },
         {
             "nome": "COD 2 Big Red One",
+            "tags": "COD 2 Big Red One Call of Duty",
             "imagem": "1.png",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -242,6 +272,7 @@
         },
         {
             "nome": "Sonic The Hedgehog 2",
+            "tags": "Sonic The Hedgehog 2 sega Sonic 2",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
@@ -250,6 +281,7 @@
         },
         {
             "nome": "Sonic The Hedgehog 3 & Knuckles",
+            "tags": "Sonic The Hedgehog 3 & Knuckles sega Sonic 3K",
             "imagem": "1.jpg",
             "console": "Mega Drive",
             "consigla": "md",
@@ -258,6 +290,7 @@
         },
         {
             "nome": "God of War 2",
+            "tags": "God of War 2 deus da guerra bom de guerra",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -266,6 +299,7 @@
         },
         {
             "nome": "Call of Duty World at War Final Fronts",
+            "tags": "Call of Duty World at War Final Fronts cod guerra",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -274,6 +308,7 @@
         },
         {
             "nome": "Sonic Adventure",
+            "tags": "Sonic Adventure sega",
             "imagem": "1.jpg",
             "console": "Dreamcast",
             "consigla": "dc",
@@ -282,6 +317,7 @@
         },
         {
             "nome": "Shadow of the Colossus",
+            "tags": "Shadow of the Colossus",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -290,6 +326,7 @@
         },
         {
             "nome": "Pandemonium",
+            "tags": "Pandemonium pão demônio",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -298,6 +335,7 @@
         },
         {
             "nome": "Manhunt",
+            "tags": "Manhunt caça homem",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -306,6 +344,7 @@
         },
         {
             "nome": "Road & Track Presents: The Need for Speed",
+            "tags": "Road & Track Presents: The Need for Speed nfs",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -314,6 +353,7 @@
         },
         {
             "nome": "Sonic Adventure 2",
+            "tags": "Sonic Adventure 2 sega",
             "imagem": "1.jpg",
             "console": "Dreamcast",
             "consigla": "dc",
@@ -322,6 +362,7 @@
         },
         {
             "nome": "The Nightmare Before Christmas: Oogie's Revenge",
+            "tags": "The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack Tim Burton",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -330,6 +371,7 @@
         },
         {
             "nome": "Grand Theft Auto III",
+            "tags": "Grand Theft Auto III gta iii gta 3",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -338,6 +380,7 @@
         },
         {
             "nome": "Shadow the Hedgehog",
+            "tags": "Shadow the Hedgehog sega",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -346,6 +389,7 @@
         },
         {
             "nome": "Shadow the Hedgehog",
+            "tags": "Shadow the Hedgehog sega",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -354,6 +398,7 @@
         },
         {
             "nome": "The Sims",
+            "tags": "The Sims",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -362,6 +407,7 @@
         },
         {
             "nome": "The Sims",
+            "tags": "The Sims",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -370,6 +416,7 @@
         },
         {
             "nome": "Killzone",
+            "tags": "Killzone",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -378,6 +425,7 @@
         },
         {
             "nome": "Killzone",
+            "tags": "Killzone",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -386,6 +434,7 @@
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge",
+            "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare",
             "imagem": "1.jpg",
             "console": "Game Boy Advance",
             "consigla": "gba",
@@ -394,6 +443,7 @@
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge",
+            "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare",
             "imagem": "1.jpg",
             "console": "Game Boy Advance",
             "consigla": "gba",
@@ -402,6 +452,7 @@
         },
         {
             "nome": "Grand Theft Auto: Vice City",
+            "tags": "Grand Theft Auto: Vice City gta vice city",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -410,6 +461,7 @@
         },
         {
             "nome": "Black",
+            "tags": "Black",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -418,6 +470,7 @@
         },
         {
             "nome": "Black",
+            "tags": "Black",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -426,6 +479,7 @@
         },
         {
             "nome": "Scarface: The World Is Yours",
+            "tags": "Scarface: The World Is Yours",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -434,6 +488,7 @@
         },
         {
             "nome": "Scarface: The World Is Yours",
+            "tags": "Scarface: The World Is Yours",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -442,6 +497,7 @@
         },
         {
             "nome": "Clair Obscur: Expedition 33 (Clipes)",
+            "tags": "Clair Obscur: Expedition 33 (Clipes)",
             "imagem": "1.jpg",
             "console": "Xbox",
             "consigla": "xbox",
@@ -450,6 +506,7 @@
         },
         {
             "nome": "Super Mario Bros.",
+            "tags": "Super Mario Bros. mario 1 nes nintendo",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
@@ -458,6 +515,7 @@
         },
         {
             "nome": "Super Mario Bros.",
+            "tags": "Super Mario Bros. mario 1 nes nintendo",
             "imagem": "1.jpg",
             "console": "Nintendo (NES)",
             "consigla": "nes",
@@ -466,6 +524,7 @@
         },
         {
             "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
+            "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -474,6 +533,7 @@
         },
         {
             "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
+            "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -482,6 +542,7 @@
         },
         {
             "nome": "Resident Evil 4 Remake (Clipes)",
+            "tags": "Resident Evil 4 Remake (Clipes) re4 re 4 re4 remake re 4 remake",
             "imagem": "1.jpg",
             "console": "Xbox",
             "consigla": "xbox",
@@ -490,6 +551,7 @@
         },
         {
             "nome": "Harry Potter and the Philosopher's Stone",
+            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -498,6 +560,7 @@
         },
         {
             "nome": "Harry Potter and the Philosopher's Stone",
+            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal",
             "imagem": "1.png",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -508,6 +571,7 @@
     "standalone": [
         {
             "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
+            "tags": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers coco",
             "imagem": "coco.jpg",
             "consigla": "etc",
             "curto": "coco",
@@ -518,6 +582,7 @@
         },
         {
             "nome": "Passeio de Bike pelo Parque Malwee em 2020",
+            "tags": "Passeio de Bike pelo Parque Malwee em 2020",
             "imagem": "bike2020.jpg",
             "consigla": "etc",
             "curto": "bike2020",
@@ -528,6 +593,7 @@
         },
         {
             "nome": "Testando Layout para Gameplays de PlayStation 1",
+            "tags": "Testando Layout para Gameplays de PlayStation 1 spongebob bob esponja ps1 psx",
             "imagem": "layout.jpg",
             "consigla": "etc",
             "curto": "layout",
@@ -538,6 +604,7 @@
         },
         {
             "nome": "Sarrada do MarceloSouzaF",
+            "tags": "Sarrada do MarceloSouzaF meme edit edição",
             "imagem": "sarrada.jpg",
             "consigla": "etc",
             "curto": "sarrada",
@@ -548,6 +615,7 @@
         },
         {
             "nome": "A MAIOR LIVE DO CANAL - 10 Horas de Duração",
+            "tags": "A MAIOR LIVE DO CANAL - 10 Horas de Duração recorde",
             "imagem": "livegrandona.png",
             "consigla": "etc",
             "curto": "livegrandona",
@@ -558,6 +626,7 @@
         },
         {
             "nome": "Marcelo reagindo à comentários em vídeo de Subway Money",
+            "tags": "Marcelo reagindo à comentários em vídeo de Subway Money Subway Surfers",
             "imagem": "kkkkkkkkk.jpg",
             "consigla": "etc",
             "curto": "kkkkkkkkk",
@@ -568,6 +637,7 @@
         },
         {
             "nome": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
+            "tags": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
             "imagem": "besouro.jpg",
             "consigla": "etc",
             "curto": "besouro",
@@ -578,6 +648,7 @@
         },
         {
             "nome": "Fim da maior live do canal (10 Horas)",
+            "tags": "Fim da maior live do canal (10 Horas) recorde",
             "imagem": "maiorliveclipe.jpg",
             "consigla": "etc",
             "curto": "maiorliveclipe",
@@ -588,6 +659,7 @@
         },
         {
             "nome": "Tentando jogar o melhor jogo de corrida de todos os tempos",
+            "tags": "Tentando jogar o melhor jogo de corrida de todos os tempos need for speed most wanted nfs most wanted",
             "imagem": "mostwantedteste.jpg",
             "consigla": "etc",
             "curto": "mostwantedteste",
@@ -598,6 +670,7 @@
         },
         {
             "nome": "Marcelo conversando sobre jogos da Rockstar",
+            "tags": "Marcelo conversando sobre jogos da Rockstar grand theft auto gta red dead revolver red dead redemption",
             "imagem": "rockstarcomp.jpg",
             "consigla": "etc",
             "curto": "rockstarcomp",
@@ -608,6 +681,7 @@
         },
         {
             "nome": "Gameplay de Killzone 2 no PlayStation 3",
+            "tags": "Gameplay de Killzone 2 no PlayStation 3 ps3",
             "imagem": "killzone2gameplay.jpg",
             "consigla": "etc",
             "curto": "killzone2gameplay",
@@ -618,6 +692,7 @@
         },
         {
             "nome": "Testando filtros do emulador",
+            "tags": "Testando filtros do emulador shaders retroarch",
             "imagem": "emufiltros.jpg",
             "consigla": "etc",
             "curto": "emufiltros",
@@ -628,6 +703,7 @@
         },
         {
             "nome": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀",
+            "tags": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀 livros escola inteligência sigma based",
             "imagem": "moggador.jpg",
             "consigla": "etc",
             "curto": "moggador",
@@ -638,6 +714,7 @@
         },
         {
             "nome": "Tech mostrando o ovo dele",
+            "tags": "Tech mostrando o ovo dele hitbox",
             "imagem": "ovo.png",
             "consigla": "etc",
             "curto": "ovo",
@@ -650,6 +727,7 @@
     "futurosjogos": [
         {
             "nome": "Need for Speed: Most Wanted",
+            "tags": "Need for Speed: Most Wanted nfs",
             "imagem": "1.jpg",
             "console": "GameCube",
             "consigla": "gc",
@@ -658,6 +736,7 @@
         },
         {
             "nome": "Super Mario Sunshine",
+            "tags": "Super Mario Sunshine delfino nintendo",
             "imagem": "1.jpg",
             "console": "GameCube",
             "consigla": "gc",

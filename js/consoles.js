@@ -29,8 +29,10 @@ function carregarJogos() {
               let jconsigla = data.jogos[i].consigla;
               let jcurto = data.jogos[i].curto;
               let jvod = data.jogos[i].vod;
+              let jtags = data.jogos[i].tags;
               let nomecomp;
-              nomecomp = jnome.replaceAll(/\s/g, "");
+              //nomecomp = jnome.replaceAll(/\s/g, "");
+              nomecomp = jtags.replaceAll(/\s/g, "");
               nomecomp = nomecomp.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
               nomecomp = nomecomp.replaceAll(/[áàâãÁÀÂÃ]/g,"a");
               nomecomp = nomecomp.replaceAll(/[íïÍÏ]/g,"i");
@@ -69,7 +71,8 @@ function carregarJogos() {
 }
 
 function resetarJogos(){
-    document.querySelector("#jsonParent").innerHTML = ""
+    document.querySelector("#jsonParent").innerHTML = "";
+    document.querySelector("#vodParent").innerHTML = "";
 }
 
 function carregarConsoles() {
