@@ -15,6 +15,14 @@
             "linkyt": "https://youtu.be/B1x_ev3YEH8",
             "duracao": "52:30",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS1 - Parte 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/H2ydxkJJdMU",
+            "duracao": "50:45",
+            "plataforma": "youtube"
         }
     ]
 }
