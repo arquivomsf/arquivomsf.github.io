@@ -4,7 +4,7 @@
             "nome": "Harry Potter e a Pedra Filosofal (PS1)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuq_xQyiS68xxQEDGizuOfe",
-            "quantidade": "?"
+            "quantidade": "5"
         }
     ],
     "videos": [
@@ -38,6 +38,14 @@
             "link": "",
             "linkyt": "https://youtu.be/J8w6649ilts",
             "duracao": "50:40",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS1 - Parte 5 - Problema no Jogo",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/9hjEORi6LdE",
+            "duracao": "28:29",
             "plataforma": "youtube"
         }
     ]
