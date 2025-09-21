@@ -566,6 +566,15 @@
             "consigla": "ps1",
             "curto": "harry-vod",
             "vod": "1"
+        },
+        {
+            "nome": "Need for Speed 2",
+            "tags": "Need for Speed 2 nfs 2",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "nfs2",
+            "vod": "0"
         }
     ],
     "standalone": [
