@@ -575,6 +575,15 @@
             "consigla": "ps1",
             "curto": "nfs2",
             "vod": "0"
+        },
+        {
+            "nome": "Megazord Power Rangers no Fortnite (Clipes)",
+            "tags": "Megazord Power Rangers no Fortnite (Clipes)",
+            "imagem": "1.jpg",
+            "console": "Xbox",
+            "consigla": "xbox",
+            "curto": "fort-megazord",
+            "vod": "0"
         }
     ],
     "standalone": [
