@@ -551,7 +551,7 @@
         },
         {
             "nome": "Harry Potter and the Philosopher's Stone",
-            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal",
+            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal ps1 playstation 1",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -560,7 +560,7 @@
         },
         {
             "nome": "Harry Potter and the Philosopher's Stone",
-            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal",
+            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal ps1 playstation 1",
             "imagem": "1.png",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -583,6 +583,15 @@
             "console": "Xbox",
             "consigla": "xbox",
             "curto": "fort-megazord",
+            "vod": "0"
+        },
+        {
+            "nome": "Harry Potter and the Philosopher's Stone",
+            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal ps2 playstation 2",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "harry",
             "vod": "0"
         }
     ],
