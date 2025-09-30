@@ -326,7 +326,7 @@
         },
         {
             "nome": "Pandemonium",
-            "tags": "Pandemonium pão demônio",
+            "tags": "Pandemonium 1 pão demônio 1",
             "imagem": "1.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
@@ -592,6 +592,15 @@
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "harry",
+            "vod": "0"
+        },
+        {
+            "nome": "Pandemonium 2",
+            "tags": "Pandemonium 2 pão demônio 2",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "pandemonium2",
             "vod": "0"
         }
     ],
