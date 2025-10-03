@@ -1,0 +1,20 @@
+{
+    "playlist": [
+        {
+            "nome": "Alien Trilogy (PS1 - VOD)",
+            "imagem": "png",
+            "link": "https://www.youtube.com/playlist?list=",
+            "quantidade": "?"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 1",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "",
+            "duracao": "0:00:00",
+            "plataforma": "youtube"
+        }
+    ]
+}

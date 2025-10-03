@@ -782,6 +782,15 @@
         {
             "nome": "GameCube",
             "sigla": "gc"
+        },
+        {
+            "nome": "Alien Trilogy",
+            "tags": "Alien Trilogy ps1 playstation 1",
+            "imagem": "1.png",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "alientri-vod",
+            "vod": "1"
         }
     ],
     "consoles": [
