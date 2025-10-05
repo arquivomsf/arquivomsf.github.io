@@ -1,124 +1,132 @@
 {
+    "playlist": [
+        {
+            "nome": "Resident Evil 4 Remake (Clipes)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvzclQXXB4fucCbsVBKEHKe",
+            "quantidade": "15"
+        }
+    ],
     "videos": [
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1HRFplN5wca5v63L_2-F4he0KxT6EMnzt/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/im-vOeO2nOU",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Du_8D48Zu0OQOAkfydXRfNFX6KfVuj_S/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ln4In5oJfsc",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1RObRAfN8OYu3Fxb8AwoV2tm0wj6LNdYY/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/xObnMq-QK5k",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1bP_PYbv0QLvO7jCdQCSciaSvKcu2M83I/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/jotaTgptA_Y",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1x7cKGjXY2RS6gIc3iI_hpJkNyYiGazb6/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Umwizngu36w",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1v0SgI4Bo7uts1t3SziWIodtesCmPXnjH/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ri7uJJtJp8I",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 7",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1JC_nLHdN6SYIb2H2-KvpQJITMve8Z0HO/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/vBxtKXfqJHg",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 8",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1q--cwzhK0NSgUjXMvfOzLCioGMFHz5l3/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/GJiYEAnSl1w",
             "duracao": "01:00",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 9",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1MQkWSE35u5uanB3699DLvtgorzGur7Yx/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/zrDpvPsdEos",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 10",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1LwNyuOwv7MH_M3OEp-9NjnCSjowHykuM/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/yfzIx7tPDW0",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 11",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1zqSXT9N5jgqSCAlHSziyvxjmanYBRRS_/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/9BlXSR8Mf3Q",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 12",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1zKfueds1eyEkbVRKmb8mXQnySn0VpOTM/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/4pxbhqjxug4",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 13",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/10ywp_4BIysfHXnez0OEiRPGxPB1NGW9D/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/OPglFTuIFQA",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 14",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1E3PCBDhBRgoJhXrbENT1FTbzwwLW5cN-/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/Jh9E5rGwjnU",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 15",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/15eIgDYUjhVuXJuXxTZTxVHbx48Q4wtCy/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/hBnaNtNedls",
             "duracao": "00:59",
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
