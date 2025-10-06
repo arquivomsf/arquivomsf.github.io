@@ -47,6 +47,22 @@
             "linkyt": "",
             "duracao": "50:23",
             "plataforma": "gdrive"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 7",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1IqgYKrwTRS-ZBNzOF6uLchBloGXLJ9pv/view",
+            "linkyt": "",
+            "duracao": "35:05",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 8",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1r5-NIrHwffJ3LPI7oE7_Bp0PX0d06Xsb/view",
+            "linkyt": "",
+            "duracao": "49:26",
+            "plataforma": "gdrive"
         }
     ]
 }
