@@ -611,6 +611,15 @@
             "consigla": "ps1",
             "curto": "pandemonium2",
             "vod": "0"
+        },
+        {
+            "nome": "Pandemonium 2",
+            "tags": "Pandemonium 2 pão demônio 2",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "pandemonium2-vod",
+            "vod": "1"
         }
     ],
     "standalone": [
