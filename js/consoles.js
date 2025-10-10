@@ -30,6 +30,7 @@ function carregarJogos() {
               let jcurto = data.jogos[i].curto;
               let jvod = data.jogos[i].vod;
               let jtags = data.jogos[i].tags;
+              let jstatus = data.jogos[i].status;
               let nomecomp;
               //nomecomp = jnome.replaceAll(/\s/g, "");
               nomecomp = jtags.replaceAll(/\s/g, "");
@@ -47,7 +48,10 @@ function carregarJogos() {
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
                           <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
-                            <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon"><br>
+                            <div class="thumbnail">
+                                <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
+                                <span class="video-length"><i class="fa fa-fw fa-${jstatus}"></i></span>
+                            </div>
                             <span class="flow-text title">${jnome}</span>
                           </a>
                         </div>`;
@@ -55,11 +59,10 @@ function carregarJogos() {
                       document.querySelector("#vodParent").innerHTML += `
                         <div class="col">
                           <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
-                            <!--<div class="thumbnail">
+                            <div class="thumbnail">
                                 <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
-                                <span class="video-length">VOD</span>
-                            </div>-->
-                            <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
+                                <span class="video-length"><i class="fa fa-fw fa-${jstatus}"></i></span>
+                            </div>
                             <span class="flow-text title">${jnome}</span>
                           </a>
                         </div>`;
