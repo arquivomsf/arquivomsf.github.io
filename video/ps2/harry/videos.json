@@ -71,6 +71,22 @@
             "linkyt": "",
             "duracao": "52:01",
             "plataforma": "gdrive"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 10",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/12i7hJ_GIAhbv0AjsqRu-bTftAnnbXZ8U/view",
+            "linkyt": "",
+            "duracao": "50:30",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 11",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/14QERlGjeg1a11I77MxIO5ItcYAdCAWoo/view",
+            "linkyt": "",
+            "duracao": "54:05",
+            "plataforma": "gdrive"
         }
     ]
 }
