@@ -4,7 +4,7 @@
             "nome": "Resident Evil 4 Remake (Clipes)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvzclQXXB4fucCbsVBKEHKe",
-            "quantidade": "15"
+            "quantidade": "28"
         }
     ],
     "videos": [
@@ -125,6 +125,110 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/15eIgDYUjhVuXJuXxTZTxVHbx48Q4wtCy/view",
             "linkyt": "https://youtu.be/hBnaNtNedls",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 16",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/R17NDjkzOaU",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 17",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/e7jMDofk2Ik",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 18",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/cX8z8vr8nGs",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 19",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/xYP59ml_460",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 20",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/r-s-mpDUQdA",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 21",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Ik_DjaAQdaE",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 22",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/FGkFyWvCPe8",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 23",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/iO0_pFl0JcE",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 24",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/1oYw5pIRISA",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 25",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/le8oGFH_qKY",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 26",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/cTbLF0XDvjc",
+            "duracao": "00:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 27",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/bbdCH4lE0_8",
+            "duracao": "00:58",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "RE4 Remake - Xbox Series S Gameplay 28",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/QCcfJJFEbyg",
             "duracao": "00:59",
             "plataforma": "youtube"
         }
