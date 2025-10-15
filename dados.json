@@ -663,7 +663,7 @@
         {
             "nome": "Harry Potter and the Philosopher's Stone",
             "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal ps2 playstation 2",
-            "status": "refresh",
+            "status": "check",
             "imagem": "1.jpg",
             "console": "PlayStation 2",
             "consigla": "ps2",
@@ -688,6 +688,42 @@
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "pandemonium2-vod",
+            "vod": "1"
+        }
+    ],
+    "futurosjogos": [
+        {
+            "nome": "Need for Speed: Most Wanted",
+            "tags": "Need for Speed: Most Wanted nfs",
+            "status": "refresh",
+            "imagem": "1.jpg",
+            "console": "GameCube",
+            "consigla": "gc",
+            "curto": "nfsmostwanted",
+            "vod": "0"
+        },
+        {
+            "nome": "Super Mario Sunshine",
+            "tags": "Super Mario Sunshine delfino nintendo",
+            "status": "refresh",
+            "imagem": "1.jpg",
+            "console": "GameCube",
+            "consigla": "gc",
+            "curto": "sunshine",
+            "vod": "0"
+        },
+        {
+            "nome": "GameCube",
+            "sigla": "gc"
+        },
+        {
+            "nome": "Alien Trilogy",
+            "tags": "Alien Trilogy ps1 playstation 1",
+            "status": "refresh",
+            "imagem": "1.png",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "alientri-vod",
             "vod": "1"
         }
     ],
@@ -845,42 +881,6 @@
             "linkyt": "https://youtu.be/UNsiqLRMA30",
             "duracao": "01:20",
             "plataforma": "youtube"
-        }
-    ],
-    "futurosjogos": [
-        {
-            "nome": "Need for Speed: Most Wanted",
-            "tags": "Need for Speed: Most Wanted nfs",
-            "status": "refresh",
-            "imagem": "1.jpg",
-            "console": "GameCube",
-            "consigla": "gc",
-            "curto": "nfsmostwanted",
-            "vod": "0"
-        },
-        {
-            "nome": "Super Mario Sunshine",
-            "tags": "Super Mario Sunshine delfino nintendo",
-            "status": "refresh",
-            "imagem": "1.jpg",
-            "console": "GameCube",
-            "consigla": "gc",
-            "curto": "sunshine",
-            "vod": "0"
-        },
-        {
-            "nome": "GameCube",
-            "sigla": "gc"
-        },
-        {
-            "nome": "Alien Trilogy",
-            "tags": "Alien Trilogy ps1 playstation 1",
-            "status": "refresh",
-            "imagem": "1.png",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "alientri-vod",
-            "vod": "1"
         }
     ],
     "consoles": [
