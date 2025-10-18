@@ -689,6 +689,16 @@
             "consigla": "ps1",
             "curto": "pandemonium2-vod",
             "vod": "1"
+        },
+        {
+            "nome": "Alien Trilogy",
+            "tags": "Alien Trilogy ps1 playstation 1",
+            "status": "refresh",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "alientri",
+            "vod": "0"
         }
     ],
     "futurosjogos": [
