@@ -14,7 +14,7 @@
             "imagem": "../../etc/ovo.png",
             "link": "",
             "linkyt": "https://youtu.be/UNsiqLRMA30",
-            "duracao": "01:20",
+            "duracao": "1:20",
             "plataforma": "youtube"
         },
         {
@@ -23,7 +23,7 @@
             "imagem": "lilo_cena1.png",
             "link": "https://drive.google.com/file/d/15pvtlwLkyxN7zQODHjEioi2QL30VoRc6/view",
             "linkyt": "",
-            "duracao": "01:27",
+            "duracao": "1:27",
             "plataforma": "gdrive"
         },
         {
@@ -32,7 +32,7 @@
             "imagem": "lilo_cena2.png",
             "link": "https://drive.google.com/file/d/1ywkaoYGjfP3i8jpXpnN4_aEPVwGqYIKT/view",
             "linkyt": "",
-            "duracao": "00:26",
+            "duracao": "0:26",
             "plataforma": "gdrive"
         },
         {
@@ -41,7 +41,7 @@
             "imagem": "lilo_cena3.png",
             "link": "https://drive.google.com/file/d/1gG3RsIMQm5q7nM8O9Vm7zAnm7DRkJp5s/view",
             "linkyt": "",
-            "duracao": "00:30",
+            "duracao": "0:30",
             "plataforma": "gdrive"
         },
         {
@@ -50,7 +50,7 @@
             "imagem": "lilo_cena4.png",
             "link": "https://drive.google.com/file/d/1oQDuNQh2MpZXsjtJcpYRG25GAwf3sP5x/view",
             "linkyt": "",
-            "duracao": "00:41",
+            "duracao": "0:41",
             "plataforma": "gdrive"
         },
         {
@@ -59,7 +59,7 @@
             "imagem": "lilo_cena5.png",
             "link": "https://drive.google.com/file/d/17758R90XfQSq9JDg24lwbeZqAzFSYBwU/view",
             "linkyt": "",
-            "duracao": "00:26",
+            "duracao": "0:26",
             "plataforma": "gdrive"
         },
         {
@@ -68,7 +68,7 @@
             "imagem": "lilo_cena6.png",
             "link": "https://drive.google.com/file/d/1A8RVp2g1Qkue0rbrfVnLmpsHyhYTbC3C/view",
             "linkyt": "",
-            "duracao": "00:58",
+            "duracao": "0:58",
             "plataforma": "gdrive"
         },
         {
@@ -77,7 +77,7 @@
             "imagem": "lilo_cena7.png",
             "link": "https://drive.google.com/file/d/1Bd7v9FLftL8hi56XPYLSgTRgQOtld7Se/view",
             "linkyt": "",
-            "duracao": "01:18",
+            "duracao": "1:18",
             "plataforma": "gdrive"
         }
     ],

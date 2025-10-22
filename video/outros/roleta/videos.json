@@ -2,18 +2,18 @@
     "playlist": [
         {
             "nome": "Roleta do Malsebo",
-            "imagem": "jpg",
-            "link": "",
+            "imagem": "png",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvDy29dorM-odAwFB-wemNy",
             "quantidade": "?"
         }
     ],
     "videos": [
         {
             "nome": "Roleta do Malsebo - 15/10/2025 a 20/10/2025",
-            "imagem": "jpg",
+            "imagem": "png",
             "link": "",
-            "linkyt": "",
-            "duracao": "0:00:00",
+            "linkyt": "https://youtu.be/8lGPfgl3Ppk",
+            "duracao": "4:07:41",
             "plataforma": "youtube"
         }
     ]
