@@ -745,6 +745,16 @@
         {
             "nome": "GameCube",
             "sigla": "gc"
+        },
+        {
+            "nome": "The Suffering",
+            "tags": "The Suffering sofrimento ps2 playstation 2",
+            "status": "refresh",
+            "imagem": "1.jpg",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "suffering",
+            "vod": "0"
         }
     ],
     "standalone": [
