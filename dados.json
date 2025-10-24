@@ -719,6 +719,16 @@
             "consigla": "outros",
             "curto": "roleta",
             "vod": "1"
+        },
+        {
+            "nome": "Fortnite 2025 (Clipes)",
+            "tags": "Fortnite 2025 (Clipes)",
+            "status": "check",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "fort-2025",
+            "vod": "0"
         }
     ],
     "futurosjogos": [
@@ -921,6 +931,17 @@
             "link": "https://drive.google.com/file/d/13q9tqcTRD0kRXyr2dZb5tLn00_7MCik7/view",
             "linkyt": "",
             "duracao": "8:44",
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Mais um Subway Surfers Brainrot",
+            "tags": "Mais um Subway Surfers Brainrot subway brainrot",
+            "imagem": "subwaybrainrot2.jpg",
+            "consigla": "etc",
+            "curto": "subwaybrainrot2",
+            "link": "https://drive.google.com/file/d/1K30_s5CVmgAzEqXf9BflQoI_YW286fwW/view",
+            "linkyt": "",
+            "duracao": "8:10",
             "plataforma": "gdrive"
         }
     ],
