@@ -1,4 +1,20 @@
 {
+    "playlist": [
+        {
+            "nome": "Need for Speed 2 (PS1)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtZqdIlF5pQl5Rr8RjKGHv8",
+            "quantidade": "7"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Need for Speed 2 de PlayStation 1 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/Duw7wEnlhOc",
+            "duracao": "21:47"
+        }
+    ],
     "videos": [
         {
             "nome": "Need for Speed 2 de PS1 - Parte 1",
