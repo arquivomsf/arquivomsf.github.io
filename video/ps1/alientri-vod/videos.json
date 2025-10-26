@@ -39,6 +39,22 @@
             "linkyt": "https://youtu.be/IUKa8iZ67KU",
             "duracao": "1:46:28",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 5",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/UpYxOBL2b0s",
+            "duracao": "1:59:56",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 6",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/6OaX4ABcCrE",
+            "duracao": "1:47:33",
+            "plataforma": "youtube"
         }
     ]
 }
