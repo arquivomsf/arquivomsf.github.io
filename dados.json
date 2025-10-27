@@ -729,9 +729,39 @@
             "consigla": "outros",
             "curto": "fort-2025",
             "vod": "0"
+        },
+        {
+            "nome": "Fortnite Outubro 2025 (Clipes)",
+            "tags": "Fortnite Outubro 2025 (Clipes)",
+            "status": "refresh",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "fort-outubro2025",
+            "vod": "0"
         }
     ],
     "futurosjogos": [
+        {
+            "nome": "Castlevania: Symphony of the Night",
+            "tags": "Castlevania: Symphony of the Night akumajo dracula akumajou dracula akumajyo dracula akumajo dorakyura akumajou dorakyura akumajyo dorakyura sinfonia da noite metroidvania alucard ps1 playstation 1",
+            "status": "refresh",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "symphony",
+            "vod": "0"
+        },
+        {
+            "nome": "Castlevania: Symphony of the Night",
+            "tags": "Castlevania: Symphony of the Night akumajo dracula akumajou dracula akumajyo dracula akumajo dorakyura akumajou dorakyura akumajyo dorakyura sinfonia da noite metroidvania alucard ps1 playstation 1",
+            "status": "refresh",
+            "imagem": "1.jpg",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "symphony-vod",
+            "vod": "1"
+        },
         {
             "nome": "Need for Speed: Most Wanted",
             "tags": "Need for Speed: Most Wanted nfs",
