@@ -4,10 +4,18 @@
             "nome": "Fortnite 2025 (Clipes)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt9as6fXp4PKGRlm8dLtKYY",
-            "quantidade": "9"
+            "quantidade": "21"
         }
     ],
     "videos": [
+        {
+            "nome": "Gameplay 1 - Fortnite Outubro 2025",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/10SP-k8TRGAdJycPlEVXpCfEB2Oc3cg9z/view",
+            "linkyt": "https://youtu.be/nOXOg4uxtiE",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
         {
             "nome": "Gameplay 2 - Fortnite 2025",
             "imagem": "jpg",
@@ -78,6 +86,94 @@
             "link": "https://drive.google.com/file/d/18hbXt9mTTlRtYnJgOC7F0Y8OobHNpeA4/view",
             "linkyt": "https://youtu.be/yUQKUhn_-L4",
             "duracao": "0:58",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 11 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/joyBnTjn8Ss",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 12 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/3yY-xsxRvOY",
+            "duracao": "0:58",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 13 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/vM73HQ4ueZc",
+            "duracao": "0:58",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 14 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/8uhViFJL3dA",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 15 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/HLPp6QCFIPI",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 16 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/rIUUKgJCIvM",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 17 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/J36JZZAgoDo",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 18 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/pGN6Qp6rD0g",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 19 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/z6KWqclLmLk",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 20 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/E7gt6N-FXlc",
+            "duracao": "0:59",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Gameplay 21 - Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/7vJAX2PIBSs",
+            "duracao": "0:59",
             "plataforma": "youtube"
         }
     ]

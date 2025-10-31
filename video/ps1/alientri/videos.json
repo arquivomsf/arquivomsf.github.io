@@ -71,6 +71,22 @@
             "linkyt": "https://youtu.be/96NotcP_pck",
             "duracao": "44:54",
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 8",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/qnhguo82Boc",
+            "duracao": "20:47",
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 9",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/QSxMmo8pyls",
+            "duracao": "51:35",
+            "plataforma": "youtube"
         }
     ]
 }

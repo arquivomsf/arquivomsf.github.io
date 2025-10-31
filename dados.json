@@ -694,7 +694,7 @@
             "nome": "Alien Trilogy",
             "tags": "Alien Trilogy ps1 playstation 1",
             "status": "refresh",
-            "imagem": "1.jpg",
+            "imagem": "2.jpg",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "alientri",
@@ -723,21 +723,11 @@
         {
             "nome": "Fortnite 2025 (Clipes)",
             "tags": "Fortnite 2025 (Clipes)",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "fort-2025",
-            "vod": "0"
-        },
-        {
-            "nome": "Fortnite Outubro 2025 (Clipes)",
-            "tags": "Fortnite Outubro 2025 (Clipes)",
             "status": "refresh",
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
-            "curto": "fort-outubro2025",
+            "curto": "fort-2025",
             "vod": "0"
         }
     ],
