@@ -152,8 +152,8 @@ function carregarJogos() {
                                 <img src="video/${otconsigla}/${otcurto}/${otimagem}" alt="" class="img-fluid linkicon">
                                 <span class="video-length"></span>
                             </div>
-                            <span class="flow-text title">${otnome}</span></a><br>
-                        <a href="console?id=${otconsigla}" class="blacklink"><span class="flow-text subtitle">${otconsole}</span></a>
+                            <span class="flow-text title">${otnome}</span>
+                        </a>
                     </div>`;
                 /*if (jvod == 0) {
                     document.querySelector("#jogosParent").innerHTML += `

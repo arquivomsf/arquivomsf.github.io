@@ -3,30 +3,22 @@
         {
             "nome": "Episódios da CosTV",
             "imagem": "1.jpg",
-            "quantidade": "10"
-        }
-    ],
-    "vodsoficiais": [
-        {
-            "nome": "VODs Oficiais",
-            "imagem": "jpg",
-            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvs6kEhCWP6eTx7jXo3lV8q9",
-            "quantidade": "8"
+            "quantidade": "40"
         }
     ],
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
             "imagem": "1.jpg",
-            "quantidade": "9"
+            "quantidade": "11"
         }
     ],
     "analise": [
         {
-            "nome": "SpongeBob SquarePants SuperSponge de PlayStation 1 | Análise do Jogo",
+            "nome": "The Sims de PlayStation 2 | Análise do Jogo",
             "imagem": "jpg",
-            "link": "https://youtu.be/b1eG7r52gQ0",
-            "duracao": "8:50"
+            "link": "https://youtu.be/puIgn6LoeUs",
+            "duracao": "19:29"
         }
     ]
 }
