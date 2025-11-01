@@ -11,7 +11,11 @@
             "nome": "Donald Duck Goin' Quackers de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/pOq9FIEXNd8",
-            "duracao": "6:22"
+            "duracao": {
+                "horas": 0,
+                "minutos": 6,
+                "segundos": 22
+            }
         }
     ]
 }

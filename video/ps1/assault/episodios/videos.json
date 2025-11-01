@@ -13,7 +13,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1AJwCpDEbvPcx3oYZaJXGkPmVB4g5Zbp0/view",
             "linkyt": "https://youtu.be/ytKJfEZtwdQ",
-            "duracao": "56:23",
+            "duracao": {
+                "horas": 0,
+                "minutos": 56,
+                "segundos": 23
+            },
             "plataforma": "youtube"
         },
         {
@@ -21,7 +25,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1beMe4t38zLx-mL8j8vaav5bVA60Fw8Gk/view",
             "linkyt": "https://youtu.be/XMP_OxWgOiM",
-            "duracao": "31:16",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 16
+            },
             "plataforma": "youtube"
         },
         {
@@ -29,7 +37,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/19tlcciW5v43Qk58931SIOrLEf82MADdH/view",
             "linkyt": "https://youtu.be/NvJUnqMAFSM",
-            "duracao": "59:50",
+            "duracao": {
+                "horas": 0,
+                "minutos": 59,
+                "segundos": 50
+            },
             "plataforma": "youtube"
         },
         {
@@ -37,7 +49,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/19Q7PDit0m2NI8ucoYPLObXRRyNl0Vrj1/view",
             "linkyt": "https://youtu.be/PTyGJkTnE7A",
-            "duracao": "27:34",
+            "duracao": {
+                "horas": 0,
+                "minutos": 27,
+                "segundos": 34
+            },
             "plataforma": "youtube"
         }
     ]

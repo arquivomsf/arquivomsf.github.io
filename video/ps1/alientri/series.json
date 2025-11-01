@@ -18,7 +18,11 @@
             "nome": "SpongeBob SquarePants SuperSponge de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/b1eG7r52gQ0",
-            "duracao": "8:50"
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 50
+            }
         }
     ]
 }

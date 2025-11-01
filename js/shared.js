@@ -106,3 +106,38 @@ function resetarString() {
     document.querySelector("#inputPesquisa").value = "";
     stringPesquisa = "";
 }
+
+
+//erro 404 - consoles e temas
+function start404(){
+    fetch("https://arquivomsf.github.io/dados.json")
+      .then(response => response.json())
+      .then(data => {
+          for (var i = 0; i<data.consoles.length; i++){
+              let cnome = data.consoles[i].nome;
+              let csigla = data.consoles[i].sigla;
+              document.querySelector("#conJsonParent").innerHTML += `
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
+                </li>`;
+          }
+          for (var i = 0; i<data.temas.length; i++){
+            let tnome = data.temas[i].nome;
+            let tvalor = data.temas[i].valor;
+            document.querySelector("#themes_select").innerHTML += `
+              <option value="${tvalor}">${tnome}</option>`;
+          }
+          startTema();
+      })
+}
+
+//gerar string de timestamp
+function gerar_timestamp(horas, minutos, segundos) {
+    if (horas == 0 && minutos == 0 && segundos == 0) return "Perdido"
+
+    if (horas > 0 && minutos < 10) minutos = String(minutos).padStart(2, '0');
+    if (minutos > 0 && segundos < 10) segundos = String(segundos).padStart(2, '0');
+
+    if (horas > 0) return `${horas}:${minutos}:${segundos}`
+    return `${minutos}:${segundos}`
+}

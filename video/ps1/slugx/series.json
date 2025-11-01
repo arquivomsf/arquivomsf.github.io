@@ -11,7 +11,11 @@
             "nome": "Metal Slug X de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/yWOS3k1dn_A",
-            "duracao": "4:58"
+            "duracao": {
+                "horas": 0,
+                "minutos": 4,
+                "segundos": 58
+            }
         }
     ]
 }

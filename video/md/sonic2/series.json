@@ -11,7 +11,11 @@
             "nome": "Sonic 2 de Mega Drive | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/4n2Ydi3qcjI",
-            "duracao": "7:06"
+            "duracao": {
+                "horas": 0,
+                "minutos": 7,
+                "segundos": 6
+            }
         }
     ]
 }

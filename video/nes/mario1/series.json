@@ -18,7 +18,11 @@
             "nome": "Super Mario Bros de NES | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/NN06Y7oSTYw",
-            "duracao": "9:51"
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 51
+            }
         }
     ]
 }

@@ -496,7 +496,11 @@
             "curto": "coco",
             "link": "https://drive.google.com/file/d/13GLcHstrwxP5MjyujZT2BthBPxgwM38i/view",
             "linkyt": "https://youtu.be/RDhv4UDwxYQ",
-            "duracao": "5:25",
+            "duracao": {
+                "horas": 0,
+                "minutos": 5,
+                "segundos": 25
+            },
             "plataforma": "youtube"
         },
         {
@@ -507,7 +511,11 @@
             "curto": "bike2020",
             "link": "https://drive.google.com/file/d/13T0Vd5avB7rTIxq2Lu9u2LJO21mB4RF3/view",
             "linkyt": "",
-            "duracao": "4:00",
+            "duracao": {
+                "horas": 0,
+                "minutos": 4,
+                "segundos": 0
+            },
             "plataforma": "gdrive"
         },
         {
@@ -518,7 +526,11 @@
             "curto": "layout",
             "link": "https://drive.google.com/file/d/1T1eQI-25GnMSNYXU98AwS49-7sCrqQ9e/view",
             "linkyt": "https://youtu.be/RbITng3g_vE",
-            "duracao": "25:37",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 37
+            },
             "plataforma": "youtube"
         },
         {
@@ -529,7 +541,11 @@
             "curto": "sarrada",
             "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
             "linkyt": "",
-            "duracao": "0:57",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 57
+            },
             "plataforma": "gdrive"
         },
         {
@@ -540,7 +556,11 @@
             "curto": "livegrandona",
             "link": "https://drive.google.com/file/d/1FQL6YPA3jEm78vd_F3wM6CzO-MyXm04J/view",
             "linkyt": "",
-            "duracao": "4:09",
+            "duracao": {
+                "horas": 0,
+                "minutos": 4,
+                "segundos": 9
+            },
             "plataforma": "gdrive"
         },
         {
@@ -551,7 +571,11 @@
             "curto": "kkkkkkkkk",
             "link": "",
             "linkyt": "https://youtu.be/OiCMeA0VREM",
-            "duracao": "2:05",
+            "duracao": {
+                "horas": 0,
+                "minutos": 2,
+                "segundos": 5
+            },
             "plataforma": "youtube"
         },
         {
@@ -562,7 +586,11 @@
             "curto": "besouro",
             "link": "",
             "linkyt": "https://youtu.be/KMGz80arNjQ",
-            "duracao": "8:13",
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 13
+            },
             "plataforma": "youtube"
         },
         {
@@ -573,7 +601,11 @@
             "curto": "maiorliveclipe",
             "link": "",
             "linkyt": "https://youtu.be/ysesUFblPpw",
-            "duracao": "2:39",
+            "duracao": {
+                "horas": 0,
+                "minutos": 2,
+                "segundos": 39
+            },
             "plataforma": "youtube"
         },
         {
@@ -584,7 +616,11 @@
             "curto": "mostwantedteste",
             "link": "https://drive.google.com/file/d/1QWkoiRKTLcG8zBjQ5liwaCdaPznh-9mh/view",
             "linkyt": "https://youtu.be/LpDp_1i87sE",
-            "duracao": "28:20",
+            "duracao": {
+                "horas": 0,
+                "minutos": 28,
+                "segundos": 20
+            },
             "plataforma": "youtube"
         },
         {
@@ -595,7 +631,11 @@
             "curto": "rockstarcomp",
             "link": "",
             "linkyt": "https://youtu.be/m4gjIiIMU2Y",
-            "duracao": "10:35",
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 35
+            },
             "plataforma": "youtube"
         },
         {
@@ -606,7 +646,11 @@
             "curto": "killzone2gameplay",
             "link": "https://drive.google.com/file/d/1kzwCbOGnGd1VeJEBRInjgb4nXF9_prUc/view",
             "linkyt": "https://youtu.be/q4OuFcihe9I",
-            "duracao": "34:47",
+            "duracao": {
+                "horas": 0,
+                "minutos": 34,
+                "segundos": 47
+            },
             "plataforma": "youtube"
         },
         {
@@ -617,7 +661,11 @@
             "curto": "emufiltros",
             "link": "",
             "linkyt": "https://youtu.be/4P92D3gxZQw",
-            "duracao": "24:18",
+            "duracao": {
+                "horas": 0,
+                "minutos": 24,
+                "segundos": 18
+            },
             "plataforma": "youtube"
         },
         {
@@ -628,7 +676,11 @@
             "curto": "moggador",
             "link": "",
             "linkyt": "https://youtu.be/I7COFJf3u5U",
-            "duracao": "27:30",
+            "duracao": {
+                "horas": 0,
+                "minutos": 27,
+                "segundos": 30
+            },
             "plataforma": "youtube"
         },
         {
@@ -639,7 +691,11 @@
             "curto": "ovo",
             "link": "",
             "linkyt": "https://youtu.be/UNsiqLRMA30",
-            "duracao": "1:20",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 20
+            },
             "plataforma": "youtube"
         },
         {
@@ -650,7 +706,11 @@
             "curto": "subwaybrainrot",
             "link": "https://drive.google.com/file/d/13q9tqcTRD0kRXyr2dZb5tLn00_7MCik7/view",
             "linkyt": "",
-            "duracao": "8:44",
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 44
+            },
             "plataforma": "gdrive"
         },
         {
@@ -661,7 +721,11 @@
             "curto": "subwaybrainrot2",
             "link": "https://drive.google.com/file/d/1K30_s5CVmgAzEqXf9BflQoI_YW286fwW/view",
             "linkyt": "",
-            "duracao": "8:10",
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 10
+            },
             "plataforma": "gdrive"
         }
     ],

@@ -179,7 +179,8 @@ function carregarVideos() {
           let opnome = data.analise[0].nome;
           let opimagem = data.analise[0].imagem;
           let oplink = data.analise[0].link;
-          let opduracao = data.analise[0].duracao;
+          //let opduracao = data.analise[0].duracao;
+          let opduracao = gerar_timestamp(data.analise[0].duracao.horas,data.analise[0].duracao.minutos,data.analise[0].duracao.segundos);
           document.querySelector("#jsonParent").innerHTML += `
             <div class="col">
               <a href="${oplink}" target="_blank" class="blacklink">

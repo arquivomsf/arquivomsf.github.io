@@ -11,7 +11,11 @@
             "nome": "T'ai Fu: Wrath of the Tiger de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/gxrKnbbFbek",
-            "duracao": "5:06"
+            "duracao": {
+                "horas": 0,
+                "minutos": 5,
+                "segundos": 6
+            }
         }
     ]
 }

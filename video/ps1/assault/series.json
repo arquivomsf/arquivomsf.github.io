@@ -11,7 +11,11 @@
             "nome": "Assault Retribution de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/Xwi-1onfa-o",
-            "duracao": "8:29"
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 29
+            }
         }
     ]
 }

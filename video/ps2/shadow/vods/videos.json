@@ -13,7 +13,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/19LNnlQh-C_6z597LLiJFA5eei1VFbirA/view",
             "linkyt": "https://youtu.be/gZepsoCOaSo",
-            "duracao": "1:08:03",
+            "duracao": {
+                "horas": 1,
+                "minutos": 8,
+                "segundos": 3
+            },
             "plataforma": "youtube"
         },
         {
@@ -21,7 +25,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1QK0My3Qr70l3ETwexS11zjqaraT3g1DX/view",
             "linkyt": "https://youtu.be/je0QET9131k",
-            "duracao": "1:42:26",
+            "duracao": {
+                "horas": 1,
+                "minutos": 42,
+                "segundos": 26
+            },
             "plataforma": "youtube"
         }
     ]

@@ -11,7 +11,11 @@
             "nome": "Jackal de NES | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/2JRFtEgeqrY",
-            "duracao": "8:45"
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 45
+            }
         }
     ]
 }

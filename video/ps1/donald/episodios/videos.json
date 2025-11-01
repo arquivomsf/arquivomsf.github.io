@@ -13,7 +13,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1Qmh3N6MCIda-tw0H5_WN4gKYt8nhWBBt/view",
             "linkyt": "https://youtu.be/TKX7oAI87bI",
-            "duracao": "59:57",
+            "duracao": {
+                "horas": 0,
+                "minutos": 59,
+                "segundos": 57
+            },
             "plataforma": "youtube"
         },
         {
@@ -21,7 +25,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1MbHLXkiqZkz50f-juMccXhmjcBzu2zck/view",
             "linkyt": "https://youtu.be/zYvCKIcpcwQ",
-            "duracao": "42:00",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 0
+            },
             "plataforma": "youtube"
         },
         {
@@ -29,7 +37,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1K9KifnDWNObK8d3OKPwRoCRCElxW0w7O/view",
             "linkyt": "https://youtu.be/oyrYhosi17s",
-            "duracao": "52:07",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 7
+            },
             "plataforma": "youtube"
         },
         {
@@ -37,7 +49,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1V8d6gSEGUOvolvX-l7eqyIhcmc0fouq8/view",
             "linkyt": "https://youtu.be/1S5FxMBOCHo",
-            "duracao": "57:51",
+            "duracao": {
+                "horas": 0,
+                "minutos": 57,
+                "segundos": 51
+            },
             "plataforma": "youtube"
         },
         {
@@ -45,7 +61,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1toRgU2lYFQ0Ve-NPlidUvSsGqWc9MPWg/view",
             "linkyt": "https://youtu.be/Ow_Uqd1IBgs",
-            "duracao": "38:59",
+            "duracao": {
+                "horas": 0,
+                "minutos": 38,
+                "segundos": 59
+            },
             "plataforma": "youtube"
         },
         {
@@ -53,7 +73,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ZPXQx6bQ1B9XIZTP-jpMU1OU_sw9oT77/view",
             "linkyt": "https://youtu.be/AaLAmVn9Bew",
-            "duracao": "33:36",
+            "duracao": {
+                "horas": 0,
+                "minutos": 33,
+                "segundos": 36
+            },
             "plataforma": "youtube"
         }
     ]

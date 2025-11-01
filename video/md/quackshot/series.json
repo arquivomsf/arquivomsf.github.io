@@ -11,7 +11,11 @@
             "nome": "Quackshot de Mega Drive | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/zAMSVW0Bk3A",
-            "duracao": "13:01"
+            "duracao": {
+                "horas": 0,
+                "minutos": 13,
+                "segundos": 1
+            }
         }
     ]
 }

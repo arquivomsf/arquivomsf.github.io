@@ -18,7 +18,11 @@
             "nome": "Black de PlayStation 2 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/V31OMZ1-P-k",
-            "duracao": "17:25"
+            "duracao": {
+                "horas": 0,
+                "minutos": 17,
+                "segundos": 25
+            }
         }
     ]
 }

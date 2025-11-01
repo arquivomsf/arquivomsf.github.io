@@ -11,7 +11,11 @@
             "nome": "Não suportei o final do Red Dead Revolver",
             "imagem": "jpg",
             "link": "https://youtu.be/7c9DwgLmb6U",
-            "duracao": "10:53"
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 53
+            }
         }
     ]
 }

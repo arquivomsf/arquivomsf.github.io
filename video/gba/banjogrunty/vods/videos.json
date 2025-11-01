@@ -14,7 +14,11 @@
             "imagem": "../../../etc/rockstarcomp.jpg",
             "link": "",
             "linkyt": "https://youtu.be/m4gjIiIMU2Y",
-            "duracao": "10:35",
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 35
+            },
             "plataforma": "youtube"
         }
     ],
@@ -24,7 +28,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/NtecAxd0Y8A",
-            "duracao": "1:17:36",
+            "duracao": {
+                "horas": 1,
+                "minutos": 17,
+                "segundos": 36
+            },
             "plataforma": "youtube"
         },
         {
@@ -32,7 +40,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/PErbvia9RN4",
-            "duracao": "53:20",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 20
+            },
             "plataforma": "youtube"
         },
         {
@@ -40,7 +52,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/HQGv1DMGURg",
-            "duracao": "1:11:36",
+            "duracao": {
+                "horas": 1,
+                "minutos": 11,
+                "segundos": 36
+            },
             "plataforma": "youtube"
         },
         {
@@ -48,7 +64,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/lfWfq33YpqY",
-            "duracao": "50:17",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 17
+            },
             "plataforma": "youtube"
         },
         {
@@ -56,7 +76,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/58WXxmqdqzI",
-            "duracao": "53:47",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 47
+            },
             "plataforma": "youtube"
         },
         {
@@ -64,7 +88,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/Dt4ddXAmdjU",
-            "duracao": "43:29",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 29
+            },
             "plataforma": "youtube"
         },
         {
@@ -72,7 +100,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/Rv_Fih0THV8",
-            "duracao": "21:20",
+            "duracao": {
+                "horas": 0,
+                "minutos": 21,
+                "segundos": 20
+            },
             "plataforma": "youtube"
         },
         {
@@ -80,7 +112,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/mo87NpWumIk",
-            "duracao": "26:31",
+            "duracao": {
+                "horas": 0,
+                "minutos": 26,
+                "segundos": 31
+            },
             "plataforma": "youtube"
         },
         {
@@ -88,7 +124,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/YtOlnNCTiXc",
-            "duracao": "47:04",
+            "duracao": {
+                "horas": 0,
+                "minutos": 47,
+                "segundos": 4
+            },
             "plataforma": "youtube"
         },
         {
@@ -96,7 +136,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/bvAPyABbXcU",
-            "duracao": "1:10:18",
+            "duracao": {
+                "horas": 1,
+                "minutos": 10,
+                "segundos": 18
+            },
             "plataforma": "youtube"
         },
         {
@@ -104,7 +148,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/TkCGHPYz9C4",
-            "duracao": "46:18",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 18
+            },
             "plataforma": "youtube"
         }
     ]

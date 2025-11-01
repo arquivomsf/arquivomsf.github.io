@@ -11,7 +11,11 @@
             "nome": "Carros de PlayStation 2 vai além do conteúdo do filme",
             "imagem": "jpg",
             "link": "https://youtu.be/Zea353r9yj0",
-            "duracao": "8:31"
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 31
+            }
         }
     ]
 }

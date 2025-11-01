@@ -59,7 +59,8 @@ function carregarVideos() {
                   let enome = data.extras[i].nome;
                   let eimagem = data.extras[i].imagem;
                   let elinkyt = data.extras[i].linkyt;
-                  let eduracao = data.extras[i].duracao;
+                  //et eduracao = data.extras[i].duracao;
+                  let eduracao = gerar_timestamp(data.extras[i].duracao.horas,data.extras[i].duracao.minutos,data.extras[i].duracao.segundos);
                   let eplat = data.extras[i].plataforma;
                   let eid = data.extras[i].id;
                   if (eplat == "gdrive") {
@@ -110,7 +111,8 @@ function carregarVideos() {
                   let anome = data.analise[0].nome;
                   let aimagem = data.analise[0].imagem;
                   let alink = data.analise[0].link;
-                  let aduracao = data.analise[0].duracao;
+                  //let aduracao = data.analise[0].duracao;
+                  let aduracao = gerar_timestamp(data.analise[0].duracao.horas,data.analise[0].duracao.minutos,data.analise[0].duracao.segundos);
                   document.querySelector("#extrasParent").innerHTML += `
                     <div class="col extras-item">
                       <a href="${alink}" target="_blank" class="blacklink">
@@ -138,7 +140,8 @@ function carregarVideos() {
         for (var i = 0; i<data.videos.length; i++){
               let vnome = data.videos[i].nome;
               let vimagem = data.videos[i].imagem;
-              let vduracao = data.videos[i].duracao;
+              //let vduracao = data.videos[i].duracao;
+              let vduracao = gerar_timestamp(data.videos[i].duracao.horas,data.videos[i].duracao.minutos,data.videos[i].duracao.segundos);
                 document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${vimagem}`);
                 let vplat = data.videos[i].plataforma;
                 let vlinkyt = data.videos[i].linkyt;

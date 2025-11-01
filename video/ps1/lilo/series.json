@@ -18,7 +18,11 @@
             "nome": "Lilo & Stitch de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/Ddhc1acjU5w",
-            "duracao": "8:11"
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 11
+            }
         }
     ]
 }

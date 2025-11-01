@@ -11,7 +11,11 @@
             "nome": "Sonic Adventure de Dreamcast | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/ZWuHyXjUaKA",
-            "duracao": "18:34"
+            "duracao": {
+                "horas": 0,
+                "minutos": 18,
+                "segundos": 34
+            }
         }
     ]
 }

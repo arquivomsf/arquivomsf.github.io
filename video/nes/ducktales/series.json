@@ -11,7 +11,11 @@
             "nome": "DuckTales de NES | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/qARvgmBb-AY",
-            "duracao": "8:34"
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 34
+            }
         }
     ]
 }

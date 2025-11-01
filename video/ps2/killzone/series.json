@@ -18,7 +18,11 @@
             "nome": "Killzone de PlayStation 2 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/AytR5ZxLnLg",
-            "duracao": "22:42"
+            "duracao": {
+                "horas": 0,
+                "minutos": 22,
+                "segundos": 42
+            }
         }
     ]
 }

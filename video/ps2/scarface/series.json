@@ -18,7 +18,11 @@
             "nome": "Scarface de PlayStation 2 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/PjB7ebyCatI",
-            "duracao": "18:53"
+            "duracao": {
+                "horas": 0,
+                "minutos": 18,
+                "segundos": 53
+            }
         }
     ]
 }

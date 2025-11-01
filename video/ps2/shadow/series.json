@@ -18,7 +18,11 @@
             "nome": "Shadow The Hedgehog de PlayStation 2 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/RMiH7ZBckcs",
-            "duracao": "13:56"
+            "duracao": {
+                "horas": 0,
+                "minutos": 13,
+                "segundos": 56
+            }
         }
     ]
 }

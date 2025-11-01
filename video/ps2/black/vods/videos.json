@@ -13,7 +13,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/UTvRv-D6iSs",
-            "duracao": "1:09:25",
+            "duracao": {
+                "horas": 1,
+                "minutos": 9,
+                "segundos": 25
+            },
             "plataforma": "youtube"
         },
         {
@@ -21,7 +25,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/nLxp9FHpo94",
-            "duracao": "1:15:53",
+            "duracao": {
+                "horas": 1,
+                "minutos": 15,
+                "segundos": 53
+            },
             "plataforma": "youtube"
         },
         {
@@ -29,7 +37,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/kd0YekCAjdQ",
-            "duracao": "25:05",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 5
+            },
             "plataforma": "youtube"
         },
         {
@@ -37,7 +49,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/4Kv1okqxuX0",
-            "duracao": "42:21",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 21
+            },
             "plataforma": "youtube"
         },
         {
@@ -45,7 +61,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/yXZSWmJDkks",
-            "duracao": "1:58:08",
+            "duracao": {
+                "horas": 1,
+                "minutos": 58,
+                "segundos": 8
+            },
             "plataforma": "youtube"
         },
         {
@@ -53,7 +73,11 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/mEVACEbhhRY",
-            "duracao": "1:05:47",
+            "duracao": {
+                "horas": 1,
+                "minutos": 5,
+                "segundos": 47
+            },
             "plataforma": "youtube"
         }
     ]

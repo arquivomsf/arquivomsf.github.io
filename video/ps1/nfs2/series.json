@@ -18,7 +18,11 @@
             "nome": "Need for Speed 2 de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/Duw7wEnlhOc",
-            "duracao": "21:47"
+            "duracao": {
+                "horas": 0,
+                "minutos": 21,
+                "segundos": 47
+            }
         }
     ]
 }

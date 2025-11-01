@@ -92,7 +92,8 @@ function carregarJogos() {
               nomecomp = nomecomp.replaceAll(/[Ç]/g,"c");
               nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
-                    let jduracao = data.standalone[i].duracao;
+                    //let jduracao = data.standalone[i].duracao;
+                    let jduracao = gerar_timestamp(data.standalone[i].duracao.horas,data.standalone[i].duracao.minutos,data.standalone[i].duracao.segundos);
                     let jplat = data.standalone[i].plataforma;
                     let jlinkyt = data.standalone[i].linkyt;
                     if (jplat == "gdrive" || jplat == "archive") {
@@ -129,7 +130,6 @@ function carregarJogos() {
           for (var i = 0; i<data.outros.length; i++){
               let otnome = data.outros[i].nome;
               let otimagem = data.outros[i].imagem;
-              let otconsole = data.outros[i].console;
               let otconsigla = data.outros[i].consigla;
               let otcurto = data.outros[i].curto;
               let ottags = data.outros[i].tags;
@@ -214,28 +214,6 @@ function carregarConsoles() {
       })
 }
 
-function start404(){
-    fetch("https://arquivomsf.github.io/dados.json")
-      .then(response => response.json())
-      .then(data => {
-          for (var i = 0; i<data.consoles.length; i++){
-              let cnome = data.consoles[i].nome;
-              let csigla = data.consoles[i].sigla;
-              document.querySelector("#conJsonParent").innerHTML += `
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
-                </li>`;
-          }
-          for (var i = 0; i<data.temas.length; i++){
-            let tnome = data.temas[i].nome;
-            let tvalor = data.temas[i].valor;
-            document.querySelector("#themes_select").innerHTML += `
-              <option value="${tvalor}">${tnome}</option>`;
-          }
-          startTema();
-      })
-}
-
 function carregarStats(){
     carregarConsoles();
     let ccounter = 0;
@@ -284,19 +262,41 @@ function carregarStats(){
             .then(response => response.json())
             .then(data => {
                 for (var i = 0; i<data.videos.length; i++){
-                    let vduracao = data.videos[i].duracao;
-                    if (vduracao !== "Perdido") {
-                        const vtempoatual = vduracao.split(":");
-                        epcounter++;
-                        jmincounter += Number(vtempoatual[0]);
-                        jsegcounter += Number(vtempoatual[1]);
-                        tmincounter += Number(vtempoatual[0]);
-                        tsegcounter += Number(vtempoatual[1]);
-                        console.log("ep "+jmincounter+":"+jsegcounter+"/"+tmincounter+":"+tsegcounter);
-                    }
+                    let vhoras = data.videos[i].duracao.horas;
+                    let vminutos = data.videos[i].duracao.minutos;
+                    let vsegundos = data.videos[i].duracao.segundos;
+                    epcounter++;
+                    jhorascounter += vhoras;
+                    jmincounter += vminutos;
+                    jsegcounter += vsegundos;
+                    thorascounter += vhoras;
+                    tmincounter += vminutos;
+                    tsegcounter += vsegundos;
+                    console.log("ep "+jhorascounter+jmincounter+":"+jsegcounter+"/"+thorascounter+tmincounter+":"+tsegcounter);
+
                     document.querySelector(".counter-ep").innerHTML = `${epcounter} vídeos de jogos`;
                     document.querySelector(".counter-total").innerHTML = `${epcounter+vodcounter+scounter+otcounter} vídeos arquivados`;
                     document.querySelector(".counter-mediaep").innerHTML = `${Math.round(epcounter/jcounter)} vídeos por jogo (média)`;
+                }
+
+                if (data.hasOwnProperty("extras")) {
+                    for (var i = 0; i<data.extras.length; i++){
+                        let vhoras = data.extras[i].duracao.horas;
+                        let vminutos = data.extras[i].duracao.minutos;
+                        let vsegundos = data.extras[i].duracao.segundos;
+                        epcounter++;
+                        jhorascounter += vhoras;
+                        jmincounter += vminutos;
+                        jsegcounter += vsegundos;
+                        thorascounter += vhoras;
+                        tmincounter += vminutos;
+                        tsegcounter += vsegundos;
+                        console.log("ep extra "+jhorascounter+jmincounter+":"+jsegcounter+"/"+thorascounter+tmincounter+":"+tsegcounter);
+
+                        document.querySelector(".counter-ep").innerHTML = `${epcounter} vídeos de jogos`;
+                        document.querySelector(".counter-total").innerHTML = `${epcounter+vodcounter+scounter+otcounter} vídeos arquivados`;
+                        document.querySelector(".counter-mediaep").innerHTML = `${Math.round(epcounter/jcounter)} vídeos por jogo (média)`;
+                    }
                 }
             })
 
@@ -310,19 +310,41 @@ function carregarStats(){
             .then(data => {
                 jcomvod++;
                 for (var i = 0; i<data.videos.length; i++){
-                    let vduracao = data.videos[i].duracao;
-                    if (vduracao !== "Perdido") {
-                        const vtempoatual = vduracao.split(":");
-                        vodcounter++;
-                        jmincounter += Number(vtempoatual[0]);
-                        jsegcounter += Number(vtempoatual[1]);
-                        tmincounter += Number(vtempoatual[0]);
-                        tsegcounter += Number(vtempoatual[1]);
-                        console.log("vod "+jmincounter+":"+jsegcounter+"/"+tmincounter+":"+tsegcounter);
-                    }
+                    let vhoras = data.videos[i].duracao.horas;
+                    let vminutos = data.videos[i].duracao.minutos;
+                    let vsegundos = data.videos[i].duracao.segundos;
+                    vodcounter++;
+                    jhorascounter += vhoras;
+                    jmincounter += vminutos;
+                    jsegcounter += vsegundos;
+                    thorascounter += vhoras;
+                    tmincounter += vminutos;
+                    tsegcounter += vsegundos;
+                    console.log("vod "+jhorascounter+jmincounter+":"+jsegcounter+"/"+thorascounter+tmincounter+":"+tsegcounter);
+                    
                     document.querySelector(".counter-vods").innerHTML = `${vodcounter} VODs de jogos`;
                     document.querySelector(".counter-total").innerHTML = `${epcounter+vodcounter+scounter+otcounter} vídeos arquivados`;
                     document.querySelector(".counter-mediavod").innerHTML = `${Math.round(vodcounter/jcomvod)} VODs por jogo (média)`;
+                }
+
+                if (data.hasOwnProperty("extras")) {
+                    for (var i = 0; i<data.extras.length; i++){
+                        let vhoras = data.extras[i].duracao.horas;
+                        let vminutos = data.extras[i].duracao.minutos;
+                        let vsegundos = data.extras[i].duracao.segundos;
+                        vodcounter++;
+                        jhorascounter += vhoras;
+                        jmincounter += vminutos;
+                        jsegcounter += vsegundos;
+                        thorascounter += vhoras;
+                        tmincounter += vminutos;
+                        tsegcounter += vsegundos;
+                        console.log("vod extra "+jhorascounter+jmincounter+":"+jsegcounter+"/"+thorascounter+tmincounter+":"+tsegcounter);
+                        
+                        document.querySelector(".counter-vods").innerHTML = `${vodcounter} VODs de jogos`;
+                        document.querySelector(".counter-total").innerHTML = `${epcounter+vodcounter+scounter+otcounter} vídeos arquivados`;
+                        document.querySelector(".counter-mediavod").innerHTML = `${Math.round(vodcounter/jcomvod)} VODs por jogo (média)`;
+                    }
                 }
             })
 
@@ -331,14 +353,18 @@ function carregarStats(){
             })
           }
           for (var i = 0; i<data.standalone.length; i++){
-            let sduracao = data.standalone[i].duracao;
-            const stempoatual = sduracao.split(":");
+            let shoras = data.standalone[i].duracao.horas;
+            let sminutos = data.standalone[i].duracao.minutos;
+            let ssegundos = data.standalone[i].duracao.segundos;
             scounter++;
-            smincounter += Number(stempoatual[0]);
-            ssegcounter += Number(stempoatual[1]);
-            tmincounter += Number(stempoatual[0]);
-            tsegcounter += Number(stempoatual[1]);
-            console.log("standalone "+smincounter+":"+ssegcounter+"/"+tmincounter+":"+tsegcounter);
+            shorascounter += shoras;
+            smincounter += sminutos;
+            ssegcounter += ssegundos;
+            thorascounter += shoras;
+            tmincounter += sminutos;
+            tsegcounter += ssegundos;
+            console.log("standalone "+shorascounter+smincounter+":"+ssegcounter+"/"+thorascounter+tmincounter+":"+tsegcounter);
+
             document.querySelector(".counter-standalone").innerHTML = `${scounter} vídeos standalone`;
             document.querySelector(".counter-total").innerHTML = `${epcounter+vodcounter+scounter+otcounter} vídeos arquivados`;
           }
@@ -351,17 +377,41 @@ function carregarStats(){
             .then(data => {
 
             for (var i = 0; i<data.videos.length; i++){
-            let otduracao = data.videos[i].duracao;
-            const ottempoatual = otduracao.split(":");
-            otcounter++;
-            otmincounter += Number(ottempoatual[0]);
-            otsegcounter += Number(ottempoatual[1]);
-            tmincounter += Number(ottempoatual[0]);
-            tsegcounter += Number(ottempoatual[1]);
-            console.log("outros "+otmincounter+":"+otsegcounter+"/"+tmincounter+":"+tsegcounter);
-            document.querySelector(".counter-outros").innerHTML = `${otcounter} vídeos marcados como "outros"`;
-            document.querySelector(".counter-total").innerHTML = `${epcounter+vodcounter+scounter+otcounter} vídeos arquivados`;
+                let othoras = data.videos[i].duracao.horas;
+                let otminutos = data.videos[i].duracao.minutos;
+                let otsegundos = data.videos[i].duracao.segundos;
+                otcounter++;
+                othorascounter += othoras;
+                otmincounter += otminutos;
+                otsegcounter += otsegundos;
+                thorascounter += othoras;
+                tmincounter += otminutos;
+                tsegcounter += otsegundos;
+                console.log("outros "+othorascounter+otmincounter+":"+otsegcounter+"/"+thorascounter+tmincounter+":"+tsegcounter);
 
+                document.querySelector(".counter-outros").innerHTML = `${otcounter} vídeos marcados como "outros"`;
+                document.querySelector(".counter-total").innerHTML = `${epcounter+vodcounter+scounter+otcounter} vídeos arquivados`;
+
+            }
+
+            if (data.hasOwnProperty("extras")) {
+                for (var i = 0; i<data.extras.length; i++){
+                    let othoras = data.extras[i].duracao.horas;
+                    let otminutos = data.extras[i].duracao.minutos;
+                    let otsegundos = data.extras[i].duracao.segundos;
+                    otcounter++;
+                    othorascounter += othoras;
+                    otmincounter += otminutos;
+                    otsegcounter += otsegundos;
+                    thorascounter += othoras;
+                    tmincounter += otminutos;
+                    tsegcounter += otsegundos;
+                    console.log("outros extra "+othorascounter+otmincounter+":"+otsegcounter+"/"+thorascounter+tmincounter+":"+tsegcounter);
+
+                    document.querySelector(".counter-outros").innerHTML = `${otcounter} vídeos marcados como "outros"`;
+                    document.querySelector(".counter-total").innerHTML = `${epcounter+vodcounter+scounter+otcounter} vídeos arquivados`;
+
+                }
             }
 
             })

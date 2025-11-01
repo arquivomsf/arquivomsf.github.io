@@ -11,7 +11,11 @@
             "nome": "Call of Duty 2 Big Red One limitou a exploração das fases",
             "imagem": "jpg",
             "link": "https://youtu.be/wBOEB4w4SsY",
-            "duracao": "9:54"
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 54
+            }
         }
     ]
 }

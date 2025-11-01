@@ -11,7 +11,11 @@
             "nome": "Manhunt de PlayStation 2 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/0EsV3dw4V8M",
-            "duracao": "19:19"
+            "duracao": {
+                "horas": 0,
+                "minutos": 19,
+                "segundos": 19
+            }
         }
     ]
 }
