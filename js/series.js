@@ -16,7 +16,12 @@ function procurarParam() {
 }
 
 function carregarVideos() {
-    fetch(`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`)
+  let serie_path;
+  if (consoleAtual != "outros") serie_path = `video/${consoleAtual}/${jogoAtual}/${serieAtual}`;
+  else serie_path = `video/${consoleAtual}/${jogoAtual}`;
+  //console.log(serie_path);
+
+    fetch(`${serie_path}/videos.json`)
       .then(response => response.json())
       .then(data => {
         document.querySelector(".tabs-navbar").style.display = "none";
@@ -29,7 +34,7 @@ function carregarVideos() {
                     <div class="col extras-item">
                       <a href="${plink}" target="_blank" class="blacklink">
                         <div class="thumbnail">
-                          <img src="video/${consoleAtual}/${jogoAtual}/${serieAtual}/1.${pimagem}" alt="" class="img-fluid linkicon">
+                          <img src="${serie_path}/1.${pimagem}" alt="" class="img-fluid linkicon">
                           <div class="playlist-length">
                             <div class="playlist-info-wrapper">
                               <i class="fa fa-list"></i>
@@ -48,6 +53,7 @@ function carregarVideos() {
           }*/
          document.querySelector(".tabs-navbar").style.display = "flex";
         }
+
         if (data.hasOwnProperty("extras")) {
           for (var i = 0; i<data.extras.length; i++){
                   let enome = data.extras[i].nome;
@@ -61,7 +67,7 @@ function carregarVideos() {
                     <div class="col extras-item">
                       <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${eplat}&extra=true&id=${eid}" class="blacklink">
                         <div class="thumbnail">
-                          <img src="video/${consoleAtual}/${jogoAtual}/${serieAtual}/${eimagem}" alt="" class="img-fluid linkicon">
+                          <img src="${serie_path}/${eimagem}" alt="" class="img-fluid linkicon">
                           <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${eduracao}</span>
                         </div>
                         <span class="flow-text title">${enome}</span>
@@ -72,7 +78,7 @@ function carregarVideos() {
                     <div class="col extras-item">
                       <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${eplat}&extra=true&id=${eid}" class="blacklink">
                         <div class="thumbnail">
-                          <img src="video/${consoleAtual}/${jogoAtual}/${serieAtual}/${eimagem}" alt="" class="img-fluid linkicon">
+                          <img src="${serie_path}/${eimagem}" alt="" class="img-fluid linkicon">
                           <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${eduracao}</span>
                         </div>
                         <span class="flow-text title">${enome}</span>
@@ -83,7 +89,7 @@ function carregarVideos() {
                     <div class="col extras-item">
                       <a href="${elinkyt}" target="_blank" class="blacklink">
                         <div class="thumbnail">
-                          <img src="video/${consoleAtual}/${jogoAtual}/${serieAtual}/${eimagem}" alt="" class="img-fluid linkicon">
+                          <img src="${serie_path}/${eimagem}" alt="" class="img-fluid linkicon">
                           <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${eduracao}</span>
                         </div>
                         <span class="flow-text title">${enome}</span>
@@ -99,16 +105,41 @@ function carregarVideos() {
          document.querySelector(".tabs-navbar").style.display = "flex";
         }
         }
+
+        if (data.hasOwnProperty("analise")) {
+                  let anome = data.analise[0].nome;
+                  let aimagem = data.analise[0].imagem;
+                  let alink = data.analise[0].link;
+                  let aduracao = data.analise[0].duracao;
+                  document.querySelector("#extrasParent").innerHTML += `
+                    <div class="col extras-item">
+                      <a href="${alink}" target="_blank" class="blacklink">
+                        <div class="thumbnail">
+                          <img src="${serie_path}/analise.${aimagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${aduracao}</span>
+                        </div>
+                        <span class="flow-text title">${anome}</span>
+                      </a>
+                    </div>`;
+          //document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
+          //document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
+          /*if (document.querySelector(".extras-item") == null) {
+            document.querySelector(".c-extras").remove();
+            document.querySelector(".c-videos").remove();
+          }*/
+         document.querySelector(".tabs-navbar").style.display = "flex";
+        }
+
       })
 
-    fetch(`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`)
+    fetch(`${serie_path}/videos.json`)
       .then(response => response.json())
       .then(data => {
         for (var i = 0; i<data.videos.length; i++){
               let vnome = data.videos[i].nome;
               let vimagem = data.videos[i].imagem;
               let vduracao = data.videos[i].duracao;
-                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/1.${vimagem}`);
+                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${vimagem}`);
                 let vplat = data.videos[i].plataforma;
                 let vlinkyt = data.videos[i].linkyt;
                 if (vplat == "gdrive") {
@@ -116,7 +147,7 @@ function carregarVideos() {
                     <div class="col">
                       <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${vplat}&id=${i}" class="blacklink">
                         <div class="thumbnail">
-                          <img src="video/${consoleAtual}/${jogoAtual}/${serieAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
+                          <img src="${serie_path}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
                           <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${vduracao}</span>
                         </div>
                         <span class="flow-text title">${vnome}</span>
@@ -127,7 +158,7 @@ function carregarVideos() {
                     <div class="col">
                       <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${vplat}&id=${i}" class="blacklink">
                         <div class="thumbnail">
-                          <img src="video/${consoleAtual}/${jogoAtual}/${serieAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
+                          <img src="${serie_path}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
                           <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${vduracao}</span>
                         </div>
                         <span class="flow-text title">${vnome}</span>
@@ -138,7 +169,7 @@ function carregarVideos() {
                     <div class="col">
                       <a href="${vlinkyt}" target="_blank" class="blacklink">
                         <div class="thumbnail">
-                          <img src="video/${consoleAtual}/${jogoAtual}/${serieAtual}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
+                          <img src="${serie_path}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
                           <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${vduracao}</span>
                         </div>
                         <span class="flow-text title">${vnome}</span>
@@ -172,6 +203,7 @@ function carregarConsoles() {
   fetch("dados.json")
   .then(response => response.json())
   .then(data => {
+      if (consoleAtual != "outros") {
       for (var i = 0; i<data.jogos.length; i++){
           let jnome = data.jogos[i].nome;
           let jconsole = data.jogos[i].console;
@@ -184,6 +216,20 @@ function carregarConsoles() {
             document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${jnome}`);
           }
       }
+    } else {
+      for (var i = 0; i<data.outros.length; i++){
+          let otnome = data.outros[i].nome;
+          let otconsole = data.outros[i].console;
+          let otconsigla = data.outros[i].consigla;
+          let otcurto = data.outros[i].curto;
+          if(otcurto == jogoAtual){
+            document.querySelector(".game-name").innerHTML = `<a href="">${otnome}</a>`;
+            document.querySelector(".console-name").innerHTML = `<a href="console?id=${otconsigla}">${otconsole}</a>`;
+            document.title = `Arquivo - ${j=otnome}`;
+            document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${otnome}`);
+          }
+      }
+    }
   })
 }
 

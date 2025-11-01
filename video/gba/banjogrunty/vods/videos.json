@@ -11,7 +11,7 @@
         {
             "nome": "Marcelo conversando sobre jogos da Rockstar",
             "id": "rockstarcomp",
-            "imagem": "../../etc/rockstarcomp.jpg",
+            "imagem": "../../../etc/rockstarcomp.jpg",
             "link": "",
             "linkyt": "https://youtu.be/m4gjIiIMU2Y",
             "duracao": "10:35",
