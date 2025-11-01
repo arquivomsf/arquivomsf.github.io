@@ -277,7 +277,7 @@ body[data-tema="xp"] > .pagecontent {
   margin-top: 20px !important;
 }
 
-body[data-tema="xp"] > .pagecontent > #jsonParent:has(.col), body[data-tema="xp"] > .pagecontent > #vodParent:has(.col), body[data-tema="xp"] > .pagecontent > #standParent:has(.col), body[data-tema="xp"] > .pagecontent > #extrasParent:has(.col) {
+body[data-tema="xp"] > .pagecontent > #jsonParent:has(.col), body[data-tema="xp"] > .pagecontent > #vodParent:has(.col), body[data-tema="xp"] > .pagecontent > #standParent:has(.col), body[data-tema="xp"] > .pagecontent > #extrasParent:has(.col), body[data-tema="xp"] > .pagecontent > #jogosParent:has(.col), body[data-tema="xp"] > .pagecontent > #outrosParent:has(.col) {
   background: linear-gradient(180deg,#fcfcfe,#f4f3ee);
   border: 1px solid #919b9c;
   padding: 15px;

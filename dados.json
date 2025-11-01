@@ -2,789 +2,489 @@
     "jogos": [
         {
             "nome": "SpongeBob SquarePants: SuperSponge",
-            "tags": "SpongeBob SquarePants: SuperSponge bob esponja",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "SpongeBob SquarePants: SuperSponge bob esponja ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Nickelodeon%20SpongeBob%20SquarePants%20-%20SuperSponge%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "bob",
-            "vod": "0"
+            "curto": "bob"
         },
         {
-            "nome": "Assault Retribution",
-            "tags": "Assault Retribution",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "Assault: Retribution",
+            "tags": "Assault: Retribution ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Assault%20-%20Retribution%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "assault",
-            "vod": "0"
+            "curto": "assault"
         },
         {
-            "nome": "Spider Man 2 Enter Electro",
-            "tags": "Spider Man 2 Enter Electro homem aranha miranha",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "Spider-Man 2: Enter: Electro",
+            "tags": "Spider-Man 2: Enter: Electro Spider Man 2 Enter Electro homem aranha miranha ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Spider-Man%202%20-%20Enter%20-%20Electro%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "miranha",
-            "vod": "0"
+            "curto": "miranha"
         },
         {
-            "nome": "The Lost World Jurassic Park",
-            "tags": "The Lost World Jurassic Park dino dinossauro",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "The Lost World: Jurassic Park",
+            "tags": "The Lost World: Jurassic Park The Lost World Jurassic Park dino dinossauro ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Lost%20World,%20The%20-%20Jurassic%20Park%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "jurassic",
-            "vod": "0"
+            "curto": "jurassic"
         },
         {
             "nome": "Disruptor",
-            "tags": "Disruptor",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Disruptor ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Disruptor%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "disruptor",
-            "vod": "0"
+            "curto": "disruptor"
         },
         {
-            "nome": "Tai Fu Wrath of the Tiger",
-            "tags": "Tai Fu Wrath of the Tiger taifu",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "T'ai Fu Wrath of the Tiger",
+            "tags": "T'ai Fu Wrath of the Tiger Tai Fu Wrath of the Tiger taifu ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/T'ai%20Fu%20-%20Wrath%20of%20the%20Tiger%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "taifu",
-            "vod": "0"
+            "curto": "taifu"
         },
         {
-            "nome": "Donald Duck Goin' Quackers",
-            "tags": "Donald Duck Goin' Quackers pato donald disney",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "Disney's Donald Duck: Goin' Quackers",
+            "tags": "Disney's Donald Duck: Goin' Quackers pato donald ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Disney's%20Donald%20Duck%20-%20Goin'%20Quackers%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "donald",
-            "vod": "0"
+            "curto": "donald"
         },
         {
             "nome": "Moto Racer",
-            "tags": "Moto Racer",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Moto Racer ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Moto%20Racer%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "moto",
-            "vod": "0"
+            "curto": "moto"
         },
         {
             "nome": "Nightmare Creatures",
-            "tags": "Nightmare Creatures",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Nightmare Creatures ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Nightmare%20Creatures%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "nightmare",
-            "vod": "0"
+            "curto": "nightmare"
         },
         {
             "nome": "Metal Slug X",
-            "tags": "Metal Slug X",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Metal Slug X ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Metal%20Slug%20X%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "slugx",
-            "vod": "0"
+            "curto": "slugx"
         },
         {
             "nome": "Sonic The Hedgehog",
-            "tags": "Sonic The Hedgehog sega Sonic 1",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Sonic The Hedgehog 1 Sonic 1 sega mega drive sega genesis",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Sonic%20The%20Hedgehog%20(USA,%20Europe).png",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic1",
-            "vod": "0"
+            "curto": "sonic1"
         },
         {
             "nome": "QuackShot",
-            "tags": "QuackShot disney pato donald duck",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "QuackShot Starring Donald Duck disney pato donald sega mega drive sega genesis",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/QuackShot%20Starring%20Donald%20Duck%20(World).png",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "quackshot",
-            "vod": "0"
+            "curto": "quackshot"
         },
         {
             "nome": "Zero Tolerance",
-            "tags": "Zero Tolerance",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Zero Tolerance sega mega drive sega genesis",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Zero%20Tolerance%20(USA,%20Europe).png",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "zerotol",
-            "vod": "0"
+            "curto": "zerotol"
         },
         {
             "nome": "Socket",
-            "tags": "Socket tipo sonic soniclike",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Socket tipo sonic soniclike sega mega drive sega genesis",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Socket%20(USA).png",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "socket",
-            "vod": "0"
+            "curto": "socket"
         },
         {
             "nome": "Light Crusader",
-            "tags": "Light Crusader action rpg de ação",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Light Crusader action rpg de ação sega mega drive sega genesis",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Light%20Crusader%20(Japan).png",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "crusader",
-            "vod": "0"
+            "curto": "crusader"
         },
         {
             "nome": "Ice Climber",
-            "tags": "Ice Climber nintendo",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Ice Climber nes nintendo",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Ice%20Climber%20(USA,%20Europe,%20Korea)%20(En).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "climber",
-            "vod": "0"
+            "curto": "climber"
         },
         {
             "nome": "Adventure Island",
-            "tags": "Adventure Island",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Adventure Island nes nintendo",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Adventure%20Island%20(USA).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "advisland",
-            "vod": "0"
+            "curto": "advisland"
         },
         {
             "nome": "Gun.Smoke",
-            "tags": "Gun.Smoke",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Gun.Smoke nes nintendo",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Gun.Smoke%20(USA).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "gunsmoke",
-            "vod": "0"
+            "curto": "gunsmoke"
         },
         {
             "nome": "DuckTales",
-            "tags": "DuckTales disney Scrooge McDuck Tio Patinhas McPato",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "DuckTales disney Scrooge McDuck Tio Patinhas McPato nes nintendo",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/DuckTales%20(USA).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "ducktales",
-            "vod": "0"
+            "curto": "ducktales"
         },
         {
             "nome": "Jackal",
-            "tags": "Jackal",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Jackal nes nintendo",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Jackal%20(USA).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "jackal",
-            "vod": "0"
+            "curto": "jackal"
         },
         {
             "nome": "Super Mario 64",
-            "tags": "Super Mario 64 nintendo",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Super Mario 64 n64 nintendo 64",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Super%20Mario%2064%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "mario64",
-            "vod": "0"
+            "curto": "mario64"
         },
         {
-            "nome": "Castlevania Legacy of Darkness",
-            "tags": "Castlevania Legacy of Darkness Castlevania 64",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "Castlevania: Legacy of Darkness",
+            "tags": "Castlevania: Legacy of Darkness n64 nintendo 64",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Castlevania%20-%20Legacy%20of%20Darkness%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "castlelod",
-            "vod": "0"
+            "curto": "castlelod"
         },
         {
             "nome": "Hercules: The Legendary Journeys",
-            "tags": "Hercules: The Legendary Journeys",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Hercules: The Legendary Journeys Hércules: A Lendária Jornada hercules da serie n64 nintendo 64",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Hercules%20-%20The%20Legendary%20Journeys%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "hercules",
-            "vod": "0"
+            "curto": "hercules"
         },
         {
-            "nome": "Disney's Tarzan",
-            "tags": "Disney's Tarzan",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "Tarzan",
+            "tags": "Disney's Tarzan n64 nintendo 64",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Tarzan%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "tarzan",
-            "vod": "0"
+            "curto": "tarzan"
         },
         {
             "nome": "Cruis'n Exotica",
-            "tags": "Cruis'n Exotica",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Cruis'n Exotica n64 nintendo 64",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Cruis'n%20Exotica%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
-            "curto": "exotica",
-            "vod": "0"
+            "curto": "exotica"
         },
         {
             "nome": "God of War",
-            "tags": "God of War deus da guerra bom de guerra",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "God of War God of War 1 deus da guerra 1 bom de guerra 1 ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/God%20of%20War%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gow1",
-            "vod": "0"
+            "curto": "gow1"
         },
         {
             "nome": "Red Dead Revolver",
-            "tags": "Red Dead Revolver red dead redemption",
-            "status": "check",
-            "imagem": "1.png",
+            "tags": "Red Dead Revolver red dead redemption ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Red%20Dead%20Revolver%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "revolver",
-            "vod": "0"
+            "curto": "revolver"
         },
         {
             "nome": "Cars",
-            "tags": "Cars carros",
-            "status": "check",
-            "imagem": "1.png",
+            "tags": "Cars carros ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Disney-Pixar%20Cars%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "cars",
-            "vod": "0"
+            "curto": "cars"
         },
         {
-            "nome": "Call of Duty Finest Hour",
-            "tags": "Call of Duty Finest Hour cod",
-            "status": "check",
-            "imagem": "1.png",
+            "nome": "Call of Duty - Finest Hour",
+            "tags": "Call of Duty Finest Hour cod ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Call%20of%20Duty%20-%20Finest%20Hour%20(USA)%20(v2.02).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "finest",
-            "vod": "0"
+            "curto": "finest"
         },
         {
-            "nome": "COD 2 Big Red One",
-            "tags": "COD 2 Big Red One Call of Duty",
-            "status": "check",
-            "imagem": "1.png",
+            "nome": "Call of Duty 2 - Big Red One",
+            "tags": "Call of Duty 2 Big Red One COD 2 Big Red One ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Call%20of%20Duty%202%20-%20Big%20Red%20One%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "bigred",
-            "vod": "0"
+            "curto": "bigred"
         },
         {
             "nome": "Sonic The Hedgehog 2",
-            "tags": "Sonic The Hedgehog 2 sega Sonic 2",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Sonic The Hedgehog 2 Sonic 2 sega mega drive sega genesis",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Sonic%20The%20Hedgehog%202%20(USA).png",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic2",
-            "vod": "0"
+            "curto": "sonic2"
         },
         {
             "nome": "Sonic The Hedgehog 3 & Knuckles",
-            "tags": "Sonic The Hedgehog 3 & Knuckles sega Sonic 3K",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Sonic The Hedgehog 3 & Knuckles Sonic 3 & Knuckles Sonic The Hedgehog 3 e Knuckles Sonic 3 e Knuckles Sonic 3K sega mega drive sega genesis",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Sonic%20_%20Knuckles%20+%20Sonic%20The%20Hedgehog%203%20(USA).png",
             "console": "Mega Drive",
             "consigla": "md",
-            "curto": "sonic3k",
-            "vod": "0"
+            "curto": "sonic3k"
         },
         {
-            "nome": "God of War 2",
-            "tags": "God of War 2 deus da guerra bom de guerra",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "God of War II",
+            "tags": "God of War II God of War 2 deus da guerra 2 bom de guerra 2 ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/God%20of%20War%20II%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gow2",
-            "vod": "0"
+            "curto": "gow2"
         },
         {
             "nome": "Call of Duty World at War Final Fronts",
-            "tags": "Call of Duty World at War Final Fronts cod guerra",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Call of Duty World at War Final Fronts cod guerra ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Call%20of%20Duty%20-%20World%20at%20War%20-%20Final%20Fronts%20(USA)%20(En,Fr).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "fronts",
-            "vod": "0"
+            "curto": "fronts"
         },
         {
             "nome": "Sonic Adventure",
-            "tags": "Sonic Adventure sega",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Sonic Adventure sega dc sega dreamcast",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/refs/heads/master/Named_Boxarts/Sonic%20Adventure%20(USA).png",
             "console": "Dreamcast",
             "consigla": "dc",
-            "curto": "sonicadv",
-            "vod": "0"
+            "curto": "sonicadv"
         },
         {
             "nome": "Shadow of the Colossus",
-            "tags": "Shadow of the Colossus",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Shadow of the Colossus ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Shadow%20of%20the%20Colossus%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "colossus",
-            "vod": "0"
+            "curto": "colossus"
         },
         {
             "nome": "Pandemonium",
-            "tags": "Pandemonium 1 pão demônio 1",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Pandemonium 1 pão demônio 1 ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Pandemonium!%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "pandemonium",
-            "vod": "0"
+            "curto": "pandemonium"
         },
         {
             "nome": "Manhunt",
-            "tags": "Manhunt caça homem",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Manhunt caça homem ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Manhunt%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "manhunt1",
-            "vod": "0"
+            "curto": "manhunt1"
         },
         {
             "nome": "Road & Track Presents: The Need for Speed",
-            "tags": "Road & Track Presents: The Need for Speed nfs",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Road & Track Presents: The Need for Speed the nfs ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Road%20_%20Track%20Presents%20-%20The%20Need%20for%20Speed%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "thenfs",
-            "vod": "0"
+            "curto": "thenfs"
         },
         {
             "nome": "Sonic Adventure 2",
-            "tags": "Sonic Adventure 2 sega",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Sonic Adventure 2 sega dc sega dreamcast",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/refs/heads/master/Named_Boxarts/Sonic%20Adventure%202%20(USA)%20(En,Ja,Fr,De,Es).png",
             "console": "Dreamcast",
             "consigla": "dc",
-            "curto": "sonicadv2",
-            "vod": "0"
+            "curto": "sonicadv2"
         },
         {
             "nome": "The Nightmare Before Christmas: Oogie's Revenge",
-            "tags": "The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack Tim Burton",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack Tim Burton ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Tim%20Burton's%20The%20Nightmare%20Before%20Christmas%20-%20Oogie's%20Revenge%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "nbxmas",
-            "vod": "0"
+            "curto": "nbxmas"
         },
         {
             "nome": "Grand Theft Auto III",
-            "tags": "Grand Theft Auto III gta iii gta 3",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Grand Theft Auto III gta iii gta 3 ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Grand%20Theft%20Auto%20III%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gta3",
-            "vod": "0"
+            "curto": "gta3"
         },
         {
-            "nome": "Shadow the Hedgehog",
-            "tags": "Shadow the Hedgehog sega",
-            "status": "check",
-            "imagem": "1.jpg",
+            "nome": "Shadow the Hedgehog sega",
+            "tags": "Shadow the Hedgehog sega ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Shadow%20the%20Hedgehog%20(USA)%20(En,Ja,Fr,De,Es,It).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "shadow",
-            "vod": "0"
-        },
-        {
-            "nome": "Shadow the Hedgehog",
-            "tags": "Shadow the Hedgehog sega",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "shadow-vod",
-            "vod": "1"
+            "curto": "shadow"
         },
         {
             "nome": "The Sims",
-            "tags": "The Sims",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "The Sims ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Sims,%20The%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "sims",
-            "vod": "0"
-        },
-        {
-            "nome": "The Sims",
-            "tags": "The Sims",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "sims-vod",
-            "vod": "1"
+            "curto": "sims"
         },
         {
             "nome": "Killzone",
-            "tags": "Killzone",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Killzone ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Killzone%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "killzone",
-            "vod": "0"
-        },
-        {
-            "nome": "Killzone",
-            "tags": "Killzone",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "killzone-vod",
-            "vod": "1"
+            "curto": "killzone"
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge",
             "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare",
-            "status": "check",
-            "imagem": "1.jpg",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/refs/heads/master/Named_Boxarts/Banjo-Kazooie%20-%20Grunty's%20Revenge%20(USA,%20Europe).png",
             "console": "Game Boy Advance",
             "consigla": "gba",
-            "curto": "banjogrunty",
-            "vod": "0"
-        },
-        {
-            "nome": "Banjo-Kazooie: Grunty's Revenge",
-            "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "Game Boy Advance",
-            "consigla": "gba",
-            "curto": "banjogrunty-vod",
-            "vod": "1"
+            "curto": "banjogrunty"
         },
         {
             "nome": "Grand Theft Auto: Vice City",
-            "tags": "Grand Theft Auto: Vice City gta vice city",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Grand Theft Auto: Vice City gta vice city ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20(USA)%20(v4.00).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "gtavc",
-            "vod": "0"
+            "curto": "gtavc"
         },
         {
             "nome": "Black",
-            "tags": "Black",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Black ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Black%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "black",
-            "vod": "0"
-        },
-        {
-            "nome": "Black",
-            "tags": "Black",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "black-vod",
-            "vod": "1"
+            "curto": "black"
         },
         {
             "nome": "Scarface: The World Is Yours",
-            "tags": "Scarface: The World Is Yours",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Scarface: The World Is Yours ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Scarface%20-%20The%20World%20Is%20Yours%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "scarface",
-            "vod": "0"
-        },
-        {
-            "nome": "Scarface: The World Is Yours",
-            "tags": "Scarface: The World Is Yours",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "scarface-vod",
-            "vod": "1"
-        },
-        {
-            "nome": "Clair Obscur: Expedition 33 (Clipes)",
-            "tags": "Clair Obscur: Expedition 33 (Clipes)",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "expedition33",
-            "vod": "0"
+            "curto": "scarface"
         },
         {
             "nome": "Super Mario Bros.",
             "tags": "Super Mario Bros. mario 1 nes nintendo",
-            "status": "check",
-            "imagem": "1.jpg",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Super%20Mario%20Bros.%20(World).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
-            "curto": "mario1",
-            "vod": "0"
-        },
-        {
-            "nome": "Super Mario Bros.",
-            "tags": "Super Mario Bros. mario 1 nes nintendo",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "Nintendo (NES)",
-            "consigla": "nes",
-            "curto": "mario1-vod",
-            "vod": "1"
+            "curto": "mario1"
         },
         {
             "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
-            "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Disney's%20Lilo%20_%20Stitch%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "lilo",
-            "vod": "0"
-        },
-        {
-            "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
-            "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "lilo-vod",
-            "vod": "1"
-        },
-        {
-            "nome": "Resident Evil 4 Remake (Clipes)",
-            "tags": "Resident Evil 4 Remake (Clipes) re4 re 4 re4 remake re 4 remake",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "re4remake",
-            "vod": "0"
+            "curto": "lilo"
         },
         {
             "nome": "Harry Potter and the Philosopher's Stone",
             "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal ps1 playstation 1",
-            "status": "check",
-            "imagem": "1.jpg",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Harry%20Potter%20and%20the%20Philosopher's%20Stone%20(Europe)%20(En,Fr,De).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "harry",
-            "vod": "0"
+            "curto": "harry"
         },
         {
-            "nome": "Harry Potter and the Philosopher's Stone",
-            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal ps1 playstation 1",
-            "status": "check",
-            "imagem": "1.png",
+            "nome": "Need for Speed II",
+            "tags": "Need for Speed II Need for Speed 2 nfs 2 ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Need%20for%20Speed%20II%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "harry-vod",
-            "vod": "1"
-        },
-        {
-            "nome": "Need for Speed 2",
-            "tags": "Need for Speed 2 nfs 2",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "nfs2",
-            "vod": "0"
-        },
-        {
-            "nome": "Need for Speed 2",
-            "tags": "Need for Speed 2 nfs 2",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "nfs2-vod",
-            "vod": "1"
-        },
-        {
-            "nome": "Megazord Power Rangers no Fortnite (Clipes)",
-            "tags": "Megazord Power Rangers no Fortnite (Clipes)",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "fort-megazord",
-            "vod": "0"
+            "curto": "nfs2"
         },
         {
             "nome": "Harry Potter and the Philosopher's Stone",
             "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal ps2 playstation 2",
-            "status": "check",
-            "imagem": "1.jpg",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Harry%20Potter%20and%20the%20Philosopher's%20Stone%20(Europe)%20(En,Pl,Cs).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
-            "curto": "harry",
-            "vod": "0"
+            "curto": "harry"
         },
         {
             "nome": "Pandemonium 2",
-            "tags": "Pandemonium 2 pão demônio 2",
-            "status": "check",
-            "imagem": "1.jpg",
+            "tags": "Pandemonium 2 pão demônio 2 ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Pandemonium%202%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "pandemonium2",
-            "vod": "0"
-        },
-        {
-            "nome": "Pandemonium 2",
-            "tags": "Pandemonium 2 pão demônio 2",
-            "status": "check",
-            "imagem": "1.jpg",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "pandemonium2-vod",
-            "vod": "1"
+            "curto": "pandemonium2"
         },
         {
             "nome": "Alien Trilogy",
             "tags": "Alien Trilogy ps1 playstation 1",
-            "status": "refresh",
-            "imagem": "2.jpg",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Alien%20Trilogy%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "alientri",
-            "vod": "0"
-        },
-        {
-            "nome": "Alien Trilogy",
-            "tags": "Alien Trilogy ps1 playstation 1",
-            "status": "refresh",
-            "imagem": "1.jpg",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "alientri-vod",
-            "vod": "1"
-        },
-        {
-            "nome": "Roleta do Malsebo",
-            "tags": "Roleta do Malsebo roleta do marcelo cassino malsebobet malsebo bet marcelobet marcelo bet",
-            "status": "check",
-            "imagem": "1.png",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "roleta",
-            "vod": "1"
-        },
-        {
-            "nome": "Fortnite 2025 (Clipes)",
-            "tags": "Fortnite 2025 (Clipes)",
-            "status": "refresh",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "fort-2025",
-            "vod": "0"
+            "curto": "alientri"
         }
     ],
     "futurosjogos": [
         {
-            "nome": "Castlevania: Symphony of the Night",
-            "tags": "Castlevania: Symphony of the Night akumajo dracula akumajou dracula akumajyo dracula akumajo dorakyura akumajou dorakyura akumajyo dorakyura sinfonia da noite metroidvania alucard ps1 playstation 1",
-            "status": "refresh",
-            "imagem": "1.jpg",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "symphony",
-            "vod": "0"
+            "nome": "The Suffering",
+            "tags": "The Suffering sofrimento xibiu ps2 playstation 2",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Suffering,%20The%20(USA).png",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "suffering1"
         },
         {
             "nome": "Castlevania: Symphony of the Night",
             "tags": "Castlevania: Symphony of the Night akumajo dracula akumajou dracula akumajyo dracula akumajo dorakyura akumajou dorakyura akumajyo dorakyura sinfonia da noite metroidvania alucard ps1 playstation 1",
-            "status": "refresh",
-            "imagem": "1.jpg",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(Europe).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
-            "curto": "symphony-vod",
-            "vod": "1"
+            "curto": "symphony"
         },
         {
             "nome": "Need for Speed: Most Wanted",
-            "tags": "Need for Speed: Most Wanted nfs",
-            "status": "refresh",
-            "imagem": "1.jpg",
+            "tags": "Need for Speed: Most Wanted nfs gc nintendo gamecube",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/refs/heads/master/Named_Boxarts/Need%20for%20Speed%20-%20Most%20Wanted%20(USA).png",
             "console": "GameCube",
             "consigla": "gc",
-            "curto": "nfsmostwanted",
-            "vod": "0"
+            "curto": "nfsmostwanted"
         },
         {
             "nome": "Super Mario Sunshine",
-            "tags": "Super Mario Sunshine delfino nintendo",
-            "status": "refresh",
-            "imagem": "1.jpg",
+            "tags": "Super Mario Sunshine delfino gc nintendo gamecube",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/refs/heads/master/Named_Boxarts/Super%20Mario%20Sunshine%20(USA).png",
             "console": "GameCube",
             "consigla": "gc",
-            "curto": "sunshine",
-            "vod": "0"
+            "curto": "sunshine"
         },
         {
             "nome": "GameCube",
             "sigla": "gc"
-        },
-        {
-            "nome": "The Suffering",
-            "tags": "The Suffering sofrimento ps2 playstation 2",
-            "status": "refresh",
-            "imagem": "1.jpg",
-            "console": "PlayStation 2",
-            "consigla": "ps2",
-            "curto": "suffering",
-            "vod": "0"
         }
     ],
     "standalone": [
@@ -867,7 +567,7 @@
         },
         {
             "nome": "Fim da maior live do canal (10 Horas)",
-            "tags": "Fim da maior live do canal (10 Horas) recorde",
+            "tags": "Fim da maior live do canal (10 Horas) recorde de maior live",
             "imagem": "maiorliveclipe.jpg",
             "consigla": "etc",
             "curto": "maiorliveclipe",
@@ -965,6 +665,48 @@
             "plataforma": "gdrive"
         }
     ],
+    "outros": [
+        {
+            "nome": "Clair Obscur: Expedition 33 (Clipes)",
+            "tags": "Clair Obscur: Expedition 33 (Clipes)",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "expedition33"
+        },
+        {
+            "nome": "Resident Evil 4 Remake (Clipes)",
+            "tags": "Resident Evil 4 Remake (Clipes) re4 re 4 re4 remake re 4 remake",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "re4remake"
+        },
+        {
+            "nome": "Megazord Power Rangers no Fortnite (Clipes)",
+            "tags": "Megazord Power Rangers no Fortnite (Clipes)",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "fort-megazord"
+        },
+        {
+            "nome": "Roleta do Malsebo",
+            "tags": "Roleta do Malsebo roleta do marcelo cassino malsebobet malsebo bet marcelobet marcelo bet",
+            "imagem": "1.png",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "roleta"
+        },
+        {
+            "nome": "Fortnite 2025 (Clipes)",
+            "tags": "Fortnite 2025 (Clipes)",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "fort-2025"
+        }
+    ],
     "consoles": [
         {
             "nome": "Nintendo (NES)",
@@ -993,10 +735,6 @@
         {
             "nome": "PlayStation 2",
             "sigla": "ps2"
-        },
-        {
-            "nome": "Outros",
-            "sigla": "outros"
         }
     ],
     "temas": [

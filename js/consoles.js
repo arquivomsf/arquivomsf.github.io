@@ -25,12 +25,10 @@ function carregarJogos() {
       .then(data => {
           for (var i = 0; i<data.jogos.length; i++){
               let jnome = data.jogos[i].nome;
+              let jtags = data.jogos[i].tags;
               let jimagem = data.jogos[i].imagem;
               let jconsigla = data.jogos[i].consigla;
               let jcurto = data.jogos[i].curto;
-              let jvod = data.jogos[i].vod;
-              let jtags = data.jogos[i].tags;
-              let jstatus = data.jogos[i].status;
               let nomecomp;
               //nomecomp = jnome.replaceAll(/\s/g, "");
               nomecomp = jtags.replaceAll(/\s/g, "");
@@ -44,18 +42,18 @@ function carregarJogos() {
               nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
                 if(jconsigla == consoleAtual){
-                    if(jvod == 0){
+                    //if(jvod == 0){
                     document.querySelector("#jsonParent").innerHTML += `
                         <div class="col">
                           <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
                             <div class="thumbnail">
-                                <img src="video/${jconsigla}/${jcurto}/${jimagem}" alt="" class="img-fluid linkicon">
-                                <span class="video-length"><i class="fa fa-fw fa-${jstatus}"></i></span>
+                                <img src="${jimagem}" alt="" class="linkicon ratio ratio-16x9 capa">
+                                <span class="video-length"></span>
                             </div>
                             <span class="flow-text title">${jnome}</span>
                           </a>
                         </div>`;
-                    } else {
+                    /*} else {
                       document.querySelector("#vodParent").innerHTML += `
                         <div class="col">
                           <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
@@ -66,7 +64,7 @@ function carregarJogos() {
                             <span class="flow-text title">${jnome}</span>
                           </a>
                         </div>`;
-                    }
+                    }*/
                 }
               }
           }

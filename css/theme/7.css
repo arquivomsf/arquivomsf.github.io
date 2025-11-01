@@ -373,7 +373,7 @@ body[data-tema="7"] > .pagecontent {
   margin-top: 20px !important;
 }
 
-body[data-tema="7"] > .pagecontent > #jsonParent:has(.col), body[data-tema="7"] > .pagecontent > #vodParent:has(.col), body[data-tema="7"] > .pagecontent > #standParent:has(.col), body[data-tema="7"] > .pagecontent > #extrasParent:has(.col) {
+body[data-tema="7"] > .pagecontent > #jsonParent:has(.col), body[data-tema="7"] > .pagecontent > #vodParent:has(.col), body[data-tema="7"] > .pagecontent > #standParent:has(.col), body[data-tema="7"] > .pagecontent > #extrasParent:has(.col), body[data-tema="7"] > .pagecontent > #jogosParent:has(.col), body[data-tema="7"] > .pagecontent > #outrosParent:has(.col) {
   padding: 15px;
   background: #fff;
   border: 1px solid #888;

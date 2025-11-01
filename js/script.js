@@ -1,5 +1,5 @@
 function start() {
-    setTab("",'jsonParent');
+    setTab("",'jogosParent');
     resetarString();
     setPesquisa();
     carregarDados();
@@ -20,9 +20,7 @@ function carregarJogos() {
               let jconsole = data.jogos[i].console;
               let jconsigla = data.jogos[i].consigla;
               let jcurto = data.jogos[i].curto;
-              let jvod = data.jogos[i].vod;
               let jtags = data.jogos[i].tags;
-              let jstatus = data.jogos[i].status;
               let nomecomp;
               //nomecomp = jnome.replaceAll(/\s/g, "");
               nomecomp = jtags.replaceAll(/\s/g, "");
@@ -35,8 +33,18 @@ function carregarJogos() {
               nomecomp = nomecomp.replaceAll(/[Ç]/g,"c");
               nomecomp = nomecomp.replaceAll(/[úÚ]/g,"u");
               if(nomecomp.toLowerCase().includes(stringPesquisa.toLowerCase())) {
-                if (jvod == 0) {
-                    document.querySelector("#jsonParent").innerHTML += `
+                document.querySelector("#jogosParent").innerHTML += `
+                    <div class="col game-item">
+                        <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
+                            <div class="thumbnail">
+                                <img src="${jimagem}" alt="" class="linkicon ratio ratio-16x9 capa">
+                                <span class="video-length"></span>
+                            </div>
+                            <span class="flow-text title">${jnome}</span></a><br>
+                        <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
+                    </div>`;
+                /*if (jvod == 0) {
+                    document.querySelector("#jogosParent").innerHTML += `
                     <div class="col game-item">
                         <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
                             <div class="thumbnail">
@@ -47,7 +55,7 @@ function carregarJogos() {
                         <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
                     </div>`;
                 } else {
-                    document.querySelector("#vodParent").innerHTML += `
+                    document.querySelector("#outrosParent").innerHTML += `
                     <div class="col game-item">
                         <a href="jogo?con=${jconsigla}&id=${jcurto}" class="blacklink">
                             <div class="thumbnail">
@@ -57,7 +65,7 @@ function carregarJogos() {
                             <span class="flow-text title">${jnome}</span></a><br>
                         <a href="console?id=${jconsigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
                     </div>`;
-                }
+                }*/
               }
               //if (document.querySelector(".game-item") !== null) document.querySelector(".c-series").style.display = "block";
           }
@@ -87,10 +95,10 @@ function carregarJogos() {
                     let jduracao = data.standalone[i].duracao;
                     let jplat = data.standalone[i].plataforma;
                     let jlinkyt = data.standalone[i].linkyt;
-                    if (jplat == "gdrive") {
+                    if (jplat == "gdrive" || jplat == "archive") {
                         document.querySelector("#standParent").innerHTML += `
                             <div class="col stand-item">
-                            <a href="embed?con=${jconsigla}&jogo=${jcurto}" class="blacklink">
+                            <a href="embed?con=${jconsigla}&jogo=${jcurto}&fonte=${jplat}" class="blacklink">
                                 <div class="thumbnail">
                                     <img src="video/${jconsigla}/${jimagem}" alt="" class="img-fluid linkicon">
                                     <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${jduracao}</span>
@@ -117,9 +125,9 @@ function carregarJogos() {
 }
 
 function resetarJogos(){
-    document.querySelector("#jsonParent").innerHTML = "";
+    document.querySelector("#jogosParent").innerHTML = "";
     //document.querySelector(".c-series").style.display = "none";
-    document.querySelector("#vodParent").innerHTML = "";
+    document.querySelector("#outrosParent").innerHTML = "";
     document.querySelector("#standParent").innerHTML = "";
     //document.querySelector(".c-standalone").style.display = "none";
 }

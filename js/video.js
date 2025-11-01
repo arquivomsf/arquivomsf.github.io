@@ -13,6 +13,8 @@ function procurarParam() {
   let searchParams = new URLSearchParams(window.location.search);
   consoleAtual = searchParams.get('con');
   jogoAtual = searchParams.get('jogo');
+  serieAtual = searchParams.get('serie');
+  fonteAtual = searchParams.get('fonte');
   episodioAtual = searchParams.get('id');
   extra = searchParams.get('extra');
 }
@@ -27,13 +29,16 @@ function carregarVideos() {
               let vcurto = data.standalone[i].curto;
               let vlink = data.standalone[i].link;
               let vimagem = data.standalone[i].imagem;
+              let vplat = data.standalone[i].plataforma;
               if(vcurto == jogoAtual){
                 document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item video-name active"></div>`;
                 document.querySelector(".video-name").innerHTML = `<a href="">${vnome}</a>`;
                 document.title = `${vnome}`;
                 document.querySelector('meta[property="og:title"]').setAttribute("content", `${vnome}`);
                 document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${vimagem}`);
-                let vpreview = vlink.replaceAll("view", "preview");
+                let vpreview;
+                if (vplat == "gdrive") vpreview = vlink.replaceAll("view", "preview");
+                if (vplat == "archive") vpreview = vlink.replaceAll("details", "embed");
                 document.querySelector("#jsonIframe").src = `${vpreview}`;
               }
           }
@@ -41,7 +46,7 @@ function carregarVideos() {
     return
   }
   if (extra) {
-    fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
+    fetch(`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`)
       .then(response => response.json())
       .then(data => {
           for (var i = 0; i<data.extras.length; i++){
@@ -62,7 +67,7 @@ function carregarVideos() {
       })
     return
   }
-    fetch(`video/${consoleAtual}/${jogoAtual}/videos.json`)
+    fetch(`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`)
       .then(response => response.json())
       .then(data => {
           for (var i = 0; i<data.videos.length; i++){
@@ -83,7 +88,11 @@ function carregarVideos() {
                         let jcurto = data.jogos[i].curto;
                         if (jcurto == jogoAtual) {
                           document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item game-name"><a href="jogo?id=${jcurto}&con=${csigla}">${jnome}</a></div>`;
-                          document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item video-name active"><a href="">Parte ${Number(episodioAtual)+1}</a></div>`;
+                          if (serieAtual == "episodios") {
+                            document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item video-name active"><a href="">Parte ${Number(episodioAtual)+1}</a></div>`;
+                          } else if (serieAtual == "vods") {
+                            document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item video-name active"><a href="">VOD ${Number(episodioAtual)+1}</a></div>`;
+                          }
                         }
                       }
                     }
@@ -91,8 +100,10 @@ function carregarVideos() {
                 })
                 document.title = `${vnome}`;
                 document.querySelector('meta[property="og:title"]').setAttribute("content", `${vnome}`);
-                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${i+1}.${vimagem}`);
-                let vpreview = vlink.replaceAll("view", "preview");
+                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${i+1}.${vimagem}`);
+                let vpreview;
+                if (fonteAtual == "gdrive") vpreview = vlink.replaceAll("view", "preview");
+                if (fonteAtual == "archive") vpreview = vlink.replaceAll("details", "embed");
                 document.querySelector("#jsonIframe").src = `${vpreview}`;
               }
           }

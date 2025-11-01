@@ -227,7 +227,7 @@ body[data-tema="98"] > .pagecontent {
   margin-bottom: 20px !important;
 }
 
-body[data-tema="98"] > .pagecontent > #jsonParent:has(.col), body[data-tema="98"] > .pagecontent > #vodParent:has(.col), body[data-tema="98"] > .pagecontent > #standParent:has(.col), body[data-tema="98"] > .pagecontent > #extrasParent:has(.col) {
+body[data-tema="98"] > .pagecontent > #jsonParent:has(.col), body[data-tema="98"] > .pagecontent > #vodParent:has(.col), body[data-tema="98"] > .pagecontent > #standParent:has(.col), body[data-tema="98"] > .pagecontent > #extrasParent:has(.col), body[data-tema="98"] > .pagecontent > #jogosParent:has(.col), body[data-tema="98"] > .pagecontent > #outrosParent:has(.col) {
   background-color: silver !important;
   padding: 15px;
 

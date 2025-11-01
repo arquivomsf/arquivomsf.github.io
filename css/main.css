@@ -409,3 +409,8 @@ select {
 .hidden {
   display: none !important;
 }
+
+.capa {
+  max-height: 200px !important;
+  width: auto !important;
+}

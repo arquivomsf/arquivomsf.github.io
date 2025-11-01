@@ -1,0 +1,24 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "2.jpg",
+            "quantidade": "10"
+        }
+    ],
+    "vodsarquivo": [
+        {
+            "nome": "VODs do Arquivo",
+            "imagem": "2.jpg",
+            "quantidade": "9"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "SpongeBob SquarePants SuperSponge de PlayStation 1 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/b1eG7r52gQ0",
+            "duracao": "8:50"
+        }
+    ]
+}
