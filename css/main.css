@@ -361,8 +361,6 @@ select {
 
 /*custom breadcrumb*/
 .title-breadcrumb {
-  /*margin-top: 0;
-  padding: 0;*/
   display: flex;
   flex-wrap: wrap;
   list-style: none;

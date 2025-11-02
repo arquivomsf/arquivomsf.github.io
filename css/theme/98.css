@@ -460,11 +460,8 @@ body[data-tema="98"] > .tabs-navbar > .tabs-stack > .tab-btn {
   margin-right: -1px;
   border-bottom: 1px solid transparent;
   width: fit-content;
-  /*padding: 0 10px !important;*/
-  /*margin: 0 0 -2px;*/
 
   flex: 0 0 auto !important;
-  /*padding: 0.5rem 10px !important;*/
 
   border-left: 1px solid #fff;
   border-right: 1px solid #dfdfdf;
@@ -486,9 +483,7 @@ body[data-tema="98"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link{
   font-family: 'Pixelated MS Sans Serif', Arial !important;
   font-weight: normal !important;
   font-size: 1rem !important;
-  /*height: 1.5rem !important;*/
 
-  /*padding: 0.5rem 0;*/
   padding: 0.5rem 10px !important;
 }
 
@@ -497,8 +492,6 @@ body[data-tema="98"] > .tabs-navbar > .tabs-stack > .tab-btn:has(> .tab-link:not
   border-top-right-radius: 3px;
   box-shadow: inset -1px 0 #0a0a0a,inset 1px 1px #dfdfdf,inset -2px 0 grey,inset 2px 2px #fff;
   z-index: 1;
-
-  /*margin: 0 !important;*/
 }
 
 body[data-tema="98"] > .tabs-navbar > .tabs-stack > .tab-btn:has(> .tab-link.active) {

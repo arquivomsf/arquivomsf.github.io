@@ -5,7 +5,8 @@ function carregarDados() {
   setTab("",'jsonParent');
   procurarParam();
   carregarVideos();
-  carregarConsoles();
+  if (consoleAtual == "outros") carregar_consoles_temas("outro",jogoAtual);
+  else carregar_consoles_temas("jogo",jogoAtual);
 }
 
 function procurarParam() {
@@ -19,116 +20,95 @@ function carregarVideos() {
   let serie_path;
   if (consoleAtual != "outros") serie_path = `video/${consoleAtual}/${jogoAtual}/${serieAtual}`;
   else serie_path = `video/${consoleAtual}/${jogoAtual}`;
-  //console.log(serie_path);
 
     fetch(`${serie_path}/videos.json`)
       .then(response => response.json())
       .then(data => {
         document.querySelector(".tabs-navbar").style.display = "none";
         if (data.hasOwnProperty("playlist")) {
-                let pnome = data.playlist[0].nome;
-                let pimagem = data.playlist[0].imagem;
-                let plink = data.playlist[0].link;
-                let pquantidade = data.playlist[0].quantidade;
+                let playlist_nome = data.playlist[0].nome;
+                let playlist_imagem = data.playlist[0].imagem;
+                let playlist_link = data.playlist[0].link;
+                let playlist_quantidade = data.playlist[0].quantidade;
                 document.querySelector("#extrasParent").innerHTML += `
                     <div class="col extras-item">
-                      <a href="${plink}" target="_blank" class="blacklink">
+                      <a href="${playlist_link}" target="_blank" class="blacklink">
                         <div class="thumbnail">
-                          <img src="${serie_path}/1.${pimagem}" alt="" class="img-fluid linkicon">
+                          <img src="${serie_path}/1.${playlist_imagem}" alt="" class="img-fluid linkicon">
                           <div class="playlist-length">
                             <div class="playlist-info-wrapper">
                               <i class="fa fa-list"></i>
-                              <span>${pquantidade}</span>
+                              <span>${playlist_quantidade}</span>
                             </div>
                           </div>
                         </div>
-                        <span class="flow-text title">${pnome}</span>
+                        <span class="flow-text title">${playlist_nome}</span>
                       </a>
                     </div>`;
-          //document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
-          //document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
-          /*if (document.querySelector(".extras-item") == null) {
-            document.querySelector(".c-extras").remove();
-            document.querySelector(".c-videos").remove();
-          }*/
          document.querySelector(".tabs-navbar").style.display = "flex";
         }
 
         if (data.hasOwnProperty("extras")) {
           for (var i = 0; i<data.extras.length; i++){
-                  let enome = data.extras[i].nome;
-                  let eimagem = data.extras[i].imagem;
-                  let elinkyt = data.extras[i].linkyt;
-                  //et eduracao = data.extras[i].duracao;
-                  let eduracao = gerar_timestamp(data.extras[i].duracao.horas,data.extras[i].duracao.minutos,data.extras[i].duracao.segundos);
-                  let eplat = data.extras[i].plataforma;
-                  let eid = data.extras[i].id;
-                  if (eplat == "gdrive") {
+                  let extra_nome = data.extras[i].nome;
+                  let extra_imagem = data.extras[i].imagem;
+                  let extra_link_youtube = data.extras[i].linkyt;
+                  let extra_duracao = gerar_timestamp(data.extras[i].duracao.horas,data.extras[i].duracao.minutos,data.extras[i].duracao.segundos);
+                  let extra_plataforma = data.extras[i].plataforma;
+                  let extra_id = data.extras[i].id;
+                  if (extra_plataforma == "gdrive") {
                   document.querySelector("#extrasParent").innerHTML += `
                     <div class="col extras-item">
-                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${eplat}&extra=true&id=${eid}" class="blacklink">
+                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${extra_plataforma}&extra=true&id=${extra_id}" class="blacklink">
                         <div class="thumbnail">
-                          <img src="${serie_path}/${eimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${eduracao}</span>
+                          <img src="${serie_path}/${extra_imagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${extra_duracao}</span>
                         </div>
-                        <span class="flow-text title">${enome}</span>
+                        <span class="flow-text title">${extra_nome}</span>
                       </a>
                     </div>`;
-                } else if (eplat == "archive") {
+                } else if (extra_plataforma == "archive") {
                   document.querySelector("#extrasParent").innerHTML += `
                     <div class="col extras-item">
-                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${eplat}&extra=true&id=${eid}" class="blacklink">
+                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${extra_plataforma}&extra=true&id=${extra_id}" class="blacklink">
                         <div class="thumbnail">
-                          <img src="${serie_path}/${eimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${eduracao}</span>
+                          <img src="${serie_path}/${extra_imagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${extra_duracao}</span>
                         </div>
-                        <span class="flow-text title">${enome}</span>
+                        <span class="flow-text title">${extra_nome}</span>
                       </a>
                     </div>`;
-                } else if (eplat == "youtube") {
+                } else if (extra_plataforma == "youtube") {
                   document.querySelector("#extrasParent").innerHTML += `
                     <div class="col extras-item">
-                      <a href="${elinkyt}" target="_blank" class="blacklink">
+                      <a href="${extra_link_youtube}" target="_blank" class="blacklink">
                         <div class="thumbnail">
-                          <img src="${serie_path}/${eimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${eduracao}</span>
+                          <img src="${serie_path}/${extra_imagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${extra_duracao}</span>
                         </div>
-                        <span class="flow-text title">${enome}</span>
+                        <span class="flow-text title">${extra_nome}</span>
                       </a>
                     </div>`;
                 }
-          //document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
-          //document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
-          /*if (document.querySelector(".extras-item") == null) {
-            document.querySelector(".c-extras").remove();
-            document.querySelector(".c-videos").remove();
-          }*/
          document.querySelector(".tabs-navbar").style.display = "flex";
         }
         }
 
         if (data.hasOwnProperty("analise")) {
-                  let anome = data.analise[0].nome;
-                  let aimagem = data.analise[0].imagem;
-                  let alink = data.analise[0].link;
-                  //let aduracao = data.analise[0].duracao;
-                  let aduracao = gerar_timestamp(data.analise[0].duracao.horas,data.analise[0].duracao.minutos,data.analise[0].duracao.segundos);
+                  let analise_nome = data.analise[0].nome;
+                  let analise_imagem = data.analise[0].imagem;
+                  let analise_link = data.analise[0].link;
+                  let analise_duracao = gerar_timestamp(data.analise[0].duracao.horas,data.analise[0].duracao.minutos,data.analise[0].duracao.segundos);
                   document.querySelector("#extrasParent").innerHTML += `
                     <div class="col extras-item">
-                      <a href="${alink}" target="_blank" class="blacklink">
+                      <a href="${analise_link}" target="_blank" class="blacklink">
                         <div class="thumbnail">
-                          <img src="${serie_path}/analise.${aimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${aduracao}</span>
+                          <img src="${serie_path}/analise.${analise_imagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${analise_duracao}</span>
                         </div>
-                        <span class="flow-text title">${anome}</span>
+                        <span class="flow-text title">${analise_nome}</span>
                       </a>
                     </div>`;
-          //document.querySelector(".category-wrap-extras").innerHTML = "<div class='video-category c-extras'><b>Extras</b></div>";
-          //document.querySelector(".category-wrap-videos").innerHTML = "<div class='video-category c-videos'><b>Episódios</b></div>";
-          /*if (document.querySelector(".extras-item") == null) {
-            document.querySelector(".c-extras").remove();
-            document.querySelector(".c-videos").remove();
-          }*/
          document.querySelector(".tabs-navbar").style.display = "flex";
         }
 
@@ -138,114 +118,46 @@ function carregarVideos() {
       .then(response => response.json())
       .then(data => {
         for (var i = 0; i<data.videos.length; i++){
-              let vnome = data.videos[i].nome;
-              let vimagem = data.videos[i].imagem;
-              //let vduracao = data.videos[i].duracao;
-              let vduracao = gerar_timestamp(data.videos[i].duracao.horas,data.videos[i].duracao.minutos,data.videos[i].duracao.segundos);
-                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${vimagem}`);
-                let vplat = data.videos[i].plataforma;
-                let vlinkyt = data.videos[i].linkyt;
-                if (vplat == "gdrive") {
+              let video_nome = data.videos[i].nome;
+              let video_imagem = data.videos[i].imagem;
+              let video_duracao = gerar_timestamp(data.videos[i].duracao.horas,data.videos[i].duracao.minutos,data.videos[i].duracao.segundos);
+                document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${video_imagem}`);
+                let video_plataforma = data.videos[i].plataforma;
+                let video_link_youtube = data.videos[i].linkyt;
+                if (video_plataforma == "gdrive") {
                   document.querySelector("#jsonParent").innerHTML += `
                     <div class="col">
-                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${vplat}&id=${i}" class="blacklink">
+                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${video_plataforma}&id=${i}" class="blacklink">
                         <div class="thumbnail">
-                          <img src="${serie_path}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${vduracao}</span>
+                          <img src="${serie_path}/${i+1}.${video_imagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${video_duracao}</span>
                         </div>
-                        <span class="flow-text title">${vnome}</span>
+                        <span class="flow-text title">${video_nome}</span>
                       </a>
                     </div>`;
-                } else if (vplat == "archive") {
+                } else if (video_plataforma == "archive") {
                   document.querySelector("#jsonParent").innerHTML += `
                     <div class="col">
-                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${vplat}&id=${i}" class="blacklink">
+                      <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${video_plataforma}&id=${i}" class="blacklink">
                         <div class="thumbnail">
-                          <img src="${serie_path}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${vduracao}</span>
+                          <img src="${serie_path}/${i+1}.${video_imagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-file-video-o"></i>${video_duracao}</span>
                         </div>
-                        <span class="flow-text title">${vnome}</span>
+                        <span class="flow-text title">${video_nome}</span>
                       </a>
                     </div>`;
-                } else if (vplat == "youtube") {
+                } else if (video_plataforma == "youtube") {
                   document.querySelector("#jsonParent").innerHTML += `
                     <div class="col">
-                      <a href="${vlinkyt}" target="_blank" class="blacklink">
+                      <a href="${video_link_youtube}" target="_blank" class="blacklink">
                         <div class="thumbnail">
-                          <img src="${serie_path}/${i+1}.${vimagem}" alt="" class="img-fluid linkicon">
-                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${vduracao}</span>
+                          <img src="${serie_path}/${i+1}.${video_imagem}" alt="" class="img-fluid linkicon">
+                          <span class="video-length"><i class="fa fa-fw fa-youtube-play"></i>${video_duracao}</span>
                         </div>
-                        <span class="flow-text title">${vnome}</span>
+                        <span class="flow-text title">${video_nome}</span>
                       </a>
                     </div>`;
                 }
         }
       })
-}
-
-function carregarConsoles() {
-  fetch("dados.json")
-  .then(response => response.json())
-  .then(data => {
-      for (var i = 0; i<data.consoles.length; i++){
-          let cnome = data.consoles[i].nome;
-          let csigla = data.consoles[i].sigla;
-          document.querySelector("#conJsonParent").innerHTML += `
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="console?id=${csigla}">${cnome}</a>
-            </li>`;
-      }
-      for (var i = 0; i<data.temas.length; i++){
-        let tnome = data.temas[i].nome;
-        let tvalor = data.temas[i].valor;
-        document.querySelector("#themes_select").innerHTML += `
-          <option value="${tvalor}">${tnome}</option>`;
-      }
-      startTema();
-  })
-  fetch("dados.json")
-  .then(response => response.json())
-  .then(data => {
-      if (consoleAtual != "outros") {
-      for (var i = 0; i<data.jogos.length; i++){
-          let jnome = data.jogos[i].nome;
-          let jconsole = data.jogos[i].console;
-          let jconsigla = data.jogos[i].consigla;
-          let jcurto = data.jogos[i].curto;
-          if(jcurto == jogoAtual){
-            document.querySelector(".game-name").innerHTML = `<a href="">${jnome}</a>`;
-            document.querySelector(".console-name").innerHTML = `<a href="console?id=${jconsigla}">${jconsole}</a>`;
-            document.title = `Arquivo - ${jnome}`;
-            document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${jnome}`);
-          }
-      }
-    } else {
-      for (var i = 0; i<data.outros.length; i++){
-          let otnome = data.outros[i].nome;
-          let otconsole = data.outros[i].console;
-          let otconsigla = data.outros[i].consigla;
-          let otcurto = data.outros[i].curto;
-          if(otcurto == jogoAtual){
-            document.querySelector(".game-name").innerHTML = `<a href="">${otnome}</a>`;
-            document.querySelector(".console-name").innerHTML = `<a href="console?id=${otconsigla}">${otconsole}</a>`;
-            document.title = `Arquivo - ${j=otnome}`;
-            document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${otnome}`);
-          }
-      }
-    }
-  })
-}
-
-function setTab(cur_el,selected_tab) {
-    if (cur_el != "") {
-        document.querySelectorAll(".tab-link").forEach(el => {
-            el.classList.remove("active");
-        });
-        cur_el.classList.add("active");
-    }
-
-    document.querySelectorAll(".tab-content").forEach(el => {
-        el.classList.add("hidden");
-    });
-    document.querySelector("#"+selected_tab).classList.remove("hidden");
 }

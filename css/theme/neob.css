@@ -20,7 +20,6 @@ body[data-tema="neob"] {
 }
 
 body[data-tema="neob"] > .navbar {
-  /*background-color: inherit !important;*/
   background-color: var(--neob-darkblue) !important;
   border-bottom: 2px black solid;
 }
