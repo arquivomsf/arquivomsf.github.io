@@ -3,14 +3,14 @@
         {
             "nome": "Episódios da CosTV",
             "imagem": "2.jpg",
-            "quantidade": "10"
+            "quantidade": "?"
         }
     ],
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
             "imagem": "2.jpg",
-            "quantidade": "9"
+            "quantidade": "?"
         }
     ],
     "analise": [

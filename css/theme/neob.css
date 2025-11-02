@@ -42,6 +42,7 @@ body[data-tema="neob"] > .navbar > div > div > div > input, body[data-tema="neob
   border: 1px solid black !important;
   border-radius: 0;
   box-shadow: 5px 5px !important;
+  text-transform: uppercase;
 }
 
 body[data-tema="neob"] > .navbar > center > div > button.pesquisar-btn, body[data-tema="neob"] > .navbar > div > div > button.pesquisar-btn {
@@ -212,6 +213,7 @@ body[data-tema="neob"] > .navbar > .offcanvas > .offcanvas-body > ul > li > sele
   color: black;
   border: none;
   box-shadow: none;
+  text-transform: uppercase;
 }
 
 body[data-tema="neob"] > .pagecontent > p > a:not(.likebutton) {

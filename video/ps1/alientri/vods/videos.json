@@ -7,6 +7,21 @@
             "quantidade": "?"
         }
     ],
+    "extras": [
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 7.5",
+            "id": "alientri7-5",
+            "imagem": "alientri7-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/pN9pnjqmHxg",
+            "duracao": {
+                "horas": 1,
+                "minutos": 8,
+                "segundos": 4
+            },
+            "plataforma": "youtube"
+        }
+    ],
     "videos": [
         {
             "nome": "Alien Trilogy (PS1) - VOD 1",
@@ -77,6 +92,18 @@
                 "horas": 1,
                 "minutos": 47,
                 "segundos": 33
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 7",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/yx86pM53MT4",
+            "duracao": {
+                "horas": 1,
+                "minutos": 10,
+                "segundos": 36
             },
             "plataforma": "youtube"
         }

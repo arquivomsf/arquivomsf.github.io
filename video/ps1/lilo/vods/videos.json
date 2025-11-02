@@ -11,7 +11,7 @@
         {
             "nome": "Tech mostrando o ovo dele",
             "id": "ovo",
-            "imagem": "../../etc/ovo.png",
+            "imagem": "../../../etc/ovo.png",
             "link": "",
             "linkyt": "https://youtu.be/UNsiqLRMA30",
             "duracao": {

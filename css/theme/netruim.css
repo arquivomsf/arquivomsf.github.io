@@ -128,7 +128,7 @@ body[data-tema="netruim"] > .navbar > center > div > span.page-name > .title-bre
 }
 
 body[data-tema="netruim"] > .pagecontent > div > div > a > div > .video-length > i.fa-file-video-o::before {
-  content: "[gd]";
+  content: "[vid]";
 }
 
 body[data-tema="netruim"] > .pagecontent > div > div > a > div > .video-length > i.fa-youtube-play::before {
