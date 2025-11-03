@@ -3,25 +3,25 @@
         {
             "nome": "Episódios da CosTV",
             "imagem": "2.jpg",
-            "quantidade": "?"
+            "quantidade": "20"
         }
     ],
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
             "imagem": "2.jpg",
-            "quantidade": "?"
+            "quantidade": "12"
         }
     ],
     "analise": [
         {
-            "nome": "SpongeBob SquarePants SuperSponge de PlayStation 1 | Análise do Jogo",
+            "nome": "Alien Trilogy de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
-            "link": "https://youtu.be/b1eG7r52gQ0",
+            "link": "https://youtu.be/Yy1D5xViG5o",
             "duracao": {
                 "horas": 0,
-                "minutos": 8,
-                "segundos": 50
+                "minutos": 14,
+                "segundos": 9
             }
         }
     ]

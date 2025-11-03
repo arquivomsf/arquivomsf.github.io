@@ -4,7 +4,7 @@
             "nome": "Alien Trilogy (PS1 - VOD)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsPFCoVMRItX6hQepd2jPB5",
-            "quantidade": "?"
+            "quantidade": "12"
         }
     ],
     "extras": [
@@ -18,6 +18,45 @@
                 "horas": 1,
                 "minutos": 8,
                 "segundos": 4
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 8.5",
+            "id": "alientri8-5",
+            "imagem": "alientri8-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/E6x0EO-nycs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 50
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Marcelo ouvindo a música +99 do Marcos",
+            "id": "musicadomarcos",
+            "imagem": "../../../etc/musicadomarcos.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/ZAa5DyLb6Gc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 3,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 9.5",
+            "id": "alientri9-5",
+            "imagem": "alientri9-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/MU1-xSN6BiI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 57
             },
             "plataforma": "youtube"
         }
@@ -104,6 +143,30 @@
                 "horas": 1,
                 "minutos": 10,
                 "segundos": 36
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 8",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/QiVjgDM8Gds",
+            "duracao": {
+                "horas": 1,
+                "minutos": 57,
+                "segundos": 23
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy (PS1) - VOD 9",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/fqffAwUQWCc",
+            "duracao": {
+                "horas": 1,
+                "minutos": 4,
+                "segundos": 2
             },
             "plataforma": "youtube"
         }

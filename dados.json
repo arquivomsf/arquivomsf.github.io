@@ -727,6 +727,21 @@
                 "segundos": 10
             },
             "plataforma": "gdrive"
+        },
+        {
+            "nome": "Marcelo ouvindo a música +99 do Marcos",
+            "tags": "Marcelo ouvindo a música +99 do Marcos +18 proibida",
+            "imagem": "musicadomarcos.jpg",
+            "consigla": "etc",
+            "curto": "musicadomarcos",
+            "link": "",
+            "linkyt": "https://youtu.be/ZAa5DyLb6Gc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 3,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
         }
     ],
     "outros": [

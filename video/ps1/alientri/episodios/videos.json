@@ -4,7 +4,7 @@
             "nome": "Alien Trilogy (PS1)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsYIwSnlETn9VnVAWB_XkBc",
-            "quantidade": "?"
+            "quantidade": "20"
         }
     ],
     "videos": [
@@ -149,6 +149,18 @@
                 "horas": 0,
                 "minutos": 26,
                 "segundos": 53
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 13",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/kyWXSk-Dm5E",
+            "duracao": {
+                "horas": 0,
+                "minutos": 22,
+                "segundos": 32
             },
             "plataforma": "youtube"
         }
