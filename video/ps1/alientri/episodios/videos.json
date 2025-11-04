@@ -163,6 +163,18 @@
                 "segundos": 32
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 14",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/PLKgEM8mxIg",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
         }
     ]
 }

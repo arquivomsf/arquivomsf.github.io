@@ -447,6 +447,14 @@
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "alientri"
+        },
+        {
+            "nome": "Castlevania: Symphony of the Night",
+            "tags": "Castlevania: Symphony of the Night akumajo dracula akumajou dracula akumajyo dracula akumajo dorakyura akumajou dorakyura akumajyo dorakyura sinfonia da noite metroidvania alucard ps1 playstation 1",
+            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(Europe).png",
+            "console": "PlayStation 1",
+            "consigla": "ps1",
+            "curto": "symphony"
         }
     ],
     "futurosjogos": [
@@ -457,14 +465,6 @@
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "suffering1"
-        },
-        {
-            "nome": "Castlevania: Symphony of the Night",
-            "tags": "Castlevania: Symphony of the Night akumajo dracula akumajou dracula akumajyo dracula akumajo dorakyura akumajou dorakyura akumajyo dorakyura sinfonia da noite metroidvania alucard ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(Europe).png",
-            "console": "PlayStation 1",
-            "consigla": "ps1",
-            "curto": "symphony"
         },
         {
             "nome": "Need for Speed: Most Wanted",
