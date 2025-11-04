@@ -1,0 +1,204 @@
+{
+    "playlist": [
+        {
+            "nome": "Harry Potter e a Pedra Filosofal (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuzrS_EL0QSWOdATOQqJ8n5",
+            "quantidade": "16"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1KyZ3LVripXLDkbJyMepeURhnX0hPqxlQ/view",
+            "linkyt": "https://youtu.be/RlwV0RdiBro",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 0
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/10hCO07PC9RH-wwy60UNFwDxTWWzwme4M/view",
+            "linkyt": "https://youtu.be/_tBALixTTgY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 51,
+                "segundos": 33
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Q0jbXbZFEmYeCryZoBCRyAPH0bvaZJ0P/view",
+            "linkyt": "https://youtu.be/CvV0yHAr51s",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 10
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1tOIp-6MamkQHcVYKrUQg_0s5SmssafNJ/view",
+            "linkyt": "https://youtu.be/IZWZmGaUJjs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 57
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 5",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1ibapBhkW3u0n8rLxiQusGlefk52hBZT6/view",
+            "linkyt": "https://youtu.be/igKmJp64utk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 40
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 6",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1t0aB8TUpXpnKDspswkeGQ5VYOQpXCuBa/view",
+            "linkyt": "https://youtu.be/wqo5FM89cAo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 23
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 7",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1IqgYKrwTRS-ZBNzOF6uLchBloGXLJ9pv/view",
+            "linkyt": "https://youtu.be/6LhnfTt-geo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 35,
+                "segundos": 5
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 8",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1r5-NIrHwffJ3LPI7oE7_Bp0PX0d06Xsb/view",
+            "linkyt": "https://youtu.be/bqKdf9j5CLA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 26
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 9",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1kWQfH2Lpgq_7SUVxvcgqLaJMJ4aVVHvT/view",
+            "linkyt": "https://youtu.be/wji3Ak6VELQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 10",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/12i7hJ_GIAhbv0AjsqRu-bTftAnnbXZ8U/view",
+            "linkyt": "https://youtu.be/s9VPAhqZy6M",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 30
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 11",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/14QERlGjeg1a11I77MxIO5ItcYAdCAWoo/view",
+            "linkyt": "https://youtu.be/ikLdqo0bWE8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 5
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 12",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1V8Tb1hDOmcipNpGsR9o3oRCH6jiXOJGm/view",
+            "linkyt": "https://youtu.be/UJTm0VupsYQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 11
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 13",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1RaFd8cpNX5JRBHsyVqPyoEpQ3ZnvR2II/view",
+            "linkyt": "https://youtu.be/5mLi7w5Bo3U",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 53
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 14",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1CiotUkGwX7nLGLjykEK2l43olGWL2IwL/view",
+            "linkyt": "https://youtu.be/6vmaif_8-AI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 48,
+                "segundos": 48
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 15",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1TkAvY1S_O8NLKrH_bBDKxXB1NmzyKU4h/view",
+            "linkyt": "https://youtu.be/qBciX8r9fHs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 36
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 16 Final",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1ceEOj7_cwyn5nS3vjLSplVN-PUwjzqlW/view",
+            "linkyt": "https://youtu.be/jJkyFpd26Ts",
+            "duracao": {
+                "horas": 0,
+                "minutos": 22,
+                "segundos": 32
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

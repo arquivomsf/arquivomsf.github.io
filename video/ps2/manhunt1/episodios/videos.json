@@ -1,0 +1,300 @@
+{
+    "playlist": [
+        {
+            "nome": "Manhunt (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvAVHGRsOBxkqm50drNQ9l1",
+            "quantidade": "24"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Pt5s7fO8Q8vIIPz68tvaBdIjtAT70HYx/view",
+            "linkyt": "https://youtu.be/rwhXULgk4dE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 48
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1B5-OWsd1KmZ1Ee_8z6eSlBb7vMhwwWt3/view",
+            "linkyt": "https://youtu.be/cA4DetNn8x0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 45,
+                "segundos": 16
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1rxY4nUiYUMF5j2SwKIFQJaEs0K05drPd/view",
+            "linkyt": "https://youtu.be/z6Q-Wu0Xz9s",
+            "duracao": {
+                "horas": 0,
+                "minutos": 45,
+                "segundos": 15
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1W-qFNwIRJnbs6VURa1fX_2RL3j9mO-pe/view",
+            "linkyt": "https://youtu.be/LxCySVocyWE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 5",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1prgT0Ras9TkgupIEEHxblS97W6vGP4iE/view",
+            "linkyt": "https://youtu.be/1vpJp9_QktM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 6",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1e9-DN2Zbit8o-Yq3TuRa_S50NDHHuMZQ/view",
+            "linkyt": "https://youtu.be/cAub2Ul9MU4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 27
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 7",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1XzXlXraUL-4v1sUDvsODq8uCdMq6CteA/view",
+            "linkyt": "https://youtu.be/S_erFdXxYCc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 58
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 8",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1bHwwTJiwKzouhn63czf9fXUK9V6jWdCg/view",
+            "linkyt": "https://youtu.be/yCVXpCtP6Ys",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 41
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 9",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1dOI8VmLuBN5XkRkGwWwZqEdFp5SqGZDe/view",
+            "linkyt": "https://youtu.be/5URQYGkNpvs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 45,
+                "segundos": 43
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 10",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1SekT9Ba1lEmVjYV4LQPzi8k4h6SKf7QU/view",
+            "linkyt": "https://youtu.be/iIF02E_QerA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 31
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 11",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Dbf3R_mb6TRoRV6H9ar2e74mc3I7_Vth/view",
+            "linkyt": "https://youtu.be/1NGC7U6fAG0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 12",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/15_-RA-Z_2-7d7-Kf8x4zyIC9DulAJF6v/view",
+            "linkyt": "https://youtu.be/VQ0bY9iO_Kc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 36,
+                "segundos": 21
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 13",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1HiBwwtkQs1xnUsSZmIOQi6h3mu1sv_Kj/view",
+            "linkyt": "https://youtu.be/b3bM03kAJSw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 36,
+                "segundos": 57
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 14",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/15ZPzWqjKbXOBP6c25VWTddyYeLmytMGv/view",
+            "linkyt": "https://youtu.be/_12XjIrwn5I",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 2
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 15",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/108a70JN1rQ4iYez6ZmUK4M2p64W8EKEv/view",
+            "linkyt": "https://youtu.be/WG-Qe_GS044",
+            "duracao": {
+                "horas": 0,
+                "minutos": 45,
+                "segundos": 47
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 16",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/14NuTdN5kfjXZ0hcrX5NjMgBV39iuI5TJ/view",
+            "linkyt": "https://youtu.be/WTPD_QjmcjQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 54
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 17",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1uyfRbswclsYSMP9N1M9KPsC1wO-B_SKd/view",
+            "linkyt": "https://youtu.be/wxkQ7f-S3FQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 36,
+                "segundos": 48
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 18",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Zrr0UyN6HfU5MWu5KiiVlziGnHuAUgr3/view",
+            "linkyt": "https://youtu.be/2PpKG6d6Be4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 56
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 19",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1aIwZspY2FDlDQHpHLCZ3AVAUxQ3MJide/view",
+            "linkyt": "https://youtu.be/3IsbmARABHE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 49
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 20",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/173hPcXjE2_7tJGGi6bFFK0oMQvkrDssw/view",
+            "linkyt": "https://youtu.be/1Sq8-f-9i-s",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 10
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 21",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1-FvUckKdQrsDMv_WPS8Z_1X51-v26exR/view",
+            "linkyt": "https://youtu.be/qhKmxGrIx88",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 22",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1BszL52nJTkwdqbuKyVmLCYvlrREEfQK8/view",
+            "linkyt": "https://youtu.be/k_y_hxDCzbU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 57
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 23",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1A--HMeStsgX2SoUGQXHjlyHevF0MsxXs/view",
+            "linkyt": "https://youtu.be/cVwflwAupyw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 26
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Manhunt de PlayStation 2 - Parte 24 Final",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1_qgXEzmbzY9zqiqB-ebjMU5vUU18gvJ2/view",
+            "linkyt": "https://youtu.be/YreCtwVTx70",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 15
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

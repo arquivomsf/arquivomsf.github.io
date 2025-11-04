@@ -1,0 +1,36 @@
+{
+    "playlist": [
+        {
+            "nome": "Metal Slug X (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvvnCnS8XNajYcfKW_5cg_8H",
+            "quantidade": "2"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Metal Slug X de PlayStation 1 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1_mmuaDSK02z90rA-iuWo0R0z8NDEiGRz/view",
+            "linkyt": "https://youtu.be/iDw-0cFjakU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 26
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Metal Slug X de PlayStation 1 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1AYij8sim4eDhkX8FvdXot2xR6CqM9GWk/view",
+            "linkyt": "https://youtu.be/-A9iHXsZoCg",
+            "duracao": {
+                "horas": 0,
+                "minutos": 35,
+                "segundos": 13
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

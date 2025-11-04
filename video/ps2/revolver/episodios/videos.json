@@ -1,0 +1,168 @@
+{
+    "playlist": [
+        {
+            "nome": "Red Dead Revolver (PS2)",
+            "imagem": "png",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvMM8D-I1W1LBuh2PgL4dJy",
+            "quantidade": "13"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 1",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1btFUPHj-MctNdyPUaJxp0qv17RFTziHv/view",
+            "linkyt": "https://youtu.be/C5oGLP0Yn10",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 23
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 2",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1MONSggkZhuMUxIXLFvENna2Cx3rFy2d_/view",
+            "linkyt": "https://youtu.be/IfqqvhCNu_8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 3
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 3",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1PsgZQfFSOxRsyMIpo6KJCCysL3ZmHbPg/view",
+            "linkyt": "https://youtu.be/sFYMrXFBCbo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 35,
+                "segundos": 46
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 4",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1WhELvEZYLHuBeAbF_CYPbzenhm6ADyLs/view",
+            "linkyt": "https://youtu.be/3P8w72petd8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 27,
+                "segundos": 46
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 5",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1gp3es6yJEH3TU2veFZLyU_fhzoz91oQW/view",
+            "linkyt": "https://youtu.be/zMUnhZn_RbI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 17
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 6",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1kUhBky11QZxmyzGT58uMPpl4mdtX0e59/view",
+            "linkyt": "https://youtu.be/Rkfh0r8-9ks",
+            "duracao": {
+                "horas": 0,
+                "minutos": 27,
+                "segundos": 47
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 7",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1_gi2Z0zszTjQLltzbmWFXYvMqD4w6P2V/view",
+            "linkyt": "https://youtu.be/XCgpOrWuB34",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 53
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 8",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1qiDPxrjfwel4Q21FyNjHj6QcJoBk7hQL/view",
+            "linkyt": "https://youtu.be/kkK4aKoEj-E",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 8
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 9",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1v7Viy70HCPc6WMWD1iTio6acfCRv96Jk/view",
+            "linkyt": "https://youtu.be/zYaPB0ha4zc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 27,
+                "segundos": 14
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 10",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1Ii6cehYrl5FAoxvVaDCbOCb7TUrXcegj/view",
+            "linkyt": "https://youtu.be/LBcdqarR84A",
+            "duracao": {
+                "horas": 0,
+                "minutos": 27,
+                "segundos": 16
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 11",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1bdPa711gMrWjenKvC-zNI_uoxqmjNkue/view",
+            "linkyt": "https://youtu.be/ejSkc9c-z7I",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 26
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 12",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1D9Va7HOm7WXugcgWezksGpbKommU07HI/view",
+            "linkyt": "https://youtu.be/ZURVwSGInck",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 15
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Red Dead Revolver de PlayStation 2 - Parte 13",
+            "imagem": "png",
+            "link": "https://drive.google.com/file/d/1t510-dS5-6ORQK20F2_1SZyRDbWwhvUU/view",
+            "linkyt": "https://youtu.be/87vS6eXtYCo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 33,
+                "segundos": 47
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

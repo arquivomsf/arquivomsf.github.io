@@ -1,0 +1,120 @@
+{
+    "playlist": [
+        {
+            "nome": "Tai Fu Wrath of the Tiger (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvtAhrZAPK09TkYVPgp1l9zn",
+            "quantidade": "9"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/16YjWyHN6SsVXNhyn9SUUWO3Mk2HTmnQJ/view",
+            "linkyt": "https://youtu.be/rwHC002uMFc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 5
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1sX5DL-7ATHFpbhfY4Yc0y8msNIiEeFSH/view",
+            "linkyt": "https://youtu.be/8-o5Ud23ky8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 35,
+                "segundos": 44
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1KUPTssLLwLcrQKaHhPZZL8dBqKV6r7dg/view",
+            "linkyt": "https://youtu.be/SyGqVkPUG7E",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1diShL-2X654FzgCMd1h2DbI1DSFJq8Ei/view",
+            "linkyt": "https://youtu.be/XIIi5Miwf38",
+            "duracao": {
+                "horas": 0,
+                "minutos": 45,
+                "segundos": 33
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 5",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1PiyADm0FEBMO7u7lmY664G2-UkAvrrev/view",
+            "linkyt": "https://youtu.be/L3yUmIstcww",
+            "duracao": {
+                "horas": 0,
+                "minutos": 48,
+                "segundos": 43
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 6",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1-9uhehkR7pk-TY6v2dWOL0-IDuc6s8cA/view",
+            "linkyt": "https://youtu.be/FvQxTfFkVcw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 37,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 7",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1dIyw2Odnt1cUXVZQpufpDYF-g-Gsuwgc/view",
+            "linkyt": "https://youtu.be/lNMFc6SbOCQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 51,
+                "segundos": 6
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 8",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/18IQ_heHj1A7kxqSNLP3Uwgku5EHiYYuh/view",
+            "linkyt": "https://youtu.be/XsQkGHDEZG0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 37,
+                "segundos": 43
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 9 FINAL",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1PWjUlAP4QWjkoelZEg-M2SET1bdLuVwZ/view",
+            "linkyt": "https://youtu.be/dSsvnZjFVY8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 19
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

@@ -1,0 +1,384 @@
+{
+    "playlist": [
+        {
+            "nome": "Grand Theft Auto 3 (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv2-z7xRzOwuUFcZ8_mAr8B",
+            "quantidade": "31"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1eLHRBHVexbNzPKNjQuGn_wK_ow6nO1Dw/view",
+            "linkyt": "https://youtu.be/bYaNaOcY8d4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 34
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1OcSXkBkQ8OBwS5AldUtoB-PZskuJYHas/view",
+            "linkyt": "https://youtu.be/YOASMOT-0oo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 56
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1QFS3EzaciPX-EHn6HDHuG6w-ewu_jU-9/view",
+            "linkyt": "https://youtu.be/i8khH9fMiLM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 24,
+                "segundos": 32
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1tmiWhK8PZceQwvaTDRoG3PXTKN0FR-nI/view",
+            "linkyt": "https://youtu.be/Y2Mkl1swv9s",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 58
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 5",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1nEuNAFqCr-VTZ13cwzrYGPA5WWpnGmCq/view",
+            "linkyt": "https://youtu.be/mHCs-37IStw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 35
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 6",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Ef1RYQO2Xzfssg7Hc8v66e3ErOHc4qyy/view",
+            "linkyt": "https://youtu.be/NB0DgkwlQig",
+            "duracao": {
+                "horas": 0,
+                "minutos": 41,
+                "segundos": 17
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 7",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1dQoxOZ-DsWzmgqP9fuFEOlXELQBdacec/view",
+            "linkyt": "https://youtu.be/Ry2_LyPwxzA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 39,
+                "segundos": 21
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 8",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1WwiX6-Y2kwm--gqhyvLYCv23ZRTY7XES/view",
+            "linkyt": "https://youtu.be/5dMHjVy1b3Q",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 42
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 9",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1prwB64zOr4mDbt3LmqZCOnSw5-U8Sbaw/view",
+            "linkyt": "https://youtu.be/lvdBl92SB4A",
+            "duracao": {
+                "horas": 0,
+                "minutos": 39,
+                "segundos": 31
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 10",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Q5GJNEvbfB3a9ensqh9n7kR3Sj9qrhGl/view",
+            "linkyt": "https://youtu.be/qoHuiHq58vU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 35
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 11",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1nWuOrW8h2JQrRc5ryj4etgLRhyOE2Mm9/view",
+            "linkyt": "https://youtu.be/IPgKZw64XMA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 15
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 12",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1qPiCq7uIDcQR6WPDkSLmqtF0Vu4PUK--/view",
+            "linkyt": "https://youtu.be/nVOmAeLQBtQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 5
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 13",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1z-ZyYUABYluCmaga68bOFbV-bWuTAGyb/view",
+            "linkyt": "https://youtu.be/6v5n9fSnhZ4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 11
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 14",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1fLfzJBp4QEh-eUqdY7HNSYqWnSNxOILu/view",
+            "linkyt": "https://youtu.be/QGhnrcmOyIw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 57
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 15",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Wby8brhXaJMLADZrkLIDStnbjDaDFDL6/view",
+            "linkyt": "https://youtu.be/ESRGg_6bgBE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 24
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 16",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/19xWgSXa3yK010ts3Xxg-jN3-lekHzJO3/view",
+            "linkyt": "https://youtu.be/wR50iLZ4Xo4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 28,
+                "segundos": 56
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 17",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Oe3pzB4sdVbb0fsjSAFpHBs8y30o9YbY/view",
+            "linkyt": "https://youtu.be/ji0a6d0CkdQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 2
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 18",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1O4gxPtUTEeycqoMjYeELdkGtDRw5rYUk/view",
+            "linkyt": "https://youtu.be/oGd6VQdhGBI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 27,
+                "segundos": 26
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 19",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1HEQDSiKvdrqdKG34EMwjg-pSYp7_oET2/view",
+            "linkyt": "https://youtu.be/VRmlt2iGJo0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 20
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 20",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1t9mD9PKbqgoqLkw79A1Y3OMudOVFbhsl/view",
+            "linkyt": "https://youtu.be/ZncUWwwLES0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 28,
+                "segundos": 33
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 21",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1pWrEEZIwG5AtEJpZYDXLPK503Kp5TZ3V/view",
+            "linkyt": "https://youtu.be/wRjqDeENFXM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 5
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 22",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/18eXFtYX8zVwFTZP94G_JiFR8pJgMjI56/view",
+            "linkyt": "https://youtu.be/i-3tSN3KQCg",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 4
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 23",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1wZq5tlonyn3BBPRm33IsLI_DbfYXJWlA/view",
+            "linkyt": "https://youtu.be/bb2x1J7pvcw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 28,
+                "segundos": 57
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 24",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1HVSbS1ECaUkydBkB-sPTB8mmQGv2DGgC/view",
+            "linkyt": "https://youtu.be/wR599nv8cRw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 33,
+                "segundos": 38
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 25",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1pJy7ouE5IjDO8bpzrNQUYbcNyICoJ1-h/view",
+            "linkyt": "https://youtu.be/assz904Tb5A",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 7
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 26",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1niOthXG0ySkxkTjGSuf67i9ubSfGhe2U/view",
+            "linkyt": "https://youtu.be/9iyocInFVEg",
+            "duracao": {
+                "horas": 0,
+                "minutos": 32,
+                "segundos": 25
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 27",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1TmKZRkaNRe5Xddn4DhtQK89pqRjfydzJ/view",
+            "linkyt": "https://youtu.be/nEAo9Xlz86c",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 22
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 28",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1TP2jfF6H10ReLMHSgWUX5-tEbvpQn5ab/view",
+            "linkyt": "https://youtu.be/P9y5lLiAC1A",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 9
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 29",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1uH3QwDdouOl3YgTWTdCAKF2ku0W10FF3/view",
+            "linkyt": "https://youtu.be/cxX_kUICRmQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 11
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 30",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1VG_a-oNoTIQ_5_d7cVXsjci_JQ1hvr6y/view",
+            "linkyt": "https://youtu.be/CsoTCAlytSs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 4
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "GTA 3 de PlayStation 2 - Parte 31 FInal",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1hqolUbckkGQcUu6dUHghUlVSubFivyVV/view",
+            "linkyt": "https://youtu.be/IwrQCbouhus",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

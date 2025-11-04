@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "16"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Harry Potter e a Pedra Filosofal de PlayStation 2 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/aK0EK6OkOIY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 14,
+                "segundos": 50
+            }
+        }
+    ]
+}

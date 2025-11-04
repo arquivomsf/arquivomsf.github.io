@@ -1,0 +1,72 @@
+{
+    "playlist": [
+        {
+            "nome": "Super Mario Bros. (NES - VOD) ",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtaqCHtCOIMc-8xY5V2xiel",
+            "quantidade": "5"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Super Mario Bros (NES) - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/GGJ4h9DIDM8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 33
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Super Mario Bros (NES) - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/x-8eW7W6OU0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 32,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Super Mario Bros (NES) - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/-wGW93kYrDw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 38,
+                "segundos": 25
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Super Mario Bros (NES) - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/ZU7i8tgSyQQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 19
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Super Mario Bros (NES) - VOD Extra",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/TbZ7zDFJ-q4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 34,
+                "segundos": 24
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

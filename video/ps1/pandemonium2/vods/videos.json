@@ -1,0 +1,136 @@
+{
+    "playlist": [
+        {
+            "nome": "Pandemonium 2 (PS1 - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuzGzSH-lE58PnMwOKix2oE",
+            "quantidade": "10"
+        }
+    ],
+    "extras": [
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 2.5",
+            "id": "pandemonium2-2-5",
+            "imagem": "pandemonium2-2-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/PSC4VfIz2Rg",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 9
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 4.5",
+            "id": "pandemonium2-4-5",
+            "imagem": "pandemonium2-4-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/0ricM30hbUk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 34,
+                "segundos": 35
+            },
+            "plataforma": "youtube"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/0eClGWTmlig",
+            "duracao": {
+                "horas": 2,
+                "minutos": 6,
+                "segundos": 56
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/-fNZPSp0OmI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 36
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/aRMJFUUf8zA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 22
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/iFk7QcLCzjA",
+            "duracao": {
+                "horas": 1,
+                "minutos": 57,
+                "segundos": 40
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 5",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/vPm7VnJxnCQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 35,
+                "segundos": 8
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 6",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/uEdD7gBrl3k",
+            "duracao": {
+                "horas": 1,
+                "minutos": 53,
+                "segundos": 35
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 7",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/buJuVF6Ark0",
+            "duracao": {
+                "horas": 1,
+                "minutos": 26,
+                "segundos": 12
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Pandemonium 2 de PlayStation 1 - VOD 8",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/EhDb_3QypCk",
+            "duracao": {
+                "horas": 4,
+                "minutos": 36,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

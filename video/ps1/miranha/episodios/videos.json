@@ -1,0 +1,84 @@
+{
+    "playlist": [
+        {
+            "nome": "Homem Aranha 2 (PS1)",
+            "imagem": "jpg",
+            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvtHE6X6S5Ok-C4O3DxcEsd-",
+            "quantidade": "6"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Homem Aranha 2 de PlayStation 1 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1-JaBLf1E8Wol4fdBHQJQZKv3w5IKmVHY/view",
+            "linkyt": "https://youtu.be/YtHm1BrlPds",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 20
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Homem Aranha 2 de PlayStation 1 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1TfdvYJr-_DcXYoEWWJvvN5X9zxuNJTbs/view",
+            "linkyt": "https://youtu.be/zK0xwR2_dsA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 28
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Homem Aranha 2 de PlayStation 1 - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Pi2oGw5IQEokOzouIT_uNi-8JKz8LbF5/view",
+            "linkyt": "https://youtu.be/lccMPXpAC6E",
+            "duracao": {
+                "horas": 0,
+                "minutos": 45,
+                "segundos": 40
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Homem Aranha 2 de PlayStation 1 - Parte 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1uoCA7f2BAZTharii_W0Pod6SlP6RpqaD/view",
+            "linkyt": "https://youtu.be/GMfAwdMcmjk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 38,
+                "segundos": 32
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Homem Aranha 2 de PlayStation 1 - Parte 5",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1GMgu6lFggcZ8dP9swy1F40ZhzwLVfvm0/view",
+            "linkyt": "https://youtu.be/CiB7XpC7v4o",
+            "duracao": {
+                "horas": 0,
+                "minutos": 41,
+                "segundos": 23
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Homem Aranha 2 de PlayStation 1 - Parte 6",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1-fd8JWCAiGO5UDpO7iBmdj-x0MWFUiyw/view",
+            "linkyt": "https://youtu.be/8OpTRQAY5qE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 9
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

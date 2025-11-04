@@ -1,0 +1,576 @@
+{
+    "playlist": [
+        {
+            "nome": "Scarface: The World Is Yours (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtHdDsNA7T_dyJtfYqCn2uf",
+            "quantidade": "47"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1bqM83SP2bwdYEzB5kjsM4Wu0V4YLdkh_/view",
+            "linkyt": "https://youtu.be/vnMVlNmSyvk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 13
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1RpDi1dDIhT1yhugraWfoEut_UkRhBBMP/view",
+            "linkyt": "https://youtu.be/PxV2rPWc0BM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 23
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1o7UQ2UZkgnuHGu81RAeC9oFI-QYsSILB/view",
+            "linkyt": "https://youtu.be/JexzEEc3pwY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 51
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1ZTsIeI_M2F3XDQkh6AjW67yR3xgp46km/view",
+            "linkyt": "https://youtu.be/Cn-EeesbLjQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 37,
+                "segundos": 38
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 5",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1K3jp_SrwFZ32kd1UO_lmT44FhrWBo7WN/view",
+            "linkyt": "https://youtu.be/cPiV4Qoxh7Y",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 6",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1AIVcJRReY8yOW0NpsQFvBBcptH2dXPT6/view",
+            "linkyt": "https://youtu.be/U1nZvwbPV8M",
+            "duracao": {
+                "horas": 0,
+                "minutos": 37,
+                "segundos": 28
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 7",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1SY4IRekffZFrcfhzAiJaESElv7wZIO0d/view",
+            "linkyt": "https://youtu.be/QKIre-UjHaY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 41,
+                "segundos": 15
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 8",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/10XUUwbTY3XoHdS-dRjzmMj6ieBCvS-60/view",
+            "linkyt": "https://youtu.be/pTXUaxS9PWA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 33
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 9",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1PEMdeSD70XX5jqYjIUrC00d9foasG-fR/view",
+            "linkyt": "https://youtu.be/2fNKKOfZbZw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 41,
+                "segundos": 54
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 10",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1xc-xrqIeSO7vXVqGs2EU4CSLxlmM-q-w/view",
+            "linkyt": "https://youtu.be/bcYHgRfRcno",
+            "duracao": {
+                "horas": 0,
+                "minutos": 39,
+                "segundos": 4
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 11",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1-EnF9uz_Y8xyIWwfZ3MayQL18rvFo7gU/view",
+            "linkyt": "https://youtu.be/YTxZgDiWiro",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 13
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 12",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1ZC5PzVKyKS-nDpgkShWzzPh1QdzNkghZ/view",
+            "linkyt": "https://youtu.be/UM2pRUfq7sE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 30,
+                "segundos": 51
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 13",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1RN8JIK40yYwGAePOciVGuaSVLhb1GJ6g/view",
+            "linkyt": "https://youtu.be/MtdEHieRQJ8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 43
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 14",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1uw92OchOi_0QSgS__8MeGLL_Fi6dWJKB/view",
+            "linkyt": "https://youtu.be/8JpuoCXZCSM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 26
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 15",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Inp8BaND7lp0qfT-LWdXAVpneK7bD1kq/view",
+            "linkyt": "https://youtu.be/ZdLGPk-1j6k",
+            "duracao": {
+                "horas": 0,
+                "minutos": 35,
+                "segundos": 40
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 16",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1srrC45zzMDh1t-rvEFbCSnvAeRotGDzN/view",
+            "linkyt": "https://youtu.be/-HXu7ViaBJ8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 39,
+                "segundos": 35
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 17",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1SmsumODOl2bpKTLpff1LaognOFlcardN/view",
+            "linkyt": "https://youtu.be/TX3ukIcbCtI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 41,
+                "segundos": 56
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 18",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1KsmswegATux2eHuF6R1gClNa5OpigSpI/view",
+            "linkyt": "https://youtu.be/Wnmjb2LoWQM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 35
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 19",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1iRMTEMdWMWpR1VuRwtfCA9gpLJb2n4GC/view",
+            "linkyt": "https://youtu.be/6g1eD8c_6DY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 0
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 20",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1hmpGRYj5BrkzBnBDUugdC244C0bvl_cU/view",
+            "linkyt": "https://youtu.be/QsNZWLFDCdw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 21",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Odgr0lqLh3QouSwlexRGRSv_xOttYGO1/view",
+            "linkyt": "https://youtu.be/SJ9gtx9HPxQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 52
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 22",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1HU8H4Nrl3V3Py9vFmUC6ebvENVJ_tPBn/view",
+            "linkyt": "https://youtu.be/F-ecneIPddY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 13,
+                "segundos": 39
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 23",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Ba_1LeLDSugSLKCmwQGDASoCGDAMyS2O/view",
+            "linkyt": "https://youtu.be/zsMTBopYKn0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 2
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 24",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/11cI9Gs21FWxRJLXPT0IMzZpn4N8z5bXg/view",
+            "linkyt": "https://youtu.be/uZSAqe2B2Fg",
+            "duracao": {
+                "horas": 0,
+                "minutos": 39,
+                "segundos": 53
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 25",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1lzqt4TxBsptOrw9jjZhAL8vdSqfmsc_W/view",
+            "linkyt": "https://youtu.be/BloNWWxU2r8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 26",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1pTEv5aEvtYWjtBPSPluAdnHR_MpsW_YX/view",
+            "linkyt": "https://youtu.be/bre8-4fdHoA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 50
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 27",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/osbPjRDpEww",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 34
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 28",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/POT2PFLoNU0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 12
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 29",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/j6EgnIDidCE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 41,
+                "segundos": 32
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 30",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/YJyWGrYAt1w",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 57
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 31",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/uPx8b0aBoug",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 34
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 32",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/lUAW_cH7aMM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 3
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 33",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/KLYiaF_MCSs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 8
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 34",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/C_4iaT1l1jk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 37,
+                "segundos": 43
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 35",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/6xn4uMw-Y9I",
+            "duracao": {
+                "horas": 0,
+                "minutos": 45,
+                "segundos": 41
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 36",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/SGxBAhwApxk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 33
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 37",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/e_-VBJYemkU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 47,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 38",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Gw3a9XNzRII",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 51
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 39",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/hgKWv09iW0U",
+            "duracao": {
+                "horas": 0,
+                "minutos": 48,
+                "segundos": 54
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 40",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/ikebyUyPl0s",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 13
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 41",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/d_kCVrTQqW8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 58
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 42",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/cwblpu2PE4Q",
+            "duracao": {
+                "horas": 0,
+                "minutos": 19,
+                "segundos": 52
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 43",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/3XMEnfDUV64",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 48
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 44",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/om8TbWJ-uAs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 6
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 45",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/QAmsWM8N9N4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 51,
+                "segundos": 52
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 46",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/w4UWrYnCriM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 32
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Scarface de PlayStation 2 - Parte 47 Final",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/I9Pe_xADBy4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 33
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

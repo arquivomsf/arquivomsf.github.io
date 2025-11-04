@@ -1,0 +1,120 @@
+{
+    "playlist": [
+        {
+            "nome": "Killzone (PS2 - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuxXHM5c5XW1lvmgKFdRdvN",
+            "quantidade": "9"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Killzone (PS2) - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/TpQeMMi654Y",
+            "duracao": {
+                "horas": 1,
+                "minutos": 22,
+                "segundos": 44
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Killzone (PS2) - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/P0vH4CIjq74",
+            "duracao": {
+                "horas": 0,
+                "minutos": 57,
+                "segundos": 56
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Killzone (PS2) - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/i3sw0Wz9n30",
+            "duracao": {
+                "horas": 0,
+                "minutos": 28,
+                "segundos": 51
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Killzone (PS2) - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/CQYMOb--8Zs",
+            "duracao": {
+                "horas": 1,
+                "minutos": 13,
+                "segundos": 47
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Killzone (PS2) - VOD 5",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/pSVLavV-MKU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 38,
+                "segundos": 27
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Killzone (PS2) - VOD 6",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/4EYsVKlfEZw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 14
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Killzone (PS2) - VOD 7",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/8s-vnBTw0jU",
+            "duracao": {
+                "horas": 1,
+                "minutos": 49,
+                "segundos": 19
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Killzone (PS2) - VOD 8",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/OQqL9IAsGow",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 4
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Killzone (PS2) - VOD 9",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/VSvQMgXQT8I",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 32
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

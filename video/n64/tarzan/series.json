@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "3"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Disney's Tarzan de N64 | Análise e Dicas",
+            "imagem": "jpg",
+            "link": "https://youtu.be/ozswMdUxUFo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 33
+            }
+        }
+    ]
+}

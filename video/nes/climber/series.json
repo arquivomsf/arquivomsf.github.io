@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "10"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Ice Climber de NES | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/z47IN2TFBBg",
+            "duracao": {
+                "horas": 0,
+                "minutos": 11,
+                "segundos": 40
+            }
+        }
+    ]
+}

@@ -12,7 +12,11 @@
             "nome": "Clair Obscur: Expedition 33 | Análise do Jogo",
             "imagem": "jpg",
             "link": "https://youtu.be/wv0czkH0tG8",
-            "duracao": "19:55"
+            "duracao": {
+                "horas": 0,
+                "minutos": 19,
+                "segundos": 55
+            }
         }
     ],
     "videos": [
@@ -21,7 +25,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/11N_qs6cOqsmIJHOSOmszJSbvTfeCvVcn/view",
             "linkyt": "https://youtu.be/55ILUfQro6s",
-            "duracao": "0:59",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
             "plataforma": "youtube"
         },
         {
@@ -29,7 +37,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1-lyVYL8PKn2rzrEOnfCvalqNCtMIzN-v/view",
             "linkyt": "https://youtu.be/KXgwpeFhESs",
-            "duracao": "0:59",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
             "plataforma": "youtube"
         },
         {
@@ -37,7 +49,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1jv5RfVR3ksVZwFY-B4PUBLE4Ht68ZP7n/view",
             "linkyt": "https://youtu.be/y2C0WGTOr78",
-            "duracao": "0:59",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
             "plataforma": "youtube"
         },
         {
@@ -45,7 +61,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1TPUbxje1XmJMBYCVfApi1SVH9bzb4xsz/view",
             "linkyt": "https://youtu.be/67K7D1nNe5M",
-            "duracao": "0:58",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 58
+            },
             "plataforma": "youtube"
         },
         {
@@ -53,7 +73,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/18aCGDuaNhAxTf62q7Kp9GvOayh5lv0Qv/view",
             "linkyt": "https://youtu.be/EsjkymK7KeM",
-            "duracao": "0:59",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
             "plataforma": "youtube"
         },
         {
@@ -61,7 +85,11 @@
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ifs2pmzMVAWI3b74aKQ7gi3rhbpkOl1-/view",
             "linkyt": "https://youtu.be/oEVZDJgl0D0",
-            "duracao": "0:59",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
             "plataforma": "youtube"
         }
     ]

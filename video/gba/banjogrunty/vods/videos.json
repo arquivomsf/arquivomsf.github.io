@@ -1,0 +1,159 @@
+{
+    "playlist": [
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge (GBA - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvYBgEBkD7MHX7HJx_ogdvt",
+            "quantidade": "11"
+        }
+    ],
+    "extras": [
+        {
+            "nome": "Marcelo conversando sobre jogos da Rockstar",
+            "id": "rockstarcomp",
+            "imagem": "../../../etc/rockstarcomp.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/m4gjIiIMU2Y",
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 35
+            },
+            "plataforma": "youtube"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/NtecAxd0Y8A",
+            "duracao": {
+                "horas": 1,
+                "minutos": 17,
+                "segundos": 36
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/PErbvia9RN4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 20
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/HQGv1DMGURg",
+            "duracao": {
+                "horas": 1,
+                "minutos": 11,
+                "segundos": 36
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/lfWfq33YpqY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 17
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 5",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/58WXxmqdqzI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 47
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 6",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Dt4ddXAmdjU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 29
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 7",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Rv_Fih0THV8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 21,
+                "segundos": 20
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 8",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/mo87NpWumIk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 26,
+                "segundos": 31
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 9",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/YtOlnNCTiXc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 47,
+                "segundos": 4
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 10",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/bvAPyABbXcU",
+            "duracao": {
+                "horas": 1,
+                "minutos": 10,
+                "segundos": 18
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD Extra",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/TkCGHPYz9C4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 18
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

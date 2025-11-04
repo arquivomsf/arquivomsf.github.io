@@ -1,0 +1,120 @@
+{
+    "playlist": [
+        {
+            "nome": "Adventure Island (NES)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv6Wb3utAfgWf4QW0knRy79",
+            "quantidade": "9"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Adventure Island de NES - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1-rGda4rTkpm80sxp1a37XTrJ3UX_gagD/view",
+            "linkyt": "https://youtu.be/L_sBoWwgLGI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 54
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Adventure Island de NES - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1zuPePyqCSMurbgv7Dw_qwuNKrN--lHGA/view",
+            "linkyt": "https://youtu.be/6dP2bkEpdxI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 56,
+                "segundos": 15
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Adventure Island de NES - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1qzeZwVQdOh7wBIE-hDVFS2lA7aZqWBR-/view",
+            "linkyt": "https://youtu.be/OaYqe8820FM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 54
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Adventure Island de NES - Parte 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/11m3GJqJmV80aELRxKKAnC8C2ROMKQI0A/view",
+            "linkyt": "https://youtu.be/hKbGnr0nu_w",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 8
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Adventure Island de NES - Parte 5",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1TYjPyz_S78yk44PZnF9pKAWFzcAGRJNA/view",
+            "linkyt": "https://youtu.be/f81S05Bq53s",
+            "duracao": {
+                "horas": 0,
+                "minutos": 51,
+                "segundos": 24
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Adventure Island de NES - Parte 6",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1w4U4kwmYjbdHSu64cTO5ORb0u4yxAHrJ/view",
+            "linkyt": "https://youtu.be/Z8zlPXyZfqw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 56,
+                "segundos": 29
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Adventure Island de NES - Parte 7",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1ZUjyWkiCScA4i_V8WOc7e7qKi_66Lni2/view",
+            "linkyt": "https://youtu.be/VTvUQ3bTJSQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 28
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Adventure Island de NES - Parte 8",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/11GNqgRm3KNV6SK3FFAIrPm2FvCHrP_rc/view",
+            "linkyt": "https://youtu.be/gYMrKttuvaY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Adventure Island de NES - Parte 9 Final",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1-HXOncuOIkor655iJuxHtwm3_ruUEaIj/view",
+            "linkyt": "https://youtu.be/I7dBigJHuQ0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 16,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

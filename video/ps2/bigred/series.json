@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.png",
+            "quantidade": "12"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Call of Duty 2 Big Red One limitou a exploração das fases",
+            "imagem": "jpg",
+            "link": "https://youtu.be/wBOEB4w4SsY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 54
+            }
+        }
+    ]
+}

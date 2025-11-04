@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.png",
+            "quantidade": "13"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Não suportei o final do Red Dead Revolver",
+            "imagem": "jpg",
+            "link": "https://youtu.be/7c9DwgLmb6U",
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 53
+            }
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "playlist": [
+        {
+            "nome": "Road & Track Presents: The Need for Speed (PS1)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvwkV9gpVnsWTUckl_2-xc5",
+            "quantidade": "5"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "The Need for Speed de PlayStation 1 - Parte 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1kb8GAJSHwSnH8tg2oDP4lHoSVfMh_bnn/view",
+            "linkyt": "https://youtu.be/2az_WYVW0jM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 38
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Need for Speed de PlayStation 1 - Parte 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1rBwUxvn7OttVQcWFtsDJjUsoyx7AZfIU/view",
+            "linkyt": "https://youtu.be/tUn9YQiJOak",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 55
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Need for Speed de PlayStation 1 - Parte 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Nr-bam0XWEM0YVBi6uaNUlkH9jvT2RiR/view",
+            "linkyt": "https://youtu.be/aktg2Oydsck",
+            "duracao": {
+                "horas": 0,
+                "minutos": 39,
+                "segundos": 40
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Need for Speed de PlayStation 1 - Parte 4",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1LWre-PUxxb2ZPrwCPpAt7e1Ch6BM3qCJ/view",
+            "linkyt": "https://youtu.be/pN8P-BZuGKM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 51,
+                "segundos": 6
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Need for Speed de PlayStation 1 - Parte 5 Final",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1I6Z1FTj57rzU-QjZEiwfYPAW36abi7in/view",
+            "linkyt": "https://youtu.be/NTjDucLDgoU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 25
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

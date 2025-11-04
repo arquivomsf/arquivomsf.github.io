@@ -13,7 +13,11 @@
             "imagem": "png",
             "link": "",
             "linkyt": "https://youtu.be/8lGPfgl3Ppk",
-            "duracao": "4:07:41",
+            "duracao": {
+                "horas": 4,
+                "minutos": 7,
+                "segundos": 41
+            },
             "plataforma": "youtube"
         }
     ]

@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "2"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Metal Slug X de PlayStation 1 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/yWOS3k1dn_A",
+            "duracao": {
+                "horas": 0,
+                "minutos": 4,
+                "segundos": 58
+            }
+        }
+    ]
+}

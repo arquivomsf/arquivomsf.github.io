@@ -1,0 +1,84 @@
+{
+    "playlist": [
+        {
+            "nome": "Black (PS2 - VOD)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/watch?v=UTvRv-D6iSs&list=PL1_Ius-LHAvs20cVh8Sdss2Vx4VbDZQFJ",
+            "quantidade": "6"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Black (PS2) - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/UTvRv-D6iSs",
+            "duracao": {
+                "horas": 1,
+                "minutos": 9,
+                "segundos": 25
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Black (PS2) - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/nLxp9FHpo94",
+            "duracao": {
+                "horas": 1,
+                "minutos": 15,
+                "segundos": 53
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Black (PS2) - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/kd0YekCAjdQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 5
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Black (PS2) - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/4Kv1okqxuX0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 42,
+                "segundos": 21
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Black (PS2) - VOD 5",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/yXZSWmJDkks",
+            "duracao": {
+                "horas": 1,
+                "minutos": 58,
+                "segundos": 8
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Black (PS2) - VOD 6",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/mEVACEbhhRY",
+            "duracao": {
+                "horas": 1,
+                "minutos": 5,
+                "segundos": 47
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

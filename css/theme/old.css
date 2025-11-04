@@ -32,10 +32,6 @@ body[data-tema="old"] > .navbar > center > div > span.page-name > .title-breadcr
   text-decoration: underline;
 }
 
-/*body[data-tema="old"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active > a {
-  color: var(--dracula-red) !important;
-}*/
-
 body[data-tema="old"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
   color: #fff !important;
   padding: 0.5rem 1rem !important;

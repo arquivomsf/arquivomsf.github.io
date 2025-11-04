@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "4"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Assault Retribution de PlayStation 1 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/Xwi-1onfa-o",
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 29
+            }
+        }
+    ]
+}

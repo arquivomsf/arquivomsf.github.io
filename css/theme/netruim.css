@@ -2,20 +2,14 @@
 body[data-tema="netruim"] {
   font-family: 'Times New Roman' !important;
   line-height: 1.5rem !important;
-  /*background-color: black !important;
-  color: white !important;*/
   transition: none !important;
 }
 
 body[data-tema="netruim"] > .pagecontent > div > div > a > img {
-  /*opacity: 0 !important;
-  height: 5px;*/
   image-rendering: pixelated;
 }
 
 body[data-tema="netruim"] > .pagecontent > div > div > a > div > img {
-  /*opacity: 0 !important;
-  height: 5px;*/
   image-rendering: pixelated;
 }
 
@@ -98,12 +92,6 @@ body[data-tema="netruim"] > .navbar > center > div > span.page-name > .title-bre
   font-weight: normal !important;
 }
 
-/*body[data-tema="netruim"] > .navbar > center > div > button, body[data-tema="netruim"] > .navbar > div > div > button {
-  background-color: white !important;
-  color: black !important;
-  border: none;
-}*/
-
 body[data-tema="netruim"] > .navbar > center > div > button, body[data-tema="netruim"] > .navbar > div > div > button {
   background-color: revert !important;
   color: revert !important;
@@ -140,7 +128,7 @@ body[data-tema="netruim"] > .navbar > center > div > span.page-name > .title-bre
 }
 
 body[data-tema="netruim"] > .pagecontent > div > div > a > div > .video-length > i.fa-file-video-o::before {
-  content: "[gd]";
+  content: "[vid]";
 }
 
 body[data-tema="netruim"] > .pagecontent > div > div > a > div > .video-length > i.fa-youtube-play::before {
@@ -204,11 +192,6 @@ body[data-tema="netruim"] > .pagecontent > p > a.btn-dark:visited {
   box-shadow: revert;
   text-decoration: revert;
 }
-
-/*body[data-tema="netruim"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas {
-  border: none;
-  color: black !important;
-}*/
 
 body[data-tema="netruim"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas {
   background-color: revert !important;
@@ -292,10 +275,6 @@ body[data-tema="netruim"] > .pagecontent > p > i:not(.fa) {
     content: "]";
   }
 }
-
-/*body[data-tema="netruim"] > .navbar > div > div > #inputPesquisaContainer {
-  all: initial;
-}*/
 
 body[data-tema="netruim"] > .navbar > div > div > div > #inputPesquisa {
   all: revert;

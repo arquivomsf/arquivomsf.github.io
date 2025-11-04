@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "15"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "God of War 2 de PlayStation 2 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/i66RDYr6QZo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 7,
+                "segundos": 57
+            }
+        }
+    ]
+}

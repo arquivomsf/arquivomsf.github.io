@@ -1,0 +1,28 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "33"
+        }
+    ],
+    "vodsarquivo": [
+        {
+            "nome": "VODs do Arquivo",
+            "imagem": "1.jpg",
+            "quantidade": "9"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Killzone de PlayStation 2 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/AytR5ZxLnLg",
+            "duracao": {
+                "horas": 0,
+                "minutos": 22,
+                "segundos": 42
+            }
+        }
+    ]
+}
