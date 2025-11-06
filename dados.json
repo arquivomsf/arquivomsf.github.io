@@ -729,6 +729,21 @@
             "plataforma": "gdrive"
         },
         {
+            "nome": "CAFEZIN DA MANHA",
+            "tags": "CAFEZIN DA MANHA",
+            "imagem": "cafezin.png",
+            "consigla": "etc",
+            "curto": "cafezin",
+            "link": "https://drive.google.com/file/d/1NsT2FzbVLJ4H9NluTdh4o1wuYEHc3cue/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 27,
+                "segundos": 19
+            },
+            "plataforma": "gdrive"
+        },
+        {
             "nome": "Marcelo ouvindo a música +99 do Marcos",
             "tags": "Marcelo ouvindo a música +99 do Marcos +18 proibida",
             "imagem": "musicadomarcos.jpg",
@@ -740,6 +755,36 @@
                 "horas": 0,
                 "minutos": 3,
                 "segundos": 45
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "🔴 É SÓ UM TESTE, NÃO É LIVE REAL OFICIAL",
+            "tags": "🔴 É SÓ UM TESTE, NÃO É LIVE REAL OFICIAL",
+            "imagem": "testeyoutube1.jpg",
+            "consigla": "etc",
+            "curto": "testeyoutube1",
+            "link": "",
+            "linkyt": "https://youtu.be/4JvsecUmPJA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 25
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "MAIS UM TESTE, 123 TESTE TESTANDO ALOU",
+            "tags": "MAIS UM TESTE, 123 TESTE TESTANDO ALOU",
+            "imagem": "testeyoutube2.jpg",
+            "consigla": "etc",
+            "curto": "testeyoutube2",
+            "link": "",
+            "linkyt": "https://youtu.be/RtVcZaFjmLc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 37
             },
             "plataforma": "youtube"
         }
