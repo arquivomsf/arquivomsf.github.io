@@ -175,6 +175,18 @@
                 "segundos": 59
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 15",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/dc6vgjYaMoU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 58
+            },
+            "plataforma": "youtube"
         }
     ]
 }
