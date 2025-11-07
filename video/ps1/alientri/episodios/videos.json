@@ -187,6 +187,18 @@
                 "segundos": 58
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 16",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/352H23QLoSA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 32
+            },
+            "plataforma": "youtube"
         }
     ]
 }
