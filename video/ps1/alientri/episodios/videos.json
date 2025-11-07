@@ -199,6 +199,18 @@
                 "segundos": 32
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 17",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/QqlUphrRBDs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 47
+            },
+            "plataforma": "youtube"
         }
     ]
 }
