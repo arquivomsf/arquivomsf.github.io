@@ -223,6 +223,18 @@
                 "segundos": 6
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 19",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/f75bL5asolI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 32
+            },
+            "plataforma": "youtube"
         }
     ]
 }
