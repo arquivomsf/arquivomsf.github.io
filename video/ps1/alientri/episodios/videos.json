@@ -211,6 +211,18 @@
                 "segundos": 47
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 18",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/ZjGi6SUnkDk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 22,
+                "segundos": 6
+            },
+            "plataforma": "youtube"
         }
     ]
 }
