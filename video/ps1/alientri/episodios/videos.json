@@ -235,6 +235,18 @@
                 "segundos": 32
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Alien Trilogy de PlayStation 1 - Parte 20 Final",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/usAjwNABURY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 14
+            },
+            "plataforma": "youtube"
         }
     ]
 }
