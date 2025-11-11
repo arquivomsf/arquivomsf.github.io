@@ -1,0 +1,16 @@
+{
+    "videos": [
+        {
+            "nome": "The Suffering de PS2 - Parte 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/DfEugbUAeWw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 51,
+                "segundos": 17
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}
