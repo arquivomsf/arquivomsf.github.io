@@ -17,7 +17,7 @@ function carregarJogos() {
           for (var i = 0; i<data.jogos.length; i++){
               let jogo_nome = data.jogos[i].nome;
               let jogo_imagem = data.jogos[i].imagem;
-              let jconsole = data.jogos[i].console;
+              let jogo_console_nome = data.jogos[i].console;
               let jogo_console_sigla = data.jogos[i].consigla;
               let jogo_nome_curto = data.jogos[i].curto;
               let jogo_tags = data.jogos[i].tags;
@@ -32,7 +32,7 @@ function carregarJogos() {
                                 <span class="video-length"></span>
                             </div>
                             <span class="flow-text title">${jogo_nome}</span></a><br>
-                        <a href="console?id=${jogo_console_sigla}" class="blacklink"><span class="flow-text subtitle">${jconsole}</span></a>
+                        <a href="console?id=${jogo_console_sigla}" class="blacklink"><span class="flow-text subtitle">${jogo_console_nome}</span></a>
                     </div>`;
               }
           }

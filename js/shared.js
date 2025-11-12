@@ -39,16 +39,7 @@ var stringPesquisa = "";
 var pesquisando = 0;
 
 function pesquisarJogo() {
-    stringPesquisa = document.querySelector("#inputPesquisa").value;
-    stringPesquisa = stringPesquisa.replaceAll(/\s/g, "");
-    stringPesquisa = stringPesquisa.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
-    stringPesquisa = stringPesquisa.replaceAll(/[áàâãÁÀÂÃ]/g,"a");
-    stringPesquisa = stringPesquisa.replaceAll(/[íïÍÏ]/g,"i");
-    stringPesquisa = stringPesquisa.replaceAll(/[éèêÉÈ]/g,"e");
-    stringPesquisa = stringPesquisa.replaceAll(/[ñÑ]/g,"n");
-    stringPesquisa = stringPesquisa.replaceAll(/[óôõöÓÔÕÖ]/g,"o");
-    stringPesquisa = stringPesquisa.replaceAll(/[Ç]/g,"c");
-    stringPesquisa = stringPesquisa.replaceAll(/[úÚ]/g,"u");
+    stringPesquisa = pesquisa_processar_texto(document.querySelector("#inputPesquisa").value);
     resetarJogos();
     carregarJogos();
 }
@@ -111,7 +102,7 @@ function gerar_timestamp(horas, minutos, segundos) {
     if (horas == 0 && minutos == 0 && segundos == 0) return "Perdido"
 
     if (horas > 0 && minutos < 10) minutos = String(minutos).padStart(2, '0');
-    if (minutos > 0 && segundos < 10) segundos = String(segundos).padStart(2, '0');
+    segundos = String(segundos).padStart(2, '0');
 
     if (horas > 0) return `${horas}:${minutos}:${segundos}`
     return `${minutos}:${segundos}`
