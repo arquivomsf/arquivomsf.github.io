@@ -11,6 +11,18 @@
                 "segundos": 17
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/f5jQ8vwBT9A",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 4
+            },
+            "plataforma": "youtube"
         }
     ]
 }
