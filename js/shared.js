@@ -33,6 +33,35 @@ function setTema(tema_esc) {
     localStorage.setItem("tema", tema);
 }
 
+//fetches
+var dados_geral = "";
+var dados_jogo = "";
+var dados_serie = "";
+
+async function fetch_dados(tipo,file) {
+    let file_object = await fetch(file);
+    let json_data = await file_object.json();
+
+    switch(tipo) {
+        case "geral":
+            dados_geral = json_data;
+        break;
+        case "jogo":
+            dados_jogo = json_data;
+        break;
+        case "serie":
+            dados_serie = json_data;
+        break;
+        case "serie_embed":
+            dados_serie = json_data;
+            //gambiarra porque estoy cansado jefe
+            let geral_object_embed = await fetch("dados.json");
+            dados_geral = await geral_object_embed.json();
+        break;
+    }
+    carregar_itens();
+}
+
 
 //pesquisa
 var stringPesquisa = "";
@@ -41,13 +70,13 @@ var pesquisando = 0;
 function pesquisarJogo() {
     stringPesquisa = pesquisa_processar_texto(document.querySelector("#inputPesquisa").value);
     resetarJogos();
-    carregarJogos();
+    carregar_itens();
 }
 
 if (!pesquisando == 0) {
     setInterval(function () {
         resetarJogos();
-        carregarJogos();
+        carregar_itens();
     }, 100);
 }
 
@@ -80,7 +109,7 @@ function changePesquisa() {
         pesquisando = 0;
         resetarString();
         resetarJogos();
-        carregarJogos();
+        carregar_itens();
         setPesquisa();
     }
 }
