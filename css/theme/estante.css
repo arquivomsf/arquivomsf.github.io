@@ -4,6 +4,7 @@ body[data-tema="estante"] {
   --background-wood4: url("../../assets/img/Wood004_1K-JPG_Color.jpg");
   --background-wood93: url("../../assets/img/Wood093_1K-JPG_Color.jpg");
   background-image: var(--background-wood4);
+  font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", Garamond, serif !important;
 }
 
 body[data-tema="estante"] > .pagecontent > div > div > a > span.title {

@@ -47,6 +47,30 @@
                 "segundos": 15
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 5",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/HrR1IawJBt4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 52,
+                "segundos": 48
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 6",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/t137o5V0Tbk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 51,
+                "segundos": 57
+            },
+            "plataforma": "youtube"
         }
     ]
 }
