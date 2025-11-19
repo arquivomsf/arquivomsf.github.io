@@ -83,6 +83,18 @@
                 "segundos": 41
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 8",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/4FUrojuVuZk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 37
+            },
+            "plataforma": "youtube"
         }
     ]
 }
