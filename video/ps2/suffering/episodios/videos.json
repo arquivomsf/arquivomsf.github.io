@@ -95,6 +95,18 @@
                 "segundos": 37
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 9",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/3FBHzrcngHE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 40
+            },
+            "plataforma": "youtube"
         }
     ]
 }
