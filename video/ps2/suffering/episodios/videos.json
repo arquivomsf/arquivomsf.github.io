@@ -107,6 +107,18 @@
                 "segundos": 40
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 10",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Pjd1_cbXq4o",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 14
+            },
+            "plataforma": "youtube"
         }
     ]
 }
