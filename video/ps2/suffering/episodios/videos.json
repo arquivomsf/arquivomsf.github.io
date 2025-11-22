@@ -119,6 +119,18 @@
                 "segundos": 14
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 11",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/mNm9Yksuwv8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 1
+            },
+            "plataforma": "youtube"
         }
     ]
 }
