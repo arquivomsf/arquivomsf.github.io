@@ -131,6 +131,18 @@
                 "segundos": 1
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 12",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/KiH6-kxBnF4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 48
+            },
+            "plataforma": "youtube"
         }
     ]
 }
