@@ -3,7 +3,6 @@
         {
             "nome": "SpongeBob SquarePants: SuperSponge",
             "tags": "SpongeBob SquarePants: SuperSponge bob esponja bope esponcha sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Nickelodeon%20SpongeBob%20SquarePants%20-%20SuperSponge%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "bob"
@@ -11,7 +10,6 @@
         {
             "nome": "Assault: Retribution",
             "tags": "Assault: Retribution sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Assault%20-%20Retribution%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "assault"
@@ -19,7 +17,6 @@
         {
             "nome": "Spider-Man 2: Enter: Electro",
             "tags": "Spider-Man 2: Enter: Electro Spider Man 2 Enter Electro homem aranha miranha sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Spider-Man%202%20-%20Enter%20-%20Electro%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "miranha"
@@ -27,7 +24,6 @@
         {
             "nome": "The Lost World: Jurassic Park",
             "tags": "The Lost World: Jurassic Park The Lost World Jurassic Park dino dinossauro sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Lost%20World,%20The%20-%20Jurassic%20Park%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "jurassic"
@@ -35,7 +31,6 @@
         {
             "nome": "Disruptor",
             "tags": "Disruptor sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Disruptor%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "disruptor"
@@ -43,7 +38,6 @@
         {
             "nome": "T'ai Fu Wrath of the Tiger",
             "tags": "T'ai Fu Wrath of the Tiger Tai Fu Wrath of the Tiger taifu sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/T'ai%20Fu%20-%20Wrath%20of%20the%20Tiger%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "taifu"
@@ -51,7 +45,6 @@
         {
             "nome": "Disney's Donald Duck: Goin' Quackers",
             "tags": "Disney's Donald Duck: Goin' Quackers pato donald sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Disney's%20Donald%20Duck%20-%20Goin'%20Quackers%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "donald"
@@ -59,7 +52,6 @@
         {
             "nome": "Moto Racer",
             "tags": "Moto Racer sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Moto%20Racer%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "moto"
@@ -67,7 +59,6 @@
         {
             "nome": "Nightmare Creatures",
             "tags": "Nightmare Creatures sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Nightmare%20Creatures%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "nightmare"
@@ -75,7 +66,6 @@
         {
             "nome": "Metal Slug X",
             "tags": "Metal Slug X sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Metal%20Slug%20X%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "slugx"
@@ -83,7 +73,6 @@
         {
             "nome": "Sonic The Hedgehog",
             "tags": "Sonic The Hedgehog 1 Sonic 1 sega mega drive sega genesis",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Sonic%20The%20Hedgehog%20(USA,%20Europe).png",
             "console": "Mega Drive",
             "consigla": "md",
             "curto": "sonic1"
@@ -91,7 +80,6 @@
         {
             "nome": "QuackShot",
             "tags": "QuackShot Starring Donald Duck disney pato donald sega mega drive sega genesis",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/QuackShot%20Starring%20Donald%20Duck%20(World).png",
             "console": "Mega Drive",
             "consigla": "md",
             "curto": "quackshot"
@@ -99,7 +87,6 @@
         {
             "nome": "Zero Tolerance",
             "tags": "Zero Tolerance sega mega drive sega genesis",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Zero%20Tolerance%20(USA,%20Europe).png",
             "console": "Mega Drive",
             "consigla": "md",
             "curto": "zerotol"
@@ -107,7 +94,6 @@
         {
             "nome": "Socket",
             "tags": "Socket tipo sonic soniclike sega mega drive sega genesis",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Socket%20(USA).png",
             "console": "Mega Drive",
             "consigla": "md",
             "curto": "socket"
@@ -115,7 +101,6 @@
         {
             "nome": "Light Crusader",
             "tags": "Light Crusader action rpg de ação sega mega drive sega genesis",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Light%20Crusader%20(Japan).png",
             "console": "Mega Drive",
             "consigla": "md",
             "curto": "crusader"
@@ -123,7 +108,6 @@
         {
             "nome": "Ice Climber",
             "tags": "Ice Climber nes nintendo",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Ice%20Climber%20(USA,%20Europe,%20Korea)%20(En).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
             "curto": "climber"
@@ -131,7 +115,6 @@
         {
             "nome": "Adventure Island",
             "tags": "Adventure Island nes nintendo",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Adventure%20Island%20(USA).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
             "curto": "advisland"
@@ -139,7 +122,6 @@
         {
             "nome": "Gun.Smoke",
             "tags": "Gun.Smoke nes nintendo",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Gun.Smoke%20(USA).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
             "curto": "gunsmoke"
@@ -147,7 +129,6 @@
         {
             "nome": "DuckTales",
             "tags": "DuckTales disney Scrooge McDuck Tio Patinhas McPato nes nintendo",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/DuckTales%20(USA).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
             "curto": "ducktales"
@@ -155,7 +136,6 @@
         {
             "nome": "Jackal",
             "tags": "Jackal nes nintendo",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Jackal%20(USA).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
             "curto": "jackal"
@@ -163,7 +143,6 @@
         {
             "nome": "Super Mario 64",
             "tags": "Super Mario 64 n64 nintendo 64",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Super%20Mario%2064%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
             "curto": "mario64"
@@ -171,7 +150,6 @@
         {
             "nome": "Castlevania: Legacy of Darkness",
             "tags": "Castlevania: Legacy of Darkness n64 nintendo 64",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Castlevania%20-%20Legacy%20of%20Darkness%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
             "curto": "castlelod"
@@ -179,7 +157,6 @@
         {
             "nome": "Hercules: The Legendary Journeys",
             "tags": "Hercules: The Legendary Journeys Hércules: A Lendária Jornada hercules da serie n64 nintendo 64",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Hercules%20-%20The%20Legendary%20Journeys%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
             "curto": "hercules"
@@ -187,7 +164,6 @@
         {
             "nome": "Tarzan",
             "tags": "Disney's Tarzan n64 nintendo 64",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Tarzan%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
             "curto": "tarzan"
@@ -195,7 +171,6 @@
         {
             "nome": "Cruis'n Exotica",
             "tags": "Cruis'n Exotica n64 nintendo 64",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/refs/heads/master/Named_Boxarts/Cruis'n%20Exotica%20(USA).png",
             "console": "Nintendo 64",
             "consigla": "n64",
             "curto": "exotica"
@@ -203,7 +178,6 @@
         {
             "nome": "God of War",
             "tags": "God of War God of War 1 deus da guerra 1 bom de guerra 1 sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/God%20of%20War%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "gow1"
@@ -211,7 +185,6 @@
         {
             "nome": "Red Dead Revolver",
             "tags": "Red Dead Revolver red dead redemption sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Red%20Dead%20Revolver%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "revolver"
@@ -219,7 +192,6 @@
         {
             "nome": "Cars",
             "tags": "Cars carros sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Disney-Pixar%20Cars%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "cars"
@@ -227,7 +199,6 @@
         {
             "nome": "Call of Duty - Finest Hour",
             "tags": "Call of Duty Finest Hour cod sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Call%20of%20Duty%20-%20Finest%20Hour%20(USA)%20(v2.02).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "finest"
@@ -235,7 +206,6 @@
         {
             "nome": "Call of Duty 2 - Big Red One",
             "tags": "Call of Duty 2 Big Red One COD 2 Big Red One sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Call%20of%20Duty%202%20-%20Big%20Red%20One%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "bigred"
@@ -243,7 +213,6 @@
         {
             "nome": "Sonic The Hedgehog 2",
             "tags": "Sonic The Hedgehog 2 Sonic 2 sega mega drive sega genesis",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Sonic%20The%20Hedgehog%202%20(USA).png",
             "console": "Mega Drive",
             "consigla": "md",
             "curto": "sonic2"
@@ -251,7 +220,6 @@
         {
             "nome": "Sonic The Hedgehog 3 & Knuckles",
             "tags": "Sonic The Hedgehog 3 & Knuckles Sonic 3 & Knuckles Sonic The Hedgehog 3 e Knuckles Sonic 3 e Knuckles Sonic 3K sega mega drive sega genesis",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/refs/heads/master/Named_Boxarts/Sonic%20_%20Knuckles%20+%20Sonic%20The%20Hedgehog%203%20(USA).png",
             "console": "Mega Drive",
             "consigla": "md",
             "curto": "sonic3k"
@@ -259,7 +227,6 @@
         {
             "nome": "God of War II",
             "tags": "God of War II God of War 2 deus da guerra 2 bom de guerra 2 sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/God%20of%20War%20II%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "gow2"
@@ -267,7 +234,6 @@
         {
             "nome": "Call of Duty World at War Final Fronts",
             "tags": "Call of Duty World at War Final Fronts cod guerra sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Call%20of%20Duty%20-%20World%20at%20War%20-%20Final%20Fronts%20(USA)%20(En,Fr).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "fronts"
@@ -275,7 +241,6 @@
         {
             "nome": "Sonic Adventure",
             "tags": "Sonic Adventure sega dc sega dreamcast",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/refs/heads/master/Named_Boxarts/Sonic%20Adventure%20(USA).png",
             "console": "Dreamcast",
             "consigla": "dc",
             "curto": "sonicadv"
@@ -283,7 +248,6 @@
         {
             "nome": "Shadow of the Colossus",
             "tags": "Shadow of the Colossus sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Shadow%20of%20the%20Colossus%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "colossus"
@@ -291,7 +255,6 @@
         {
             "nome": "Pandemonium",
             "tags": "Pandemonium 1 pão demônio 1 sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Pandemonium!%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "pandemonium"
@@ -299,7 +262,6 @@
         {
             "nome": "Manhunt",
             "tags": "Manhunt caça homem sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Manhunt%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "manhunt1"
@@ -307,7 +269,6 @@
         {
             "nome": "Road & Track Presents: The Need for Speed",
             "tags": "Road & Track Presents: The Need for Speed the nfs sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Road%20_%20Track%20Presents%20-%20The%20Need%20for%20Speed%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "thenfs"
@@ -315,7 +276,6 @@
         {
             "nome": "Sonic Adventure 2",
             "tags": "Sonic Adventure 2 sega dc sega dreamcast",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/refs/heads/master/Named_Boxarts/Sonic%20Adventure%202%20(USA)%20(En,Ja,Fr,De,Es).png",
             "console": "Dreamcast",
             "consigla": "dc",
             "curto": "sonicadv2"
@@ -323,7 +283,6 @@
         {
             "nome": "The Nightmare Before Christmas: Oogie's Revenge",
             "tags": "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack Tim Burton sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Tim%20Burton's%20The%20Nightmare%20Before%20Christmas%20-%20Oogie's%20Revenge%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "nbxmas"
@@ -331,7 +290,6 @@
         {
             "nome": "Grand Theft Auto III",
             "tags": "Grand Theft Auto III gta iii gta 3 sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Grand%20Theft%20Auto%20III%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "gta3"
@@ -339,7 +297,6 @@
         {
             "nome": "Shadow the Hedgehog sega",
             "tags": "Shadow the Hedgehog sega sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Shadow%20the%20Hedgehog%20(USA)%20(En,Ja,Fr,De,Es,It).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "shadow"
@@ -347,7 +304,6 @@
         {
             "nome": "The Sims",
             "tags": "The Sims sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Sims,%20The%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "sims"
@@ -355,7 +311,6 @@
         {
             "nome": "Killzone",
             "tags": "Killzone sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Killzone%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "killzone"
@@ -363,7 +318,6 @@
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge",
             "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/refs/heads/master/Named_Boxarts/Banjo-Kazooie%20-%20Grunty's%20Revenge%20(USA,%20Europe).png",
             "console": "Game Boy Advance",
             "consigla": "gba",
             "curto": "banjogrunty"
@@ -371,7 +325,6 @@
         {
             "nome": "Grand Theft Auto: Vice City",
             "tags": "Grand Theft Auto: Vice City gta vice city sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20(USA)%20(v4.00).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "gtavc"
@@ -379,7 +332,6 @@
         {
             "nome": "Black",
             "tags": "Black sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Black%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "black"
@@ -387,7 +339,6 @@
         {
             "nome": "Scarface: The World Is Yours",
             "tags": "Scarface: The World Is Yours sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Scarface%20-%20The%20World%20Is%20Yours%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "scarface"
@@ -395,7 +346,6 @@
         {
             "nome": "Super Mario Bros.",
             "tags": "Super Mario Bros. mario 1 nes nintendo",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/refs/heads/master/Named_Boxarts/Super%20Mario%20Bros.%20(World).png",
             "console": "Nintendo (NES)",
             "consigla": "nes",
             "curto": "mario1"
@@ -403,7 +353,6 @@
         {
             "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
             "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Disney's%20Lilo%20_%20Stitch%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "lilo"
@@ -411,7 +360,6 @@
         {
             "nome": "Harry Potter and the Philosopher's Stone",
             "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Harry%20Potter%20and%20the%20Philosopher's%20Stone%20(Europe)%20(En,Fr,De).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "harry"
@@ -419,7 +367,6 @@
         {
             "nome": "Need for Speed II",
             "tags": "Need for Speed II Need for Speed 2 nfs 2 sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Need%20for%20Speed%20II%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "nfs2"
@@ -427,7 +374,6 @@
         {
             "nome": "Harry Potter and the Philosopher's Stone",
             "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Harry%20Potter%20and%20the%20Philosopher's%20Stone%20(Europe)%20(En,Pl,Cs).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "harry"
@@ -435,7 +381,6 @@
         {
             "nome": "Pandemonium 2",
             "tags": "Pandemonium 2 pão demônio 2 sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Pandemonium%202%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "pandemonium2"
@@ -443,7 +388,6 @@
         {
             "nome": "Alien Trilogy",
             "tags": "Alien Trilogy sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Alien%20Trilogy%20(USA).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "alientri"
@@ -451,7 +395,6 @@
         {
             "nome": "The Suffering",
             "tags": "The Suffering sofrimento xibiu sony ps2 playstation 2",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/refs/heads/master/Named_Boxarts/Suffering,%20The%20(USA).png",
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "suffering"
@@ -459,7 +402,6 @@
         {
             "nome": "Castlevania: Symphony of the Night",
             "tags": "Castlevania: Symphony of the Night akumajo dracula akumajou dracula akumajyo dracula akumajo dorakyura akumajou dorakyura akumajyo dorakyura sinfonia da noite metroidvania alucard sony ps1 playstation 1",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/refs/heads/master/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(Europe).png",
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "symphony"
@@ -469,7 +411,6 @@
         {
             "nome": "Need for Speed: Most Wanted",
             "tags": "Need for Speed: Most Wanted nfs gc nintendo gamecube",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/refs/heads/master/Named_Boxarts/Need%20for%20Speed%20-%20Most%20Wanted%20(USA).png",
             "console": "GameCube",
             "consigla": "gc",
             "curto": "nfsmostwanted"
@@ -477,7 +418,6 @@
         {
             "nome": "Super Mario Sunshine",
             "tags": "Super Mario Sunshine delfino gc nintendo gamecube",
-            "imagem": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/refs/heads/master/Named_Boxarts/Super%20Mario%20Sunshine%20(USA).png",
             "console": "GameCube",
             "consigla": "gc",
             "curto": "sunshine"
