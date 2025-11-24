@@ -105,7 +105,7 @@ function carregar_itens() {
       }
       document.title = `${video_nome}`;
       document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
-      document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${i+1}.${video_imagem}`);
+      document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
       let video_iframe_link;
       if (fonteAtual == "gdrive") video_iframe_link = video_link.replaceAll("view", "preview");
       if (fonteAtual == "archive") video_iframe_link = video_link.replaceAll("details", "embed");

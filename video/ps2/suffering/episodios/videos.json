@@ -143,6 +143,18 @@
                 "segundos": 48
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering de PS2 - Parte 13",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/LWcv-gW5qmw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
         }
     ]
 }
