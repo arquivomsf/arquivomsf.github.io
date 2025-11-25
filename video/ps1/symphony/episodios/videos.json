@@ -9,9 +9,21 @@
     ],
     "videos": [
         {
-            "nome": "Castlevania SOTN de PS1 - Cavernas Invertidas",
+            "nome": "Castlevania SOTN de PS1 | Cavernas Invertidas",
             "imagem": "jpg",
             "link": "https://archive.org/details/castlevania-sotn-de-ps-1-cavernas-invertidas",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 0
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "Castlevania SOTN de PS1 | As Bruxinhas",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/castlevania-sotn-de-ps-1-as-bruxinhas",
             "linkyt": "",
             "duracao": {
                 "horas": 0,
