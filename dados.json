@@ -761,36 +761,44 @@
     ],
     "outros": [
         {
-            "nome": "Clair Obscur: Expedition 33 (Clipes)",
-            "tags": "Clair Obscur: Expedition 33 (Clipes)",
+            "nome": "Clair Obscur: Expedition 33",
+            "tags": "Clair Obscur: Expedition 33 Clipes",
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
             "curto": "expedition33"
         },
         {
-            "nome": "Resident Evil 4 Remake (Clipes)",
-            "tags": "Resident Evil 4 Remake (Clipes) re4 re 4 re4 remake re 4 remake",
+            "nome": "Resident Evil 4 Remake",
+            "tags": "Resident Evil 4 Remake Clipes re4 re 4 re4 remake re 4 remake",
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
             "curto": "re4remake"
         },
         {
-            "nome": "Megazord Power Rangers no Fortnite (Clipes)",
-            "tags": "Megazord Power Rangers no Fortnite (Clipes)",
+            "nome": "Megazord Power Rangers no Fortnite",
+            "tags": "Megazord Power Rangers no Fortnite Clipes",
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
             "curto": "fort-megazord"
         },
         {
-            "nome": "Fortnite 2025 (Clipes)",
-            "tags": "Fortnite 2025 (Clipes)",
+            "nome": "Fortnite 2025",
+            "tags": "Fortnite 2025 Clipes",
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
             "curto": "fort-2025"
+        },
+        {
+            "nome": "Gear.Club Unlimited 2",
+            "tags": "Gear.Club Unlimited 2 Clipes",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "gearclub"
         }
     ],
     "consoles": [
