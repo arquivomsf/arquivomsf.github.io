@@ -7,6 +7,18 @@
             "quantidade": "28"
         }
     ],
+    "analise": [
+        {
+            "nome": "Resident Evil 4 Remake | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/bCUPPh62P3E",
+            "duracao": {
+                "horas": 0,
+                "minutos": 18,
+                "segundos": 56
+            }
+        }
+    ],
     "videos": [
         {
             "nome": "RE4 Remake - Xbox Series S Gameplay 1",
