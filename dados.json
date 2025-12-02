@@ -757,6 +757,36 @@
                 "segundos": 20
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Experimentando 5 Doces Asiáticos",
+            "tags": "Experimentando 5 Doces Asiáticos",
+            "imagem": "5doces.png",
+            "consigla": "etc",
+            "curto": "5doces",
+            "link": "https://drive.google.com/file/d/10iQQxcUZjYKvxbqEhAXwWttLO9-Ml6Wg/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 59
+            },
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Minha Primeira vez jogando no Super Nintendo",
+            "tags": "Minha Primeira vez jogando no Super Nintendo",
+            "imagem": "1vezsnes.png",
+            "consigla": "etc",
+            "curto": "1vezsnes",
+            "link": "https://drive.google.com/file/d/1sVll-GRmhYGyGc9O1Z5iXoMle4MF85T3/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 48
+            },
+            "plataforma": "gdrive"
         }
     ],
     "outros": [
