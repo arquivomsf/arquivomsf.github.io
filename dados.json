@@ -405,6 +405,13 @@
             "console": "PlayStation 1",
             "consigla": "ps1",
             "curto": "symphony"
+        },
+        {
+            "nome": "Half-Life",
+            "tags": "Half-Life half life 1 valve sony ps2 playstation 2",
+            "console": "PlayStation 2",
+            "consigla": "ps2",
+            "curto": "hl1"
         }
     ],
     "futurosjogos": [
