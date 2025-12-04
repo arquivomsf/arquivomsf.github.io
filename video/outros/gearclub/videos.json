@@ -83,6 +83,18 @@
                 "segundos": 59
             },
             "plataforma": "gdrive"
+        },
+        {
+            "nome": "Gear.Club Unlimited 2 - Gameplay 8",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/17G17ER_O3cekUIPtGtKOoPG2ITPlfgQy/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive"
         }
     ]
 }
