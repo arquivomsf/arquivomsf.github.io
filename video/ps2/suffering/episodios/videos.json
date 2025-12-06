@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "The Suffering (PS2)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvCko8up9k3WpSodVdt3ENU",
+            "quantidade": "13"
+        }
+    ],
     "videos": [
         {
             "nome": "The Suffering de PS2 - Parte 1",
