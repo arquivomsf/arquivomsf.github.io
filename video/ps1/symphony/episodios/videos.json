@@ -4,7 +4,7 @@
             "nome": "Castlevania: Symphony of the Night (PS1)",
             "imagem": "jpg",
             "link": "https://archive.org/details/@arquivomsf/lists/1/castlevania%3A-symphony-of-the-night-(ps1)?sort=-date",
-            "quantidade": "3"
+            "quantidade": "4"
         }
     ],
     "videos": [
@@ -41,6 +41,18 @@
                 "horas": 0,
                 "minutos": 55,
                 "segundos": 0
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "Castlevania SOTN de PS1 | Clone do Alucard",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/castlevania-sotn-de-ps1-clone-do-alucard",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 1
             },
             "plataforma": "archive"
         }
