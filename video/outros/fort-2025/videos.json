@@ -4,7 +4,7 @@
             "nome": "Fortnite 2025 (Clipes)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt9as6fXp4PKGRlm8dLtKYY",
-            "quantidade": "21"
+            "quantidade": "22"
         }
     ],
     "videos": [
@@ -253,6 +253,18 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/7vJAX2PIBSs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Final contra o Robin - Gameplay 22 de Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Q0p4ifPKARo",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,

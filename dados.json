@@ -317,7 +317,7 @@
         },
         {
             "nome": "Banjo-Kazooie: Grunty's Revenge",
-            "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare",
+            "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare nintendo game boy advance gba",
             "console": "Game Boy Advance",
             "consigla": "gba",
             "curto": "banjogrunty"
@@ -412,6 +412,13 @@
             "console": "PlayStation 2",
             "consigla": "ps2",
             "curto": "hl1"
+        },
+        {
+            "nome": "Kirby: Nightmare in Dream Land",
+            "tags": "Kirby: Nightmare in Dream Land nintendo game boy advance gba",
+            "console": "Game Boy Advance",
+            "consigla": "gba",
+            "curto": "kirbynightmare"
         }
     ],
     "futurosjogos": [
@@ -792,6 +799,21 @@
                 "horas": 0,
                 "minutos": 1,
                 "segundos": 48
+            },
+            "plataforma": "gdrive"
+        },
+        {
+            "nome": "Subway Surfers Polo Norte 2025 está INCRÍVEL nesse natal",
+            "tags": "Subway Surfers Polo Norte 2025 está INCRÍVEL nesse natal irônico",
+            "imagem": "polonorte2025.jpg",
+            "consigla": "etc",
+            "curto": "polonorte2025",
+            "link": "https://drive.google.com/file/d/1ManxCIVfKBwsqTurv4vfv5QRLdR5fReZ/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 59
             },
             "plataforma": "gdrive"
         }
