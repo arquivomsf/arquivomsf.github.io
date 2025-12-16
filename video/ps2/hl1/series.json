@@ -1,4 +1,11 @@
 {
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "?"
+        }
+    ],
     "vodsoficiais": [
         {
             "nome": "VODs Oficiais",

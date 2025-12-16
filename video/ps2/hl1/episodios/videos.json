@@ -1,0 +1,24 @@
+{
+    "playlist": [
+        {
+            "nome": "Half-Life (PS2)",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/@arquivomsf/lists/2/half-life-(ps2)?sort=-date",
+            "quantidade": "?"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Half Life De PS2 | Parte 1",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/half-life-de-ps2-parte-1",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 0
+            },
+            "plataforma": "archive"
+        }
+    ]
+}
