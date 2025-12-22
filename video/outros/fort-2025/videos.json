@@ -271,6 +271,18 @@
                 "segundos": 59
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Bug da Pizza do Fortnite",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/bVRxcoUMa2M",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 58
+            },
+            "plataforma": "youtube"
         }
     ]
 }
