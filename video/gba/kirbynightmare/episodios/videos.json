@@ -1,0 +1,24 @@
+{
+    "playlist": [
+        {
+            "nome": "Kirby: Nightmare In Dream Land (GBA)",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/@arquivomsf/lists/3/kirby%3A-nightmare-in-dream-land-(gba)?sort=-date",
+            "quantidade": "?"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Kirby Nightmare In Dream Land De GBA | Parte 1",
+            "imagem": "jpg",
+            "link": " https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-1",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 16
+            },
+            "plataforma": "archive"
+        }
+    ]
+}
