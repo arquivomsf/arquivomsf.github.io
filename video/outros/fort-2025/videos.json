@@ -4,7 +4,7 @@
             "nome": "Fortnite 2025 (Clipes)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt9as6fXp4PKGRlm8dLtKYY",
-            "quantidade": "23"
+            "quantidade": "24"
         }
     ],
     "videos": [
@@ -281,6 +281,18 @@
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 58
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Final contra a Wandinha no Fortnite",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/JnRHqCDyOaM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
             },
             "plataforma": "youtube"
         }
