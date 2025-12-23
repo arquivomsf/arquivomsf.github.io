@@ -193,7 +193,8 @@ function carregar_consoles_temas(modo,parametro) {
                 //verificar se é o jogo atual para nomear a página
                 if(jogo_nome_curto == parametro){
                     document.querySelector(".game-name").innerHTML = `<a href="">${jogo_nome}</a>`;
-                    document.querySelector(".console-name").innerHTML = `<a href="console?id=${jogo_console_sigla}">${jogo_console_nome}</a>`;
+                    if (modo == "outro") document.querySelector(".console-name").innerHTML = `<a href="https://arquivomsf.github.io/">Outros</a>`;
+                    else document.querySelector(".console-name").innerHTML = `<a href="console?id=${jogo_console_sigla}">${jogo_console_nome}</a>`;
                     document.title = `Arquivo - ${jogo_nome}`;
                     document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${jogo_nome}`);
                 }
