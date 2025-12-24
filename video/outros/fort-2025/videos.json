@@ -4,7 +4,7 @@
             "nome": "Fortnite 2025 (Clipes)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt9as6fXp4PKGRlm8dLtKYY",
-            "quantidade": "24"
+            "quantidade": "25"
         }
     ],
     "videos": [
@@ -289,6 +289,18 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/JnRHqCDyOaM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Confusão no letreiro de Springfield do Fortnite",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/mZWaKxOQGTs",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
