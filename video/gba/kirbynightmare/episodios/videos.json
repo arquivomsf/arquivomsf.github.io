@@ -19,6 +19,18 @@
                 "segundos": 16
             },
             "plataforma": "archive"
+        },
+        {
+            "nome": "Kirby Nightmare In Dream Land De GBA | Parte 2",
+            "imagem": "jpg",
+            "link": " https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-2",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 59
+            },
+            "plataforma": "archive"
         }
     ]
 }
