@@ -4,7 +4,7 @@
             "nome": "Kirby: Nightmare In Dream Land (GBA)",
             "imagem": "jpg",
             "link": "https://archive.org/details/@arquivomsf/lists/3/kirby%3A-nightmare-in-dream-land-(gba)?sort=-date",
-            "quantidade": "?"
+            "quantidade": "5"
         }
     ],
     "videos": [
@@ -53,6 +53,18 @@
                 "horas": 0,
                 "minutos": 25,
                 "segundos": 2
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "Kirby Nightmare In Dream Land De GBA | Parte 5 Final",
+            "imagem": "jpg",
+            "link": " https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-5-final",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 45
             },
             "plataforma": "archive"
         }
