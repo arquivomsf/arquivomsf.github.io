@@ -4,7 +4,7 @@
             "nome": "Fortnite 2025 (Clipes)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt9as6fXp4PKGRlm8dLtKYY",
-            "quantidade": "25"
+            "quantidade": "26"
         }
     ],
     "videos": [
@@ -301,6 +301,18 @@
             "imagem": "jpg",
             "link": "",
             "linkyt": "https://youtu.be/mZWaKxOQGTs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Andando de Carrinho da Marge no Fortnite 2025",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/uYWlUSUsBSI",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
