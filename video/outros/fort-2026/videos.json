@@ -1,0 +1,36 @@
+{
+    "playlist": [
+        {
+            "nome": "Fortnite 2026 (Clipes)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvscXoyO_-3BK3PISKhCstbM",
+            "quantidade": "2"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Batalha nas moitas do Fortnite 2026",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/hjctKdiR-0M",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Vitória na porta do castelo do Fortnite 2026",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/aNaNnhOdMGY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}
