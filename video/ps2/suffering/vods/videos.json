@@ -1,0 +1,124 @@
+{
+    "playlist": [
+        {
+            "nome": "The Suffering (PS2 - VOD)",
+            "imagem": "png",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvQzKu8g7gm--Zs6PD3T_ec",
+            "quantidade": "9"
+        }
+    ],
+    "extras": [
+        {
+            "nome": "The Suffering (PS2) - VOD 2.5",
+            "id": "suffering2-5",
+            "imagem": "suffering2-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/3_4hTY1G0JE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 33,
+                "segundos": 19
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering (PS2) - VOD 5.5",
+            "id": "suffering5-5",
+            "imagem": "suffering5-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/xx6z7MUl4K4",
+            "duracao": {
+                "horas": 1,
+                "minutos": 18,
+                "segundos": 49
+            },
+            "plataforma": "youtube"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "The Suffering (PS2) - VOD 1",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/E1bhdGg2XUo",
+            "duracao": {
+                "horas": 2,
+                "minutos": 22,
+                "segundos": 47
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering (PS2) - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/NMCpa6o-WY8",
+            "duracao": {
+                "horas": 1,
+                "minutos": 9,
+                "segundos": 24
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering (PS2) - VOD 3",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/Cc4o1P6wsbc",
+            "duracao": {
+                "horas": 3,
+                "minutos": 27,
+                "segundos": 30
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering (PS2) - VOD 4",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/DTwLiIioIZE",
+            "duracao": {
+                "horas": 1,
+                "minutos": 57,
+                "segundos": 28
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering (PS2) - VOD 5",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/12vW4Fd3XUs",
+            "duracao": {
+                "horas": 2,
+                "minutos": 0,
+                "segundos": 17
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering (PS2) - VOD 6",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 0
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "The Suffering (PS2) - VOD 7",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 0
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}
