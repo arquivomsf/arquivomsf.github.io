@@ -342,14 +342,19 @@ body[data-tema="geo"] > .pagecontent > div > div > a > span.title:hover {
 }
 
 body[data-tema="geo"] > .pagecontent > div > div > a > span.subtitle {
-    color: black !important;
+    /*color: black !important;
     font-style: italic !important;
-    font-size: 0.8rem !important;
+    font-size: 0.8rem !important;*/
+
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
 }
 
-body[data-tema="geo"] > .pagecontent > div > div > a > span.subtitle:hover {
+/*body[data-tema="geo"] > .pagecontent > div > div > a > span.subtitle:hover {
     text-decoration: underline;
-}
+}*/
 
 body[data-tema="geo"] > .videoplayer {
     background-color: white;

@@ -95,6 +95,8 @@ body[data-tema="dracula"] > .pagecontent > div > div > a > span.title {
 body[data-tema="dracula"] > .pagecontent > div > div > a > span.subtitle {
   color: var(--dracula-orange) !important;
   font-style: italic !important;
+
+  background-color: var(--dracula-sel) !important;
 }
 
 body[data-tema="dracula"] > .pagecontent > div > div > a > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.playlist-length {

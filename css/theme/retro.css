@@ -6,7 +6,7 @@ body[data-tema="retro"] {
 }
 
 body[data-tema="retro"] > .pagecontent > div > div > a > span.title {
-  color: white !important;
+  color: white;
 }
 
 body[data-tema="retro"] > .pagecontent > div > div > a > img.img-fluid, body[data-tema="retro"] > .pagecontent > div > div > a > div > img.img-fluid {
@@ -23,8 +23,19 @@ body[data-tema="retro"] > .pagecontent > div > div > a > div > .video-length {
 }
 
 body[data-tema="retro"] > .pagecontent > div > div > a > span.subtitle {
-  color: #99999B !important;
+  color: white;
+  background-color: #2D2D2D !important;
   font-size: 0.9rem !important;
+
+  border: 1px solid #51514F;
+
+  border-radius: 0;
+
+  box-shadow: none;
+}
+
+body[data-tema="retro"] > .pagecontent > div > div > a > span.subtitle:hover {
+  color: #00D9AE;
 }
 
 body[data-tema="retro"] > .navbar {
@@ -45,7 +56,9 @@ body[data-tema="retro"] > .navbar > center > div > button {
 }
 
 body[data-tema="retro"] > .navbar > div > div > button:not(.btn-close) {
-  background-color: #282828 !important;
+  background-color: #2D2D2D !important;
+  
+  border: none;
 }
 
 body[data-tema="retro"] > .navbar > center > div > a.home-icon > button {

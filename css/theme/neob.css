@@ -104,6 +104,8 @@ body[data-tema="neob"] > .pagecontent > .row > .col > a > .subtitle {
   border: 1px solid black;
   width: 97%;
   box-shadow: 5px 5px black;
+
+  border-radius: 0;
 }
 
 body[data-tema="neob"] > .pagecontent > .row > .col > a > img, body[data-tema="neob"] > .pagecontent > .row > .col > a > div > img {

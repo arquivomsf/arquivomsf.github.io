@@ -347,9 +347,9 @@ body[data-tema="xp"] > .pagecontent > .video-category > b, body[data-tema="xp"] 
   font-size: 0.9rem;
 }
 
-body[data-tema="xp"] > .pagecontent > div > div.col:hover a > span.subtitle {
+/*body[data-tema="xp"] > .pagecontent > div > div.col:hover a > span.subtitle {
   color: #438bc5 !important;
-}
+}*/
 
 body[data-tema="xp"] > .pagecontent > div > div > a > span {
   margin-left: 1px !important;
@@ -369,13 +369,36 @@ body[data-tema="xp"] > .pagecontent > div > div > a > div.thumbnail, body[data-t
   margin-bottom: 15px !important;
 }
 
-body[data-tema="xp"] > .pagecontent > div > div > a > span.subtitle {
+/*body[data-tema="xp"] > .pagecontent > div > div > a > span.subtitle {
   color: #222 !important;
   font-size: 0.8rem !important;
 }
 
 body[data-tema="xp"] > .pagecontent > div > div > a > span.subtitle:hover {
   text-decoration: underline;
+}*/
+
+body[data-tema="xp"] > .pagecontent > div > div > a > span.subtitle {
+  color: #222 !important;
+  border: 1px solid #003c74;
+  background: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
+  box-shadow: none;
+  border-radius: 3px !important;
+}
+
+body[data-tema="xp"] > .pagecontent > div > div > a > span.subtitle:hover {
+  box-shadow: inset -1px 1px #fff0cf,inset 1px 2px #fdd889,inset -2px 2px #fbc761,inset 2px -2px #e5a01a;
+}
+
+body[data-tema="xp"] > .pagecontent > div > div > a > span.subtitle:active {
+  box-shadow: none;
+  background: linear-gradient(180deg,#cdcac3,#e3e3db 8%,#e5e5de 94%,#f2f2f1);
+}
+
+body[data-tema="xp"] > .pagecontent > div > div > a > span.subtitle:focus {
+  box-shadow: inset -1px 1px #cee7ff,inset 1px 2px #98b8ea,inset -2px 2px #bcd4f6,inset 1px -1px #89ade4,inset 2px -2px #89ade4;
+  outline: 1px dotted #000;
+  outline-offset: -4px;
 }
 
 body[data-tema="xp"] > .pagecontent > p.flow-text > i.fa-arrow-up {

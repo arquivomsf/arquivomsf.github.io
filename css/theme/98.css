@@ -303,9 +303,9 @@ body[data-tema="98"] > .pagecontent > .video-category > b, body[data-tema="98"] 
   font-size: 1rem;
 }
 
-body[data-tema="98"] > .pagecontent > div > div.col:hover a > span.subtitle {
+/*body[data-tema="98"] > .pagecontent > div > div.col:hover a > span.subtitle {
   color: #0000ee !important;
-}
+}*/
 
 body[data-tema="98"] > .pagecontent > div > div > a > span {
   margin-left: 1px !important;
@@ -325,13 +325,32 @@ body[data-tema="98"] > .pagecontent > div > div > a > div.thumbnail, body[data-t
   margin-bottom: 15px !important;
 }
 
-body[data-tema="98"] > .pagecontent > div > div > a > span.subtitle {
+/*body[data-tema="98"] > .pagecontent > div > div > a > span.subtitle {
   color: #222 !important;
   font-size: 0.8rem !important;
 }
 
 body[data-tema="98"] > .pagecontent > div > div > a > span.subtitle:hover {
   text-decoration: underline;
+}*/
+
+body[data-tema="98"] > .pagecontent > div > div > a > span.subtitle {
+  color: #222 !important;
+  border: none;
+  background: silver;
+  box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+  border-radius: 0;
+}
+
+body[data-tema="98"] > .pagecontent > div > div > a > span.subtitle:active {
+  background: silver !important;
+  border: none !important;
+  box-shadow: inset -1px -1px #fff,inset 1px 1px #0a0a0a,inset -2px -2px #dfdfdf,inset 2px 2px grey;
+}
+
+body[data-tema="98"] > .pagecontent > div > div > a > span.subtitle:focus {
+  outline: 1px dotted #000;
+  outline-offset: -4px;
 }
 
 body[data-tema="98"] > .pagecontent > p.flow-text > i.fa-arrow-up {

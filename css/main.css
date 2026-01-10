@@ -95,7 +95,25 @@ body > .container:not(:has(.video-category)) {
 }
 
 .subtitle {
-  color: rgb(150, 148, 148);
+  /*color: rgb(150, 148, 148);*/
+
+  background-color: rgb(150, 148, 148);
+
+  padding-block: 0.25rem;
+  padding-inline: 0.5rem;
+
+  border-radius: 0.375rem;
+
+  width: fit-content;
+  height: min-content;
+
+  cursor: pointer;
+
+  line-height: 1.5;
+
+  color: white;
+
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a:link { 

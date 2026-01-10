@@ -13,6 +13,9 @@ body[data-tema="terminal"] > .pagecontent > div > div > a > span.title {
 body[data-tema="terminal"] > .pagecontent > div > div > a > span.subtitle {
   color: white !important;
   font-size: 0.8rem !important;
+
+  background-color: black !important;
+  border: 1px solid white;
 }
 
 body[data-tema="terminal"] > .navbar {

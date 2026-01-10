@@ -232,6 +232,11 @@ body[data-tema="old"] > .pagecontent > div > div > a > div.thumbnail {
 body[data-tema="old"] > .pagecontent > div > div > a > span.subtitle {
   color: #222 !important;
   font-size: 0.8rem !important;
+
+  background: none;
+  box-shadow: none;
+  border: 0;
+  padding: 0;
 }
 
 body[data-tema="old"] > .pagecontent > div > div > a > span.subtitle:hover {
