@@ -23,7 +23,6 @@ function carregar_itens() {
   for (var i = 0; i<dados_geral.jogos.length; i++){
     let jogo_nome = dados_geral.jogos[i].nome;
     let jogo_tags = dados_geral.jogos[i].tags;
-    let jogo_imagem = dados_geral.jogos[i].imagem;
     let jogo_console_sigla = dados_geral.jogos[i].consigla;
     let jogo_nome_curto = dados_geral.jogos[i].curto;
     let nome_processado = pesquisa_processar_texto(jogo_tags);
@@ -34,7 +33,7 @@ function carregar_itens() {
             <div class="col">
               <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="blacklink">
                 <div class="thumbnail">
-                    <img src="${jogo_imagem}" alt="" class="linkicon ratio ratio-16x9 capa">
+                    <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" alt="" class="linkicon ratio ratio-16x9 capa">
                     <span class="video-length"></span>
                 </div>
                 <span class="flow-text title">${jogo_nome}</span>
