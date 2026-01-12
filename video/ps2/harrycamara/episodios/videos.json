@@ -1,0 +1,36 @@
+{
+    "playlist": [
+        {
+            "nome": "Harry Potter and the Chamber of Secrets (PS2)",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/@arquivomsf/lists/4/harry-potter-and-the-chamber-of-secrets-(ps2)?sort=-date",
+            "quantidade": "?"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Harry Potter and the Chamber of Secrets de PS2 | Parte 1",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/harry-potter-and-the-chamber-of-secrets-de-ps2-parte-1",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 36,
+                "segundos": 27
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "Harry Potter and the Chamber of Secrets de PS2 | Parte 2",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/harry-potter-and-the-chamber-of-secrets-de-ps2-parte-2",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 1
+            },
+            "plataforma": "archive"
+        }
+    ]
+}
