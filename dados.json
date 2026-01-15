@@ -471,13 +471,13 @@
             "consigla": "etc",
             "curto": "bike2020",
             "link": "https://drive.google.com/file/d/13T0Vd5avB7rTIxq2Lu9u2LJO21mB4RF3/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/E6WVbb-Wwlg",
             "duracao": {
                 "horas": 0,
                 "minutos": 4,
                 "segundos": 0
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Testando Layout para Gameplays de PlayStation 1",
@@ -666,13 +666,13 @@
             "consigla": "etc",
             "curto": "subwaybrainrot",
             "link": "https://drive.google.com/file/d/13q9tqcTRD0kRXyr2dZb5tLn00_7MCik7/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/cxP7-0IBMtI",
             "duracao": {
                 "horas": 0,
                 "minutos": 8,
                 "segundos": 44
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Mais um Subway Surfers Brainrot",
@@ -681,13 +681,13 @@
             "consigla": "etc",
             "curto": "subwaybrainrot2",
             "link": "https://drive.google.com/file/d/1K30_s5CVmgAzEqXf9BflQoI_YW286fwW/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/XhXm4n6TR7s",
             "duracao": {
                 "horas": 0,
                 "minutos": 8,
                 "segundos": 10
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Roleta do Malsebo - 15/10/2025 a 20/10/2025",
@@ -864,7 +864,7 @@
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
-            "curto": "gearclub"
+            "curto": "gearunl2"
         },
         {
             "nome": "Fortnite 2026",

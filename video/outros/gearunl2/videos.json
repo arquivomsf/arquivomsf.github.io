@@ -1,136 +1,144 @@
 {
+    "playlist": [
+        {
+            "nome": "Gear.Club Unlimited 2 (Clipes)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtBuaPdG9NN-t9XlrgI17AS",
+            "quantidade": "11"
+        }
+    ],
     "videos": [
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 1",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ln495G5wrwXZt4-yirvUb46k5I273PUn/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/G0OuOhn5YN0",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 2",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1NT8KLAB7SXugXjJq1u6epvJdYClH6gjL/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/p1Xla_8XMQI",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 3",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ZPOS_AFYz3JfvybT-ZdpY0KP35kmGsor/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/HvohFYN11PA",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 4",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/11rBch-wsesx_KX8M2k79CXXJyfCr4xg1/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/P2JrISw0HZc",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 5",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1uemritOhGEf6JTB4lSL5OeCm1_E0hQjg/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/TEqaJgWqwP4",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 6",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1iRrbaHNNjFN1ecG1GqNL00Z6q25uozMR/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ta_29gfoo2o",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 7",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/157MTo5KP3Pt52XHyf39x6gkVGaPmir3F/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/1Bbu1FczB3g",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 8",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/17G17ER_O3cekUIPtGtKOoPG2ITPlfgQy/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/RBnAQAxF7Yg",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 9",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1miVDbIxWTXcpbm00qWNfw1MbYcP0_Ph3/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/NbtlMVF3i50",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 29
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 10",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1ww4vQ7CtUfrQlA2bpEpvMXkAq9p8nsVi/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/BIqfijHm5SY",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         },
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 11",
             "imagem": "jpg",
             "link": "https://drive.google.com/file/d/1gLYWDNdC2rs17UZJCE08n7JmXrwmNJez/view",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/ec_f0_xWp5g",
             "duracao": {
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 59
             },
-            "plataforma": "gdrive"
+            "plataforma": "youtube"
         }
     ]
 }
