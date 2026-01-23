@@ -428,26 +428,6 @@
             "curto": "harrycamara"
         }
     ],
-    "futurosjogos": [
-        {
-            "nome": "Need for Speed: Most Wanted",
-            "tags": "Need for Speed: Most Wanted nfs gc nintendo gamecube",
-            "console": "GameCube (GC)",
-            "consigla": "gc",
-            "curto": "nfsmostwanted"
-        },
-        {
-            "nome": "Super Mario Sunshine",
-            "tags": "Super Mario Sunshine delfino gc nintendo gamecube",
-            "console": "GameCube (GC)",
-            "consigla": "gc",
-            "curto": "sunshine"
-        },
-        {
-            "nome": "GameCube (GC)",
-            "sigla": "gc"
-        }
-    ],
     "standalone": [
         {
             "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
@@ -463,6 +443,22 @@
                 "segundos": 25
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Sarrada do MarceloSouzaF",
+            "tags": "Sarrada do MarceloSouzaF meme edit edição",
+            "imagem": "sarrada.jpg",
+            "consigla": "etc",
+            "curto": "sarrada",
+            "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
+            "_link": "https://archive.org/details/sarrada-do-marcelosouzaf",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 57
+            },
+            "plataforma": "gdrive"
         },
         {
             "nome": "Passeio de Bike pelo Parque Malwee em 2020",
@@ -495,19 +491,164 @@
             "plataforma": "youtube"
         },
         {
-            "nome": "Sarrada do MarceloSouzaF",
-            "tags": "Sarrada do MarceloSouzaF meme edit edição",
-            "imagem": "sarrada.jpg",
+            "nome": "2 Anos do Canal na COSTV",
+            "tags": "2 Anos do Canal na COSTV",
+            "imagem": "2anos_costv.jpg",
             "consigla": "etc",
-            "curto": "sarrada",
-            "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
+            "curto": "2anos_costv",
+            "link": "",
+            "linkyt": "https://youtu.be/3gsj4oeMmtE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 50
+            },
+            "plataforma": "youtube",
+            "data": "03/01/2022"
+        },
+        {
+            "nome": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
+            "tags": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
+            "imagem": "terminando_passe_fortnite3_3.jpg",
+            "consigla": "etc",
+            "curto": "terminando_passe_fortnite3_3",
+            "link": "",
+            "linkyt": "https://youtu.be/J0EYmoZIJkU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 2,
+                "segundos": 24
+            },
+            "plataforma": "youtube",
+            "data": "13/09/2022"
+        },
+        {
+            "nome": "2 Mil Inscritos no Canal na COSTV",
+            "tags": "2 Mil Inscritos no Canal na COSTV",
+            "imagem": "2milsubs_costv.jpg",
+            "consigla": "etc",
+            "curto": "2milsubs_costv",
+            "link": "",
+            "linkyt": "https://youtu.be/bUQF_fquQ7M",
+            "duracao": {
+                "horas": 0,
+                "minutos": 4,
+                "segundos": 18
+            },
+            "plataforma": "youtube",
+            "data": "15/12/2022"
+        },
+        {
+            "nome": "Trailer do Canal 2023",
+            "tags": "Trailer do Canal 2023",
+            "imagem": "trailer2023.jpg",
+            "consigla": "etc",
+            "curto": "trailer2023",
+            "link": "https://archive.org/details/msf-trailer-do-canal-2023",
             "linkyt": "",
             "duracao": {
                 "horas": 0,
-                "minutos": 0,
-                "segundos": 57
+                "minutos": 1,
+                "segundos": 9
             },
-            "plataforma": "gdrive"
+            "plataforma": "archive",
+            "data": "23/12/2022"
+        },
+        {
+            "nome": "3 anos do canal na COSTV",
+            "tags": "3 anos do canal na COSTV",
+            "imagem": "3anos_costv.jpg",
+            "consigla": "etc",
+            "curto": "3anos_costv",
+            "link": "",
+            "linkyt": "https://youtu.be/rQPiGTh_ZTQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 5,
+                "segundos": 55
+            },
+            "plataforma": "youtube",
+            "data": "10/01/2023"
+        },
+        {
+            "nome": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
+            "tags": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
+            "imagem": "especial_29anos.jpg",
+            "consigla": "etc",
+            "curto": "especial_29anos",
+            "link": "https://archive.org/details/especial-do-meu-aniversario-de-29-anos-jogando-classicos-do-canal",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 39,
+                "segundos": 33
+            },
+            "plataforma": "archive",
+            "data": "21/02/2023"
+        },
+        {
+            "nome": "Gaming Channel Trailer | #Consensus2023",
+            "tags": "Gaming Channel Trailer | #Consensus2023",
+            "imagem": "trailer2023_cos.jpg",
+            "consigla": "etc",
+            "curto": "trailer2023_cos",
+            "link": "https://archive.org/details/msf-gaming-channel-trailer-consensus-2023",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 9
+            },
+            "plataforma": "archive",
+            "data": "26/04/2023"
+        },
+        {
+            "nome": "Feliz Aniversário COSTV #4ANOSDECOSTV",
+            "tags": "Feliz Aniversário COSTV #4ANOSDECOSTV",
+            "imagem": "4anos_costv.jpg",
+            "consigla": "etc",
+            "curto": "4anos_costv",
+            "link": "",
+            "linkyt": "https://youtu.be/5JuelzTQht4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 54
+            },
+            "plataforma": "youtube",
+            "data": "17/06/2023"
+        },
+        {
+            "nome": "Era pra ser um novo recorde no Subway Surfers",
+            "tags": "Era pra ser um novo recorde no Subway Surfers",
+            "imagem": "recordefalhosub.jpg",
+            "consigla": "etc",
+            "curto": "recordefalhosub",
+            "link": "",
+            "linkyt": "https://youtu.be/yJDw_T1FUIY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 45
+            },
+            "plataforma": "youtube",
+            "data": "03/05/2024"
+        },
+        {
+            "nome": "3 MIL INSCRITOS NA COSTV",
+            "tags": "3 MIL INSCRITOS NA COSTV",
+            "imagem": "3milsubs_costv.png",
+            "consigla": "etc",
+            "curto": "3milsubs_costv",
+            "link": "",
+            "linkyt": "https://youtu.be/EV1dbCgHrXY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 5,
+                "segundos": 38
+            },
+            "plataforma": "youtube",
+            "data": "09/07/2024"
         },
         {
             "nome": "A MAIOR LIVE DO CANAL - 10 Horas de Duração",
@@ -826,6 +967,14 @@
         }
     ],
     "outros": [
+        {
+            "nome": "Lives gravadas (16/03/2023 a 20/04/2023)",
+            "tags": "Lives gravadas (16/03/2023 a 20/04/2023) Kartrider Drift Tomb Raider Reloaded Fortnite SSSnaker",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "marcoabril2023"
+        },
         {
             "nome": "Clair Obscur: Expedition 33",
             "tags": "Clair Obscur: Expedition 33 Clipes",

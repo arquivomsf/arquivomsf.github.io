@@ -37,6 +37,7 @@ function setTema(tema_esc) {
 var dados_geral = "";
 var dados_jogo = "";
 var dados_serie = "";
+var dados_off = {"lostmedia": []};
 
 async function fetch_dados(tipo,file) {
     let file_object = await fetch(file);
@@ -57,6 +58,9 @@ async function fetch_dados(tipo,file) {
             //gambiarra porque estoy cansado jefe
             let geral_object_embed = await fetch("dados.json");
             dados_geral = await geral_object_embed.json();
+        break;
+        case "lost":
+            dados_off = json_data;
         break;
     }
     carregar_itens();
@@ -158,9 +162,14 @@ function carregar_consoles_temas(modo,parametro) {
         for (var i = 0; i<consoles.length; i++){
             let console_nome = consoles[i].nome;
             let console_sigla = consoles[i].sigla;
+
+            let console_url = "";
+            if(modo == "404") console_url = `https://arquivomsf.github.io/console?id=${console_sigla}`;
+            else console_url = `console?id=${console_sigla}`;
+
             document.querySelector("#conJsonParent").innerHTML += `
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="console?id=${console_sigla}">${console_nome}</a>
+                <a class="nav-link active" aria-current="page" href="${console_url}">${console_nome}</a>
                 </li>`;
             
             //se estiver no modo console, verificar se é o console atual para nomear a página

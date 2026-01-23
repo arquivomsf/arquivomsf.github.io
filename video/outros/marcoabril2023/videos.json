@@ -1,0 +1,259 @@
+{
+    "playlist": [
+        {
+            "nome": "Lives gravadas (16/03/2023 a 20/04/2023)",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtpUSmqWdnCR3YXLurO1xDS",
+            "quantidade": "19"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Jogando KartRider Drift e Tomb Raider Reloaded | Live Gravada 16/03/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/EE9QYNqbqGQ",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 38
+            },
+            "plataforma": "youtube",
+            "data": "16/03/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e Tomb Raider Reloaded | Live Gravada 17/03/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Bzd9HLaWjN4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 58,
+                "segundos": 45
+            },
+            "plataforma": "youtube",
+            "data": "17/03/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e Tomb Raider Reloaded | Live Gravada 19/03/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Rh1afxFVJbc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 58,
+                "segundos": 42
+            },
+            "plataforma": "youtube",
+            "data": "19/03/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e Tomb Raider Reloaded | Live Gravada 21/03/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/1Pj8YvhyDy8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 50,
+                "segundos": 3
+            },
+            "plataforma": "youtube",
+            "data": "21/03/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e Tomb Raider Reloaded | Live Gravada 23/03/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/6hBw2Z1ydqU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 8
+            },
+            "plataforma": "youtube",
+            "data": "23/03/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift | Live Gravada 29/03/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/7DSqME9huNs",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 24
+            },
+            "plataforma": "youtube",
+            "data": "29/03/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e Fortnite | Live Gravada 29/03/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/CdhhC5RabVw",
+            "duracao": {
+                "horas": 0,
+                "minutos": 58,
+                "segundos": 39
+            },
+            "plataforma": "youtube",
+            "data": "29/03/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift | Live Gravada 31/03/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/FWCp57-kPlE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 42
+            },
+            "plataforma": "youtube",
+            "data": "31/03/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift | Live Gravada 02/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Vqk0KWeA8rM",
+            "duracao": {
+                "horas": 0,
+                "minutos": 20,
+                "segundos": 24
+            },
+            "plataforma": "youtube",
+            "data": "02/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift | Live Gravada 04/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/ZvAQQ4CWRdk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 34
+            },
+            "plataforma": "youtube",
+            "data": "04/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift | Live Gravada 04/04/2023 | Parte 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/koHrOkbeItA",
+            "duracao": {
+                "horas": 0,
+                "minutos": 32,
+                "segundos": 39
+            },
+            "plataforma": "youtube",
+            "data": "04/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift | Live Gravada 06/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/FnW35CL6Wis",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 2
+            },
+            "plataforma": "youtube",
+            "data": "06/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift | Live Gravada 08/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Zpf1FMHljn4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 43,
+                "segundos": 31
+            },
+            "plataforma": "youtube",
+            "data": "08/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e SSSnaker | Live Gravada 10/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/9oo207kDn-4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 59,
+                "segundos": 20
+            },
+            "plataforma": "youtube",
+            "data": "10/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift | Live Gravada 11/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/CexMEo3h-ns",
+            "duracao": {
+                "horas": 0,
+                "minutos": 44,
+                "segundos": 22
+            },
+            "plataforma": "youtube",
+            "data": "11/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e SSSnaker | Live Gravada 14/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/CBetAQevV4Q",
+            "duracao": {
+                "horas": 0,
+                "minutos": 49,
+                "segundos": 20
+            },
+            "plataforma": "youtube",
+            "data": "14/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e SSSnaker | Live Gravada 18/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/b3MRQDBmLMk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 59
+            },
+            "plataforma": "youtube",
+            "data": "18/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e SSSnaker | Live Gravada 19/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/tGAb0nVAiRU",
+            "duracao": {
+                "horas": 0,
+                "minutos": 58,
+                "segundos": 50
+            },
+            "plataforma": "youtube",
+            "data": "19/04/2023"
+        },
+        {
+            "nome": "Jogando KartRider Drift e SSSnaker | Live Gravada 20/04/2023",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/SWRm5E07wdE",
+            "duracao": {
+                "horas": 0,
+                "minutos": 54,
+                "segundos": 7
+            },
+            "plataforma": "youtube",
+            "data": "20/04/2023"
+        }
+    ]
+}

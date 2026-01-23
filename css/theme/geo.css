@@ -13,7 +13,7 @@ body[data-tema="geo"] > .navbar > .offcanvas {
     background-attachment: fixed;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:first-of-type {
+body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:not(:nth-of-type(2)) {
     background-color: white;
     padding: 10px 5% 20px 5%;
     outline-color: silver;
@@ -23,8 +23,17 @@ body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:first-of-typ
     margin-bottom: 20px;*/
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:not(:first-of-type) {
+body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:nth-of-type(2) {
     padding: 0 !important;
+}
+
+body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:not(:nth-of-type(2)) > li > a {
+    color: Navy !important;
+    font-weight: bold !important;
+}
+
+body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:not(:nth-of-type(2)) > li > a:hover {
+    text-decoration: underline;
 }
 
 body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
@@ -126,7 +135,7 @@ body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[hre
 }
 */
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > h5:not(:first-child)::after {
+body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > .temas-title::after {
     content: url("../../assets/img/buttons/best_viewed_with_open_eyes.gif");
     background-repeat: no-repeat;
     height: 31px;
