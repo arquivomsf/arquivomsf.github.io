@@ -83,45 +83,64 @@ if (!pesquisando == 0) {
         carregar_itens();
     }, 100);
 }
-
+/*
 function setPesquisa() {
     if (pesquisando == 0) {
-        document.querySelector(".default-container").style.display = "block";
-        document.querySelector(".search-container").style.display = "none";
-        let allSearchBtn = document.querySelectorAll(".pesquisar-btn");
+        document.querySelector(".navbar-default").style.display = "block";
+        document.querySelector(".navbar-search").style.display = "none";
+        let allSearchBtn = document.querySelectorAll(".search-btn");
         for (let i = 0; i < allSearchBtn.length; i++) {
             allSearchBtn[i].innerHTML = '<i class="fa fa-search"></i>';
         }
     } else {
-        document.querySelector(".default-container").style.display = "none";
-        document.querySelector(".search-container").style.display = "block";
+        document.querySelector(".navbar-default").style.display = "none";
+        document.querySelector(".navbar-search").style.display = "block";
         document.querySelector("#inputPesquisa").focus();
-        let allSearchBtn = document.querySelectorAll(".pesquisar-btn");
+        let allSearchBtn = document.querySelectorAll(".search-btn");
         for (let i = 0; i < allSearchBtn.length; i++) {
             allSearchBtn[i].innerHTML = '<i class="fa fa-close"></i>';
         }
     }
 }
+*/
 
-function changePesquisa() {
-    if (pesquisando == 0) {
+function abrir_pesquisa() {
+  document.querySelector(".navbar-default").classList.add("hidden");
+  document.querySelector(".navbar-search").classList.remove("hidden");
+
+  document.querySelector("#inputPesquisa").focus();
+
+  changePesquisa("on");
+}
+
+function fechar_pesquisa() {
+  document.querySelector(".navbar-default").classList.remove("hidden");
+  document.querySelector(".navbar-search").classList.add("hidden");
+
+  changePesquisa("off");
+}
+
+function changePesquisa(on_off) {
+    if (on_off == "on") {
         pesquisando = 1;
-        setPesquisa();
+        //abrir_pesquisa();
         return
     }
-    if (!stringPesquisa == "" && !pesquisando == 0) {
+    if (!stringPesquisa == "" && on_off == "off") {
         pesquisando = 0;
         resetarString();
         resetarJogos();
         carregar_itens();
-        setPesquisa();
+        //setPesquisa();
+        //fechar_pesquisa();
     }
 }
 
 function checarStringVazia() {
     if (stringPesquisa == "" && !pesquisando == 0) {
         pesquisando = 0;
-        setPesquisa();
+        //setPesquisa();
+        fechar_pesquisa();
     }
 }
 
@@ -167,10 +186,8 @@ function carregar_consoles_temas(modo,parametro) {
             if(modo == "404") console_url = `https://arquivomsf.github.io/console?id=${console_sigla}`;
             else console_url = `console?id=${console_sigla}`;
 
-            document.querySelector("#conJsonParent").innerHTML += `
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="${console_url}">${console_nome}</a>
-                </li>`;
+            document.querySelector(".console_list").innerHTML += `
+                <a href="${console_url}" class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">${console_nome} (${console_sigla.toUpperCase()})</a>`;
             
             //se estiver no modo console, verificar se é o console atual para nomear a página
             if(modo == "console" && console_sigla == parametro){
@@ -223,7 +240,7 @@ function setTab(cur_el,selected_tab) {
         cur_el.classList.add("active");
     }
 
-    document.querySelectorAll(".tab-content").forEach(el => {
+    document.querySelectorAll(".tabcontent").forEach(el => {
         el.classList.add("hidden");
     });
     document.querySelector("#"+selected_tab).classList.remove("hidden");
@@ -243,4 +260,44 @@ function pesquisa_processar_texto(texto_original) {
     texto_processado = texto_processado.replaceAll(/[úÚ]/g,"u");
     
     return texto_processado;
+}
+
+function sidebar_open() {
+  document.querySelector("#sidebar_main").classList.remove("hidden");
+  document.querySelector("#sidebar_overlay").classList.remove("hidden");
+
+  document.querySelector("#sidebar_main").classList.remove("animate-sidebar-fechar");
+}
+
+function sidebar_close() {
+  document.querySelector("#sidebar_overlay").classList.add("hidden");
+
+  document.querySelector("#sidebar_main").classList.add("animate-sidebar-fechar");
+  setTimeout(function(){ document.querySelector("#sidebar_main").classList.add("hidden"); }, 300);
+}
+
+function get_console_name(sigla) {
+    switch(sigla) {
+        case "nes":
+            return "Nintendo"
+        break;
+        case "n64":
+            return "Nintendo 64"
+        break;
+        case "gba":
+            return "Game Boy Advance"
+        break;
+        case "md":
+            return "Mega Drive"
+        break;
+        case "dc":
+            return "Dreamcast"
+        break;
+        case "ps1":
+            return "PlayStation 1"
+        break;
+        case "ps2":
+            return "PlayStation 2"
+        break;
+    }
 }

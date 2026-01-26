@@ -1,107 +1,116 @@
-<!DOCTYPE html>
-<html lang="pt">
-  <head>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <meta charset="utf-8">
     <meta property="og:title" content="Arquivo de Lives - MarceloSouzaF">
     <meta property="description" content="Arquivo das gravações de lives de jogos retro do MarceloSouzaF">
     <meta property="og:description" content="Arquivo das gravações de lives de jogos retro do MarceloSouzaF">
     <meta property="og:image" content="https://arquivomsf.github.io/video/etc/marcelojoker.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css" />
+    <title>Arquivo de Lives - MarceloSouzaF</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
     <script src="js/shared.js"></script>
     <script src="js/stats.js"></script>
-    <title>Estatísticas - Arquivo - MarceloSouzaF</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body onload="carregarStats()">
-    <div class="navbar navbar-dark bg-dark fixed-top always-block">
-      <center><div class="fake-container">
-        <span class="page-name page-name-one float-left">
-          <div class="title-breadcrumb">
-            <div class="title-breadcrumb-item title-breadcrumb-home"><a href="https://arquivomsf.github.io/"><i class="fa fa-home"></i></a></div>
-            <div class="title-breadcrumb-item console-name active"><a href="">Estatísticas</a></div>
-          </div>
-        </span>
-        <button class="btn btn-dark float-right" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-          <i class="fa fa-bars"></i>
-        </button>
-      </div></center>
+</head>
+<body class="font-[AdwaitaSans-Regular] bg-gray-200" onload="carregarStats()">
+    <nav class="px-2 bg-gray-800 sticky top-0 w-[100%] text-white flex flex-row sm:flex-row items-center z-10 navbar-default">
+        <div class="tab w-[100%] flex flex-row justify-between">
+            <!--<div class="cursor-pointer w-min my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500"><a href="https://arquivomsf.github.io/"><i class="fa fa-home"></i></a></div>-->
+            <div class="w-min mt-3"><a href="https://arquivomsf.github.io/" class="cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500"><i class="fa fa-home"></i></a></div>
 
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <button class="btn btn-dark close-offcanvas" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-            <i class="fa fa-close"></i>
-          </button>
+            <div class="flex flex-row">
+              <div class="cursor-pointer w-min my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500" onclick="sidebar_open()"><i class="fa fa-bars"></i></div>
+            </div>
         </div>
-        <div class="offcanvas-body">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Consoles</h5><br>
-          <ul id="conJsonParent" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+    </nav>
 
-          </ul><br>
-          <h5 class="offcanvas-title temas-title" id="offcanvasDarkNavbarLabel">Tema</h5><br>
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <select onchange="setTema(this);" name="choose_theme" id="themes_select">
-                
-              </select>
-            </li>
-          </ul><br>
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Mais links</h5><br>
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="off">OFF (Lost Media)</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="stats">Estatísticas</a>
-            </li>
-          </ul>
+    <nav class="px-2 bg-gray-800 sticky top-0 w-[100%] text-white flex flex-row sm:flex-row items-center z-10 hidden navbar-search">
+        <div class="tab w-[100%] flex flex-row">
+            <div class="m-1 w-full"><input id="inputPesquisa" oninput="pesquisarJogo()" onblur="checarStringVazia()" class="p-1 rounded-sm cursor-text bg-inherit h-full w-full transition-all duration-150 border-1 border-white outline-0 animate-abrir focus:bg-gray-700" type="text"></div>
+
+            <button class="tablinks cursor-pointer my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 float-right w-max hover:bg-gray-500 focus:bg-gray-500" onclick="fechar_pesquisa()"><i class="fa fa-close"></i></button>
         </div>
-      </div>
+        
+    </nav>
+
+    <div class="hidden px-3 bg-white h-full w-[90%] sm:w-[400px] fixed! z-12 overflow-auto top-0 right-0 animate-right flex flex-col" id="sidebar_main">
+        <div class="block">
+            <button class="float-right w-max border-none block outline-none tablinks cursor-pointer m-2 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-black/20 focus:bg-black/20" onclick="sidebar_close()"><i class="fa fa-close"></i></button>
+        </div>
+        <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Consoles</span>
+        <div class="console_list flex flex-col mb-3">
+
+        </div>
+        <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Temas</span>
+        <div class="themes_list flex flex-col mb-3">
+          <select onchange="setTema(this);" name="choose_theme" id="themes_select" class="nav-link px-2 py-3 float-left w-auto border-1 block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20"></select>
+        </div>
+        <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Mais links</span>
+        <div class="maislinks_list flex flex-col mb-3">
+          <a href="off" class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">OFF (Lost Media)</a>
+          <a href="" class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">Estatísticas</a>
+        </div>
     </div>
 
-    <div class="pagecontent container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
 
-        <div class="col categ-total">
-          <p><b class="flow-text">Total</b></p>
-          <p class="flow-text counter-total"></p>
-          <p class="flow-text counter-tempototal"></p>
+    <!-- Overlay -->
+    <div class="hidden fixed w-[100%] h-[100%] top-0 left-0 right-0 bottom-0 bg-gray-800 z-10 opacity-50 animate-opacity" onclick="sidebar_close()" id="sidebar_overlay"></div>
+
+    <div id="stats_page" class="tabcontent m-2">
+      <div class="stats_content_list p-2 grid grid-cols-2 gap-2">
+
+        <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="p-1 flex flex-col flex-auto gap-2 items-center">
+                <p><b class="text-center">Total</b></p>
+                <p class="text-center counter-total"></p>
+                <p class="text-center counter-tempototal"></p>
+            </div>
         </div>
 
-        <div class="col categ-jogos">
-          <p><b class="flow-text">Jogos</b></p>
-          <p><span class="flow-text counter-con"></span> e <span class="flow-text counter-jogo"></span></p>
-          <p class="flow-text counter-tempototaljogo"></p>
+        <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="p-1 flex flex-col flex-auto gap-2 items-center">
+                <p><b class="text-center">Jogos</b></p>
+                <p class="text-center"><span class="counter-con"></span> e <span class="counter-jogo"></span></p>
+                <p class="text-center counter-tempototaljogo"></p>
+            </div>
         </div>
 
-        <div class="col categ-episodios">
-          <p><b class="flow-text">Episódios</b></p>
-          <p class="flow-text counter-ep"></p>
-          <p class="flow-text counter-mediaep"></p>
+        <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="p-1 flex flex-col flex-auto gap-2 items-center">
+                <p><b class="text-center">Episódios</b></p>
+                <p class="text-center counter-ep"></p>
+                <p class="text-center counter-mediaep"></p>
+            </div>
         </div>
 
-        <div class="col categ-vods">
-          <p><b class="flow-text">VODs</b></p>
-          <p class="flow-text counter-vods"></p>
-          <p class="flow-text counter-mediavod"></p>
+        <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="p-1 flex flex-col flex-auto gap-2 items-center">
+                <p><b class="text-center">VODs</b></p>
+                <p class="text-center counter-vods"></p>
+                <p class="text-center counter-mediavod"></p>
+            </div>
         </div>
 
-        <div class="col categ-standalone">
-          <p><b class="flow-text">Independentes</b></p>
-          <p class="flow-text counter-standalone"></p>
-          <p class="flow-text counter-tempototalstandalone"></p>
+        <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="p-1 flex flex-col flex-auto gap-2 items-center">
+                <p><b class="text-center">Independentes</b></p>
+                <p class="text-center counter-standalone"></p>
+                <p class="text-center counter-tempototalstandalone"></p>
+            </div>
         </div>
 
-        <div class="col categ-outros">
-          <p><b class="flow-text">Outros</b></p>
-          <p class="flow-text counter-outros"></p>
-          <p class="flow-text counter-tempototaloutros"></p>
+        <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="p-1 flex flex-col flex-auto gap-2 items-center">
+                <p><b class="text-center">Outros</b></p>
+                <p class="text-center counter-outros"></p>
+                <p class="text-center counter-tempototaloutros"></p>
+            </div>
         </div>
         
       </div>
-  </div>
-  </body>
-</html>
+    </div>
+</body>

@@ -1,6 +1,6 @@
 function start() {
     resetarString();
-    setPesquisa();
+    //setPesquisa();
     carregarDados();
 }
 
@@ -36,21 +36,32 @@ function carregar_itens() {
         if(nome_processado.toLowerCase().includes(stringPesquisa.toLowerCase())) {
             if (fortnite_banido == "false" || (fortnite_banido == "true" && !nome_processado.toLowerCase().includes("fortnite"))) {
             let lost_duracao = gerar_timestamp(dados_off.lostmedia[i].duracao.horas,dados_off.lostmedia[i].duracao.minutos,dados_off.lostmedia[i].duracao.segundos);
-            document.querySelector("#jsonParent").innerHTML += `
-                <div class="col stand-item">
-                <a href="" class="blacklink">
-                    <div class="thumbnail">
-                        <img src="video/etc/lost/${lost_imagem}" alt="" class="img-fluid linkicon">
-                        <span class="video-length">${lost_duracao}</span>
+            document.querySelector(".videos_content_list").innerHTML += `
+                <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                    <div class="p-2 flex flex-col flex-auto gap-2 items-center">
+                        <div class="relative h-auto">
+                            <img src="video/etc/lost/${lost_imagem}" class="thumbnail w-auto h-auto aspect-video object-contain">
+                            <div class="z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                                <span class="px-1 text-white">${lost_duracao}</span>
+                            </div>
+                        </div>
+                        <b class="text-center">${lost_nome}</b>
                     </div>
-                    <span class="flow-text title">${lost_nome}</span></a><br>
-                    <a href="" class="blacklink"><span class="flow-text subtitle">${lost_data}</span></a>
+                    <div class="p-2 flex flex-col flex-1 gap-2 items-center">
+                        <p class="py-1 px-2 h-min w-fit m-auto">${lost_data}</p>
+                    </div>
                 </div>`;
+
+                document.querySelectorAll(".thumbnail").forEach(el => {
+                    el.onerror = function() {
+                        el.src = `assets/img/generic.jpg`;
+                    }
+                });
             }
         }
     }
 }
 
 function resetarJogos(){
-    document.querySelector("#jsonParent").innerHTML = "";
+    document.querySelector(".videos_content_list").innerHTML = "";
 }
