@@ -32,7 +32,7 @@
 
     <nav class="px-2 bg-gray-800 sticky top-0 w-[100%] text-white flex flex-row sm:flex-row items-center z-10 hidden navbar-search">
         <div class="tab w-[100%] flex flex-row">
-            <div class="m-1 w-full"><input class="rounded-sm cursor-text bg-inherit h-full w-full transition-all duration-150 border-1 border-white animate-abrir" type="text"></div>
+            <div class="m-1 w-full"><input class="p-1 rounded-sm cursor-text bg-inherit h-full w-full transition-all duration-150 border-1 border-white outline-0 animate-abrir focus:bg-gray-700" type="text"></div>
 
             <button class="tablinks cursor-pointer my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 float-right w-max hover:bg-gray-500" onclick="fechar_pesquisa()"><i class="fa fa-close"></i></button>
         </div>
@@ -44,9 +44,9 @@
             <button class="float-right w-max border-none block outline-none tablinks cursor-pointer m-2 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-black/20" onclick="w3_close()"><i class="fa fa-close"></i></button>
         </div>
         <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Consoles</span>
-        <a href="#" class="px-2 py-3 float-left w-auto border-none block outline-none hover:bg-black/20">Link 1</a>
-        <a href="#" class="px-2 py-3 float-left w-auto border-none block outline-none hover:bg-black/20">Link 2</a>
-        <a href="#" class="px-2 py-3 float-left w-auto border-none block outline-none hover:bg-black/20">Link 3</a>
+        <a href="#" class="px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20">Link 1</a>
+        <a href="#" class="px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20">Link 2</a>
+        <a href="#" class="px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20">Link 3</a>
     </div>
 
 
@@ -56,8 +56,14 @@
 <style>
     .animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:0.5}}
     .animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
-    .animate-abrir{animation:abrir 0.3s}@keyframes abrir {from {width: 0px;}to {width: 100%;}
-}
+    .animate-abrir{animation:abrir 0.3s}@keyframes abrir {from {width: 0px;}to {width: 100%;}}
+
+    .animate-sidebar-fechar{position:relative;animation:sidebaropen 0.4s;}@keyframes sidebaropen{from{right:0;opacity:1} to{right:-300px;opacity:0;}}
+
+    .tab-item.active {
+        font-weight: bold;
+        border-bottom: 0.125rem solid black;
+    }
 </style>
 
 <script>
@@ -65,11 +71,15 @@
 function w3_open() {
   document.querySelector("#mySidebar").classList.remove("hidden");
   document.querySelector("#myOverlay").classList.remove("hidden");
+
+  document.querySelector("#mySidebar").classList.remove("animate-sidebar-fechar");
 }
 
 function w3_close() {
-  document.querySelector("#mySidebar").classList.add("hidden");
   document.querySelector("#myOverlay").classList.add("hidden");
+
+  document.querySelector("#mySidebar").classList.add("animate-sidebar-fechar");
+  setTimeout(function(){ document.querySelector("#mySidebar").classList.add("hidden"); }, 300);
 }
 
 function abrir_pesquisa() {
@@ -82,6 +92,13 @@ function fechar_pesquisa() {
   document.querySelector(".navbar-search").classList.add("hidden");
 }
 </script>
+
+    <div class="flex flex-row gap-2 px-2 items-center h-[48px] bg-white">
+        <div class="flex-auto text-center tab-item cursor-pointer transition-all duration-150 border-b-[0.125rem] border-white hover:border-black active">Jogos</div>
+        <div class="flex-auto text-center tab-item cursor-pointer transition-all duration-150 border-b-[0.125rem] border-white hover:border-black">Vídeos Independentes</div>
+        <div class="flex-auto text-center tab-item cursor-pointer transition-all duration-150 border-b-[0.125rem] border-white hover:border-black">Outros</div>
+    </div>
+
     <div id="Visualizar" class="tabcontent m-2">
     <!--<div id="Visualizar" class="tabcontent m-2 sm:p-5 bg-white rounded-md shadow-md">-->
         <div class="content_list p-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 2xl:grid-cols-5 gap-2">
@@ -179,594 +196,5 @@ function fechar_pesquisa() {
                     <b class="text-center">playlist</b>
                 </div>
             </div>
-
-    <div id="Streaming" class="tabcontent rounded-md m-2 sm:p-5 bg-white shadow-md hidden">
-        <div class="p-2 w-[100%] flex flex-row-reverse gap-2">
-            <!--<button class="button switch_view_btn" onclick="switch_view()"><i class="fa fa-th"></i></button>-->
-            <div class="streaming_filter_dropdown_area md:relative inline-block">
-                <button class="button" onclick="switch_streaming_filter()"><i class="fa fa-filter"></i></button>
-                <div class="streaming_filter_dropdown absolute right-0 z-10 mt-2 w-[100%] md:w-112 origin-top-right divide-y divide-gray-300 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-hidden hidden">
-                    <div role="none" class="filters py-1">
-                        <a tabindex="-1" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-all duration-150 cursor-pointer" onclick="change_streaming_filter('tudo')">Tudo</a>
-                        <a tabindex="-1" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-all duration-150 cursor-pointer" onclick="change_streaming_filter('anime')">Anime</a>
-                        <a tabindex="-1" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-all duration-150 cursor-pointer" onclick="change_streaming_filter('manga')">Mangá</a>
-                        <a tabindex="-1" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-all duration-150 cursor-pointer" onclick="change_streaming_filter('novel')">Novel</a>
-                        <a tabindex="-1" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-all duration-150 cursor-pointer" onclick="change_streaming_filter('webnovel')">Web Novel</a>
-                        <a tabindex="-1" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-all duration-150 cursor-pointer" onclick="change_streaming_filter('jogo')">Jogo</a>
-                        <a tabindex="-1" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-all duration-150 cursor-pointer" onclick="change_streaming_filter('soseki')">Natsume Soseki</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="streaming_list p-2 grid grid-cols-1 gap-2">
-
-            <a class="streaming_item streaming_item_manga" href="https://magcomi.com/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-[100%]">
-                        <b>Magcomi</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Lançamentos</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiros capítulos grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Capítulos recentes grátis</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por pontos</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Capítulo alugado por pontos<br>
-                            Duração do aluguel: 2 dias</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://pocket.shonenmagazine.com/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-[100%]">
-                        <b>Shonen Magazine Pocket (Magapoke)</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Lançamentos</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Capítulos grátis</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por pontos</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por tickets</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Capítulo atual pago</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Capítulo comprado por pontos ou alugado por ticket<br>
-                            Duração do ticket: 3 dias</p>
-                            
-                            <p>Recarga dos tickets:<br>
-                            1 a cada 23h<br>
-                            3 por login diário</p>
-
-                            <p>Azul: grátis<br>
-                            Laranja: grátis com ticket, imediatamente acessível<br>
-                            Cinza: grátis com ticket, acessível somente em ordem (ou pagando)<br>
-                            Verde: pago com pontos</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://comic.k-manga.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-[100%]">
-                        <b>Manga Oukoku (K-Manga)</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiros volumes grátis temporariamente</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Previews</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Limitado a volumes</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Majoritariamente pago</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://www.cmoa.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-[100%]">
-                        <b>Cmoa</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiros volumes grátis temporariamente</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Previews</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Limitado a volumes</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Majoritariamente pago</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://getsumagakichi.com/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Getsumagakichi</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Lançamentos</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiro volume grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiros capítulos grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Penúltimo capítulo grátis (em lançamento)</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por pontos</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Pontos só por assinatura</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Capítulo comprado por pontos</p>
-
-                            <p>Pontos são obtidos apenas através da assinatura:<br>
-                            300 pontos no primeiro mês<br>
-                            200 pontos nos meses seguintes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://mechacomic.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Mecha Comic</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Lançamentos</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Vários capítulos grátis por tempo limitado</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por pontos</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Nenhum capítulo recente grátis</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Painéis recortados igual webcomic</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Capítulo comprado por pontos</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga streaming_item_novel" href="https://booklive.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Booklive</b>
-                        <br>
-                        <p>Mangá/Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiro volume, raramente 2 a 3 volumes, grátis temporariamente</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Preview</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Limitado a volumes</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Majoritariamente pago</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://www.sukima.me/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Sukima</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Nicho</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Antiguidades</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Muitas séries completamente grátis</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Censura (inconsistente)</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por tickets</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por pontos</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Capítulo comprado por moedas/pontos ou alugado por ticket<br>
-                            Duração do ticket: 3 dias</p>
-
-                            <p>Recarga dos tickets (diariamente):<br>
-                            1 de obra específica<br>
-                            3 gerais<br>
-                            1 a 3 no gacha</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://comicborder.com/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Comic Border</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Nicho</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por tempo</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Impossível de ler capítulos não grátis</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_novel" href="https://www.kadokawa.co.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Kadokawa</b>
-                        <br>
-                        <p>Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Preview</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Só preview</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_anime" href="https://abema.tv/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>ABEMA</b>
-                        <br>
-                        <p>Anime</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Lançamentos</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Muito conteúdo</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Episódios grátis temporariamente</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Precisa de VPN</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Precisa baixar o app</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_anime" href="https://www.nicovideo.jp/video_top" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Nico Nico Douga</b>
-                        <br>
-                        <p>Anime</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Qualquer um pode postar</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por tempo</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Precisa de VPN para alguns conteúdos</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Necessidade de VPN à escolha do usuário que fez o envio</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_anime" href="https://live.nicovideo.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Nico Nico Live</b>
-                        <br>
-                        <p>Anime</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Qualquer um pode postar</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por tempo</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Precisa de VPN para alguns conteúdos</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Nico Nico Namahousou precisa de VPN</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_anime" href="https://tver.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>TVer</b>
-                        <br>
-                        <p>Anime</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Lançamentos</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Precisa de VPN</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Precisa de login</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Precisa baixar o app</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a class="streaming_item streaming_item_novel" href="https://www.aozora.gr.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Aozora Bunko</b>
-                        <br>
-                        <p>Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Antiguidades</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Completamente grátis</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Site datado</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Download em formato proprietário de Ebook</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <object><a class="nota_link text-blue-500" href="https://archive.org/details/aozorabunko" target="_blank">Aozora Bunko no Internet Archive</a></object>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_jogo" href="https://www.dlsite.com/soft/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>DLsite</b>
-                        <br>
-                        <p>Jogo</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Itens grátis sem cartão de crédito</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Precisa de login</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Majoritariamente pago</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga streaming_item_novel" href="https://honto.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Honto</b>
-                        <br>
-                        <p>Mangá/Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiro volume, raramente 2 a 3 volumes, grátis temporariamente</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Preview</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Limitado a volumes</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Majoritariamente pago</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://championcross.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Champion Cross</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Lançamentos</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiros capítulos grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Antepenúltimo capítulo grátis (em lançamento)</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Capítulos extras grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Mais capítulos grátis com login</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por moedas</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Capítulo comprado por moedas</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_novel streaming_item_soseki" href="https://touda.tohoku.ac.jp/collection/en/database/library/collection/soseki" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Soseki Collection<br>Touhoku Daigaku Fuzoku Toshokan<br>(Biblioteca da Universidade de Tohoku)</b>
-                        <br>
-                        <p>Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Antiguidades</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Completamente grátis</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Metade das coisas não é japonês</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Só em fotos</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <object><a class="nota_link text-blue-500" href="https://www.library.tohoku.ac.jp/en/collections/soseki/index.html" target="_blank">Página inicial com mais informações sobre Natsume Soseki e sua coleção</a></object>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_novel streaming_item_soseki" href="https://sosekipoetry.org/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>The Sōseki Poetry Project</b>
-                        <br>
-                        <p>Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Antiguidades</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Completamente grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Além das traduções, textos originais em japonês disponíveis</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_novel streaming_item_soseki" href="https://www.sosekiproject.org/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Sōseki Project</b>
-                        <br>
-                        <p>Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Antiguidades</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Completamente grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Focado em estudantes de japonês (ferramentas de aprendizagem)</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Coleção muito pequena</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_novel streaming_item_soseki" href="https://www.kanabun.or.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Kanabun<br>Kanagawa Bungaku Shinkokai<br>(Museu da Literatura Moderna de Kanagawa)</b>
-                        <br>
-                        <p>Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Antiguidades</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Completamente grátis</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Só em fotos</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://ebookstore.sony.jp/free/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-[100%]">
-                        <b>Reader Store</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiros volumes grátis temporariamente</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Previews</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Limitado a volumes</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Majoritariamente pago</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_webnovel" href="https://yomou.syosetu.com/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Shosetsu wo Yomou!</b>
-                        <br>
-                        <p>Web Novel</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Completamente grátis</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <object><a class="nota_link text-blue-500" href="https://syosetu.com/" target="_blank">Shosetsuka ni Narou!</a></object>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_webnovel streaming_item_novel streaming_item_manga" href="https://www.alphapolis.co.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-fit md:w-[100%]">
-                        <b>Alphapolis</b>
-                        <br>
-                        <p>Web Novel/Novel/Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiros capítulos grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Capítulos recentes grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Previews</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Algumas séries pagas</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por pontos</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Alguns dos capítulos grátis precisam de login</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Capítulos alugáveis com pontos</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="streaming_item streaming_item_manga" href="https://takecomic.jp/" target="_blank">
-                <div class="p-1 rounded-md m-2 sm:p-5 shadow-md border border-gray-200 cursor-pointer transition-all duration-150 group hover:bg-gray-200">
-                    <div class="p-1 w-[100%]">
-                        <b>TakeComic</b>
-                        <br>
-                        <p>Mangá</p>
-                        <br>
-                        <p class="streaming_tags flex flex-col gap-2">
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Lançamentos</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Primeiros capítulos grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Capítulos recentes grátis</span>
-                            <span class="bg-item-pos rounded-md shadow-md py-1 px-2 h-min w-fit">Mais capítulos grátis com login</span>
-                            <span class="bg-item-neg rounded-md shadow-md py-1 px-2 h-min w-fit">Acesso limitado por moedas</span>
-                        </p>
-                        <br>
-                        <div class="streaming_notas flex flex-col gap-4 items-stretch">
-                            <p>Capítulo comprado por moedas</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
     </div>
 </body>
