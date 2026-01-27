@@ -191,7 +191,8 @@ function carregar_consoles_temas(modo,parametro) {
             
             //se estiver no modo console, verificar se é o console atual para nomear a página
             if(modo == "console" && console_sigla == parametro){
-                document.querySelector(".console-name").innerHTML = `<a href="">${console_nome}</a>`;
+                document.querySelector(".navbar-two").innerHTML = `${console_nome} (${console_sigla.toUpperCase()})`;
+                document.querySelector(".navbar-two-sigla").innerHTML = `${console_sigla.toUpperCase()}`;
                 document.title = `Arquivo - ${console_nome}`;
                 document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${console_nome}`);
             }
@@ -218,9 +219,23 @@ function carregar_consoles_temas(modo,parametro) {
 
                 //verificar se é o jogo atual para nomear a página
                 if(jogo_nome_curto == parametro){
-                    document.querySelector(".game-name").innerHTML = `<a href="">${jogo_nome}</a>`;
-                    if (modo == "outro") document.querySelector(".console-name").innerHTML = `<a href="https://arquivomsf.github.io/">Outros</a>`;
-                    else document.querySelector(".console-name").innerHTML = `<a href="console?id=${jogo_console_sigla}">${jogo_console_nome}</a>`;
+                    document.querySelector(".navbar-three").innerHTML = `${jogo_nome}`;
+                    document.querySelector(".navbar-three-mobile").innerHTML = `${jogo_nome}`;
+                    if (modo == "outro") {
+                        document.querySelector(".navbar-two").innerHTML = `Outros`;
+                        document.querySelector(".navbar-two").href = `https://arquivomsf.github.io/`;
+
+                        document.querySelector(".navbar-two-sigla").innerHTML = `Outros`;
+                        document.querySelector(".navbar-two-sigla").href = `https://arquivomsf.github.io/`;
+                    }
+                    //else document.querySelector(".navbar-two").innerHTML = `<a href="console?id=${jogo_console_sigla}">${jogo_console_nome}</a>`;
+                    else {
+                        document.querySelector(".navbar-two").innerHTML = `${jogo_console_nome}`;
+                        document.querySelector(".navbar-two").href = `console?id=${jogo_console_sigla}`;
+
+                        document.querySelector(".navbar-two-sigla").innerHTML = `${jogo_console_sigla.toUpperCase()}`;
+                        document.querySelector(".navbar-two-sigla").href = `console?id=${jogo_console_sigla}`;
+                    }
                     document.title = `Arquivo - ${jogo_nome}`;
                     document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${jogo_nome}`);
                 }

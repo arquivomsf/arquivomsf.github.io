@@ -57,13 +57,94 @@
   font-style: normal;
 }
 
-.animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:0.5}}
-.animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
-.animate-abrir{animation:abrir 0.3s}@keyframes abrir {from {width: 0px;}to {width: 100%;}}
+.animate-opacity {
+  animation:opac 0.8s
+}
+@keyframes opac{
+  from{opacity:0}
+  to{opacity:0.5}
+}
 
-.animate-sidebar-fechar{position:relative;animation:sidebaropen 0.4s;}@keyframes sidebaropen{from{right:0;opacity:1} to{right:-300px;opacity:0;}}
+.animate-right{
+  position:relative;
+  animation:animateright 0.4s
+}
+@keyframes animateright{
+  from{right:-300px;opacity:0}
+  to{right:0;opacity:1}
+}
+
+.animate-abrir{
+  animation:abrir 0.3s
+}
+@keyframes abrir {
+  from {width: 0px;}
+  to {width: 100%;}
+}
+
+.animate-sidebar-fechar{
+  position:relative;
+  animation:sidebaropen 0.4s;
+}
+@keyframes sidebaropen{
+  from{right:0;opacity:1}
+  to{right:-300px;opacity:0;}
+}
 
 .tab-item.active {
-    font-weight: bold;
-    border-bottom: 0.125rem solid black;
+  font-weight: bold;
+  border-bottom: 0.125rem solid black;
+}
+
+.btn-light {
+  background-color: inherit;
+  color: inherit;
+  padding: calc(0.25rem * 2);
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 150ms;
+}
+
+.btn-light:hover {
+  background-color: oklch(92.8% 0.006 264.531);
+}
+
+.btn-dark {
+  /*background-color: #212529;*/
+  background-color: oklch(27.8% 0.033 256.848);
+  color: white;
+  padding: calc(0.25rem * 2);
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 150ms;
+}
+
+.btn-dark:hover {
+  /*background-color: #424649;*/
+  background-color: oklch(55.1% 0.027 264.364);
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #dee2e6;
+  border-left-color: black;
+  border-right-color: black;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: calc(0.375rem - 1px);
+  border-top-right-radius: calc(0.375rem - 1px);
+  border-top-color: black;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+  border-bottom-left-radius: calc(0.375rem - 1px);
+  border-bottom-color: black;
 }
