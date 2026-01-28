@@ -33,7 +33,9 @@ function carregar_itens() {
             <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
-                        <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" class="w-auto h-[225px] aspect-video object-contain">
+                        <div class="w-auto h-[225px]">
+                            <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" class="h-[225px] object-contain">
+                        </div>
                     </div>
                     <b class="text-center">${jogo_nome}</b>
                 </a>

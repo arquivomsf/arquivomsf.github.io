@@ -3,10 +3,138 @@ body[data-tema="netruim"] {
   font-family: 'Times New Roman' !important;
   line-height: 1.5rem !important;
   transition: none !important;
+  background-color: white;
 }
 
-body[data-tema="netruim"] > .pagecontent > div > div > a > img {
+body[data-tema="netruim"] img {
   image-rendering: pixelated;
+}
+
+body[data-tema="netruim"] .tabcontent > div > div, body[data-tema="netruim"] .tabcontent > div > div > a {
+  background-color: inherit !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+body[data-tema="netruim"] .tabcontent > div > div > a {
+  color: revert !important;
+  text-decoration: revert !important;
+}
+
+body[data-tema="netruim"] .nav-link:not(select) {
+  color: revert !important;
+  text-decoration: revert !important;
+  background-color: inherit !important;
+}
+
+body[data-tema="netruim"] nav {
+  background-color: white !important;
+  color: black !important;
+}
+
+body[data-tema="netruim"] nav > div > div > div {
+  background-color: revert !important;
+  color: revert !important;
+  border: revert;
+  border-radius: revert;
+  box-shadow: revert;
+  text-decoration: revert;
+  transition: none !important;
+}
+
+body[data-tema="netruim"] nav > div > div > div > a, body[data-tema="netruim"] nav > div > button, body[data-tema="netruim"] #sidebar_main > div > button {
+  background-color: revert !important;
+  color: revert !important;
+  border: revert;
+  border-radius: revert;
+  box-shadow: revert;
+  text-decoration: revert;
+  padding: revert;
+  transition: none !important;
+}
+
+body[data-tema="netruim"] select {
+  background-color: revert !important;
+  color: black !important;
+  border: revert !important;
+  box-shadow: revert !important;
+}
+
+body[data-tema="netruim"] input {
+  background-color: revert !important;
+  color: black !important;
+  border: revert !important;
+  box-shadow: revert !important;
+  outline: revert !important;
+}
+
+body[data-tema="netruim"] .list-group, body[data-tema="netruim"] .list-group-item {
+  border: none !important;
+}
+
+body[data-tema="netruim"] .list-group-item::before {
+  content: "•";
+  margin-right: 5px;
+}
+
+body[data-tema="netruim"] .btn-dark {
+  background-color: revert !important;
+  color: revert !important;
+  text-decoration: revert !important;
+}
+
+body[data-tema="netruim"] i:not(.fa) {
+  font-style: normal;
+  &::before {
+    content: "[";
+  }
+  &::after {
+    content: "]";
+  }
+}
+
+body[data-tema="netruim"] i.fa-search::before {
+  content: "[search]";
+}
+
+body[data-tema="netruim"] i.fa-bars::before {
+  content: "[bars]";
+}
+
+body[data-tema="netruim"] i.fa-home::before, body[data-tema="netruim"] > .pagecontent > p > a > i.fa-home::before {
+  content: "[home]";
+}
+
+body[data-tema="netruim"] i.fa-file-video-o::before {
+  content: "[vid]";
+}
+
+body[data-tema="netruim"] i.fa-file-video-o {
+  margin-right: 19px !important;
+}
+
+body[data-tema="netruim"] i.fa-youtube-play::before {
+  content: "[yt]";
+}
+
+body[data-tema="netruim"] i.fa-youtube-play {
+  margin-right: 11px !important;
+}
+/*tem um caractere invisivel depois do \a*/
+body[data-tema="netruim"] i.fa-list::before {
+  content: "[list]\a𝅺";
+}
+
+body[data-tema="netruim"] i.fa-close::before {
+  content: "[close]";
+}
+
+body[data-tema="netruim"] i.fa-arrow-up::before {
+  content: "[arrow-up]";
+}
+
+body[data-tema="netruim"] i.fa-arrow-down::before {
+  content: "[arrow-down]";
 }
 
 body[data-tema="netruim"] > .pagecontent > div > div > a > div > img {

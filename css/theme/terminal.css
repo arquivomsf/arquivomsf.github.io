@@ -5,86 +5,32 @@ body[data-tema="terminal"] {
   color: white !important;
 }
 
-body[data-tema="terminal"] > .pagecontent > div > div > a > span.title {
-  color: white !important;
-  font-weight: bold !important;
+body[data-tema="terminal"] .bg-white {
+  background-color: inherit !important;
 }
 
-body[data-tema="terminal"] > .pagecontent > div > div > a > span.subtitle {
-  color: white !important;
-  font-size: 0.8rem !important;
-
-  background-color: black !important;
-  border: 1px solid white;
+body[data-tema="terminal"] .tab-link.active, body[data-tema="terminal"] .tab-link:focus, body[data-tema="terminal"] .tab-link:hover {
+  border-color: white !important;
 }
 
-body[data-tema="terminal"] > .navbar {
-  background-color: black !important;
+body[data-tema="terminal"] .tab-link:not(.active):not(:focus):not(:hover) {
+  border-color: black !important;
 }
 
-body[data-tema="terminal"] > .navbar > center > div > span.page-name {
-  color: white !important;
-  font-weight: bold !important;
-}
-
-body[data-tema="terminal"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
-  color: white !important;
-}
-
-body[data-tema="terminal"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
-  font-weight: bold !important;
-}
-
-body[data-tema="terminal"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
-  font-weight: normal !important;
-}
-
-body[data-tema="terminal"] > .navbar > center > div > button {
+body[data-tema="terminal"] nav {
   background-color: black !important;
 }
 
-body[data-tema="terminal"] > .navbar > div > div > button:not(.btn-close) {
-  background-color: black !important;
+body[data-tema="terminal"] .list-group, body[data-tema="terminal"] .list-group-item {
+  border: none !important;
 }
 
-body[data-tema="terminal"] > .navbar > center > div > a.home-icon > button {
-  background-color: black !important;
-}
-
-body[data-tema="terminal"] > .pagecontent > p > a.btn-dark {
-  background-color: black !important;
-  color: white !important;
-}
-
-body[data-tema="terminal"] > .navbar > div > div > div > input {
-  background-color: black !important;
-}
-
-body[data-tema="terminal"] > .navbar > .offcanvas {
-  background-color: black !important;
-}
-
-body[data-tema="terminal"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
-  background-color: black !important;
-}
-
-body[data-tema="terminal"] > .pagecontent > .card, body[data-tema="terminal"] > .pagecontent > .card > ul, body[data-tema="terminal"] > .pagecontent > .card > ul > li {
-  border: 0 !important;
-  border-radius: 0 !important;
-  background-color: black !important;
-  color: white !important;
-}
-
-body[data-tema="terminal"] > .pagecontent > .card > ul > li {
-  padding-left: 0 !important;
-}
-
-body[data-tema="terminal"] > .pagecontent > .card > ul > li::before {
+body[data-tema="terminal"] .list-group-item::before {
   content: ">";
   margin-right: 5px;
 }
 
-body[data-tema="terminal"] > .pagecontent > p > i:not(.fa) {
+body[data-tema="terminal"] i:not(.fa) {
   font-style: normal;
   &::before {
     content: "[";
@@ -94,6 +40,7 @@ body[data-tema="terminal"] > .pagecontent > p > i:not(.fa) {
   }
 }
 
-body[data-tema="terminal"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link.active {
-  color: white !important;
+body[data-tema="terminal"] .btn-dark {
+  background-color: inherit !important;
+  border: 1px solid white !important;
 }

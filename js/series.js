@@ -36,7 +36,7 @@ function carregar_itens() {
             <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${video_plataforma}&id=${i}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                 <div class="relative h-auto">
                     <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                    <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
                         <span class="px-1 text-white"><i class="fa fa-fw fa-file-video-o"></i>${video_duracao}</span>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ function carregar_itens() {
             <a href="${video_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                 <div class="relative h-auto">
                     <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                    <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
                         <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${video_duracao}</span>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ function carregar_itens() {
           <a href="${playlist_link}" class="p-1 flex flex-col flex-auto gap-2 items-center">
               <div class="relative h-auto">
                   <img src="${serie_path}/1.${playlist_imagem}" class="w-auto h-auto aspect-video object-contain">
-                  <div class="z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
+                  <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
                       <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw fa-list"></i>${playlist_quantidade}</span>
                   </div>
               </div>
@@ -95,7 +95,7 @@ function carregar_itens() {
             <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${extra_plataforma}&extra=true&id=${extra_id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                 <div class="relative h-auto">
                     <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                    <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
                         <span class="px-1 text-white"><i class="fa fa-fw fa-file-video-o"></i>${extra_duracao}</span>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ function carregar_itens() {
             <a href="${extra_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                 <div class="relative h-auto">
                     <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                    <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
                         <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${extra_duracao}</span>
                     </div>
                 </div>

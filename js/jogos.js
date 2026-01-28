@@ -24,7 +24,7 @@ function carregar_itens() {
             <a href="serie?con=${consoleAtual}&jogo=${jogoAtual}&serie=episodios" class="p-1 flex flex-col flex-auto gap-2 items-center">
                 <div class="relative h-auto">
                     <img src="video/${consoleAtual}/${jogoAtual}/episodios/${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
+                    <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
                         <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw fa-list"></i>${serie_quantidade}</span>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ function carregar_itens() {
             <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                 <div class="relative h-auto">
                     <img src="video/${consoleAtual}/${jogoAtual}/vodsoficiais.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
+                    <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
                         <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw fa-list"></i>${serie_quantidade}</span>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ function carregar_itens() {
             <a href="serie?con=${consoleAtual}&jogo=${jogoAtual}&serie=vods" class="p-1 flex flex-col flex-auto gap-2 items-center">
                 <div class="relative h-auto">
                     <img src="video/${consoleAtual}/${jogoAtual}/vods/${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
+                    <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
                         <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw fa-list"></i>${serie_quantidade}</span>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ function carregar_itens() {
           <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center">
               <div class="relative h-auto">
                   <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
-                  <div class="z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                  <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
                       <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${serie_duracao}</span>
                   </div>
               </div>

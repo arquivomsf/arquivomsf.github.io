@@ -282,6 +282,8 @@ function sidebar_open() {
   document.querySelector("#sidebar_overlay").classList.remove("hidden");
 
   document.querySelector("#sidebar_main").classList.remove("animate-sidebar-fechar");
+
+  document.body.style.overflow = "hidden";
 }
 
 function sidebar_close() {
@@ -289,6 +291,8 @@ function sidebar_close() {
 
   document.querySelector("#sidebar_main").classList.add("animate-sidebar-fechar");
   setTimeout(function(){ document.querySelector("#sidebar_main").classList.add("hidden"); }, 300);
+
+  document.body.style.overflow = "auto";
 }
 
 function get_console_name(sigla) {

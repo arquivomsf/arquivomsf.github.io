@@ -23,7 +23,9 @@ function carregar_itens() {
             document.querySelector(".jogos_content_list").innerHTML += `
                 <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
                     <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                        <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" class="w-auto h-[225px] aspect-video object-contain">
+                        <div class="w-auto h-[225px]">
+                            <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" class="h-[225px] object-contain">
+                        </div>
                         <b class="text-center">${jogo_nome}</b>
                     </a>
                     <a href="console?id=${jogo_console_sigla}" class="p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
@@ -52,7 +54,7 @@ function carregar_itens() {
                         <a href="embed?con=${standalone_console_sigla}&jogo=${standalone_nome_curto}&fonte=${standalone_plataforma}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                             <div class="relative h-auto">
                                 <img src="video/${standalone_console_sigla}/${standalone_imagem}" class="w-auto h-auto aspect-video object-contain">
-                                <div class="z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                                <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
                                     <span class="px-1 text-white"><i class="fa fa-fw fa-file-video-o"></i>${standalone_duracao}</span>
                                 </div>
                             </div>
@@ -65,7 +67,7 @@ function carregar_itens() {
                         <a href="${standalone_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                             <div class="relative h-auto">
                                 <img src="video/${standalone_console_sigla}/${standalone_imagem}" class="w-auto h-auto aspect-video object-contain">
-                                <div class="z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                                <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
                                     <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${standalone_duracao}</span>
                                 </div>
                             </div>
