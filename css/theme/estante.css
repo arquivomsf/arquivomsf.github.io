@@ -7,181 +7,150 @@ body[data-tema="estante"] {
   font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", Garamond, serif !important;
 }
 
-body[data-tema="estante"] > .pagecontent > div > div > a > span.title {
-  color: white !important;
-  font-weight: bold !important;
-}
-
-body[data-tema="estante"] > .pagecontent > div > div > a > span.subtitle {
-  color: white !important;
-  font-size: 0.8rem !important;
-
-  background-color: sienna;
-}
-
-body[data-tema="estante"] > .navbar {
+body[data-tema="estante"] nav, body[data-tema="estante"] .tabs-navbar {
   background-image: var(--background-wood93);
   border-bottom: 5px solid sienna;
 }
 
-body[data-tema="estante"] > .navbar > center > div > span.page-name {
-  color: white !important;
-  font-weight: bold !important;
+body[data-tema="estante"] nav > div > div > div > a:hover, body[data-tema="estante"] nav > div > div > div > a:focus {
+  background-color: rgba(0,0,0,.2) !important;
 }
 
-body[data-tema="estante"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
-  color: white !important;
+body[data-tema="estante"] .tab-link.active, body[data-tema="estante"] .tab-link:focus, body[data-tema="estante"] .tab-link:hover {
+  border-color: white !important;
 }
 
-body[data-tema="estante"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
-  font-weight: bold !important;
+body[data-tema="estante"] .tab-link:not(.active):not(:focus):not(:hover) {
+  border-color: transparent !important;
 }
 
-body[data-tema="estante"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
-  font-weight: normal !important;
-}
-
-body[data-tema="estante"] > .navbar > center > div > button {
-  background-image: none;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-body[data-tema="estante"] > .navbar > div > div > button:not(.btn-close) {
-  background-image: none;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-body[data-tema="estante"] > .navbar > center > div > a.home-icon > button {
-  background-image: none;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-body[data-tema="estante"] > .pagecontent > p > a.btn-dark {
-  color: white;
-  background-image: var(--background-wood93);
-  border-color: sienna;
-  border-radius: 0;
-}
-
-body[data-tema="estante"] > .pagecontent > p > a.btn-dark:hover {
-  color: black;
-}
-
-body[data-tema="estante"] > .navbar > div > div > div > input {
-  background-image: none;
-  background-color: transparent;
-  border-color: sienna;
-}
-
-body[data-tema="estante"] > .navbar > div > div > div > input:focus {
-  background-image: none !important;
+body[data-tema="estante"] input:not(:focus) {
   background-color: transparent !important;
 }
 
-body[data-tema="estante"] > .navbar > .offcanvas {
+body[data-tema="estante"] input:focus {
+  background-color: rgba(0,0,0,.2) !important;
+}
+
+body[data-tema="estante"] #sidebar_main {
   background-image: var(--background-wood4);
 }
 
-body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
-  background-color: transparent !important;
-}
-
-body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul.navbar-nav {
+body[data-tema="estante"] .console_list, body[data-tema="estante"] .maislinks_list {
   background-image: var(--background-wood93);
   border: 5px solid sienna;
-  padding-right: 0 !important;
 }
 
-body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul.navbar-nav > .nav-item {
-  padding: 0 1rem 0 1rem;
-}
-
-body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul.navbar-nav > .nav-item+.nav-item {
+body[data-tema="estante"] .console_list > a+a, body[data-tema="estante"] .maislinks_list > a+a {
   border-top: 5px solid sienna;
 }
 
-body[data-tema="estante"] > .navbar > .offcanvas > .offcanvas-body > ul.navbar-nav > .nav-item > select {
-  border: 0px solid transparent;
-  padding-left: 0 !important;
-}
-
-body[data-tema="estante"] > .pagecontent > .card, body[data-tema="estante"] > .pagecontent > .card > ul, body[data-tema="estante"] > .pagecontent > .card > ul > li {
-  border-color: sienna  !important;
-  background-color: transparent !important;
-  color: white !important;
-}
-
-body[data-tema="estante"] > .pagecontent > .card > ul > li {
-  padding-left: 0 !important;
-  border-width: 5px;
-}
-
-body[data-tema="estante"] > .pagecontent > .card > ul {
+body[data-tema="estante"] select {
   background-image: var(--background-wood93);
+  border: 5px solid sienna;
 }
 
-body[data-tema="estante"] > .pagecontent > .card > ul > .list-group-item:first-child {
-  border-top-width: 5px;
+body[data-tema="estante"] .tabcontent > div {
+  column-gap: 0 !important;
+  row-gap: 2rem !important;
 }
 
-body[data-tema="estante"] > .pagecontent > .card > ul > .list-group-item+.list-group-item {
-  border-top-width: 0;
-}
-
-body[data-tema="estante"] > .pagecontent > .row > .col {
+body[data-tema="estante"] .tabcontent > div > div {
   background-image: var(--background-wood93);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-left: 5px solid sienna;
+  border-right: 5px solid sienna;
+  border-radius: 0 !important;
   border-top: 5px solid sienna;
   border-bottom: 5px solid sienna;
 }
 
-body[data-tema="estante"] > .pagecontent > .row > .col {
-  border-left: 5px solid sienna;
-  border-right: 5px solid sienna;
-}
-
-@media only screen and (min-width: 576px) {
-  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(2n+1) {
+@media only screen and (min-width: 640px) {
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(2n+1) {
     border-left: 5px solid sienna;
     border-right: none;
   }
   
-  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(2n+2) {
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(2n+2) {
     border-left: none;
     border-right: 5px solid sienna;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+1) {
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(4n+1) {
     border-left: 5px solid sienna;
     border-right: none;
   }
 
-  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+2) {
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(4n+2) {
     border-left: none;
     border-right: none;
   }
 
-  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+3) {
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(4n+3) {
     border-left: none;
     border-right: none;
   }
   
-  body[data-tema="estante"] > .pagecontent > .row > .col:nth-child(4n+4) {
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(4n+4) {
     border-left: none;
     border-right: 5px solid sienna;
   }
 }
 
-body[data-tema="estante"] > .pagecontent > .row > .col:last-child {
+@media only screen and (min-width: 1536px) {
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(5n+1) {
+    border-left: 5px solid sienna;
+    border-right: none;
+  }
+
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(5n+2) {
+    border-left: none;
+    border-right: none;
+  }
+
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(5n+3) {
+    border-left: none;
+    border-right: none;
+  }
+
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(5n+4) {
+    border-left: none;
+    border-right: none;
+  }
+  
+  body[data-tema="estante"] .tabcontent > div > div:nth-child(5n+5) {
+    border-left: none;
+    border-right: 5px solid sienna;
+  }
+}
+
+body[data-tema="estante"] .tabcontent > div > div:last-child {
   border-right: 5px solid sienna;
 }
 
-body[data-tema="estante"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link.active {
-  color: white !important;
+body[data-tema="estante"] .tabcontent > .embed_content_list {
+  gap: 0.5rem !important;
+}
+
+body[data-tema="estante"] .tabcontent > .embed_content_list > div {
+  border: 5px solid sienna !important;
+}
+
+body[data-tema="estante"] .tabcontent > .stats_content_list > div:nth-child(2n+1) {
+  border-left: 5px solid sienna;
+  border-right: none;
+}
+
+body[data-tema="estante"] .tabcontent > .stats_content_list > div:nth-child(2n+2) {
+  border-left: none;
+  border-right: 5px solid sienna;
+}
+
+body[data-tema="estante"] .tabcontent > .stats_content_list > div:last-child {
+  border-right: 5px solid sienna;
+}
+
+body[data-tema="estante"] .list-group-item {
+  border-color: white !important;
 }
