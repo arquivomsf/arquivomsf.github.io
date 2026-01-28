@@ -13,5 +13,17 @@
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsUstehARxjwSQFzAjS5TZh",
             "quantidade": "11"
         }
+    ],
+    "analise": [
+        {
+            "nome": "Castlevania: Symphony of the Night de PlayStation 1 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/DgvWp2nR_fk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 14,
+                "segundos": 53
+            }
+        }
     ]
 }
