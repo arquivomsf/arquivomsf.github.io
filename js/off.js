@@ -1,6 +1,5 @@
 function start() {
     resetarString();
-    //setPesquisa();
     carregarDados();
 }
 
@@ -28,12 +27,12 @@ function carregar_itens() {
         let lost_imagem = dados_off.lostmedia[i].imagem;
         let lost_tags = dados_off.lostmedia[i].tags;
         let lost_data = dados_off.lostmedia[i].data;
-        let nome_processado = pesquisa_processar_texto(lost_tags);
+        let nome_processado = pesquisa_processar_string(lost_tags);
 
         lost_imagem = lost_imagem.replaceAll(/[\|]/g,"_");
         lost_imagem = lost_imagem.replaceAll(/[\?]/g,"_");
         
-        if(nome_processado.toLowerCase().includes(stringPesquisa.toLowerCase())) {
+        if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
             if (fortnite_banido == "false" || (fortnite_banido == "true" && !nome_processado.toLowerCase().includes("fortnite"))) {
             let lost_duracao = gerar_timestamp(dados_off.lostmedia[i].duracao.horas,dados_off.lostmedia[i].duracao.minutos,dados_off.lostmedia[i].duracao.segundos);
             document.querySelector(".videos_content_list").innerHTML += `
