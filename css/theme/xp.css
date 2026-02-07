@@ -184,6 +184,8 @@ body[data-tema="xp"] nav > div > div > div > a {
 
 body[data-tema="xp"] nav > div > div:has(a):not(:has(div > a)) {
   margin-top: 0.75rem;
+
+  font-weight: bold !important;
 }
 
 body[data-tema="xp"] nav > div > div > div > .navbar-divider {

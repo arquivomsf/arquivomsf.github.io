@@ -155,6 +155,8 @@ body[data-tema="98"] nav > div > div > div > a {
 
 body[data-tema="98"] nav > div > div:has(a):not(:has(div > a)) {
   margin-top: 0.75rem;
+
+  font-weight: bold !important;
 }
 
 body[data-tema="98"] nav > div > div > div > .navbar-divider {
