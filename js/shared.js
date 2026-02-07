@@ -68,11 +68,18 @@ async function fetch_dados(tipo,file) {
 
 
 //pesquisa
-var stringPesquisa = "";
+//var stringPesquisa = "";
+var pesquisa_array = [];
 var pesquisando = 0;
 
 function pesquisarJogo() {
-    stringPesquisa = pesquisa_processar_texto(document.querySelector("#inputPesquisa").value);
+    //stringPesquisa = pesquisa_processar_texto(document.querySelector("#inputPesquisa").value);
+    pesquisa_array = pesquisa_processar_array(document.querySelector("#inputPesquisa").value);
+    //stringPesquisa = pesquisa_processar_string(document.querySelector("#inputPesquisa").value);
+    //console.log(pesquisa_processar_array(document.querySelector("#inputPesquisa").value));
+
+    //console.log(arr.some(v=> haystack.indexOf(v) >= 0))
+
     resetarJogos();
     carregar_itens();
 }
@@ -83,6 +90,23 @@ if (!pesquisando == 0) {
         carregar_itens();
     }, 100);
 }
+
+/*
+function fuzzy_search(items, key) {
+    return function(query) {
+        var words  = query.toLowerCase().split(' ');
+
+        return items.filter(function(item) {
+            var normalizedTerm = item[key].toLowerCase();
+
+            return words.every(function(word) {
+                return (normalizedTerm.indexOf(word) > -1);
+            });
+        });
+  };
+}
+*/
+
 /*
 function setPesquisa() {
     if (pesquisando == 0) {
@@ -126,7 +150,17 @@ function changePesquisa(on_off) {
         //abrir_pesquisa();
         return
     }
+    /*
     if (!stringPesquisa == "" && on_off == "off") {
+        pesquisando = 0;
+        resetarString();
+        resetarJogos();
+        carregar_itens();
+        //setPesquisa();
+        //fechar_pesquisa();
+    }
+    */
+    if (!pesquisa_array == "" && on_off == "off") {
         pesquisando = 0;
         resetarString();
         resetarJogos();
@@ -137,7 +171,14 @@ function changePesquisa(on_off) {
 }
 
 function checarStringVazia() {
+    /*
     if (stringPesquisa == "" && !pesquisando == 0) {
+        pesquisando = 0;
+        //setPesquisa();
+        fechar_pesquisa();
+    }
+    */
+    if (pesquisa_array == "" && !pesquisando == 0) {
         pesquisando = 0;
         //setPesquisa();
         fechar_pesquisa();
@@ -146,7 +187,8 @@ function checarStringVazia() {
 
 function resetarString() {
     document.querySelector("#inputPesquisa").value = "";
-    stringPesquisa = "";
+    //stringPesquisa = "";
+    pesquisa_array = [];
 }
 
 //gerar string de timestamp
@@ -262,9 +304,50 @@ function setTab(cur_el,selected_tab) {
 }
 
 //processar texto para ser um pouquinho mais considerativo na digitação
+/*
 function pesquisa_processar_texto(texto_original) {
     let texto_processado;
     texto_processado = texto_original.replaceAll(/\s/g, "");
+    texto_processado = texto_processado.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
+    texto_processado = texto_processado.replaceAll(/[áàâãÁÀÂÃ]/g,"a");
+    texto_processado = texto_processado.replaceAll(/[íïÍÏ]/g,"i");
+    texto_processado = texto_processado.replaceAll(/[éèêÉÈ]/g,"e");
+    texto_processado = texto_processado.replaceAll(/[ñÑ]/g,"n");
+    texto_processado = texto_processado.replaceAll(/[óôõöÓÔÕÖ]/g,"o");
+    texto_processado = texto_processado.replaceAll(/[Ç]/g,"c");
+    texto_processado = texto_processado.replaceAll(/[úÚ]/g,"u");
+    
+    return texto_processado;
+}
+*/
+
+function pesquisa_processar_array(texto_original) {
+    let texto_processado;
+    texto_processado = texto_original.toLowerCase().split(" ");
+
+    //console.log(texto_original)
+    //console.log(texto_processado)
+
+    for (var i = 0; i<texto_processado.length; i++) {
+        texto_processado[i] = texto_processado[i].replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
+        texto_processado[i] = texto_processado[i].replaceAll(/[áàâãÁÀÂÃ]/g,"a");
+        texto_processado[i] = texto_processado[i].replaceAll(/[íïÍÏ]/g,"i");
+        texto_processado[i] = texto_processado[i].replaceAll(/[éèêÉÈ]/g,"e");
+        texto_processado[i] = texto_processado[i].replaceAll(/[ñÑ]/g,"n");
+        texto_processado[i] = texto_processado[i].replaceAll(/[óôõöÓÔÕÖ]/g,"o");
+        texto_processado[i] = texto_processado[i].replaceAll(/[Ç]/g,"c");
+        texto_processado[i] = texto_processado[i].replaceAll(/[úÚ]/g,"u");
+
+        texto_processado = texto_processado.filter(item => item !== "")
+    }
+    
+    return texto_processado;
+}
+
+function pesquisa_processar_string(texto_original) {
+    let texto_processado;
+    texto_processado = texto_original.toLowerCase();
+    texto_processado = texto_processado.replaceAll(/\s/g, "");
     texto_processado = texto_processado.replaceAll(/[^A-Za-z0-9áàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/g,"");
     texto_processado = texto_processado.replaceAll(/[áàâãÁÀÂÃ]/g,"a");
     texto_processado = texto_processado.replaceAll(/[íïÍÏ]/g,"i");

@@ -25,9 +25,11 @@ function carregar_itens() {
     let jogo_tags = dados_geral.jogos[i].tags;
     let jogo_console_sigla = dados_geral.jogos[i].consigla;
     let jogo_nome_curto = dados_geral.jogos[i].curto;
-    let nome_processado = pesquisa_processar_texto(jogo_tags);
+    //let nome_processado = pesquisa_processar_texto(jogo_tags);
+    let nome_processado = pesquisa_processar_string(jogo_tags);
     
-    if(nome_processado.toLowerCase().includes(stringPesquisa.toLowerCase())) {
+    //if(nome_processado.toLowerCase().includes(stringPesquisa.toLowerCase())) {
+    if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
       if(jogo_console_sigla == consoleAtual){
         document.querySelector(".jogos_content_list").innerHTML += `
             <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
