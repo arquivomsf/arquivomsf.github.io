@@ -46,7 +46,7 @@ function carregar_itens() {
       } else if (video_plataforma == "youtube") {
           document.querySelector(".ep_content_list").innerHTML += `
           <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="${video_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <a href="${video_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
                 <div class="relative h-auto">
                     <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
                     <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
@@ -68,7 +68,7 @@ function carregar_itens() {
     let playlist_quantidade = dados_serie.playlist[0].quantidade;
     document.querySelector(".extras_content_list").innerHTML += `
       <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-          <a href="${playlist_link}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+          <a href="${playlist_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
               <div class="relative h-auto">
                   <img src="${serie_path}/1.${playlist_imagem}" class="w-auto h-auto aspect-video object-contain">
                   <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
@@ -105,7 +105,7 @@ function carregar_itens() {
       } else if (extra_plataforma == "youtube") {
         document.querySelector(".extras_content_list").innerHTML += `
           <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="${extra_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <a href="${extra_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
                 <div class="relative h-auto">
                     <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
                     <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
@@ -127,7 +127,7 @@ function carregar_itens() {
     let serie_duracao = gerar_timestamp(dados_serie.analise[0].duracao.horas,dados_serie.analise[0].duracao.minutos,dados_serie.analise[0].duracao.segundos);
     document.querySelector(".extras_content_list").innerHTML += `
       <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-          <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+          <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
               <div class="relative h-auto">
                   <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                   <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">

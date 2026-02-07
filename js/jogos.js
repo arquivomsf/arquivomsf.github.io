@@ -40,7 +40,7 @@ function carregar_itens() {
     let serie_quantidade = dados_jogo.vodsoficiais[0].quantidade;
     document.querySelector(".series_content_list").innerHTML += `
         <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
                 <div class="relative h-auto">
                     <img src="video/${consoleAtual}/${jogoAtual}/vodsoficiais.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                     <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
@@ -77,7 +77,7 @@ function carregar_itens() {
     let serie_duracao = gerar_timestamp(dados_jogo.analise[0].duracao.horas,dados_jogo.analise[0].duracao.minutos,dados_jogo.analise[0].duracao.segundos);
     document.querySelector(".series_content_list").innerHTML += `
       <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-          <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+          <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
               <div class="relative h-auto">
                   <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                   <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
