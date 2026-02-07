@@ -1,7 +1,6 @@
 function start() {
     setTab("",'jogos_page');
     resetarString();
-    //setPesquisa();
     carregarDados();
 }
 
@@ -17,24 +16,9 @@ function carregar_itens() {
         let jogo_console_nome = get_console_name(jogo_console_sigla);
         let jogo_nome_curto = dados_geral.jogos[i].curto;
         let jogo_tags = dados_geral.jogos[i].tags;
-        //let nome_processado = pesquisa_processar_texto(jogo_tags);
         let nome_processado = pesquisa_processar_string(jogo_tags);
 
-        //console.log(nome_processado);
-
-        //console.log(pesquisa_array.some(v=> nome_processado.indexOf(v) >= 0))
-
-        //console.log(nome_processado)
-
-        //console.log(pesquisa_array+" "+jogo_nome_curto+" indexOf "+pesquisa_array.every(v=> nome_processado.indexOf(v) >= 0))
-        //console.log(pesquisa_array+" "+jogo_nome_curto+" includes "+pesquisa_array.every(v=> nome_processado.includes(v) >= 0))
-        //console.log(pesquisa_array+" "+jogo_nome_curto+" search "+pesquisa_array.every(v=> pesquisa_processar_string(jogo_tags).search(v) >= 0))
-
-        //if(nome_processado.toLowerCase().includes(stringPesquisa.toLowerCase())) {
-        //if(pesquisa_array.every(v=> nome_processado.indexOf(v) >= 0) || pesquisa_array == "") {
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
-            //console.log(pesquisa_array)
-            //console.log(nome_processado)
             document.querySelector(".jogos_content_list").innerHTML += `
                 <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
                     <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
@@ -57,14 +41,9 @@ function carregar_itens() {
         let standalone_console_sigla = dados_geral.standalone[i].consigla;
         let standalone_nome_curto = dados_geral.standalone[i].curto;
         let standalone_tags = dados_geral.standalone[i].tags;
-        //let nome_processado = pesquisa_processar_texto(standalone_tags);
         let nome_processado = pesquisa_processar_string(standalone_tags);
-        
-        //if(nome_processado.toLowerCase().includes(stringPesquisa.toLowerCase())) {
-        //if(pesquisa_array.every(v=> nome_processado.indexOf(v) >= 0) || pesquisa_array == "") {
+
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
-            //console.log(pesquisa_array)
-            //console.log(nome_processado)
             let standalone_duracao = gerar_timestamp(dados_geral.standalone[i].duracao.horas,dados_geral.standalone[i].duracao.minutos,dados_geral.standalone[i].duracao.segundos);
             let standalone_plataforma = dados_geral.standalone[i].plataforma;
             let standalone_link_youtube = dados_geral.standalone[i].linkyt;
@@ -104,14 +83,9 @@ function carregar_itens() {
         let outros_console_sigla = dados_geral.outros[i].consigla;
         let outros_nome_curto = dados_geral.outros[i].curto;
         let outros_tags = dados_geral.outros[i].tags;
-        //let nome_processado = pesquisa_processar_texto(outros_tags);
         let nome_processado = pesquisa_processar_string(outros_tags);
 
-        //if(nome_processado.toLowerCase().includes(stringPesquisa.toLowerCase())) {
-        //if(pesquisa_array.every(v=> nome_processado.indexOf(v) >= 0) || pesquisa_array == "") {
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
-            //console.log(pesquisa_array)
-            //console.log(nome_processado)
             document.querySelector(".outros_content_list").innerHTML += `
                 <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <a href="serie?con=${outros_console_sigla}&jogo=${outros_nome_curto}" class="p-1 flex flex-col flex-auto gap-2 items-center">
