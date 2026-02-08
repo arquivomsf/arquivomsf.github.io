@@ -7,135 +7,205 @@ body[data-tema="geo"] {
     background-attachment: fixed;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas {
+body[data-tema="geo"] #sidebar_main {
     background-image: url("../../assets/img/aquagalaxy_small.gif");
     background-repeat: repeat;
     background-attachment: fixed;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:not(:nth-of-type(2)) {
+body[data-tema="geo"] .tabcontent {
+    width: 90%;
+
     background-color: white;
     padding: 10px 5% 20px 5%;
     outline-color: silver;
     outline-style: ridge;
 
-    /*margin-top: 20px;
-    margin-bottom: 20px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:nth-of-type(2) {
-    padding: 0 !important;
+body[data-tema="geo"] .tabcontent > div > div {
+    background-color: white;
+    outline-color: silver;
+    outline-style: ridge;
+
+    border-radius: 0;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:not(:nth-of-type(2)) > li > a {
+body[data-tema="geo"] .tabcontent > div > div > *:nth-child(1) {
+    background-color: inherit;
+    border-bottom: none !important;
+}
+
+body[data-tema="geo"] .tabcontent > div > div > a:nth-child(1) {
     color: Navy !important;
     font-weight: bold !important;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul:not(:nth-of-type(2)) > li > a:hover {
+body[data-tema="geo"] .tabcontent > div > div > a:nth-child(1):hover {
     text-decoration: underline;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
+body[data-tema="geo"] .tabcontent > div > div > *:nth-child(2) {
+    margin: 5px !important;
+
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+
+    border-radius: 5px;
+}
+
+body[data-tema="geo"] .video-duracao {
+  font-weight: normal;
+}
+
+body[data-tema="geo"] nav, body[data-tema="geo"] .tabs-navbar {
+    background-color: Navy !important;
+}
+
+body[data-tema="geo"] nav > div > div > div > a:not(.navbar-home) {
+    color: Aqua !important;
+
+    font-weight: normal !important;
+
+    background-color: transparent !important;
+}
+
+body[data-tema="geo"] nav > div > div > div > a:not(.navbar-home):hover {
+    text-decoration: underline;
+}
+
+body[data-tema="geo"] nav > div > div > div > a.navbar-home {
+    background-image: url("../../assets/img/buttons/anihome112g.gif");
+    background-repeat: no-repeat;
+    width: 88px;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+body[data-tema="geo"] nav > div > div > div > a.navbar-home > i::before {
+    content: "";
+}
+
+body[data-tema="geo"] .search-btn > i::before {
+    content: "Pesquisar";
+}
+
+body[data-tema="geo"] nav > div > div > div:not(:has(a)):not(:has(.navbar-divider)), body[data-tema="geo"] nav > div > button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+body[data-tema="geo"] input {
     color: black !important;
     background-color: white !important;
     border: 1px solid silver !important;
     border-radius: 4px !important;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li + li {
-    margin-top: 10px;
+body[data-tema="geo"] .tabs-navbar {
+  align-content: start !important;
+  justify-content: start !important;
+
+  border-bottom: 1px solid black;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li:has(a[href="console?id=nes"]) {
-    background-image: url("../../assets/img/buttons/nes.gif");
+body[data-tema="geo"] .tabs-navbar > div {
+    width: fit-content;
+
+    flex: 0 0 auto !important;
+    align-self: start !important;
+
+    padding: 7px;
+    border-bottom: none;
+
+    transition: none !important;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+body[data-tema="geo"] .list-group, body[data-tema="geo"] .list-group-item {
+    border: none !important;
+}
+
+body[data-tema="geo"] .list-group-item::before {
+    content: "\25CF";
+    margin-right: 5px;
+}
+
+body[data-tema="geo"] .btn-dark {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+body[data-tema="geo"] #sidebar_main > div:first-child > button {
+    background-image: url("../../assets/img/buttons/aniback1g.gif");
     background-repeat: no-repeat;
+    width: 88px;
     height: 31px;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[href="console?id=nes"] {
-    opacity: 0;
-    user-select: none;
+body[data-tema="geo"] #sidebar_main > div:first-child > button > i.fa-close {
+    display: none;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li:has(a[href="console?id=n64"]) {
-    background-image: url("../../assets/img/buttons/n64_com_now.gif");
-    background-repeat: no-repeat;
-    height: 31px;
+body[data-tema="geo"] #sidebar_main > div:first-child > button > i.fa-close::before {
+    content: "";
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[href="console?id=n64"] {
-    opacity: 0;
-    user-select: none;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li:has(a[href="console?id=gba"]) {
-    background-image: url("../../assets/img/buttons/gameboy_advance_net.gif");
-    background-repeat: no-repeat;
-    height: 31px;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[href="console?id=gba"] {
-    opacity: 0;
-    user-select: none;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li:has(a[href="console?id=md"]) {
-    background-image: url("../../assets/img/buttons/segagendevring.gif");
-    background-repeat: no-repeat;
-    height: 31px;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[href="console?id=md"] {
-    opacity: 0;
-    user-select: none;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li:has(a[href="console?id=dc"]) {
-    background-image: url("../../assets/img/buttons/dreamcast.png");
-    background-repeat: no-repeat;
-    height: 31px;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[href="console?id=dc"] {
-    opacity: 0;
-    user-select: none;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li:has(a[href="console?id=ps1"]) {
-    background-image: url("../../assets/img/buttons/playstation.gif");
-    background-repeat: no-repeat;
-    height: 31px;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[href="console?id=ps1"] {
-    opacity: 0;
-    user-select: none;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li:has(a[href="console?id=ps2"]) {
-    background-image: url("../../assets/img/buttons/ps2.png");
-    background-repeat: no-repeat;
-    height: 31px;
-}
-
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[href="console?id=ps2"] {
-    opacity: 0;
-    user-select: none;
-    /*position: relative;*/
-}
-
-/*
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a[href="console?id=ps2"]::after {
-    content: "2";
+body[data-tema="geo"] #sidebar_main > span {
+    text-shadow: none;
+    font-weight: bold;
     color: white;
-    position: absolute;
-    left: 90px;
-}
-*/
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > .temas-title::after {
+    padding: 0.5rem 1rem !important;
+}
+
+body[data-tema="geo"] #sidebar_main > .console_list, body[data-tema="geo"] #sidebar_main > .themes_list, body[data-tema="geo"] #sidebar_main > .maislinks_list {
+    background-color: white;
+    padding: 10px 2%;
+    outline-color: silver;
+    outline-style: ridge;
+}
+
+body[data-tema="geo"] select {
+    color: black !important;
+    background-color: white !important;
+    border: 1px solid silver !important;
+    border-radius: 4px !important;
+}
+
+body[data-tema="geo"] select:focus {
+    border: 1px solid black !important;
+}
+
+body[data-tema="geo"] #sidebar_main > span:nth-of-type(2)::after {
     content: url("../../assets/img/buttons/best_viewed_with_open_eyes.gif");
     background-repeat: no-repeat;
     height: 31px;
@@ -144,263 +214,109 @@ body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-body > .temas-title::a
     background-position-y: center;
 }
 
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas {
-    background-image: url("../../assets/img/buttons/aniback1g.gif");
-    background-repeat: no-repeat;
-    width: 88px;
-    height: 31px;
-}
-
-body[data-tema="geo"] > .navbar > .offcanvas > .offcanvas-header > .close-offcanvas > i::before {
-    content: "";
-}
-
-body[data-tema="geo"] > .navbar > div > div > button:has(i.fa-close) {
-    background-image: url("../../assets/img/buttons/aniback1g.gif");
-    background-repeat: no-repeat;
-    width: 88px;
-    height: 31px;
-}
-
-body[data-tema="geo"] > .navbar > div > div > button > i.fa-close::before {
-    content: "";
-}
-
-body[data-tema="geo"] > .navbar > center > div > span.page-name > div > div > a:has(i.fa-home) {
-    background-image: url("../../assets/img/buttons/anihome112g.gif");
-    background-repeat: no-repeat;
-    width: 88px;
-    display: block;
-}
-
-body[data-tema="geo"] > .navbar > center > div > span.page-name > div > div > a > i.fa-home::before {
-    content: "";
-}
-/*
-body[data-tema="geo"] > .pagecontent > p > a.btn-dark:has(i.fa-home) {
-    background-image: url("../../assets/img/buttons/anihome112g.gif");
-    background-repeat: no-repeat;
-    width: 88px;
-    height: 31px;
-}
-*/
-
-body[data-tema="geo"] > .pagecontent > p > a.btn-dark {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
-    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
-    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
-    /*padding: 3px;*/
-    border: 1px solid black;
-    color: black;
-    text-decoration: none;
-}
-
-body[data-tema="geo"] > .pagecontent > p > a.btn-dark i.fa-home::before {
-    content: "";
-}
-
-body[data-tema="geo"] > .pagecontent > p > i.fa-arrow-up::before {
-    content: "↑" !important;
-}
-
-body[data-tema="geo"] > .pagecontent > .card, body[data-tema="geo"] > .pagecontent > .card > ul, body[data-tema="geo"] > .pagecontent > .card > ul > li {
-    border: 0 !important;
-    border-radius: 0 !important;
-    background-color: white !important;
-    color: black !important;
-}
-
-body[data-tema="geo"] > .pagecontent > .card > ul > li {
-    padding-left: 0 !important;
-}
-
-body[data-tema="geo"] > .pagecontent > .card > ul > li::before {
-    content: "•";
-    margin-right: 5px;
-}
-
-body[data-tema="geo"] > .navbar > center > div > button:has(i.fa-search) {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
-    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
-    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
-    /*padding: 3px;*/
-    border: 1px solid black;
-    color: black;
-    text-decoration: none;
-}
-
-body[data-tema="geo"] > .navbar > center > div > button > i.fa-search::before {
-    content: "Pesquisar";
-}
-
-body[data-tema="geo"] > .navbar > center > div > button:has(i.fa-bars) {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
-    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
-    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
-    /*padding: 3px;*/
-    border: 1px solid black;
-    color: black;
-    text-decoration: none;
-}
-
-/*body[data-tema="geo"] > .navbar > center > div > button > i.fa-bars::before {
-    content: "[bars]";
-}*/
-
-body[data-tema="geo"] > .tabs-navbar {
-    /*background-color: #272727 !important;*/
-    background-color: inherit !important;
-    padding: 0 0 0 0 !important;
-    height: 39px !important;
-    min-height: 39px !important;
-
-    border-bottom: 1px solid black;
-}
-
-body[data-tema="geo"] > .tabs-navbar > .tabs-stack {
-    height: inherit !important;
-    gap: 0.5rem !important;
-}
-
-body[data-tema="geo"] > .tabs-navbar > .tabs-stack > .tab-btn {
-    height: inherit !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    flex: 0 0 auto !important;
-    justify-self: left !important;
-
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
-    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
-    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
-    padding: 3px;
-    border: 1px solid black;
-    color: black;
-    text-decoration: none;
-}
-
-body[data-tema="geo"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link {
-    /*color: white !important;*/
-    padding: 0.3rem !important;
-    margin: 0 !important;
-    border-bottom: none;
-    width: max-content !important;
-    border-top: 0.3rem solid transparent;
-}
-
-body[data-tema="geo"] > .navbar {
-    background-color: Navy !important;
-    color: gray !important;
-}
-
-body[data-tema="geo"] > .navbar > div > div > div > input {
-    color: black !important;
-    background-color: white !important;
-    border: 1px solid silver !important;
-    border-radius: 4px !important;
-}
-
-body[data-tema="geo"] > .navbar > center > div > span.page-name {
-    color: white !important;
-}
-
-body[data-tema="geo"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
-    color: white !important;
-}
-
-body[data-tema="geo"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
-    font-weight: normal;
-}
-
-body[data-tema="geo"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
-    color: Aqua !important;
-}
-
-body[data-tema="geo"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a:hover {
-    text-decoration: underline;
-}
-
-body[data-tema="geo"] > .pagecontent:not(.videoplayer) {
-    background-color: white;
-    padding: 10px 5% 20px 5%;
-    outline-color: silver;
-    outline-style: ridge;
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-body[data-tema="geo"] > .pagecontent > div > div > a > span.title {
+body[data-tema="geo"] .maislinks_list > a {
     color: Navy !important;
-    font-weight: bold !important;
+    background-color: transparent !important;
 }
 
-body[data-tema="geo"] > .pagecontent > div > div > a > span.title:hover {
-    text-decoration: underline;
+body[data-tema="geo"] .maislinks_list > a:hover {
+    text-decoration: underline !important;
 }
 
-body[data-tema="geo"] > .pagecontent > div > div > a > span.subtitle {
-    /*color: black !important;
-    font-style: italic !important;
-    font-size: 0.8rem !important;*/
-
-    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
-    border: 1px solid black;
-    color: black;
-    text-decoration: none;
+body[data-tema="geo"] .console_list > a {
+    background-color: transparent !important;
 }
 
-/*body[data-tema="geo"] > .pagecontent > div > div > a > span.subtitle:hover {
-    text-decoration: underline;
-}*/
+body[data-tema="geo"] .console_list > a[href="console?id=nes"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=nes"] {
+    background-image: url("../../assets/img/buttons/nes.gif");
+    background-repeat: no-repeat;
+    height: 31px;
 
-body[data-tema="geo"] > .videoplayer {
-    background-color: white;
-    padding: 10px 10px 10px 10px;
-    outline-color: silver;
-    outline-style: ridge;
+    color: transparent !important;
+    user-select: none !important;
 
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 0 !important;
+    margin: 0.5rem !important;
 }
 
-@media (min-width: 576px) {
-    body[data-tema="geo"] > .videoplayer {
-        max-width: 540px;
-    }
+body[data-tema="geo"] .console_list > a[href="console?id=n64"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=n64"] {
+    background-image: url("../../assets/img/buttons/n64_com_now.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
 }
 
-@media (min-width: 768px) {
-    body[data-tema="geo"] > .videoplayer {
-        max-width: 720px;
-    }
+body[data-tema="geo"] .console_list > a[href="console?id=gba"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=gba"] {
+    background-image: url("../../assets/img/buttons/gameboy_advance_net.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
 }
 
-@media (min-width: 992px) {
-    body[data-tema="geo"] > .videoplayer {
-        max-width: 960px;
-    }
+body[data-tema="geo"] .console_list > a[href="console?id=md"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=md"] {
+    background-image: url("../../assets/img/buttons/segagendevring.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
 }
 
-@media (min-width: 1200px) {
-    body[data-tema="geo"] > .videoplayer {
-        max-width: 1140px;
-    }
+body[data-tema="geo"] .console_list > a[href="console?id=dc"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=dc"] {
+    background-image: url("../../assets/img/buttons/dreamcast.png");
+    background-repeat: no-repeat;
+    height: 31px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
 }
 
-@media (min-width: 1400px) {
-    body[data-tema="geo"] > .videoplayer {
-        max-width: 1320px;
-    }
+body[data-tema="geo"] .console_list > a[href="console?id=ps1"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=ps1"] {
+    background-image: url("../../assets/img/buttons/playstation.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
+}
+
+body[data-tema="geo"] .console_list > a[href="console?id=ps2"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=ps2"] {
+    background-image: url("../../assets/img/buttons/ps2.png");
+    background-repeat: no-repeat;
+    height: 31px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
+}
+
+/*deixar o estilo de grid list separado e marcado, caso tenha sido uma ideia ruim*/
+body[data-tema="geo"] .console_list {
+    display: grid !important;
+    grid-template-columns: auto auto auto !important;
+}
+
+body[data-tema="geo"] .console_list > a {
+    width: 88px !important;
 }
