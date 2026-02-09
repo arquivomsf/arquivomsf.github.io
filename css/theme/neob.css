@@ -191,33 +191,33 @@ body[data-tema="neob"] #sidebar_main > div > button {
   box-shadow: 5px 5px !important;
 }
 
-body[data-tema="neob"] #sidebar_main > .console_list > a, body[data-tema="neob"] select, #sidebar_main > .maislinks_list > a {
+body[data-tema="neob"] #sidebar_main > .console_list > a, body[data-tema="neob"] select, body[data-tema="neob"] #sidebar_main > .maislinks_list > a {
   /*padding: 5px;*/
   border: 1px solid black;
   box-shadow: 10px 10px;
 }
 
-body[data-tema="neob"] #sidebar_main > .console_list > a+a, #sidebar_main > .maislinks_list > a+a {
+body[data-tema="neob"] #sidebar_main > .console_list > a+a, body[data-tema="neob"] #sidebar_main > .maislinks_list > a+a {
   margin-top: 15px;
 }
 
-body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+1), body[data-tema="neob"] select:nth-child(5n+1), #sidebar_main > .maislinks_list > a:nth-child(5n+1) {
+body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+1), body[data-tema="neob"] select:nth-child(5n+1), body[data-tema="neob"] #sidebar_main > .maislinks_list > a:nth-child(5n+1) {
   background-color: var(--neob-pink);
 }
 
-body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+2), body[data-tema="neob"] select:nth-child(5n+2), #sidebar_main > .maislinks_list > a:nth-child(5n+2) {
+body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+2), body[data-tema="neob"] select:nth-child(5n+2), body[data-tema="neob"] #sidebar_main > .maislinks_list > a:nth-child(5n+2) {
   background-color: var(--neob-orange);
 }
 
-body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+3), body[data-tema="neob"] select:nth-child(5n+3), #sidebar_main > .maislinks_list > a:nth-child(5n+3) {
+body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+3), body[data-tema="neob"] select:nth-child(5n+3), body[data-tema="neob"] #sidebar_main > .maislinks_list > a:nth-child(5n+3) {
   background-color: var(--neob-yellow);
 }
 
-body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+4), body[data-tema="neob"] select:nth-child(5n+4), #sidebar_main > .maislinks_list > a:nth-child(5n+4) {
+body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+4), body[data-tema="neob"] select:nth-child(5n+4), body[data-tema="neob"] #sidebar_main > .maislinks_list > a:nth-child(5n+4) {
   background-color: var(--neob-purple);
 }
 
-body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+5), body[data-tema="neob"] select:nth-child(5n+5), #sidebar_main > .maislinks_list > a:nth-child(5n+5) {
+body[data-tema="neob"] #sidebar_main > .console_list > a:nth-child(5n+5), body[data-tema="neob"] select:nth-child(5n+5), body[data-tema="neob"] #sidebar_main > .maislinks_list > a:nth-child(5n+5) {
   background-color: var(--neob-blue);
 }
 
