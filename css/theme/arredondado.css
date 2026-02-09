@@ -1,20 +1,24 @@
-body[data-tema="arredondado"] > .pagecontent > .row > .col > a > img, body[data-tema="arredondado"] > .pagecontent > .row > .col > a > div > img {
+body[data-tema="arredondado"] img {
   border-radius: 8px;
 }
 
-body[data-tema="arredondado"] > .pagecontent > .row > .col > a > .video-length, body[data-tema="arredondado"] > .pagecontent > .row > .col > a > div > .video-length {
+body[data-tema="arredondado"] .video-duracao {
   border-radius: 5px;
 }
 
-body[data-tema="arredondado"] > .pagecontent > .row > .col > a > div > .playlist-length {
+body[data-tema="arredondado"] .playlist-duracao {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
-body[data-tema="arredondado"] > .pagecontent > div > iframe {
+body[data-tema="arredondado"] iframe {
   border-radius: 12px;
 }
 
-body[data-tema="arredondado"] > .navbar > .offcanvas > .offcanvas-body > ul  > li > select {
+body[data-tema="arredondado"] select {
+    border-radius: 5px;
+}
+
+body[data-tema="arredondado"] .nav-link {
     border-radius: 5px;
 }

@@ -7,6 +7,18 @@
             "quantidade": "11"
         }
     ],
+    "analise": [
+        {
+            "nome": "Gear Club Unlimited 2 - Ultimate Edition | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/avVSpdxyQ2I",
+            "duracao": {
+                "horas": 0,
+                "minutos": 14,
+                "segundos": 59
+            }
+        }
+    ],
     "videos": [
         {
             "nome": "Gear.Club Unlimited 2 - Gameplay 1",

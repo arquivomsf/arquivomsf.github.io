@@ -43,120 +43,103 @@ body[data-tema="dracula"] {
   background-color: var(--dracula-bg) !important;
 }
 
-body[data-tema="dracula"] > .navbar {
+body[data-tema="dracula"] .tabcontent:not(.page-404) > div > div {
+  background-color: inherit !important;
+  border-color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] .page-404 > div > div {
+  background-color: inherit !important;
+  border: none !important;
+}
+
+body[data-tema="dracula"] .tabcontent > div > div > a:hover, body[data-tema="dracula"] .tabcontent > div > div > a:focus {
   background-color: var(--dracula-sel) !important;
-  color: var(--dracula-fg) !important;
 }
 
-body[data-tema="dracula"] > .navbar > center > div > span.page-name {
-  color: var(--dracula-fg) !important;
-}
-
-body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item > a {
-  color: var(--dracula-fg) !important;
-}
-
-body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active {
-  font-weight: normal;
-}
-
-body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item:not(.active):not(.title-breadcrumb-home) > a {
-  color: var(--dracula-orange) !important;
-}
-
-body[data-tema="dracula"] > .navbar > center > div > span.page-name > .title-breadcrumb > .title-breadcrumb-item.active > a {
+body[data-tema="dracula"] b:not(.text-5xl) {
   color: var(--dracula-red) !important;
 }
 
-body[data-tema="dracula"] > .navbar > center > div > button {
+body[data-tema="dracula"] b.text-5xl {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] .tabcontent > div > div > a > p, body[data-tema="dracula"] .tabcontent:not(.page-404) > div > div > div > p {
+  color: var(--dracula-orange);
+}
+
+body[data-tema="dracula"] .tabcontent.page-404 > div > div > div > p {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] nav, body[data-tema="dracula"] .tabs-navbar {
   background-color: var(--dracula-sel) !important;
 }
 
-body[data-tema="dracula"] > .navbar > div > div > button:not(.btn-close) {
-  background-color: var(--dracula-sel) !important;
+body[data-tema="dracula"] .tab-link.active, body[data-tema="dracula"] .tab-link:focus, body[data-tema="dracula"] .tab-link:hover {
+  border-color: var(--dracula-red) !important;
+  color: var(--dracula-red) !important;
 }
 
-body[data-tema="dracula"] > .navbar > center > div > a.home-icon > button {
-  background-color: var(--dracula-sel) !important;
+body[data-tema="dracula"] .tab-link:not(.active):not(:focus):not(:hover) {
+  border-color: var(--dracula-sel) !important;
+  color: var(--dracula-fg) !important;
 }
 
-body[data-tema="dracula"] > .navbar > div > div > div > input {
+body[data-tema="dracula"] select:focus {
   background-color: var(--dracula-bg) !important;
 }
 
-body[data-tema="dracula"] > .pagecontent > div > b, body[data-tema="dracula"] > .pagecontent > div > div > b {
-  color: var(--dracula-yellow) !important;
-}
-
-body[data-tema="dracula"] > .pagecontent > div > div > a > span.title {
-  color: var(--dracula-red) !important;
-}
-
-body[data-tema="dracula"] > .pagecontent > div > div > a > span.subtitle {
-  color: var(--dracula-orange) !important;
-  font-style: italic !important;
-
-  background-color: var(--dracula-sel) !important;
-}
-
-body[data-tema="dracula"] > .pagecontent > div > div > a > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.video-length, body[data-tema="dracula"] > .pagecontent > div > div > a > div > span.playlist-length {
-  color: var(--dracula-fg) !important;
-}
-
-body[data-tema="dracula"] > .navbar > .offcanvas {
-  background-color: var(--dracula-sel) !important;
-}
-
-body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > .offcanvas-title {
-  color: var(--dracula-red) !important;
-}
-
-body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > ul > li > a {
-  color: var(--dracula-orange) !important;
-  font-style: italic !important;
-}
-
-body[data-tema="dracula"] > .navbar > .offcanvas > .offcanvas-body > ul > li > select {
-  background-color: var(--dracula-sel) !important;
-  border: 1px solid var(--dracula-fg) !important;
-  color: var(--dracula-orange) !important;
-}
-
-body[data-tema="dracula"] > .pagecontent > div > div.col > p {
-  color: var(--dracula-fg) !important;
-}
-
-body[data-tema="dracula"] > .pagecontent > p, body[data-tema="dracula"] > .pagecontent > h4 {
-  color: var(--dracula-fg) !important;
-}
-
-body[data-tema="dracula"] > .pagecontent > p > a.btn-dark {
-  background-color: var(--dracula-sel) !important;
-  color: var(--dracula-fg) !important;
-}
-
-body[data-tema="dracula"] > .pagecontent > .card, body[data-tema="dracula"] > .pagecontent > .card > ul, body[data-tema="dracula"] > .pagecontent > .card > ul > li {
-  border: 0 !important;
-  border-radius: 0 !important;
+body[data-tema="dracula"] #sidebar_main {
   background-color: var(--dracula-bg) !important;
+}
+
+body[data-tema="dracula"] #sidebar_main > div > button {
+  color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] #sidebar_main > div > button:hover {
+  background-color: var(--dracula-sel) !important;
+}
+
+body[data-tema="dracula"] #sidebar_main > .font-bold {
+  color: var(--dracula-red) !important;
+}
+
+body[data-tema="dracula"] #sidebar_main > .console_list > a, body[data-tema="dracula"] #sidebar_main > .maislinks_list > a {
+  color: var(--dracula-orange) !important;
+}
+
+body[data-tema="dracula"] #sidebar_main > .console_list > a:hover, body[data-tema="dracula"] #sidebar_main > .maislinks_list > a:hover {
+  background-color: var(--dracula-sel) !important;
+}
+
+body[data-tema="dracula"] select {
+  color: var(--dracula-orange) !important;
+  border-color: var(--dracula-fg) !important;
+}
+
+body[data-tema="dracula"] select:hover {
+  background-color: var(--dracula-sel) !important;
+}
+
+body[data-tema="dracula"] .list-group, body[data-tema="dracula"] .list-group-item {
+  border: none !important;
   color: var(--dracula-orange) !important;
   font-style: italic;
 }
 
-body[data-tema="dracula"] > .pagecontent > .card > ul > li {
-  padding-left: 0 !important;
-}
-
-body[data-tema="dracula"] > .pagecontent > .card > ul > li::before {
+body[data-tema="dracula"] .list-group-item::before {
   content: "•";
   margin-right: 5px;
 }
 
-body[data-tema="dracula"] > .pagecontent > p > i:not(.fa) {
+body[data-tema="dracula"] i:not(.fa) {
   font-style: normal;
   color: var(--dracula-purple) !important;
 }
 
-body[data-tema="dracula"] > .tabs-navbar > .tabs-stack > .tab-btn > .tab-link.active {
-  color: var(--dracula-red) !important;
+body[data-tema="dracula"] .btn-dark:not(:hover), body[data-tema="dracula"] .btn-dark:not(:focus) {
+  background-color: var(--dracula-sel) !important;
 }

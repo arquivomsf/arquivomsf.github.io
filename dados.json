@@ -79,7 +79,7 @@
         },
         {
             "nome": "QuackShot",
-            "tags": "QuackShot Starring Donald Duck disney pato donald sega mega drive sega genesis",
+            "tags": "QuackShot Starring Donald Duck disney Disney's pato donald sega mega drive sega genesis",
             "console": "Mega Drive (MD)",
             "consigla": "md",
             "curto": "quackshot"
@@ -162,7 +162,7 @@
             "curto": "hercules"
         },
         {
-            "nome": "Tarzan",
+            "nome": "Disney's Tarzan",
             "tags": "Disney's Tarzan n64 nintendo 64",
             "console": "Nintendo 64 (N64)",
             "consigla": "n64",
@@ -1033,31 +1033,31 @@
     ],
     "consoles": [
         {
-            "nome": "Nintendo (NES)",
+            "nome": "Nintendo",
             "sigla": "nes"
         },
         {
-            "nome": "Nintendo 64 (N64)",
+            "nome": "Nintendo 64",
             "sigla": "n64"
         },
         {
-            "nome": "Game Boy Advance (GBA)",
+            "nome": "Game Boy Advance",
             "sigla": "gba"
         },
         {
-            "nome": "Mega Drive (MD)",
+            "nome": "Mega Drive",
             "sigla": "md"
         },
         {
-            "nome": "Dreamcast (DC)",
+            "nome": "Dreamcast",
             "sigla": "dc"
         },
         {
-            "nome": "PlayStation 1 (PS1)",
+            "nome": "PlayStation 1",
             "sigla": "ps1"
         },
         {
-            "nome": "PlayStation 2 (PS2)",
+            "nome": "PlayStation 2",
             "sigla": "ps2"
         }
     ],

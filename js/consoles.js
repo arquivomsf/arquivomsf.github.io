@@ -2,9 +2,7 @@ var pathnameArray = window.location.pathname.split("/");
 var consoleAtual;
 
 function start() {
-  setTab("",'jsonParent');
     resetarString();
-    setPesquisa();
     carregarDados();
 }
 
@@ -25,19 +23,20 @@ function carregar_itens() {
     let jogo_tags = dados_geral.jogos[i].tags;
     let jogo_console_sigla = dados_geral.jogos[i].consigla;
     let jogo_nome_curto = dados_geral.jogos[i].curto;
-    let nome_processado = pesquisa_processar_texto(jogo_tags);
-    
-    if(nome_processado.toLowerCase().includes(stringPesquisa.toLowerCase())) {
+    let nome_processado = pesquisa_processar_string(jogo_tags);
+
+    if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
       if(jogo_console_sigla == consoleAtual){
-        document.querySelector("#jsonParent").innerHTML += `
-            <div class="col">
-              <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="blacklink">
-                <div class="thumbnail">
-                    <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" alt="" class="linkicon ratio ratio-16x9 capa">
-                    <span class="video-length"></span>
-                </div>
-                <span class="flow-text title">${jogo_nome}</span>
-              </a>
+        document.querySelector(".jogos_content_list").innerHTML += `
+            <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+                    <div class="relative h-auto">
+                        <div class="w-auto h-[225px]">
+                            <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" class="h-[225px] object-contain">
+                        </div>
+                    </div>
+                    <b class="text-center">${jogo_nome}</b>
+                </a>
             </div>`;
       }
     }
@@ -45,5 +44,5 @@ function carregar_itens() {
 }
 
 function resetarJogos(){
-    document.querySelector("#jsonParent").innerHTML = "";
+    document.querySelector(".jogos_content_list").innerHTML = "";
 }
