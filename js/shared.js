@@ -3,12 +3,12 @@ var tema = "";
 
 function startTema() {
     tema = localStorage.getItem("tema");
-    if (tema == null) {
+    if (tema == null || tema == "undefined" || tema == "") {
         tema = "default";
         localStorage.setItem("tema", tema);
     }
     document.getElementById("themes_select").value = tema;
-    if (document.querySelector(".header404") == null) {
+    if (document.querySelector(".page-404") == null) {
         if (tema !== "default" && document.getElementById("style-"+tema) == null) {
             document.head.insertAdjacentHTML('beforeend',`<link rel="stylesheet" id="style-${tema}" href="css/theme/${tema}.css" />`);
         }
@@ -21,7 +21,7 @@ function startTema() {
 
 function setTema(tema_esc) {
     tema = tema_esc.value;
-    if (document.querySelector(".header404") == null) {
+    if (document.querySelector(".page-404") == null) {
         if (tema !== "default" && document.getElementById("style-"+tema) == null) {
             document.head.insertAdjacentHTML('beforeend',`<link rel="stylesheet" id="style-${tema}" href="css/theme/${tema}.css" />`);
         }
