@@ -1,4 +1,12 @@
 {
+    "playlist": [
+        {
+            "nome": "The Crew 2 - MarceloSouzaF",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/",
+            "quantidade": "10"
+        }
+    ],
     "videos": [
         {
             "nome": "The Crew 2 - Gameplay de Avião 1",
