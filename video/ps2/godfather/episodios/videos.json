@@ -1,0 +1,132 @@
+{
+    "playlist": [
+        {
+            "nome": "The Godfather (PS2)",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2",
+            "quantidade": "10"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "The Godfather de PlayStation 2 - Começo do jogo",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P01+-+The+Godfather+de+PlayStation+2+-+Come%C3%A7o+do+jogo.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 55,
+                "segundos": 5
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Parte do Hospital",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P02+-+The+Godfather+de+PlayStation+2+-+Parte+do+Hospital.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 24,
+                "segundos": 57
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Continuando cena do hospital",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P03+-+The+Godfather+de+PlayStation+2+-+Continuando+cena+do+hospital.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 4
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Fuga de carro",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P04+-+The+Godfather+de+PlayStation+2+-+Fuga+de+carro.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 53,
+                "segundos": 34
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Mira automática ruim",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P05+-+The+Godfather+de+PlayStation+2+-+Mira+autom%C3%A1tica+ruim.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 28
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Pistola Dourada",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P06+-+The+Godfather+de+PlayStation+2+-+Pistola+Dourada.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 12,
+                "segundos": 6
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Comprando a doze prata",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P07+-+The+Godfather+de+PlayStation+2+-+Comprando+a+doze+prata.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 2,
+                "segundos": 2
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Sonny",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P08+-+The+Godfather+de+PlayStation+2+-+Sonny.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 19,
+                "segundos": 32
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Paz entre as famílias",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P09+-+The+Godfather+de+PlayStation+2+-+Paz+entre+as+fam%C3%ADlias.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 4
+            },
+            "plataforma": "archive"
+        },
+        {
+            "nome": "The Godfather de PlayStation 2 - Zerei e nem percebi",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-the-godfather-playstation-2/P10+-+The+Godfather+de+PlayStation+2+-+Zerei+e+nem+percebi.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 37,
+                "segundos": 31
+            },
+            "plataforma": "archive"
+        }
+    ]
+}

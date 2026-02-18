@@ -4,7 +4,7 @@
             "nome": "The Crew 2 - MarceloSouzaF",
             "imagem": "jpg",
             "link": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/",
-            "quantidade": "10"
+            "quantidade": "40"
         }
     ],
     "videos": [
@@ -137,6 +137,396 @@
             },
             "plataforma": "gdrive",
             "data": "12/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Porsche no Gelo 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1kUde9aP--bg7t6MuHpzBBlfz6hZ8tMWT/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Porsche no Gelo 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1jElt9g5I4NQkEAWTmkhcXumnLuZ6mfjK/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Corrida de Harley",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1HBG-YG2wi8GA_bL3uGEt3fHUBxuwCxKR/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 4,
+                "segundos": 0
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Harley no Interior",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1JrPtkuIkbZRXZ5ksUoR8N_E3ss2IccSr/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 4,
+                "segundos": 1
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Polícia de Caminhonete FORD 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1u7hlKGUZ7BLqHNbov95pdDcG6bXzfc_d/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 0
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Polícia de Caminhoneta FORD 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Y2hgFTTkfJ5KpPyqj8lqV5DyzGvBu-oG/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Polícia de Caminhonete FORD nas Montanhas",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1l0_zCWUoD5ekIZiX4Lgj6Er6HMSUnN65/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Motocross Noturno",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1mYQHdj0I6vCxCzRpeLmk7W04zzTofYBu/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Motocross Futurista",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1bApzvCCPwxcyYLZ0uKVZJ7evSIezL6F-/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Rally Evo",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1SOsCsR93nXJ-CDKEAnGRcZHWTaztJEmJ/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Anfíbio",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1TCdwMzAAoh9_-3Khs0fg-F81lM05fJmS/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Porsche Mundo Retro",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1XJnWqX0vsUeaDLLYTKVgbwO25FlW54C2/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 4,
+                "segundos": 1
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Iniciando Corrida de Boss",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1yKbFooq9JC9vSoVw22s56Na9lmwfEuyq/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 56
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Versus Boss Rally",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1fLqddP5V0K9m1Yr7ksRMUEZwyAizbGD1/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Levando pro Hospital",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Lx2rmFDq3ocCbvMS6ry-nmemsTfuRX3T/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Porsche na Cidade com Neve",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1GITZwELQBLNsiILy78xrHWy0V3hzfTJN/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Acelerando na Cidade com Neve",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/10KVXIo502kHSFrk-T_TIF_zPRKFFBLbz/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Rodovia com a Porsche",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1wa9JPKX4RKtZAjXFQBnUJyYIASlgCvSn/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 0
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Noite com a Porsche",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/12bVchSkew3EDqJv9DPi8vAvY_En9ZW-L/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Retro 80s com DeLorean",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1FmK5gLnw4OXNNB7QTrn8t0i3Pns2hUvZ/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "16/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Marcas de Carros",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1mPwJe7jXe-wVi--AIZl3JvAD5wFBA6Pz/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 29
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Manobras no Ar",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1Rtn2WiwQkm_XOg7WidY-qWUP5ReCMOI2/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Troca em tempo real",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1rYCG6fZqAGXt0Lu8C49rz99pzHSOSZvJ/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Voando na Golden Gate Bridge",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1pYRJkwDnsWUi0wj8iH9g5W_Wo3k_1_FH/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Monster Truck 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1iMsMwu5tTFzy2TgjwoZhwmS3is0tscQm/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Monster Truck 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1MoUroaaTCoRvwWWaq9Hv2t2UfWmRZUwR/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Arena Demolition Derby",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1c0j777TghfPnc-ygevvfVYiLhK0H-O2D/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Arena Demolição",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1VqtiF5Dej2awjNwIDmuyJCH_a6-oC5jf/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Corrida Derby",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1yO64SYbISUYLdIl8hRr7dtAhSk1rxCRY/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Barquinho",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1QObdSLyi_k6iKFBjNLt9e3VwwgZcNEdL/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 0
+            },
+            "plataforma": "gdrive",
+            "data": "17/02/2026"
         }
     ]
 }

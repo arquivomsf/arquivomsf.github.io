@@ -1,10 +1,17 @@
 {
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "10"
+        }
+    ],
     "vodsoficiais": [
         {
             "nome": "VODs Oficiais",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvYFO3kDUmmO-c8wOTVnG2R",
-            "quantidade": "?"
+            "quantidade": "9"
         }
     ]
 }
