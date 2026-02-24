@@ -6,6 +6,13 @@
             "quantidade": "7"
         }
     ],
+    "vodsarquivo": [
+        {
+            "nome": "VODs do Arquivo",
+            "imagem": "1.png",
+            "quantidade": "3"
+        }
+    ],
     "vodsoficiais": [
         {
             "nome": "VODs Oficiais",

@@ -4,7 +4,7 @@
             "nome": "The Crew 2 - MarceloSouzaF",
             "imagem": "jpg",
             "link": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/",
-            "quantidade": "40"
+            "quantidade": "49"
         }
     ],
     "videos": [
@@ -527,6 +527,123 @@
             },
             "plataforma": "gdrive",
             "data": "17/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Eventos Semanais",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/16n3Piu46CevdleT6t6bO2139xK2U6L4V/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 29
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Drift 1",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1H0nAeXzWKGBIdjXGAKDUTiahl9xjGxdO/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Drift 2",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1uWwofXU1BA4DoMEFk6P2G27UEtNR8My7/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Drift 3",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1SsILFr1Pru_1-qKFo53ZX6OY5jqBF75w/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Drift a Noite",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1vaqFVDKtBuADqyBW_ATrq6eqxUM4QKGe/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Customizando o Jaguar",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1tVBuk1VS4Xnc-UzCQBBxN9X07d20VFjI/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Jaguar na Pista",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1xGlUaqiZ7VHia3sYVwLFzsARArBezHRw/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Jaguar Retro",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/132wlfV08f0ctOKwiLXt0pjgTFhf29zEl/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
+        },
+        {
+            "nome": "The Crew 2 - Bug nas Texturas",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1smEbrA8HNoZ371fAn02afSAPtVVyqbcg/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/02/2026"
         }
     ]
 }

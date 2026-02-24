@@ -546,19 +546,19 @@
             "data": "15/12/2022"
         },
         {
-            "nome": "Trailer do Canal 2023",
-            "tags": "Trailer do Canal 2023",
+            "nome": "Bem Vindo ao Canal MarceloSouzaF - Trailer 2023",
+            "tags": "Bem Vindo ao Canal MarceloSouzaF - Trailer 2023 Trailer do Canal 2023",
             "imagem": "trailer2023.jpg",
             "consigla": "etc",
             "curto": "trailer2023",
             "link": "https://archive.org/details/msf-trailer-do-canal-2023",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/OQUG-d-Hx8Y",
             "duracao": {
                 "horas": 0,
                 "minutos": 1,
                 "segundos": 9
             },
-            "plataforma": "archive",
+            "plataforma": "youtube",
             "data": "23/12/2022"
         },
         {
@@ -969,6 +969,51 @@
                 "horas": 0,
                 "minutos": 9,
                 "segundos": 59
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
+            "tags": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night en ps1 playstation 1",
+            "imagem": "symphony_ps1.png",
+            "consigla": "etc",
+            "curto": "symphony_ps1",
+            "link": "",
+            "linkyt": "https://youtu.be/Y9J4CR4Ksh0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 4
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
+            "tags": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night en psp playstation portable",
+            "imagem": "symphony_psp.png",
+            "consigla": "etc",
+            "curto": "symphony_psp",
+            "link": "",
+            "linkyt": "https://youtu.be/k3AxyiZgLas",
+            "duracao": {
+                "horas": 0,
+                "minutos": 28,
+                "segundos": 45
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
+            "tags": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night ja ps1 playstation 1 psp portable",
+            "imagem": "symphony_ja.png",
+            "consigla": "etc",
+            "curto": "symphony_ja",
+            "link": "",
+            "linkyt": "https://youtu.be/mU1SU81TsXk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 32,
+                "segundos": 51
             },
             "plataforma": "youtube"
         }
