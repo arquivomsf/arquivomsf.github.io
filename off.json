@@ -1,6 +1,13 @@
 {
     "futurosjogos": [
         {
+            "nome": "Harry Potter and the Prisoner of Azkaban",
+            "tags": "Harry Potter and the Prisoner of Azkaban Harry Potter e o Prisioneiro de Azkaban sony ps2 playstation 2",
+            "console": "PlayStation 2 (PS2)",
+            "consigla": "ps2",
+            "curto": "harryazkaban"
+        },
+        {
             "nome": "Need for Speed: Most Wanted",
             "tags": "Need for Speed: Most Wanted nfs gc nintendo gamecube",
             "console": "GameCube (GC)",
