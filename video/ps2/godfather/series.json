@@ -6,6 +6,18 @@
             "quantidade": "10"
         }
     ],
+    "analise": [
+        {
+            "nome": "The Godfather de PlayStation 2 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/6UuBTE1oyr8",
+            "duracao": {
+                "horas": 0,
+                "minutos": 25,
+                "segundos": 14
+            }
+        }
+    ],
     "vodsoficiais": [
         {
             "nome": "VODs Oficiais",
