@@ -1016,6 +1016,21 @@
                 "segundos": 51
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Marcelo vendo memes do Instagram",
+            "tags": "Marcelo vendo memes do Instagram besteirol",
+            "imagem": "memes_instagram.jpg",
+            "consigla": "etc",
+            "curto": "memes_instagram",
+            "link": "",
+            "linkyt": "https://youtu.be/lfapyxis-74",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 38
+            },
+            "plataforma": "youtube"
         }
     ],
     "outros": [

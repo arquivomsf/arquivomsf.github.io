@@ -1,0 +1,39 @@
+{
+    "playlist": [
+        {
+            "nome": "Harry Potter and the Prisoner of Azkaban (PS2)",
+            "imagem": "jpg",
+            "link": "",
+            "quantidade": "1"
+        }
+    ],
+    "extras": [
+        {
+            "nome": "Marcelo vendo memes do Instagram",
+            "id": "memes_instagram",
+            "imagem": "../../../etc/memes_instagram.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/lfapyxis-74",
+            "duracao": {
+                "horas": 0,
+                "minutos": 46,
+                "segundos": 38
+            },
+            "plataforma": "youtube"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Harry Potter and the Prisoner of Azkaban de PS2 - VOD 1",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 0
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}
