@@ -1019,16 +1019,31 @@
         },
         {
             "nome": "Marcelo vendo memes do Instagram",
-            "tags": "Marcelo vendo memes do Instagram besteirol",
-            "imagem": "memes_instagram.jpg",
+            "tags": "Marcelo vendo memes do Instagram reels besteirol",
+            "imagem": "reels1.jpg",
             "consigla": "etc",
-            "curto": "memes_instagram",
+            "curto": "reels1",
             "link": "",
             "linkyt": "https://youtu.be/lfapyxis-74",
             "duracao": {
                 "horas": 0,
                 "minutos": 46,
                 "segundos": 38
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Marcelo vendo mais Reels no Instagram",
+            "tags": "Marcelo vendo mais Reels no Instagram memes besteirol",
+            "imagem": "reels2.jpg",
+            "consigla": "etc",
+            "curto": "reels2",
+            "link": "",
+            "linkyt": "https://youtu.be/8uDUif6_TpI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 27
             },
             "plataforma": "youtube"
         }

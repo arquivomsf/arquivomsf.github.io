@@ -10,14 +10,27 @@
     "extras": [
         {
             "nome": "Marcelo vendo memes do Instagram",
-            "id": "memes_instagram",
-            "imagem": "../../../etc/memes_instagram.jpg",
+            "id": "reels1",
+            "imagem": "../../../etc/reels1.jpg",
             "link": "",
             "linkyt": "https://youtu.be/lfapyxis-74",
             "duracao": {
                 "horas": 0,
                 "minutos": 46,
                 "segundos": 38
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Marcelo vendo mais Reels no Instagram",
+            "id": "reels2",
+            "imagem": "../../../etc/reels2.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/8uDUif6_TpI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 29,
+                "segundos": 27
             },
             "plataforma": "youtube"
         }
