@@ -1120,6 +1120,14 @@
             "console": "Outros",
             "consigla": "outros",
             "curto": "specopstheline"
+        },
+        {
+            "nome": "High on Life 2",
+            "tags": "High on Life 2 Clipes",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "highonlife2"
         }
     ],
     "consoles": [
