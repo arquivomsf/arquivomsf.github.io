@@ -1,0 +1,78 @@
+{
+    "playlist": [
+        {
+            "nome": "Warhammer 40,000: Space Marine (Clipes)",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/",
+            "_link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvVE1RE0QryUQs5grPWuPhM",
+            "quantidade": "5"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-40-20",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1QbXe9nDlVisDDsVdeM9taV6_BEX06_ix/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "12/03/2025"
+        },
+        {
+            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-50-11",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/17np5SbQ5aFzpWLPOeb81avDOIZLWqYs_/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "12/03/2025"
+        },
+        {
+            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-51-08",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/16RzrGjM_5uTzmFwEslTK1k4h7cT0EI0V/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 58
+            },
+            "plataforma": "gdrive",
+            "data": "12/03/2025"
+        },
+        {
+            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-55-23",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1ivP5CHJ2Q2301y91D_NcRP3NJiUWJYjw/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "12/03/2025"
+        },
+        {
+            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_12-00-14-55",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1mJwv2PgHsl4mzJf1TRjRNB0TBtgXef--/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "12/03/2025"
+        }
+    ]
+}

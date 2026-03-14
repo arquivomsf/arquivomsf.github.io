@@ -1,0 +1,214 @@
+body[data-tema="darkgold"] {
+    background-color: #121212;
+    color: white;
+}
+
+body[data-tema="darkgold"] *:focus-visible {
+    outline: 2px solid oklch(85.2% 0.199 91.936) !important;
+}
+
+body[data-tema="darkgold"] .video-duracao {
+    /*background-color: color-mix(in oklab,lab(76.3898% 14.5258 98.4589)10%,transparent);
+    border-color: color-mix(in oklab,lab(47.8202% 25.2426 66.5015)70%,transparent);*/
+    border: 2px solid;
+    border-radius: 3.40282e38px;
+    background-color: oklch(38.262% 0.07837 85.145 / 0.791);
+    border-color: oklch(55.4% 0.135 66.442);
+}
+
+body[data-tema="darkgold"] .playlist-duracao {
+    /*background-color: color-mix(in oklab,lab(76.3898% 14.5258 98.4589)10%,transparent);
+    border-color: color-mix(in oklab,lab(47.8202% 25.2426 66.5015)70%,transparent);*/
+    border-left: 2px solid;
+    /*border-radius: 3.40282e38px;*/
+    background-color: oklch(38.262% 0.07837 85.145 / 0.791);
+    border-color: oklch(55.4% 0.135 66.442);
+}
+
+body[data-tema="darkgold"] .video-duracao > span, body[data-tema="darkgold"] .playlist-duracao > span {
+    /*color: lab(94.3433% -5.00429 52.9663) !important;*/
+    color: oklch(94.5% 0.129 101.54);
+}
+
+body[data-tema="darkgold"] .jogos_content_list > div {
+    border-color: oklch(27.8% 0.033 256.848/50%);
+    background-color: #151515;
+    color: oklch(87.2% 0.01 258.338);
+}
+
+body[data-tema="darkgold"] .jogos_content_list > div > a {
+    border-color: oklch(27.8% 0.033 256.848/50%);
+}
+
+body[data-tema="darkgold"] .jogos_content_list > div > a > p {
+    border-color: oklch(27.8% 0.033 256.848/50%);
+}
+
+body[data-tema="darkgold"] .jogos_content_list > div > a:hover {
+    background-color: rgba(255,255,255,0.05);
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] .standalone_content_list > div, body[data-tema="darkgold"] .outros_content_list > div, body[data-tema="darkgold"] .ep_content_list > div, body[data-tema="darkgold"] .extras_content_list > div, body[data-tema="darkgold"] .series_content_list > div, body[data-tema="darkgold"] .videos_content_list > div, body[data-tema="darkgold"] .stats_content_list > div {
+    border-color: oklch(27.8% 0.033 256.848/50%);
+    background-color: #151515;
+    color: oklch(87.2% 0.01 258.338);
+}
+
+body[data-tema="darkgold"] .standalone_content_list > div > a > p, body[data-tema="darkgold"] .outros_content_list > div > a > p, body[data-tema="darkgold"] .ep_content_list > div > a > p, body[data-tema="darkgold"] .extras_content_list > div > a > p, body[data-tema="darkgold"] .series_content_list > div > a > p, body[data-tema="darkgold"] .videos_content_list > div > div, body[data-tema="darkgold"] .stats_content_list > div > div {
+    border-color: oklch(27.8% 0.033 256.848/50%);
+}
+
+body[data-tema="darkgold"] .standalone_content_list > div:hover, body[data-tema="darkgold"] .outros_content_list > div:hover, body[data-tema="darkgold"] .ep_content_list > div:hover, body[data-tema="darkgold"] .extras_content_list > div:hover, body[data-tema="darkgold"] .series_content_list > div:hover, body[data-tema="darkgold"] .videos_content_list > div:hover, body[data-tema="darkgold"] .stats_content_list > div:hover {
+    background-color: rgba(255,255,255,0.05);
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] .embed_content_list > div, body[data-tema="darkgold"] .page-404 > div > div {
+    border-color: oklch(27.8% 0.033 256.848/50%);
+    background-color: #151515;
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] .list-group, body[data-tema="darkgold"] .list-group-item {
+    border-color: oklch(27.8% 0.033 256.848/50%);
+    background-color: #151515;
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] nav {
+    backdrop-filter: blur(12px);
+    background-color: rgba(0,0,0,0.5);
+    border-bottom: 1px solid;
+    border-color: oklch(27.8% 0.033 256.848);
+}
+
+body[data-tema="darkgold"] nav > div > div:has(.navbar-three-mobile) {
+    margin-top: calc(0.25rem * 3);
+}
+
+body[data-tema="darkgold"] nav > div > div > div, body[data-tema="darkgold"] nav > div > div > div > a, body[data-tema="darkgold"] nav > div > button, body[data-tema="darkgold"] .navbar-home, body[data-tema="darkgold"] .navbar-three-mobile {
+    background-color: transparent;
+    color: oklch(70.7% 0.022 261.325);
+}
+
+body[data-tema="darkgold"] nav > div > div > div:not(:has(.navbar-divider)):hover, body[data-tema="darkgold"] nav > div > div > div > a:not(.navbar-divider):hover, body[data-tema="darkgold"] nav > div > button:hover, body[data-tema="darkgold"] .navbar-home:hover, body[data-tema="darkgold"] .navbar-three-mobile:hover {
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] .tabs-navbar {
+    border-bottom: 1px solid;
+    border-color: oklch(27.8% 0.033 256.848/50%);
+    background-color: #151515;
+}
+
+body[data-tema="darkgold"] .tabs-navbar > .nav-link:not(.active) {
+    border-color: transparent;
+    color: oklch(70.7% 0.022 261.325);
+}
+
+body[data-tema="darkgold"] .tabs-navbar > .nav-link:not(.active):hover {
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] .tabs-navbar > .nav-link.active {
+    border-color: oklch(79.5% 0.184 86.047);
+    color: oklch(79.5% 0.184 86.047);
+}
+
+body[data-tema="darkgold"] input {
+    background-color: #000000;
+    border-color: oklch(37.3% 0.034 259.733);
+}
+
+body[data-tema="darkgold"] input:focus {
+    border-color: oklch(79.5% 0.184 86.047);
+    outline: 0 !important;
+}
+
+body[data-tema="darkgold"] #sidebar_main {
+    backdrop-filter: blur(12px);
+    background-color: rgba(0,0,0,0.5);
+    border-left: 1px solid;
+    border-color: oklch(27.8% 0.033 256.848);
+}
+
+body[data-tema="darkgold"] #sidebar_main > div > button {
+    background-color: transparent;
+    color: oklch(70.7% 0.022 261.325);
+}
+
+body[data-tema="darkgold"] #sidebar_main > div > button:hover {
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] .console_list, body[data-tema="darkgold"] .maislinks_list {
+    background-color: #151515;
+    color: oklch(87.2% 0.01 258.338);
+}
+
+body[data-tema="darkgold"] .console_list > a, body[data-tema="darkgold"] .maislinks_list > a {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-color: oklch(27.8% 0.033 256.848/50%);
+    background-color: #151515;
+}
+
+body[data-tema="darkgold"] .console_list > a:hover, body[data-tema="darkgold"] .maislinks_list > a:hover {
+    background-color: rgba(255,255,255,0.05);
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] .console_list > a:first-child, body[data-tema="darkgold"] .maislinks_list > a:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+body[data-tema="darkgold"] .console_list > a:last-child, body[data-tema="darkgold"] .maislinks_list > a:last-child {
+    border-bottom: 1px solid;
+    border-color: oklch(27.8% 0.033 256.848/50%);
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+body[data-tema="darkgold"] select {
+    background: #151515;
+    color: oklch(87.2% 0.01 258.338);
+    border-color: oklch(27.8% 0.033 256.848/50%);
+    border-radius: 5px;
+}
+
+body[data-tema="darkgold"] select:hover {
+    background: color-mix(in oklab, #151515, rgba(255,255,255,0.05));
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] select:focus {
+    background: color-mix(in oklab, #151515, rgba(255,255,255,0.05));
+    color: #ffffff;
+}
+
+body[data-tema="darkgold"] select > option {
+    background: #151515;
+    color: oklch(87.2% 0.01 258.338);
+    border-color: oklch(27.8% 0.033 256.848/50%);
+    border-radius: 5px;
+}
+
+body[data-tema="darkgold"] .btn-dark {
+    background-color: oklch(27.8% 0.033 256.848);
+    color: oklch(70.7% 0.022 261.325);
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+body[data-tema="darkgold"] .btn-dark:hover, body[data-tema="darkgold"] .btn-dark:focus {
+    background-color: oklch(68.1% 0.162 75.834);
+    color: #ffffff;
+    border: 1px solid;
+    border-color: oklch(85.2% 0.199 91.936);
+    border-radius: 5px;
+}

@@ -1128,6 +1128,14 @@
             "console": "Outros",
             "consigla": "outros",
             "curto": "highonlife2"
+        },
+        {
+            "nome": "Warhammer 40,000: Space Marine",
+            "tags": "Warhammer 40,000: Space Marine 40k 40000 40.000 40 mil Clipes",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "wh40k-spacemarine"
         }
     ],
     "consoles": [
@@ -1212,6 +1220,10 @@
         {
             "nome": "Geo",
             "valor": "geo"
+        },
+        {
+            "nome": "Dark Gold",
+            "valor": "darkgold"
         }
     ]
 }
