@@ -1,0 +1,36 @@
+{
+    "playlist": [
+        {
+            "nome": "Dia de São Patrício",
+            "imagem": "jpg",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuaSe8svAkOFsb7L0tAhIan",
+            "quantidade": "2"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Dia de São Patrício - Evento da Dlive (Dia 1)",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/qmJCTe3x6X4",
+            "duracao": {
+                "horas": 2,
+                "minutos": 1,
+                "segundos": 40
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Dia de São Patrício - Evento da Dlive (Dia 2)",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/lpyBJR2t76g",
+            "duracao": {
+                "horas": 1,
+                "minutos": 47,
+                "segundos": 36
+            },
+            "plataforma": "youtube"
+        }
+    ]
+}

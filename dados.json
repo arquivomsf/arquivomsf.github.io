@@ -1130,12 +1130,20 @@
             "curto": "highonlife2"
         },
         {
-            "nome": "Warhammer 40,000: Space Marine",
-            "tags": "Warhammer 40,000: Space Marine 40k 40000 40.000 40 mil Clipes",
+            "nome": "Warhammer 40,000: Space Marine 2",
+            "tags": "Warhammer 40,000: Space Marine 2 II 40k 40000 40.000 40 mil Clipes",
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
-            "curto": "wh40k-spacemarine"
+            "curto": "wh40k-spacemarine2"
+        },
+        {
+            "nome": "Dia de São Patrício",
+            "tags": "Dia de São Patrício evento da dlive",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "patrick"
         }
     ],
     "consoles": [
