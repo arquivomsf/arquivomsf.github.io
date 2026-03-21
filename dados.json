@@ -433,6 +433,13 @@
             "console": "PlayStation 2 (PS2)",
             "consigla": "ps2",
             "curto": "godfather"
+        },
+        {
+            "nome": "The Terminator",
+            "tags": "The Terminator exterminador do futuro sega mega drive sega genesis",
+            "console": "Mega Drive (MD)",
+            "consigla": "md",
+            "curto": "terminator"
         }
     ],
     "standalone": [
