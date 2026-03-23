@@ -1,20 +1,6 @@
 {
     "futurosjogos": [
         {
-            "nome": "Harry Potter and the Prisoner of Azkaban",
-            "tags": "Harry Potter and the Prisoner of Azkaban Harry Potter e o Prisioneiro de Azkaban sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "harryazkaban"
-        },
-        {
-            "nome": "The Terminator",
-            "tags": "The Terminator exterminador do futuro sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "terminator"
-        },
-        {
             "nome": "Justice League Heroes",
             "tags": "Justice League Heroes liga da justiça sony ps2 playstation 2",
             "console": "PlayStation 2 (PS2)",

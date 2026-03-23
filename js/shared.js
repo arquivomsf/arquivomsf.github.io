@@ -73,6 +73,8 @@ var pesquisando = 0;
 function pesquisarJogo() {
     pesquisa_array = pesquisa_processar_array(document.querySelector("#inputPesquisa").value);
 
+    debug_disable();
+
     resetarJogos();
     carregar_itens();
 }
@@ -85,19 +87,21 @@ if (!pesquisando == 0) {
 }
 
 function abrir_pesquisa() {
-  document.querySelector(".navbar-default").classList.add("hidden");
-  document.querySelector(".navbar-search").classList.remove("hidden");
+    document.querySelector(".navbar-default").classList.add("hidden");
+    document.querySelector(".navbar-search").classList.remove("hidden");
 
-  document.querySelector("#inputPesquisa").focus();
+    document.querySelector("#inputPesquisa").focus();
 
-  changePesquisa("on");
+    changePesquisa("on");
 }
 
 function fechar_pesquisa() {
-  document.querySelector(".navbar-default").classList.remove("hidden");
-  document.querySelector(".navbar-search").classList.add("hidden");
+    document.querySelector(".navbar-default").classList.remove("hidden");
+    document.querySelector(".navbar-search").classList.add("hidden");
 
-  changePesquisa("off");
+    debug_disable();
+
+    changePesquisa("off");
 }
 
 function changePesquisa(on_off) {
@@ -315,5 +319,132 @@ function get_console_name(sigla) {
         case "ps2":
             return "PlayStation 2"
         break;
+    }
+}
+
+var debug_mode = false;
+var debug_info = {"info": {},"info_outro": {}};
+
+//ativar modo de debug que permite
+    //ver a plataforma em que as séries ou vídeos estão disponíveis
+    //ver se um jogo tem análise
+function debug() {
+    if (document.body.classList.contains("debug_ativado")) return "⚠️ Erro: Modo de debug já ativado";
+    if (window.location.pathname != "/" && window.location.pathname != "/index.html") return "⚠️ Erro: O modo de debug funciona apenas na página inicial\nhttps://arquivomsf.github.io/";
+    if (pesquisa_array != "") return "⚠️ Erro: Tentativa de ativar o modo de debug durante uma pesquisa";
+
+    //console.log("Ativando modo de debug...");
+    console.group("Ativando modo de debug...");
+    debug_mode = true;
+    document.body.classList.add("debug_ativado");
+
+    //debug da aba Jogos
+    console.log("(1/3) Adicionando informações de debug na aba [Jogos]");
+    let debug_todos_jogos = document.querySelectorAll(".jogo_titulo");
+
+    for (var i = 0; i<dados_geral.jogos.length; i++) {
+        let debug_jogo = dados_geral.jogos[i];
+        let debug_console = debug_jogo.consigla;
+        let debug_nome = debug_jogo.curto;
+
+        debug_todos_jogos[i].classList.add("jogo_id_"+debug_console+"_"+debug_nome);
+
+        fetch(`video/${debug_console}/${debug_nome}/series.json`)
+        .then(response => response.json())
+        .then(data => {
+            debug_info.info[debug_nome] = "<br>";
+
+            if (data.hasOwnProperty("episodios")) {
+                //olha a série episódios
+                debug_info.info[debug_nome] += `<br><span class="debug_episodios_${debug_console}_${debug_nome}">Carregando...</span>`;
+
+                fetch(`video/${debug_console}/${debug_nome}/episodios/videos.json`)
+                .then(response => response.json())
+                .then(data => {
+                    let debug_serie_icon = "";
+                    if (data.videos[data.videos.length-1].plataforma == "youtube") debug_serie_icon = `<i class="fa fa-fw fa-youtube-play" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+                    else if (data.videos[data.videos.length-1].plataforma == "gdrive" || data.videos[data.videos.length-1].plataforma == "archive")  debug_serie_icon = `<i class="fa fa-fw fa-file-video-o" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+
+                    document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} Episódios`;
+                })
+            }
+
+            if (data.hasOwnProperty("vodsarquivo")) {
+                //olha a série vods
+                debug_info.info[debug_nome] += `<br><span class="debug_vods_${debug_console}_${debug_nome}">Carregando...</span>`;
+
+                fetch(`video/${debug_console}/${debug_nome}/vods/videos.json`)
+                .then(response => response.json())
+                .then(data => {
+                    let debug_serie_icon = "";
+                    if (data.videos[data.videos.length-1].plataforma == "youtube") debug_serie_icon = `<i class="fa fa-fw fa-youtube-play" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+                    else if (data.videos[data.videos.length-1].plataforma == "gdrive" || data.videos[data.videos.length-1].plataforma == "archive")  debug_serie_icon = `<i class="fa fa-fw fa-file-video-o" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+
+                    document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} VODs`;
+                })
+            }
+
+            if (data.hasOwnProperty("analise")) {
+                debug_info.info[debug_nome] += `<br><span>Análise</span>`;
+            }
+            document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info[debug_nome];
+        })
+    }
+
+    //debug da aba Outros
+    console.log("(2/3) Adicionando informações de debug na aba [Outros]");
+    let debug_todos_outros = document.querySelectorAll(".outro_titulo");
+
+    for (var i = 0; i<dados_geral.outros.length; i++) {
+        let debug_outro = dados_geral.outros[i];
+        let debug_outro_nome = debug_outro.curto;
+
+        debug_todos_outros[i].classList.add("jogo_id_outros_"+debug_outro_nome);
+
+        fetch(`video/outros/${debug_outro_nome}/videos.json`)
+        .then(response => response.json())
+        .then(data => {
+            debug_info.info_outro[debug_outro_nome] = "<br>";
+
+            debug_info.info_outro[debug_outro_nome] += `<br><span class="debug_episodios_outros_${debug_outro_nome}">Carregando...</span>`;
+
+            let debug_serie_icon = "";
+            if (data.videos[data.videos.length-1].plataforma == "youtube") debug_serie_icon = `<i class="fa fa-fw fa-youtube-play" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+            else if (data.videos[data.videos.length-1].plataforma == "gdrive" || data.videos[data.videos.length-1].plataforma == "archive")  debug_serie_icon = `<i class="fa fa-fw fa-file-video-o" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+
+            if (data.hasOwnProperty("analise")) {
+                debug_info.info_outro[debug_outro_nome] += `<br><span>Análise</span>`;
+            }
+
+            document.querySelector(".jogo_id_outros_"+debug_outro_nome).innerHTML += debug_info.info_outro[debug_outro_nome];
+            document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} Episódios`;
+        })
+    }
+
+    //debug da aba Standalone
+    console.log("(3/3) Adicionando informações de debug na aba [Vídeos Independentes]");
+
+    document.querySelectorAll(".standalone_titulo_youtube").forEach((element) =>
+        element.innerHTML += `<br><br><span>YouTube</span>`
+    );
+
+    document.querySelectorAll(".standalone_titulo_gdrive").forEach((element) =>
+        element.innerHTML += `<br><br><span>Google Drive</span>`
+    );
+
+    document.querySelectorAll(".standalone_titulo_archive").forEach((element) =>
+        element.innerHTML += `<br><br><span>Inernet Archive</span>`
+    );
+
+    console.groupEnd();
+
+    return "✅ Modo de debug ativado";
+}
+
+function debug_disable() {
+    if (debug_mode) {
+        debug_mode = false;
+        document.body.classList.remove("debug_ativado");
+        console.log("Modo de debug desativado");
     }
 }

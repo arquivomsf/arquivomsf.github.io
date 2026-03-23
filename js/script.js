@@ -25,7 +25,7 @@ function carregar_itens() {
                         <div class="w-auto h-[225px]">
                             <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" class="h-[225px] object-contain">
                         </div>
-                        <b class="text-center">${jogo_nome}</b>
+                        <b class="jogo_titulo text-center">${jogo_nome}</b>
                     </a>
                     <a href="console?id=${jogo_console_sigla}" class="p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                         <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${jogo_console_nome}</p>
@@ -57,7 +57,7 @@ function carregar_itens() {
                                     <span class="px-1 text-white"><i class="fa fa-fw fa-file-video-o"></i>${standalone_duracao}</span>
                                 </div>
                             </div>
-                            <b class="text-center">${standalone_nome}</b>
+                            <b class="standalone_titulo_${standalone_plataforma} text-center">${standalone_nome}</b>
                         </a>
                     </div>`;
             } else if (standalone_plataforma == "youtube") {
@@ -70,7 +70,7 @@ function carregar_itens() {
                                     <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${standalone_duracao}</span>
                                 </div>
                             </div>
-                            <b class="text-center">${standalone_nome}</b>
+                            <b class="standalone_titulo_${standalone_plataforma} text-center">${standalone_nome}</b>
                         </a>
                     </div>`;
             }
@@ -92,7 +92,7 @@ function carregar_itens() {
                         <div class="relative h-auto">
                             <img src="video/${outros_console_sigla}/${outros_nome_curto}/${outros_imagem}" class="w-auto h-auto aspect-video object-contain">
                         </div>
-                        <b class="text-center">${outros_nome}</b>
+                        <b class="outro_titulo text-center">${outros_nome}</b>
                     </a>
                 </div>`;
         }

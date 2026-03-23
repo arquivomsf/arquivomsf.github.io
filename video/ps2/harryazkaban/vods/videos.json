@@ -1,13 +1,26 @@
 {
     "playlist": [
         {
-            "nome": "Harry Potter and the Prisoner of Azkaban (PS2)",
+            "nome": "Harry Potter e o Prisioneiro de Azkaban (PS2 - VOD)",
             "imagem": "jpg",
-            "link": "",
-            "quantidade": "1"
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvta7xGUGZuooecFN5Cm9nGt",
+            "quantidade": "8"
         }
     ],
     "extras": [
+        {
+            "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 4.5",
+            "id": "harryazkaban4-5",
+            "imagem": "harryazkaban4-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/BEFtfQz-bX8",
+            "duracao": {
+                "horas": 1,
+                "minutos": 37,
+                "segundos": 52
+            },
+            "plataforma": "youtube"
+        },
         {
             "nome": "Marcelo vendo memes do Instagram",
             "id": "reels1",
@@ -37,14 +50,86 @@
     ],
     "videos": [
         {
-            "nome": "Harry Potter and the Prisoner of Azkaban de PS2 - VOD 1",
+            "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 1",
             "imagem": "jpg",
             "link": "",
-            "linkyt": "",
+            "linkyt": "https://youtu.be/eZBUV_iP0wQ",
+            "duracao": {
+                "horas": 1,
+                "minutos": 41,
+                "segundos": 42
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 2",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/dPgLjicrO04",
+            "duracao": {
+                "horas": 2,
+                "minutos": 51,
+                "segundos": 19
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/JAbvi5zEEgI",
+            "duracao": {
+                "horas": 2,
+                "minutos": 23,
+                "segundos": 41
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/SAU9d4U6LlY",
             "duracao": {
                 "horas": 0,
-                "minutos": 0,
-                "segundos": 0
+                "minutos": 41,
+                "segundos": 8
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 5",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/5fEZmIsEpPs",
+            "duracao": {
+                "horas": 1,
+                "minutos": 27,
+                "segundos": 19
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 6",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/GuRpFPq8nK0",
+            "duracao": {
+                "horas": 1,
+                "minutos": 25,
+                "segundos": 13
+            },
+            "plataforma": "youtube"
+        },
+        {
+            "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 7",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/mc0HRdbW0Hc",
+            "duracao": {
+                "horas": 3,
+                "minutos": 26,
+                "segundos": 25
             },
             "plataforma": "youtube"
         }
