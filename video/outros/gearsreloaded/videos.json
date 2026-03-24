@@ -5,7 +5,7 @@
             "imagem": "jpg",
             "_link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsfIhMHuLfu726zKgQReMUO",
             "link": "https://archive.org/details/arquivomsf-gears-of-war-reloaded",
-            "quantidade": "5"
+            "quantidade": "11"
         }
     ],
     "videos": [
@@ -73,6 +73,84 @@
             },
             "plataforma": "gdrive",
             "data": "21/03/2026"
+        },
+        {
+            "nome": "Gameplay de Gears of War_ Reloaded-2026_03_19-00-25-16",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1UF4j5g6D6LhZKfNAVTkYAxexWnqia1CJ/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/03/2026"
+        },
+        {
+            "nome": "Gameplay de Gears of War_ Reloaded-2026_03_19-18-52-38",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1oI2NpfTZhD89kZpL39XGtk40rpXTIpzl/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 58
+            },
+            "plataforma": "gdrive",
+            "data": "23/03/2026"
+        },
+        {
+            "nome": "Gameplay de Gears of War_ Reloaded-2026_03_19-19-11-54",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1YuSz3t2T2NCIIZmJJCTFvR5-wcg73D7t/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/03/2026"
+        },
+        {
+            "nome": "Gameplay de Gears of War_ Reloaded-2026_03_19-19-17-57",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1u8mMi3bwSOydSxj3LVBV0r8Bq8DraZEl/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 58
+            },
+            "plataforma": "gdrive",
+            "data": "23/03/2026"
+        },
+        {
+            "nome": "Gameplay de Gears of War_ Reloaded-2026_03_19-19-18-42",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/10O5i9JOEHO9F53kVrLxzhmdPKyjfTLMp/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 58
+            },
+            "plataforma": "gdrive",
+            "data": "23/03/2026"
+        },
+        {
+            "nome": "Gameplay de Gears of War_ Reloaded-2026_03_20-17-24-44",
+            "imagem": "jpg",
+            "link": "https://drive.google.com/file/d/1K0r_kCaCE8wwR0gSXWCEL-Z9ed35rCS4/view",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "gdrive",
+            "data": "23/03/2026"
         }
     ]
 }
