@@ -447,6 +447,13 @@
             "console": "Mega Drive (MD)",
             "consigla": "md",
             "curto": "terminator"
+        },
+        {
+            "nome": "Justice League Heroes",
+            "tags": "Justice League Heroes liga da justiça sony ps2 playstation 2",
+            "console": "PlayStation 2 (PS2)",
+            "consigla": "ps2",
+            "curto": "justiceleagueheroes"
         }
     ],
     "standalone": [
@@ -1060,6 +1067,38 @@
                 "segundos": 27
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Testando o Left 4 Dead 2 no PC",
+            "tags": "Testando o Left 4 Dead 2 no PC",
+            "imagem": "testandol4d2.jpg",
+            "consigla": "etc",
+            "curto": "testandol4d2",
+            "link": "",
+            "linkyt": "https://youtu.be/niCZoDrUVmc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 32
+            },
+            "plataforma": "youtube",
+            "data": "03/04/2026"
+        },
+        {
+            "nome": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos)",
+            "tags": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos) melhores momentos futebol 0x2 2x0 0 x 2 2 x 0",
+            "imagem": "fla-cor-supercoparei2026.jpg",
+            "consigla": "etc",
+            "curto": "fla-cor-supercoparei2026",
+            "link": "https://archive.org/details/arquivomsf-flamengo-x-corinthians-supercopa-rei-2026-melhores-momentos",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 10,
+                "segundos": 2
+            },
+            "plataforma": "archive",
+            "data": "05/04/2026"
         }
     ],
     "outros": [
@@ -1160,12 +1199,36 @@
             "curto": "patrick"
         },
         {
+            "nome": "Northern Merge",
+            "tags": "Northern Merge jogos navegador dlive",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "northern"
+        },
+        {
             "nome": "Gears of War: Reloaded",
             "tags": "Gears of War: Reloaded xbox",
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
             "curto": "gearsreloaded"
+        },
+        {
+            "nome": "Island Cities",
+            "tags": "Island Cities xbox",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "islandcities"
+        },
+        {
+            "nome": "Jogos de Navegador Online (2026)",
+            "tags": "Jogos de Navegador Online (2026) Clipes",
+            "imagem": "1.jpg",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "browser-2026"
         }
     ],
     "consoles": [

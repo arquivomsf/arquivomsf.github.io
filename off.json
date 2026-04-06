@@ -1,11 +1,11 @@
 {
     "futurosjogos": [
         {
-            "nome": "Justice League Heroes",
-            "tags": "Justice League Heroes liga da justiça sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "justiceleagueheroes"
+            "nome": "Sonic The Hedgehog CD",
+            "tags": "Sonic The Hedgehog CD Sonic CD sega mega drive sega genesis",
+            "console": "Mega Drive (MD)",
+            "consigla": "md",
+            "curto": "soniccd"
         },
         {
             "nome": "Need for Speed: Most Wanted",
@@ -22,8 +22,12 @@
             "curto": "sunshine"
         },
         {
-            "nome": "GameCube (GC)",
+            "nome": "GameCube",
             "sigla": "gc"
+        },
+        {
+            "nome": "Computador",
+            "sigla": "pc"
         }
     ],
     "lostmedia": [

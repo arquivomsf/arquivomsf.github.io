@@ -4,7 +4,7 @@
             "nome": "Fortnite 2026 (Clipes)",
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvscXoyO_-3BK3PISKhCstbM",
-            "quantidade": "3"
+            "quantidade": "6"
         }
     ],
     "videos": [
@@ -43,6 +43,45 @@
                 "segundos": 59
             },
             "plataforma": "youtube"
+        },
+        {
+            "nome": "Jogando Fortnite | 2026_04_04-13-51-09",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/Ptrab-91nuY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "youtube",
+            "data": "04/04/2026"
+        },
+        {
+            "nome": "Jogando Fortnite | 2026_04_04-13-54-56",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/aX_eort82DI",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "youtube",
+            "data": "04/04/2026"
+        },
+        {
+            "nome": "Jogando Fortnite | 2026_04_04-14-40-29",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/T8MJYi8xBl4",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 59
+            },
+            "plataforma": "youtube",
+            "data": "04/04/2026"
         }
     ]
 }

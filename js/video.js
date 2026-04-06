@@ -121,7 +121,7 @@ function carregar_itens() {
       let video_link = dados_serie.videos[i].link;
       let video_imagem = dados_serie.videos[i].imagem;
       if(i == episodioAtual){
-          let console_sigla = dados_geral.consoles[i].sigla;
+          let console_sigla = "outros";
             //document.querySelector(".title-breadcrumb").innerHTML += `<div class="title-breadcrumb-item console-name"><a href="console?id=${console_sigla}">${console_nome}</a></div>`;
             document.querySelector(".navbar-two").innerHTML = `Outros`;
             document.querySelector(".navbar-two").href = `https://arquivomsf.github.io/`;

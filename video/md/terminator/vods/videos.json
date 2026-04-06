@@ -1,89 +1,82 @@
 {
     "playlist": [
         {
-            "nome": "Castlevania: Symphony of the Night (PS1 - VOD)",
+            "nome": "The Terminator (MD - VOD)",
             "imagem": "png",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtTGBTxPSlNmn76cvDUghmr",
-            "quantidade": "3"
+            "quantidade": "4"
         }
     ],
     "extras": [
         {
-            "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "id": "symphony_ps1",
-            "imagem": "../../../etc/symphony_ps1.png",
+            "nome": "The Terminator (MD) - VOD 1.5",
+            "id": "terminator1-5",
+            "imagem": "terminator1-5.jpg",
             "link": "",
-            "linkyt": "https://youtu.be/Y9J4CR4Ksh0",
+            "linkyt": "https://youtu.be/mDH0R1rw3mY",
             "duracao": {
                 "horas": 0,
-                "minutos": 31,
-                "segundos": 4
+                "minutos": 38,
+                "segundos": 41
             },
-            "plataforma": "youtube"
+            "plataforma": "youtube",
+            "data": "05/04/2026"
         },
         {
-            "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "id": "symphony_psp",
-            "imagem": "../../../etc/symphony_psp.png",
+            "nome": "The Terminator (MD) - VOD 2.5",
+            "id": "terminator2-5",
+            "imagem": "terminator2-5.jpg",
             "link": "",
-            "linkyt": "https://youtu.be/k3AxyiZgLas",
+            "linkyt": "https://youtu.be/71wIYyonot0",
             "duracao": {
-                "horas": 0,
-                "minutos": 28,
-                "segundos": 45
+                "horas": 1,
+                "minutos": 15,
+                "segundos": 56
             },
-            "plataforma": "youtube"
+            "plataforma": "youtube",
+            "data": "05/04/2026"
         },
         {
-            "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "id": "symphony_ja",
-            "imagem": "../../../etc/symphony_ja.png",
-            "link": "",
-            "linkyt": "https://youtu.be/mU1SU81TsXk",
+            "nome": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos)",
+            "id": "fla-cor-supercoparei2026",
+            "imagem": "../../../etc/fla-cor-supercoparei2026.jpg",
+            "link": "https://archive.org/details/arquivomsf-flamengo-x-corinthians-supercopa-rei-2026-melhores-momentos",
+            "linkyt": "",
             "duracao": {
                 "horas": 0,
-                "minutos": 32,
-                "segundos": 51
+                "minutos": 10,
+                "segundos": 2
             },
-            "plataforma": "youtube"
+            "plataforma": "archive",
+            "data": "05/04/2026"
         }
     ],
     "videos": [
         {
-            "nome": "Castlevania: Symphony of the Night - VOD 1",
+            "nome": "The Terminator (MD) - VOD 1",
             "imagem": "png",
             "link": "",
-            "linkyt": "https://youtu.be/q_5Lhi-SRu8",
+            "linkyt": "https://youtu.be/5DzKBsROflc",
             "duracao": {
-                "horas": 2,
-                "minutos": 26,
-                "segundos": 19
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Castlevania: Symphony of the Night - VOD 2",
-            "imagem": "png",
-            "link": "",
-            "linkyt": "https://youtu.be/v7DRlbHOTfI",
-            "duracao": {
-                "horas": 2,
+                "horas": 0,
                 "minutos": 31,
-                "segundos": 25
+                "segundos": 21
             },
-            "plataforma": "youtube"
+            "plataforma": "youtube",
+            "data": "05/04/2026"
         },
         {
-            "nome": "Castlevania: Symphony of the Night - VOD 3",
+            "nome": "The Terminator (MD) - VOD 2",
             "imagem": "png",
             "link": "",
-            "linkyt": "https://youtu.be/qFyQrRYPOBc",
+            "linkyt": "https://youtu.be/uy5nyiz_aC0",
             "duracao": {
-                "horas": 1,
-                "minutos": 42,
-                "segundos": 44
+                "horas": 0,
+                "minutos": 31,
+                "segundos": 50
             },
-            "plataforma": "youtube"
+            "plataforma": "youtube",
+            "data": "05/04/2026"
         }
     ]
 }
