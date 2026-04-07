@@ -5,7 +5,7 @@
             "imagem": "jpg",
             "_link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvszcoIXZq6-ufKzPZdnlsRV",
             "link": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026",
-            "quantidade": "3"
+            "quantidade": "7"
         }
     ],
     "videos": [
@@ -47,6 +47,58 @@
             },
             "plataforma": "archive",
             "data": "04/04/2026"
+        },
+        {
+            "nome": "Jogos de Navegador Online | 2026-04-04 20-31-51",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P04+-+Jogos+de+Navegador+Online+_+2026-04-04+20-31-51.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 5,
+                "segundos": 2
+            },
+            "plataforma": "archive",
+            "data": "06/04/2026"
+        },
+        {
+            "nome": "Jogos de Navegador Online | 2026-04-04 20-36-53 ",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P05+-+Jogos+de+Navegador+Online+_+2026-04-04+20-36-53.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 5,
+                "segundos": 5
+            },
+            "plataforma": "archive",
+            "data": "06/04/2026"
+        },
+        {
+            "nome": "Jogos de Navegador Online | 2026-04-04 20-41-59",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P06+-+Jogos+de+Navegador+Online+_+2026-04-04+20-41-59.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 5,
+                "segundos": 0
+            },
+            "plataforma": "archive",
+            "data": "06/04/2026"
+        },
+        {
+            "nome": "Jogos de Navegador Online | 2026-04-04 20-46-59",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P07+-+Jogos+de+Navegador+Online+_+2026-04-04+20-46-59.mp4",
+            "linkyt": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 5,
+                "segundos": 3
+            },
+            "plataforma": "archive",
+            "data": "06/04/2026"
         }
     ]
 }

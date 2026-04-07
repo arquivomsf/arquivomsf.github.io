@@ -1099,6 +1099,22 @@
             },
             "plataforma": "archive",
             "data": "05/04/2026"
+        },
+        {
+            "nome": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis)",
+            "tags": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis) worldguesser geoguesser",
+            "imagem": "worldguessr.jpg",
+            "consigla": "etc",
+            "curto": "worldguessr",
+            "link": "",
+            "linkyt": "https://youtu.be/YGTltVlz5ME",
+            "duracao": {
+                "horas": 2,
+                "minutos": 31,
+                "segundos": 16
+            },
+            "plataforma": "youtube",
+            "data": "06/04/2026"
         }
     ],
     "outros": [
