@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta charset="utf-8">
+    <meta property="og:title" content="Arquivo de Lives - MarceloSouzaF">
+    <meta property="description" content="Arquivo das gravações de lives de jogos retro do MarceloSouzaF">
+    <meta property="og:description" content="Arquivo das gravações de lives de jogos retro do MarceloSouzaF">
+    <meta property="og:image" content="https://arquivomsf.github.io/video/etc/marcelojoker.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Arquivo de Lives - MarceloSouzaF</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/shared.js"></script>
+</head>
+<body class="font-[AdwaitaSans-Regular] bg-[#0f1214]" onload="carregar_consoles_temas('normal','')">
+    <nav class="px-2 bg-gray-800 sticky top-0 w-[100%] text-white flex flex-row sm:flex-row items-center z-10 navbar-default">
+        <div class="tab w-[100%] flex flex-row justify-between">
+            <div class="flex flex-row">
+                <div class="mt-3"><a href="https://arquivomsf.github.io/" class="navbar-home text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500"><i class="fa fa-home"></i></a></div>
+                <div class="mt-3"><span class="navbar-divider select-none py-2.5 px-3.5">→</span></div>
+                <div class="mt-3"><a href="" class="navbar-two text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500">Sobre da Dlive</a></div>
+            </div>
+
+            <div class="flex flex-row">
+                <div class="cursor-pointer w-min my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500" onclick="sidebar_open()"><i class="fa fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="px-2 bg-gray-800 sticky top-0 w-[100%] text-white flex flex-row sm:flex-row items-center z-10 hidden navbar-search">
+        <div class="tab w-[100%] flex flex-row">
+            <div class="m-1 w-full"><input id="inputPesquisa" oninput="pesquisarJogo()" onblur="checarStringVazia()" class="p-1 rounded-sm cursor-text bg-inherit h-full w-full transition-all duration-150 border-1 border-white outline-0 animate-abrir focus:bg-gray-700" type="text"></div>
+
+            <button class="tablinks cursor-pointer my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 float-right w-max hover:bg-gray-500 focus:bg-gray-500" onclick="fechar_pesquisa()"><i class="fa fa-close"></i></button>
+        </div>
+        
+    </nav>
+
+    <div class="hidden px-3 bg-white h-full w-[90%] sm:w-[400px] fixed! z-12 overflow-auto top-0 right-0 animate-right flex flex-col" id="sidebar_main">
+        <div class="block">
+            <button class="float-right w-max border-none block outline-none tablinks cursor-pointer m-2 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-black/20 focus:bg-black/20" onclick="sidebar_close()"><i class="fa fa-close"></i></button>
+        </div>
+        <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Consoles</span>
+        <div class="console_list flex flex-col mb-3">
+
+        </div>
+        <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Temas</span>
+        <div class="themes_list flex flex-col mb-3">
+          <select onchange="setTema(this);" name="choose_theme" id="themes_select" class="nav-link px-2 py-3 float-left w-auto border-1 block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20"></select>
+        </div>
+        <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Mais links</span>
+        <div class="maislinks_list flex flex-col mb-3">
+          <a href="off" class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">OFF (Lost Media)</a>
+          <a href="stats" class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">Estatísticas</a>
+        </div>
+    </div>
+
+    <div class="hidden fixed w-[100%] h-[100%] top-0 left-0 right-0 bottom-0 bg-gray-800 z-10 opacity-50 animate-opacity" onclick="sidebar_close()" id="sidebar_overlay"></div>
+
+    <center>
+
+    <div id="about_page" class="tabcontent m-2">
+
+        <div class="m-2 bg-[#191b1f]">
+            <div class="flex flex-row justify-items-start items-center gap-2 text-white text-[16px] font-[700] p-[16px]">
+                <img src="sobredlive/perfil.png" class="rounded-[50%] cursor-pointer h-[60px]">
+                <span class="cursor-pointer">marcelosouzaf</span>
+                <img src="sobredlive/verified-badge.svg" class="cursor-pointer h-[16px]">
+                <button class="cursor-pointer bg-[#ffd300] hover:bg-[rgba(255,211,0,.8)] rounded-[999px] h-[32px] px-[12px] text-[#0a0b0d] text-[12px] font-[700]">
+                    Seguir
+                </button>
+            </div>
+            <img src="sobredlive/banner.png" class="w-[80%] md:w-[55%]">
+        </div>
+
+        <div class="mx-3 my-5 flex flex-row items-center border-b-1 border-b-[#2c2f33]">
+            <div class="cursor-pointer pb-2 pt-[22px] border-b-1 border-b-[#ffd300] text-[#ffd300] h-full">Sobre</div>
+        </div>
+      <div class="about_content_list p-2 grid grid-cols-1 lg:grid-cols-3 gap-2 w-fit">
+
+        <div class="coluna flex flex-col gap-3 text-[#b0afa6] text-left text-[12px] font-medium wrap-break-word w-[300px]">
+            <img data-v-3c381154="" src="sobredlive/pedidos.png" width="300px" class="">
+            <div class="">
+                🎮 É possível solicitar um jogo retro para eu tentar zerar em live. Mas antes entre em contato comigo para saber se eu já joguei ou não esse game. E eu me reservo no direto de recusar, então por isso é extremamente importante conversar comigo em live sobre o jogo antes de mandar o valor que é medido pela duração do jogo de acordo com o site How Long to Beat:<br>
+                <a href="https://howlongtobeat.com/" class="text-[#3175b3] cursor-pointer" target="_blank">https://howlongtobeat.com/</a><br>
+                A cada 1 hora de duração estimada para completar o básico do jogo (main story), custa:<br>
+                <br>
+                💎 150 Diamantes<br>
+                ou<br>
+                💵 5 Reais no LivePix<br>
+                <br>
+                ⚠️ Quando não tiver doação para escolher um jogo em especifico, o maior doador mensal de limões que estiver na live do final do jogo que estou jogando atualmente, poderá escolher entre duas opções de jogos que eu apresentar, para ser o próximo game das lives.<br>
+                <br>
+                ----------------------------------<br>
+                🤓 Quanto aos reacts, basta mandar o valor referente a duração do vídeo e o link do vídeo do YT no chat da live:<br>
+                <br>
+                💎 15 Diamantes por minuto de vídeo<br>
+                ou<br>
+                💵 1 Real por minuto de vídeo no LIvePix.<br>
+                <br>
+                ----------------------------------<br>
+                <br>
+                🎵 É possível também mandar músicas para ouvir nas pausas das gameplays, em lives de bate papo ou mesmo em algum jogo que não seja importante ouvir o som do game.<br>
+                <br>
+                💎 20 Diamantes música (até 5min)<br>
+                ou<br>
+                💵 1 Real por música no LivePix.
+            </div>
+        </div>
+        <div class="coluna flex flex-col gap-3 text-[#b0afa6] text-left text-[12px] font-medium wrap-break-word w-[300px]">
+            <a href="https://livepix.gg/marcelosouzaf" target="_blank"><img data-v-3c381154="" src="sobredlive/qr.png" width="300px" class="cursor-pointer"></a>
+            <a href="https://livepix.gg/marcelosouzaf" class="text-[#3175b3] cursor-pointer" target="_blank">https://livepix.gg/marcelosouzaf</a>
+        </div>
+        <div class="coluna flex flex-col gap-3 text-[#b0afa6] text-left text-[12px] font-medium wrap-break-word w-[300px]">
+            <a href="https://linktr.ee/marcelosouzaf" target="_blank"><img data-v-3c381154="" src="sobredlive/links.png" width="300px" class="cursor-pointer"></a>
+            <a href="https://linktr.ee/marcelosouzaf" class="text-[#3175b3] cursor-pointer" target="_blank">https://linktr.ee/marcelosouzaf</a>
+        </div>
+
+      </div>
+    </div>
+
+    </center>
+</body>
