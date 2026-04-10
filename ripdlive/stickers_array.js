@@ -34,19 +34,61 @@ const stickers_array = [
 const followers_array = [
     "3e781500b008fe2_300329.png",
     "473915f5300578c_245245.gif",
-    "4173030de008fe2_128128.png"
+    "4173030de008fe2_128128.png",
+    "45f09798500578c_200300.gif",
+    "34ac875b4001190_300417.gif",
+    "4029bcfa1008fe2_300301.gif",
+    "4197bd789008fe2_225225.gif",
+    "4180180680048ac_300300.png",
+    "36095b58a009292_250342.gif",
+    "40b03634a0048ac_270300.gif",
+    "41a07dde7008fe2_258258.gif",
+    "40b035709008fe2_300300.gif",
+    "3de130d31008fe2_200258.gif",
+    "511ac3fa500984a_225225.jpg",
+    "45f73c89200578c_320320.jpg",
+    "41d8c3d5f008fe2_300300.png",
+    "511ae04e100865d_945918.jpg",
+    "3b0dd577b0017d2_300300.gif",
+    "3ccd4dcea005657_235386.gif",
+    "469032731008aab_150225.gif",
+    "4513a89cd0048ac_112112.gif",
+    "5f1c557fa004840_810455.gif",
+    "478e4d019008aab_288288.gif",
+    "36a27e1eb008626_300257.gif",
+    "43b0ddad8008fe2_300300.png",
+    "3f9948e93008fe2_300303.png",
+    "457e76c51001709_300428.jpg",
+    "40ecef19b0048ac_300174.gif",
+    "6f972a7e100996c_358640.gif",
+    "437b0635f008fe2_300300.gif",
+    "3769db69f005657_300326.gif",
+    "421c58b34008fe2_300225.gif",
+    "38e8e857b00431d_224233.gif",
+    "37aff953a005657_112112.gif",
+    "41e0318cb008fe2_112112.gif",
+    "3655c879c001622_300309.gif",
+    "4495fbb06008fe2_112112.gif",
+    "42a369037008fe2_300300.gif",
+    "447a4607e0048ac_300202.jpg",
+    "3825d778b005020_300237.png",
+    "413d3afb60048ac_220232.gif",
+    "414efaeec008fe2_250240.jpg",
+    "40e9262530048ac_300451.gif",
+    "37b4c40dc000955_300345.gif",
+    "404f390a50048ac_269386.gif",
 ]
 
 function load_stickers() {
     for (i = 0; i < stickers_array.length; i++) {
         document.querySelector(".sticker_content_list").innerHTML += `
-            <img src="stickers/${stickers_array[i]}" class="w-auto h-auto">
+            <img src="stickers/canal/${stickers_array[i]}" class="w-auto h-auto">
         `
     }
 
     for (i = 0; i < followers_array.length; i++) {
         document.querySelector(".sticker_followers_content_list").innerHTML += `
-            <img src="stickers/${followers_array[i]}" class="w-auto h-auto">
+            <img src="stickers/followers/${followers_array[i]}" class="w-auto h-auto">
         `
     }
 }
