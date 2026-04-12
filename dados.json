@@ -454,6 +454,13 @@
             "console": "PlayStation 2 (PS2)",
             "consigla": "ps2",
             "curto": "justiceleagueheroes"
+        },
+        {
+            "nome": "Sonic The Hedgehog CD",
+            "tags": "Sonic The Hedgehog CD Sonic CD sega mega drive sega genesis",
+            "console": "Mega Drive (MD)",
+            "consigla": "md",
+            "curto": "soniccd"
         }
     ],
     "standalone": [
@@ -1115,6 +1122,38 @@
             },
             "plataforma": "youtube",
             "data": "06/04/2026"
+        },
+        {
+            "nome": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK",
+            "tags": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK live incrível magnífica",
+            "imagem": "primeiralivekick.jpg",
+            "consigla": "etc",
+            "curto": "primeiralivekick",
+            "link": "",
+            "linkyt": "https://youtu.be/InLD-R0ycCo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 23
+            },
+            "plataforma": "youtube",
+            "data": "08/04/2026"
+        },
+        {
+            "nome": "ADEUS DLIVE.. foi bom enquanto durou...",
+            "tags": "ADEUS DLIVE.. foi bom enquanto durou... última live na dlive morreu",
+            "imagem": "adeusdlive.png",
+            "consigla": "etc",
+            "curto": "adeusdlive",
+            "link": "",
+            "linkyt": "https://youtu.be/10ivsxJT69M",
+            "duracao": {
+                "horas": 1,
+                "minutos": 19,
+                "segundos": 32
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
         }
     ],
     "outros": [
@@ -1207,12 +1246,12 @@
             "curto": "wh40k-spacemarine2"
         },
         {
-            "nome": "Dia de São Patrício",
-            "tags": "Dia de São Patrício evento da dlive",
+            "nome": "Dia de São Patrício (Evento da DLive)",
+            "tags": "Dia de São Patrício Evento da DLive",
             "imagem": "1.jpg",
             "console": "Outros",
             "consigla": "outros",
-            "curto": "patrick"
+            "curto": "evento-patrick"
         },
         {
             "nome": "Northern Merge",
@@ -1231,6 +1270,14 @@
             "curto": "gearsreloaded"
         },
         {
+            "nome": "Páscoa (Evento da DLive)",
+            "tags": "Páscoa Evento da DLive",
+            "imagem": "1.png",
+            "console": "Outros",
+            "consigla": "outros",
+            "curto": "evento-pascoa2026"
+        },
+        {
             "nome": "Island Cities",
             "tags": "Island Cities xbox",
             "imagem": "1.jpg",
@@ -1247,7 +1294,6 @@
             "curto": "browser-2026"
         }
     ],
-    "entre gearsreloaded e islandcities": "evento de pascoa da dlive",
     "consoles": [
         {
             "nome": "Nintendo",

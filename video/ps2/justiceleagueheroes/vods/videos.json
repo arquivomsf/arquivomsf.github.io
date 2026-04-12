@@ -1,0 +1,122 @@
+{
+    "playlist": [
+        {
+            "nome": "Justice League Heroes (PS2 - VOD)",
+            "imagem": "png",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv5oKwmRHL7d-I0X870wI3W",
+            "quantidade": "7"
+        }
+    ],
+    "extras": [
+        {
+            "nome": "Justice League Heroes (PS2) - VOD 2.5",
+            "id": "justiceleagueheroes2-5",
+            "imagem": "justiceleagueheroes2-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/J9EXZTvhesk",
+            "duracao": {
+                "horas": 0,
+                "minutos": 40,
+                "segundos": 11
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Justice League Heroes (PS2) - VOD 3.5",
+            "id": "justiceleagueheroes3-5",
+            "imagem": "justiceleagueheroes3-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/ZTA5--VkiJc",
+            "duracao": {
+                "horas": 0,
+                "minutos": 56,
+                "segundos": 47
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Justice League Heroes (PS2) - VOD 4.5",
+            "id": "justiceleagueheroes4-5",
+            "imagem": "justiceleagueheroes4-5.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/mZv5dGEcvvY",
+            "duracao": {
+                "horas": 0,
+                "minutos": 20,
+                "segundos": 39
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK",
+            "id": "primeiralivekick",
+            "imagem": "../../../etc/primeiralivekick.jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/InLD-R0ycCo",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 23
+            },
+            "plataforma": "youtube",
+            "data": "08/04/2026"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Justice League Heroes (PS2) - VOD 1",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/mBkY8k8kkqc",
+            "duracao": {
+                "horas": 2,
+                "minutos": 16,
+                "segundos": 53
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Justice League Heroes (PS2) - VOD 2",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/rXG2JI8AQqU",
+            "duracao": {
+                "horas": 1,
+                "minutos": 59,
+                "segundos": 26
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Justice League Heroes (PS2) - VOD 3",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/7fIMBDep34s",
+            "duracao": {
+                "horas": 1,
+                "minutos": 6,
+                "segundos": 16
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Justice League Heroes (PS2) - VOD 4",
+            "imagem": "jpg",
+            "link": "",
+            "linkyt": "https://youtu.be/SpsqlTw0o1U",
+            "duracao": {
+                "horas": 1,
+                "minutos": 7,
+                "segundos": 12
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        }
+    ]
+}

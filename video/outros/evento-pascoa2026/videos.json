@@ -1,0 +1,93 @@
+{
+    "playlist": [
+        {
+            "nome": "Páscoa - Evento da DLive",
+            "imagem": "png",
+            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsAK2rztxdEZzgXK4w1rHBa",
+            "quantidade": "5"
+        }
+    ],
+    "extras": [
+        {
+            "nome": "Páscoa - Evento da DLive (Dia 5) [Versão Original]",
+            "id": "pascoa5original",
+            "imagem": "5.png",
+            "link": "https://archive.org/details/arquivomsf-pascoa-2026",
+            "linkyt": "",
+            "duracao": {
+                "horas": 2,
+                "minutos": 21,
+                "segundos": 33
+            },
+            "plataforma": "archive",
+            "data": "12/04/2026"
+        }
+    ],
+    "videos": [
+        {
+            "nome": "Páscoa - Evento da DLive (Dia 1)",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/L00JWSiynUI",
+            "duracao": {
+                "horas": 1,
+                "minutos": 53,
+                "segundos": 12
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Páscoa - Evento da DLive (Dia 2)",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/4h9WhnXzBAI",
+            "duracao": {
+                "horas": 1,
+                "minutos": 1,
+                "segundos": 40
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Páscoa - Evento da DLive (Dia 3)",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/xUxJuDssEsY",
+            "duracao": {
+                "horas": 1,
+                "minutos": 12,
+                "segundos": 35
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Páscoa - Evento da DLive (Dia 4)",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/-nCPRrYCiUo",
+            "duracao": {
+                "horas": 1,
+                "minutos": 20,
+                "segundos": 25
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        },
+        {
+            "nome": "Páscoa - Evento da DLive (Dia 5)",
+            "imagem": "png",
+            "link": "",
+            "linkyt": "https://youtu.be/j6UHBxeAMhk",
+            "duracao": {
+                "horas": 2,
+                "minutos": 21,
+                "segundos": 33
+            },
+            "plataforma": "youtube",
+            "data": "12/04/2026"
+        }
+    ]
+}

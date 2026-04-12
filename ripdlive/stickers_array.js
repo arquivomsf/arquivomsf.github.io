@@ -77,6 +77,8 @@ const followers_array = [
     "40e9262530048ac_300451.gif",
     "37b4c40dc000955_300345.gif",
     "404f390a50048ac_269386.gif",
+    "714d1ace200493a_500500.gif",
+    "3ff8cb1e6008fe2_112112.gif"
 ]
 
 function load_stickers() {

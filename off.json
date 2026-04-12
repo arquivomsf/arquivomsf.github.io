@@ -1,13 +1,6 @@
 {
     "futurosjogos": [
         {
-            "nome": "Sonic The Hedgehog CD",
-            "tags": "Sonic The Hedgehog CD Sonic CD sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "soniccd"
-        },
-        {
             "nome": "Need for Speed: Most Wanted",
             "tags": "Need for Speed: Most Wanted nfs gc nintendo gamecube",
             "console": "GameCube (GC)",
