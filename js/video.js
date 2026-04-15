@@ -25,14 +25,14 @@ function carregar_embed_fetch() {
     fetch_dados("geral","dados.json");
     return;
   }
-  //vídeo extra
-  if (extra) {
-    fetch_dados("serie",`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`);
-    return;
-  }
   //vídeo outro
   if (consoleAtual == "outros") {
     fetch_dados("serie_embed",`video/${consoleAtual}/${jogoAtual}/videos.json`);
+    return;
+  }
+  //vídeo extra
+  if (extra) {
+    fetch_dados("serie",`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`);
     return;
   }
   //vídeo episódio
