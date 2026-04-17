@@ -5,7 +5,7 @@
             "imagem": "jpg",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvfpcwum7OTFSuS-05urlav",
             "_link": "https://archive.org/details/arquivomsf-northern-merge",
-            "quantidade": "28"
+            "quantidade": "38"
         }
     ],
     "videos": [
@@ -371,6 +371,136 @@
                 "horas": 0,
                 "minutos": 0,
                 "segundos": 33
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 06-55-55",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P29+-+Jogando+Northern+Merge+_+2026-04-16+06-55-55.mp4",
+            "linkyt": "https://youtu.be/yPAIEQudO0Q",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 5
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 06-57-02",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P30+-+Jogando+Northern+Merge+_+2026-04-16+06-57-02.mp4",
+            "linkyt": "https://youtu.be/scRS4wDS3Gg",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 6
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 06-58-08",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P31+-+Jogando+Northern+Merge+_+2026-04-16+06-58-08.mp4",
+            "linkyt": "https://youtu.be/HjYZsG9GAnc",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 6
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 06-59-15",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P32+-+Jogando+Northern+Merge+_+2026-04-16+06-59-15.mp4",
+            "linkyt": "https://youtu.be/9iEVr8uNo3k",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 5
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 07-00-20",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P33+-+Jogando+Northern+Merge+_+2026-04-16+07-00-20.mp4",
+            "linkyt": "https://youtu.be/MQGQZccsAeI",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 6
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 07-01-27",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P34+-+Jogando+Northern+Merge+_+2026-04-16+07-01-27.mp4",
+            "linkyt": "https://youtu.be/eIgfotHTuX4",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 6
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 07-02-34",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P35+-+Jogando+Northern+Merge+_+2026-04-16+07-02-34.mp4",
+            "linkyt": "https://youtu.be/kwx23N9GMKk",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 2
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 07-03-36",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P36+-+Jogando+Northern+Merge+_+2026-04-16+07-03-36.mp4",
+            "linkyt": "https://youtu.be/4mLfhD7CrnM",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 6
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 07-04-42",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P37+-+Jogando+Northern+Merge+_+2026-04-16+07-04-42.mp4",
+            "linkyt": "https://youtu.be/jKO33ICHCLw",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 1,
+                "segundos": 5
+            }
+        },
+        {
+            "nome": "Jogando Northern Merge | 2026-04-16 07-05-48",
+            "imagem": "jpg",
+            "link": "https://archive.org/details/arquivomsf-northern-merge/P38+-+Jogando+Northern+Merge+_+2026-04-16+07-05-48.mp4",
+            "linkyt": "https://youtu.be/6CB7kHNYoyM",
+            "plataforma": "youtube",
+            "data": "16/04/2026",
+            "duracao": {
+                "horas": 0,
+                "minutos": 0,
+                "segundos": 42
             }
         }
     ]
