@@ -1,78 +1,97 @@
 {
-    "playlist": [
-        {
-            "nome": "The Terminator (MD)",
-            "imagem": "jpg",
-            "_link": "https://archive.org/details/arquivomsf-the-terminator-mega-drive",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv9sAeJXDvNuDJjFA8JioKa",
-            "quantidade": "5"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "The Terminator de Mega Drive - Parte 1",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+1.mp4",
-            "linkyt": "https://youtu.be/34LF4AlYLNQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 15,
-                "segundos": 4
-            },
-            "plataforma": "youtube",
-            "data": "20/03/2026"
-        },
-        {
-            "nome": "The Terminator de Mega Drive - Parte 2",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+2.mp4",
-            "linkyt": "https://youtu.be/3Z-fD7x7WM4",
-            "duracao": {
-                "horas": 0,
-                "minutos": 11,
-                "segundos": 19
-            },
-            "plataforma": "youtube",
-            "data": "20/03/2026"
-        },
-        {
-            "nome": "The Terminator de Mega Drive - Parte 3",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+3.mp4",
-            "linkyt": "https://youtu.be/VpuCRE0qjHk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 15,
-                "segundos": 1
-            },
-            "plataforma": "youtube",
-            "data": "20/03/2026"
-        },
-        {
-            "nome": "The Terminator de Mega Drive - Parte 4",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+4.mp4",
-            "linkyt": "https://youtu.be/y7YAUqG1aYc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 15,
-                "segundos": 4
-            },
-            "plataforma": "youtube",
-            "data": "20/03/2026"
-        },
-        {
-            "nome": "The Terminator de Mega Drive - Parte 5 Final",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+5+Final.mp4",
-            "linkyt": "https://youtu.be/tTeA9MF9V3Q",
-            "duracao": {
-                "horas": 0,
-                "minutos": 5,
-                "segundos": 14
-            },
-            "plataforma": "youtube",
-            "data": "20/03/2026"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "The Terminator (MD)",
+      "imagem": "jpg",
+      "quantidade": "5",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv9sAeJXDvNuDJjFA8JioKa",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-the-terminator-mega-drive"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "The Terminator de Mega Drive - Parte 1",
+      "imagem": "jpg",
+      "data": "20/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/34LF4AlYLNQ",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+1.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "The Terminator de Mega Drive - Parte 2",
+      "imagem": "jpg",
+      "data": "20/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3Z-fD7x7WM4",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+2.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 11,
+        "segundos": 19
+      }
+    },
+    {
+      "nome": "The Terminator de Mega Drive - Parte 3",
+      "imagem": "jpg",
+      "data": "20/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/VpuCRE0qjHk",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+3.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "The Terminator de Mega Drive - Parte 4",
+      "imagem": "jpg",
+      "data": "20/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/y7YAUqG1aYc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+4.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "The Terminator de Mega Drive - Parte 5 Final",
+      "imagem": "jpg",
+      "data": "20/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tTeA9MF9V3Q",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-the-terminator-mega-drive/The+Terminator+de+Mega+Drive+-+Parte+5+Final.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 14
+      }
+    }
+  ]
 }

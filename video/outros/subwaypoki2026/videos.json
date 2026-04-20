@@ -1,0 +1,97 @@
+{
+  "playlist": [
+    {
+      "nome": "Subway Surfers da Poki (2026)",
+      "imagem": "jpg",
+      "quantidade": "5",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvughGHwU0SddUp_cxOnYxDu",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Subway Surfers Ireland | 2026-04-17 19-44-37",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026/P01+-+Jogando+Subway+Surfers+Ireland+_+2026-04-17+19-44-37.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers Ireland | 2026-04-17 19-59-44",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026/P02+-+Jogando+Subway+Surfers+Ireland+_+2026-04-17+19-59-44.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers Ireland | 2026-04-17 20-14-49",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026/P03+-+Jogando+Subway+Surfers+Ireland+_+2026-04-17+20-14-49.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers Ireland | 2026-04-17 20-29-51",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026/P04+-+Jogando+Subway+Surfers+Ireland+_+2026-04-17+20-29-51.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers Ireland | 2026-04-17 20-44-53",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026/P05+-+Jogando+Subway+Surfers+Ireland+_+2026-04-17+20-44-53.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 13,
+        "segundos": 43
+      }
+    }
+  ]
+}

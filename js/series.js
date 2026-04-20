@@ -29,7 +29,7 @@ function carregar_itens() {
     let video_duracao = gerar_timestamp(dados_serie.videos[i].duracao.horas,dados_serie.videos[i].duracao.minutos,dados_serie.videos[i].duracao.segundos);
       document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${video_imagem}`);
       let video_plataforma = dados_serie.videos[i].plataforma;
-      let video_link_youtube = dados_serie.videos[i].linkyt;
+      let video_link = dados_serie.videos[i].links[video_plataforma];
       if (video_plataforma == "gdrive" || video_plataforma == "archive") {
           document.querySelector(".ep_content_list").innerHTML += `
           <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
@@ -46,7 +46,7 @@ function carregar_itens() {
       } else if (video_plataforma == "youtube") {
           document.querySelector(".ep_content_list").innerHTML += `
           <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="${video_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
+            <a href="${video_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
                 <div class="relative h-auto">
                     <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
                     <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
@@ -64,7 +64,8 @@ function carregar_itens() {
   if (dados_serie.hasOwnProperty("playlist")) {
     let playlist_nome = dados_serie.playlist[0].nome;
     let playlist_imagem = dados_serie.playlist[0].imagem;
-    let playlist_link = dados_serie.playlist[0].link;
+    let playlist_plataforma = dados_serie.playlist[0].plataforma;
+    let playlist_link = dados_serie.playlist[0].links[playlist_plataforma];
     let playlist_quantidade = dados_serie.playlist[0].quantidade;
     document.querySelector(".extras_content_list").innerHTML += `
       <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
@@ -85,9 +86,9 @@ function carregar_itens() {
     for (var i = 0; i<dados_serie.extras.length; i++){
       let extra_nome = dados_serie.extras[i].nome;
       let extra_imagem = dados_serie.extras[i].imagem;
-      let extra_link_youtube = dados_serie.extras[i].linkyt;
       let extra_duracao = gerar_timestamp(dados_serie.extras[i].duracao.horas,dados_serie.extras[i].duracao.minutos,dados_serie.extras[i].duracao.segundos);
       let extra_plataforma = dados_serie.extras[i].plataforma;
+      let extra_link = dados_serie.extras[i].links[extra_plataforma];
       let extra_id = dados_serie.extras[i].id;
       if (extra_plataforma == "gdrive" || extra_plataforma == "archive") {
           document.querySelector(".extras_content_list").innerHTML += `
@@ -105,7 +106,7 @@ function carregar_itens() {
       } else if (extra_plataforma == "youtube") {
         document.querySelector(".extras_content_list").innerHTML += `
           <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="${extra_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
+            <a href="${extra_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
                 <div class="relative h-auto">
                     <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
                     <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">

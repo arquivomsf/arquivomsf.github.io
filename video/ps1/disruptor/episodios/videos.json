@@ -1,180 +1,241 @@
 {
-    "playlist": [
-        {
-            "nome": "Disruptor (PS1)",
-            "imagem": "jpg",
-            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvv7wPYtbmnalUmXvRqh98Oe",
-            "quantidade": "14"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1WMsTOWx1AK4fg41Xw6kFX53WCk_DHLRb/view",
-            "linkyt": "https://youtu.be/m_011Vvwpxc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 17
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1_pys_GSnr_ONnvrr3MFfKWmeGoTLKoC5/view",
-            "linkyt": "https://youtu.be/pGELTxJElE0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Csg64G7KG7H89o5jTaCbAxb-5JbB-fDQ/view",
-            "linkyt": "https://youtu.be/K4gMltOuHpM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 55,
-                "segundos": 29
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1bXm1BoaAyDzWpnzHVdPgQEY3R3Z49Yfe/view",
-            "linkyt": "https://youtu.be/MPn2eaHuIM8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 29,
-                "segundos": 31
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 5",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/12KAEDHAXTUj6XT6_JGX_18UY6GCFH7bd/view",
-            "linkyt": "https://youtu.be/D4Z4mHAKVWY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 48,
-                "segundos": 35
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 6",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Dv9kVMrypS1y-58JqwodLCEDQ6P2JM_s/view",
-            "linkyt": "https://youtu.be/0Sl09t_725o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 13
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 7",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1A0zZOuwcFwvKuHmm8uZqBg3i-2sJ4Maj/view",
-            "linkyt": "https://youtu.be/SRHBJvd5wMU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 14
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 8",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1HAAMWfdJOwkdO27RLmWKhMY58Q9W-Pkg/view",
-            "linkyt": "https://youtu.be/N4x5ZnqtM4s",
-            "duracao": {
-                "horas": 0,
-                "minutos": 26,
-                "segundos": 43
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 9",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1w-l85BybNX9spiQiv3PnaIufTD0taCOY/view",
-            "linkyt": "https://youtu.be/kBWbzkV90lo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 53,
-                "segundos": 13
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 10",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Vch47PWAP0aJHl4GTuWJmNiZZ65ytKXB/view",
-            "linkyt": "https://youtu.be/dl5b3J6LyCc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 33,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 11",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Qn-MB6KtddXCimTIuoGodlDVHsbT4ya3/view",
-            "linkyt": "https://youtu.be/wCyWfSf972w",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 33
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 12",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1lAfkdISt6ZEyF9OGgjNAos_thDwOMUnZ/view",
-            "linkyt": "https://youtu.be/K5GyDyvW_ug",
-            "duracao": {
-                "horas": 0,
-                "minutos": 47,
-                "segundos": 12
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 13",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Hd1KtnntVQl1GUocIGe5ExftTwur_Dt5/view",
-            "linkyt": "https://youtu.be/PpmVKHVQnVc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 42,
-                "segundos": 55
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disruptor de PlayStation 1 - Parte 14 FINAL",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1fUmOGQHx8dgzRohGT6K5BpCm4KGkipHY/view",
-            "linkyt": "https://youtu.be/zajjS1XP4ts",
-            "duracao": {
-                "horas": 0,
-                "minutos": 22,
-                "segundos": 1
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Disruptor (PS1)",
+      "imagem": "jpg",
+      "quantidade": "14",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvv7wPYtbmnalUmXvRqh98Oe",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 1",
+      "imagem": "jpg",
+      "data": "14/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/m_011Vvwpxc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 17
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 2",
+      "imagem": "jpg",
+      "data": "14/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/pGELTxJElE0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 3",
+      "imagem": "jpg",
+      "data": "16/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/K4gMltOuHpM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 55,
+        "segundos": 29
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 4",
+      "imagem": "jpg",
+      "data": "16/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/MPn2eaHuIM8",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 29,
+        "segundos": 31
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 5",
+      "imagem": "jpg",
+      "data": "17/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/D4Z4mHAKVWY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 48,
+        "segundos": 35
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 6",
+      "imagem": "jpg",
+      "data": "22/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/0Sl09t_725o",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 13
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 7",
+      "imagem": "jpg",
+      "data": "23/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SRHBJvd5wMU",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 14
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 8",
+      "imagem": "jpg",
+      "data": "23/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/N4x5ZnqtM4s",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 26,
+        "segundos": 43
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 9",
+      "imagem": "jpg",
+      "data": "24/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/kBWbzkV90lo",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 13
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 10",
+      "imagem": "jpg",
+      "data": "24/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/dl5b3J6LyCc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 33,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 11",
+      "imagem": "jpg",
+      "data": "28/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/wCyWfSf972w",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 33
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 12",
+      "imagem": "jpg",
+      "data": "28/02/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/K5GyDyvW_ug",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 47,
+        "segundos": 12
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 13",
+      "imagem": "jpg",
+      "data": "02/03/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/PpmVKHVQnVc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 42,
+        "segundos": 55
+      }
+    },
+    {
+      "nome": "Disruptor de PlayStation 1 - Parte 14 FINAL",
+      "imagem": "jpg",
+      "data": "02/03/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/zajjS1XP4ts",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 22,
+        "segundos": 1
+      }
+    }
+  ]
 }

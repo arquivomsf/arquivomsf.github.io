@@ -1,60 +1,81 @@
 {
-    "playlist": [
-        {
-            "nome": "Moto Racer (PS1)",
-            "imagem": "jpg",
-            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvuHywahQnQX0h42dJAoSs3d",
-            "quantidade": "4"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Moto Racer de PlayStation 1 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1dB38Bd-klVOl8fgtbGTL_aZQoEbkS-aG/view",
-            "linkyt": "https://youtu.be/bCWqmBmU4W0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 42,
-                "segundos": 42
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Moto Racer de PlayStation 1 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1LzRI7W3agErazmvW_KSaHbkzQC9yQM5D/view",
-            "linkyt": "https://youtu.be/gA3zp9m6RHs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 57,
-                "segundos": 24
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Moto Racer de PlayStation 1 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1fN1z6IG4HlPbxbOLIJj80XbcQbT3lYFz/view",
-            "linkyt": "https://youtu.be/emAZiRx3Yj0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 53,
-                "segundos": 44
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Moto Racer de PlayStation 1 - Parte 4 Final",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/10OJHUs_mXafNVIe_3pd2cqWo_yanYZ6D/view",
-            "linkyt": "https://youtu.be/nnrAyEbOIso",
-            "duracao": {
-                "horas": 0,
-                "minutos": 25,
-                "segundos": 6
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Moto Racer (PS1)",
+      "imagem": "jpg",
+      "quantidade": "4",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvuHywahQnQX0h42dJAoSs3d",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Moto Racer de PlayStation 1 - Parte 1",
+      "imagem": "jpg",
+      "data": "24/03/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/bCWqmBmU4W0",
+        "gdrive": "https://drive.google.com/file/d/1dB38Bd-klVOl8fgtbGTL_aZQoEbkS-aG/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 42,
+        "segundos": 42
+      }
+    },
+    {
+      "nome": "Moto Racer de PlayStation 1 - Parte 2",
+      "imagem": "jpg",
+      "data": "24/03/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/gA3zp9m6RHs",
+        "gdrive": "https://drive.google.com/file/d/1LzRI7W3agErazmvW_KSaHbkzQC9yQM5D/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 57,
+        "segundos": 24
+      }
+    },
+    {
+      "nome": "Moto Racer de PlayStation 1 - Parte 3",
+      "imagem": "jpg",
+      "data": "29/03/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/emAZiRx3Yj0",
+        "gdrive": "https://drive.google.com/file/d/1fN1z6IG4HlPbxbOLIJj80XbcQbT3lYFz/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 44
+      }
+    },
+    {
+      "nome": "Moto Racer de PlayStation 1 - Parte 4 Final",
+      "imagem": "jpg",
+      "data": "01/04/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/nnrAyEbOIso",
+        "gdrive": "https://drive.google.com/file/d/10OJHUs_mXafNVIe_3pd2cqWo_yanYZ6D/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 25,
+        "segundos": 6
+      }
+    }
+  ]
 }

@@ -1,169 +1,209 @@
 {
-    "playlist": [
-        {
-            "nome": "Island Cities (Clipes)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsnTsApU3SfxJPdagwYBhfh",
-            "_link": "https://archive.org/details/arquivomsf-island-cities",
-            "quantidade": "12"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Jogando Island Cities-2026_03_27-16-07-52",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P01+-+Jogando+Island+Cities-2026_03_27-16-07-52.mp4",
-            "linkyt": "https://youtu.be/JRquLbVYMpA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_03_27-16-11-20",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P02+-+Jogando+Island+Cities-2026_03_27-16-11-20.mp4",
-            "linkyt": "https://youtu.be/o9Hx2Y6W7us",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_03_27-16-29-52",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P03+-+Jogando+Island+Cities-2026_03_27-16-29-52.mp4",
-            "linkyt": "https://youtu.be/yVrtasagNrc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_03_27-16-35-59",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P04+-+Jogando+Island+Cities-2026_03_27-16-35-59.mp4",
-            "linkyt": "https://youtu.be/63YwuVIe5TM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_03_28-19-42-02",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P05+-+Jogando+Island+Cities-2026_03_28-19-42-02.mp4",
-            "linkyt": "https://youtu.be/r_9La1GLpWQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_03_28-19-21-26",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P06+-+Jogando+Island+Cities-2026_03_28-19-21-26.mp4",
-            "linkyt": "https://youtu.be/I47YAHNc3zc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_04_01-12-39-05",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P07+-+Jogando+Island+Cities-2026_04_01-12-39-05.mp4",
-            "linkyt": "https://youtu.be/LrgP-COi-1c",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_04_03-17-12-12",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P08+-+Jogando+Island+Cities-2026_04_03-17-12-12.mp4",
-            "linkyt": "https://youtu.be/vNT1O_aOW0k",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_04_02-13-19-45",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P09+-+Jogando+Island+Cities-2026_04_02-13-19-45.mp4",
-            "linkyt": "https://youtu.be/RKeB1d0qxk8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "04/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_04_04-16-52-03",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P10+-+Jogando+Island+Cities-2026_04_04-16-52-03.mp4",
-            "linkyt": "https://youtu.be/1cOaPfrqgO8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "06/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_04_05-22-11-22",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P11+-+Jogando+Island+Cities-2026_04_05-22-11-22.mp4",
-            "linkyt": "https://youtu.be/SPZizoRLdB8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "06/04/2026"
-        },
-        {
-            "nome": "Jogando Island Cities-2026_04_05-21-53-34",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-island-cities/P12+-+Jogando+Island+Cities-2026_04_05-21-53-34.mp4",
-            "linkyt": "https://youtu.be/Re_K-drmdUU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "06/04/2026"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Island Cities (Clipes)",
+      "imagem": "jpg",
+      "quantidade": "12",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsnTsApU3SfxJPdagwYBhfh",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Island Cities-2026_03_27-16-07-52",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JRquLbVYMpA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P01+-+Jogando+Island+Cities-2026_03_27-16-07-52.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_03_27-16-11-20",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/o9Hx2Y6W7us",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P02+-+Jogando+Island+Cities-2026_03_27-16-11-20.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_03_27-16-29-52",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/yVrtasagNrc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P03+-+Jogando+Island+Cities-2026_03_27-16-29-52.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_03_27-16-35-59",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/63YwuVIe5TM",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P04+-+Jogando+Island+Cities-2026_03_27-16-35-59.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_03_28-19-42-02",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/r_9La1GLpWQ",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P05+-+Jogando+Island+Cities-2026_03_28-19-42-02.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_03_28-19-21-26",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/I47YAHNc3zc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P06+-+Jogando+Island+Cities-2026_03_28-19-21-26.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_04_01-12-39-05",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/LrgP-COi-1c",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P07+-+Jogando+Island+Cities-2026_04_01-12-39-05.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_04_03-17-12-12",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vNT1O_aOW0k",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P08+-+Jogando+Island+Cities-2026_04_03-17-12-12.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_04_02-13-19-45",
+      "imagem": "jpg",
+      "data": "04/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/RKeB1d0qxk8",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P09+-+Jogando+Island+Cities-2026_04_02-13-19-45.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_04_04-16-52-03",
+      "imagem": "jpg",
+      "data": "06/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/1cOaPfrqgO8",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P10+-+Jogando+Island+Cities-2026_04_04-16-52-03.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_04_05-22-11-22",
+      "imagem": "jpg",
+      "data": "06/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SPZizoRLdB8",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P11+-+Jogando+Island+Cities-2026_04_05-22-11-22.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Island Cities-2026_04_05-21-53-34",
+      "imagem": "jpg",
+      "data": "06/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Re_K-drmdUU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-island-cities/P12+-+Jogando+Island+Cities-2026_04_05-21-53-34.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    }
+  ]
 }

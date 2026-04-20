@@ -1,180 +1,241 @@
 {
-    "playlist": [
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles (MD)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsk4NRpZTUSilX4tYbcTKFL",
-            "quantidade": "14"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/129dyCocmukukH6G2wLvVfaFP9KTasDtQ/view",
-            "linkyt": "https://youtu.be/D7XQnxlt4pA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 32,
-                "segundos": 3
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1zpSyhPvlzYcuqnd9AMoUHhSrDE_4DbJM/view",
-            "linkyt": "https://youtu.be/DO-Uh2PgLZ0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 30,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1tzf6Z53K6j0XrsH9W8FoM6Ba1moMxB2F/view",
-            "linkyt": "https://youtu.be/QfeUfMoNYiI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 31,
-                "segundos": 0
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1hPxqt7EfJ81ZD3R6lE5xqnabp8FYLSC4/view",
-            "linkyt": "https://youtu.be/e7S-akeqzRA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 22,
-                "segundos": 34
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 5",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1PktlBKbsASBExGM853EwPBZFq3s_33N1/view",
-            "linkyt": "https://youtu.be/WNJjlakrEUg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 25,
-                "segundos": 9
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 6",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1OmKOtfOIkyKNEA2FJc3TyOg2H09UtOGM/view",
-            "linkyt": "https://youtu.be/n-ZK5HCfjg0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 37,
-                "segundos": 5
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 7",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/18eCcKQn_4butp8JZPD-3-ufhFPTn_bN2/view",
-            "linkyt": "https://youtu.be/iTwCQum48Rs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 32,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 8",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1rZJM7sU1v-eK_lMP7tYF5UKw9k4S-Qa3/view",
-            "linkyt": "https://youtu.be/D9S_nwMZhSA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 15,
-                "segundos": 7
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 9",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1t0Bba_IMF86OBInoRtu0_8a7YPPHZiPY/view",
-            "linkyt": "https://youtu.be/8j3MD2STfnE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 43,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 10",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1euDlOf-wCLJLvjT-jHVYpVqbdivjymVE/view",
-            "linkyt": "https://youtu.be/HRVmJ__1vjE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 31,
-                "segundos": 30
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 11",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1pawtEnYtlruqH6N8ZXsjzfjg1lHPSQpu/view",
-            "linkyt": "https://youtu.be/dTTeXMRtvy8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 53,
-                "segundos": 16
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 12",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1jo1iahzAdvPq9R_zdq_LRan0opw0Ncnz/view",
-            "linkyt": "https://youtu.be/aR0thTXh1UM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 28,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 13",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ON8RoJsgLtJe3yD5-cdmhlYlcBYe_BkD/view",
-            "linkyt": "https://youtu.be/_fViTnw96kM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 38,
-                "segundos": 56
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 14 Final",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1AA8uxMCDnTAnMsuXHzMOXFZtL22wszVr/view",
-            "linkyt": "https://youtu.be/Xc4kVu7VLvI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles (MD)",
+      "imagem": "jpg",
+      "quantidade": "14",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsk4NRpZTUSilX4tYbcTKFL",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 1",
+      "imagem": "jpg",
+      "data": "16/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/D7XQnxlt4pA",
+        "gdrive": "https://drive.google.com/file/d/129dyCocmukukH6G2wLvVfaFP9KTasDtQ/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 32,
+        "segundos": 3
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 2",
+      "imagem": "jpg",
+      "data": "17/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DO-Uh2PgLZ0",
+        "gdrive": "https://drive.google.com/file/d/1zpSyhPvlzYcuqnd9AMoUHhSrDE_4DbJM/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 30,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 3",
+      "imagem": "jpg",
+      "data": "19/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/QfeUfMoNYiI",
+        "gdrive": "https://drive.google.com/file/d/1tzf6Z53K6j0XrsH9W8FoM6Ba1moMxB2F/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 4",
+      "imagem": "jpg",
+      "data": "20/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/e7S-akeqzRA",
+        "gdrive": "https://drive.google.com/file/d/1hPxqt7EfJ81ZD3R6lE5xqnabp8FYLSC4/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 22,
+        "segundos": 34
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 5",
+      "imagem": "jpg",
+      "data": "21/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/WNJjlakrEUg",
+        "gdrive": "https://drive.google.com/file/d/1PktlBKbsASBExGM853EwPBZFq3s_33N1/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 25,
+        "segundos": 9
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 6",
+      "imagem": "jpg",
+      "data": "22/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/n-ZK5HCfjg0",
+        "gdrive": "https://drive.google.com/file/d/1OmKOtfOIkyKNEA2FJc3TyOg2H09UtOGM/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 37,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 7",
+      "imagem": "jpg",
+      "data": "23/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/iTwCQum48Rs",
+        "gdrive": "https://drive.google.com/file/d/18eCcKQn_4butp8JZPD-3-ufhFPTn_bN2/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 32,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 8",
+      "imagem": "jpg",
+      "data": "24/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/D9S_nwMZhSA",
+        "gdrive": "https://drive.google.com/file/d/1rZJM7sU1v-eK_lMP7tYF5UKw9k4S-Qa3/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 9",
+      "imagem": "jpg",
+      "data": "29/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8j3MD2STfnE",
+        "gdrive": "https://drive.google.com/file/d/1t0Bba_IMF86OBInoRtu0_8a7YPPHZiPY/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 43,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 10",
+      "imagem": "jpg",
+      "data": "29/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HRVmJ__1vjE",
+        "gdrive": "https://drive.google.com/file/d/1euDlOf-wCLJLvjT-jHVYpVqbdivjymVE/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 30
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 11",
+      "imagem": "jpg",
+      "data": "30/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/dTTeXMRtvy8",
+        "gdrive": "https://drive.google.com/file/d/1pawtEnYtlruqH6N8ZXsjzfjg1lHPSQpu/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 16
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 12",
+      "imagem": "jpg",
+      "data": "30/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/aR0thTXh1UM",
+        "gdrive": "https://drive.google.com/file/d/1jo1iahzAdvPq9R_zdq_LRan0opw0Ncnz/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 13",
+      "imagem": "jpg",
+      "data": "31/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/_fViTnw96kM",
+        "gdrive": "https://drive.google.com/file/d/1ON8RoJsgLtJe3yD5-cdmhlYlcBYe_BkD/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 38,
+        "segundos": 56
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles de Mega Drive - Parte 14 Final",
+      "imagem": "jpg",
+      "data": "31/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Xc4kVu7VLvI",
+        "gdrive": "https://drive.google.com/file/d/1AA8uxMCDnTAnMsuXHzMOXFZtL22wszVr/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 4
+      }
+    }
+  ]
 }

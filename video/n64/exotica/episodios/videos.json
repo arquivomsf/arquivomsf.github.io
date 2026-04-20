@@ -1,60 +1,81 @@
 {
-    "playlist": [
-        {
-            "nome": "Cruis'n Exotica (N64)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvue6NCeKZ6vD6DeMKzjvi6N",
-            "quantidade": "4"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Cruis'n Exotica de Nintendo 64 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1lUqE-B6glkRoczqSPRKlnMFy9Bj8LKGT/view",
-            "linkyt": "https://youtu.be/bPU3ziFWobg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 34,
-                "segundos": 9
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Cruis'n Exotica de Nintendo 64 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1gu5U8MHzdZx0NBXwXPaV3vvVckBTm_uc/view",
-            "linkyt": "https://youtu.be/jrLWFQJJJTo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 31,
-                "segundos": 22
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Cruis'n Exotica de Nintendo 64 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1aCO56zdfe8a5X6YFGkO5v8fHK9QF6sKg/view",
-            "linkyt": "https://youtu.be/zoHMo_Rp3k0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 45,
-                "segundos": 13
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Cruis'n Exotica de Nintendo 64 - Parte 4 FINAL",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1B2xhMUrFZZ9lT66GE4i4DAEVXFwgZgoi/view",
-            "linkyt": "https://youtu.be/LSaK3-6G4gQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 18,
-                "segundos": 48
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Cruis'n Exotica (N64)",
+      "imagem": "jpg",
+      "quantidade": "4",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvue6NCeKZ6vD6DeMKzjvi6N",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Cruis'n Exotica de Nintendo 64 - Parte 1",
+      "imagem": "jpg",
+      "data": "01/05/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/bPU3ziFWobg",
+        "gdrive": "https://drive.google.com/file/d/1lUqE-B6glkRoczqSPRKlnMFy9Bj8LKGT/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 34,
+        "segundos": 9
+      }
+    },
+    {
+      "nome": "Cruis'n Exotica de Nintendo 64 - Parte 2",
+      "imagem": "jpg",
+      "data": "02/05/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/jrLWFQJJJTo",
+        "gdrive": "https://drive.google.com/file/d/1gu5U8MHzdZx0NBXwXPaV3vvVckBTm_uc/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 22
+      }
+    },
+    {
+      "nome": "Cruis'n Exotica de Nintendo 64 - Parte 3",
+      "imagem": "jpg",
+      "data": "08/05/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/zoHMo_Rp3k0",
+        "gdrive": "https://drive.google.com/file/d/1aCO56zdfe8a5X6YFGkO5v8fHK9QF6sKg/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 45,
+        "segundos": 13
+      }
+    },
+    {
+      "nome": "Cruis'n Exotica de Nintendo 64 - Parte 4 FINAL",
+      "imagem": "jpg",
+      "data": "09/05/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/LSaK3-6G4gQ",
+        "gdrive": "https://drive.google.com/file/d/1B2xhMUrFZZ9lT66GE4i4DAEVXFwgZgoi/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 18,
+        "segundos": 48
+      }
+    }
+  ]
 }

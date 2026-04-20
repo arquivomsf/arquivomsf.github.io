@@ -1,60 +1,81 @@
 {
-    "playlist": [
-        {
-            "nome": "Super Mario Bros. (NES) ",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsGgynFMKb-ymrEpswJ4Z9l",
-            "quantidade": "4"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Super Mario Bros de NES - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1R-Tvzb90fEkPNqiKnmqZjLm2ar_GN3Kj/view",
-            "linkyt": "https://youtu.be/lpFpGvZ2cFQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 28,
-                "segundos": 1
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Super Mario Bros de NES - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1vSlfDn_YytfQr67CEpQkXcef627IywuK/view",
-            "linkyt": "https://youtu.be/dBkg6PbPxDo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 28,
-                "segundos": 23
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Super Mario Bros de NES - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1cfjWI_WDTpRFLJTGipR2zqVr0Tfwt3Je/view",
-            "linkyt": "https://youtu.be/aQY1DSyfSMc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 33,
-                "segundos": 44
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Super Mario Bros de NES - Parte 4 Final",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/17g7CSy87pxJU-iidPBs4taGtyihPodf4/view",
-            "linkyt": "https://youtu.be/hI-Kwoxcp70",
-            "duracao": {
-                "horas": 0,
-                "minutos": 41,
-                "segundos": 37
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Super Mario Bros. (NES) ",
+      "imagem": "jpg",
+      "quantidade": "4",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsGgynFMKb-ymrEpswJ4Z9l",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Super Mario Bros de NES - Parte 1",
+      "imagem": "jpg",
+      "data": "01/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/lpFpGvZ2cFQ",
+        "gdrive": "https://drive.google.com/file/d/1R-Tvzb90fEkPNqiKnmqZjLm2ar_GN3Kj/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Super Mario Bros de NES - Parte 2",
+      "imagem": "jpg",
+      "data": "02/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/dBkg6PbPxDo",
+        "gdrive": "https://drive.google.com/file/d/1vSlfDn_YytfQr67CEpQkXcef627IywuK/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 23
+      }
+    },
+    {
+      "nome": "Super Mario Bros de NES - Parte 3",
+      "imagem": "jpg",
+      "data": "03/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/aQY1DSyfSMc",
+        "gdrive": "https://drive.google.com/file/d/1cfjWI_WDTpRFLJTGipR2zqVr0Tfwt3Je/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 33,
+        "segundos": 44
+      }
+    },
+    {
+      "nome": "Super Mario Bros de NES - Parte 4 Final",
+      "imagem": "jpg",
+      "data": "04/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/hI-Kwoxcp70",
+        "gdrive": "https://drive.google.com/file/d/17g7CSy87pxJU-iidPBs4taGtyihPodf4/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 41,
+        "segundos": 37
+      }
+    }
+  ]
 }

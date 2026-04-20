@@ -1,132 +1,177 @@
 {
-    "playlist": [
-        {
-            "nome": "Shadow the Hedgehog (PS2)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsNAiGv9I4evjHQYu5NXHW2",
-            "quantidade": "10"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1qCPjRkSg05nmgGXblL-myRKpFTeAnr3g/view",
-            "linkyt": "https://youtu.be/BWvDNmHb8yM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 0
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1_MRQbVVw-c8mKe6iR9GFoaaJhjuFXMwK/view",
-            "linkyt": "https://youtu.be/ZRaTXzXybok",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 5
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1saNUZYZwx-Ye0NbszjcwbZAYBBiUzrTA/view",
-            "linkyt": "https://youtu.be/qjdbelLcpJE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1947dNaQChECvis0MTrq5KuVe9831q5aD/view",
-            "linkyt": "https://youtu.be/NSrFcJ6bZt0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 15,
-                "segundos": 14
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 5",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/124QUIU37bJgVixiPqgODlUgARdMJC3On/view",
-            "linkyt": "https://youtu.be/HW78PJ6j0Go",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 6
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 6",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/13K5bP7SMR7oF_eplwYRUj7ead8r-Ywv-/view",
-            "linkyt": "https://youtu.be/uKGHXiV9Gfw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 7",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/15lN7cRePXz3D4oNrN_-3vrGfLGMlm0R6/view",
-            "linkyt": "https://youtu.be/z6qX1ph3mGU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 1
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 8",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ZHFuWQgd0_dxvxVmu_AIEm57k6kb_Qm4/view",
-            "linkyt": "https://youtu.be/FUXdm3MSYms",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 5
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 9",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1q4Yl97DSV59WR0FVPIRuEdLDiei6tF7I/view",
-            "linkyt": "https://youtu.be/vzv9wPdYXJk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 7
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 10 Final",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1pv8WvI4-Dm7fE35Dq1Va5_i4jBLOMqNB/view",
-            "linkyt": "https://youtu.be/9vEYcb4HXuE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 16,
-                "segundos": 37
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Shadow the Hedgehog (PS2)",
+      "imagem": "jpg",
+      "quantidade": "10",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsNAiGv9I4evjHQYu5NXHW2",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 1",
+      "imagem": "jpg",
+      "data": "25/02/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/BWvDNmHb8yM",
+        "gdrive": "https://drive.google.com/file/d/1qCPjRkSg05nmgGXblL-myRKpFTeAnr3g/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 2",
+      "imagem": "jpg",
+      "data": "26/02/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ZRaTXzXybok",
+        "gdrive": "https://drive.google.com/file/d/1_MRQbVVw-c8mKe6iR9GFoaaJhjuFXMwK/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 3",
+      "imagem": "jpg",
+      "data": "27/02/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qjdbelLcpJE",
+        "gdrive": "https://drive.google.com/file/d/1saNUZYZwx-Ye0NbszjcwbZAYBBiUzrTA/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 4",
+      "imagem": "jpg",
+      "data": "28/02/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/NSrFcJ6bZt0",
+        "gdrive": "https://drive.google.com/file/d/1947dNaQChECvis0MTrq5KuVe9831q5aD/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 14
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 5",
+      "imagem": "jpg",
+      "data": "01/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HW78PJ6j0Go",
+        "gdrive": "https://drive.google.com/file/d/124QUIU37bJgVixiPqgODlUgARdMJC3On/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 6",
+      "imagem": "jpg",
+      "data": "02/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/uKGHXiV9Gfw",
+        "gdrive": "https://drive.google.com/file/d/13K5bP7SMR7oF_eplwYRUj7ead8r-Ywv-/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 7",
+      "imagem": "jpg",
+      "data": "03/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/z6qX1ph3mGU",
+        "gdrive": "https://drive.google.com/file/d/15lN7cRePXz3D4oNrN_-3vrGfLGMlm0R6/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 8",
+      "imagem": "jpg",
+      "data": "04/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/FUXdm3MSYms",
+        "gdrive": "https://drive.google.com/file/d/1ZHFuWQgd0_dxvxVmu_AIEm57k6kb_Qm4/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 9",
+      "imagem": "jpg",
+      "data": "05/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vzv9wPdYXJk",
+        "gdrive": "https://drive.google.com/file/d/1q4Yl97DSV59WR0FVPIRuEdLDiei6tF7I/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 10 Final",
+      "imagem": "jpg",
+      "data": "06/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/9vEYcb4HXuE",
+        "gdrive": "https://drive.google.com/file/d/1pv8WvI4-Dm7fE35Dq1Va5_i4jBLOMqNB/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 16,
+        "segundos": 37
+      }
+    }
+  ]
 }

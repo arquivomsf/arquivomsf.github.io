@@ -1,1385 +1,1619 @@
 {
-    "jogos": [
-        {
-            "nome": "SpongeBob SquarePants: SuperSponge",
-            "tags": "SpongeBob SquarePants: SuperSponge bob esponja bope esponcha sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "bob"
-        },
-        {
-            "nome": "Assault: Retribution",
-            "tags": "Assault: Retribution sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "assault"
-        },
-        {
-            "nome": "Spider-Man 2: Enter: Electro",
-            "tags": "Spider-Man 2: Enter: Electro Spider Man 2 Enter Electro homem aranha miranha sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "miranha"
-        },
-        {
-            "nome": "The Lost World: Jurassic Park",
-            "tags": "The Lost World: Jurassic Park The Lost World Jurassic Park dino dinossauro sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "jurassic"
-        },
-        {
-            "nome": "Disruptor",
-            "tags": "Disruptor sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "disruptor"
-        },
-        {
-            "nome": "T'ai Fu Wrath of the Tiger",
-            "tags": "T'ai Fu Wrath of the Tiger Tai Fu Wrath of the Tiger taifu sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "taifu"
-        },
-        {
-            "nome": "Disney's Donald Duck: Goin' Quackers",
-            "tags": "Disney's Donald Duck: Goin' Quackers pato donald sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "donald"
-        },
-        {
-            "nome": "Moto Racer",
-            "tags": "Moto Racer sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "moto"
-        },
-        {
-            "nome": "Nightmare Creatures",
-            "tags": "Nightmare Creatures sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "nightmare"
-        },
-        {
-            "nome": "Metal Slug X",
-            "tags": "Metal Slug X sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "slugx"
-        },
-        {
-            "nome": "Sonic The Hedgehog",
-            "tags": "Sonic The Hedgehog 1 Sonic 1 sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "sonic1"
-        },
-        {
-            "nome": "QuackShot",
-            "tags": "QuackShot Starring Donald Duck disney Disney's pato donald sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "quackshot"
-        },
-        {
-            "nome": "Zero Tolerance",
-            "tags": "Zero Tolerance sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "zerotol"
-        },
-        {
-            "nome": "Socket",
-            "tags": "Socket tipo sonic soniclike sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "socket"
-        },
-        {
-            "nome": "Light Crusader",
-            "tags": "Light Crusader action rpg de ação sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "crusader"
-        },
-        {
-            "nome": "Ice Climber",
-            "tags": "Ice Climber nes nintendo",
-            "console": "Nintendo (NES)",
-            "consigla": "nes",
-            "curto": "climber"
-        },
-        {
-            "nome": "Adventure Island",
-            "tags": "Adventure Island nes nintendo",
-            "console": "Nintendo (NES)",
-            "consigla": "nes",
-            "curto": "advisland"
-        },
-        {
-            "nome": "Gun.Smoke",
-            "tags": "Gun.Smoke nes nintendo",
-            "console": "Nintendo (NES)",
-            "consigla": "nes",
-            "curto": "gunsmoke"
-        },
-        {
-            "nome": "DuckTales",
-            "tags": "DuckTales disney Scrooge McDuck Tio Patinhas McPato nes nintendo",
-            "console": "Nintendo (NES)",
-            "consigla": "nes",
-            "curto": "ducktales"
-        },
-        {
-            "nome": "Jackal",
-            "tags": "Jackal nes nintendo",
-            "console": "Nintendo (NES)",
-            "consigla": "nes",
-            "curto": "jackal"
-        },
-        {
-            "nome": "Super Mario 64",
-            "tags": "Super Mario 64 n64 nintendo 64",
-            "console": "Nintendo 64 (N64)",
-            "consigla": "n64",
-            "curto": "mario64"
-        },
-        {
-            "nome": "Castlevania: Legacy of Darkness",
-            "tags": "Castlevania: Legacy of Darkness n64 nintendo 64",
-            "console": "Nintendo 64 (N64)",
-            "consigla": "n64",
-            "curto": "castlelod"
-        },
-        {
-            "nome": "Hercules: The Legendary Journeys",
-            "tags": "Hercules: The Legendary Journeys Hércules: A Lendária Jornada hercules da serie n64 nintendo 64",
-            "console": "Nintendo 64 (N64)",
-            "consigla": "n64",
-            "curto": "hercules"
-        },
-        {
-            "nome": "Disney's Tarzan",
-            "tags": "Disney's Tarzan n64 nintendo 64",
-            "console": "Nintendo 64 (N64)",
-            "consigla": "n64",
-            "curto": "tarzan"
-        },
-        {
-            "nome": "Cruis'n Exotica",
-            "tags": "Cruis'n Exotica n64 nintendo 64",
-            "console": "Nintendo 64 (N64)",
-            "consigla": "n64",
-            "curto": "exotica"
-        },
-        {
-            "nome": "God of War",
-            "tags": "God of War God of War 1 deus da guerra 1 bom de guerra 1 sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "gow1"
-        },
-        {
-            "nome": "Red Dead Revolver",
-            "tags": "Red Dead Revolver red dead redemption sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "revolver"
-        },
-        {
-            "nome": "Cars",
-            "tags": "Cars carros sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "cars"
-        },
-        {
-            "nome": "Call of Duty - Finest Hour",
-            "tags": "Call of Duty Finest Hour cod sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "finest"
-        },
-        {
-            "nome": "Call of Duty 2 - Big Red One",
-            "tags": "Call of Duty 2 Big Red One COD 2 Big Red One sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "bigred"
-        },
-        {
-            "nome": "Sonic The Hedgehog 2",
-            "tags": "Sonic The Hedgehog 2 Sonic 2 sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "sonic2"
-        },
-        {
-            "nome": "Sonic The Hedgehog 3 & Knuckles",
-            "tags": "Sonic The Hedgehog 3 & Knuckles Sonic 3 & Knuckles Sonic The Hedgehog 3 e Knuckles Sonic 3 e Knuckles Sonic 3K sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "sonic3k"
-        },
-        {
-            "nome": "God of War II",
-            "tags": "God of War II God of War 2 deus da guerra 2 bom de guerra 2 sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "gow2"
-        },
-        {
-            "nome": "Call of Duty World at War Final Fronts",
-            "tags": "Call of Duty World at War Final Fronts cod guerra sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "fronts"
-        },
-        {
-            "nome": "Sonic Adventure",
-            "tags": "Sonic Adventure sega dc sega dreamcast",
-            "console": "Dreamcast (DC)",
-            "consigla": "dc",
-            "curto": "sonicadv"
-        },
-        {
-            "nome": "Shadow of the Colossus",
-            "tags": "Shadow of the Colossus sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "colossus"
-        },
-        {
-            "nome": "Pandemonium",
-            "tags": "Pandemonium 1 pão demônio 1 sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "pandemonium"
-        },
-        {
-            "nome": "Manhunt",
-            "tags": "Manhunt caça homem sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "manhunt1"
-        },
-        {
-            "nome": "Road & Track Presents: The Need for Speed",
-            "tags": "Road & Track Presents: The Need for Speed the nfs sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "thenfs"
-        },
-        {
-            "nome": "Sonic Adventure 2",
-            "tags": "Sonic Adventure 2 sega dc sega dreamcast",
-            "console": "Dreamcast (DC)",
-            "consigla": "dc",
-            "curto": "sonicadv2"
-        },
-        {
-            "nome": "The Nightmare Before Christmas: Oogie's Revenge",
-            "tags": "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack Tim Burton sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "nbxmas"
-        },
-        {
-            "nome": "Grand Theft Auto III",
-            "tags": "Grand Theft Auto III gta iii gta 3 sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "gta3"
-        },
-        {
-            "nome": "Shadow the Hedgehog",
-            "tags": "Shadow the Hedgehog sega sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "shadow"
-        },
-        {
-            "nome": "The Sims",
-            "tags": "The Sims sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "sims"
-        },
-        {
-            "nome": "Killzone",
-            "tags": "Killzone sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "killzone"
-        },
-        {
-            "nome": "Banjo-Kazooie: Grunty's Revenge",
-            "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare nintendo game boy advance gba",
-            "console": "Game Boy Advance (GBA)",
-            "consigla": "gba",
-            "curto": "banjogrunty"
-        },
-        {
-            "nome": "Grand Theft Auto: Vice City",
-            "tags": "Grand Theft Auto: Vice City gta vice city sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "gtavc"
-        },
-        {
-            "nome": "Black",
-            "tags": "Black sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "black"
-        },
-        {
-            "nome": "Scarface: The World Is Yours",
-            "tags": "Scarface: The World Is Yours sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "scarface"
-        },
-        {
-            "nome": "Super Mario Bros.",
-            "tags": "Super Mario Bros. mario 1 nes nintendo",
-            "console": "Nintendo (NES)",
-            "consigla": "nes",
-            "curto": "mario1"
-        },
-        {
-            "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
-            "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "lilo"
-        },
-        {
-            "nome": "Harry Potter and the Philosopher's Stone",
-            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "harry"
-        },
-        {
-            "nome": "Need for Speed II",
-            "tags": "Need for Speed II Need for Speed 2 nfs 2 sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "nfs2"
-        },
-        {
-            "nome": "Harry Potter and the Philosopher's Stone",
-            "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "harry"
-        },
-        {
-            "nome": "Pandemonium 2",
-            "tags": "Pandemonium 2 pão demônio 2 sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "pandemonium2"
-        },
-        {
-            "nome": "Alien Trilogy",
-            "tags": "Alien Trilogy sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "alientri"
-        },
-        {
-            "nome": "The Suffering",
-            "tags": "The Suffering sofrimento xibiu sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "suffering"
-        },
-        {
-            "nome": "Castlevania: Symphony of the Night",
-            "tags": "Castlevania: Symphony of the Night akumajo dracula akumajou dracula akumajyo dracula akumajo dorakyura akumajou dorakyura akumajyo dorakyura sinfonia da noite metroidvania alucard sony ps1 playstation 1",
-            "console": "PlayStation 1 (PS1)",
-            "consigla": "ps1",
-            "curto": "symphony"
-        },
-        {
-            "nome": "Half-Life",
-            "tags": "Half-Life half life 1 valve sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "hl1"
-        },
-        {
-            "nome": "Kirby: Nightmare in Dream Land",
-            "tags": "Kirby: Nightmare in Dream Land nintendo game boy advance gba",
-            "console": "Game Boy Advance (GBA)",
-            "consigla": "gba",
-            "curto": "kirbynightmare"
-        },
-        {
-            "nome": "Harry Potter and the Chamber of Secrets",
-            "tags": "Harry Potter and the Chamber of Secrets Harry Potter e a Câmara Secreta sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "harrycamara"
-        },
-        {
-            "nome": "The Godfather: The Game",
-            "tags": "The Godfather: The Game o poderoso chefão o jogo sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "godfather"
-        },
-        {
-            "nome": "Harry Potter and the Prisoner of Azkaban",
-            "tags": "Harry Potter and the Prisoner of Azkaban Harry Potter e o Prisioneiro de Azkaban sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "harryazkaban"
-        },
-        {
-            "nome": "The Terminator",
-            "tags": "The Terminator exterminador do futuro sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "terminator"
-        },
-        {
-            "nome": "Justice League Heroes",
-            "tags": "Justice League Heroes liga da justiça sony ps2 playstation 2",
-            "console": "PlayStation 2 (PS2)",
-            "consigla": "ps2",
-            "curto": "justiceleagueheroes"
-        },
-        {
-            "nome": "Sonic The Hedgehog CD",
-            "tags": "Sonic The Hedgehog CD Sonic CD sega mega drive sega genesis",
-            "console": "Mega Drive (MD)",
-            "consigla": "md",
-            "curto": "soniccd"
-        }
-    ],
-    "standalone": [
-        {
-            "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
-            "tags": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers coco",
-            "imagem": "coco.jpg",
-            "consigla": "etc",
-            "curto": "coco",
-            "link": "https://drive.google.com/file/d/13GLcHstrwxP5MjyujZT2BthBPxgwM38i/view",
-            "linkyt": "https://youtu.be/RDhv4UDwxYQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 5,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sarrada do MarceloSouzaF",
-            "tags": "Sarrada do MarceloSouzaF meme edit edição",
-            "imagem": "sarrada.jpg",
-            "consigla": "etc",
-            "curto": "sarrada",
-            "link": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
-            "_link": "https://archive.org/details/sarrada-do-marcelosouzaf",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 57
-            },
-            "plataforma": "gdrive"
-        },
-        {
-            "nome": "Passeio de Bike pelo Parque Malwee em 2020",
-            "tags": "Passeio de Bike pelo Parque Malwee em 2020",
-            "imagem": "bike2020.jpg",
-            "consigla": "etc",
-            "curto": "bike2020",
-            "link": "https://drive.google.com/file/d/13T0Vd5avB7rTIxq2Lu9u2LJO21mB4RF3/view",
-            "linkyt": "https://youtu.be/E6WVbb-Wwlg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 0
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Testando Layout para Gameplays de PlayStation 1",
-            "tags": "Testando Layout para Gameplays de PlayStation 1 spongebob bob esponja ps1 psx",
-            "imagem": "layout.jpg",
-            "consigla": "etc",
-            "curto": "layout",
-            "link": "https://drive.google.com/file/d/1T1eQI-25GnMSNYXU98AwS49-7sCrqQ9e/view",
-            "linkyt": "https://youtu.be/RbITng3g_vE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 25,
-                "segundos": 37
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "2 Anos do Canal na COSTV",
-            "tags": "2 Anos do Canal na COSTV",
-            "imagem": "2anos_costv.jpg",
-            "consigla": "etc",
-            "curto": "2anos_costv",
-            "link": "",
-            "linkyt": "https://youtu.be/3gsj4oeMmtE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 50
-            },
-            "plataforma": "youtube",
-            "data": "03/01/2022"
-        },
-        {
-            "nome": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
-            "tags": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
-            "imagem": "terminando_passe_fortnite3_3.jpg",
-            "consigla": "etc",
-            "curto": "terminando_passe_fortnite3_3",
-            "link": "",
-            "linkyt": "https://youtu.be/J0EYmoZIJkU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 2,
-                "segundos": 24
-            },
-            "plataforma": "youtube",
-            "data": "13/09/2022"
-        },
-        {
-            "nome": "2 Mil Inscritos no Canal na COSTV",
-            "tags": "2 Mil Inscritos no Canal na COSTV",
-            "imagem": "2milsubs_costv.jpg",
-            "consigla": "etc",
-            "curto": "2milsubs_costv",
-            "link": "",
-            "linkyt": "https://youtu.be/bUQF_fquQ7M",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 18
-            },
-            "plataforma": "youtube",
-            "data": "15/12/2022"
-        },
-        {
-            "nome": "Bem Vindo ao Canal MarceloSouzaF - Trailer 2023",
-            "tags": "Bem Vindo ao Canal MarceloSouzaF - Trailer 2023 Trailer do Canal 2023",
-            "imagem": "trailer2023.jpg",
-            "consigla": "etc",
-            "curto": "trailer2023",
-            "link": "https://archive.org/details/msf-trailer-do-canal-2023",
-            "linkyt": "https://youtu.be/OQUG-d-Hx8Y",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 9
-            },
-            "plataforma": "youtube",
-            "data": "23/12/2022"
-        },
-        {
-            "nome": "3 anos do canal na COSTV",
-            "tags": "3 anos do canal na COSTV",
-            "imagem": "3anos_costv.jpg",
-            "consigla": "etc",
-            "curto": "3anos_costv",
-            "link": "",
-            "linkyt": "https://youtu.be/rQPiGTh_ZTQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 5,
-                "segundos": 55
-            },
-            "plataforma": "youtube",
-            "data": "10/01/2023"
-        },
-        {
-            "nome": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
-            "tags": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
-            "imagem": "especial_29anos.jpg",
-            "consigla": "etc",
-            "curto": "especial_29anos",
-            "link": "https://archive.org/details/especial-do-meu-aniversario-de-29-anos-jogando-classicos-do-canal",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 39,
-                "segundos": 33
-            },
-            "plataforma": "archive",
-            "data": "21/02/2023"
-        },
-        {
-            "nome": "Gaming Channel Trailer | #Consensus2023",
-            "tags": "Gaming Channel Trailer | #Consensus2023",
-            "imagem": "trailer2023_cos.jpg",
-            "consigla": "etc",
-            "curto": "trailer2023_cos",
-            "link": "https://archive.org/details/msf-gaming-channel-trailer-consensus-2023",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 9
-            },
-            "plataforma": "archive",
-            "data": "26/04/2023"
-        },
-        {
-            "nome": "Feliz Aniversário COSTV #4ANOSDECOSTV",
-            "tags": "Feliz Aniversário COSTV #4ANOSDECOSTV",
-            "imagem": "4anos_costv.jpg",
-            "consigla": "etc",
-            "curto": "4anos_costv",
-            "link": "",
-            "linkyt": "https://youtu.be/5JuelzTQht4",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 54
-            },
-            "plataforma": "youtube",
-            "data": "17/06/2023"
-        },
-        {
-            "nome": "Era pra ser um novo recorde no Subway Surfers",
-            "tags": "Era pra ser um novo recorde no Subway Surfers",
-            "imagem": "recordefalhosub.jpg",
-            "consigla": "etc",
-            "curto": "recordefalhosub",
-            "link": "",
-            "linkyt": "https://youtu.be/yJDw_T1FUIY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 45
-            },
-            "plataforma": "youtube",
-            "data": "03/05/2024"
-        },
-        {
-            "nome": "3 MIL INSCRITOS NA COSTV",
-            "tags": "3 MIL INSCRITOS NA COSTV",
-            "imagem": "3milsubs_costv.png",
-            "consigla": "etc",
-            "curto": "3milsubs_costv",
-            "link": "",
-            "linkyt": "https://youtu.be/EV1dbCgHrXY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 5,
-                "segundos": 38
-            },
-            "plataforma": "youtube",
-            "data": "09/07/2024"
-        },
-        {
-            "nome": "A MAIOR LIVE DO CANAL - 10 Horas de Duração",
-            "tags": "A MAIOR LIVE DO CANAL - 10 Horas de Duração recorde",
-            "imagem": "livegrandona.png",
-            "consigla": "etc",
-            "curto": "livegrandona",
-            "link": "https://drive.google.com/file/d/1FQL6YPA3jEm78vd_F3wM6CzO-MyXm04J/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 9
-            },
-            "plataforma": "gdrive"
-        },
-        {
-            "nome": "Marcelo reagindo à comentários em vídeo de Subway Money",
-            "tags": "Marcelo reagindo à comentários em vídeo de Subway Money Subway Surfers",
-            "imagem": "kkkkkkkkk.jpg",
-            "consigla": "etc",
-            "curto": "kkkkkkkkk",
-            "link": "",
-            "linkyt": "https://youtu.be/OiCMeA0VREM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 2,
-                "segundos": 5
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
-            "tags": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
-            "imagem": "besouro.jpg",
-            "consigla": "etc",
-            "curto": "besouro",
-            "link": "",
-            "linkyt": "https://youtu.be/KMGz80arNjQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 13
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Fim da maior live do canal (10 Horas)",
-            "tags": "Fim da maior live do canal (10 Horas) recorde de maior live",
-            "imagem": "maiorliveclipe.jpg",
-            "consigla": "etc",
-            "curto": "maiorliveclipe",
-            "link": "",
-            "linkyt": "https://youtu.be/ysesUFblPpw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 2,
-                "segundos": 39
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Tentando jogar o melhor jogo de corrida de todos os tempos",
-            "tags": "Tentando jogar o melhor jogo de corrida de todos os tempos need for speed most wanted nfs most wanted",
-            "imagem": "mostwantedteste.jpg",
-            "consigla": "etc",
-            "curto": "mostwantedteste",
-            "link": "https://drive.google.com/file/d/1QWkoiRKTLcG8zBjQ5liwaCdaPznh-9mh/view",
-            "linkyt": "https://youtu.be/LpDp_1i87sE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 28,
-                "segundos": 20
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Marcelo conversando sobre jogos da Rockstar",
-            "tags": "Marcelo conversando sobre jogos da Rockstar grand theft auto gta red dead revolver red dead redemption",
-            "imagem": "rockstarcomp.jpg",
-            "consigla": "etc",
-            "curto": "rockstarcomp",
-            "link": "",
-            "linkyt": "https://youtu.be/m4gjIiIMU2Y",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 35
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay de Killzone 2 no PlayStation 3",
-            "tags": "Gameplay de Killzone 2 no PlayStation 3 ps3",
-            "imagem": "killzone2gameplay.jpg",
-            "consigla": "etc",
-            "curto": "killzone2gameplay",
-            "link": "https://drive.google.com/file/d/1kzwCbOGnGd1VeJEBRInjgb4nXF9_prUc/view",
-            "linkyt": "https://youtu.be/q4OuFcihe9I",
-            "duracao": {
-                "horas": 0,
-                "minutos": 34,
-                "segundos": 47
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Testando filtros do emulador",
-            "tags": "Testando filtros do emulador shaders retroarch",
-            "imagem": "emufiltros.jpg",
-            "consigla": "etc",
-            "curto": "emufiltros",
-            "link": "",
-            "linkyt": "https://youtu.be/4P92D3gxZQw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 24,
-                "segundos": 18
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀",
-            "tags": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀 livros escola inteligência sigma based",
-            "imagem": "moggador.jpg",
-            "consigla": "etc",
-            "curto": "moggador",
-            "link": "",
-            "linkyt": "https://youtu.be/I7COFJf3u5U",
-            "duracao": {
-                "horas": 0,
-                "minutos": 27,
-                "segundos": 30
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Tech mostrando o ovo dele",
-            "tags": "Tech mostrando o ovo dele hitbox",
-            "imagem": "ovo.png",
-            "consigla": "etc",
-            "curto": "ovo",
-            "link": "",
-            "linkyt": "https://youtu.be/UNsiqLRMA30",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 20
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Existe um Subway Surfers Brainrot?!",
-            "tags": "Existe um Subway Surfers Brainrot subway brainrot",
-            "imagem": "subwaybrainrot.jpg",
-            "consigla": "etc",
-            "curto": "subwaybrainrot",
-            "link": "https://drive.google.com/file/d/13q9tqcTRD0kRXyr2dZb5tLn00_7MCik7/view",
-            "linkyt": "https://youtu.be/cxP7-0IBMtI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 44
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Mais um Subway Surfers Brainrot",
-            "tags": "Mais um Subway Surfers Brainrot subway brainrot",
-            "imagem": "subwaybrainrot2.jpg",
-            "consigla": "etc",
-            "curto": "subwaybrainrot2",
-            "link": "https://drive.google.com/file/d/1K30_s5CVmgAzEqXf9BflQoI_YW286fwW/view",
-            "linkyt": "https://youtu.be/XhXm4n6TR7s",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 10
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Roleta do Malsebo - 15/10/2025 a 20/10/2025",
-            "tags": "Roleta do Malsebo - 15/10/2025 a 20/10/2025 roleta do marcelo cassino malsebobet malsebo bet marcelobet marcelo bet",
-            "imagem": "roleta.png",
-            "consigla": "etc",
-            "curto": "roleta",
-            "link": "",
-            "linkyt": "https://youtu.be/8lGPfgl3Ppk",
-            "duracao": {
-                "horas": 4,
-                "minutos": 7,
-                "segundos": 41
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "CAFEZIN DA MANHA",
-            "tags": "CAFEZIN DA MANHA",
-            "imagem": "cafezin.png",
-            "consigla": "etc",
-            "curto": "cafezin",
-            "link": "https://drive.google.com/file/d/1NsT2FzbVLJ4H9NluTdh4o1wuYEHc3cue/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 27,
-                "segundos": 19
-            },
-            "plataforma": "gdrive"
-        },
-        {
-            "nome": "Marcelo ouvindo a música +99 do Marcos",
-            "tags": "Marcelo ouvindo a música +99 do Marcos +18 proibida",
-            "imagem": "musicadomarcos.jpg",
-            "consigla": "etc",
-            "curto": "musicadomarcos",
-            "link": "",
-            "linkyt": "https://youtu.be/ZAa5DyLb6Gc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 3,
-                "segundos": 45
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "🔴 É SÓ UM TESTE, NÃO É LIVE REAL OFICIAL",
-            "tags": "🔴 É SÓ UM TESTE, NÃO É LIVE REAL OFICIAL",
-            "imagem": "testeyoutube1.jpg",
-            "consigla": "etc",
-            "curto": "testeyoutube1",
-            "link": "",
-            "linkyt": "https://youtu.be/4JvsecUmPJA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 40,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "MAIS UM TESTE, 123 TESTE TESTANDO ALOU",
-            "tags": "MAIS UM TESTE, 123 TESTE TESTANDO ALOU",
-            "imagem": "testeyoutube2.jpg",
-            "consigla": "etc",
-            "curto": "testeyoutube2",
-            "link": "",
-            "linkyt": "https://youtu.be/RtVcZaFjmLc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 31,
-                "segundos": 37
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Marcelo explicando motivo da troca de plataforma pras lives",
-            "tags": "Marcelo explicando motivo da troca de plataforma pras lives dlive scam dscam china atraso no pagamento drama de marcelosouzaf perdeu tudo morando de aluguel não sobrou nada pro beta não sobrou nada pro betinha não sobra nada pro beta não sobra nada pro betinha",
-            "imagem": "dscam.png",
-            "consigla": "etc",
-            "curto": "dscam",
-            "link": "",
-            "linkyt": "https://youtu.be/jBAHQ6ukSa4",
-            "duracao": {
-                "horas": 0,
-                "minutos": 15,
-                "segundos": 20
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Experimentando 5 Doces Asiáticos",
-            "tags": "Experimentando 5 Doces Asiáticos",
-            "imagem": "5doces.png",
-            "consigla": "etc",
-            "curto": "5doces",
-            "link": "https://drive.google.com/file/d/10iQQxcUZjYKvxbqEhAXwWttLO9-Ml6Wg/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 9,
-                "segundos": 59
-            },
-            "plataforma": "gdrive"
-        },
-        {
-            "nome": "Minha Primeira vez jogando no Super Nintendo",
-            "tags": "Minha Primeira vez jogando no Super Nintendo",
-            "imagem": "1vezsnes.png",
-            "consigla": "etc",
-            "curto": "1vezsnes",
-            "link": "https://drive.google.com/file/d/1sVll-GRmhYGyGc9O1Z5iXoMle4MF85T3/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 48
-            },
-            "plataforma": "gdrive"
-        },
-        {
-            "nome": "Subway Surfers Polo Norte 2025 está INCRÍVEL nesse natal",
-            "tags": "Subway Surfers Polo Norte 2025 está INCRÍVEL nesse natal irônico",
-            "imagem": "polonorte2025.jpg",
-            "consigla": "etc",
-            "curto": "polonorte2025",
-            "link": "https://drive.google.com/file/d/1ManxCIVfKBwsqTurv4vfv5QRLdR5fReZ/view",
-            "linkyt": "https://youtu.be/jyZpyCMnlq8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 9,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "tags": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night en ps1 playstation 1",
-            "imagem": "symphony_ps1.png",
-            "consigla": "etc",
-            "curto": "symphony_ps1",
-            "link": "",
-            "linkyt": "https://youtu.be/Y9J4CR4Ksh0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 31,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "tags": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night en psp playstation portable",
-            "imagem": "symphony_psp.png",
-            "consigla": "etc",
-            "curto": "symphony_psp",
-            "link": "",
-            "linkyt": "https://youtu.be/k3AxyiZgLas",
-            "duracao": {
-                "horas": 0,
-                "minutos": 28,
-                "segundos": 45
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "tags": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night ja ps1 playstation 1 psp portable",
-            "imagem": "symphony_ja.png",
-            "consigla": "etc",
-            "curto": "symphony_ja",
-            "link": "",
-            "linkyt": "https://youtu.be/mU1SU81TsXk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 32,
-                "segundos": 51
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Marcelo vendo memes do Instagram",
-            "tags": "Marcelo vendo memes do Instagram reels besteirol",
-            "imagem": "reels1.jpg",
-            "consigla": "etc",
-            "curto": "reels1",
-            "link": "",
-            "linkyt": "https://youtu.be/lfapyxis-74",
-            "duracao": {
-                "horas": 0,
-                "minutos": 46,
-                "segundos": 38
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Marcelo vendo mais Reels no Instagram",
-            "tags": "Marcelo vendo mais Reels no Instagram memes besteirol",
-            "imagem": "reels2.jpg",
-            "consigla": "etc",
-            "curto": "reels2",
-            "link": "",
-            "linkyt": "https://youtu.be/8uDUif6_TpI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 29,
-                "segundos": 27
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Testando o Left 4 Dead 2 no PC",
-            "tags": "Testando o Left 4 Dead 2 no PC",
-            "imagem": "testandol4d2.jpg",
-            "consigla": "etc",
-            "curto": "testandol4d2",
-            "link": "",
-            "linkyt": "https://youtu.be/niCZoDrUVmc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 32
-            },
-            "plataforma": "youtube",
-            "data": "03/04/2026"
-        },
-        {
-            "nome": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos)",
-            "tags": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos) melhores momentos futebol 0x2 2x0 0 x 2 2 x 0",
-            "imagem": "fla-cor-supercoparei2026.jpg",
-            "consigla": "etc",
-            "curto": "fla-cor-supercoparei2026",
-            "link": "https://archive.org/details/arquivomsf-flamengo-x-corinthians-supercopa-rei-2026-melhores-momentos",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 2
-            },
-            "plataforma": "archive",
-            "data": "05/04/2026"
-        },
-        {
-            "nome": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis)",
-            "tags": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis) worldguesser geoguesser",
-            "imagem": "worldguessr.jpg",
-            "consigla": "etc",
-            "curto": "worldguessr",
-            "link": "",
-            "linkyt": "https://youtu.be/YGTltVlz5ME",
-            "duracao": {
-                "horas": 2,
-                "minutos": 31,
-                "segundos": 16
-            },
-            "plataforma": "youtube",
-            "data": "06/04/2026"
-        },
-        {
-            "nome": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK",
-            "tags": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK live incrível magnífica",
-            "imagem": "primeiralivekick.jpg",
-            "consigla": "etc",
-            "curto": "primeiralivekick",
-            "link": "",
-            "linkyt": "https://youtu.be/InLD-R0ycCo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 23
-            },
-            "plataforma": "youtube",
-            "data": "08/04/2026"
-        },
-        {
-            "nome": "ADEUS DLIVE.. foi bom enquanto durou...",
-            "tags": "ADEUS DLIVE.. foi bom enquanto durou... última live na dlive morreu",
-            "imagem": "adeusdlive.png",
-            "consigla": "etc",
-            "curto": "adeusdlive",
-            "link": "",
-            "linkyt": "https://youtu.be/10ivsxJT69M",
-            "duracao": {
-                "horas": 1,
-                "minutos": 19,
-                "segundos": 32
-            },
-            "plataforma": "youtube",
-            "data": "12/04/2026"
-        }
-    ],
-    "outros": [
-        {
-            "nome": "Lives gravadas (16/03/2023 a 20/04/2023)",
-            "tags": "Lives gravadas (16/03/2023 a 20/04/2023) Kartrider Drift Tomb Raider Reloaded Fortnite SSSnaker",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "marcoabril2023"
-        },
-        {
-            "nome": "Clair Obscur: Expedition 33",
-            "tags": "Clair Obscur: Expedition 33 Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "expedition33"
-        },
-        {
-            "nome": "Resident Evil 4 Remake",
-            "tags": "Resident Evil 4 Remake Clipes re4 re 4 re4 remake re 4 remake",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "re4remake"
-        },
-        {
-            "nome": "Megazord Power Rangers no Fortnite",
-            "tags": "Megazord Power Rangers no Fortnite Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "fort-megazord"
-        },
-        {
-            "nome": "Fortnite 2025",
-            "tags": "Fortnite 2025 Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "fort-2025"
-        },
-        {
-            "nome": "Gear.Club Unlimited 2",
-            "tags": "Gear.Club Unlimited 2 Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "gearunl2"
-        },
-        {
-            "nome": "Fortnite 2026",
-            "tags": "Fortnite 2026 Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "fort-2026"
-        },
-        {
-            "nome": "The Crew 2",
-            "tags": "The Crew 2 Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "thecrew2"
-        },
-        {
-            "nome": "Spec Ops The Line",
-            "tags": "Spec Ops The Line Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "specopstheline"
-        },
-        {
-            "nome": "High on Life 2",
-            "tags": "High on Life 2 Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "highonlife2"
-        },
-        {
-            "nome": "Warhammer 40,000: Space Marine 2",
-            "tags": "Warhammer 40,000: Space Marine 2 II 40k 40000 40.000 40 mil Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "wh40k-spacemarine2"
-        },
-        {
-            "nome": "Dia de São Patrício (Evento da DLive)",
-            "tags": "Dia de São Patrício Evento da DLive",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "evento-patrick"
-        },
-        {
-            "nome": "Northern Merge",
-            "tags": "Northern Merge jogos navegador dlive",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "northern"
-        },
-        {
-            "nome": "Gears of War: Reloaded",
-            "tags": "Gears of War: Reloaded xbox",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "gearsreloaded"
-        },
-        {
-            "nome": "Páscoa (Evento da DLive)",
-            "tags": "Páscoa Evento da DLive",
-            "imagem": "1.png",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "evento-pascoa2026"
-        },
-        {
-            "nome": "Island Cities",
-            "tags": "Island Cities xbox",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "islandcities"
-        },
-        {
-            "nome": "Jogos de Navegador Online (2026)",
-            "tags": "Jogos de Navegador Online (2026) Clipes",
-            "imagem": "1.jpg",
-            "console": "Outros",
-            "consigla": "outros",
-            "curto": "browser-2026"
-        }
-    ],
-    "consoles": [
-        {
-            "nome": "Nintendo",
-            "sigla": "nes"
-        },
-        {
-            "nome": "Nintendo 64",
-            "sigla": "n64"
-        },
-        {
-            "nome": "Game Boy Advance",
-            "sigla": "gba"
-        },
-        {
-            "nome": "Mega Drive",
-            "sigla": "md"
-        },
-        {
-            "nome": "Dreamcast",
-            "sigla": "dc"
-        },
-        {
-            "nome": "PlayStation 1",
-            "sigla": "ps1"
-        },
-        {
-            "nome": "PlayStation 2",
-            "sigla": "ps2"
-        }
-    ],
-    "temas": [
-        {
-            "nome": "Padrão",
-            "valor": "default"
-        },
-        {
-            "nome": "Velho",
-            "valor": "old"
-        },
-        {
-            "nome": "Dracula",
-            "valor": "dracula"
-        },
-        {
-            "nome": "Terminal",
-            "valor": "terminal"
-        },
-        {
-            "nome": "Retro",
-            "valor": "retro"
-        },
-        {
-            "nome": "Estante",
-            "valor": "estante"
-        },
-        {
-            "nome": "Internet Ruim",
-            "valor": "netruim"
-        },
-        {
-            "nome": "Neobrutalismo",
-            "valor": "neob"
-        },
-        {
-            "nome": "Arredondado",
-            "valor": "arredondado"
-        },
-        {
-            "nome": "98",
-            "valor": "98"
-        },
-        {
-            "nome": "XP",
-            "valor": "xp"
-        },
-        {
-            "nome": "7",
-            "valor": "7"
-        },
-        {
-            "nome": "Geo",
-            "valor": "geo"
-        },
-        {
-            "nome": "Dark Gold",
-            "valor": "darkgold"
-        }
-    ]
+  "jogos": [
+    {
+      "nome": "SpongeBob SquarePants: SuperSponge",
+      "tags": "SpongeBob SquarePants: SuperSponge bob esponja bope esponcha sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "bob"
+    },
+    {
+      "nome": "Assault: Retribution",
+      "tags": "Assault: Retribution sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "assault"
+    },
+    {
+      "nome": "Spider-Man 2: Enter: Electro",
+      "tags": "Spider-Man 2: Enter: Electro Spider Man 2 Enter Electro homem aranha miranha sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "miranha"
+    },
+    {
+      "nome": "The Lost World: Jurassic Park",
+      "tags": "The Lost World: Jurassic Park The Lost World Jurassic Park dino dinossauro sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "jurassic"
+    },
+    {
+      "nome": "Disruptor",
+      "tags": "Disruptor sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "disruptor"
+    },
+    {
+      "nome": "T'ai Fu Wrath of the Tiger",
+      "tags": "T'ai Fu Wrath of the Tiger Tai Fu Wrath of the Tiger taifu sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "taifu"
+    },
+    {
+      "nome": "Disney's Donald Duck: Goin' Quackers",
+      "tags": "Disney's Donald Duck: Goin' Quackers pato donald sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "donald"
+    },
+    {
+      "nome": "Moto Racer",
+      "tags": "Moto Racer sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "moto"
+    },
+    {
+      "nome": "Nightmare Creatures",
+      "tags": "Nightmare Creatures sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "nightmare"
+    },
+    {
+      "nome": "Metal Slug X",
+      "tags": "Metal Slug X sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "slugx"
+    },
+    {
+      "nome": "Sonic The Hedgehog",
+      "tags": "Sonic The Hedgehog 1 Sonic 1 sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "sonic1"
+    },
+    {
+      "nome": "QuackShot",
+      "tags": "QuackShot Starring Donald Duck disney Disney's pato donald sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "quackshot"
+    },
+    {
+      "nome": "Zero Tolerance",
+      "tags": "Zero Tolerance sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "zerotol"
+    },
+    {
+      "nome": "Socket",
+      "tags": "Socket tipo sonic soniclike sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "socket"
+    },
+    {
+      "nome": "Light Crusader",
+      "tags": "Light Crusader action rpg de ação sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "crusader"
+    },
+    {
+      "nome": "Ice Climber",
+      "tags": "Ice Climber nes nintendo",
+      "console": "Nintendo (NES)",
+      "consigla": "nes",
+      "curto": "climber"
+    },
+    {
+      "nome": "Adventure Island",
+      "tags": "Adventure Island nes nintendo",
+      "console": "Nintendo (NES)",
+      "consigla": "nes",
+      "curto": "advisland"
+    },
+    {
+      "nome": "Gun.Smoke",
+      "tags": "Gun.Smoke nes nintendo",
+      "console": "Nintendo (NES)",
+      "consigla": "nes",
+      "curto": "gunsmoke"
+    },
+    {
+      "nome": "DuckTales",
+      "tags": "DuckTales disney Scrooge McDuck Tio Patinhas McPato nes nintendo",
+      "console": "Nintendo (NES)",
+      "consigla": "nes",
+      "curto": "ducktales"
+    },
+    {
+      "nome": "Jackal",
+      "tags": "Jackal nes nintendo",
+      "console": "Nintendo (NES)",
+      "consigla": "nes",
+      "curto": "jackal"
+    },
+    {
+      "nome": "Super Mario 64",
+      "tags": "Super Mario 64 n64 nintendo 64",
+      "console": "Nintendo 64 (N64)",
+      "consigla": "n64",
+      "curto": "mario64"
+    },
+    {
+      "nome": "Castlevania: Legacy of Darkness",
+      "tags": "Castlevania: Legacy of Darkness n64 nintendo 64",
+      "console": "Nintendo 64 (N64)",
+      "consigla": "n64",
+      "curto": "castlelod"
+    },
+    {
+      "nome": "Hercules: The Legendary Journeys",
+      "tags": "Hercules: The Legendary Journeys Hércules: A Lendária Jornada hercules da serie n64 nintendo 64",
+      "console": "Nintendo 64 (N64)",
+      "consigla": "n64",
+      "curto": "hercules"
+    },
+    {
+      "nome": "Disney's Tarzan",
+      "tags": "Disney's Tarzan n64 nintendo 64",
+      "console": "Nintendo 64 (N64)",
+      "consigla": "n64",
+      "curto": "tarzan"
+    },
+    {
+      "nome": "Cruis'n Exotica",
+      "tags": "Cruis'n Exotica n64 nintendo 64",
+      "console": "Nintendo 64 (N64)",
+      "consigla": "n64",
+      "curto": "exotica"
+    },
+    {
+      "nome": "God of War",
+      "tags": "God of War God of War 1 deus da guerra 1 bom de guerra 1 sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "gow1"
+    },
+    {
+      "nome": "Red Dead Revolver",
+      "tags": "Red Dead Revolver red dead redemption sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "revolver"
+    },
+    {
+      "nome": "Cars",
+      "tags": "Cars carros sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "cars"
+    },
+    {
+      "nome": "Call of Duty - Finest Hour",
+      "tags": "Call of Duty Finest Hour cod sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "finest"
+    },
+    {
+      "nome": "Call of Duty 2 - Big Red One",
+      "tags": "Call of Duty 2 Big Red One COD 2 Big Red One sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "bigred"
+    },
+    {
+      "nome": "Sonic The Hedgehog 2",
+      "tags": "Sonic The Hedgehog 2 Sonic 2 sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "sonic2"
+    },
+    {
+      "nome": "Sonic The Hedgehog 3 & Knuckles",
+      "tags": "Sonic The Hedgehog 3 & Knuckles Sonic 3 & Knuckles Sonic The Hedgehog 3 e Knuckles Sonic 3 e Knuckles Sonic 3K sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "sonic3k"
+    },
+    {
+      "nome": "God of War II",
+      "tags": "God of War II God of War 2 deus da guerra 2 bom de guerra 2 sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "gow2"
+    },
+    {
+      "nome": "Call of Duty World at War Final Fronts",
+      "tags": "Call of Duty World at War Final Fronts cod guerra sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "fronts"
+    },
+    {
+      "nome": "Sonic Adventure",
+      "tags": "Sonic Adventure sega dc sega dreamcast",
+      "console": "Dreamcast (DC)",
+      "consigla": "dc",
+      "curto": "sonicadv"
+    },
+    {
+      "nome": "Shadow of the Colossus",
+      "tags": "Shadow of the Colossus sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "colossus"
+    },
+    {
+      "nome": "Pandemonium",
+      "tags": "Pandemonium 1 pão demônio 1 sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "pandemonium"
+    },
+    {
+      "nome": "Manhunt",
+      "tags": "Manhunt caça homem sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "manhunt1"
+    },
+    {
+      "nome": "Road & Track Presents: The Need for Speed",
+      "tags": "Road & Track Presents: The Need for Speed the nfs sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "thenfs"
+    },
+    {
+      "nome": "Sonic Adventure 2",
+      "tags": "Sonic Adventure 2 sega dc sega dreamcast",
+      "console": "Dreamcast (DC)",
+      "consigla": "dc",
+      "curto": "sonicadv2"
+    },
+    {
+      "nome": "The Nightmare Before Christmas: Oogie's Revenge",
+      "tags": "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack Tim Burton sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "nbxmas"
+    },
+    {
+      "nome": "Grand Theft Auto III",
+      "tags": "Grand Theft Auto III gta iii gta 3 sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "gta3"
+    },
+    {
+      "nome": "Shadow the Hedgehog",
+      "tags": "Shadow the Hedgehog sega sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "shadow"
+    },
+    {
+      "nome": "The Sims",
+      "tags": "The Sims sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "sims"
+    },
+    {
+      "nome": "Killzone",
+      "tags": "Killzone sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "killzone"
+    },
+    {
+      "nome": "Banjo-Kazooie: Grunty's Revenge",
+      "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare nintendo game boy gameboy advance gba",
+      "console": "Game Boy Advance (GBA)",
+      "consigla": "gba",
+      "curto": "banjogrunty"
+    },
+    {
+      "nome": "Grand Theft Auto: Vice City",
+      "tags": "Grand Theft Auto: Vice City gta vice city sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "gtavc"
+    },
+    {
+      "nome": "Black",
+      "tags": "Black sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "black"
+    },
+    {
+      "nome": "Scarface: The World Is Yours",
+      "tags": "Scarface: The World Is Yours sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "scarface"
+    },
+    {
+      "nome": "Super Mario Bros.",
+      "tags": "Super Mario Bros. mario 1 nes nintendo",
+      "console": "Nintendo (NES)",
+      "consigla": "nes",
+      "curto": "mario1"
+    },
+    {
+      "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
+      "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "lilo"
+    },
+    {
+      "nome": "Harry Potter and the Philosopher's Stone",
+      "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "harry"
+    },
+    {
+      "nome": "Need for Speed II",
+      "tags": "Need for Speed II Need for Speed 2 nfs 2 sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "nfs2"
+    },
+    {
+      "nome": "Harry Potter and the Philosopher's Stone",
+      "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "harry"
+    },
+    {
+      "nome": "Pandemonium 2",
+      "tags": "Pandemonium 2 pão demônio 2 sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "pandemonium2"
+    },
+    {
+      "nome": "Alien Trilogy",
+      "tags": "Alien Trilogy sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "alientri"
+    },
+    {
+      "nome": "The Suffering",
+      "tags": "The Suffering sofrimento xibiu sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "suffering"
+    },
+    {
+      "nome": "Castlevania: Symphony of the Night",
+      "tags": "Castlevania: Symphony of the Night akumajo akumajou akumajyo dracula dorakyura gekka no yasokyoku yasoukyoku nocturne in the moonlight noturno ao luar sinfonia da noite metroidvania alucard sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "symphony"
+    },
+    {
+      "nome": "Half-Life",
+      "tags": "Half-Life half life 1 valve sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "hl1"
+    },
+    {
+      "nome": "Kirby: Nightmare in Dream Land",
+      "tags": "Kirby: Nightmare in Dream Land nintendo game boy gameboy advance gba",
+      "console": "Game Boy Advance (GBA)",
+      "consigla": "gba",
+      "curto": "kirbynightmare"
+    },
+    {
+      "nome": "Harry Potter and the Chamber of Secrets",
+      "tags": "Harry Potter and the Chamber of Secrets Harry Potter e a Câmara Secreta sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "harrycamara"
+    },
+    {
+      "nome": "The Godfather: The Game",
+      "tags": "The Godfather: The Game o poderoso chefão o jogo sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "godfather"
+    },
+    {
+      "nome": "Harry Potter and the Prisoner of Azkaban",
+      "tags": "Harry Potter and the Prisoner of Azkaban Harry Potter e o Prisioneiro de Azkaban sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "harryazkaban"
+    },
+    {
+      "nome": "The Terminator",
+      "tags": "The Terminator exterminador do futuro sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "terminator"
+    },
+    {
+      "nome": "Justice League Heroes",
+      "tags": "Justice League Heroes liga da justiça sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "justiceleagueheroes"
+    },
+    {
+      "nome": "Sonic The Hedgehog CD",
+      "tags": "Sonic The Hedgehog CD Sonic CD sega mega drive sega genesis",
+      "console": "Mega Drive (MD)",
+      "consigla": "md",
+      "curto": "soniccd"
+    }
+  ],
+  "standalone": [
+    {
+      "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
+      "tags": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers coco",
+      "imagem": "coco.jpg",
+      "consigla": "etc",
+      "curto": "coco",
+      "data": "03/01/2020",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/RDhv4UDwxYQ",
+        "gdrive": "https://drive.google.com/file/d/13GLcHstrwxP5MjyujZT2BthBPxgwM38i/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Sarrada do MarceloSouzaF",
+      "tags": "Sarrada do MarceloSouzaF meme edit edição",
+      "imagem": "sarrada.jpg",
+      "consigla": "etc",
+      "curto": "sarrada",
+      "data": "11/11/2020",
+      "plataforma": "gdrive",
+      "links": {
+        "youtube": "",
+        "gdrive": "https://drive.google.com/file/d/1-hQwm0_COi97Jc0t_BSqKcPPL2_sCzcq/view",
+        "archive": "https://archive.org/details/sarrada-do-marcelosouzaf"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 57
+      }
+    },
+    {
+      "nome": "Passeio de Bike pelo Parque Malwee em 2020",
+      "tags": "Passeio de Bike pelo Parque Malwee em 2020",
+      "imagem": "bike2020.jpg",
+      "consigla": "etc",
+      "curto": "bike2020",
+      "data": "02/12/2020",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/E6WVbb-Wwlg",
+        "gdrive": "https://drive.google.com/file/d/13T0Vd5avB7rTIxq2Lu9u2LJO21mB4RF3/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Testando Layout para Gameplays de PlayStation 1",
+      "tags": "Testando Layout para Gameplays de PlayStation 1 spongebob bob esponja ps1 psx",
+      "imagem": "layout.jpg",
+      "consigla": "etc",
+      "curto": "layout",
+      "data": "28/11/2021",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/RbITng3g_vE",
+        "gdrive": "https://drive.google.com/file/d/1T1eQI-25GnMSNYXU98AwS49-7sCrqQ9e/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 25,
+        "segundos": 37
+      }
+    },
+    {
+      "nome": "2 Anos do Canal na COSTV",
+      "tags": "2 Anos do Canal na COSTV",
+      "imagem": "2anos_costv.jpg",
+      "consigla": "etc",
+      "curto": "2anos_costv",
+      "data": "03/01/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3gsj4oeMmtE",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/2+Anos+do+Canal+na+COSTV.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 50
+      }
+    },
+    {
+      "nome": "Adeus Hill Climb Racing 2",
+      "tags": "Adeus Hill Climb Racing 2",
+      "imagem": "adeushillclimb2.jpg",
+      "consigla": "etc",
+      "curto": "adeushillclimb2",
+      "data": "04/03/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SyquIX-xRDs",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/Adeus+Hill+Climb+Racing+2.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 11,
+        "segundos": 23
+      }
+    },
+    {
+      "nome": "Vazou o NOVO SEGREDO do SUBWAY SURFERS",
+      "tags": "Vazou o NOVO SEGREDO do SUBWAY SURFERS",
+      "imagem": "subwaysegredo.jpg",
+      "consigla": "etc",
+      "curto": "subwaysegredo",
+      "data": "03/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/g1nGDr9eOuA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/Vazou+o+NOVO+SEGREDO+do+SUBWAY+SURFERS.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 36
+      }
+    },
+    {
+      "nome": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
+      "tags": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
+      "imagem": "terminando_passe_fortnite3_3.jpg",
+      "consigla": "etc",
+      "curto": "terminando_passe_fortnite3_3",
+      "data": "13/09/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/J0EYmoZIJkU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/Terminando+o+Passe+e+Recompensas+B%C3%B4nus+do+Fortnite+na+Temporada+3+do+Cap%C3%ADtulo+3.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 24
+      }
+    },
+    {
+      "nome": "2 Mil Inscritos no Canal na COSTV",
+      "tags": "2 Mil Inscritos no Canal na COSTV",
+      "imagem": "2milsubs_costv.jpg",
+      "consigla": "etc",
+      "curto": "2milsubs_costv",
+      "data": "15/12/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/bUQF_fquQ7M",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/2+Mil+Inscritos+no+Canal+na+COSTV.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 18
+      }
+    },
+    {
+      "nome": "Bem Vindo ao Canal MarceloSouzaF - Trailer 2023",
+      "tags": "Bem Vindo ao Canal MarceloSouzaF - Trailer 2023 Trailer do Canal 2023",
+      "imagem": "trailer2023.jpg",
+      "consigla": "etc",
+      "curto": "trailer2023",
+      "data": "23/12/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/OQUG-d-Hx8Y",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-trailer-do-canal-2023"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 9
+      }
+    },
+    {
+      "nome": "3 anos do canal na COSTV",
+      "tags": "3 anos do canal na COSTV",
+      "imagem": "3anos_costv.jpg",
+      "consigla": "etc",
+      "curto": "3anos_costv",
+      "data": "10/01/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/rQPiGTh_ZTQ",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/3+anos+do+canal+na+COSTV.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 55
+      }
+    },
+    {
+      "nome": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
+      "tags": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
+      "imagem": "especial_29anos.jpg",
+      "consigla": "etc",
+      "curto": "especial_29anos",
+      "data": "21/02/2023",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/especial-do-meu-aniversario-de-29-anos-jogando-classicos-do-canal"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 39,
+        "segundos": 33
+      }
+    },
+    {
+      "nome": "Gaming Channel Trailer | #Consensus2023",
+      "tags": "Gaming Channel Trailer | #Consensus2023",
+      "imagem": "trailer2023_cos.jpg",
+      "consigla": "etc",
+      "curto": "trailer2023_cos",
+      "data": "26/04/2023",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-gaming-channel-trailer-consensus-2023"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 9
+      }
+    },
+    {
+      "nome": "Feliz Aniversário COSTV #4ANOSDECOSTV",
+      "tags": "Feliz Aniversário COSTV #4ANOSDECOSTV",
+      "imagem": "4anos_costv.jpg",
+      "consigla": "etc",
+      "curto": "4anos_costv",
+      "data": "17/06/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/5JuelzTQht4",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/Feliz+Anivers%C3%A1rio+COSTV+%234ANOSDECOSTV.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 54
+      }
+    },
+    {
+      "nome": "Era pra ser um novo recorde no Subway Surfers",
+      "tags": "Era pra ser um novo recorde no Subway Surfers",
+      "imagem": "recordefalhosub.jpg",
+      "consigla": "etc",
+      "curto": "recordefalhosub",
+      "data": "03/05/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/yJDw_T1FUIY",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/Era+pra+ser+um+novo+recorde+no+Subway+Surfers.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 45
+      }
+    },
+    {
+      "nome": "3 MIL INSCRITOS NA COSTV",
+      "tags": "3 MIL INSCRITOS NA COSTV",
+      "imagem": "3milsubs_costv.png",
+      "consigla": "etc",
+      "curto": "3milsubs_costv",
+      "data": "09/07/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/EV1dbCgHrXY",
+        "gdrive": "",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/3+MIL+INSCRITOS+NA+COSTV.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 38
+      }
+    },
+    {
+      "nome": "A MAIOR LIVE DO CANAL - 10 Horas de Duração",
+      "tags": "A MAIOR LIVE DO CANAL - 10 Horas de Duração recorde",
+      "imagem": "livegrandona.png",
+      "consigla": "etc",
+      "curto": "livegrandona",
+      "data": "13/12/2024",
+      "plataforma": "gdrive",
+      "links": {
+        "youtube": "",
+        "gdrive": "https://drive.google.com/file/d/1FQL6YPA3jEm78vd_F3wM6CzO-MyXm04J/view",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/A+MAIOR+LIVE+DO+CANAL+-+10+Horas+de+Dura%C3%A7%C3%A3o.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 9
+      }
+    },
+    {
+      "nome": "Marcelo reagindo à comentários em vídeo de Subway Money",
+      "tags": "Marcelo reagindo à comentários em vídeo de Subway Money Subway Surfers",
+      "imagem": "kkkkkkkkk.jpg",
+      "consigla": "etc",
+      "curto": "kkkkkkkkk",
+      "data": "02/08/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/OiCMeA0VREM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
+      "tags": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
+      "imagem": "besouro.jpg",
+      "consigla": "etc",
+      "curto": "besouro",
+      "data": "27/01/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/KMGz80arNjQ",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 13
+      }
+    },
+    {
+      "nome": "Fim da maior live do canal (10 Horas)",
+      "tags": "Fim da maior live do canal (10 Horas) recorde de maior live",
+      "imagem": "maiorliveclipe.jpg",
+      "consigla": "etc",
+      "curto": "maiorliveclipe",
+      "data": "29/01/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ysesUFblPpw",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 39
+      }
+    },
+    {
+      "nome": "Tentando jogar o melhor jogo de corrida de todos os tempos",
+      "tags": "Tentando jogar o melhor jogo de corrida de todos os tempos need for speed most wanted nfs most wanted",
+      "imagem": "mostwantedteste.jpg",
+      "consigla": "etc",
+      "curto": "mostwantedteste",
+      "data": "12/06/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/LpDp_1i87sE",
+        "gdrive": "https://drive.google.com/file/d/1QWkoiRKTLcG8zBjQ5liwaCdaPznh-9mh/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 20
+      }
+    },
+    {
+      "nome": "Marcelo conversando sobre jogos da Rockstar",
+      "tags": "Marcelo conversando sobre jogos da Rockstar grand theft auto gta red dead revolver red dead redemption",
+      "imagem": "rockstarcomp.jpg",
+      "consigla": "etc",
+      "curto": "rockstarcomp",
+      "data": "27/04/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/m4gjIiIMU2Y",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 35
+      }
+    },
+    {
+      "nome": "Gameplay de Killzone 2 no PlayStation 3",
+      "tags": "Gameplay de Killzone 2 no PlayStation 3 ps3",
+      "imagem": "killzone2gameplay.jpg",
+      "consigla": "etc",
+      "curto": "killzone2gameplay",
+      "data": "03/06/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/q4OuFcihe9I",
+        "gdrive": "https://drive.google.com/file/d/1kzwCbOGnGd1VeJEBRInjgb4nXF9_prUc/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 34,
+        "segundos": 47
+      }
+    },
+    {
+      "nome": "Testando filtros do emulador",
+      "tags": "Testando filtros do emulador shaders retroarch",
+      "imagem": "emufiltros.jpg",
+      "consigla": "etc",
+      "curto": "emufiltros",
+      "data": "06/08/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4P92D3gxZQw",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 24,
+        "segundos": 18
+      }
+    },
+    {
+      "nome": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀",
+      "tags": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀 livros escola inteligência sigma based",
+      "imagem": "moggador.jpg",
+      "consigla": "etc",
+      "curto": "moggador",
+      "data": "10/08/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/I7COFJf3u5U",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 27,
+        "segundos": 30
+      }
+    },
+    {
+      "nome": "Tech mostrando o ovo dele",
+      "tags": "Tech mostrando o ovo dele hitbox",
+      "imagem": "ovo.png",
+      "consigla": "etc",
+      "curto": "ovo",
+      "data": "19/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/UNsiqLRMA30",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 20
+      }
+    },
+    {
+      "nome": "Existe um Subway Surfers Brainrot?!",
+      "tags": "Existe um Subway Surfers Brainrot subway brainrot",
+      "imagem": "subwaybrainrot.jpg",
+      "consigla": "etc",
+      "curto": "subwaybrainrot",
+      "data": "22/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/cxP7-0IBMtI",
+        "gdrive": "https://drive.google.com/file/d/13q9tqcTRD0kRXyr2dZb5tLn00_7MCik7/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 44
+      }
+    },
+    {
+      "nome": "Mais um Subway Surfers Brainrot",
+      "tags": "Mais um Subway Surfers Brainrot subway brainrot",
+      "imagem": "subwaybrainrot2.jpg",
+      "consigla": "etc",
+      "curto": "subwaybrainrot2",
+      "data": "23/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/XhXm4n6TR7s",
+        "gdrive": "https://drive.google.com/file/d/1K30_s5CVmgAzEqXf9BflQoI_YW286fwW/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 10
+      }
+    },
+    {
+      "nome": "Roleta do Malsebo - 15/10/2025 a 20/10/2025",
+      "tags": "Roleta do Malsebo - 15/10/2025 a 20/10/2025 roleta do marcelo cassino malsebobet malsebo bet marcelobet marcelo bet",
+      "imagem": "roleta.png",
+      "consigla": "etc",
+      "curto": "roleta",
+      "data": "22/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8lGPfgl3Ppk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 4,
+        "minutos": 7,
+        "segundos": 41
+      }
+    },
+    {
+      "nome": "CAFEZIN DA MANHA",
+      "tags": "CAFEZIN DA MANHA",
+      "imagem": "cafezin.png",
+      "consigla": "etc",
+      "curto": "cafezin",
+      "data": "21/10/2025",
+      "plataforma": "gdrive",
+      "links": {
+        "youtube": "",
+        "gdrive": "https://drive.google.com/file/d/1NsT2FzbVLJ4H9NluTdh4o1wuYEHc3cue/view",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/CAFEZIN+DA+MANHA.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 27,
+        "segundos": 19
+      }
+    },
+    {
+      "nome": "Marcelo ouvindo a música +99 do Marcos",
+      "tags": "Marcelo ouvindo a música +99 do Marcos +18 proibida",
+      "imagem": "musicadomarcos.jpg",
+      "consigla": "etc",
+      "curto": "musicadomarcos",
+      "data": "02/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ZAa5DyLb6Gc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 3,
+        "segundos": 45
+      }
+    },
+    {
+      "nome": "🔴 É SÓ UM TESTE, NÃO É LIVE REAL OFICIAL",
+      "tags": "🔴 É SÓ UM TESTE, NÃO É LIVE REAL OFICIAL",
+      "imagem": "testeyoutube1.jpg",
+      "consigla": "etc",
+      "curto": "testeyoutube1",
+      "data": "06/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4JvsecUmPJA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "MAIS UM TESTE, 123 TESTE TESTANDO ALOU",
+      "tags": "MAIS UM TESTE, 123 TESTE TESTANDO ALOU",
+      "imagem": "testeyoutube2.jpg",
+      "consigla": "etc",
+      "curto": "testeyoutube2",
+      "data": "06/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/RtVcZaFjmLc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 37
+      }
+    },
+    {
+      "nome": "Marcelo explicando motivo da troca de plataforma pras lives",
+      "tags": "Marcelo explicando motivo da troca de plataforma pras lives dlive scam dscam china atraso no pagamento drama de marcelosouzaf perdeu tudo morando de aluguel não sobrou nada pro beta não sobrou nada pro betinha não sobra nada pro beta não sobra nada pro betinha",
+      "imagem": "dscam.png",
+      "consigla": "etc",
+      "curto": "dscam",
+      "data": "19/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/jBAHQ6ukSa4",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 20
+      }
+    },
+    {
+      "nome": "Experimentando 5 Doces Asiáticos",
+      "tags": "Experimentando 5 Doces Asiáticos",
+      "imagem": "5doces.png",
+      "consigla": "etc",
+      "curto": "5doces",
+      "data": "01/12/2025",
+      "plataforma": "gdrive",
+      "links": {
+        "youtube": "",
+        "gdrive": "https://drive.google.com/file/d/10iQQxcUZjYKvxbqEhAXwWttLO9-Ml6Wg/view",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/Experimentando+5+Doces+Asi%C3%A1ticos.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Minha Primeira vez jogando no Super Nintendo",
+      "tags": "Minha Primeira vez jogando no Super Nintendo",
+      "imagem": "1vezsnes.png",
+      "consigla": "etc",
+      "curto": "1vezsnes",
+      "data": "01/12/2025",
+      "plataforma": "gdrive",
+      "links": {
+        "youtube": "",
+        "gdrive": "https://drive.google.com/file/d/1sVll-GRmhYGyGc9O1Z5iXoMle4MF85T3/view",
+        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/Minha+Primeira+vez+jogando+no+Super+Nintendo.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 48
+      }
+    },
+    {
+      "nome": "Subway Surfers Polo Norte 2025 está INCRÍVEL nesse natal",
+      "tags": "Subway Surfers Polo Norte 2025 está INCRÍVEL nesse natal irônico",
+      "imagem": "polonorte2025.jpg",
+      "consigla": "etc",
+      "curto": "polonorte2025",
+      "data": "09/12/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/jyZpyCMnlq8",
+        "gdrive": "https://drive.google.com/file/d/1ManxCIVfKBwsqTurv4vfv5QRLdR5fReZ/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "tags": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night en ps1 playstation 1",
+      "imagem": "symphony_ps1.png",
+      "consigla": "etc",
+      "curto": "symphony_ps1",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Y9J4CR4Ksh0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "tags": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night en psp playstation portable",
+      "imagem": "symphony_psp.png",
+      "consigla": "etc",
+      "curto": "symphony_psp",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/k3AxyiZgLas",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 45
+      }
+    },
+    {
+      "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "tags": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night ja ps1 playstation 1 psp portable",
+      "imagem": "symphony_ja.png",
+      "consigla": "etc",
+      "curto": "symphony_ja",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mU1SU81TsXk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 32,
+        "segundos": 51
+      }
+    },
+    {
+      "nome": "Marcelo vendo memes do Instagram",
+      "tags": "Marcelo vendo memes do Instagram reels besteirol",
+      "imagem": "reels1.jpg",
+      "consigla": "etc",
+      "curto": "reels1",
+      "data": "03/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/lfapyxis-74",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 46,
+        "segundos": 38
+      }
+    },
+    {
+      "nome": "Marcelo vendo mais Reels no Instagram",
+      "tags": "Marcelo vendo mais Reels no Instagram memes besteirol",
+      "imagem": "reels2.jpg",
+      "consigla": "etc",
+      "curto": "reels2",
+      "data": "05/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8uDUif6_TpI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 29,
+        "segundos": 27
+      }
+    },
+    {
+      "nome": "Testando o Left 4 Dead 2 no PC",
+      "tags": "Testando o Left 4 Dead 2 no PC",
+      "imagem": "testandol4d2.jpg",
+      "consigla": "etc",
+      "curto": "testandol4d2",
+      "data": "03/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/niCZoDrUVmc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 32
+      }
+    },
+    {
+      "nome": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos)",
+      "tags": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos) melhores momentos futebol 0x2 2x0 0 x 2 2 x 0",
+      "imagem": "fla-cor-supercoparei2026.jpg",
+      "consigla": "etc",
+      "curto": "fla-cor-supercoparei2026",
+      "data": "05/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-flamengo-x-corinthians-supercopa-rei-2026-melhores-momentos"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis)",
+      "tags": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis) worldguesser geoguesser",
+      "imagem": "worldguessr.jpg",
+      "consigla": "etc",
+      "curto": "worldguessr",
+      "data": "06/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/YGTltVlz5ME",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 31,
+        "segundos": 16
+      }
+    },
+    {
+      "nome": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK",
+      "tags": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK live incrível magnífica",
+      "imagem": "primeiralivekick.jpg",
+      "consigla": "etc",
+      "curto": "primeiralivekick",
+      "data": "08/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/InLD-R0ycCo",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 23
+      }
+    },
+    {
+      "nome": "ADEUS DLIVE.. foi bom enquanto durou...",
+      "tags": "ADEUS DLIVE.. foi bom enquanto durou... última live na dlive morreu",
+      "imagem": "adeusdlive.png",
+      "consigla": "etc",
+      "curto": "adeusdlive",
+      "data": "12/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/10ivsxJT69M",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 19,
+        "segundos": 32
+      }
+    }
+  ],
+  "outros": [
+    {
+      "nome": "Próximas Atualizações do Subway Surfers",
+      "tags": "Próximas Atualizações do Subway Surfers",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "subwayteasers"
+    },
+    {
+      "nome": "Lives gravadas (16/03/2023 a 20/04/2023)",
+      "tags": "Lives gravadas (16/03/2023 a 20/04/2023) Kartrider Drift Tomb Raider Reloaded Fortnite SSSnaker",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "marcoabril2023"
+    },
+    {
+      "nome": "Clair Obscur: Expedition 33",
+      "tags": "Clair Obscur: Expedition 33 Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "expedition33"
+    },
+    {
+      "nome": "Resident Evil 4 Remake",
+      "tags": "Resident Evil 4 Remake Clipes re4 re 4 re4 remake re 4 remake",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "re4remake"
+    },
+    {
+      "nome": "Megazord Power Rangers no Fortnite",
+      "tags": "Megazord Power Rangers no Fortnite Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "fort-megazord"
+    },
+    {
+      "nome": "Fortnite 2025",
+      "tags": "Fortnite 2025 Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "fort-2025"
+    },
+    {
+      "nome": "Gear.Club Unlimited 2",
+      "tags": "Gear.Club Unlimited 2 Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "gearunl2"
+    },
+    {
+      "nome": "Fortnite 2026",
+      "tags": "Fortnite 2026 Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "fort-2026"
+    },
+    {
+      "nome": "The Crew 2",
+      "tags": "The Crew 2 Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "thecrew2"
+    },
+    {
+      "nome": "Spec Ops The Line",
+      "tags": "Spec Ops The Line Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "specopstheline"
+    },
+    {
+      "nome": "High on Life 2",
+      "tags": "High on Life 2 Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "highonlife2"
+    },
+    {
+      "nome": "Warhammer 40,000: Space Marine 2",
+      "tags": "Warhammer 40,000: Space Marine 2 II 40k 40000 40.000 40 mil Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "wh40k-spacemarine2"
+    },
+    {
+      "nome": "Dia de São Patrício (Evento da DLive)",
+      "tags": "Dia de São Patrício Evento da DLive",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "evento-patrick"
+    },
+    {
+      "nome": "Northern Merge",
+      "tags": "Northern Merge jogos navegador dlive",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "northern"
+    },
+    {
+      "nome": "Gears of War: Reloaded",
+      "tags": "Gears of War: Reloaded xbox",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "gearsreloaded"
+    },
+    {
+      "nome": "Páscoa (Evento da DLive)",
+      "tags": "Páscoa Evento da DLive",
+      "imagem": "1.png",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "evento-pascoa2026"
+    },
+    {
+      "nome": "Island Cities",
+      "tags": "Island Cities xbox",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "islandcities"
+    },
+    {
+      "nome": "Jogos de Navegador Online (2026)",
+      "tags": "Jogos de Navegador Online (2026) Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "browser-2026"
+    },
+    {
+      "nome": "Left 4 Dead 2",
+      "tags": "Left 4 Dead 2 Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "l4d2"
+    },
+    {
+      "nome": "Subway Surfers da Poki (2026)",
+      "tags": "Subway Surfers da Poki (2026) Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "subwaypoki2026"
+    },
+    {
+      "nome": "Cyberpunk 2077",
+      "tags": "Cyberpunk 2077 Clipes",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "cyberpunk"
+    }
+  ],
+  "consoles": [
+    {
+      "nome": "Nintendo",
+      "sigla": "nes"
+    },
+    {
+      "nome": "Nintendo 64",
+      "sigla": "n64"
+    },
+    {
+      "nome": "Game Boy Advance",
+      "sigla": "gba"
+    },
+    {
+      "nome": "Mega Drive",
+      "sigla": "md"
+    },
+    {
+      "nome": "Dreamcast",
+      "sigla": "dc"
+    },
+    {
+      "nome": "PlayStation 1",
+      "sigla": "ps1"
+    },
+    {
+      "nome": "PlayStation 2",
+      "sigla": "ps2"
+    }
+  ],
+  "temas": [
+    {
+      "nome": "Padrão",
+      "valor": "default"
+    },
+    {
+      "nome": "Velho",
+      "valor": "old"
+    },
+    {
+      "nome": "Dracula",
+      "valor": "dracula"
+    },
+    {
+      "nome": "Terminal",
+      "valor": "terminal"
+    },
+    {
+      "nome": "Retro",
+      "valor": "retro"
+    },
+    {
+      "nome": "Estante",
+      "valor": "estante"
+    },
+    {
+      "nome": "Internet Ruim",
+      "valor": "netruim"
+    },
+    {
+      "nome": "Neobrutalismo",
+      "valor": "neob"
+    },
+    {
+      "nome": "Arredondado",
+      "valor": "arredondado"
+    },
+    {
+      "nome": "98",
+      "valor": "98"
+    },
+    {
+      "nome": "XP",
+      "valor": "xp"
+    },
+    {
+      "nome": "7",
+      "valor": "7"
+    },
+    {
+      "nome": "Geo",
+      "valor": "geo"
+    },
+    {
+      "nome": "Dark Gold",
+      "valor": "darkgold"
+    }
+  ]
 }

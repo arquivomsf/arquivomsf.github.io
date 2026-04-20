@@ -1,48 +1,65 @@
 {
-    "playlist": [
-        {
-            "nome": "Disney's Tarzan (N64)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvs77j0Pjyjkl5cMwIqTvSsw",
-            "quantidade": "3"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Disney's Tarzan de Nintendo 64 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1kTAlVtyuQJPloG7MeSZITJ9gvEF6_LPU/view",
-            "linkyt": "https://youtu.be/sE-jgYsmXP8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 53,
-                "segundos": 8
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disney's Tarzan de Nintendo 64 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1cTck33v-sS9UhbJXiayhMXMI0NzFjCfY/view",
-            "linkyt": "https://youtu.be/mXs3RZ4rbJw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 51,
-                "segundos": 3
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Disney's Tarzan de Nintendo 64 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1b0F0o9KG4An676ClGDBOhWUa4-HCZ4_S/view",
-            "linkyt": "https://youtu.be/7pSUhBO7eZk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 48,
-                "segundos": 36
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Disney's Tarzan (N64)",
+      "imagem": "jpg",
+      "quantidade": "3",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvs77j0Pjyjkl5cMwIqTvSsw",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Disney's Tarzan de Nintendo 64 - Parte 1",
+      "imagem": "jpg",
+      "data": "06/03/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/sE-jgYsmXP8",
+        "gdrive": "https://drive.google.com/file/d/1kTAlVtyuQJPloG7MeSZITJ9gvEF6_LPU/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 8
+      }
+    },
+    {
+      "nome": "Disney's Tarzan de Nintendo 64 - Parte 2",
+      "imagem": "jpg",
+      "data": "08/03/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mXs3RZ4rbJw",
+        "gdrive": "https://drive.google.com/file/d/1cTck33v-sS9UhbJXiayhMXMI0NzFjCfY/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 51,
+        "segundos": 3
+      }
+    },
+    {
+      "nome": "Disney's Tarzan de Nintendo 64 - Parte 3",
+      "imagem": "jpg",
+      "data": "09/03/2023",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/7pSUhBO7eZk",
+        "gdrive": "https://drive.google.com/file/d/1b0F0o9KG4An676ClGDBOhWUa4-HCZ4_S/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 48,
+        "segundos": 36
+      }
+    }
+  ]
 }

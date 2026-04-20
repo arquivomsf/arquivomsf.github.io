@@ -1,572 +1,705 @@
 {
-    "playlist": [
-        {
-            "nome": "Warhammer 40,000: Space Marine 2 (Clipes)",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/",
-            "_link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvVE1RE0QryUQs5grPWuPhM",
-            "quantidade": "43"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-40-20",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1QbXe9nDlVisDDsVdeM9taV6_BEX06_ix/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "12/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-50-11",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/17np5SbQ5aFzpWLPOeb81avDOIZLWqYs_/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "12/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-51-08",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/16RzrGjM_5uTzmFwEslTK1k4h7cT0EI0V/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "12/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-55-23",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ivP5CHJ2Q2301y91D_NcRP3NJiUWJYjw/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "12/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_12-00-14-55",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1mJwv2PgHsl4mzJf1TRjRNB0TBtgXef--/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "12/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_12-23-53-28",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1uXSirMUiSua9SGle-GOH4f8ByUiZtW4C/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-13-53-54",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/15e478KiWegczhT5YvAB_sq_mwRJRA2w3/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 2,
-                "segundos": 52
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-13-47-14",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1EjW9qF3qcE_yTQ2I9RnZBLhys7ivlvgp/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 3,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-17-36-40",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1kqT_tk2TljrdwU5V2KokC6rEPyQJTKMw/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-17-34-52",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1t2KQ5rv2nLDIRO0XosvSFd98EF7bg_n2/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-18-08-20",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1yL8cGVFf-JjD22cwaS-yJVm4vpy-m9ga/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-18-06-57",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1lYSNI35jf11lncEdj8oyNbL4Djh4AOo5/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-16-37-05",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1TLsJ0oeuJzWVNwFnrsvbrGo0Gfysop3u/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-16-39-25",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1jmiK8qOVnYG0L-NqYFupakhgB1SHIVlI/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-16-45-33",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1vodUTcEeHEyv9Fzb1nBRdWl1dFnELLPc/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-17-30-13",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/16AjoWEmfhqjcEMC-Yd-0mSo2O77TWXaQ/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-17-33-14",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1NiQ6Y1hntBibhY_QHY8Zcut5ENyjzDJy/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "14/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_14-23-21-18",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1gGWUOFF3Mjq5BRwAtRMbW54mKMRQq2gs/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "15/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-00-23-38",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Fc3IjbZC557RxmwXBwssKaXvhMCjg532/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "15/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-00-28-31",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ah_Y5mZGU_EfVxwOtXEeaNI_OX55l3iP/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "15/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-00-29-54",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1KZYOKRiAWygzAcTXfvQUzfIa-JfLseZW/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "15/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-01-07-30",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Mn5Bq0pAwAE4ogvOaO4YtUXpwOyMlEM0/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 3,
-                "segundos": 29
-            },
-            "plataforma": "gdrive",
-            "data": "15/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-01-11-10",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/146a4cvsSYKin0CXu6oaJPym9HFJ1KfzS/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 2,
-                "segundos": 37
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-01-11-10",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Chw95-94T4d2HfBIOeY1EW_XgOy0ixFN/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-57-41",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/10PCLo5JnyCH9R0V628t0nemc6s7mYYMu/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-55-40",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ZSLHSBcjU1jWMDO5q5g8jEsb9O-BCMmf/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-58-48",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/192OCk0603hEoRJR9sd5Ofax05BAE_Q5N/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-16-05-39",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1co2e5ylnlPW2vPinqW8Us1wbyhvRv0Sp/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-51-19",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1nxV9PDCI_Y_POV2bwN5lW2iQ9cCgioIC/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-52-29",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1RkhgXr0rBw2cOHrd_nUhTOPdkYHmnxVZ/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-54-28",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/11oXIDlMv5TnCjt8a1pyARm2U4wnP9ylN/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-16-34-28",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1EnZhjvYfzUYik2iPYOQjS2-0W0hitTcM/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-16-49-54",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/13XemKU3UHOXkUnF5te94whpyQcdXkPtF/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-16-51-02",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1PT9rTL3t7xj9tzdnnyrS_R912Y6eoAf7/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_16-00-38-19",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1bzGWMQTJnDfMY6ZDugb2WQuEelrIIu9q/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "16/03/2025"
-        },
-        {
-            "nome": "Warhammer 40,000_ Space Marine 2-2026_03_16-23-36-17",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1UEsgJKqbgwXxKmr2OdvnEtkV4SrJP-x-/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "17/03/2025"
-        },
-        {
-            "nome": "Warhammer 40,000_ Space Marine 2-2026_03_16-23-49-07",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1MCsG4lCsjTpvqBlUFa8U6EjxPOOXpnu3/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "17/03/2025"
-        },
-        {
-            "nome": "Warhammer 40,000_ Space Marine 2-2026_03_16-23-50-44",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1IM9EpFu_haP4OvsgvzZPCpcuusO8GOgz/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "17/03/2025"
-        },
-        {
-            "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-00-09-33",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/18sMdEcM5SrhNXttcdoNGkmCLAdQkWs57/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "17/03/2025"
-        },
-        {
-            "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-00-19-55",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1-QfTZQCfbzy8m-PlNqaGOv1b-QmK3rwN/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 14
-            },
-            "plataforma": "gdrive",
-            "data": "17/03/2025"
-        },
-        {
-            "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-00-25-26",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1hGXJNCpPD32DUCy8pgwAEF6l5yVZubTc/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "gdrive",
-            "data": "17/03/2025"
-        },
-        {
-            "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-23-47-54",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1VZ7LYoKE7iziKZw_jQmVWbVep35qhngZ/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "gdrive",
-            "data": "17/03/2025"
-        },
-        {
-            "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-23-40-13",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1yze34p-tgr6tMp6EBPfUE_1THwBeMExw/view",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 29
-            },
-            "plataforma": "gdrive",
-            "data": "17/03/2025"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Warhammer 40,000: Space Marine 2 (Clipes)",
+      "imagem": "jpg",
+      "quantidade": "43",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvVE1RE0QryUQs5grPWuPhM",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-40-20",
+      "imagem": "jpg",
+      "data": "12/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/XOTGYdSkTy4",
+        "gdrive": "https://drive.google.com/file/d/1QbXe9nDlVisDDsVdeM9taV6_BEX06_ix/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P01+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_11-23-40-20.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-50-11",
+      "imagem": "jpg",
+      "data": "12/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Db9rVy_AFdg",
+        "gdrive": "https://drive.google.com/file/d/17np5SbQ5aFzpWLPOeb81avDOIZLWqYs_/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P02+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_11-23-50-11.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-51-08",
+      "imagem": "jpg",
+      "data": "12/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/wT0H3XEDxu8",
+        "gdrive": "https://drive.google.com/file/d/16RzrGjM_5uTzmFwEslTK1k4h7cT0EI0V/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P03+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_11-23-51-08.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-55-23",
+      "imagem": "jpg",
+      "data": "12/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Raj_i3HBan0",
+        "gdrive": "https://drive.google.com/file/d/1ivP5CHJ2Q2301y91D_NcRP3NJiUWJYjw/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P04+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_11-23-55-23.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_12-00-14-55",
+      "imagem": "jpg",
+      "data": "12/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/KxHDuiXDAro",
+        "gdrive": "https://drive.google.com/file/d/1mJwv2PgHsl4mzJf1TRjRNB0TBtgXef--/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P05+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_12-00-14-55.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_12-23-53-28",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DIGPn1bNbLU",
+        "gdrive": "https://drive.google.com/file/d/1uXSirMUiSua9SGle-GOH4f8ByUiZtW4C/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P06+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_12-23-53-28.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-13-53-54",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/bAaqXcUdPvU",
+        "gdrive": "https://drive.google.com/file/d/15e478KiWegczhT5YvAB_sq_mwRJRA2w3/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P07+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-13-53-54.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 52
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-13-47-14",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Rvik7XldQ2k",
+        "gdrive": "https://drive.google.com/file/d/1EjW9qF3qcE_yTQ2I9RnZBLhys7ivlvgp/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P08+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-13-47-14.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 3,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-17-36-40",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/sDQYAjfN8Ac",
+        "gdrive": "https://drive.google.com/file/d/1kqT_tk2TljrdwU5V2KokC6rEPyQJTKMw/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P09+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-17-36-40.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-17-34-52",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/q8o9rBZyV20",
+        "gdrive": "https://drive.google.com/file/d/1t2KQ5rv2nLDIRO0XosvSFd98EF7bg_n2/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P10+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-17-34-52.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-18-08-20",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/oZSU_i1JINA",
+        "gdrive": "https://drive.google.com/file/d/1yL8cGVFf-JjD22cwaS-yJVm4vpy-m9ga/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P11+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-18-08-20.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-18-06-57",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/nu1GvRbD2cY",
+        "gdrive": "https://drive.google.com/file/d/1lYSNI35jf11lncEdj8oyNbL4Djh4AOo5/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P12+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-18-06-57.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-16-37-05",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/0ZLNb-Spw08",
+        "gdrive": "https://drive.google.com/file/d/1TLsJ0oeuJzWVNwFnrsvbrGo0Gfysop3u/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P13+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-16-37-05.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-16-39-25",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/F1FjoEIpOqo",
+        "gdrive": "https://drive.google.com/file/d/1jmiK8qOVnYG0L-NqYFupakhgB1SHIVlI/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P14+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-16-39-25.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-16-45-33",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/znl684vOLDE",
+        "gdrive": "https://drive.google.com/file/d/1vodUTcEeHEyv9Fzb1nBRdWl1dFnELLPc/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P15+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-16-45-33.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-17-30-13",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/6GDx31GJZws",
+        "gdrive": "https://drive.google.com/file/d/16AjoWEmfhqjcEMC-Yd-0mSo2O77TWXaQ/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P16+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-17-30-13.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_13-17-33-14",
+      "imagem": "jpg",
+      "data": "14/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/x2QUwBdYayU",
+        "gdrive": "https://drive.google.com/file/d/1NiQ6Y1hntBibhY_QHY8Zcut5ENyjzDJy/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P17+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_13-17-33-14.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_14-23-21-18",
+      "imagem": "jpg",
+      "data": "15/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mQ0Vl6gfPSA",
+        "gdrive": "https://drive.google.com/file/d/1gGWUOFF3Mjq5BRwAtRMbW54mKMRQq2gs/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P18+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_14-23-21-18.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-00-23-38",
+      "imagem": "jpg",
+      "data": "15/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/yNsLum5DkEI",
+        "gdrive": "https://drive.google.com/file/d/1Fc3IjbZC557RxmwXBwssKaXvhMCjg532/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P19+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-00-23-38.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-00-28-31",
+      "imagem": "jpg",
+      "data": "15/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/bZSamUIkdvI",
+        "gdrive": "https://drive.google.com/file/d/1ah_Y5mZGU_EfVxwOtXEeaNI_OX55l3iP/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P20+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-00-28-31.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-00-29-54",
+      "imagem": "jpg",
+      "data": "15/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Fe1x0firhDU",
+        "gdrive": "https://drive.google.com/file/d/1KZYOKRiAWygzAcTXfvQUzfIa-JfLseZW/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P21+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-00-29-54.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-01-07-30",
+      "imagem": "jpg",
+      "data": "15/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/RxDUELG7T24",
+        "gdrive": "https://drive.google.com/file/d/1Mn5Bq0pAwAE4ogvOaO4YtUXpwOyMlEM0/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P22+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-01-07-30.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 3,
+        "segundos": 29
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-01-11-10",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4INo2vqlsFM",
+        "gdrive": "https://drive.google.com/file/d/146a4cvsSYKin0CXu6oaJPym9HFJ1KfzS/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P23+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-01-11-10.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 37
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-01-11-10",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/TYxpI3ALPNA",
+        "gdrive": "https://drive.google.com/file/d/1Chw95-94T4d2HfBIOeY1EW_XgOy0ixFN/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P24+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-01-26-02.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-57-41",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/5OBSXL1lx0Y",
+        "gdrive": "https://drive.google.com/file/d/10PCLo5JnyCH9R0V628t0nemc6s7mYYMu/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P25+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-15-57-41.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-55-40",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/At376Jj4YEA",
+        "gdrive": "https://drive.google.com/file/d/1ZSLHSBcjU1jWMDO5q5g8jEsb9O-BCMmf/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P26+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-15-55-40.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-58-48",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tB26uII3TY8",
+        "gdrive": "https://drive.google.com/file/d/192OCk0603hEoRJR9sd5Ofax05BAE_Q5N/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P27+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-15-58-48.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-16-05-39",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/AvvJtbclXL0",
+        "gdrive": "https://drive.google.com/file/d/1co2e5ylnlPW2vPinqW8Us1wbyhvRv0Sp/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P28+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-16-05-39.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-51-19",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/g4CMEzGi2Dw",
+        "gdrive": "https://drive.google.com/file/d/1nxV9PDCI_Y_POV2bwN5lW2iQ9cCgioIC/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P29+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-15-51-19.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-52-29",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/xk4FThffyZs",
+        "gdrive": "https://drive.google.com/file/d/1RkhgXr0rBw2cOHrd_nUhTOPdkYHmnxVZ/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P30+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-15-52-29.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-15-54-28",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tY6SVIBCt6U",
+        "gdrive": "https://drive.google.com/file/d/11oXIDlMv5TnCjt8a1pyARm2U4wnP9ylN/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P31+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-15-54-28.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-16-34-28",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Zmfjm5OH464",
+        "gdrive": "https://drive.google.com/file/d/1EnZhjvYfzUYik2iPYOQjS2-0W0hitTcM/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P32+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-16-34-28.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-16-49-54",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/xRr1rlXkYXU",
+        "gdrive": "https://drive.google.com/file/d/13XemKU3UHOXkUnF5te94whpyQcdXkPtF/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P33+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-16-49-54.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_15-16-51-02",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/UsFOYj_1acw",
+        "gdrive": "https://drive.google.com/file/d/1PT9rTL3t7xj9tzdnnyrS_R912Y6eoAf7/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P34+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_15-16-51-02.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_16-00-38-19",
+      "imagem": "jpg",
+      "data": "16/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/dFK7nh5FzH4",
+        "gdrive": "https://drive.google.com/file/d/1bzGWMQTJnDfMY6ZDugb2WQuEelrIIu9q/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P35+-+Xbox+Gameplay+de+Warhammer+40%2C000_+Space+Marine+2-2026_03_16-00-38-19.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Warhammer 40,000_ Space Marine 2-2026_03_16-23-36-17",
+      "imagem": "jpg",
+      "data": "17/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tZY_dDWQS8M",
+        "gdrive": "https://drive.google.com/file/d/1UEsgJKqbgwXxKmr2OdvnEtkV4SrJP-x-/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P36+-+Warhammer+40%2C000_+Space+Marine+2-2026_03_16-23-36-17.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Warhammer 40,000_ Space Marine 2-2026_03_16-23-49-07",
+      "imagem": "jpg",
+      "data": "17/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/-g-4pPEmFSA",
+        "gdrive": "https://drive.google.com/file/d/1MCsG4lCsjTpvqBlUFa8U6EjxPOOXpnu3/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P37+-+Warhammer+40%2C000_+Space+Marine+2-2026_03_16-23-49-07.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Warhammer 40,000_ Space Marine 2-2026_03_16-23-50-44",
+      "imagem": "jpg",
+      "data": "17/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/TXNaHjUQv44",
+        "gdrive": "https://drive.google.com/file/d/1IM9EpFu_haP4OvsgvzZPCpcuusO8GOgz/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P38+-+Warhammer+40%2C000_+Space+Marine+2-2026_03_16-23-50-44.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-00-09-33",
+      "imagem": "jpg",
+      "data": "17/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vwRKawovmOM",
+        "gdrive": "https://drive.google.com/file/d/18sMdEcM5SrhNXttcdoNGkmCLAdQkWs57/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P39+-+Warhammer+40%2C000_+Space+Marine+2-2026_03_17-00-09-33.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-00-19-55",
+      "imagem": "jpg",
+      "data": "17/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/CGRSAvbQcbQ",
+        "gdrive": "https://drive.google.com/file/d/1-QfTZQCfbzy8m-PlNqaGOv1b-QmK3rwN/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P40+-+Warhammer+40%2C000_+Space+Marine+2-2026_03_17-00-19-55.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 14
+      }
+    },
+    {
+      "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-00-25-26",
+      "imagem": "jpg",
+      "data": "17/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tkRHbj9aSWI",
+        "gdrive": "https://drive.google.com/file/d/1hGXJNCpPD32DUCy8pgwAEF6l5yVZubTc/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P41+-+Warhammer+40%2C000_+Space+Marine+2-2026_03_17-00-25-26.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-23-47-54",
+      "imagem": "jpg",
+      "data": "17/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3sAzcza6mzM",
+        "gdrive": "https://drive.google.com/file/d/1VZ7LYoKE7iziKZw_jQmVWbVep35qhngZ/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P42+-+Warhammer+40%2C000_+Space+Marine+2-2026_03_17-23-47-54.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Warhammer 40,000_ Space Marine 2-2026_03_17-23-40-13",
+      "imagem": "jpg",
+      "data": "17/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JZzEEJqexjo",
+        "gdrive": "https://drive.google.com/file/d/1yze34p-tgr6tMp6EBPfUE_1THwBeMExw/view",
+        "archive": "https://archive.org/details/arquivomsf-warhammer-40-000-space-marine/P43+-+Warhammer+40%2C000_+Space+Marine+2-2026_03_17-23-40-13.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 29
+      }
+    }
+  ]
 }

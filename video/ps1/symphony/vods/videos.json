@@ -1,89 +1,118 @@
 {
-    "playlist": [
-        {
-            "nome": "Castlevania: Symphony of the Night (PS1 - VOD)",
-            "imagem": "png",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtTGBTxPSlNmn76cvDUghmr",
-            "quantidade": "3"
-        }
-    ],
-    "extras": [
-        {
-            "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "id": "symphony_ps1",
-            "imagem": "../../../etc/symphony_ps1.png",
-            "link": "",
-            "linkyt": "https://youtu.be/Y9J4CR4Ksh0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 31,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "id": "symphony_psp",
-            "imagem": "../../../etc/symphony_psp.png",
-            "link": "",
-            "linkyt": "https://youtu.be/k3AxyiZgLas",
-            "duracao": {
-                "horas": 0,
-                "minutos": 28,
-                "segundos": 45
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
-            "id": "symphony_ja",
-            "imagem": "../../../etc/symphony_ja.png",
-            "link": "",
-            "linkyt": "https://youtu.be/mU1SU81TsXk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 32,
-                "segundos": 51
-            },
-            "plataforma": "youtube"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Castlevania: Symphony of the Night - VOD 1",
-            "imagem": "png",
-            "link": "",
-            "linkyt": "https://youtu.be/q_5Lhi-SRu8",
-            "duracao": {
-                "horas": 2,
-                "minutos": 26,
-                "segundos": 19
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Castlevania: Symphony of the Night - VOD 2",
-            "imagem": "png",
-            "link": "",
-            "linkyt": "https://youtu.be/v7DRlbHOTfI",
-            "duracao": {
-                "horas": 2,
-                "minutos": 31,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Castlevania: Symphony of the Night - VOD 3",
-            "imagem": "png",
-            "link": "",
-            "linkyt": "https://youtu.be/qFyQrRYPOBc",
-            "duracao": {
-                "horas": 1,
-                "minutos": 42,
-                "segundos": 44
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Castlevania: Symphony of the Night (PS1 - VOD)",
+      "imagem": "png",
+      "quantidade": "3",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtTGBTxPSlNmn76cvDUghmr",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "extras": [
+    {
+      "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "id": "symphony_ps1",
+      "imagem": "../../../etc/symphony_ps1.png",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Y9J4CR4Ksh0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "id": "symphony_psp",
+      "imagem": "../../../etc/symphony_psp.png",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/k3AxyiZgLas",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 45
+      }
+    },
+    {
+      "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "id": "symphony_ja",
+      "imagem": "../../../etc/symphony_ja.png",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mU1SU81TsXk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 32,
+        "segundos": 51
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Castlevania: Symphony of the Night - VOD 1",
+      "imagem": "png",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/q_5Lhi-SRu8",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 26,
+        "segundos": 19
+      }
+    },
+    {
+      "nome": "Castlevania: Symphony of the Night - VOD 2",
+      "imagem": "png",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/v7DRlbHOTfI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 31,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Castlevania: Symphony of the Night - VOD 3",
+      "imagem": "png",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qFyQrRYPOBc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 42,
+        "segundos": 44
+      }
+    }
+  ]
 }

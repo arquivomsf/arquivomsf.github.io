@@ -1,82 +1,102 @@
 {
-    "playlist": [
-        {
-            "nome": "The Terminator (MD - VOD)",
-            "imagem": "png",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtTGBTxPSlNmn76cvDUghmr",
-            "quantidade": "4"
-        }
-    ],
-    "extras": [
-        {
-            "nome": "The Terminator (MD) - VOD 1.5",
-            "id": "terminator1-5",
-            "imagem": "terminator1-5.jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/mDH0R1rw3mY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 38,
-                "segundos": 41
-            },
-            "plataforma": "youtube",
-            "data": "05/04/2026"
-        },
-        {
-            "nome": "The Terminator (MD) - VOD 2.5",
-            "id": "terminator2-5",
-            "imagem": "terminator2-5.jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/71wIYyonot0",
-            "duracao": {
-                "horas": 1,
-                "minutos": 15,
-                "segundos": 56
-            },
-            "plataforma": "youtube",
-            "data": "05/04/2026"
-        },
-        {
-            "nome": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos)",
-            "id": "fla-cor-supercoparei2026",
-            "imagem": "../../../etc/fla-cor-supercoparei2026.jpg",
-            "link": "https://archive.org/details/arquivomsf-flamengo-x-corinthians-supercopa-rei-2026-melhores-momentos",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 2
-            },
-            "plataforma": "archive",
-            "data": "05/04/2026"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "The Terminator (MD) - VOD 1",
-            "imagem": "png",
-            "link": "",
-            "linkyt": "https://youtu.be/5DzKBsROflc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 31,
-                "segundos": 21
-            },
-            "plataforma": "youtube",
-            "data": "05/04/2026"
-        },
-        {
-            "nome": "The Terminator (MD) - VOD 2",
-            "imagem": "png",
-            "link": "",
-            "linkyt": "https://youtu.be/uy5nyiz_aC0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 31,
-                "segundos": 50
-            },
-            "plataforma": "youtube",
-            "data": "05/04/2026"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "The Terminator (MD - VOD)",
+      "imagem": "png",
+      "quantidade": "4",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtTGBTxPSlNmn76cvDUghmr",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "extras": [
+    {
+      "nome": "The Terminator (MD) - VOD 1.5",
+      "id": "terminator1-5",
+      "imagem": "terminator1-5.jpg",
+      "data": "05/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mDH0R1rw3mY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 38,
+        "segundos": 41
+      }
+    },
+    {
+      "nome": "The Terminator (MD) - VOD 2.5",
+      "id": "terminator2-5",
+      "imagem": "terminator2-5.jpg",
+      "data": "05/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/71wIYyonot0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 15,
+        "segundos": 56
+      }
+    },
+    {
+      "nome": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos)",
+      "id": "fla-cor-supercoparei2026",
+      "imagem": "../../../etc/fla-cor-supercoparei2026.jpg",
+      "data": "05/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-flamengo-x-corinthians-supercopa-rei-2026-melhores-momentos"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 2
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "The Terminator (MD) - VOD 1",
+      "imagem": "png",
+      "data": "05/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/5DzKBsROflc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 21
+      }
+    },
+    {
+      "nome": "The Terminator (MD) - VOD 2",
+      "imagem": "png",
+      "data": "05/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/uy5nyiz_aC0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 50
+      }
+    }
+  ]
 }

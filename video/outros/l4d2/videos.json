@@ -1,0 +1,148 @@
+{
+  "playlist": [
+    {
+      "nome": "Left 4 Dead 2",
+      "imagem": "jpg",
+      "quantidade": "7",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvUBcI7eWlPMREgFvM4w2Fa",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2"
+      }
+    }
+  ],
+  "extras": [
+    {
+      "nome": "Testando o Left 4 Dead 2 no PC",
+      "id": "testandol4d2",
+      "imagem": "../../etc/testandol4d2.jpg",
+      "data": "03/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/niCZoDrUVmc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 32
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-17 09-31-19",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P01+-+Jogando+Left+4+Dead+2+_+2026-04-17+09-31-19.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-17 09-46-23",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P02+-+Jogando+Left+4+Dead+2+_+2026-04-17+09-46-23.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-17 10-01-25",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P03+-+Jogando+Left+4+Dead+2+_+2026-04-17+10-01-25.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 18
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-18 09-50-14",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P04+-+Jogando+Left+4+Dead+2+_+2026-04-18+09-50-14.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-18 10-05-21",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P05+-+Jogando+Left+4+Dead+2+_+2026-04-18+10-05-21.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-18 10-20-25",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P06+-+Jogando+Left+4+Dead+2+_+2026-04-18+10-20-25.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-18 10-35-30",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P07+-+Jogando+Left+4+Dead+2+_+2026-04-18+10-35-30.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 29
+      }
+    }
+  ]
+}

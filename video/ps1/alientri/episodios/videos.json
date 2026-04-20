@@ -1,252 +1,337 @@
 {
-    "playlist": [
-        {
-            "nome": "Alien Trilogy (PS1)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsYIwSnlETn9VnVAWB_XkBc",
-            "quantidade": "20"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/10ZE-cOVq-2CM7yRIUDG9O5ugF58g4mIO/view",
-            "linkyt": "https://youtu.be/TzNNncH_mhA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 48,
-                "segundos": 1
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/151F3HAyhtsv7Drytwrvk00Ln7i2UfJwg/view",
-            "linkyt": "https://youtu.be/8Rc_vUOVnLM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 45,
-                "segundos": 25
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1h-ihNSg5qHR1GA3fZZtcZs-26zZAkqDS/view",
-            "linkyt": "https://youtu.be/UcGUG1oXLQE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 40
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/15xvxwDsQCsY7DgAt5oZsT8aokyyNyBs_/view",
-            "linkyt": "https://youtu.be/YRkaXbajiy0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 53,
-                "segundos": 22
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 5",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/eoY_460YO4o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 41,
-                "segundos": 27
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 6",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/os5lPQW-V_k",
-            "duracao": {
-                "horas": 0,
-                "minutos": 39,
-                "segundos": 7
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 7",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/96NotcP_pck",
-            "duracao": {
-                "horas": 0,
-                "minutos": 44,
-                "segundos": 54
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 8",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/qnhguo82Boc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 20,
-                "segundos": 47
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 9",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/QSxMmo8pyls",
-            "duracao": {
-                "horas": 0,
-                "minutos": 51,
-                "segundos": 35
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 10",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/HA-9eTMc_Kg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 45,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 11",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/_lEJUFQ9iY8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 51,
-                "segundos": 46
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 12",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/cYFF30oYukI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 26,
-                "segundos": 53
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 13",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/kyWXSk-Dm5E",
-            "duracao": {
-                "horas": 0,
-                "minutos": 22,
-                "segundos": 32
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 14",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/PLKgEM8mxIg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 15",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/dc6vgjYaMoU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 43,
-                "segundos": 58
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 16",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/352H23QLoSA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 49,
-                "segundos": 32
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 17",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/QqlUphrRBDs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 49,
-                "segundos": 47
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 18",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/ZjGi6SUnkDk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 22,
-                "segundos": 6
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 19",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/f75bL5asolI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 32
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Alien Trilogy de PlayStation 1 - Parte 20 Final",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/usAjwNABURY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 14
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Alien Trilogy (PS1)",
+      "imagem": "jpg",
+      "quantidade": "20",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsYIwSnlETn9VnVAWB_XkBc",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 1",
+      "imagem": "jpg",
+      "data": "18/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/TzNNncH_mhA",
+        "gdrive": "https://drive.google.com/file/d/10ZE-cOVq-2CM7yRIUDG9O5ugF58g4mIO/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 48,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 2",
+      "imagem": "jpg",
+      "data": "19/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8Rc_vUOVnLM",
+        "gdrive": "https://drive.google.com/file/d/151F3HAyhtsv7Drytwrvk00Ln7i2UfJwg/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 45,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 3",
+      "imagem": "jpg",
+      "data": "20/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/UcGUG1oXLQE",
+        "gdrive": "https://drive.google.com/file/d/1h-ihNSg5qHR1GA3fZZtcZs-26zZAkqDS/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 40
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 4",
+      "imagem": "jpg",
+      "data": "21/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/YRkaXbajiy0",
+        "gdrive": "https://drive.google.com/file/d/15xvxwDsQCsY7DgAt5oZsT8aokyyNyBs_/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 22
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 5",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/eoY_460YO4o",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 41,
+        "segundos": 27
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 6",
+      "imagem": "jpg",
+      "data": "25/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/os5lPQW-V_k",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 39,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 7",
+      "imagem": "jpg",
+      "data": "26/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/96NotcP_pck",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 44,
+        "segundos": 54
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 8",
+      "imagem": "jpg",
+      "data": "29/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qnhguo82Boc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 47
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 9",
+      "imagem": "jpg",
+      "data": "30/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/QSxMmo8pyls",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 51,
+        "segundos": 35
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 10",
+      "imagem": "jpg",
+      "data": "31/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HA-9eTMc_Kg",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 45,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 11",
+      "imagem": "jpg",
+      "data": "01/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/_lEJUFQ9iY8",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 51,
+        "segundos": 46
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 12",
+      "imagem": "jpg",
+      "data": "02/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/cYFF30oYukI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 26,
+        "segundos": 53
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 13",
+      "imagem": "jpg",
+      "data": "03/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/kyWXSk-Dm5E",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 22,
+        "segundos": 32
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 14",
+      "imagem": "jpg",
+      "data": "04/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/PLKgEM8mxIg",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 15",
+      "imagem": "jpg",
+      "data": "05/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/dc6vgjYaMoU",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 43,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 16",
+      "imagem": "jpg",
+      "data": "06/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/352H23QLoSA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 49,
+        "segundos": 32
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 17",
+      "imagem": "jpg",
+      "data": "07/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/QqlUphrRBDs",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 49,
+        "segundos": 47
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 18",
+      "imagem": "jpg",
+      "data": "08/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ZjGi6SUnkDk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 22,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 19",
+      "imagem": "jpg",
+      "data": "09/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/f75bL5asolI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 32
+      }
+    },
+    {
+      "nome": "Alien Trilogy de PlayStation 1 - Parte 20 Final",
+      "imagem": "jpg",
+      "data": "10/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/usAjwNABURY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 14
+      }
+    }
+  ]
 }

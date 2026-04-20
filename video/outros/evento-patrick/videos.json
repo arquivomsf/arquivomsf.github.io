@@ -1,38 +1,49 @@
 {
-    "playlist": [
-        {
-            "nome": "Dia de São Patrício - Evento da DLive",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuaSe8svAkOFsb7L0tAhIan",
-            "quantidade": "2"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Dia de São Patrício - Evento da DLive (Dia 1)",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/qmJCTe3x6X4",
-            "duracao": {
-                "horas": 2,
-                "minutos": 1,
-                "segundos": 40
-            },
-            "plataforma": "youtube",
-            "data": "18/03/2026"
-        },
-        {
-            "nome": "Dia de São Patrício - Evento da DLive (Dia 2)",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/lpyBJR2t76g",
-            "duracao": {
-                "horas": 1,
-                "minutos": 47,
-                "segundos": 36
-            },
-            "plataforma": "youtube",
-            "data": "18/03/2026"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Dia de São Patrício - Evento da DLive",
+      "imagem": "jpg",
+      "quantidade": "2",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuaSe8svAkOFsb7L0tAhIan",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Dia de São Patrício - Evento da DLive (Dia 1)",
+      "imagem": "jpg",
+      "data": "18/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qmJCTe3x6X4",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 1,
+        "segundos": 40
+      }
+    },
+    {
+      "nome": "Dia de São Patrício - Evento da DLive (Dia 2)",
+      "imagem": "jpg",
+      "data": "18/03/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/lpyBJR2t76g",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 47,
+        "segundos": 36
+      }
+    }
+  ]
 }

@@ -1,192 +1,257 @@
 {
-    "playlist": [
-        {
-            "nome": "Light Crusader (MD)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsaQRW8_D-uckPkZkrgs7a0",
-            "quantidade": "15"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1-6S_8FZR2Ldsu61c1O7dGTmtpGVWbktb/view",
-            "linkyt": "https://youtu.be/EZSQrCpeXVA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 16
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1_JJJv-_cpN4eFru0mABN3px-FukP_tW3/view",
-            "linkyt": "https://youtu.be/cH6UkoEw5EQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 27
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Hati_USYj9GvizR0ew0114eTwRgMBS-w/view",
-            "linkyt": "https://youtu.be/tE0QbeM1fMI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 54
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1WmJFmJHG7tLzNl-TOhrW7UjDdrLVCp40/view",
-            "linkyt": "https://youtu.be/wnt-AwKXRFo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 48,
-                "segundos": 26
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 5",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/16VMRrB2Fm_kScLsN-hVSZHm3yFMLsQY9/view",
-            "linkyt": "https://youtu.be/fslVuTV7evg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 30
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 6",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/10hQBJT4Brc-PcauSAdeWKLz3SLSd_Kqp/view",
-            "linkyt": "https://youtu.be/N-RvvghcOCc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 46,
-                "segundos": 21
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 7",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1hXgMv71XNf8r_r2OqeQhogok-jVmFJk0/view",
-            "linkyt": "https://youtu.be/H511l83j6CM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 56,
-                "segundos": 9
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 8",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1xQ8_Ir67K39vjF16fO79ffq-95lcupW-/view",
-            "linkyt": "https://youtu.be/f9GlNSKulqs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 56
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 9",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/13zOVpGq_WzfH69VejCBW8zcN5VvZCY4T/view",
-            "linkyt": "https://youtu.be/J9Rc9Vz349o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 49,
-                "segundos": 17
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 10",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1s43ZHLsTBlgrtSUWtaiIZKCEi0g_p5mI/view",
-            "linkyt": "https://youtu.be/yIPRKASFTkY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 51,
-                "segundos": 6
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 11",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1HUrphVVkq10W_VmnNtuwWLHW7T6Fpysr/view",
-            "linkyt": "https://youtu.be/JPSUBWd43es",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 33
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 12",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1n8Ob8a7HD7U_2uZMeSeBM3ZkLQCwxvye/view",
-            "linkyt": "https://youtu.be/vcflft4cZOA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 47
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 13",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1fVT2TicHiJFlGBMiPYbJHAvyBwBiLQST/view",
-            "linkyt": "https://youtu.be/f_8v1-HGNa0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 58,
-                "segundos": 55
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 14",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/16nUtDv6PfJPcCn_3IFxHMfiJQ5O7qrKu/view",
-            "linkyt": "https://youtu.be/VDFSwIntGZQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 48,
-                "segundos": 55
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Light Crusader de Mega Drive - Parte 15",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1FN78s_0MWH3UyjD8BVJcVaoKP6EELo3w/view",
-            "linkyt": "https://youtu.be/7WWETm9X58s",
-            "duracao": {
-                "horas": 0,
-                "minutos": 46,
-                "segundos": 37
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Light Crusader (MD)",
+      "imagem": "jpg",
+      "quantidade": "15",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsaQRW8_D-uckPkZkrgs7a0",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 1",
+      "imagem": "jpg",
+      "data": "20/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/EZSQrCpeXVA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 16
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 2",
+      "imagem": "jpg",
+      "data": "23/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/cH6UkoEw5EQ",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 27
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 3",
+      "imagem": "jpg",
+      "data": "23/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tE0QbeM1fMI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 54
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 4",
+      "imagem": "jpg",
+      "data": "23/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/wnt-AwKXRFo",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 48,
+        "segundos": 26
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 5",
+      "imagem": "jpg",
+      "data": "24/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/fslVuTV7evg",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 30
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 6",
+      "imagem": "jpg",
+      "data": "24/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/N-RvvghcOCc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 46,
+        "segundos": 21
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 7",
+      "imagem": "jpg",
+      "data": "25/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/H511l83j6CM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 56,
+        "segundos": 9
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 8",
+      "imagem": "jpg",
+      "data": "25/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/f9GlNSKulqs",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 56
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 9",
+      "imagem": "jpg",
+      "data": "25/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/J9Rc9Vz349o",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 49,
+        "segundos": 17
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 10",
+      "imagem": "jpg",
+      "data": "25/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/yIPRKASFTkY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 51,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 11",
+      "imagem": "jpg",
+      "data": "26/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JPSUBWd43es",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 33
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 12",
+      "imagem": "jpg",
+      "data": "27/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vcflft4cZOA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 47
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 13",
+      "imagem": "jpg",
+      "data": "27/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/f_8v1-HGNa0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 58,
+        "segundos": 55
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 14",
+      "imagem": "jpg",
+      "data": "27/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/VDFSwIntGZQ",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 48,
+        "segundos": 55
+      }
+    },
+    {
+      "nome": "Light Crusader de Mega Drive - Parte 15",
+      "imagem": "jpg",
+      "data": "30/05/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/7WWETm9X58s",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 46,
+        "segundos": 37
+      }
+    }
+  ]
 }

@@ -1,168 +1,225 @@
 {
-    "playlist": [
-        {
-            "nome": "The Suffering (PS2)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvCko8up9k3WpSodVdt3ENU",
-            "quantidade": "13"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "The Suffering de PS2 - Parte 1",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/DfEugbUAeWw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 51,
-                "segundos": 17
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 2",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/f5jQ8vwBT9A",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 3",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/DvLCWYW6Y2Q",
-            "duracao": {
-                "horas": 0,
-                "minutos": 47,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 4",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/6wRgFKrdDM8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 53,
-                "segundos": 15
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 5",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/HrR1IawJBt4",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 48
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 6",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/t137o5V0Tbk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 51,
-                "segundos": 57
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 7",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/ZzOdvxNx_wU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 41
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 8",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/4FUrojuVuZk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 49,
-                "segundos": 37
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 9",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/3FBHzrcngHE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 40
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 10",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/Pjd1_cbXq4o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 14
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 11",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/mNm9Yksuwv8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 1
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 12",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/KiH6-kxBnF4",
-            "duracao": {
-                "horas": 0,
-                "minutos": 40,
-                "segundos": 48
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "The Suffering de PS2 - Parte 13",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/LWcv-gW5qmw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 49,
-                "segundos": 45
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "The Suffering (PS2)",
+      "imagem": "jpg",
+      "quantidade": "13",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvCko8up9k3WpSodVdt3ENU",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "The Suffering de PS2 - Parte 1",
+      "imagem": "jpg",
+      "data": "11/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DfEugbUAeWw",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 51,
+        "segundos": 17
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 2",
+      "imagem": "jpg",
+      "data": "12/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/f5jQ8vwBT9A",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 3",
+      "imagem": "jpg",
+      "data": "13/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DvLCWYW6Y2Q",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 47,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 4",
+      "imagem": "jpg",
+      "data": "14/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/6wRgFKrdDM8",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 15
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 5",
+      "imagem": "jpg",
+      "data": "15/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HrR1IawJBt4",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 48
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 6",
+      "imagem": "jpg",
+      "data": "16/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/t137o5V0Tbk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 51,
+        "segundos": 57
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 7",
+      "imagem": "jpg",
+      "data": "17/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ZzOdvxNx_wU",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 41
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 8",
+      "imagem": "jpg",
+      "data": "18/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4FUrojuVuZk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 49,
+        "segundos": 37
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 9",
+      "imagem": "jpg",
+      "data": "19/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3FBHzrcngHE",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 40
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 10",
+      "imagem": "jpg",
+      "data": "20/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Pjd1_cbXq4o",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 14
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 11",
+      "imagem": "jpg",
+      "data": "21/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mNm9Yksuwv8",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 12",
+      "imagem": "jpg",
+      "data": "22/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/KiH6-kxBnF4",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 48
+      }
+    },
+    {
+      "nome": "The Suffering de PS2 - Parte 13",
+      "imagem": "jpg",
+      "data": "23/11/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/LWcv-gW5qmw",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 49,
+        "segundos": 45
+      }
+    }
+  ]
 }

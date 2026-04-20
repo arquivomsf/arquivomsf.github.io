@@ -1,60 +1,81 @@
 {
-    "playlist": [
-        {
-            "nome": "Sonic The Hedgehog (MD)",
-            "imagem": "jpg",
-            "link": "https://youtube.com/playlist?list=PL1_Ius-LHAvuyrihR_1UZ6kec-paeWPdo",
-            "quantidade": "4"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Sonic The Hedgehog de Mega Drive - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1G_JPnp9TOZxQ4SUqHCUS-sHKJuZzP6Jx/view",
-            "linkyt": "https://youtu.be/Gh-nZf2AvH8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 53,
-                "segundos": 9
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog de Mega Drive - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1OkDhM3zbYx_6cT8fgpci40_a0D8y-ff7/view",
-            "linkyt": "https://youtu.be/P2BBxvWal30",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog de Mega Drive - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1rG05HSYQL36evSd01jB-pXf2SmBDDGDn/view",
-            "linkyt": "https://youtu.be/amEGUVtKkxQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 49,
-                "segundos": 42
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Sonic The Hedgehog de Mega Drive - Parte 4 Final",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1rQmbBOLiTvyQMYBXMbIpmdNyPexCTgSx/view",
-            "linkyt": "https://youtu.be/YRxl0ITXPRk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 50,
-                "segundos": 45
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Sonic The Hedgehog (MD)",
+      "imagem": "jpg",
+      "quantidade": "4",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvuyrihR_1UZ6kec-paeWPdo",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Sonic The Hedgehog de Mega Drive - Parte 1",
+      "imagem": "jpg",
+      "data": "18/04/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Gh-nZf2AvH8",
+        "gdrive": "https://drive.google.com/file/d/1G_JPnp9TOZxQ4SUqHCUS-sHKJuZzP6Jx/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 9
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog de Mega Drive - Parte 2",
+      "imagem": "jpg",
+      "data": "19/04/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/P2BBxvWal30",
+        "gdrive": "https://drive.google.com/file/d/1OkDhM3zbYx_6cT8fgpci40_a0D8y-ff7/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog de Mega Drive - Parte 3",
+      "imagem": "jpg",
+      "data": "20/04/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/amEGUVtKkxQ",
+        "gdrive": "https://drive.google.com/file/d/1rG05HSYQL36evSd01jB-pXf2SmBDDGDn/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 49,
+        "segundos": 42
+      }
+    },
+    {
+      "nome": "Sonic The Hedgehog de Mega Drive - Parte 4 Final",
+      "imagem": "jpg",
+      "data": "22/04/2022",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/YRxl0ITXPRk",
+        "gdrive": "https://drive.google.com/file/d/1rQmbBOLiTvyQMYBXMbIpmdNyPexCTgSx/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 45
+      }
+    }
+  ]
 }

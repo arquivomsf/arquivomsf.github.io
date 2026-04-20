@@ -2,7 +2,6 @@ var consoleAtual;
 var jogoAtual;
 
 function carregarDados() {
-  //setTab("",'jsonParent');
   procurarParam();
   fetch_dados("jogo",`video/${consoleAtual}/${jogoAtual}/series.json`);
   carregar_consoles_temas("jogo",jogoAtual);

@@ -1,324 +1,433 @@
 {
-    "playlist": [
-        {
-            "nome": "Fortnite 2025 (Clipes)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt9as6fXp4PKGRlm8dLtKYY",
-            "quantidade": "26"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Gameplay 1 - Fortnite Outubro 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/10SP-k8TRGAdJycPlEVXpCfEB2Oc3cg9z/view",
-            "linkyt": "https://youtu.be/nOXOg4uxtiE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 2 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1AmbxRbywbW8p8dP4wFcrHTnSJ6gIoYOB/view",
-            "linkyt": "https://youtu.be/ooZFLLHCkek",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 3 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/16njHc91S87sAQQEZGEmXl5QK8NCyaa0t/view",
-            "linkyt": "https://youtu.be/0umHB8tmrMg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 4 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1m81bDfg4W7HVFTAmphb-q0wo-jgqdATT/view",
-            "linkyt": "https://youtu.be/3TcJz7FdgEA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 5 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/12Dxlwc8RsKDRWsYZps8L4W0U-k0uBAhR/view",
-            "linkyt": "https://youtu.be/fn-Zj4CbuWA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 6 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1at31wPmBJmWvUKlzNxHGr44IHNRe93hR/view",
-            "linkyt": "https://youtu.be/f4JVUEH0VJE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 7 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/17rItINqVPwFrLA3t6C1ZnCDufxOAT3gr/view",
-            "linkyt": "https://youtu.be/liVEiKDx5CY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 8 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1soYl65GsASwDSM-3R3Mep0P_RvU6uV-C/view",
-            "linkyt": "https://youtu.be/qy4oc9aaOpc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 9 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1pBGcEi7G-XokGrtp9aj1S4mAg5eFFsXi/view",
-            "linkyt": "https://youtu.be/ohsDPomL3nw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 10 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/18hbXt9mTTlRtYnJgOC7F0Y8OobHNpeA4/view",
-            "linkyt": "https://youtu.be/yUQKUhn_-L4",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 11 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/joyBnTjn8Ss",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 12 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/3yY-xsxRvOY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 13 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/vM73HQ4ueZc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 14 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/8uhViFJL3dA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 15 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/HLPp6QCFIPI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 16 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/rIUUKgJCIvM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 17 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/J36JZZAgoDo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 18 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/pGN6Qp6rD0g",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 19 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/z6KWqclLmLk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 20 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/E7gt6N-FXlc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Gameplay 21 - Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/7vJAX2PIBSs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Final contra o Robin - Gameplay 22 de Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/Q0p4ifPKARo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Bug da Pizza do Fortnite",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/bVRxcoUMa2M",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Final contra a Wandinha no Fortnite",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/JnRHqCDyOaM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Confusão no letreiro de Springfield do Fortnite",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/mZWaKxOQGTs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Andando de Carrinho da Marge no Fortnite 2025",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/uYWlUSUsBSI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Fortnite 2025 (Clipes)",
+      "imagem": "jpg",
+      "quantidade": "26",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt9as6fXp4PKGRlm8dLtKYY",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Gameplay 1 - Fortnite Outubro 2025",
+      "imagem": "jpg",
+      "data": "27/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/nOXOg4uxtiE",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 2 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ooZFLLHCkek",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Gameplay 3 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/0umHB8tmrMg",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 4 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3TcJz7FdgEA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 5 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/fn-Zj4CbuWA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 6 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/f4JVUEH0VJE",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 7 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/liVEiKDx5CY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 8 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qy4oc9aaOpc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 9 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ohsDPomL3nw",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 10 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "24/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/yUQKUhn_-L4",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Gameplay 11 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/joyBnTjn8Ss",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 12 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3yY-xsxRvOY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Gameplay 13 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vM73HQ4ueZc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Gameplay 14 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8uhViFJL3dA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 15 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HLPp6QCFIPI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 16 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/rIUUKgJCIvM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 17 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/J36JZZAgoDo",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 18 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/pGN6Qp6rD0g",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 19 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/z6KWqclLmLk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 20 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/E7gt6N-FXlc",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Gameplay 21 - Fortnite 2025",
+      "imagem": "jpg",
+      "data": "28/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/7vJAX2PIBSs",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Final contra o Robin - Gameplay 22 de Fortnite 2025",
+      "imagem": "jpg",
+      "data": "08/12/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Q0p4ifPKARo",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Bug da Pizza do Fortnite",
+      "imagem": "jpg",
+      "data": "22/12/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/bVRxcoUMa2M",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Final contra a Wandinha no Fortnite",
+      "imagem": "jpg",
+      "data": "23/12/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JnRHqCDyOaM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Confusão no letreiro de Springfield do Fortnite",
+      "imagem": "jpg",
+      "data": "24/12/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mZWaKxOQGTs",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Andando de Carrinho da Marge no Fortnite 2025",
+      "imagem": "jpg",
+      "data": "31/12/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/uYWlUSUsBSI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    }
+  ]
 }

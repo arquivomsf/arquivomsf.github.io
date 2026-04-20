@@ -1,72 +1,97 @@
 {
-    "playlist": [
-        {
-            "nome": "Need for Speed 2 (PS1 - VOD)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuafdQRQN322EksTNoSAZOO",
-            "quantidade": "5"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Need for Speed 2 de PS1 - VOD 1",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/wGD16PVN0TE",
-            "duracao": {
-                "horas": 1,
-                "minutos": 42,
-                "segundos": 5
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - VOD 2",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/deRKgJ843uM",
-            "duracao": {
-                "horas": 1,
-                "minutos": 59,
-                "segundos": 33
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - VOD 3",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/dgXTguuVlgM",
-            "duracao": {
-                "horas": 1,
-                "minutos": 44,
-                "segundos": 24
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - VOD 4",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/wh22i9WbmbA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 42,
-                "segundos": 47
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - VOD Extra",
-            "imagem": "jpg",
-            "link": "",
-            "linkyt": "https://youtu.be/gF9_scLBnBg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 35,
-                "segundos": 33
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Need for Speed 2 (PS1 - VOD)",
+      "imagem": "jpg",
+      "quantidade": "5",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuafdQRQN322EksTNoSAZOO",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Need for Speed 2 de PS1 - VOD 1",
+      "imagem": "jpg",
+      "data": "05/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/wGD16PVN0TE",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 42,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - VOD 2",
+      "imagem": "jpg",
+      "data": "05/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/deRKgJ843uM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 59,
+        "segundos": 33
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - VOD 3",
+      "imagem": "jpg",
+      "data": "05/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/dgXTguuVlgM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 44,
+        "segundos": 24
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - VOD 4",
+      "imagem": "jpg",
+      "data": "05/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/wh22i9WbmbA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 42,
+        "segundos": 47
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - VOD Extra",
+      "imagem": "jpg",
+      "data": "05/10/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/gF9_scLBnBg",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 35,
+        "segundos": 33
+      }
+    }
+  ]
 }

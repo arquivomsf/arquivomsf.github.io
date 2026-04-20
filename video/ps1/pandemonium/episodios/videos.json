@@ -1,168 +1,225 @@
 {
-    "playlist": [
-        {
-            "nome": "Pandemonium (PS1)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsQzXJNt19nQ-ngt0EVXqFv",
-            "quantidade": "13"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1JOamoKbx4c3QMFOnhoAvEAhNAVBjoNYB/view",
-            "linkyt": "https://youtu.be/2PyJa4XFoZ0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 44,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1FK-iuOOeoZ7dlfg4pUg0BemPVhIM9LwQ/view",
-            "linkyt": "https://youtu.be/8NerY9EBpD4",
-            "duracao": {
-                "horas": 0,
-                "minutos": 46,
-                "segundos": 6
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1tInZt7HvhNz4DJ14lqRJKPYO7v88dJPP/view",
-            "linkyt": "https://youtu.be/4LuHPTG9O-o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 46,
-                "segundos": 0
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1FQKKhd4PshpLuRB-g1yRfqRB8mmAQAF2/view",
-            "linkyt": "https://youtu.be/fiUzmjZdkgw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 41,
-                "segundos": 29
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 5",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1aBNF7U2_ODHt0nijaffTUflYUBh1CK0h/view",
-            "linkyt": "https://youtu.be/x1IC8uPQ2Jc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 37,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 6",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1CKwcLJNK0_8pIUalNgAp5KjFV33RDz5m/view",
-            "linkyt": "https://youtu.be/ob4L4RxZ5CI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 42,
-                "segundos": 49
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 7",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/11rpGVojkPG_FIifZsOMbihq2tNF4adtt/view",
-            "linkyt": "https://youtu.be/FCyqfUhu9Qw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 27,
-                "segundos": 39
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 8",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/108K3WrKS_Z0aYbu1Ilyai0o9ckLJdD9N/view",
-            "linkyt": "https://youtu.be/HSrS7ryGcmA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 41,
-                "segundos": 50
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 9",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1BmkFt2KNQCTMjXkel9sEi0dVDY6Q4eD2/view",
-            "linkyt": "https://youtu.be/ucnuuCTn7Ys",
-            "duracao": {
-                "horas": 0,
-                "minutos": 35,
-                "segundos": 51
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 10",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1_9cZCoOX6Hk9lXUtTDTypg2eBAWLl4u8/view",
-            "linkyt": "https://youtu.be/iZQ0J2SLh3Y",
-            "duracao": {
-                "horas": 0,
-                "minutos": 27,
-                "segundos": 32
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 11",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1abVO6szxPmP_tWcFAoTQqJomQu6oIhpR/view",
-            "linkyt": "https://youtu.be/DxXg4EmH-uI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 39,
-                "segundos": 27
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 12",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/19NFX3k_O1NBDoYFT5ksO-wg5SSQPay7T/view",
-            "linkyt": "https://youtu.be/V-uAa4gOiAI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 29,
-                "segundos": 32
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Pandemonium de PlayStation 1 - Parte 13 Final",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1J0b8WfEiuKwNFW9oelL5dsbo14ce0KZ9/view",
-            "linkyt": "https://youtu.be/N1o0jMLTWeI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 23,
-                "segundos": 50
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Pandemonium (PS1)",
+      "imagem": "jpg",
+      "quantidade": "13",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsQzXJNt19nQ-ngt0EVXqFv",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 1",
+      "imagem": "jpg",
+      "data": "29/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/2PyJa4XFoZ0",
+        "gdrive": "https://drive.google.com/file/d/1JOamoKbx4c3QMFOnhoAvEAhNAVBjoNYB/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 44,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 2",
+      "imagem": "jpg",
+      "data": "30/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8NerY9EBpD4",
+        "gdrive": "https://drive.google.com/file/d/1FK-iuOOeoZ7dlfg4pUg0BemPVhIM9LwQ/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 46,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 3",
+      "imagem": "jpg",
+      "data": "01/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4LuHPTG9O-o",
+        "gdrive": "https://drive.google.com/file/d/1tInZt7HvhNz4DJ14lqRJKPYO7v88dJPP/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 46,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 4",
+      "imagem": "jpg",
+      "data": "02/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/fiUzmjZdkgw",
+        "gdrive": "https://drive.google.com/file/d/1FQKKhd4PshpLuRB-g1yRfqRB8mmAQAF2/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 41,
+        "segundos": 29
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 5",
+      "imagem": "jpg",
+      "data": "03/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/x1IC8uPQ2Jc",
+        "gdrive": "https://drive.google.com/file/d/1aBNF7U2_ODHt0nijaffTUflYUBh1CK0h/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 37,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 6",
+      "imagem": "jpg",
+      "data": "04/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ob4L4RxZ5CI",
+        "gdrive": "https://drive.google.com/file/d/1CKwcLJNK0_8pIUalNgAp5KjFV33RDz5m/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 42,
+        "segundos": 49
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 7",
+      "imagem": "jpg",
+      "data": "05/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/FCyqfUhu9Qw",
+        "gdrive": "https://drive.google.com/file/d/11rpGVojkPG_FIifZsOMbihq2tNF4adtt/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 27,
+        "segundos": 39
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 8",
+      "imagem": "jpg",
+      "data": "06/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HSrS7ryGcmA",
+        "gdrive": "https://drive.google.com/file/d/108K3WrKS_Z0aYbu1Ilyai0o9ckLJdD9N/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 41,
+        "segundos": 50
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 9",
+      "imagem": "jpg",
+      "data": "07/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ucnuuCTn7Ys",
+        "gdrive": "https://drive.google.com/file/d/1BmkFt2KNQCTMjXkel9sEi0dVDY6Q4eD2/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 35,
+        "segundos": 51
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 10",
+      "imagem": "jpg",
+      "data": "08/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/iZQ0J2SLh3Y",
+        "gdrive": "https://drive.google.com/file/d/1_9cZCoOX6Hk9lXUtTDTypg2eBAWLl4u8/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 27,
+        "segundos": 32
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 11",
+      "imagem": "jpg",
+      "data": "09/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DxXg4EmH-uI",
+        "gdrive": "https://drive.google.com/file/d/1abVO6szxPmP_tWcFAoTQqJomQu6oIhpR/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 39,
+        "segundos": 27
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 12",
+      "imagem": "jpg",
+      "data": "10/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/V-uAa4gOiAI",
+        "gdrive": "https://drive.google.com/file/d/19NFX3k_O1NBDoYFT5ksO-wg5SSQPay7T/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 29,
+        "segundos": 32
+      }
+    },
+    {
+      "nome": "Pandemonium de PlayStation 1 - Parte 13 Final",
+      "imagem": "jpg",
+      "data": "11/10/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/N1o0jMLTWeI",
+        "gdrive": "https://drive.google.com/file/d/1J0b8WfEiuKwNFW9oelL5dsbo14ce0KZ9/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 23,
+        "segundos": 50
+      }
+    }
+  ]
 }

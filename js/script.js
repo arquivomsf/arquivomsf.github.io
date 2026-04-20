@@ -46,7 +46,7 @@ function carregar_itens() {
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
             let standalone_duracao = gerar_timestamp(dados_geral.standalone[i].duracao.horas,dados_geral.standalone[i].duracao.minutos,dados_geral.standalone[i].duracao.segundos);
             let standalone_plataforma = dados_geral.standalone[i].plataforma;
-            let standalone_link_youtube = dados_geral.standalone[i].linkyt;
+            let standalone_link = dados_geral.standalone[i].links[standalone_plataforma];
             if (standalone_plataforma == "gdrive" || standalone_plataforma == "archive") {
                 document.querySelector(".standalone_content_list").innerHTML += `
                     <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
@@ -57,20 +57,20 @@ function carregar_itens() {
                                     <span class="px-1 text-white"><i class="fa fa-fw fa-file-video-o"></i>${standalone_duracao}</span>
                                 </div>
                             </div>
-                            <b class="standalone_titulo_${standalone_plataforma} text-center">${standalone_nome}</b>
+                            <b class="standalone_${i} standalone_titulo_${standalone_plataforma} text-center">${standalone_nome}</b>
                         </a>
                     </div>`;
             } else if (standalone_plataforma == "youtube") {
                 document.querySelector(".standalone_content_list").innerHTML += `
                     <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                        <a href="${standalone_link_youtube}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+                        <a href="${standalone_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
                             <div class="relative h-auto">
                                 <img src="video/${standalone_console_sigla}/${standalone_imagem}" class="w-auto h-auto aspect-video object-contain">
                                 <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
                                     <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${standalone_duracao}</span>
                                 </div>
                             </div>
-                            <b class="standalone_titulo_${standalone_plataforma} text-center">${standalone_nome}</b>
+                            <b class="standalone_${i} standalone_titulo_${standalone_plataforma} text-center">${standalone_nome}</b>
                         </a>
                     </div>`;
             }

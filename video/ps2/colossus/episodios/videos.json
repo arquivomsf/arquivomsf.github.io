@@ -1,240 +1,321 @@
 {
-    "playlist": [
-        {
-            "nome": "Shadow of the Colossus (PS2)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvufkP85yGdJ9IaeaJ6KLIA9",
-            "quantidade": "19"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1mjIdmxHJAP2cztFtrJXICgbgt-BeZneZ/view",
-            "linkyt": "https://youtu.be/MzOhkOi-Hvg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 46,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1TTD_OHHqgJhIC4MR8CxzXLSqCXP_Jqx2/view",
-            "linkyt": "https://youtu.be/OsHDqwGvRu0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 42,
-                "segundos": 39
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1x1R2etCQHbhUDxbdfxQfqrDMQia0NzSm/view",
-            "linkyt": "https://youtu.be/aLXf2TwTct8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 40,
-                "segundos": 28
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/14dvpX0XBFYDnFyNif5KoZq0BSLRb_5bm/view",
-            "linkyt": "https://youtu.be/vjdfXAN4ypI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 40,
-                "segundos": 4
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 5",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1tjXiGUJd2BBN7Ne3K1BrH6i3s2Hpl6Hb/view",
-            "linkyt": "https://youtu.be/Peqz0mlw24k",
-            "duracao": {
-                "horas": 0,
-                "minutos": 42,
-                "segundos": 24
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 6",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Ub5W75eDWGNSISyRAbGb0vP99DXMzZ89/view",
-            "linkyt": "https://youtu.be/JSN3ATR7dlw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 38,
-                "segundos": 14
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 7",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Y8D8XhFqd4QUsmQ7pjTYnR_KkpS9zLUQ/view",
-            "linkyt": "https://youtu.be/TJjXn3BmM3Y",
-            "duracao": {
-                "horas": 0,
-                "minutos": 30,
-                "segundos": 17
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 8",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1U7grL4EDpR-pnRh6Fv9zEKMoMA95dHjn/view",
-            "linkyt": "https://youtu.be/b6azhCHKPs0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 44,
-                "segundos": 38
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 9",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1rHiD5sRfFKBMNNGvaahUVoXDg6y6OznR/view",
-            "linkyt": "https://youtu.be/vOt5CJE_ctg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 22,
-                "segundos": 54
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 10",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Wd9TvBRu7McB5LgXSIjW3TScK6icQlRh/view",
-            "linkyt": "https://youtu.be/Czadypw3-GE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 49,
-                "segundos": 39
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 11",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1U9PlLG1ioimh6ohVk12XnGRPEe4j5VmN/view",
-            "linkyt": "https://youtu.be/zf8NIpj_ZRk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 46,
-                "segundos": 6
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 12",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1CBry3hPKMpzzY8MJwZfPuEs0bTk-ARXA/view",
-            "linkyt": "https://youtu.be/OJpTFB311aE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 32,
-                "segundos": 37
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 13",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1OvuKkTsC_2ASfI00uh8Kws4nWAybF8mx/view",
-            "linkyt": "https://youtu.be/GyKgGb2gsqo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 13,
-                "segundos": 37
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 14",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Rclby851co5Xhv67Qlrq8n1LIR44hHKV/view",
-            "linkyt": "https://youtu.be/_U9YU00KvRQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 29
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 15",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1aU613jA4Fgq85OSt7yJREYLBoaZLmmJA/view",
-            "linkyt": "https://youtu.be/zAuYHnFhPsg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 28,
-                "segundos": 15
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 16",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1i7VbrbmK9I4BVkUpVZEVGZUPaC6bpVm7/view",
-            "linkyt": "https://youtu.be/FziH-mVDzwA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 27,
-                "segundos": 2
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 17",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1JT5LaP3MITv77tjTCBP6tTQcu_u0ubOj/view",
-            "linkyt": "https://youtu.be/U1wVlY9jLrI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 42,
-                "segundos": 24
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 18",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1EEg7Bk6VJ6H9EyikeNlCzNULJCoPaYCQ/view",
-            "linkyt": "https://youtu.be/YyEg-l1dbdY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 40,
-                "segundos": 52
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Shadow of the Colossus de PlayStation 2 - Parte 19 Final",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/17dUiQVHQqEtau5LScphxj2pXb2wPHMKu/view",
-            "linkyt": "https://youtu.be/196e8MHFiqw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 38
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Shadow of the Colossus (PS2)",
+      "imagem": "jpg",
+      "quantidade": "19",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvufkP85yGdJ9IaeaJ6KLIA9",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 1",
+      "imagem": "jpg",
+      "data": "06/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/MzOhkOi-Hvg",
+        "gdrive": "https://drive.google.com/file/d/1mjIdmxHJAP2cztFtrJXICgbgt-BeZneZ/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 46,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 2",
+      "imagem": "jpg",
+      "data": "07/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/OsHDqwGvRu0",
+        "gdrive": "https://drive.google.com/file/d/1TTD_OHHqgJhIC4MR8CxzXLSqCXP_Jqx2/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 42,
+        "segundos": 39
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 3",
+      "imagem": "jpg",
+      "data": "08/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/aLXf2TwTct8",
+        "gdrive": "https://drive.google.com/file/d/1x1R2etCQHbhUDxbdfxQfqrDMQia0NzSm/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 28
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 4",
+      "imagem": "jpg",
+      "data": "10/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vjdfXAN4ypI",
+        "gdrive": "https://drive.google.com/file/d/14dvpX0XBFYDnFyNif5KoZq0BSLRb_5bm/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 5",
+      "imagem": "jpg",
+      "data": "12/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Peqz0mlw24k",
+        "gdrive": "https://drive.google.com/file/d/1tjXiGUJd2BBN7Ne3K1BrH6i3s2Hpl6Hb/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 42,
+        "segundos": 24
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 6",
+      "imagem": "jpg",
+      "data": "13/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JSN3ATR7dlw",
+        "gdrive": "https://drive.google.com/file/d/1Ub5W75eDWGNSISyRAbGb0vP99DXMzZ89/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 38,
+        "segundos": 14
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 7",
+      "imagem": "jpg",
+      "data": "14/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/TJjXn3BmM3Y",
+        "gdrive": "https://drive.google.com/file/d/1Y8D8XhFqd4QUsmQ7pjTYnR_KkpS9zLUQ/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 30,
+        "segundos": 17
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 8",
+      "imagem": "jpg",
+      "data": "15/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/b6azhCHKPs0",
+        "gdrive": "https://drive.google.com/file/d/1U7grL4EDpR-pnRh6Fv9zEKMoMA95dHjn/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 44,
+        "segundos": 38
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 9",
+      "imagem": "jpg",
+      "data": "16/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vOt5CJE_ctg",
+        "gdrive": "https://drive.google.com/file/d/1rHiD5sRfFKBMNNGvaahUVoXDg6y6OznR/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 22,
+        "segundos": 54
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 10",
+      "imagem": "jpg",
+      "data": "17/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Czadypw3-GE",
+        "gdrive": "https://drive.google.com/file/d/1Wd9TvBRu7McB5LgXSIjW3TScK6icQlRh/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 49,
+        "segundos": 39
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 11",
+      "imagem": "jpg",
+      "data": "18/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/zf8NIpj_ZRk",
+        "gdrive": "https://drive.google.com/file/d/1U9PlLG1ioimh6ohVk12XnGRPEe4j5VmN/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 46,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 12",
+      "imagem": "jpg",
+      "data": "19/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/OJpTFB311aE",
+        "gdrive": "https://drive.google.com/file/d/1CBry3hPKMpzzY8MJwZfPuEs0bTk-ARXA/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 32,
+        "segundos": 37
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 13",
+      "imagem": "jpg",
+      "data": "20/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/GyKgGb2gsqo",
+        "gdrive": "https://drive.google.com/file/d/1OvuKkTsC_2ASfI00uh8Kws4nWAybF8mx/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 13,
+        "segundos": 37
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 14",
+      "imagem": "jpg",
+      "data": "21/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/_U9YU00KvRQ",
+        "gdrive": "https://drive.google.com/file/d/1Rclby851co5Xhv67Qlrq8n1LIR44hHKV/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 29
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 15",
+      "imagem": "jpg",
+      "data": "22/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/zAuYHnFhPsg",
+        "gdrive": "https://drive.google.com/file/d/1aU613jA4Fgq85OSt7yJREYLBoaZLmmJA/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 15
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 16",
+      "imagem": "jpg",
+      "data": "23/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/FziH-mVDzwA",
+        "gdrive": "https://drive.google.com/file/d/1i7VbrbmK9I4BVkUpVZEVGZUPaC6bpVm7/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 27,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 17",
+      "imagem": "jpg",
+      "data": "24/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/U1wVlY9jLrI",
+        "gdrive": "https://drive.google.com/file/d/1JT5LaP3MITv77tjTCBP6tTQcu_u0ubOj/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 42,
+        "segundos": 24
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 18",
+      "imagem": "jpg",
+      "data": "25/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/YyEg-l1dbdY",
+        "gdrive": "https://drive.google.com/file/d/1EEg7Bk6VJ6H9EyikeNlCzNULJCoPaYCQ/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 52
+      }
+    },
+    {
+      "nome": "Shadow of the Colossus de PlayStation 2 - Parte 19 Final",
+      "imagem": "jpg",
+      "data": "26/09/2024",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/196e8MHFiqw",
+        "gdrive": "https://drive.google.com/file/d/17dUiQVHQqEtau5LScphxj2pXb2wPHMKu/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 38
+      }
+    }
+  ]
 }

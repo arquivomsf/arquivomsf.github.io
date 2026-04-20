@@ -1,96 +1,125 @@
 {
-    "playlist": [
-        {
-            "nome": "Clair Obscur: Expedition 33 (Clipes)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuh9-7F3CzkIBXqtioBZ6MA",
-            "quantidade": "6"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Clair Obscur: Expedition 33 | Análise do Jogo",
-            "imagem": "jpg",
-            "link": "https://youtu.be/wv0czkH0tG8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 19,
-                "segundos": 55
-            }
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Expedition 33 - Gameplay 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/11N_qs6cOqsmIJHOSOmszJSbvTfeCvVcn/view",
-            "linkyt": "https://youtu.be/55ILUfQro6s",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Expedition 33 - Gameplay 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1-lyVYL8PKn2rzrEOnfCvalqNCtMIzN-v/view",
-            "linkyt": "https://youtu.be/KXgwpeFhESs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Expedition 33 - Gameplay 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1jv5RfVR3ksVZwFY-B4PUBLE4Ht68ZP7n/view",
-            "linkyt": "https://youtu.be/y2C0WGTOr78",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Expedition 33 - Gameplay 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1TPUbxje1XmJMBYCVfApi1SVH9bzb4xsz/view",
-            "linkyt": "https://youtu.be/67K7D1nNe5M",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Expedition 33 - Gameplay 5",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/18aCGDuaNhAxTf62q7Kp9GvOayh5lv0Qv/view",
-            "linkyt": "https://youtu.be/EsjkymK7KeM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Expedition 33 - Gameplay 6",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ifs2pmzMVAWI3b74aKQ7gi3rhbpkOl1-/view",
-            "linkyt": "https://youtu.be/oEVZDJgl0D0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Clair Obscur: Expedition 33 (Clipes)",
+      "imagem": "jpg",
+      "quantidade": "6",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuh9-7F3CzkIBXqtioBZ6MA",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "analise": [
+    {
+      "nome": "Clair Obscur: Expedition 33 | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/wv0czkH0tG8",
+      "duracao": {
+        "horas": 0,
+        "minutos": 19,
+        "segundos": 55
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Expedition 33 - Gameplay 1",
+      "imagem": "jpg",
+      "data": "21/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/55ILUfQro6s",
+        "gdrive": "https://drive.google.com/file/d/11N_qs6cOqsmIJHOSOmszJSbvTfeCvVcn/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Expedition 33 - Gameplay 2",
+      "imagem": "jpg",
+      "data": "21/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/KXgwpeFhESs",
+        "gdrive": "https://drive.google.com/file/d/1-lyVYL8PKn2rzrEOnfCvalqNCtMIzN-v/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Expedition 33 - Gameplay 3",
+      "imagem": "jpg",
+      "data": "21/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/y2C0WGTOr78",
+        "gdrive": "https://drive.google.com/file/d/1jv5RfVR3ksVZwFY-B4PUBLE4Ht68ZP7n/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Expedition 33 - Gameplay 4",
+      "imagem": "jpg",
+      "data": "21/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/67K7D1nNe5M",
+        "gdrive": "https://drive.google.com/file/d/1TPUbxje1XmJMBYCVfApi1SVH9bzb4xsz/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Expedition 33 - Gameplay 5",
+      "imagem": "jpg",
+      "data": "21/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/EsjkymK7KeM",
+        "gdrive": "https://drive.google.com/file/d/18aCGDuaNhAxTf62q7Kp9GvOayh5lv0Qv/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Expedition 33 - Gameplay 6",
+      "imagem": "jpg",
+      "data": "21/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/oEVZDJgl0D0",
+        "gdrive": "https://drive.google.com/file/d/1ifs2pmzMVAWI3b74aKQ7gi3rhbpkOl1-/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    }
+  ]
 }

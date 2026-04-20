@@ -1,72 +1,97 @@
 {
-    "playlist": [
-        {
-            "nome": "Kirby: Nightmare In Dream Land (GBA)",
-            "imagem": "jpg",
-            "link": "https://archive.org/details/@arquivomsf/lists/3/kirby%3A-nightmare-in-dream-land-(gba)?sort=-date",
-            "quantidade": "5"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Kirby Nightmare In Dream Land De GBA | Parte 1",
-            "imagem": "jpg",
-            "link": " https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-1",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 16
-            },
-            "plataforma": "archive"
-        },
-        {
-            "nome": "Kirby Nightmare In Dream Land De GBA | Parte 2",
-            "imagem": "jpg",
-            "link": " https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-2",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 44,
-                "segundos": 59
-            },
-            "plataforma": "archive"
-        },
-        {
-            "nome": "Kirby Nightmare In Dream Land De GBA | Parte 3",
-            "imagem": "jpg",
-            "link": " https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-3",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 45,
-                "segundos": 17
-            },
-            "plataforma": "archive"
-        },
-        {
-            "nome": "Kirby Nightmare In Dream Land De GBA | Parte 4",
-            "imagem": "jpg",
-            "link": " https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-4",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 25,
-                "segundos": 2
-            },
-            "plataforma": "archive"
-        },
-        {
-            "nome": "Kirby Nightmare In Dream Land De GBA | Parte 5 Final",
-            "imagem": "jpg",
-            "link": " https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-5-final",
-            "linkyt": "",
-            "duracao": {
-                "horas": 0,
-                "minutos": 53,
-                "segundos": 45
-            },
-            "plataforma": "archive"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Kirby: Nightmare In Dream Land (GBA)",
+      "imagem": "jpg",
+      "quantidade": "5",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/@arquivomsf/lists/3/kirby%3A-nightmare-in-dream-land-(gba)?sort=-date"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 1",
+      "imagem": "jpg",
+      "data": "21/12/2025",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-1"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 16
+      }
+    },
+    {
+      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 2",
+      "imagem": "jpg",
+      "data": "25/12/2025",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-2"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 44,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 3",
+      "imagem": "jpg",
+      "data": "26/12/2025",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-3"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 45,
+        "segundos": 17
+      }
+    },
+    {
+      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 4",
+      "imagem": "jpg",
+      "data": "27/12/2025",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 25,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 5 Final",
+      "imagem": "jpg",
+      "data": "28/12/2025",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/kirby-nightmare-in-dream-land-de-gba-parte-5-final"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 45
+      }
+    }
+  ]
 }

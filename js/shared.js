@@ -366,6 +366,26 @@ function debug() {
                     else if (data.videos[data.videos.length-1].plataforma == "gdrive" || data.videos[data.videos.length-1].plataforma == "archive")  debug_serie_icon = `<i class="fa fa-fw fa-file-video-o" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
 
                     document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} Episódios`;
+
+                    //Detector de JSON antigo - JOGOS episodios
+                    let json_antigo_jogos_counter = 0;
+
+                    for (var i = 0; i<data.videos.length; i++) {
+                        if (data.videos[i].hasOwnProperty("linkyt")) {
+                            json_antigo_jogos_counter++;
+                        }
+                    }
+                    if (json_antigo_jogos_counter > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_jogos_counter} Episódios no modelo antigo</span>`;
+
+                    //Detector de data - JOGOS episodios
+                    let json_data_jogos_counter = 0;
+
+                    for (var i = 0; i<data.videos.length; i++) {
+                        if (!data.videos[i].hasOwnProperty("data") || data.videos[i].hasOwnProperty("data") && data.videos[i].data == "") {
+                            json_data_jogos_counter++;
+                        }
+                    }
+                    if (json_data_jogos_counter > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_jogos_counter} Episódios sem data</span>`;
                 })
             }
 
@@ -381,6 +401,26 @@ function debug() {
                     else if (data.videos[data.videos.length-1].plataforma == "gdrive" || data.videos[data.videos.length-1].plataforma == "archive")  debug_serie_icon = `<i class="fa fa-fw fa-file-video-o" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
 
                     document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} VODs`;
+
+                    //Detector de JSON antigo - JOGOS vods
+                    let json_antigo_jogos_counter = 0;
+
+                    for (var i = 0; i<data.videos.length; i++) {
+                        if (data.videos[i].hasOwnProperty("linkyt")) {
+                            json_antigo_jogos_counter++;
+                        }
+                    }
+                    if (json_antigo_jogos_counter > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_jogos_counter} VODS no modelo antigo</span>`;
+
+                    //Detector de data - JOGOS vods
+                    let json_data_jogos_counter = 0;
+
+                    for (var i = 0; i<data.videos.length; i++) {
+                        if (!data.videos[i].hasOwnProperty("data") || data.videos[i].hasOwnProperty("data") && data.videos[i].data == "") {
+                            json_data_jogos_counter++;
+                        }
+                    }
+                    if (json_data_jogos_counter > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_jogos_counter} VODS sem data</span>`;
                 })
             }
 
@@ -418,6 +458,26 @@ function debug() {
 
             document.querySelector(".jogo_id_outros_"+debug_outro_nome).innerHTML += debug_info.info_outro[debug_outro_nome];
             document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} Episódios`;
+
+            //Detector de JSON antigo - OUTROS
+            let json_antigo_outros_counter = 0;
+
+            for (var i = 0; i<data.videos.length; i++) {
+                if (data.videos[i].hasOwnProperty("linkyt")) {
+                    json_antigo_outros_counter++;
+                }
+            }
+            if (json_antigo_outros_counter > 0) document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_outros_counter} Episódios no modelo antigo</span>`;
+
+            //Detector de data - OUTROS
+            let json_data_outros_counter = 0;
+
+            for (var i = 0; i<data.videos.length; i++) {
+                if (!data.videos[i].hasOwnProperty("data") || data.videos[i].hasOwnProperty("data") && data.videos[i].data == "") {
+                    json_data_outros_counter++;
+                }
+            }
+            if (json_data_outros_counter > 0) document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_outros_counter} Episódios sem data</span>`;
         })
     }
 
@@ -433,8 +493,22 @@ function debug() {
     );
 
     document.querySelectorAll(".standalone_titulo_archive").forEach((element) =>
-        element.innerHTML += `<br><br><span>Inernet Archive</span>`
+        element.innerHTML += `<br><br><span>Internet Archive</span>`
     );
+
+    //Detector de JSON antigo - STANDALONE
+    for (var i = 0; i<dados_geral.standalone.length; i++) {
+        if (dados_geral.standalone[i].hasOwnProperty("linkyt")) {
+            document.querySelector(".standalone_"+i).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> Vídeo no modelo antigo</span>`;
+        }
+    }
+
+    //Detector de data - STANDALONE
+    for (var i = 0; i<dados_geral.standalone.length; i++) {
+        if (!dados_geral.standalone[i].hasOwnProperty("data") || dados_geral.standalone[i].hasOwnProperty("data") && dados_geral.standalone[i].data == "") {
+            document.querySelector(".standalone_"+i).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> Vídeo sem data</span>`;
+        }
+    }
 
     console.groupEnd();
 

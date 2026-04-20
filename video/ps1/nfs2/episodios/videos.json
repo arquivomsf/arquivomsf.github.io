@@ -1,96 +1,129 @@
 {
-    "playlist": [
-        {
-            "nome": "Need for Speed 2 (PS1)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtZqdIlF5pQl5Rr8RjKGHv8",
-            "quantidade": "7"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Need for Speed 2 de PS1 - Parte 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1dEkVKrP3GSpnsOd5euolemTUHBsgX-ie/view",
-            "linkyt": "https://youtu.be/LrbjVBYtptU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 12
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - Parte 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1xxbIKrnD5Xic748XzHPNmgThDsF2eHTQ/view",
-            "linkyt": "https://youtu.be/rCNyNndRgxM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 47,
-                "segundos": 20
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - Parte 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1o8uEEx3ueKHRkSiKS47-xLzURHeqMBNJ/view",
-            "linkyt": "https://youtu.be/EnmyM7G33-k",
-            "duracao": {
-                "horas": 0,
-                "minutos": 52,
-                "segundos": 16
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - Parte 4",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1NvE-plKiNqTc9PEWbHUXpTYuWBlUzSmu/view",
-            "linkyt": "https://youtu.be/w83_lmrzh1o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 54,
-                "segundos": 49
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - Parte 5",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1YWIL9XLs8ItvU5S1PtIKJWGvE03ZKMyW/view",
-            "linkyt": "https://youtu.be/TZnDbFoT0-E",
-            "duracao": {
-                "horas": 0,
-                "minutos": 55,
-                "segundos": 1
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - Parte 6",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/16QoXkVKknlgVG7wH5yDkWC0c2oF2hUHd/view",
-            "linkyt": "https://youtu.be/_8sf7r6W0Qk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 51,
-                "segundos": 55
-            },
-            "plataforma": "youtube"
-        },
-        {
-            "nome": "Need for Speed 2 de PS1 - Parte 7 Final",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1rL3vd2ssjx2XYtMWK1CaIOtMtVewu_pf/view",
-            "linkyt": "https://youtu.be/G3Ex8QqM0J0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 41,
-                "segundos": 52
-            },
-            "plataforma": "youtube"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Need for Speed 2 (PS1)",
+      "imagem": "jpg",
+      "quantidade": "7",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtZqdIlF5pQl5Rr8RjKGHv8",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Need for Speed 2 de PS1 - Parte 1",
+      "imagem": "jpg",
+      "data": "21/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/LrbjVBYtptU",
+        "gdrive": "https://drive.google.com/file/d/1dEkVKrP3GSpnsOd5euolemTUHBsgX-ie/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 12
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - Parte 2",
+      "imagem": "jpg",
+      "data": "22/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/rCNyNndRgxM",
+        "gdrive": "https://drive.google.com/file/d/1xxbIKrnD5Xic748XzHPNmgThDsF2eHTQ/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 47,
+        "segundos": 20
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - Parte 3",
+      "imagem": "jpg",
+      "data": "23/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/EnmyM7G33-k",
+        "gdrive": "https://drive.google.com/file/d/1o8uEEx3ueKHRkSiKS47-xLzURHeqMBNJ/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 16
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - Parte 4",
+      "imagem": "jpg",
+      "data": "24/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/w83_lmrzh1o",
+        "gdrive": "https://drive.google.com/file/d/1NvE-plKiNqTc9PEWbHUXpTYuWBlUzSmu/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 54,
+        "segundos": 49
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - Parte 5",
+      "imagem": "jpg",
+      "data": "25/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/TZnDbFoT0-E",
+        "gdrive": "https://drive.google.com/file/d/1YWIL9XLs8ItvU5S1PtIKJWGvE03ZKMyW/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 55,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - Parte 6",
+      "imagem": "jpg",
+      "data": "26/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/_8sf7r6W0Qk",
+        "gdrive": "https://drive.google.com/file/d/16QoXkVKknlgVG7wH5yDkWC0c2oF2hUHd/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 51,
+        "segundos": 55
+      }
+    },
+    {
+      "nome": "Need for Speed 2 de PS1 - Parte 7 Final",
+      "imagem": "jpg",
+      "data": "27/09/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/G3Ex8QqM0J0",
+        "gdrive": "https://drive.google.com/file/d/1rL3vd2ssjx2XYtMWK1CaIOtMtVewu_pf/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 41,
+        "segundos": 52
+      }
+    }
+  ]
 }

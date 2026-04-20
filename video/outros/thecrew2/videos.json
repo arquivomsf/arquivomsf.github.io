@@ -1,819 +1,1009 @@
 {
-    "playlist": [
-        {
-            "nome": "The Crew 2 - MarceloSouzaF",
-            "imagem": "jpg",
-            "_link": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtBVxB0QMkUIUqqzNdLrqFC",
-            "quantidade": "62"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "The Crew 2 - Gameplay de Avião 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1QHzDO20XBhN06fZ9b2BYrj-c3hUDTkdk/view",
-            "linkyt": "The Crew 2 - Gameplay de Avião 1",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 0
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Gameplay de Avião 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1po0DAD5fuSVSAEZogZmci6Ln9LSgHaoI/view",
-            "linkyt": "https://youtu.be/beeRtYzzTzI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Porsche Prata no Asfalto",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Ng3RwOiIH1wNKKnAjQfd0h4GUVQdCCcF/view",
-            "linkyt": "https://youtu.be/SfX-AGC73Fw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - DMC DeLorean",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1BHRZSAs7vZPCGbmu5ElE-WJD8m2isxB5/view",
-            "linkyt": "https://youtu.be/IboiMor5HX0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Policial de Dodge",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1ttyeHyOAnomuCB8SXbLb-U2uX0MWjSA_/view",
-            "linkyt": "https://youtu.be/3ZD7nTCiJqw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Policial vs Rachadores",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Froy6AnlWaAzxKocW-0SJhYT0Q124iK1/view",
-            "linkyt": "https://youtu.be/cjxL0sGhWWE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Perseguição de dia",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1IAOv-3Ey5o7jqNOEfdb6R2nkwABBTV3d/view",
-            "linkyt": "https://youtu.be/ehAHdl_fCUk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Policia na chuva",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1zmhB-4oFMpKWtScfXqXEZfcZgfsUvpg8/view",
-            "linkyt": "https://youtu.be/0LWjjvDzrWs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 58
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Customização da Porsche",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1cNa50-IGhx33eNlsT4ZuqvVKCUnL7nSP/view",
-            "linkyt": "https://youtu.be/O60G7x6exX0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Peças da Porsche",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1GEp0ESY4xO-9KuBxrU82XxQAwQTBR0b_/view",
-            "linkyt": "https://youtu.be/qN-FULS2oJM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "12/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Porsche no Gelo 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1kUde9aP--bg7t6MuHpzBBlfz6hZ8tMWT/view",
-            "linkyt": "https://youtu.be/j6AS5inIsME",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Porsche no Gelo 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1jElt9g5I4NQkEAWTmkhcXumnLuZ6mfjK/view",
-            "linkyt": "https://youtu.be/JaGT4XSEsRQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Corrida de Harley",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1HBG-YG2wi8GA_bL3uGEt3fHUBxuwCxKR/view",
-            "linkyt": "https://youtu.be/A6m-hc9ATWo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 0
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Harley no Interior",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1JrPtkuIkbZRXZ5ksUoR8N_E3ss2IccSr/view",
-            "linkyt": "https://youtu.be/19OMGdBUZG0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 1
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Polícia de Caminhonete FORD 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1u7hlKGUZ7BLqHNbov95pdDcG6bXzfc_d/view",
-            "linkyt": "https://youtu.be/YmBwGXcwcnQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 0
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Polícia de Caminhoneta FORD 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Y2hgFTTkfJ5KpPyqj8lqV5DyzGvBu-oG/view",
-            "linkyt": "https://youtu.be/UpEmRlYe0G4",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Polícia de Caminhonete FORD nas Montanhas",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1l0_zCWUoD5ekIZiX4Lgj6Er6HMSUnN65/view",
-            "linkyt": "https://youtu.be/yg7wfh4Ra84",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Motocross Noturno",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1mYQHdj0I6vCxCzRpeLmk7W04zzTofYBu/view",
-            "linkyt": "https://youtu.be/qOKfvscQJdI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Motocross Futurista",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1bApzvCCPwxcyYLZ0uKVZJ7evSIezL6F-/view",
-            "linkyt": "https://youtu.be/iTsfClePAuA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Rally Evo",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1SOsCsR93nXJ-CDKEAnGRcZHWTaztJEmJ/view",
-            "linkyt": "https://youtu.be/3IpJEL3VMgs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Anfíbio",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1TCdwMzAAoh9_-3Khs0fg-F81lM05fJmS/view",
-            "linkyt": "https://youtu.be/66f-3ppItH0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Porsche Mundo Retro",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1XJnWqX0vsUeaDLLYTKVgbwO25FlW54C2/view",
-            "linkyt": "https://youtu.be/gEfqzBJtxhY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 1
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Iniciando Corrida de Boss",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1yKbFooq9JC9vSoVw22s56Na9lmwfEuyq/view",
-            "linkyt": "https://youtu.be/53KeKt47V60",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 56
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Versus Boss Rally",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1fLqddP5V0K9m1Yr7ksRMUEZwyAizbGD1/view",
-            "linkyt": "https://youtu.be/HolA9ABRk8A",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Levando pro Hospital",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Lx2rmFDq3ocCbvMS6ry-nmemsTfuRX3T/view",
-            "linkyt": "https://youtu.be/m_jM3x1BGNs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Porsche na Cidade com Neve",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1GITZwELQBLNsiILy78xrHWy0V3hzfTJN/view",
-            "linkyt": "https://youtu.be/hVZZz9M4Kew",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Acelerando na Cidade com Neve",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/10KVXIo502kHSFrk-T_TIF_zPRKFFBLbz/view",
-            "linkyt": "https://youtu.be/52Ez9u7ubY8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Rodovia com a Porsche",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1wa9JPKX4RKtZAjXFQBnUJyYIASlgCvSn/view",
-            "linkyt": "https://youtu.be/2O_6DTewyDA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 0
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Noite com a Porsche",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/12bVchSkew3EDqJv9DPi8vAvY_En9ZW-L/view",
-            "linkyt": "https://youtu.be/oV2aSzXwV6E",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Retro 80s com DeLorean",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1FmK5gLnw4OXNNB7QTrn8t0i3Pns2hUvZ/view",
-            "linkyt": "https://youtu.be/Z3EAWXo5rs0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "16/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Marcas de Carros",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1mPwJe7jXe-wVi--AIZl3JvAD5wFBA6Pz/view",
-            "linkyt": "https://youtu.be/rKxqTj4bwbU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 29
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Manobras no Ar",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Rtn2WiwQkm_XOg7WidY-qWUP5ReCMOI2/view",
-            "linkyt": "https://youtu.be/n2_20TqxaEQ",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Troca em tempo real",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1rYCG6fZqAGXt0Lu8C49rz99pzHSOSZvJ/view",
-            "linkyt": "https://youtu.be/HnkmNJ0ggY8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Voando na Golden Gate Bridge",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1pYRJkwDnsWUi0wj8iH9g5W_Wo3k_1_FH/view",
-            "linkyt": "https://youtu.be/_s0ifpsoT2o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Monster Truck 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1iMsMwu5tTFzy2TgjwoZhwmS3is0tscQm/view",
-            "linkyt": "https://youtu.be/wotxHvijs68",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Monster Truck 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1MoUroaaTCoRvwWWaq9Hv2t2UfWmRZUwR/view",
-            "linkyt": "https://youtu.be/BEQ9BgqIHfE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Arena Demolition Derby",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1c0j777TghfPnc-ygevvfVYiLhK0H-O2D/view",
-            "linkyt": "https://youtu.be/4DFv4unC4K8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Arena Demolição",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1VqtiF5Dej2awjNwIDmuyJCH_a6-oC5jf/view",
-            "linkyt": "https://youtu.be/G02WB3xyW1s",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Corrida Derby",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1yO64SYbISUYLdIl8hRr7dtAhSk1rxCRY/view",
-            "linkyt": "https://youtu.be/gyvKwmqIHLA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Barquinho",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1QObdSLyi_k6iKFBjNLt9e3VwwgZcNEdL/view",
-            "linkyt": "https://youtu.be/w6kjfBhtKus",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 0
-            },
-            "plataforma": "youtube",
-            "data": "17/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Eventos Semanais",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/16n3Piu46CevdleT6t6bO2139xK2U6L4V/view",
-            "linkyt": "https://youtu.be/RWAaLCOLIDE",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 29
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Drift 1",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1H0nAeXzWKGBIdjXGAKDUTiahl9xjGxdO/view",
-            "linkyt": "https://youtu.be/8_sysy5XwfI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Drift 2",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1uWwofXU1BA4DoMEFk6P2G27UEtNR8My7/view",
-            "linkyt": "https://youtu.be/2BOduaUW5kc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Drift 3",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1SsILFr1Pru_1-qKFo53ZX6OY5jqBF75w/view",
-            "linkyt": "https://youtu.be/-BKAtRuJdZo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Drift a Noite",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1vaqFVDKtBuADqyBW_ATrq6eqxUM4QKGe/view",
-            "linkyt": "https://youtu.be/CyRDYfs0bhk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Customizando o Jaguar",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1tVBuk1VS4Xnc-UzCQBBxN9X07d20VFjI/view",
-            "linkyt": "https://youtu.be/JTebfprzPKw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Jaguar na Pista",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1xGlUaqiZ7VHia3sYVwLFzsARArBezHRw/view",
-            "linkyt": "https://youtu.be/vjINUlFeTwU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Jaguar Retro",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/132wlfV08f0ctOKwiLXt0pjgTFhf29zEl/view",
-            "linkyt": "https://youtu.be/htgHR7wHj_o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Bug nas Texturas",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1smEbrA8HNoZ371fAn02afSAPtVVyqbcg/view",
-            "linkyt": "https://youtu.be/7py86Nqqlq8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "23/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Mercedes Pro",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/17pjXtWJLvDCcB1RnzF_u8gQEURuxfUXC/view",
-            "linkyt": "https://youtu.be/SSIOh2f4t7k",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Mercedes no Gelo",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1RWaya1ggG7Dh4Svx0Vs4LfXubH-jSb2M/view",
-            "linkyt": "https://youtu.be/twDmx2FNG-0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Avião em Acrobacias",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/17TSOFHA2IbFw-ODEVHfPeuQOgYSFnMsA/view",
-            "linkyt": "https://youtu.be/HlrnGNSUpXs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Avião nas Montanhas com Neve",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1pY8dURSO2EGVx2eq2KUHFe4hyyfjj-Ww/view",
-            "linkyt": "https://youtu.be/DxnUxX1e6L0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 0
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Mais Avião",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1JZkkYQ9OrJLWLPkS5acOw8bprxyZ0SX1/view",
-            "linkyt": "https://youtu.be/lI9o393-kiI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Formula 1 de Noite",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1Guo-CY009IoF-ihNRQg6GmUcXOhQXfVS/view",
-            "linkyt": "https://youtu.be/KzUfcAoG59Y",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Noturno Interno do Carro",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1YcVffxQ2wyT_OqogAId7qk23hNxVL3lg/view",
-            "linkyt": "https://youtu.be/ZQ3q8fAQI7c",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - BUG Oponente Teleportando pra Frente",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1DzQP2CwvwAHBMNpTMZAXhXf2PSBO-JQs/view",
-            "linkyt": "https://youtu.be/EgAyN0yV-Eg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Corrida ao lado do Cruzeiro",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/180UYqF_o8_NionrES-Xm4wNljIUcsiQh/view",
-            "linkyt": "https://youtu.be/QKoxFEo3pUc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Mercedes e Barco na Neve",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1sojTRbrT0FV19lDZg5Ze8b0x9Fe5bfTj/view",
-            "linkyt": "https://youtu.be/WLSk4qL6W1M",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Barco e F1 na Neve",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1JfJfNEsOha2vK6DnSfx54LOtvV6-Kl2L/view",
-            "linkyt": "https://youtu.be/vo235AaUkYY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Formula 1 na Neve.",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1FNWdGr-fgF4mQHwnpvVk2Y6puLCc1fCQ/view",
-            "linkyt": "https://youtu.be/REEOsYumsu0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 0,
-                "segundos": 59
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        },
-        {
-            "nome": "The Crew 2 - Explorando Menus",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1rxUxT12hgEzfFwgJWnTPz9UIdF15EMc9/view",
-            "linkyt": "https://youtu.be/bYXp_Kr2zVs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 0
-            },
-            "plataforma": "youtube",
-            "data": "24/02/2026"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "The Crew 2 - MarceloSouzaF",
+      "imagem": "jpg",
+      "quantidade": "62",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtBVxB0QMkUIUqqzNdLrqFC",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "The Crew 2 - Gameplay de Avião 1",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/WYTEuiQvwLo",
+        "gdrive": "https://drive.google.com/file/d/1QHzDO20XBhN06fZ9b2BYrj-c3hUDTkdk/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P01+-+The+Crew+2+-+Gameplay+de+Avi%C3%A3o+1.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "The Crew 2 - Gameplay de Avião 2",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/beeRtYzzTzI",
+        "gdrive": "https://drive.google.com/file/d/1po0DAD5fuSVSAEZogZmci6Ln9LSgHaoI/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P02+-+The+Crew+2+-+Gameplay+de+Avi%C3%A3o+2.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Porsche Prata no Asfalto",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SfX-AGC73Fw",
+        "gdrive": "https://drive.google.com/file/d/1Ng3RwOiIH1wNKKnAjQfd0h4GUVQdCCcF/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P03+-+The+Crew+2+-+Porsche+Prata+no+Asfalto.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - DMC DeLorean",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/IboiMor5HX0",
+        "gdrive": "https://drive.google.com/file/d/1BHRZSAs7vZPCGbmu5ElE-WJD8m2isxB5/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P04+-+The+Crew+2+-+DMC+DeLorean.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Policial de Dodge",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3ZD7nTCiJqw",
+        "gdrive": "https://drive.google.com/file/d/1ttyeHyOAnomuCB8SXbLb-U2uX0MWjSA_/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P05+-+The+Crew+2+-+Policial+de+Dodge.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Policial vs Rachadores",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/cjxL0sGhWWE",
+        "gdrive": "https://drive.google.com/file/d/1Froy6AnlWaAzxKocW-0SJhYT0Q124iK1/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P06+-+The+Crew+2+-+Policial+vs+Rachadores.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Perseguição de dia",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ehAHdl_fCUk",
+        "gdrive": "https://drive.google.com/file/d/1IAOv-3Ey5o7jqNOEfdb6R2nkwABBTV3d/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P07+-+The+Crew+2+-+Persegui%C3%A7%C3%A3o+de+dia.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Policia na chuva",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/0LWjjvDzrWs",
+        "gdrive": "https://drive.google.com/file/d/1zmhB-4oFMpKWtScfXqXEZfcZgfsUvpg8/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P08+-+The+Crew+2+-+Policia+na+chuva.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "The Crew 2 - Customização da Porsche",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/O60G7x6exX0",
+        "gdrive": "https://drive.google.com/file/d/1cNa50-IGhx33eNlsT4ZuqvVKCUnL7nSP/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P09+-+The+Crew+2+-+Customiza%C3%A7%C3%A3o+da+Porsche.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Peças da Porsche",
+      "imagem": "jpg",
+      "data": "12/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qN-FULS2oJM",
+        "gdrive": "https://drive.google.com/file/d/1GEp0ESY4xO-9KuBxrU82XxQAwQTBR0b_/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P10+-+The+Crew+2+-+Pe%C3%A7as+da+Porsche.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Porsche no Gelo 1",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/j6AS5inIsME",
+        "gdrive": "https://drive.google.com/file/d/1kUde9aP--bg7t6MuHpzBBlfz6hZ8tMWT/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P11+-+The+Crew+2+-+Porsche+no+Gelo+1.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Porsche no Gelo 2",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JaGT4XSEsRQ",
+        "gdrive": "https://drive.google.com/file/d/1jElt9g5I4NQkEAWTmkhcXumnLuZ6mfjK/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P12+-+The+Crew+2+-+Porsche+no+Gelo+2.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Corrida de Harley",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/A6m-hc9ATWo",
+        "gdrive": "https://drive.google.com/file/d/1HBG-YG2wi8GA_bL3uGEt3fHUBxuwCxKR/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P13+-+The+Crew+2+-+Corrida+de+Harley.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "The Crew 2 - Harley no Interior",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/19OMGdBUZG0",
+        "gdrive": "https://drive.google.com/file/d/1JrPtkuIkbZRXZ5ksUoR8N_E3ss2IccSr/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P14+-+The+Crew+2+-+Harley+no+Interior.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "The Crew 2 - Polícia de Caminhonete FORD 1",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/YmBwGXcwcnQ",
+        "gdrive": "https://drive.google.com/file/d/1u7hlKGUZ7BLqHNbov95pdDcG6bXzfc_d/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P15+-+The+Crew+2+-+Pol%C3%ADcia+de+Caminhonete+FORD+1.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "The Crew 2 - Polícia de Caminhoneta FORD 2",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/UpEmRlYe0G4",
+        "gdrive": "https://drive.google.com/file/d/1Y2hgFTTkfJ5KpPyqj8lqV5DyzGvBu-oG/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P16+-+The+Crew+2+-+Pol%C3%ADcia+de+Caminhoneta+FORD+2.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Polícia de Caminhonete FORD nas Montanhas",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/yg7wfh4Ra84",
+        "gdrive": "https://drive.google.com/file/d/1l0_zCWUoD5ekIZiX4Lgj6Er6HMSUnN65/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P17+-+The+Crew+2+-+Pol%C3%ADcia+de+Caminhonete+FORD+nas+Montanhas.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Motocross Noturno",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qOKfvscQJdI",
+        "gdrive": "https://drive.google.com/file/d/1mYQHdj0I6vCxCzRpeLmk7W04zzTofYBu/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P18+-+The+Crew+2+-+Motocross+Noturno.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Motocross Futurista",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/iTsfClePAuA",
+        "gdrive": "https://drive.google.com/file/d/1bApzvCCPwxcyYLZ0uKVZJ7evSIezL6F-/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P19+-+The+Crew+2+-+Motocross+Futurista.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Rally Evo",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3IpJEL3VMgs",
+        "gdrive": "https://drive.google.com/file/d/1SOsCsR93nXJ-CDKEAnGRcZHWTaztJEmJ/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P20+-+The+Crew+2+-+Rally+Evo.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Anfíbio",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/66f-3ppItH0",
+        "gdrive": "https://drive.google.com/file/d/1TCdwMzAAoh9_-3Khs0fg-F81lM05fJmS/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P21+-+The+Crew+2+-+Anf%C3%ADbio.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Porsche Mundo Retro",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/gEfqzBJtxhY",
+        "gdrive": "https://drive.google.com/file/d/1XJnWqX0vsUeaDLLYTKVgbwO25FlW54C2/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P22+-+The+Crew+2+-+Porsche+Mundo+Retro.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "The Crew 2 - Iniciando Corrida de Boss",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/53KeKt47V60",
+        "gdrive": "https://drive.google.com/file/d/1yKbFooq9JC9vSoVw22s56Na9lmwfEuyq/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P23+-+The+Crew+2+-+Iniciando+Corrida+de+Boss.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 56
+      }
+    },
+    {
+      "nome": "The Crew 2 - Versus Boss Rally",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HolA9ABRk8A",
+        "gdrive": "https://drive.google.com/file/d/1fLqddP5V0K9m1Yr7ksRMUEZwyAizbGD1/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P24+-+The+Crew+2+-+Versus+Boss+Rally.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Levando pro Hospital",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/m_jM3x1BGNs",
+        "gdrive": "https://drive.google.com/file/d/1Lx2rmFDq3ocCbvMS6ry-nmemsTfuRX3T/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P25+-+The+Crew+2+-+Levando+pro+Hospital.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Porsche na Cidade com Neve",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/hVZZz9M4Kew",
+        "gdrive": "https://drive.google.com/file/d/1GITZwELQBLNsiILy78xrHWy0V3hzfTJN/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P26+-+The+Crew+2+-+Porsche+na+Cidade+com+Neve.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Acelerando na Cidade com Neve",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/52Ez9u7ubY8",
+        "gdrive": "https://drive.google.com/file/d/10KVXIo502kHSFrk-T_TIF_zPRKFFBLbz/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P27+-+The+Crew+2+-+Acelerando+na+Cidade+com+Neve.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Rodovia com a Porsche",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/2O_6DTewyDA",
+        "gdrive": "https://drive.google.com/file/d/1wa9JPKX4RKtZAjXFQBnUJyYIASlgCvSn/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P28+-+The+Crew+2+-+Rodovia+com+a+Porsche.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "The Crew 2 - Noite com a Porsche",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/oV2aSzXwV6E",
+        "gdrive": "https://drive.google.com/file/d/12bVchSkew3EDqJv9DPi8vAvY_En9ZW-L/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P29+-+The+Crew+2+-+Noite+com+a+Porsche.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Retro 80s com DeLorean",
+      "imagem": "jpg",
+      "data": "16/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Z3EAWXo5rs0",
+        "gdrive": "https://drive.google.com/file/d/1FmK5gLnw4OXNNB7QTrn8t0i3Pns2hUvZ/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P30+-+The+Crew+2+-+Retro+80s+com+DeLorean.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Marcas de Carros",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/rKxqTj4bwbU",
+        "gdrive": "https://drive.google.com/file/d/1mPwJe7jXe-wVi--AIZl3JvAD5wFBA6Pz/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P31+-+The+Crew+2+-+Marcas+de+Carros.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 29
+      }
+    },
+    {
+      "nome": "The Crew 2 - Manobras no Ar",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/n2_20TqxaEQ",
+        "gdrive": "https://drive.google.com/file/d/1Rtn2WiwQkm_XOg7WidY-qWUP5ReCMOI2/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P32+-+The+Crew+2+-+Manobras+no+Ar.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Troca em tempo real",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HnkmNJ0ggY8",
+        "gdrive": "https://drive.google.com/file/d/1rYCG6fZqAGXt0Lu8C49rz99pzHSOSZvJ/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P33+-+The+Crew+2+-+Troca+em+tempo+real.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Voando na Golden Gate Bridge",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/_s0ifpsoT2o",
+        "gdrive": "https://drive.google.com/file/d/1pYRJkwDnsWUi0wj8iH9g5W_Wo3k_1_FH/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P34+-+The+Crew+2+-+Voando+na+Golden+Gate+Bridge.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Monster Truck 1",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/wotxHvijs68",
+        "gdrive": "https://drive.google.com/file/d/1iMsMwu5tTFzy2TgjwoZhwmS3is0tscQm/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P35+-+The+Crew+2+-+Monster+Truck+1.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Monster Truck 2",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/BEQ9BgqIHfE",
+        "gdrive": "https://drive.google.com/file/d/1MoUroaaTCoRvwWWaq9Hv2t2UfWmRZUwR/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P36+-+The+Crew+2+-+Monster+Truck+2.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Arena Demolition Derby",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4DFv4unC4K8",
+        "gdrive": "https://drive.google.com/file/d/1c0j777TghfPnc-ygevvfVYiLhK0H-O2D/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P37+-+The+Crew+2+-+Arena+Demolition+Derby.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Arena Demolição",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/G02WB3xyW1s",
+        "gdrive": "https://drive.google.com/file/d/1VqtiF5Dej2awjNwIDmuyJCH_a6-oC5jf/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P38+-+The+Crew+2+-+Arena+Demoli%C3%A7%C3%A3o.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Corrida Derby",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/gyvKwmqIHLA",
+        "gdrive": "https://drive.google.com/file/d/1yO64SYbISUYLdIl8hRr7dtAhSk1rxCRY/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P39+-+The+Crew+2+-+Corrida+Derby.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Barquinho",
+      "imagem": "jpg",
+      "data": "17/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/w6kjfBhtKus",
+        "gdrive": "https://drive.google.com/file/d/1QObdSLyi_k6iKFBjNLt9e3VwwgZcNEdL/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P40+-+The+Crew+2+-+Barquinho.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "The Crew 2 - Eventos Semanais",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/RWAaLCOLIDE",
+        "gdrive": "https://drive.google.com/file/d/16n3Piu46CevdleT6t6bO2139xK2U6L4V/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P41+-+The+Crew+2+-+Eventos+Semanais.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 29
+      }
+    },
+    {
+      "nome": "The Crew 2 - Drift 1",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8_sysy5XwfI",
+        "gdrive": "https://drive.google.com/file/d/1H0nAeXzWKGBIdjXGAKDUTiahl9xjGxdO/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P42+-+The+Crew+2+-+Drift+1.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Drift 2",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/2BOduaUW5kc",
+        "gdrive": "https://drive.google.com/file/d/1uWwofXU1BA4DoMEFk6P2G27UEtNR8My7/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P43+-+The+Crew+2+-+Drift+2.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Drift 3",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/-BKAtRuJdZo",
+        "gdrive": "https://drive.google.com/file/d/1SsILFr1Pru_1-qKFo53ZX6OY5jqBF75w/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P44+-+The+Crew+2+-+Drift+3.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Drift a Noite",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/CyRDYfs0bhk",
+        "gdrive": "https://drive.google.com/file/d/1vaqFVDKtBuADqyBW_ATrq6eqxUM4QKGe/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P45+-+The+Crew+2+-+Drift+a+Noite.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Customizando o Jaguar",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JTebfprzPKw",
+        "gdrive": "https://drive.google.com/file/d/1tVBuk1VS4Xnc-UzCQBBxN9X07d20VFjI/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P46+-+The+Crew+2+-+Customizando+o+Jaguar.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Jaguar na Pista",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vjINUlFeTwU",
+        "gdrive": "https://drive.google.com/file/d/1xGlUaqiZ7VHia3sYVwLFzsARArBezHRw/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P47+-+The+Crew+2+-+Jaguar+na+Pista.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Jaguar Retro",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/htgHR7wHj_o",
+        "gdrive": "https://drive.google.com/file/d/132wlfV08f0ctOKwiLXt0pjgTFhf29zEl/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P48+-+The+Crew+2+-+Jaguar+Retro.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Bug nas Texturas",
+      "imagem": "jpg",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/7py86Nqqlq8",
+        "gdrive": "https://drive.google.com/file/d/1smEbrA8HNoZ371fAn02afSAPtVVyqbcg/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P49+-+The+Crew+2+-+Bug+nas+Texturas.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Mercedes Pro",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SSIOh2f4t7k",
+        "gdrive": "https://drive.google.com/file/d/17pjXtWJLvDCcB1RnzF_u8gQEURuxfUXC/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P50+-+The+Crew+2+-+Mercedes+Pro.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Mercedes no Gelo",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/twDmx2FNG-0",
+        "gdrive": "https://drive.google.com/file/d/1RWaya1ggG7Dh4Svx0Vs4LfXubH-jSb2M/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P51+-+The+Crew+2+-+Mercedes+no+Gelo.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Avião em Acrobacias",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HlrnGNSUpXs",
+        "gdrive": "https://drive.google.com/file/d/17TSOFHA2IbFw-ODEVHfPeuQOgYSFnMsA/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P52+-+The+Crew+2+-+Avi%C3%A3o+em+Acrobacias.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Avião nas Montanhas com Neve",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DxnUxX1e6L0",
+        "gdrive": "https://drive.google.com/file/d/1pY8dURSO2EGVx2eq2KUHFe4hyyfjj-Ww/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P53+-+The+Crew+2+-+Avi%C3%A3o+nas+Montanhas+com+Neve.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "The Crew 2 - Mais Avião",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/lI9o393-kiI",
+        "gdrive": "https://drive.google.com/file/d/1JZkkYQ9OrJLWLPkS5acOw8bprxyZ0SX1/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P54+-+The+Crew+2+-+Mais+Avi%C3%A3o.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Formula 1 de Noite",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/KzUfcAoG59Y",
+        "gdrive": "https://drive.google.com/file/d/1Guo-CY009IoF-ihNRQg6GmUcXOhQXfVS/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P55+-+The+Crew+2+-+Formula+1+de+Noite.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Noturno Interno do Carro",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ZQ3q8fAQI7c",
+        "gdrive": "https://drive.google.com/file/d/1YcVffxQ2wyT_OqogAId7qk23hNxVL3lg/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P56+-+The+Crew+2+-+Noturno+Interno+do+Carro.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - BUG Oponente Teleportando pra Frente",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/EgAyN0yV-Eg",
+        "gdrive": "https://drive.google.com/file/d/1DzQP2CwvwAHBMNpTMZAXhXf2PSBO-JQs/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P57+-+The+Crew+2+-+BUG+Oponente+Teleportando+pra+Frente.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Corrida ao lado do Cruzeiro",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/QKoxFEo3pUc",
+        "gdrive": "https://drive.google.com/file/d/180UYqF_o8_NionrES-Xm4wNljIUcsiQh/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P58+-+The+Crew+2+-+Corrida+ao+lado+do+Cruzeiro.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Mercedes e Barco na Neve",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/WLSk4qL6W1M",
+        "gdrive": "https://drive.google.com/file/d/1sojTRbrT0FV19lDZg5Ze8b0x9Fe5bfTj/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P59+-+The+Crew+2+-+Mercedes+e+Barco+na+Neve.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Barco e F1 na Neve",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vo235AaUkYY",
+        "gdrive": "https://drive.google.com/file/d/1JfJfNEsOha2vK6DnSfx54LOtvV6-Kl2L/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P60+-+The+Crew+2+-+Barco+e+F1+na+Neve.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Formula 1 na Neve.",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/REEOsYumsu0",
+        "gdrive": "https://drive.google.com/file/d/1FNWdGr-fgF4mQHwnpvVk2Y6puLCc1fCQ/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P61+-+The+Crew+2+-+Formula+1+na+Neve..mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "The Crew 2 - Explorando Menus",
+      "imagem": "jpg",
+      "data": "24/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/bYXp_Kr2zVs",
+        "gdrive": "https://drive.google.com/file/d/1rxUxT12hgEzfFwgJWnTPz9UIdF15EMc9/view",
+        "archive": "https://archive.org/details/arquivomsf-the-crew-2-gameplay/P62+-+The+Crew+2+-+Explorando+Menus.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 0
+      }
+    }
+  ]
 }

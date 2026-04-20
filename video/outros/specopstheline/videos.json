@@ -1,77 +1,97 @@
 {
-    "playlist": [
-        {
-            "nome": "Spec Ops: The Line (Clipes)",
-            "imagem": "jpg",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv0CFT9zRLS8LAzW2r8XRWQ",
-            "quantidade": "5"
-        }
-    ],
-    "videos": [
-        {
-            "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-01-45",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1X7nyI6wfADR5pV5Q3-wk_XWW05pOYJlL/view",
-            "linkyt": "https://youtu.be/YBpPD1pG3Lg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 7
-            },
-            "plataforma": "youtube",
-            "data": "03/03/2025"
-        },
-        {
-            "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-11-54",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1YsgKMp03FeOA3mHjTh3LNfDcf8-iREaH/view",
-            "linkyt": "https://youtu.be/3bl18t6FGWM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 5
-            },
-            "plataforma": "youtube",
-            "data": "03/03/2025"
-        },
-        {
-            "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-22-00",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1TQjJ9xnOpsLXgzwe_dwngrqrX6ZMTKdf/view",
-            "linkyt": "https://youtu.be/0jJQYScp-5g",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 2
-            },
-            "plataforma": "youtube",
-            "data": "03/03/2025"
-        },
-        {
-            "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-32-02",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/13e9uHK8xy8EYBU1hqlj2C4UWzJEe6Yur/view",
-            "linkyt": "https://youtu.be/g9fDrgGrET8",
-            "duracao": {
-                "horas": 0,
-                "minutos": 1,
-                "segundos": 55
-            },
-            "plataforma": "youtube",
-            "data": "03/03/2025"
-        },
-        {
-            "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-40-14",
-            "imagem": "jpg",
-            "link": "https://drive.google.com/file/d/1NdsNLa4ouiEQpkM104--qhQmM7L78wll/view",
-            "linkyt": "https://youtu.be/rg0QBf1Knio",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 2
-            },
-            "plataforma": "youtube",
-            "data": "03/03/2025"
-        }
-    ]
+  "playlist": [
+    {
+      "nome": "Spec Ops: The Line (Clipes)",
+      "imagem": "jpg",
+      "quantidade": "5",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv0CFT9zRLS8LAzW2r8XRWQ",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-01-45",
+      "imagem": "jpg",
+      "data": "03/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/YBpPD1pG3Lg",
+        "gdrive": "https://drive.google.com/file/d/1X7nyI6wfADR5pV5Q3-wk_XWW05pOYJlL/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-11-54",
+      "imagem": "jpg",
+      "data": "03/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3bl18t6FGWM",
+        "gdrive": "https://drive.google.com/file/d/1YsgKMp03FeOA3mHjTh3LNfDcf8-iREaH/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-22-00",
+      "imagem": "jpg",
+      "data": "03/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/0jJQYScp-5g",
+        "gdrive": "https://drive.google.com/file/d/1TQjJ9xnOpsLXgzwe_dwngrqrX6ZMTKdf/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-32-02",
+      "imagem": "jpg",
+      "data": "03/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/g9fDrgGrET8",
+        "gdrive": "https://drive.google.com/file/d/13e9uHK8xy8EYBU1hqlj2C4UWzJEe6Yur/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 55
+      }
+    },
+    {
+      "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-40-14",
+      "imagem": "jpg",
+      "data": "03/03/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/rg0QBf1Knio",
+        "gdrive": "https://drive.google.com/file/d/1NdsNLa4ouiEQpkM104--qhQmM7L78wll/view",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 2
+      }
+    }
+  ]
 }
