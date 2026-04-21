@@ -1,0 +1,289 @@
+{
+  "playlist": [
+    {
+      "nome": "Knight Survival",
+      "imagem": "jpg",
+      "quantidade": "17",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtQCnrmkbmkHarKkGqeO4OA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-31-17",
+      "imagem": "jpg",
+      "data": "16/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/2hWJA7OQ9pg",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P01+-+Jogando+Knight+Survival+_+2026-04-15+14-31-17.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-32-25",
+      "imagem": "jpg",
+      "data": "16/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Xe5fDVS9eSA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P02+-+Jogando+Knight+Survival+_+2026-04-15+14-32-25.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-33-32",
+      "imagem": "jpg",
+      "data": "16/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/MECkCalMUqo",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P03+-+Jogando+Knight+Survival+_+2026-04-15+14-33-32.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-34-34",
+      "imagem": "jpg",
+      "data": "16/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/6Jr171WnJog",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P04+-+Jogando+Knight+Survival+_+2026-04-15+14-34-34.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-35-39",
+      "imagem": "jpg",
+      "data": "16/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/5r2YlkkUhb0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P05+-+Jogando+Knight+Survival+_+2026-04-15+14-35-39.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-36-39",
+      "imagem": "jpg",
+      "data": "16/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/MxuS1uEitxM",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P06+-+Jogando+Knight+Survival+_+2026-04-15+14-36-39.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 3
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-37-42",
+      "imagem": "jpg",
+      "data": "16/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Csp3DkueXcI",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P07+-+Jogando+Knight+Survival+_+2026-04-15+14-37-42.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-17 18-59-17",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/_RlerpRKTlU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P08+-+Jogando+Knight+Survival+_+2026-04-17+18-59-17.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 8
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-17 19-14-27",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tgl-riCh4iI",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P09+-+Jogando+Knight+Survival+_+2026-04-17+19-14-27.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-17 19-29-32",
+      "imagem": "jpg",
+      "data": "17/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/9KWBqc0AVKA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P10+-+Jogando+Knight+Survival+_+2026-04-17+19-29-32.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-38-49",
+      "imagem": "jpg",
+      "data": "19/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/RPNXtP2ILUU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P11+-+Jogando+Knight+Survival+_+2026-04-15+14-38-49.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-39-52",
+      "imagem": "jpg",
+      "data": "19/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SQ-M4RRAxVY",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P12+-+Jogando+Knight+Survival+_+2026-04-15+14-39-52.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-40-58",
+      "imagem": "jpg",
+      "data": "19/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/y3u55uAvbDQ",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P13+-+Jogando+Knight+Survival+_+2026-04-15+14-40-58.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-42-05",
+      "imagem": "jpg",
+      "data": "19/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ZBw5dUFLgz0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P14+-+Jogando+Knight+Survival+_+2026-04-15+14-42-05.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-43-11",
+      "imagem": "jpg",
+      "data": "19/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/UJO73nQplG0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P15+-+Jogando+Knight+Survival+_+2026-04-15+14-43-11.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 3
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-44-15",
+      "imagem": "jpg",
+      "data": "19/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/1csHmef1LMo",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P16+-+Jogando+Knight+Survival+_+2026-04-15+14-44-15.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Jogando Knight Survival | 2026-04-15 14-45-22",
+      "imagem": "jpg",
+      "data": "19/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/k8uqmTe0GIU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-knight-survival/P17+-+Jogando+Knight+Survival+_+2026-04-15+14-45-22.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 11
+      }
+    }
+  ]
+}

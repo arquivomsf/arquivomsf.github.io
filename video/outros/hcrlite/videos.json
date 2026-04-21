@@ -1,0 +1,113 @@
+{
+  "playlist": [
+    {
+      "nome": "Hill Climb Racing Lite",
+      "imagem": "jpg",
+      "quantidade": "6",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-hill-climb-lite"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Hill Climb Racing Lite | 2026-04-18 09-19-25",
+      "imagem": "jpg",
+      "data": "20/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-hill-climb-lite/P01+-+Jogando+Hill+Climb+Racing+Lite+_+2026-04-18+09-19-25.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Hill Climb Racing Lite | 2026-04-18 09-20-33",
+      "imagem": "jpg",
+      "data": "20/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-hill-climb-lite/P02+-+Jogando+Hill+Climb+Racing+Lite+_+2026-04-18+09-20-33.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Jogando Hill Climb Racing Lite | 2026-04-18 09-21-33",
+      "imagem": "jpg",
+      "data": "20/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-hill-climb-lite/P03+-+Jogando+Hill+Climb+Racing+Lite+_+2026-04-18+09-21-33.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Hill Climb Racing Lite | 2026-04-18 09-22-40",
+      "imagem": "jpg",
+      "data": "20/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-hill-climb-lite/P04+-+Jogando+Hill+Climb+Racing+Lite+_+2026-04-18+09-22-40.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Jogando Hill Climb Racing Lite | 2026-04-18 09-23-47",
+      "imagem": "jpg",
+      "data": "20/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-hill-climb-lite/P05+-+Jogando+Hill+Climb+Racing+Lite+_+2026-04-18+09-23-47.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Hill Climb Racing Lite | 2026-04-18 09-24-54",
+      "imagem": "jpg",
+      "data": "20/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-hill-climb-lite/P06+-+Jogando+Hill+Climb+Racing+Lite+_+2026-04-18+09-24-54.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 26
+      }
+    }
+  ]
+}

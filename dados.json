@@ -1503,6 +1503,14 @@
       "consigla": "outros",
       "curto": "browser-2026"
     },
+        {
+      "nome": "Knight Survival",
+      "tags": "Knight Survival jogos navegador",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "knightsurvival"
+    },
     {
       "nome": "Left 4 Dead 2",
       "tags": "Left 4 Dead 2 Clipes",
@@ -1513,11 +1521,19 @@
     },
     {
       "nome": "Subway Surfers da Poki (2026)",
-      "tags": "Subway Surfers da Poki (2026) Clipes",
+      "tags": "Subway Surfers da Poki (2026) jogos navegador",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
       "curto": "subwaypoki2026"
+    },
+    {
+      "nome": "Empire City",
+      "tags": "Empire City jogos navegador",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "empirecity"
     },
     {
       "nome": "Cyberpunk 2077",
@@ -1526,6 +1542,14 @@
       "console": "Outros",
       "consigla": "outros",
       "curto": "cyberpunk"
+    },
+    {
+      "nome": "Hill Climb Racing Lite",
+      "tags": "Hill Climb Racing Lite jogos navegador",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "hcrlite"
     }
   ],
   "consoles": [

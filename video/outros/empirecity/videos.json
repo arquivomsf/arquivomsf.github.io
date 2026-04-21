@@ -1,0 +1,113 @@
+{
+  "playlist": [
+    {
+      "nome": "Empire City",
+      "imagem": "jpg",
+      "quantidade": "6",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtfSVrp594UiQ7JV6SO5ERM",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Empire City | 2026-04-18 09-12-03",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DiN-OyaumUA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city/P01+-+Jogando+Empire+City+_+2026-04-18+09-12-03.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Empire City | 2026-04-18 09-13-10",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qwRluMGxN1E",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city/P02+-+Jogando+Empire+City+_+2026-04-18+09-13-10.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Empire City | 2026-04-18 09-14-17",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Ru3z587QNxk",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city/P03+-+Jogando+Empire+City+_+2026-04-18+09-14-17.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Jogando Empire City | 2026-04-18 09-15-17",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/9_zQBFQnAfc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city/P04+-+Jogando+Empire+City+_+2026-04-18+09-15-17.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 3
+      }
+    },
+    {
+      "nome": "Jogando Empire City | 2026-04-18 09-16-20",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ed11w5oXu2s",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city/P05+-+Jogando+Empire+City+_+2026-04-18+09-16-20.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Jogando Empire City | 2026-04-18 09-17-21",
+      "imagem": "jpg",
+      "data": "18/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/0L-As64R3lU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city/P06+-+Jogando+Empire+City+_+2026-04-18+09-17-21.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 48
+      }
+    }
+  ]
+}
