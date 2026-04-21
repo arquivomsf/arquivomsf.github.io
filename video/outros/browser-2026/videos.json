@@ -3,7 +3,7 @@
     {
       "nome": "Jogos de Navegador Online (2026)",
       "imagem": "jpg",
-      "quantidade": "8",
+      "quantidade": "12",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvszcoIXZq6-ufKzPZdnlsRV",
@@ -126,19 +126,83 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-17-17",
+      "nome": "Jogos de Navegador Online | 2026-04-04 20-52-02",
       "imagem": "jpg",
-      "data": "07/04/2026",
+      "data": "21/04/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/Qq8B0UEynVs",
+        "youtube": "https://youtu.be/OQ8kskM3_pY",
         "gdrive": "",
-        "archive": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P08+-+Bunny+Miner+Gameplay+_+2026-04-05+20-17-17.mp4"
+        "archive": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P08+-+Jogos+de+Navegador+Online+_+2026-04-04+20-52-02.mp4"
       },
       "duracao": {
         "horas": 0,
         "minutos": 5,
-        "segundos": 0
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Jogos de Navegador Online | 2026-04-04 20-57-04",
+      "imagem": "jpg",
+      "data": "21/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/e2PuIDwUgLM",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P09+-+Jogos+de+Navegador+Online+_+2026-04-04+20-57-04.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Jogos de Navegador Online | 2026-04-04 21-02-07",
+      "imagem": "jpg",
+      "data": "21/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mhkV0AkDxMI",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P10+-+Jogos+de+Navegador+Online+_+2026-04-04+21-02-07.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Jogos de Navegador Online | 2026-04-04 21-07-12",
+      "imagem": "jpg",
+      "data": "21/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8Ve4LpqyXRA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P11+-+Jogos+de+Navegador+Online+_+2026-04-04+21-07-12.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Jogos de Navegador Online | 2026-04-04 21-12-13",
+      "imagem": "jpg",
+      "data": "21/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/K-2pumUZqlM",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-jogos-de-navegador-online-2026/P12+-+Jogos+de+Navegador+Online+_+2026-04-04+21-12-13.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 25
       }
     }
   ]

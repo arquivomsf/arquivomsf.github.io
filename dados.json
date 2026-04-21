@@ -1503,7 +1503,23 @@
       "consigla": "outros",
       "curto": "browser-2026"
     },
-        {
+    {
+      "nome": "Bunny Miner",
+      "tags": "Bunny Miner jogos navegador",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "bunnyminer"
+    },
+    {
+      "nome": "Geometry Dash da Shopee",
+      "tags": "Geometry Dash da Shopee jogos navegador",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "gdshopee"
+    },
+    {
       "nome": "Knight Survival",
       "tags": "Knight Survival jogos navegador",
       "imagem": "1.jpg",

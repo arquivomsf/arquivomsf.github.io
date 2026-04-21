@@ -1,0 +1,81 @@
+{
+  "playlist": [
+    {
+      "nome": "Geometry Dash da Shopee",
+      "imagem": "jpg",
+      "quantidade": "4",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-geometry-dash-shopee"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "GEOMETRY DASH DA SHOPEE | 2026-04-05 21-07-43",
+      "imagem": "jpg",
+      "data": "21/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-geometry-dash-shopee/P01+-+GEOMETRY+DASH+DA+SHOPEE+_+2026-04-05+21-07-43.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "GEOMETRY DASH DA SHOPEE | 2026-04-05 21-12-50",
+      "imagem": "jpg",
+      "data": "21/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-geometry-dash-shopee/P02+-+GEOMETRY+DASH+DA+SHOPEE+_+2026-04-05+21-12-50.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "REBAIXADASSO 2026-04-05 21-17-55",
+      "imagem": "jpg",
+      "data": "21/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-geometry-dash-shopee/P03+-+REBAIXADASSO+2026-04-05+21-17-55.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "REBAIXADASSO 2026-04-05 21-22-56",
+      "imagem": "jpg",
+      "data": "21/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-geometry-dash-shopee/P04+-+REBAIXADASSO+2026-04-05+21-22-56.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 2
+      }
+    }
+  ]
+}
