@@ -53,9 +53,9 @@
       "nome": "Subway Surfers Estação Espacial | Caçada Sazonal | Próxima Atualização",
       "imagem": "jpg",
       "data": "27/01/2021",
-      "plataforma": "archive",
+      "plataforma": "youtube",
       "links": {
-        "youtube": "",
+        "youtube": "https://youtu.be/c7-RZbuY1Kw",
         "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-subway-teasers/estacaoespacial.mp4"
       },
@@ -69,9 +69,9 @@
       "nome": "Subway Surfers Berlim 2021 | Próxima Atualização | Caçada Sazonal",
       "imagem": "jpg",
       "data": "10/03/2021",
-      "plataforma": "archive",
+      "plataforma": "youtube",
       "links": {
-        "youtube": "",
+        "youtube": "https://youtu.be/az62UXuq1Ps",
         "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-subway-teasers/berlim2021.mp4"
       },

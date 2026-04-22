@@ -84,13 +84,13 @@ const followers_array = [
 function load_stickers() {
     for (i = 0; i < stickers_array.length; i++) {
         document.querySelector(".sticker_content_list").innerHTML += `
-            <img src="stickers/canal/${stickers_array[i]}" class="w-auto h-auto">
+            <img src="stickers/canal/${stickers_array[i]}" class="w-auto h-auto !rounded-none">
         `
     }
 
     for (i = 0; i < followers_array.length; i++) {
         document.querySelector(".sticker_followers_content_list").innerHTML += `
-            <img src="stickers/followers/${followers_array[i]}" class="w-auto h-auto">
+            <img src="stickers/followers/${followers_array[i]}" class="w-auto h-auto !rounded-none">
         `
     }
 }

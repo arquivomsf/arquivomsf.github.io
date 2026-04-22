@@ -26,6 +26,13 @@ function carregarStats(){
     let total_horas_counter = 0;
     let total_minutos_counter = 0;
     let total_segundos_counter = 0;
+
+    let lost_fortnite_counter = 0;
+
+    document.querySelector(".counter-stickers").innerHTML = `${stickers_array.length} figurinhas do canal`;
+    document.querySelector(".counter-stikersfollowers").innerHTML = `${followers_array.length} figurinhas dos seguidores`;
+
+    /*
     fetch("dados.json")
       .then(response => response.json())
       .then(data => {
@@ -33,15 +40,20 @@ function carregarStats(){
             consoles_counter++;
             document.querySelector(".counter-con").innerHTML = `${consoles_counter} consoles`;
           }
+        
       })
-      fetch("dados.json")
+    */
+    fetch("dados.json")
       .then(response => response.json())
       .then(data => {
-          for (var i = 0; i<data.jogos.length; i++){
+        document.querySelector(".counter-con").innerHTML = `${data.consoles.length} consoles`;
+        document.querySelector(".counter-jogo").innerHTML = `${data.jogos.length} jogos`;
+
+        for (var i = 0; i<data.jogos.length; i++){
             let jogo_console_sigla = data.jogos[i].consigla;
             let jogo_nome_curto = data.jogos[i].curto;
             jogos_counter++;
-            document.querySelector(".counter-jogo").innerHTML = `${jogos_counter} jogos`;
+            //document.querySelector(".counter-jogo").innerHTML = `${jogos_counter} jogos`;
 
             fetch(`video/${jogo_console_sigla}/${jogo_nome_curto}/series.json`)
             .then(response => response.json())
@@ -63,7 +75,7 @@ function carregarStats(){
                     total_horas_counter += video_horas;
                     total_minutos_counter += video_minutos;
                     total_segundos_counter += video_segundos;
-                    console.log("ep "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
+                    //console.log("ep "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
 
                     document.querySelector(".counter-ep").innerHTML = `${jogos_episodios_counter} vídeos de jogos`;
                     document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
@@ -82,7 +94,7 @@ function carregarStats(){
                         total_horas_counter += video_horas;
                         total_minutos_counter += video_minutos;
                         total_segundos_counter += video_segundos;
-                        console.log("ep extra "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
+                        //console.log("ep extra "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
 
                         document.querySelector(".counter-ep").innerHTML = `${jogos_episodios_counter} vídeos de jogos`;
                         document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
@@ -111,7 +123,7 @@ function carregarStats(){
                     total_horas_counter += video_horas;
                     total_minutos_counter += video_minutos;
                     total_segundos_counter += video_segundos;
-                    console.log("vod "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
+                    //console.log("vod "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
                     
                     document.querySelector(".counter-vods").innerHTML = `${jogos_vods_counter} VODs de jogos`;
                     document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
@@ -130,7 +142,7 @@ function carregarStats(){
                         total_horas_counter += video_horas;
                         total_minutos_counter += video_minutos;
                         total_segundos_counter += video_segundos;
-                        console.log("vod extra "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
+                        //console.log("vod extra "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
                         
                         document.querySelector(".counter-vods").innerHTML = `${jogos_vods_counter} VODs de jogos`;
                         document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
@@ -143,6 +155,7 @@ function carregarStats(){
 
             })
           }
+          document.querySelector(".counter-standalone").innerHTML = `${data.standalone.length} vídeos independentes`;
           for (var i = 0; i<data.standalone.length; i++){
             let standalone_video_horas = data.standalone[i].duracao.horas;
             let standalone_video_minutos = data.standalone[i].duracao.minutos;
@@ -154,9 +167,9 @@ function carregarStats(){
             total_horas_counter += standalone_video_horas;
             total_minutos_counter += standalone_video_minutos;
             total_segundos_counter += standalone_video_segundos;
-            console.log("standalone "+standalone_horas_counter+standalone_minutos_counter+":"+standalone_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
+            //console.log("standalone "+standalone_horas_counter+standalone_minutos_counter+":"+standalone_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
 
-            document.querySelector(".counter-standalone").innerHTML = `${standalone_counter} vídeos standalone`;
+            //document.querySelector(".counter-standalone").innerHTML = `${standalone_counter} vídeos independentes`;
             document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
           }
 
@@ -178,7 +191,7 @@ function carregarStats(){
                 total_horas_counter += outros_video_horas;
                 total_minutos_counter += outros_video_minutos;
                 total_segundos_counter += outros_video_segundos;
-                console.log("outros "+outros_horas_counter+outros_minutos_counter+":"+outros_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
+                //console.log("outros "+outros_horas_counter+outros_minutos_counter+":"+outros_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
 
                 document.querySelector(".counter-outros").innerHTML = `${outros_counter} vídeos marcados como "outros"`;
                 document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
@@ -197,7 +210,7 @@ function carregarStats(){
                     total_horas_counter += outros_video_horas;
                     total_minutos_counter += outros_video_minutos;
                     total_segundos_counter += outros_video_segundos;
-                    console.log("outros extra "+outros_horas_counter+outros_minutos_counter+":"+outros_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
+                    //console.log("outros extra "+outros_horas_counter+outros_minutos_counter+":"+outros_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
 
                     document.querySelector(".counter-outros").innerHTML = `${outros_counter} vídeos marcados como "outros"`;
                     document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
@@ -254,9 +267,24 @@ function carregarStats(){
             total_minutos_counter = total_minutos_counter%60;
         }
 
-        document.querySelector(".counter-tempototalstandalone").innerHTML = `${Math.round(standalone_horas_counter)}h ${Math.round(standalone_minutos_counter)}m ${Math.round(standalone_segundos_counter)}s de vídeos standalone`;
+        document.querySelector(".counter-tempototalstandalone").innerHTML = `${Math.round(standalone_horas_counter)}h ${Math.round(standalone_minutos_counter)}m ${Math.round(standalone_segundos_counter)}s de vídeos independentes`;
         document.querySelector(".counter-tempototaloutros").innerHTML = `${Math.round(outros_horas_counter)}h ${Math.round(outros_minutos_counter)}m ${Math.round(outros_segundos_counter)}s de vídeos marcados como "outros"`;
         document.querySelector(".counter-tempototaljogo").innerHTML = `${Math.round(jogos_horas_counter)}h ${Math.round(jogos_minutos_counter)}m ${Math.round(jogos_segundos_counter)}s de vídeos de jogos`;
         document.querySelector(".counter-tempototal").innerHTML = `${Math.round(total_horas_counter)}h ${Math.round(total_minutos_counter)}m ${Math.round(total_segundos_counter)}s de vídeos arquivados`;
     }, 500);
+
+    fetch("off.json")
+        .then(response => response.json())
+        .then(data => {
+            document.querySelector(".counter-lostmedia").innerHTML = `${data.lostmedia.length} vídeos perdidos`;
+            
+            for (var i = 0; i<data.lostmedia.length; i++){
+                let nome_processado = pesquisa_processar_string(data.lostmedia[i].tags);
+                if (nome_processado.toLowerCase().includes("fortnite")) {
+                    lost_fortnite_counter++;
+                    document.querySelector(".counter-lostfortnite").innerHTML = `e ${lost_fortnite_counter} desses são de Fortnite (informação relevante)`;
+                }
+            }
+            
+        })
 }
