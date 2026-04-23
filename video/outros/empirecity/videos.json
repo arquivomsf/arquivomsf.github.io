@@ -3,7 +3,7 @@
     {
       "nome": "Empire City",
       "imagem": "jpg",
-      "quantidade": "6",
+      "quantidade": "8",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtfSVrp594UiQ7JV6SO5ERM",
@@ -107,6 +107,38 @@
         "horas": 0,
         "minutos": 0,
         "segundos": 48
+      }
+    },
+    {
+      "nome": "Jogando Empire City | 2026-04-21 18-59-19",
+      "imagem": "jpg",
+      "data": "22/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SmnDhPxXnG4",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city/P07+-+Jogando+Empire+City+_+2026-04-21+18-59-19.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Jogando Empire City | 2026-04-21 19-14-21",
+      "imagem": "jpg",
+      "data": "22/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/sWOd-R9ffzU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-empire-city/P08+-+Jogando+Empire+City+_+2026-04-21+19-14-21.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 0
       }
     }
   ]
