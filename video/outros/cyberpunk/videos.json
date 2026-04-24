@@ -3,7 +3,7 @@
     {
       "nome": "Cyberpunk 2077",
       "imagem": "jpg",
-      "quantidade": "3",
+      "quantidade": "9",
       "plataforma": "archive",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtE8mppSz-rJQgoRJbe6kUM",
@@ -86,6 +86,70 @@
         "youtube": "",
         "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-cyberpunk-2077/P05+-+Jogando+Cyberpunk+2077+_+2026_04_17-18-45-11.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Cyberpunk 2077 | 2026_04_23-00-35-04",
+      "imagem": "jpg",
+      "data": "23/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-cyberpunk-2077/P06+-+Jogando+Cyberpunk+2077+_+2026_04_23-00-35-04.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Cyberpunk 2077 | 2026_04_23-00-03-59",
+      "imagem": "jpg",
+      "data": "23/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-cyberpunk-2077/P07+-+Jogando+Cyberpunk+2077+_+2026_04_23-00-03-59.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Cyberpunk 2077 | 2026_04_22-23-33-15",
+      "imagem": "jpg",
+      "data": "23/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-cyberpunk-2077/P08+-+Jogando+Cyberpunk+2077+_+2026_04_22-23-33-15.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Cyberpunk 2077 | 2026_04_22-23-56-50",
+      "imagem": "jpg",
+      "data": "23/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-cyberpunk-2077/P09+-+Jogando+Cyberpunk+2077+_+2026_04_22-23-56-50.mp4"
       },
       "duracao": {
         "horas": 0,
