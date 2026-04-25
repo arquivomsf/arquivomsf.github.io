@@ -3,7 +3,7 @@
     {
       "nome": "Justice League Heroes (PS2)",
       "imagem": "jpg",
-      "quantidade": "32",
+      "quantidade": "38",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsH0HMcvUTuWhHcEg4dfOgt",
@@ -523,6 +523,102 @@
         "horas": 0,
         "minutos": 11,
         "segundos": 38
+      }
+    },
+    {
+      "nome": "Justice League Heroes de PS2 | 2026-04-06 12-57-08",
+      "imagem": "jpg",
+      "data": "24/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/NcOqSTCXIAo",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-justice-league-heroes-playstation-2/P33+-+Justice+League+Heroes+de+PS2+_+2026-04-06+12-57-08.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 52
+      }
+    },
+    {
+      "nome": "Justice League Heroes de PS2 | 2026-04-06 13-13-31",
+      "imagem": "jpg",
+      "data": "24/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Jt0X5JTL-q4",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-justice-league-heroes-playstation-2/P34+-+Justice+League+Heroes+de+PS2+_+2026-04-06+13-13-31.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 11,
+        "segundos": 53
+      }
+    },
+    {
+      "nome": "Justice League Heroes de PS2 | 2026-04-08 13-16-13",
+      "imagem": "jpg",
+      "data": "24/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/5E0yWE3-9Nc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-justice-league-heroes-playstation-2/P35+-+Justice+League+Heroes+de+PS2+_+2026-04-08+13-16-13.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 20
+      }
+    },
+    {
+      "nome": "Justice League Heroes de PS2 | 2026-04-08 13-32-48",
+      "imagem": "jpg",
+      "data": "24/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/UOjWgpKGgA0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-justice-league-heroes-playstation-2/P36+-+Justice+League+Heroes+de+PS2+_+2026-04-08+13-32-48.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 8
+      }
+    },
+    {
+      "nome": "Justice League Heroes de PS2 | 2026-04-08 13-47-58",
+      "imagem": "jpg",
+      "data": "24/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3FCB4RD4j_o",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-justice-league-heroes-playstation-2/P37+-+Justice+League+Heroes+de+PS2+_+2026-04-08+13-47-58.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Justice League Heroes de PS2 | 2026-04-08 14-03-06",
+      "imagem": "jpg",
+      "data": "24/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Mbh3fGZHKmg",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-justice-league-heroes-playstation-2/P38+-+Justice+League+Heroes+de+PS2+_+2026-04-08+14-03-06.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 1,
+        "segundos": 46
       }
     }
   ]
