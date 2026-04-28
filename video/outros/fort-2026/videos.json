@@ -3,7 +3,7 @@
     {
       "nome": "Fortnite 2026 (Clipes)",
       "imagem": "jpg",
-      "quantidade": "8",
+      "quantidade": "9",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvscXoyO_-3BK3PISKhCstbM",
@@ -132,6 +132,22 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/hDjEk0EhApk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Jogando Fortnite | 2026_04_26-15-28-10",
+      "imagem": "jpg",
+      "data": "28/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/vJLwLncSIfw",
         "gdrive": "",
         "archive": ""
       },
