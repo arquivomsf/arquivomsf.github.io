@@ -3,7 +3,7 @@
     {
       "nome": "Left 4 Dead 2",
       "imagem": "jpg",
-      "quantidade": "7",
+      "quantidade": "14",
       "plataforma": "archive",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvUBcI7eWlPMREgFvM4w2Fa",
@@ -142,6 +142,118 @@
         "horas": 0,
         "minutos": 1,
         "segundos": 29
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-16 12-25-09",
+      "imagem": "jpg",
+      "data": "29/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P08+-+Jogando+Left+4+Dead+2+_+2026-04-16+12-25-09.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 56
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-16 12-28-59",
+      "imagem": "jpg",
+      "data": "29/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P09+-+Jogando+Left+4+Dead+2+_+2026-04-16+12-28-59.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-16 12-44-01",
+      "imagem": "jpg",
+      "data": "29/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P10+-+Jogando+Left+4+Dead+2+_+2026-04-16+12-44-01.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-16 12-59-04",
+      "imagem": "jpg",
+      "data": "29/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P11+-+Jogando+Left+4+Dead+2+_+2026-04-16+12-59-04.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-16 13-14-08",
+      "imagem": "jpg",
+      "data": "29/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P12+-+Jogando+Left+4+Dead+2+_+2026-04-16+13-14-08.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 3
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-16 13-29-11",
+      "imagem": "jpg",
+      "data": "29/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P13+-+Jogando+Left+4+Dead+2+_+2026-04-16+13-29-11.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-16 13-44-16",
+      "imagem": "jpg",
+      "data": "29/04/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P14+-+Jogando+Left+4+Dead+2+_+2026-04-16+13-44-16.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 4
       }
     }
   ]
