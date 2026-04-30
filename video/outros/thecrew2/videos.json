@@ -12,6 +12,18 @@
       }
     }
   ],
+  "analise": [
+    {
+      "nome": "The Crew 2 | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/4ycgdNV3ubc",
+      "duracao": {
+        "horas": 0,
+        "minutos": 26,
+        "segundos": 35
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "The Crew 2 - Gameplay de Avião 1",

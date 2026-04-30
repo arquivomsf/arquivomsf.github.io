@@ -12,6 +12,18 @@
       }
     }
   ],
+  "analise": [
+    {
+      "nome": "Spec Ops: The Line | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/rUEdlxOnxWg",
+      "duracao": {
+        "horas": 0,
+        "minutos": 18,
+        "segundos": 2
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "Spec Ops The Line de Xbox - 2026-03-02 13-01-45",
