@@ -12,6 +12,18 @@
       }
     }
   ],
+  "analise": [
+    {
+      "nome": "Gears of War Reloaded | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/n0HdTWmlll8",
+      "duracao": {
+        "horas": 0,
+        "minutos": 15,
+        "segundos": 8
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "Gameplay de Gears of War_ Reloaded-2026_03_18-23-53-40",

@@ -12,6 +12,18 @@
       }
     }
   ],
+  "analise": [
+    {
+      "nome": "Warhammer 40k: Space Marine 2 | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/MEoOwBk50AY",
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 7
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "Xbox Gameplay de Warhammer 40,000_ Space Marine 2-2026_03_11-23-40-20",

@@ -12,6 +12,18 @@
       }
     }
   ],
+  "analise": [
+    {
+      "nome": "High On Life 2 | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/USN6642Hs4g",
+      "duracao": {
+        "horas": 0,
+        "minutos": 17,
+        "segundos": 40
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "Xbox Gameplay de High On Life 2 - 2026_03_08-01-45-44",

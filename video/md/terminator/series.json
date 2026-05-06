@@ -12,5 +12,17 @@
             "imagem": "1.png",
             "quantidade": "4"
         }
+    ],
+    "analise": [
+        {
+            "nome": "The Terminator de Mega Drive | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "https://youtu.be/Dgmj3CYhHp0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 23
+            }
+        }
     ]
 }
