@@ -1566,6 +1566,14 @@
       "console": "Outros",
       "consigla": "outros",
       "curto": "hcrlite"
+    },
+    {
+      "nome": "Tower Swap",
+      "tags": "Tower Swap jogos navegador",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "towerswap"
     }
   ],
   "consoles": [

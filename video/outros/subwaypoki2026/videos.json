@@ -3,7 +3,7 @@
     {
       "nome": "Subway Surfers da Poki (2026)",
       "imagem": "jpg",
-      "quantidade": "5",
+      "quantidade": "8",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvughGHwU0SddUp_cxOnYxDu",
@@ -91,6 +91,54 @@
         "horas": 0,
         "minutos": 13,
         "segundos": 43
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers Sakura Tokyo | 2026-04-24 19-38-20",
+      "imagem": "jpg",
+      "data": "09/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/_z3-m4ZTfzQ",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026/P06+-+Jogando+Subway+Surfers+Sakura+Tokyo+_+2026-04-24+19-38-20.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 25,
+        "segundos": 14
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers Sakura Tokyo | 2026-04-24 20-08-10",
+      "imagem": "jpg",
+      "data": "09/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JZlrixmSzJ0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026/P07+-+Jogando+Subway+Surfers+Sakura+Tokyo+_+2026-04-24+20-08-10.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 30,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers Sakura Tokyo | 2026-04-24 20-38-18",
+      "imagem": "jpg",
+      "data": "09/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Y5Saa6f04qI",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-poki-2026/P08+-+Jogando+Subway+Surfers+Sakura+Tokyo+_+2026-04-24+20-38-18.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 21,
+        "segundos": 39
       }
     }
   ]

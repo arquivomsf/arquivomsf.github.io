@@ -1,0 +1,49 @@
+{
+  "playlist": [
+    {
+      "nome": "Tower Swap",
+      "imagem": "jpg",
+      "quantidade": "2",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvunLJ3LiR3bmxDioPhOVEoQ",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-tower-swap"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Tower Swap | 2026-04-24 18-58-01",
+      "imagem": "jpg",
+      "data": "09/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ovowCiS-YKc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-tower-swap/P01+-+Jogando+Tower+Swap+_+2026-04-24+18-58-01.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 30,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Jogando Tower Swap | 2026-04-24 19-28-10",
+      "imagem": "jpg",
+      "data": "09/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/6vAHGItB0i8",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-tower-swap/P02+-+Jogando+Tower+Swap+_+2026-04-24+19-28-10.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 6
+      }
+    }
+  ]
+}

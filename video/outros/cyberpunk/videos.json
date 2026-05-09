@@ -3,7 +3,7 @@
     {
       "nome": "Cyberpunk 2077",
       "imagem": "jpg",
-      "quantidade": "39",
+      "quantidade": "40",
       "plataforma": "archive",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtE8mppSz-rJQgoRJbe6kUM",
@@ -635,6 +635,22 @@
         "horas": 0,
         "minutos": 0,
         "segundos": 59
+      }
+    },
+    {
+      "nome": "Jogando Cyberpunk 2077 | 2026_04_24-00-04-29",
+      "imagem": "jpg",
+      "data": "09/05/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-cyberpunk-2077/P40+-+Jogando+Cyberpunk+2077+_+2026_04_24-00-04-29.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 53
       }
     }
   ]
