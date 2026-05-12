@@ -3,7 +3,7 @@
     {
       "nome": "Left 4 Dead 2",
       "imagem": "jpg",
-      "quantidade": "30",
+      "quantidade": "34",
       "plataforma": "archive",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvUBcI7eWlPMREgFvM4w2Fa",
@@ -510,6 +510,70 @@
         "horas": 0,
         "minutos": 3,
         "segundos": 9
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-26 20-00-51",
+      "imagem": "jpg",
+      "data": "12/05/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P31+-+Jogando+Left+4+Dead+2+_+2026-04-26+20-00-51.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 30,
+        "segundos": 5
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-26 20-30-59",
+      "imagem": "jpg",
+      "data": "12/05/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P32+-+Jogando+Left+4+Dead+2+_+2026-04-26+20-30-59.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 16,
+        "segundos": 16
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-28 10-35-24",
+      "imagem": "jpg",
+      "data": "12/05/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P33+-+Jogando+Left+4+Dead+2+_+2026-04-28+10-35-24.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 21
+      }
+    },
+    {
+      "nome": "Jogando Left 4 Dead 2 | 2026-04-28 10-40-38",
+      "imagem": "jpg",
+      "data": "12/05/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-left-4-dead-2/P34+-+Jogando+Left+4+Dead+2+_+2026-04-28+10-40-38.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 6,
+        "segundos": 52
       }
     }
   ]
