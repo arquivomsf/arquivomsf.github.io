@@ -1400,7 +1400,7 @@
       "curto": "fort-megazord"
     },
     {
-      "nome": "Fortnite 2025",
+      "nome": "Fortnite (2025)",
       "tags": "Fortnite 2025 Clipes",
       "imagem": "1.jpg",
       "console": "Outros",
@@ -1416,7 +1416,7 @@
       "curto": "gearunl2"
     },
     {
-      "nome": "Fortnite 2026",
+      "nome": "Fortnite (2026)",
       "tags": "Fortnite 2026 Clipes",
       "imagem": "1.jpg",
       "console": "Outros",
@@ -1497,7 +1497,7 @@
     },
     {
       "nome": "Jogos de Navegador Online (2026)",
-      "tags": "Jogos de Navegador Online (2026) Clipes",
+      "tags": "Jogos de Navegador Online 2026 Clipes",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
@@ -1537,7 +1537,7 @@
     },
     {
       "nome": "Subway Surfers da Poki (2026)",
-      "tags": "Subway Surfers da Poki (2026) jogos navegador",
+      "tags": "Subway Surfers da Poki 2026 jogos navegador",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
@@ -1574,6 +1574,14 @@
       "console": "Outros",
       "consigla": "outros",
       "curto": "towerswap"
+    },
+    {
+      "nome": "Subway Surfers City (2026)",
+      "tags": "Subway Surfers City 2026 jogos celular android",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "subwaycity-2026"
     }
   ],
   "consoles": [

@@ -1,0 +1,65 @@
+{
+  "playlist": [
+    {
+      "nome": "Subway Surfers City (2026)",
+      "imagem": "jpg",
+      "quantidade": "3",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt3T_jUUosFl32GcoGFLSet",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-city-2026"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Subway Surfers City | 2026-04-28 20-05-36",
+      "imagem": "jpg",
+      "data": "13/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/9kc4BTHB4ow",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-city-2026/P01+-+Jogando+Subway+Surfers+City+_+2026-04-28+20-05-36.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 30,
+        "segundos": 2
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers City | 2026-04-28 20-35-40",
+      "imagem": "jpg",
+      "data": "13/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/gTNp96kiEwA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-city-2026/P02+-+Jogando+Subway+Surfers+City+_+2026-04-28+20-35-40.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 30,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Jogando Subway Surfers City | 2026-04-28 21-05-47",
+      "imagem": "jpg",
+      "data": "13/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/0DpkWuS3pcM",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-surfers-city-2026/P03+-+Jogando+Subway+Surfers+City+_+2026-04-28+21-05-47.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 53
+      }
+    }
+  ]
+}
