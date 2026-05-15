@@ -461,6 +461,13 @@
       "console": "Mega Drive (MD)",
       "consigla": "md",
       "curto": "soniccd"
+    },
+    {
+      "nome": "Harry Potter and the Goblet of Fire",
+      "tags": "Harry Potter and the Goblet of Fire Harry Potter e o Cálice de Fogo sony ps2 playstation 2",
+      "console": "PlayStation 2 (PS2)",
+      "consigla": "ps2",
+      "curto": "harrygoblet"
     }
   ],
   "standalone": [
