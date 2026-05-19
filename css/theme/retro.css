@@ -117,3 +117,20 @@ body[data-tema="retro"] input:focus {
   border-color: #00D9AE !important;
   background-color: transparent !important;
 }
+
+body[data-tema="retro"] .btn-plataforma:hover, body[data-tema="retro"] .btn-plataforma:focus {
+  position: relative;
+  transition: none !important;
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 3px);
+    left: calc(-1 * 3px);
+    z-index: -1;
+    width: calc(100% + 3px * 2);
+    height: calc(100% + 3px * 2);
+    background: #268FC2;
+    border-radius: 2px;
+    animation: borderColor 0.5s alternate infinite;
+  }
+}

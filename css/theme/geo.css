@@ -274,7 +274,7 @@ body[data-tema="geo"] .console_list > a[href="console?id=md"], body[data-tema="g
 }
 
 body[data-tema="geo"] .console_list > a[href="console?id=dc"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=dc"] {
-    background-image: url("../../assets/img/buttons/dreamcast.png");
+    background-image: url("../../assets/img/buttons/dreamcast.gif");
     background-repeat: no-repeat;
     height: 31px;
 
@@ -307,6 +307,100 @@ body[data-tema="geo"] .console_list > a[href="console?id=ps2"], body[data-tema="
 
     padding: 0 !important;
     margin: 0.5rem !important;
+}
+
+body[data-tema="geo"] .btn-home {
+    background-image: url("../../assets/img/buttons/anihome112g.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 88px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
+
+    border-radius: 0;
+    border: none;
+
+    display: block;
+}
+
+body[data-tema="geo"] .btn-like {
+    background-image: url("../../assets/img/buttons/i_like_computer.png");
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 88px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
+
+    border-radius: 0;
+    border: none;
+
+    display: block;
+}
+
+body[data-tema="geo"] .btn-youtube {
+    background-image: url("../../assets/img/buttons/ytbutton.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 88px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
+
+    border-radius: 0;
+    border: none;
+}
+
+body[data-tema="geo"] .btn-gdrive {
+    background-image: url("../../assets/img/buttons/google_25wht.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 88px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
+
+    border-radius: 0;
+    border: none;
+}
+
+body[data-tema="geo"] .btn-archive {
+    background-image: url("../../assets/img/buttons/internetarchive.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 88px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
+
+    border-radius: 0;
+    border: none;
+}
+
+body[data-tema="geo"] .page-404 > div > div > div > p:has(.text-5xl)::before {
+    content: url("../../assets/img/buttons/got_html.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+    padding-left: 5px;
+    margin-bottom: 25px;
+    display: block;
+    background-position-y: center;
 }
 
 /*deixar o estilo de grid list separado e marcado, caso tenha sido uma ideia ruim*/

@@ -248,3 +248,13 @@ body[data-tema="neob"] li {
 body[data-tema="neob"] li+li {
   margin-top: 15px;
 }
+
+body[data-tema="neob"] .btn-plataforma {
+  border: 1px solid black !important;
+  border-radius: 0;
+  box-shadow: 5px 5px black !important;
+}
+
+body[data-tema="neob"] .btn-plataforma+.btn-plataforma {
+  margin-left: 10px;
+}

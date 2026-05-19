@@ -30,33 +30,19 @@ function carregar_itens() {
       document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${video_imagem}`);
       let video_plataforma = dados_serie.videos[i].plataforma;
       let video_link = dados_serie.videos[i].links[video_plataforma];
-      if (video_plataforma == "gdrive" || video_plataforma == "archive") {
-          document.querySelector(".ep_content_list").innerHTML += `
-          <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${video_plataforma}&id=${i}" class="p-1 flex flex-col flex-auto gap-2 items-center">
-                <div class="relative h-auto">
-                    <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
-                        <span class="px-1 text-white"><i class="fa fa-fw fa-file-video-o"></i>${video_duracao}</span>
-                    </div>
+      document.querySelector(".ep_content_list").innerHTML += `
+        <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+        <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${video_plataforma}&id=${i}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <div class="relative h-auto">
+                <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
+                <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                    <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon(video_plataforma)}"></i>${video_duracao}</span>
                 </div>
-                <b class="text-center">${video_nome}</b>
-            </a>
-          </div>`;
-      } else if (video_plataforma == "youtube") {
-          document.querySelector(".ep_content_list").innerHTML += `
-          <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="${video_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
-                <div class="relative h-auto">
-                    <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
-                        <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${video_duracao}</span>
-                    </div>
-                </div>
-                <b class="text-center">${video_nome}</b>
-            </a>
-          </div>`;
-      }
+            </div>
+            <b class="text-center">${video_nome}</b>
+        </a>
+        </div>
+      `;
   }
 
   //itens extras
@@ -73,7 +59,7 @@ function carregar_itens() {
               <div class="relative h-auto">
                   <img src="${serie_path}/1.${playlist_imagem}" class="w-auto h-auto aspect-video object-contain">
                   <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
-                      <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw fa-list"></i>${playlist_quantidade}</span>
+                      <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw ${get_plataforma_icon("playlist")}"></i>${playlist_quantidade}</span>
                   </div>
               </div>
               <b class="text-center">${playlist_nome}</b>
@@ -90,33 +76,19 @@ function carregar_itens() {
       let extra_plataforma = dados_serie.extras[i].plataforma;
       let extra_link = dados_serie.extras[i].links[extra_plataforma];
       let extra_id = dados_serie.extras[i].id;
-      if (extra_plataforma == "gdrive" || extra_plataforma == "archive") {
-          document.querySelector(".extras_content_list").innerHTML += `
-          <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${extra_plataforma}&extra=true&id=${extra_id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
-                <div class="relative h-auto">
-                    <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
-                        <span class="px-1 text-white"><i class="fa fa-fw fa-file-video-o"></i>${extra_duracao}</span>
-                    </div>
+      document.querySelector(".extras_content_list").innerHTML += `
+        <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+        <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${extra_plataforma}&extra=true&id=${extra_id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <div class="relative h-auto">
+                <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
+                <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                    <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon(extra_plataforma)}"></i>${extra_duracao}</span>
                 </div>
-                <b class="text-center">${extra_nome}</b>
-            </a>
-          </div>`;
-      } else if (extra_plataforma == "youtube") {
-        document.querySelector(".extras_content_list").innerHTML += `
-          <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="${extra_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
-                <div class="relative h-auto">
-                    <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
-                    <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
-                        <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${extra_duracao}</span>
-                    </div>
-                </div>
-                <b class="text-center">${extra_nome}</b>
-            </a>
-          </div>`;
-      }
+            </div>
+            <b class="text-center">${extra_nome}</b>
+        </a>
+        </div>
+      `;
       document.querySelector(".tabs-navbar").classList.remove("hidden");
     }
   }
@@ -132,7 +104,7 @@ function carregar_itens() {
               <div class="relative h-auto">
                   <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                   <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
-                      <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${serie_duracao}</span>
+                      <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon("youtube")}"></i>${serie_duracao}</span>
                   </div>
               </div>
               <b class="text-center">${serie_nome}</b>

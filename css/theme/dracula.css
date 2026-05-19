@@ -143,3 +143,7 @@ body[data-tema="dracula"] i:not(.fa) {
 body[data-tema="dracula"] .btn-dark:not(:hover), body[data-tema="dracula"] .btn-dark:not(:focus) {
   background-color: var(--dracula-sel) !important;
 }
+
+body[data-tema="dracula"] span.maisinfo_text {
+  color: var(--dracula-orange) !important;
+}

@@ -24,7 +24,7 @@ function carregar_itens() {
                 <div class="relative h-auto">
                     <img src="video/${consoleAtual}/${jogoAtual}/episodios/${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                     <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
-                        <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw fa-list"></i>${serie_quantidade}</span>
+                        <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw ${get_plataforma_icon("playlist")}"></i>${serie_quantidade}</span>
                     </div>
                 </div>
                 <b class="text-center">${serie_nome}</b>
@@ -43,7 +43,7 @@ function carregar_itens() {
                 <div class="relative h-auto">
                     <img src="video/${consoleAtual}/${jogoAtual}/vodsoficiais.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                     <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
-                        <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw fa-list"></i>${serie_quantidade}</span>
+                        <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw ${get_plataforma_icon("playlist")}"></i>${serie_quantidade}</span>
                     </div>
                 </div>
                 <b class="text-center">${serie_nome}</b>
@@ -61,7 +61,7 @@ function carregar_itens() {
                 <div class="relative h-auto">
                     <img src="video/${consoleAtual}/${jogoAtual}/vods/${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                     <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
-                        <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw fa-list"></i>${serie_quantidade}</span>
+                        <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw ${get_plataforma_icon("playlist")}"></i>${serie_quantidade}</span>
                     </div>
                 </div>
                 <b class="text-center">${serie_nome}</b>
@@ -80,7 +80,7 @@ function carregar_itens() {
               <div class="relative h-auto">
                   <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                   <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
-                      <span class="px-1 text-white"><i class="fa fa-fw fa-youtube-play"></i>${serie_duracao}</span>
+                      <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon("youtube")}"></i>${serie_duracao}</span>
                   </div>
               </div>
               <b class="text-center">${serie_nome}</b>

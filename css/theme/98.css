@@ -367,3 +367,30 @@ body[data-tema="98"] .page-404 > div > div > div > ul > li::before {
   font-family: "Pixelated MS Sans Serif",Arial;
   font-size: 11px;
 }
+
+body[data-tema="98"] .btn-plataforma {
+  color: black;
+  background: silver;
+  border: none;
+  box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+  border-radius: 0;
+}
+
+body[data-tema="98"] .btn-plataforma:active {
+  background: silver !important;
+  border: none !important;
+  box-shadow: inset -1px -1px #fff,inset 1px 1px #0a0a0a,inset -2px -2px #dfdfdf,inset 2px 2px grey;
+}
+
+body[data-tema="98"] .btn-plataforma:focus {
+  outline: 1px dotted #000;
+  outline-offset: -4px;
+}
+
+body[data-tema="98"] .btn-youtube > i {
+  color: oklch(57.7% 0.245 27.325);
+}
+
+body[data-tema="98"] .btn-gdrive > i {
+  color: oklch(35.214% 0.07717 237.238);
+}

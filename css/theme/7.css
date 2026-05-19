@@ -599,3 +599,74 @@ body[data-tema="7"] .page-404 > div > div > div > ul > li::before {
   font-family: Arial;
   font-size: 11px;
 }
+
+body[data-tema="7"] .btn-plataforma {
+  color: #222 !important;
+  border-radius: 3px !important;
+
+  background: linear-gradient(to bottom,#f2f2f2 45%,#ebebeb 45%,#cfcfcf);
+
+  border: 1px solid black;
+
+  transition: none !important;
+}
+
+body[data-tema="7"] .btn-plataforma::before {
+  content: "";
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity .3s;
+  width: 100%;
+  z-index: -1;
+
+  box-shadow: inset 0 0 0 1px #fffc;
+}
+
+body[data-tema="7"] .btn-plataforma::after {
+  content: "";
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity .3s;
+  width: 100%;
+  z-index: -1;
+
+  box-shadow: inset 1px 1px 0 #0003,inset -1px 1px 0 #0001;
+}
+
+body[data-tema="7"] .btn-plataforma:hover {
+  background: linear-gradient(to bottom,#eaf6fd 45%,#bee6fd 45%,#a7d9f5);
+  border-color: #3c7fb1;
+  transition: background .3s linear;
+}
+
+body[data-tema="7"] .btn-plataforma:active {
+  background: linear-gradient(to bottom,#e5f4fc,#eaf6fd 30% 50%,#98d1ef 50%,#68b3db);
+}
+
+body[data-tema="7"] .btn-plataforma:focus {
+  box-shadow: inset -1px 1px #cee7ff,inset 1px 2px #98b8ea,inset -2px 2px #bcd4f6,inset 1px -1px #89ade4,inset 2px -2px #89ade4;
+  outline: 1px dotted #000;
+  outline-offset: -4px;
+}
+
+body[data-tema="7"] .btn-youtube > i {
+  color: oklch(57.7% 0.245 27.325);
+}
+
+body[data-tema="7"] .btn-gdrive > i {
+  color: oklch(35.214% 0.07717 237.238);
+}
+
+body[data-tema="7"] .btn-archive > i {
+  color: black;
+}

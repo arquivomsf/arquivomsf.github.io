@@ -22,3 +22,7 @@ body[data-tema="arredondado"] select {
 body[data-tema="arredondado"] .nav-link {
     border-radius: 5px;
 }
+
+body[data-tema="arredondado"] .btn-plataforma {
+    border-radius: 20px;
+}

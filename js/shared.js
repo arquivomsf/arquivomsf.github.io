@@ -296,32 +296,6 @@ function sidebar_close() {
   document.body.style.overflow = "auto";
 }
 
-function get_console_name(sigla) {
-    switch(sigla) {
-        case "nes":
-            return "Nintendo"
-        break;
-        case "n64":
-            return "Nintendo 64"
-        break;
-        case "gba":
-            return "Game Boy Advance"
-        break;
-        case "md":
-            return "Mega Drive"
-        break;
-        case "dc":
-            return "Dreamcast"
-        break;
-        case "ps1":
-            return "PlayStation 1"
-        break;
-        case "ps2":
-            return "PlayStation 2"
-        break;
-    }
-}
-
 var debug_mode = false;
 var debug_info = {"info": {},"info_outro": {}};
 
@@ -361,9 +335,7 @@ function debug() {
                 fetch(`video/${debug_console}/${debug_nome}/episodios/videos.json`)
                 .then(response => response.json())
                 .then(data => {
-                    let debug_serie_icon = "";
-                    if (data.videos[data.videos.length-1].plataforma == "youtube") debug_serie_icon = `<i class="fa fa-fw fa-youtube-play" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
-                    else if (data.videos[data.videos.length-1].plataforma == "gdrive" || data.videos[data.videos.length-1].plataforma == "archive")  debug_serie_icon = `<i class="fa fa-fw fa-file-video-o" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+                    let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
 
                     document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} Episódios`;
 
@@ -396,9 +368,7 @@ function debug() {
                 fetch(`video/${debug_console}/${debug_nome}/vods/videos.json`)
                 .then(response => response.json())
                 .then(data => {
-                    let debug_serie_icon = "";
-                    if (data.videos[data.videos.length-1].plataforma == "youtube") debug_serie_icon = `<i class="fa fa-fw fa-youtube-play" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
-                    else if (data.videos[data.videos.length-1].plataforma == "gdrive" || data.videos[data.videos.length-1].plataforma == "archive")  debug_serie_icon = `<i class="fa fa-fw fa-file-video-o" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+                    let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
 
                     document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} VODs`;
 
@@ -448,9 +418,7 @@ function debug() {
 
             debug_info.info_outro[debug_outro_nome] += `<br><span class="debug_episodios_outros_${debug_outro_nome}">Carregando...</span>`;
 
-            let debug_serie_icon = "";
-            if (data.videos[data.videos.length-1].plataforma == "youtube") debug_serie_icon = `<i class="fa fa-fw fa-youtube-play" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
-            else if (data.videos[data.videos.length-1].plataforma == "gdrive" || data.videos[data.videos.length-1].plataforma == "archive")  debug_serie_icon = `<i class="fa fa-fw fa-file-video-o" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+            let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
 
             if (data.hasOwnProperty("analise")) {
                 debug_info.info_outro[debug_outro_nome] += `<br><span>Análise</span>`;
@@ -521,4 +489,62 @@ function debug_disable() {
         document.body.classList.remove("debug_ativado");
         console.log("Modo de debug desativado");
     }
+}
+
+function get_console_name(sigla) {
+    switch(sigla) {
+        case "nes":
+            return "Nintendo"
+        break;
+        case "n64":
+            return "Nintendo 64"
+        break;
+        case "gba":
+            return "Game Boy Advance"
+        break;
+        case "md":
+            return "Mega Drive"
+        break;
+        case "dc":
+            return "Dreamcast"
+        break;
+        case "ps1":
+            return "PlayStation 1"
+        break;
+        case "ps2":
+            return "PlayStation 2"
+        break;
+    }
+}
+
+function get_plataforma_icon(plataforma) {
+    switch(plataforma) {
+        case "playlist":
+            return "fa-list"
+        break;
+        case "youtube":
+            return "fa-youtube-play"
+        break;
+        case "gdrive":
+            return "fa-google"
+        break;
+        case "archive":
+            return "fa-institution"
+        break;
+    }
+}
+
+function embed_replace(url, plataforma) {
+    switch(plataforma) {
+        case "youtube":
+            url = url.replaceAll("youtu.be", "www.youtube.com/embed");
+        break;
+        case "gdrive":
+            url = url.replaceAll("view", "preview");
+        break;
+        case "archive":
+            url = url.replaceAll("details", "embed");
+        break;
+    }
+    return url
 }

@@ -42,7 +42,7 @@ body[data-tema="netruim"] nav > div > div > div {
   transition: none !important;
 }
 
-body[data-tema="netruim"] nav > div > div > div > a, body[data-tema="netruim"] nav > div > button, body[data-tema="netruim"] #sidebar_main > div > button {
+body[data-tema="netruim"] nav > div > div > div > a, body[data-tema="netruim"] nav > div > button, body[data-tema="netruim"] #sidebar_main > div > button, body[data-tema="netruim"] .btn-plataforma {
   background-color: revert !important;
   color: revert !important;
   border: revert;
@@ -105,21 +105,34 @@ body[data-tema="netruim"] i.fa-home::before, body[data-tema="netruim"] > .pageco
   content: "[home]";
 }
 
-body[data-tema="netruim"] i.fa-file-video-o::before {
-  content: "[vid]";
+body[data-tema="netruim"] i.fa-google:not(.btn-plataforma > *)::before {
+  content: "[gd]";
 }
 
-body[data-tema="netruim"] i.fa-file-video-o {
+body[data-tema="netruim"] i.fa-google:not(.btn-plataforma > *) {
   margin-right: 19px !important;
 }
 
-body[data-tema="netruim"] i.fa-youtube-play::before {
+body[data-tema="netruim"] i.fa-institution:not(.btn-plataforma > *)::before {
+  content: "[ia]";
+}
+
+body[data-tema="netruim"] i.fa-institution:not(.btn-plataforma > *) {
+  margin-right: 19px !important;
+}
+
+body[data-tema="netruim"] i.fa-youtube-play:not(.btn-plataforma > *)::before {
   content: "[yt]";
 }
 
-body[data-tema="netruim"] i.fa-youtube-play {
+body[data-tema="netruim"] i.fa-youtube-play:not(.btn-plataforma > *) {
   margin-right: 11px !important;
 }
+
+body[data-tema="netruim"] .btn-plataforma > *::before {
+  content: "";
+}
+
 /*tem um caractere invisivel depois do \a*/
 body[data-tema="netruim"] i.fa-list::before {
   content: "[list]\a𝅺";

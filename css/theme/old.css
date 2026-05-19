@@ -145,7 +145,7 @@ body[data-tema="old"] .tabcontent > div > div > a:nth-child(2):hover {
     text-decoration: underline;
 }
 
-body[data-tema="old"] .tabcontent > div > div > * > b, body[data-tema="old"] .tabcontent > div > div > * > p {
+body[data-tema="old"] .tabcontent > div > div > * > b, body[data-tema="old"] .tabcontent > div > div > * > p, body[data-tema="old"] .tabcontent > div > div > * > .maisinfo_text {
     text-align: left !important;
     width: 100%;
 }
