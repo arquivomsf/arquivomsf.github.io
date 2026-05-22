@@ -3,7 +3,7 @@
     {
       "nome": "Harry Potter and the Goblet of Fire (PS2)",
       "imagem": "jpg",
-      "quantidade": "8",
+      "quantidade": "11",
       "plataforma": "archive",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvFb8cKWGgllrE8KTYbOk5n",
@@ -139,6 +139,54 @@
         "horas": 0,
         "minutos": 41,
         "segundos": 53
+      }
+    },
+    {
+      "nome": "Jogando Harry Potter and the Goblet of Fire de PS2 | 2026-05-06 12-36-27",
+      "imagem": "jpg",
+      "data": "21/05/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-harry-potter-goblet-playstation-2/P09+-+Jogando+Harry+Potter+and+the+Goblet+of+Fire+de+PS2+_+2026-05-06+12-36-27.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 48,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Jogando Harry Potter and the Goblet of Fire de PS2 | 2026-05-06 13-55-30",
+      "imagem": "jpg",
+      "data": "21/05/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-harry-potter-goblet-playstation-2/P10+-+Jogando+Harry+Potter+and+the+Goblet+of+Fire+de+PS2+_+2026-05-06+13-55-30.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 51,
+        "segundos": 57
+      }
+    },
+    {
+      "nome": "Jogando Harry Potter and the Goblet of Fire de PS2 | 2026-05-06 15-22-21",
+      "imagem": "jpg",
+      "data": "21/05/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-harry-potter-goblet-playstation-2/P11+-+Jogando+Harry+Potter+and+the+Goblet+of+Fire+de+PS2+_+2026-05-06+15-22-21.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 24,
+        "segundos": 18
       }
     }
   ]
