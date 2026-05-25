@@ -3,7 +3,19 @@
         {
             "nome": "Episódios da CosTV",
             "imagem": "1.jpg",
-            "quantidade": "11"
+            "quantidade": "13"
+        }
+    ],
+    "_analise": [
+        {
+            "nome": "Harry Potter e o Cálice de Fogo de PlayStation 2 | Análise do Jogo",
+            "imagem": "jpg",
+            "link": "",
+            "duracao": {
+                "horas": 0,
+                "minutos": 11,
+                "segundos": 57
+            }
         }
     ]
 }
