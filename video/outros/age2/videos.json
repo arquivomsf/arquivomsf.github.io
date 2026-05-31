@@ -1,0 +1,33 @@
+{
+  "playlist": [
+    {
+      "nome": "Age of Empires 2",
+      "imagem": "jpg",
+      "quantidade": "1",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtxz0jIvXrJ4AENCDnOIO13",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Ganhando com Celtas no Age of Empires 2 | 2026-05-14 07-49-42",
+      "imagem": "jpg",
+      "data": "31/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ZUNO_7E0BwE",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 20,
+        "segundos": 14
+      }
+    }
+  ]
+}

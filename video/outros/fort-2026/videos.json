@@ -3,7 +3,7 @@
     {
       "nome": "Fortnite 2026 (Clipes)",
       "imagem": "jpg",
-      "quantidade": "9",
+      "quantidade": "13",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvscXoyO_-3BK3PISKhCstbM",
@@ -155,6 +155,70 @@
         "horas": 0,
         "minutos": 0,
         "segundos": 58
+      }
+    },
+    {
+      "nome": "Primeira Vitória de Dva no Fortnite | 2026_05_14-23-16-04",
+      "imagem": "jpg",
+      "data": "31/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/kXldOxe0hyY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Mais uma vitória de Dva no Fortnite | 2026_05_14-23-39-10",
+      "imagem": "jpg",
+      "data": "31/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/EnLxeSZLOP4",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Vitória no Castelo com a Dva no Fortnite | 2026_05_16-01-42-18",
+      "imagem": "jpg",
+      "data": "31/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ZPmiRKhtWGM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Balinha com a Dva no final no Fortnite | 2026_05_17-17-47-04",
+      "imagem": "jpg",
+      "data": "31/05/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/gd1eVRpK9tY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 59
       }
     }
   ]

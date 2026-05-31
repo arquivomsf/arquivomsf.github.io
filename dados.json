@@ -468,6 +468,13 @@
       "console": "PlayStation 2 (PS2)",
       "consigla": "ps2",
       "curto": "harrygoblet"
+    },
+    {
+      "nome": "Need for Speed III: Hot Pursuit",
+      "tags": "Need for Speed III: Hot Pursuit Need for Speed 3 nfs 3 sony ps1 playstation 1",
+      "console": "PlayStation 1 (PS1)",
+      "consigla": "ps1",
+      "curto": "nfs3"
     }
   ],
   "standalone": [
@@ -1589,6 +1596,14 @@
       "console": "Outros",
       "consigla": "outros",
       "curto": "subwaycity-2026"
+    },
+    {
+      "nome": "Age of Empires 2",
+      "tags": "Age of Empires 2",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "age2"
     }
   ],
   "consoles": [
