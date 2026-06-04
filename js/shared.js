@@ -316,6 +316,14 @@ function debug() {
     debug_mode = true;
     document.body.classList.add("debug_ativado");
 
+    console.log("Carregando informação de franquias");
+
+    debug_temp_fetch_dados("debug_franquia","franquias.json");
+
+    console.log("Adicionando aba [Franquias]");
+    document.querySelector(".franquias-tab").innerHTML = "Carregando...";
+    document.querySelector(".franquias-tab").classList.remove("hidden");
+
     //debug da aba Jogos
     console.log("(1/3) Adicionando informações de debug na aba [Jogos]");
     let debug_todos_jogos = document.querySelectorAll(".jogo_titulo");
@@ -485,6 +493,18 @@ function debug() {
     console.groupEnd();
 
     return "✅ Modo de debug ativado";
+}
+
+async function debug_temp_fetch_dados(tipo,file) {
+    let file_object = await fetch(file);
+    let json_data = await file_object.json();
+
+    switch(tipo) {
+        case "debug_franquia":
+            dados_franquia = json_data;
+            debug_carregar_franquias();
+        break;
+    }
 }
 
 function debug_disable() {
