@@ -14,13 +14,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css"/>
     <script src="js/shared.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/franquias.js"></script>
 </head>
 <body class="font-[AdwaitaSans-Regular] bg-gray-200" onload="start()">
     <nav class="px-2 bg-gray-800 sticky top-0 w-[100%] text-white flex flex-row sm:flex-row items-center z-10 navbar-default">
         <div class="tab w-[100%] flex flex-row justify-between">
             <div class="flex flex-row">
-                <div class="mt-3"><a href="" class="navbar-home text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500"><i class="fa fa-home"></i></a></div>
+                <div class="mt-3"><a href="https://arquivomsf.github.io/" class="navbar-home text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500"><i class="fa fa-home"></i></a></div>
+                <div class="mt-3"><span class="navbar-divider select-none py-2.5 px-3.5">→</span></div>
+                <div class="mt-3"><a href="" class="navbar-two text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500 inline">Franquia</a></div>
+                <!--<div class="mt-3"><a href="" class="navbar-two-sigla text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500 sm:hidden">Sigla</a></div>-->
             </div>
 
             <div class="flex flex-row">
@@ -32,7 +35,7 @@
 
     <nav class="px-2 bg-gray-800 sticky top-0 w-[100%] text-white flex flex-row sm:flex-row items-center z-10 hidden navbar-search">
         <div class="tab w-[100%] flex flex-row">
-            <div class="m-1 w-full"><input id="inputPesquisa" oninput="pesquisarJogo();enable_debug_from_page()" onblur="checarStringVazia()" class="p-1 rounded-sm cursor-text bg-inherit h-full w-full transition-all duration-150 border-1 border-white outline-0 animate-abrir focus:bg-gray-700" type="text"></div>
+            <div class="m-1 w-full"><input id="inputPesquisa" oninput="pesquisarJogo()" onblur="checarStringVazia()" class="p-1 rounded-sm cursor-text bg-inherit h-full w-full transition-all duration-150 border-1 border-white outline-0 animate-abrir focus:bg-gray-700" type="text"></div>
 
             <button class="tablinks cursor-pointer my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 float-right w-max hover:bg-gray-500 focus:bg-gray-500" onclick="fechar_pesquisa()"><i class="fa fa-close"></i></button>
         </div>
@@ -61,15 +64,6 @@
 
     <div class="hidden fixed w-[100%] h-[100%] top-0 left-0 right-0 bottom-0 bg-gray-800 z-10 opacity-50 animate-opacity" onclick="sidebar_close()" id="sidebar_overlay"></div>
 
-    <div class="tabs-navbar flex flex-row gap-2 px-2 items-center h-[48px] bg-white">
-        <div onclick="setTab(this,'jogos_page')" class="nav-link tab-link flex-auto text-center tab-item cursor-pointer transition-all duration-150 border-b-[0.125rem] border-white select-none hover:border-black focus:border-black active">Jogos</div>
-        <div onclick="setTab(this,'standalone_page')" class="nav-link tab-link flex-auto text-center tab-item cursor-pointer transition-all duration-150 border-b-[0.125rem] border-white select-none hover:border-black focus:border-black">Vídeos Independentes</div>
-        <div onclick="setTab(this,'outros_page')" class="nav-link tab-link flex-auto text-center tab-item cursor-pointer transition-all duration-150 border-b-[0.125rem] border-white select-none hover:border-black focus:border-black">Outros</div>
-        <!--[TEMP]-->
-        <div onclick="setTab(this,'franquias_page')" class="nav-link tab-link flex-auto text-center tab-item cursor-pointer transition-all duration-150 border-b-[0.125rem] border-white select-none hover:border-black focus:border-black franquias-tab hidden">Franquias</div>
-        <!--[TEMP]-->
-    </div>
-
     <center>
 
     <div id="jogos_page" class="tabcontent m-2">
@@ -78,26 +72,5 @@
         </div>
     </div>
 
-    <div id="standalone_page" class="tabcontent m-2 hidden">
-        <div class="standalone_content_list p-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 2xl:grid-cols-5 gap-2">
-
-        </div>
-    </div>
-
-    <div id="outros_page" class="tabcontent m-2 hidden">
-        <div class="outros_content_list p-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 2xl:grid-cols-5 gap-2">
-
-        </div>
-    </div>
-
-    <!--[TEMP]-->
-    <div id="franquias_page" class="tabcontent m-2 hidden">
-        <div class="franquias_content_list p-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 2xl:grid-cols-5 gap-2">
-
-        </div>
-    </div>
-    <!--[TEMP]-->
-
     </center>
-    <!--eu to literalmente virando o joker de joker 2019 literalmente eu fr fr eu palhaco payaso-->
 </body>

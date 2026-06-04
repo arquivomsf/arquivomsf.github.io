@@ -85,6 +85,64 @@ function carregar_itens() {
     }
 }
 
+//[TEMP]
+function debug_carregar_franquias() {
+    for (var i = 0; i<Object.keys(dados_franquia).length; i++) {
+        let franquia_id = Object.keys(dados_franquia)[i];
+        let franquia_nome = dados_franquia[franquia_id].nome;
+        let franquia_tags = dados_franquia[franquia_id].tags;
+        let franquia_jogos = dados_franquia[franquia_id].jogos;
+        let nome_processado = pesquisa_processar_string(franquia_tags);
+
+        let franquia_capa = dados_franquia[franquia_id].capas;
+
+        let capas_html;
+
+        if (franquia_capa.length == 1) {
+            capas_html = `
+                <div class="w-full h-[225px] flex flex-row">
+                    <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain">
+                </div>
+            `
+        }
+
+        if (franquia_capa.length == 2) {
+            capas_html = `
+                <div class="w-full h-[225px] flex flex-row">
+                    <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain mr-[-110px] z-4 ring-2 ring-white/50">
+                    <img src="capas/${franquia_capa[1]}.png" class="h-[225px] object-contain z-3 ring-2 ring-white/50">
+                </div>
+            `
+        }
+
+        if (franquia_capa.length >= 3) {
+            capas_html = `
+                <div class="w-full h-[225px] flex flex-row">
+                    <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain mr-[-110px] z-4 ring-2 ring-white/50">
+                    <img src="capas/${franquia_capa[1]}.png" class="h-[225px] object-contain mr-[-110px] z-3 ring-2 ring-white/50">
+                    <img src="capas/${franquia_capa[2]}.png" class="h-[225px] object-contain ring-2 ring-white/50">
+                </div>
+            `
+        }
+
+        if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
+            document.querySelector(".franquias_content_list").innerHTML += `
+                <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                    <a href="franquia?id=${franquia_id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+                        <div class="relative h-auto">
+                            <div class="w-auto h-[225px]">
+                                ${capas_html}
+                            </div>
+                        </div>
+                        <b class="text-center">${franquia_nome}</b>
+                    </a>
+                </div>`;
+        }
+    }
+    document.querySelector(".franquias-tab").innerHTML = "Franquias";
+}
+//[TEMP]
+
 function resetarJogos(){
     document.querySelector(".jogos_content_list").innerHTML = "";
     document.querySelector(".standalone_content_list").innerHTML = "";

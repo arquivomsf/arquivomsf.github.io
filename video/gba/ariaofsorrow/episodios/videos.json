@@ -1,0 +1,33 @@
+{
+  "playlist": [
+    {
+      "nome": "Castlevania: Aria of Sorrow (GBA)",
+      "imagem": "jpg",
+      "quantidade": "?",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-aria-of-sorrow-gba"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "",
+      "imagem": "jpg",
+      "data": "00/06/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 0
+      }
+    }
+  ]
+}
