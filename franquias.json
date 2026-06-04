@@ -1,0 +1,84 @@
+{
+  "sonic": {
+    "nome": "Sonic the Hedgehog",
+    "tags": "Sonic the Hedgehog",
+    "jogos": [
+      "sonic1",
+      "soniccd",
+      "sonic2",
+      "sonic3k",
+      "sonicadv",
+      "sonicadv2",
+      "shadow"
+    ]
+  },
+  "mario": {
+    "nome": "Super Mario",
+    "tags": "Super Mario",
+    "jogos": [
+      "mario1",
+      "mario64"
+    ]
+  },
+  "castlevania": {
+    "nome": "Castlevania",
+    "tags": "Castlevania",
+    "jogos": [
+      "castlelod",
+      "symphony"
+    ]
+  },
+  "gow": {
+    "nome": "God of War",
+    "tags": "God of War",
+    "jogos": [
+      "gow1",
+      "gow2"
+    ]
+  },
+  "cod": {
+    "nome": "Call of Duty",
+    "tags": "Call of Duty",
+    "jogos": [
+      "finest",
+      "bigred",
+      "fronts"
+    ]
+  },
+  "pandemonium": {
+    "nome": "Pandemonium",
+    "tags": "Pandemonium",
+    "jogos": [
+      "pandemonium",
+      "pandemonium2"
+    ]
+  },
+  "nfs": {
+    "nome": "Need for Speed",
+    "tags": "Need for Speed",
+    "jogos": [
+      "thenfs",
+      "nfs2",
+      "nfs3"
+    ]
+  },
+  "gta": {
+    "nome": "Grand Theft Auto",
+    "tags": "Grand Theft Auto",
+    "jogos": [
+      "gta3",
+      "gtavc"
+    ]
+  },
+  "harry": {
+    "nome": "Harry Potter",
+    "tags": "Harry Potter",
+    "jogos": [
+      "harry-ps1",
+      "harry-ps2",
+      "harrycamara",
+      "harryazkaban",
+      "harrygoblet"
+    ]
+  }
+}

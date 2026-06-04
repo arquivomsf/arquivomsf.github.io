@@ -37,6 +37,7 @@ var dados_geral = "";
 var dados_jogo = "";
 var dados_serie = "";
 var dados_off = {"lostmedia": []};
+var dados_franquia = "";
 
 async function fetch_dados(tipo,file) {
     let file_object = await fetch(file);
@@ -60,6 +61,9 @@ async function fetch_dados(tipo,file) {
         break;
         case "lost":
             dados_off = json_data;
+        break;
+        case "franquia":
+            dados_franquia = json_data;
         break;
     }
     carregar_itens();
