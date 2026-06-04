@@ -316,6 +316,7 @@ function debug() {
     debug_mode = true;
     document.body.classList.add("debug_ativado");
 
+    //[TEMP]
     console.log("Carregando informação de franquias");
 
     debug_temp_fetch_dados("debug_franquia","franquias.json");
@@ -323,6 +324,7 @@ function debug() {
     console.log("Adicionando aba [Franquias]");
     document.querySelector(".franquias-tab").innerHTML = "Carregando...";
     document.querySelector(".franquias-tab").classList.remove("hidden");
+    //[TEMP]
 
     //debug da aba Jogos
     console.log("(1/3) Adicionando informações de debug na aba [Jogos]");
@@ -495,6 +497,7 @@ function debug() {
     return "✅ Modo de debug ativado";
 }
 
+//[TEMP]
 async function debug_temp_fetch_dados(tipo,file) {
     let file_object = await fetch(file);
     let json_data = await file_object.json();
@@ -504,6 +507,13 @@ async function debug_temp_fetch_dados(tipo,file) {
             dados_franquia = json_data;
             debug_carregar_franquias();
         break;
+    }
+}
+
+function enable_debug_from_page() {
+    if (document.querySelector("#inputPesquisa").value == "debug()") {
+        fechar_pesquisa();
+        debug();
     }
 }
 

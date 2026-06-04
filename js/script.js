@@ -85,11 +85,11 @@ function carregar_itens() {
     }
 }
 
+//[TEMP]
 function debug_carregar_franquias() {
     for (var i = 0; i<Object.keys(dados_franquia).length; i++) {
         let franquia_id = Object.keys(dados_franquia)[i];
         let franquia_nome = dados_franquia[franquia_id].nome;
-        //console.log("Adicionando franquia ["+franquia_nome+"]");
         let franquia_tags = dados_franquia[franquia_id].tags;
         let franquia_jogos = dados_franquia[franquia_id].jogos;
         let nome_processado = pesquisa_processar_string(franquia_tags);
@@ -141,6 +141,7 @@ function debug_carregar_franquias() {
     }
     document.querySelector(".franquias-tab").innerHTML = "Franquias";
 }
+//[TEMP]
 
 function resetarJogos(){
     document.querySelector(".jogos_content_list").innerHTML = "";
