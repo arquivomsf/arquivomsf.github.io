@@ -27,7 +27,7 @@ function carregar_embed_fetch() {
   }
   //vídeo outro
   if (consoleAtual == "outros") {
-    fetch_dados("serie_embed",`video/${consoleAtual}/${jogoAtual}/videos.json`);
+    fetch_dados("serie",`video/${consoleAtual}/${jogoAtual}/videos.json`,"geral","dados.json");
     return;
   }
   //vídeo extra
@@ -36,7 +36,7 @@ function carregar_embed_fetch() {
     return;
   }
   //vídeo episódio
-  fetch_dados("serie_embed",`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`);
+  fetch_dados("serie",`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`,"geral","dados.json");
 }
 
 function carregar_itens() {

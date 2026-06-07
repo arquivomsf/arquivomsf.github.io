@@ -8,8 +8,7 @@ function start() {
 
 function carregarDados() {
     procurarParam();
-    fetch_dados("geral","dados.json");
-    fetch_dados("franquia","franquias.json");
+    fetch_dados("geral","dados.json","franquia","franquias.json");
     carregar_consoles_temas("normal","");
 }
 

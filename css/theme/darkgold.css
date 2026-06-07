@@ -49,17 +49,17 @@ body[data-tema="darkgold"] .jogos_content_list > div > a:hover {
     color: #ffffff;
 }
 
-body[data-tema="darkgold"] .standalone_content_list > div, body[data-tema="darkgold"] .outros_content_list > div, body[data-tema="darkgold"] .ep_content_list > div, body[data-tema="darkgold"] .extras_content_list > div, body[data-tema="darkgold"] .series_content_list > div, body[data-tema="darkgold"] .videos_content_list > div, body[data-tema="darkgold"] .stats_content_list > div {
+body[data-tema="darkgold"] .standalone_content_list > div, body[data-tema="darkgold"] .outros_content_list > div, body[data-tema="darkgold"] .ep_content_list > div, body[data-tema="darkgold"] .extras_content_list > div, body[data-tema="darkgold"] .series_content_list > div, body[data-tema="darkgold"] .videos_content_list > div, body[data-tema="darkgold"] .stats_content_list > div, body[data-tema="darkgold"] .franquias_content_list > div {
     border-color: oklch(27.8% 0.033 256.848/50%);
     background-color: #151515;
     color: oklch(87.2% 0.01 258.338);
 }
 
-body[data-tema="darkgold"] .standalone_content_list > div > a > p, body[data-tema="darkgold"] .outros_content_list > div > a > p, body[data-tema="darkgold"] .ep_content_list > div > a > p, body[data-tema="darkgold"] .extras_content_list > div > a > p, body[data-tema="darkgold"] .series_content_list > div > a > p, body[data-tema="darkgold"] .videos_content_list > div > div, body[data-tema="darkgold"] .stats_content_list > div > div {
+body[data-tema="darkgold"] .standalone_content_list > div > a > p, body[data-tema="darkgold"] .outros_content_list > div > a > p, body[data-tema="darkgold"] .ep_content_list > div > a > p, body[data-tema="darkgold"] .extras_content_list > div > a > p, body[data-tema="darkgold"] .series_content_list > div > a > p, body[data-tema="darkgold"] .videos_content_list > div > div, body[data-tema="darkgold"] .stats_content_list > div > div, body[data-tema="darkgold"] .franquias_content_list > div > div {
     border-color: oklch(27.8% 0.033 256.848/50%);
 }
 
-body[data-tema="darkgold"] .standalone_content_list > div:hover, body[data-tema="darkgold"] .outros_content_list > div:hover, body[data-tema="darkgold"] .ep_content_list > div:hover, body[data-tema="darkgold"] .extras_content_list > div:hover, body[data-tema="darkgold"] .series_content_list > div:hover, body[data-tema="darkgold"] .videos_content_list > div:hover, body[data-tema="darkgold"] .stats_content_list > div:hover {
+body[data-tema="darkgold"] .standalone_content_list > div:hover, body[data-tema="darkgold"] .outros_content_list > div:hover, body[data-tema="darkgold"] .ep_content_list > div:hover, body[data-tema="darkgold"] .extras_content_list > div:hover, body[data-tema="darkgold"] .series_content_list > div:hover, body[data-tema="darkgold"] .videos_content_list > div:hover, body[data-tema="darkgold"] .stats_content_list > div:hover, body[data-tema="darkgold"] .franquias_content_list > div:hover {
     background-color: rgba(255,255,255,0.05);
     color: #ffffff;
 }

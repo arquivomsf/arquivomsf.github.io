@@ -39,7 +39,7 @@ var dados_serie = "";
 var dados_off = {"lostmedia": []};
 var dados_franquia = "";
 
-async function fetch_dados(tipo,file) {
+async function fetch_dados(tipo,file,tipo2 = "",file2 = "",load = true) {
     let file_object = await fetch(file);
     let json_data = await file_object.json();
 
@@ -53,12 +53,6 @@ async function fetch_dados(tipo,file) {
         case "serie":
             dados_serie = json_data;
         break;
-        case "serie_embed":
-            dados_serie = json_data;
-            //gambiarra porque estoy cansado jefe
-            let geral_object_embed = await fetch("dados.json");
-            dados_geral = await geral_object_embed.json();
-        break;
         case "lost":
             dados_off = json_data;
         break;
@@ -66,7 +60,30 @@ async function fetch_dados(tipo,file) {
             dados_franquia = json_data;
         break;
     }
-    carregar_itens();
+
+    if (file2 != "") {
+        let file2_object = await fetch(file2);
+        let json2_data = await file2_object.json();
+
+        switch(tipo2) {
+            case "geral":
+                dados_geral = json2_data;
+            break;
+            case "jogo":
+                dados_jogo = json2_data;
+            break;
+            case "serie":
+                dados_serie = json2_data;
+            break;
+            case "lost":
+                dados_off = json2_data;
+            break;
+            case "franquia":
+                dados_franquia = json2_data;
+            break;
+        }
+    }
+    if (load) carregar_itens();
 }
 
 
@@ -316,16 +333,6 @@ function debug() {
     debug_mode = true;
     document.body.classList.add("debug_ativado");
 
-    //[TEMP]
-    console.log("Carregando informação de franquias");
-
-    debug_temp_fetch_dados("debug_franquia","franquias.json");
-
-    console.log("Adicionando aba [Franquias]");
-    document.querySelector(".franquias-tab").innerHTML = "Carregando...";
-    document.querySelector(".franquias-tab").classList.remove("hidden");
-    //[TEMP]
-
     //debug da aba Jogos
     console.log("(1/3) Adicionando informações de debug na aba [Jogos]");
     let debug_todos_jogos = document.querySelectorAll(".jogo_titulo");
@@ -464,7 +471,7 @@ function debug() {
     }
 
     //debug da aba Standalone
-    console.log("(3/3) Adicionando informações de debug na aba [Vídeos Independentes]");
+    console.log("(3/3) Adicionando informações de debug na aba [Independentes]");
 
     document.querySelectorAll(".standalone_titulo_youtube").forEach((element) =>
         element.innerHTML += `<br><br><span>YouTube</span>`
@@ -495,19 +502,6 @@ function debug() {
     console.groupEnd();
 
     return "✅ Modo de debug ativado";
-}
-
-//[TEMP]
-async function debug_temp_fetch_dados(tipo,file) {
-    let file_object = await fetch(file);
-    let json_data = await file_object.json();
-
-    switch(tipo) {
-        case "debug_franquia":
-            dados_franquia = json_data;
-            debug_carregar_franquias();
-        break;
-    }
 }
 
 function enable_debug_from_page() {

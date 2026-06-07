@@ -11,6 +11,7 @@
   --neob-orange: #ffb877;
   --neob-purple: #d7c3ff;
   --neob-red: #ed1d28;
+  --neob-lightred: #ff6f61;
 }
 
 body[data-tema="neob"] {
@@ -104,15 +105,19 @@ body[data-tema="neob"] .tab-link {
   border: 1px solid black;
 }
 
-body[data-tema="neob"] .tab-link:nth-child(3n+1) {
+body[data-tema="neob"] .tab-link:nth-child(4n+1) {
   background-color: var(--neob-yellow);
 }
 
-body[data-tema="neob"] .tab-link:nth-child(3n+2) {
+body[data-tema="neob"] .tab-link:nth-child(4n+2) {
+  background-color: var(--neob-lightred);
+}
+
+body[data-tema="neob"] .tab-link:nth-child(4n+3) {
   background-color: var(--neob-green);
 }
 
-body[data-tema="neob"] .tab-link:nth-child(3n+3) {
+body[data-tema="neob"] .tab-link:nth-child(4n+4) {
   background-color: var(--neob-pink);
 }
 
@@ -257,4 +262,10 @@ body[data-tema="neob"] .btn-plataforma {
 
 body[data-tema="neob"] .btn-plataforma+.btn-plataforma {
   margin-left: 10px;
+}
+
+body[data-tema="neob"] .franquia_album > img {
+  border: 1px solid black !important;
+  border-radius: 0;
+  box-shadow: none !important;
 }

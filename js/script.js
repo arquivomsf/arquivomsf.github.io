@@ -5,7 +5,7 @@ function start() {
 }
 
 function carregarDados() {
-    fetch_dados("geral","dados.json");
+    fetch_dados("geral","dados.json","franquia","franquias.json");
     carregar_consoles_temas("normal","");
 }
 
@@ -83,10 +83,7 @@ function carregar_itens() {
                 </div>`;
         }
     }
-}
 
-//[TEMP]
-function debug_carregar_franquias() {
     for (var i = 0; i<Object.keys(dados_franquia).length; i++) {
         let franquia_id = Object.keys(dados_franquia)[i];
         let franquia_nome = dados_franquia[franquia_id].nome;
@@ -100,7 +97,7 @@ function debug_carregar_franquias() {
 
         if (franquia_capa.length == 1) {
             capas_html = `
-                <div class="w-full h-[225px] flex flex-row">
+                <div class="w-full h-[225px] flex flex-row franquia_album">
                     <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain">
                 </div>
             `
@@ -108,7 +105,7 @@ function debug_carregar_franquias() {
 
         if (franquia_capa.length == 2) {
             capas_html = `
-                <div class="w-full h-[225px] flex flex-row">
+                <div class="w-full h-[225px] flex flex-row franquia_album">
                     <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain mr-[-110px] z-4 ring-2 ring-white/50">
                     <img src="capas/${franquia_capa[1]}.png" class="h-[225px] object-contain z-3 ring-2 ring-white/50">
                 </div>
@@ -117,7 +114,7 @@ function debug_carregar_franquias() {
 
         if (franquia_capa.length >= 3) {
             capas_html = `
-                <div class="w-full h-[225px] flex flex-row">
+                <div class="w-full h-[225px] flex flex-row franquia_album">
                     <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain mr-[-110px] z-4 ring-2 ring-white/50">
                     <img src="capas/${franquia_capa[1]}.png" class="h-[225px] object-contain mr-[-110px] z-3 ring-2 ring-white/50">
                     <img src="capas/${franquia_capa[2]}.png" class="h-[225px] object-contain ring-2 ring-white/50">
@@ -139,12 +136,11 @@ function debug_carregar_franquias() {
                 </div>`;
         }
     }
-    document.querySelector(".franquias-tab").innerHTML = "Franquias";
 }
-//[TEMP]
 
 function resetarJogos(){
     document.querySelector(".jogos_content_list").innerHTML = "";
     document.querySelector(".standalone_content_list").innerHTML = "";
     document.querySelector(".outros_content_list").innerHTML = "";
+    document.querySelector(".franquias_content_list").innerHTML = "";
 }

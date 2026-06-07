@@ -412,3 +412,11 @@ body[data-tema="geo"] .console_list {
 body[data-tema="geo"] .console_list > a {
     width: 88px !important;
 }
+
+body[data-tema="geo"] .franquia_album > img:nth-child(2) {
+    margin-right: 0;
+}
+
+body[data-tema="geo"] .franquia_album > img:nth-child(3) {
+    display: none;
+}
