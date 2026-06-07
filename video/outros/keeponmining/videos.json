@@ -1,0 +1,97 @@
+{
+  "playlist": [
+    {
+      "nome": "Keep on Mining!",
+      "imagem": "jpg",
+      "quantidade": "5",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtSGvG0MtuUJtEIs6zMLr7s",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-keep-on-mining"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Keep on Mining | 2026-05-20 08-05-00",
+      "imagem": "jpg",
+      "data": "05/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/uLOkQiuva8w",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-keep-on-mining/P01+-+Jogando+Keep+on+Mining+_+2026-05-20+07-48-42.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 11,
+        "segundos": 49
+      }
+    },
+    {
+      "nome": "Jogando Keep on Mining | 2026-05-20 08-05-00",
+      "imagem": "jpg",
+      "data": "05/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Nwib-l-XqHE",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-keep-on-mining/P02+-+Jogando+Keep+on+Mining+_+2026-05-20+08-05-00.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 16,
+        "segundos": 34
+      }
+    },
+    {
+      "nome": "Jogando Keep on Mining | 2026-05-21 09-13-02",
+      "imagem": "jpg",
+      "data": "05/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/XDHc4mekbRw",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-keep-on-mining/P03+-+Jogando+Keep+on+Mining+_+2026-05-21+09-13-02.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 48,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "Jogando Keep on Mining | 2026-05-21 10-11-33",
+      "imagem": "jpg",
+      "data": "05/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/16H3cQtPYpA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-keep-on-mining/P04+-+Jogando+Keep+on+Mining+_+2026-05-21+10-11-33.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 28
+      }
+    },
+    {
+      "nome": "Jogando Keep on Mining | 2026-05-22 12-33-57",
+      "imagem": "jpg",
+      "data": "05/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4bF8uKyGdjo",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-keep-on-mining/P05+-+Jogando+Keep+on+Mining+_+2026-05-22+12-33-57.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 39,
+        "segundos": 18
+      }
+    }
+  ]
+}

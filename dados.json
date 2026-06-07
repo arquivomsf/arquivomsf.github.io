@@ -1604,6 +1604,14 @@
       "console": "Outros",
       "consigla": "outros",
       "curto": "age2"
+    },
+    {
+      "nome": "Keep on Mining!",
+      "tags": "Keep on Mining!",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "keeponmining"
     }
   ],
   "consoles": [

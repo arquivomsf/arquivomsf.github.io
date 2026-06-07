@@ -3,7 +3,7 @@
     {
       "nome": "Need for Speed 3 (PS1)",
       "imagem": "jpg",
-      "quantidade": "3",
+      "quantidade": "6",
       "plataforma": "archive",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsEn9sEbS3uPSRu_A8gDiDj",
@@ -59,6 +59,54 @@
         "horas": 0,
         "minutos": 44,
         "segundos": 33
+      }
+    },
+    {
+      "nome": "Jogando Need for Speed 3 de PlayStation 1 | 2026-05-18 10-34-11",
+      "imagem": "jpg",
+      "data": "05/06/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-need-for-speed-3-playstation-1/P04+-+Jogando+Need+for+Speed+3+de+PlayStation+1+_+2026-05-18+10-34-11.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 37,
+        "segundos": 38
+      }
+    },
+    {
+      "nome": "Jogando Need for Speed 3 de PlayStation 1 | 2026-05-18 11-30-58",
+      "imagem": "jpg",
+      "data": "05/06/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-need-for-speed-3-playstation-1/P05+-+Jogando+Need+for+Speed+3+de+PlayStation+1+_+2026-05-18+11-30-58.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Jogando Need for Speed 3 de PlayStation 1 | 2026-05-18 12-33-51",
+      "imagem": "jpg",
+      "data": "05/06/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-need-for-speed-3-playstation-1/P06+-+Jogando+Need+for+Speed+3+de+PlayStation+1+_+2026-05-18+12-33-51.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 48,
+        "segundos": 25
       }
     }
   ]

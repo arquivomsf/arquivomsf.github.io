@@ -34,10 +34,12 @@
     "tags": "Castlevania",
     "jogos": [
       "castlelod",
-      "symphony"
+      "symphony",
+      "ariaofsorrow"
     ],
     "capas": [
       "ps1/symphony",
+      "gba/ariaofsorrow",
       "n64/castlelod"
     ]
   },
