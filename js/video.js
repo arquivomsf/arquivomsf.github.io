@@ -81,6 +81,13 @@ function carregar_itens() {
           document.querySelector(".btn-archive").classList.remove("hidden");
         }
         document.querySelector(".data_string").innerHTML = dados_geral.standalone[i].data;
+
+        if (dados_geral.standalone[i].hasOwnProperty("nome_original")) {
+          document.querySelector(".original_string").innerHTML = dados_geral.standalone[i].nome_original;
+          document.querySelector(".original_br").classList.remove("hidden");
+          document.querySelector(".original_label").classList.remove("hidden");
+          document.querySelector(".original_string").classList.remove("hidden");
+        }
       }
     }
     return;
@@ -127,6 +134,13 @@ function carregar_itens() {
           document.querySelector(".btn-archive").classList.remove("hidden");
         }
         document.querySelector(".data_string").innerHTML = dados_serie.extras[i].data;
+
+        if (dados_serie.extras[i].hasOwnProperty("nome_original")) {
+          document.querySelector(".original_string").innerHTML = dados_serie.extras[i].nome_original;
+          document.querySelector(".original_br").classList.remove("hidden");
+          document.querySelector(".original_label").classList.remove("hidden");
+          document.querySelector(".original_string").classList.remove("hidden");
+        }
       }
     }
     return;
@@ -176,6 +190,13 @@ function carregar_itens() {
       document.querySelector(".btn-archive").classList.remove("hidden");
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
+
+    if (dados_serie.videos[episodioAtual].hasOwnProperty("nome_original")) {
+      document.querySelector(".original_string").innerHTML = dados_serie.videos[episodioAtual].nome_original;
+      document.querySelector(".original_br").classList.remove("hidden");
+      document.querySelector(".original_label").classList.remove("hidden");
+      document.querySelector(".original_string").classList.remove("hidden");
+    }
     return;
   }
 
@@ -227,4 +248,12 @@ function carregar_itens() {
       document.querySelector(".btn-archive").classList.remove("hidden");
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
+
+    console.log(dados_serie.videos[episodioAtual].hasOwnProperty("nome_original"));
+    if (dados_serie.videos[episodioAtual].hasOwnProperty("nome_original")) {
+      document.querySelector(".original_string").innerHTML = dados_serie.videos[episodioAtual].nome_original;
+      document.querySelector(".original_br").classList.remove("hidden");
+      document.querySelector(".original_label").classList.remove("hidden");
+      document.querySelector(".original_string").classList.remove("hidden");
+    }
 }

@@ -318,7 +318,7 @@ function sidebar_close() {
 }
 
 var debug_mode = false;
-var debug_info = {"info": {},"info_outro": {}};
+var debug_info = {"info": {},"info_outro": {},"info_extras": {}};
 
 //ativar modo de debug que permite
     //ver a plataforma em que as séries ou vídeos estão disponíveis
@@ -348,6 +348,7 @@ function debug() {
         .then(response => response.json())
         .then(data => {
             debug_info.info[debug_nome] = "<br>";
+            debug_info.info_extras[debug_nome] = "";
 
             if (data.hasOwnProperty("episodios")) {
                 //olha a série episódios
@@ -379,6 +380,11 @@ function debug() {
                         }
                     }
                     if (json_data_jogos_counter > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_jogos_counter} Episódios sem data</span>`;
+
+                    if (data.hasOwnProperty("extras")) {
+                        debug_info.info_extras["ep-"+debug_nome] = `<br><span>${data.extras.length} Extras nos episódios</span>`;
+                        document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info_extras["ep-"+debug_nome];
+                    }
                 })
             }
 
@@ -412,6 +418,11 @@ function debug() {
                         }
                     }
                     if (json_data_jogos_counter > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_jogos_counter} VODS sem data</span>`;
+
+                    if (data.hasOwnProperty("extras")) {
+                        debug_info.info_extras["vod-"+debug_nome] = `<br><span>${data.extras.length} Extras nos VODS</span>`;
+                        document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info_extras["vod-"+debug_nome];
+                    }
                 })
             }
 
@@ -443,6 +454,10 @@ function debug() {
 
             if (data.hasOwnProperty("analise")) {
                 debug_info.info_outro[debug_outro_nome] += `<br><span>Análise</span>`;
+            }
+
+            if (data.hasOwnProperty("extras")) {
+                debug_info.info_outro[debug_outro_nome] += `<br><span>${data.extras.length} Extras</span>`;
             }
 
             document.querySelector(".jogo_id_outros_"+debug_outro_nome).innerHTML += debug_info.info_outro[debug_outro_nome];

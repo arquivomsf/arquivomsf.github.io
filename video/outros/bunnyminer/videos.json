@@ -12,45 +12,10 @@
       }
     }
   ],
-  "extras": [
-    {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-22-17 (Original)",
-      "id": "bunnyminer_3_original",
-      "imagem": "3.jpg",
-      "data": "21/04/2026",
-      "plataforma": "archive",
-      "links": {
-        "youtube": "https://youtu.be/uK2ZBfyE2Qw",
-        "gdrive": "",
-        "archive": "https://archive.org/details/arquivomsf-bunny-miner/P03+-+Bunny+Miner+Gameplay+_+2026-04-05+20-22-17.mp4"
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 5,
-        "segundos": 0
-      }
-    },
-    {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-27-17 (Original)",
-      "id": "bunnyminer_4_original",
-      "imagem": "4.jpg",
-      "data": "21/04/2026",
-      "plataforma": "archive",
-      "links": {
-        "youtube": "https://youtu.be/-maK-y6BsO8",
-        "gdrive": "",
-        "archive": "https://archive.org/details/arquivomsf-bunny-miner/P04+-+Bunny+Miner+Gameplay+_+2026-04-05+20-27-17.mp4"
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 5,
-        "segundos": 0
-      }
-    }
-  ],
   "videos": [
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-17-17",
+      "nome": "Bunny Miner - Gameplay 1",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-17-17",
       "imagem": "jpg",
       "data": "07/04/2026",
       "plataforma": "youtube",
@@ -66,7 +31,8 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-12-08",
+      "nome": "Bunny Miner - Gameplay 2",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-12-08",
       "imagem": "jpg",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -82,10 +48,11 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-22-17",
+      "nome": "Bunny Miner - Gameplay 3",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-22-17",
       "imagem": "jpg",
       "data": "21/04/2026",
-      "plataforma": "youtube",
+      "plataforma": "archive",
       "links": {
         "youtube": "https://youtu.be/uK2ZBfyE2Qw",
         "gdrive": "",
@@ -98,10 +65,11 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-27-17",
+      "nome": "Bunny Miner - Gameplay 4",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-27-17",
       "imagem": "jpg",
       "data": "21/04/2026",
-      "plataforma": "youtube",
+      "plataforma": "archive",
       "links": {
         "youtube": "https://youtu.be/-maK-y6BsO8",
         "gdrive": "",
@@ -114,7 +82,8 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-32-17",
+      "nome": "Bunny Miner - Gameplay 5",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-32-17",
       "imagem": "jpg",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -130,7 +99,8 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-37-17",
+      "nome": "Bunny Miner - Gameplay 6",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-37-17",
       "imagem": "jpg",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -146,7 +116,8 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-42-26",
+      "nome": "Bunny Miner - Gameplay 7",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-42-26",
       "imagem": "jpg",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -162,7 +133,8 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-47-26",
+      "nome": "Bunny Miner - Gameplay 8",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-47-26",
       "imagem": "jpg",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -178,7 +150,8 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-52-31",
+      "nome": "Bunny Miner - Gameplay 9",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-52-31",
       "imagem": "jpg",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -194,7 +167,8 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 20-57-32",
+      "nome": "Bunny Miner - Gameplay 10",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-57-32",
       "imagem": "jpg",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -210,7 +184,8 @@
       }
     },
     {
-      "nome": "Bunny Miner Gameplay | 2026-04-05 21-02-37",
+      "nome": "Bunny Miner - Gameplay 11",
+      "nome_original": "Bunny Miner Gameplay | 2026-04-05 21-02-37",
       "imagem": "jpg",
       "data": "21/04/2026",
       "plataforma": "youtube",

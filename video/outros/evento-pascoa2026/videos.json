@@ -12,25 +12,6 @@
       }
     }
   ],
-  "extras": [
-    {
-      "nome": "Páscoa - Evento da DLive (Dia 5) [Versão Original]",
-      "id": "pascoa5original",
-      "imagem": "5.png",
-      "data": "12/04/2026",
-      "plataforma": "archive",
-      "links": {
-        "youtube": "",
-        "gdrive": "",
-        "archive": "https://archive.org/details/arquivomsf-pascoa-2026/P%C3%A1scoa+-+Evento+da+DLive+(Dia+5)+%5BVers%C3%A3o+Original%5D.mp4"
-      },
-      "duracao": {
-        "horas": 2,
-        "minutos": 21,
-        "segundos": 33
-      }
-    }
-  ],
   "videos": [
     {
       "nome": "Páscoa - Evento da DLive (Dia 1)",
@@ -100,7 +81,7 @@
       "nome": "Páscoa - Evento da DLive (Dia 5)",
       "imagem": "png",
       "data": "12/04/2026",
-      "plataforma": "youtube",
+      "plataforma": "archive",
       "links": {
         "youtube": "https://youtu.be/j6UHBxeAMhk",
         "gdrive": "",

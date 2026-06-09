@@ -12,110 +12,6 @@
       }
     }
   ],
-  "extras": [
-    {
-      "nome": "GTA Vice City de PlayStation 2 - Parte 4 (Original)",
-      "id": "gtavc_4_original",
-      "imagem": "4.jpg",
-      "data": "03/06/2025",
-      "plataforma": "gdrive",
-      "links": {
-        "youtube": "",
-        "gdrive": "https://drive.google.com/file/d/19tWK7h-h_juzGus_ENdQd6Zj6WB78Ncq/view",
-        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+4.mp4"
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 45,
-        "segundos": 6
-      }
-    },
-    {
-      "nome": "GTA Vice City de PlayStation 2 - Parte 11 (Original)",
-      "id": "gtavc_11_original",
-      "imagem": "11.jpg",
-      "data": "07/06/2025",
-      "plataforma": "gdrive",
-      "links": {
-        "youtube": "",
-        "gdrive": "https://drive.google.com/file/d/119CTocj6tUe_sIhuoI_OTNkGy8O4hpVm/view",
-        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+11.mp4"
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 45,
-        "segundos": 1
-      }
-    },
-    {
-      "nome": "GTA Vice City de PlayStation 2 - Parte 15 (Original)",
-      "id": "gtavc_15_original",
-      "imagem": "15.jpg",
-      "data": "09/06/2025",
-      "plataforma": "gdrive",
-      "links": {
-        "youtube": "",
-        "gdrive": "https://drive.google.com/file/d/1B0UnDSk50kvd8G3zzv6DDfhKuuvoOz8K/view",
-        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+15.mp4"
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 25,
-        "segundos": 7
-      }
-    },
-    {
-      "nome": "GTA Vice City de PlayStation 2 - Parte 18 (Original)",
-      "id": "gtavc_18_original",
-      "imagem": "18.jpg",
-      "data": "10/06/2025",
-      "plataforma": "gdrive",
-      "links": {
-        "youtube": "",
-        "gdrive": "https://drive.google.com/file/d/1vIPgAtyLdVedp241HDcjKXYq4qMsdqRU/view",
-        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+18.mp4"
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 30,
-        "segundos": 5
-      }
-    },
-    {
-      "nome": "GTA Vice City de PlayStation 2 - Parte 32 (Original)",
-      "id": "gtavc_32_original",
-      "imagem": "32.jpg",
-      "data": "23/06/2025",
-      "plataforma": "gdrive",
-      "links": {
-        "youtube": "",
-        "gdrive": "https://drive.google.com/file/d/1QFxRoonI_jwPnjTmZ-tUv5UJSX7SyeAd/view",
-        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+32.mp4"
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 30,
-        "segundos": 3
-      }
-    },
-    {
-      "nome": "GTA Vice City de PlayStation 2 - Parte 36 (Original)",
-      "id": "gtavc_36_original",
-      "imagem": "36.jpg",
-      "data": "27/06/2025",
-      "plataforma": "gdrive",
-      "links": {
-        "youtube": "",
-        "gdrive": "https://drive.google.com/file/d/1BFGJVpsBnw6iSE4U1LXQH12gz1Caxr1c/view",
-        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+36.mp4"
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 45,
-        "segundos": 4
-      }
-    }
-  ],
   "videos": [
     {
       "nome": "GTA Vice City de PlayStation 2 - Parte 1",
@@ -169,11 +65,11 @@
       "nome": "GTA Vice City de PlayStation 2 - Parte 4",
       "imagem": "jpg",
       "data": "03/06/2025",
-      "plataforma": "youtube",
+      "plataforma": "gdrive",
       "links": {
         "youtube": "https://youtu.be/TbUj2vQ4mhI",
-        "gdrive": "",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/19tWK7h-h_juzGus_ENdQd6Zj6WB78Ncq/view",
+        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+4.mp4"
       },
       "duracao": {
         "horas": 0,
@@ -281,11 +177,11 @@
       "nome": "GTA Vice City de PlayStation 2 - Parte 11",
       "imagem": "jpg",
       "data": "07/06/2025",
-      "plataforma": "youtube",
+      "plataforma": "gdrive",
       "links": {
         "youtube": "https://youtu.be/F4bl2jN3vBQ",
-        "gdrive": "",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/119CTocj6tUe_sIhuoI_OTNkGy8O4hpVm/view",
+        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+11.mp4"
       },
       "duracao": {
         "horas": 0,
@@ -345,11 +241,11 @@
       "nome": "GTA Vice City de PlayStation 2 - Parte 15",
       "imagem": "jpg",
       "data": "09/06/2025",
-      "plataforma": "youtube",
+      "plataforma": "gdrive",
       "links": {
         "youtube": "https://youtu.be/WNpQC9lBNRw",
-        "gdrive": "",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1B0UnDSk50kvd8G3zzv6DDfhKuuvoOz8K/view",
+        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+15.mp4"
       },
       "duracao": {
         "horas": 0,
@@ -393,11 +289,11 @@
       "nome": "GTA Vice City de PlayStation 2 - Parte 18",
       "imagem": "jpg",
       "data": "10/06/2025",
-      "plataforma": "youtube",
+      "plataforma": "gdrive",
       "links": {
         "youtube": "https://youtu.be/eUJDacrNBK0",
-        "gdrive": "",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1vIPgAtyLdVedp241HDcjKXYq4qMsdqRU/view",
+        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+18.mp4"
       },
       "duracao": {
         "horas": 0,
@@ -617,11 +513,11 @@
       "nome": "GTA Vice City de PlayStation 2 - Parte 32",
       "imagem": "jpg",
       "data": "23/06/2025",
-      "plataforma": "youtube",
+      "plataforma": "gdrive",
       "links": {
         "youtube": "https://youtu.be/b2jWjm1xYWA",
-        "gdrive": "",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1QFxRoonI_jwPnjTmZ-tUv5UJSX7SyeAd/view",
+        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+32.mp4"
       },
       "duracao": {
         "horas": 0,
@@ -681,11 +577,11 @@
       "nome": "GTA Vice City de PlayStation 2 - Parte 36",
       "imagem": "jpg",
       "data": "27/06/2025",
-      "plataforma": "youtube",
+      "plataforma": "gdrive",
       "links": {
         "youtube": "https://youtu.be/76icjLaZgVo",
-        "gdrive": "",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1BFGJVpsBnw6iSE4U1LXQH12gz1Caxr1c/view",
+        "archive": "https://archive.org/details/arquivomsf-gta-vice-city-videos-originais/GTA+Vice+City+de+PlayStation+2+-+Parte+36.mp4"
       },
       "duracao": {
         "horas": 0,
