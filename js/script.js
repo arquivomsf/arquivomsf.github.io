@@ -97,27 +97,27 @@ function carregar_itens() {
 
         if (franquia_capa.length == 1) {
             capas_html = `
-                <div class="w-full h-[225px] flex flex-row franquia_album">
-                    <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain">
+                <div class="w-full h-[180px] flex flex-row franquia_album">
+                    <img src="capas/${franquia_capa[0]}.png" class="h-[180px] object-contain">
                 </div>
             `
         }
 
         if (franquia_capa.length == 2) {
             capas_html = `
-                <div class="w-full h-[225px] flex flex-row franquia_album">
-                    <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain mr-[-110px] z-4 ring-2 ring-white/50">
-                    <img src="capas/${franquia_capa[1]}.png" class="h-[225px] object-contain z-3 ring-2 ring-white/50">
+                <div class="w-full h-[180px] flex flex-row franquia_album">
+                    <img src="capas/${franquia_capa[0]}.png" class="h-[180px] object-contain mr-[-60px] z-4 ring-2 ring-white">
+                    <img src="capas/${franquia_capa[1]}.png" class="h-[180px] object-contain z-3 ring-2 ring-white">
                 </div>
             `
         }
 
         if (franquia_capa.length >= 3) {
             capas_html = `
-                <div class="w-full h-[225px] flex flex-row franquia_album">
-                    <img src="capas/${franquia_capa[0]}.png" class="h-[225px] object-contain mr-[-110px] z-4 ring-2 ring-white/50">
-                    <img src="capas/${franquia_capa[1]}.png" class="h-[225px] object-contain mr-[-110px] z-3 ring-2 ring-white/50">
-                    <img src="capas/${franquia_capa[2]}.png" class="h-[225px] object-contain ring-2 ring-white/50">
+                <div class="w-full h-[180px] flex flex-row franquia_album">
+                    <img src="capas/${franquia_capa[0]}.png" class="h-[180px] object-contain mr-[-60px] z-4 ring-2 ring-white">
+                    <img src="capas/${franquia_capa[1]}.png" class="h-[180px] object-contain mr-[-60px] z-3 ring-2 ring-white">
+                    <img src="capas/${franquia_capa[2]}.png" class="h-[180px] object-contain ring-2 ring-white">
                 </div>
             `
         }
@@ -127,7 +127,7 @@ function carregar_itens() {
                 <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <a href="franquia?id=${franquia_id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                         <div class="relative h-auto">
-                            <div class="w-auto h-[225px]">
+                            <div class="w-auto h-[180px]">
                                 ${capas_html}
                             </div>
                         </div>

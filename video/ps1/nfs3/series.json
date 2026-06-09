@@ -3,18 +3,18 @@
         {
             "nome": "Episódios da CosTV",
             "imagem": "1.jpg",
-            "quantidade": "6"
+            "quantidade": "7"
         }
     ],
     "_analise": [
         {
-            "nome": "Need for Speed 2 de PlayStation 1 | Análise do Jogo",
+            "nome": "Need for Speed 3: Hot Pursuit de PlayStation 1 | Análise do Jogo",
             "imagem": "jpg",
-            "link": "https://youtu.be/Duw7wEnlhOc",
+            "link": "",
             "duracao": {
                 "horas": 0,
-                "minutos": 21,
-                "segundos": 47
+                "minutos": 11,
+                "segundos": 28
             }
         }
     ]
