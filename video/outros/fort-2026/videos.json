@@ -3,7 +3,7 @@
     {
       "nome": "Fortnite 2026 (Clipes)",
       "imagem": "jpg",
-      "quantidade": "13",
+      "quantidade": "14",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvscXoyO_-3BK3PISKhCstbM",
@@ -158,7 +158,8 @@
       }
     },
     {
-      "nome": "Primeira Vitória de Dva no Fortnite | 2026_05_14-23-16-04",
+      "nome": "Primeira Vitória de Dva no Fortnite 2026",
+      "nome_original": "Primeira Vitória de Dva no Fortnite | 2026_05_14-23-16-04",
       "imagem": "jpg",
       "data": "31/05/2026",
       "plataforma": "youtube",
@@ -174,7 +175,8 @@
       }
     },
     {
-      "nome": "Mais uma vitória de Dva no Fortnite | 2026_05_14-23-39-10",
+      "nome": "Mais uma vitória de Dva no Fortnite 2026",
+      "nome_original": "Mais uma vitória de Dva no Fortnite | 2026_05_14-23-39-10",
       "imagem": "jpg",
       "data": "31/05/2026",
       "plataforma": "youtube",
@@ -190,7 +192,8 @@
       }
     },
     {
-      "nome": "Vitória no Castelo com a Dva no Fortnite | 2026_05_16-01-42-18",
+      "nome": "Vitória no Castelo com a Dva no Fortnite 2026",
+      "nome_original": "Vitória no Castelo com a Dva no Fortnite | 2026_05_16-01-42-18",
       "imagem": "jpg",
       "data": "31/05/2026",
       "plataforma": "youtube",
@@ -206,7 +209,8 @@
       }
     },
     {
-      "nome": "Balinha com a Dva no final no Fortnite | 2026_05_17-17-47-04",
+      "nome": "Balinha com a Dva no final no Fortnite 2026",
+      "nome_original": "Balinha com a Dva no final no Fortnite | 2026_05_17-17-47-04",
       "imagem": "jpg",
       "data": "31/05/2026",
       "plataforma": "youtube",
@@ -219,6 +223,23 @@
         "horas": 0,
         "minutos": 0,
         "segundos": 59
+      }
+    },
+    {
+      "nome": "Vitória no Fortnite 2026",
+      "nome_original": "Vitória no Fortnite | 2026_05_27-18-26-27",
+      "imagem": "jpg",
+      "data": "12/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Na2MDLzGAnU",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 58
       }
     }
   ]

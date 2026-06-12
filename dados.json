@@ -1612,6 +1612,14 @@
       "console": "Outros",
       "consigla": "outros",
       "curto": "keeponmining"
+    },
+    {
+      "nome": "Retrowave",
+      "tags": "Retrowave",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "retrowave"
     }
   ],
   "consoles": [
