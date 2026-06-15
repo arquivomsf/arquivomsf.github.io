@@ -3,7 +3,7 @@
     {
       "nome": "Retrowave",
       "imagem": "jpg",
-      "quantidade": "1",
+      "quantidade": "4",
       "plataforma": "archive",
       "links": {
         "youtube": "",
@@ -22,12 +22,63 @@
       "links": {
         "youtube": "",
         "gdrive": "",
-        "archive": "https://archive.org/details/arquivomsf-retrowave"
+        "archive": "https://archive.org/details/arquivomsf-retrowave/P01+-+Jogando+Retrowave+_+2026-05-29+09-18-19.mp4"
       },
       "duracao": {
         "horas": 0,
         "minutos": 41,
         "segundos": 0
+      }
+    },
+    {
+      "nome": "Retrowave - Gameplay 2",
+      "nome_original": "Jogando Retrowave | 2026-05-29 14-25-40",
+      "imagem": "jpg",
+      "data": "15/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-retrowave/P02+-+Jogando+Retrowave+_+2026-05-29+14-25-40.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 55,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Retrowave - Gameplay 3",
+      "nome_original": "Jogando Retrowave | 2026-05-29 15-20-48",
+      "imagem": "jpg",
+      "data": "15/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-retrowave/P03+-+Jogando+Retrowave+_+2026-05-29+15-20-48.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 26,
+        "segundos": 9
+      }
+    },
+    {
+      "nome": "Retrowave - Gameplay 4",
+      "nome_original": "Jogando Retro Wave | 2026-06-01 09-18-14",
+      "imagem": "jpg",
+      "data": "15/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-retrowave/P04+-+Jogando+Retro+Wave+_+2026-06-01+09-18-14.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 7,
+        "segundos": 50
       }
     }
   ]

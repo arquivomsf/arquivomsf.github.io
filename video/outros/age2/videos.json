@@ -3,7 +3,7 @@
     {
       "nome": "Age of Empires 2",
       "imagem": "jpg",
-      "quantidade": "1",
+      "quantidade": "4",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtxz0jIvXrJ4AENCDnOIO13",
@@ -14,7 +14,7 @@
   ],
   "videos": [
     {
-      "nome": "Age of Empires 2 - Ganhando com Celtas",
+      "nome": "Ganhando com Celtas no Age of Empires 2 HD",
       "nome_original": "Ganhando com Celtas no Age of Empires 2 | 2026-05-14 07-49-42",
       "imagem": "jpg",
       "data": "31/05/2026",
@@ -22,12 +22,60 @@
       "links": {
         "youtube": "https://youtu.be/ZUNO_7E0BwE",
         "gdrive": "",
-        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2"
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P01+-+Ganhando+com+Celtas+no+Age+of+Empires+2+_+2026-05-14+07-49-42.mp4"
       },
       "duracao": {
         "horas": 0,
         "minutos": 20,
         "segundos": 14
+      }
+    },
+    {
+      "nome": "Vitória com os Teutons no Age of Empires 2 HD",
+      "imagem": "jpg",
+      "data": "15/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JxR4_QdN1uE",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P02+-+Vit%C3%B3ria+com+os+Teutons+no+Age+of+Empires+2+HD.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 40
+      }
+    },
+    {
+      "nome": "Vitória com os Huns no Age of Empires 2 HD",
+      "imagem": "jpg",
+      "data": "15/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tSl-Oiih-to",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P03+-+Vit%C3%B3ria+com+os+Huns+no+Age+of+Empires+2+HD.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 3,
+        "segundos": 48
+      }
+    },
+    {
+      "nome": "Vitória com Burmese no Age of Empires 2 HD",
+      "imagem": "jpg",
+      "data": "15/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ADIWVTOTIds",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P04+-+Vit%C3%B3ria+com+Burmese+no+Age+of+Empires+2+HD.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 50
       }
     }
   ]
