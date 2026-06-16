@@ -1,0 +1,34 @@
+{
+  "playlist": [
+    {
+      "nome": "Drift Survivors",
+      "imagem": "jpg",
+      "quantidade": "1",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLatVinKPr4A8",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-drift-survivors"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Drift Survivors | Gameplay 1",
+      "nome_original": "Jogando Drift Survivors | 2026-06-15 14-46-17",
+      "imagem": "jpg",
+      "data": "16/06/2026",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-drift-survivors"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 45,
+        "segundos": 58
+      }
+    }
+  ]
+}
