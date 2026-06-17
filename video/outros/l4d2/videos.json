@@ -12,6 +12,18 @@
       }
     }
   ],
+  "_analise": [
+    {
+      "nome": "Left 4 Dead 2 | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/",
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 20
+      }
+    }
+  ],
   "extras": [
     {
       "nome": "Testando o Left 4 Dead 2 no PC",

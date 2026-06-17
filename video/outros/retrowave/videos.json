@@ -3,12 +3,24 @@
     {
       "nome": "Retrowave",
       "imagem": "jpg",
-      "quantidade": "4",
-      "plataforma": "archive",
+      "quantidade": "6",
+      "plataforma": "youtube",
       "links": {
-        "youtube": "",
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtmCRTjkK9Z19i0QH_hFL1N",
         "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-retrowave"
+      }
+    }
+  ],
+  "_analise": [
+    {
+      "nome": "Retrowave | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/",
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 47
       }
     }
   ],
@@ -20,7 +32,7 @@
       "data": "12/06/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "",
+        "youtube": "https://youtu.be/w-TKx3sXrO0",
         "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-retrowave/P01+-+Jogando+Retrowave+_+2026-05-29+09-18-19.mp4"
       },
@@ -37,7 +49,7 @@
       "data": "15/06/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "",
+        "youtube": "https://youtu.be/A45k1b_OSlc",
         "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-retrowave/P02+-+Jogando+Retrowave+_+2026-05-29+14-25-40.mp4"
       },
@@ -54,7 +66,7 @@
       "data": "15/06/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "",
+        "youtube": "https://youtu.be/dAsbnW5LLL4",
         "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-retrowave/P03+-+Jogando+Retrowave+_+2026-05-29+15-20-48.mp4"
       },
@@ -71,7 +83,7 @@
       "data": "15/06/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "",
+        "youtube": "https://youtu.be/2xoCPIkG3AY",
         "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-retrowave/P04+-+Jogando+Retro+Wave+_+2026-06-01+09-18-14.mp4"
       },
@@ -79,6 +91,40 @@
         "horas": 0,
         "minutos": 7,
         "segundos": 50
+      }
+    },
+    {
+      "nome": "Retrowave - Gameplay 5",
+      "nome_original": "Jogando Retro Wave | 2026-06-02 14-19-47",
+      "imagem": "jpg",
+      "data": "17/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/5v0q1_-JHPY",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-retrowave/P05+-+Jogando+Retro+Wave+_+2026-06-02+14-19-47.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 12,
+        "segundos": 42
+      }
+    },
+    {
+      "nome": "Retrowave - Gameplay 6",
+      "nome_original": "Jogando Retrowave | 2026-06-03 11-28-49",
+      "imagem": "jpg",
+      "data": "17/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/BK8RBiX94kM",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-retrowave/P06+-+Jogando+Retrowave+_+2026-06-03+11-28-49.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 19,
+        "segundos": 46
       }
     }
   ]
