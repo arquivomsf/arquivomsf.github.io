@@ -19,7 +19,7 @@
   },
   "mario": {
     "nome": "Super Mario",
-    "tags": "Super Mario",
+    "tags": "Super Mario bros",
     "jogos": [
       "mario1",
       "mario64"
@@ -31,7 +31,7 @@
   },
   "castlevania": {
     "nome": "Castlevania",
-    "tags": "Castlevania",
+    "tags": "Castlevania akumajo akumajou dracula dorakyura",
     "jogos": [
       "castlelod",
       "symphony",
@@ -45,7 +45,7 @@
   },
   "gow": {
     "nome": "God of War",
-    "tags": "God of War",
+    "tags": "God of War gow",
     "jogos": [
       "gow1",
       "gow2"
@@ -57,7 +57,7 @@
   },
   "cod": {
     "nome": "Call of Duty",
-    "tags": "Call of Duty",
+    "tags": "Call of Duty cod",
     "jogos": [
       "finest",
       "bigred",
@@ -83,7 +83,7 @@
   },
   "nfs": {
     "nome": "Need for Speed",
-    "tags": "Need for Speed",
+    "tags": "Need for Speed nfs",
     "jogos": [
       "thenfs",
       "nfs2",
@@ -97,7 +97,7 @@
   },
   "gta": {
     "nome": "Grand Theft Auto",
-    "tags": "Grand Theft Auto",
+    "tags": "Grand Theft Auto gta",
     "jogos": [
       "gta3",
       "gtavc"
