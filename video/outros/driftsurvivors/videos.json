@@ -12,6 +12,18 @@
       }
     }
   ],
+  "_analise": [
+    {
+      "nome": "Drift Survivors | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/",
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 22
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "Drift Survivors | Gameplay 1",

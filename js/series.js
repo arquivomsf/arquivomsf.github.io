@@ -35,7 +35,7 @@ function carregar_itens() {
         <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${video_plataforma}&id=${i}" class="p-1 flex flex-col flex-auto gap-2 items-center">
             <div class="relative h-auto">
                 <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
-                <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                     <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon(video_plataforma)}"></i>${video_duracao}</span>
                 </div>
             </div>
@@ -81,7 +81,7 @@ function carregar_itens() {
         <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${extra_plataforma}&extra=true&id=${extra_id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
             <div class="relative h-auto">
                 <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
-                <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                     <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon(extra_plataforma)}"></i>${extra_duracao}</span>
                 </div>
             </div>
@@ -103,7 +103,7 @@ function carregar_itens() {
           <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
               <div class="relative h-auto">
                   <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
-                  <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                  <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                       <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon("youtube")}"></i>${serie_duracao}</span>
                   </div>
               </div>

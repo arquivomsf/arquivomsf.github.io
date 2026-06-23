@@ -79,7 +79,7 @@ function carregar_itens() {
           <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
               <div class="relative h-auto">
                   <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
-                  <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                  <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                       <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon("youtube")}"></i>${serie_duracao}</span>
                   </div>
               </div>

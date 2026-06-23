@@ -478,7 +478,7 @@
     },
     {
       "nome": "Castlevania: Aria of Sorrow",
-      "tags": "Castlevania: Aria of Sorrow akumajo akumajou akumajyo dracula dorakyura akatsuki no minuet of dawn minueto do alvorecer ária da tristeza metroidvania soma cruz nintendo game boy gameboy advance gba",
+      "tags": "Castlevania: Aria of Sorrow akumajo akumajou akumajyo dracula dorakyura akatsuki no minuet of dawn minueto do alvorecer ária da tristeza metroidvania soma cruz kurusu souma nintendo game boy gameboy advance gba",
       "console": "Game Boy Advance (GBA)",
       "consigla": "gba",
       "curto": "ariaofsorrow"
@@ -1386,103 +1386,116 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "subwayteasers"
+      "curto": "subwayteasers",
+      "categoria": "Subway"
     },
     {
       "nome": "Lives gravadas (16/03/2023 a 20/04/2023)",
-      "tags": "Lives gravadas (16/03/2023 a 20/04/2023) Kartrider Drift Tomb Raider Reloaded Fortnite SSSnaker",
+      "tags": "Lives gravadas (16/03/2023 a 20/04/2023) Kartrider Drift Tomb Raider Reloaded Fortnite SSSnaker Variados",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "marcoabril2023"
+      "curto": "marcoabril2023",
+      "categoria": "Variados"
     },
     {
       "nome": "Clair Obscur: Expedition 33",
-      "tags": "Clair Obscur: Expedition 33 Clipes",
+      "tags": "Clair Obscur: Expedition 33 Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "expedition33"
+      "curto": "expedition33",
+      "categoria": "XBOX"
     },
     {
       "nome": "Resident Evil 4 Remake",
-      "tags": "Resident Evil 4 Remake Clipes re4 re 4 re4 remake re 4 remake",
+      "tags": "Resident Evil 4 Remake Clipes XBOX re4 re 4 re4 remake re 4 remake",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "re4remake"
+      "curto": "re4remake",
+      "categoria": "XBOX"
     },
     {
       "nome": "Megazord Power Rangers no Fortnite",
-      "tags": "Megazord Power Rangers no Fortnite Clipes",
+      "tags": "Megazord Power Rangers no Fortnite Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "fort-megazord"
+      "curto": "fort-megazord",
+      "categoria": "Fortnite"
     },
     {
       "nome": "Fortnite (2025)",
-      "tags": "Fortnite 2025 Clipes",
+      "tags": "Fortnite 2025 Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "fort-2025"
+      "curto": "fort-2025",
+      "categoria": "Fortnite"
     },
     {
       "nome": "Gear.Club Unlimited 2",
-      "tags": "Gear.Club Unlimited 2 Clipes",
+      "tags": "Gear.Club Unlimited 2 Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "gearunl2"
+      "curto": "gearunl2",
+      "categoria": "XBOX"
     },
     {
       "nome": "Fortnite (2026)",
-      "tags": "Fortnite 2026 Clipes",
+      "tags": "Fortnite 2026 Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "fort-2026"
+      "curto": "fort-2026",
+      "categoria": "Fortnite"
     },
     {
       "nome": "The Crew 2",
-      "tags": "The Crew 2 Clipes",
+      "tags": "The Crew 2 Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "thecrew2"
+      "curto": "thecrew2",
+      "categoria": "XBOX"
     },
     {
-      "nome": "Spec Ops The Line",
-      "tags": "Spec Ops The Line Clipes",
+      "nome": "Spec Ops: The Line",
+      "tags": "Spec Ops The Line Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "specopstheline"
+      "curto": "specopstheline",
+      "categoria": "XBOX"
     },
     {
       "nome": "High on Life 2",
-      "tags": "High on Life 2 Clipes",
+      "tags": "High on Life 2 Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "highonlife2"
+      "curto": "highonlife2",
+      "categoria": "XBOX"
     },
     {
       "nome": "Warhammer 40,000: Space Marine 2",
-      "tags": "Warhammer 40,000: Space Marine 2 II 40k 40000 40.000 40 mil Clipes",
+      "tags": "Warhammer 40,000: Space Marine 2 II 40k 40000 40.000 40 mil Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "wh40k-spacemarine2"
+      "curto": "wh40k-spacemarine2",
+      "categoria": "XBOX"
     },
     {
-      "nome": "Dia de São Patrício (Evento da DLive)",
-      "tags": "Dia de São Patrício Evento da DLive",
+      "nome": "Dia de São Patrício (2026)",
+      "tags": "Dia de São Patrício 2026 Evento da DLive",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "evento-patrick"
+      "curto": "evento-patrick",
+      "categoria": "Evento da DLive"
     },
     {
       "nome": "Northern Merge",
@@ -1490,7 +1503,8 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "northern"
+      "curto": "northern",
+      "categoria": "Navegador"
     },
     {
       "nome": "Gears of War: Reloaded",
@@ -1498,15 +1512,17 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "gearsreloaded"
+      "curto": "gearsreloaded",
+      "categoria": "XBOX"
     },
     {
-      "nome": "Páscoa (Evento da DLive)",
-      "tags": "Páscoa Evento da DLive",
+      "nome": "Páscoa (2026)",
+      "tags": "Páscoa 2026 Evento da DLive",
       "imagem": "1.png",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "evento-pascoa2026"
+      "curto": "evento-pascoa2026",
+      "categoria": "Evento da DLive"
     },
     {
       "nome": "Island Cities",
@@ -1514,7 +1530,8 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "islandcities"
+      "curto": "islandcities",
+      "categoria": "XBOX"
     },
     {
       "nome": "Jogos de Navegador Online (2026)",
@@ -1522,7 +1539,8 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "browser-2026"
+      "curto": "browser-2026",
+      "categoria": "Navegador"
     },
     {
       "nome": "Bunny Miner",
@@ -1530,7 +1548,8 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "bunnyminer"
+      "curto": "bunnyminer",
+      "categoria": "Navegador"
     },
     {
       "nome": "Geometry Dash da Shopee",
@@ -1538,7 +1557,8 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "gdshopee"
+      "curto": "gdshopee",
+      "categoria": "Navegador"
     },
     {
       "nome": "Knight Survival",
@@ -1546,15 +1566,17 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "knightsurvival"
+      "curto": "knightsurvival",
+      "categoria": "Navegador"
     },
     {
       "nome": "Left 4 Dead 2",
-      "tags": "Left 4 Dead 2 Clipes",
+      "tags": "Left 4 Dead 2 Clipes PC",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "l4d2"
+      "curto": "l4d2",
+      "categoria": "PC"
     },
     {
       "nome": "Subway Surfers da Poki (2026)",
@@ -1562,7 +1584,8 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "subwaypoki2026"
+      "curto": "subwaypoki2026",
+      "categoria": "Navegador"
     },
     {
       "nome": "Empire City",
@@ -1570,15 +1593,17 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "empirecity"
+      "curto": "empirecity",
+      "categoria": "Navegador"
     },
     {
       "nome": "Cyberpunk 2077",
-      "tags": "Cyberpunk 2077 Clipes",
+      "tags": "Cyberpunk 2077 Clipes XBOX",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "cyberpunk"
+      "curto": "cyberpunk",
+      "categoria": "XBOX"
     },
     {
       "nome": "Hill Climb Racing Lite",
@@ -1586,7 +1611,8 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "hcrlite"
+      "curto": "hcrlite",
+      "categoria": "Navegador"
     },
     {
       "nome": "Tower Swap",
@@ -1594,7 +1620,8 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "towerswap"
+      "curto": "towerswap",
+      "categoria": "Navegador"
     },
     {
       "nome": "Subway Surfers City (2026)",
@@ -1602,31 +1629,35 @@
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "subwaycity-2026"
+      "curto": "subwaycity-2026",
+      "categoria": "Subway"
     },
     {
       "nome": "Age of Empires 2",
-      "tags": "Age of Empires 2",
+      "tags": "Age of Empires 2 PC",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "age2"
+      "curto": "age2",
+      "categoria": "PC"
     },
     {
       "nome": "Keep on Mining!",
-      "tags": "Keep on Mining!",
+      "tags": "Keep on Mining! PC",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "keeponmining"
+      "curto": "keeponmining",
+      "categoria": "PC"
     },
     {
       "nome": "Retrowave",
-      "tags": "Retrowave",
+      "tags": "Retrowave PC",
       "imagem": "1.jpg",
       "console": "Outros",
       "consigla": "outros",
-      "curto": "retrowave"
+      "curto": "retrowave",
+      "categoria": "PC"
     }
   ],
   "consoles": [

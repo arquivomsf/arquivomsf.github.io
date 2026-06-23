@@ -52,7 +52,7 @@ function carregar_itens() {
                     <a href="embed?con=${standalone_console_sigla}&jogo=${standalone_nome_curto}&fonte=${standalone_plataforma}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                         <div class="relative h-auto">
                             <img src="video/${standalone_console_sigla}/${standalone_imagem}" class="w-auto h-auto aspect-video object-contain">
-                            <div class="video-duracao z-2 absolute bottom-[3%] right-[3%] bg-black/70">
+                            <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                                 <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon(standalone_plataforma)}"></i>${standalone_duracao}</span>
                             </div>
                         </div>
@@ -68,6 +68,7 @@ function carregar_itens() {
         let outros_imagem = dados_geral.outros[i].imagem;
         let outros_console_sigla = dados_geral.outros[i].consigla;
         let outros_nome_curto = dados_geral.outros[i].curto;
+        let outros_categoria = dados_geral.outros[i].categoria;
         let outros_tags = dados_geral.outros[i].tags;
         let nome_processado = pesquisa_processar_string(outros_tags);
 
@@ -77,6 +78,9 @@ function carregar_itens() {
                     <a href="serie?con=${outros_console_sigla}&jogo=${outros_nome_curto}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                         <div class="relative h-auto">
                             <img src="video/${outros_console_sigla}/${outros_nome_curto}/${outros_imagem}" class="w-auto h-auto aspect-video object-contain">
+                            <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
+                                <span class="px-1 text-white">${outros_categoria}</span>
+                            </div>
                         </div>
                         <b class="outro_titulo text-center">${outros_nome}</b>
                     </a>
