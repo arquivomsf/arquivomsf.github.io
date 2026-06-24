@@ -37,7 +37,7 @@
     },
     {
       "nome": "T'ai Fu Wrath of the Tiger",
-      "tags": "T'ai Fu Wrath of the Tiger Tai Fu Wrath of the Tiger taifu sony ps1 playstation 1",
+      "tags": "T'ai Fu Wrath of the Tiger Tai taifu sony ps1 playstation 1",
       "console": "PlayStation 1 (PS1)",
       "consigla": "ps1",
       "curto": "taifu"
@@ -296,7 +296,7 @@
     },
     {
       "nome": "Shadow the Hedgehog",
-      "tags": "Shadow the Hedgehog sega sony ps2 playstation 2",
+      "tags": "Shadow the Hedgehog edgy damn armas tiros balas armado atirar atirando sonic sega sony ps2 playstation 2",
       "console": "PlayStation 2 (PS2)",
       "consigla": "ps2",
       "curto": "shadow"
@@ -1323,7 +1323,7 @@
     },
     {
       "nome": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis)",
-      "tags": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis) worldguesser geoguesser",
+      "tags": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis) worldguesser geoguesser geografia mapa cidades",
       "imagem": "worldguessr.jpg",
       "consigla": "etc",
       "curto": "worldguessr",
@@ -1657,6 +1657,15 @@
       "console": "Outros",
       "consigla": "outros",
       "curto": "retrowave",
+      "categoria": "PC"
+    },
+    {
+      "nome": "Drift Survivors",
+      "tags": "Drift Survivors PC",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "driftsurvivors",
       "categoria": "PC"
     }
   ],

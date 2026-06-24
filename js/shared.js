@@ -334,15 +334,186 @@ function debug() {
     document.body.classList.add("debug_ativado");
 
     //debug da aba Jogos
-    console.log("(1/3) Adicionando informações de debug na aba [Jogos]");
+    console.log("(1/4) Adicionando informações de debug na aba [Jogos]");
+
     let debug_todos_jogos = document.querySelectorAll(".jogo_titulo");
 
     for (var i = 0; i<dados_geral.jogos.length; i++) {
         let debug_jogo = dados_geral.jogos[i];
         let debug_console = debug_jogo.consigla;
         let debug_nome = debug_jogo.curto;
+        let debug_tags = debug_jogo.tags;
 
         debug_todos_jogos[i].classList.add("jogo_id_"+debug_console+"_"+debug_nome);
+
+        //debug Jogos estrutura
+        /*
+        let debug_jogos_estrutura = `
+            <hr class="m-2">
+            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_total hidden">0 Episódios no total</span>
+            <br><br>
+            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_youtube hidden">
+            <i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_youtube_string">0 Episódios</span>
+            <br>
+            </span>
+            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_gdrive hidden">
+            <i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_gdrive_string">0 Episódios</span>
+            <br>
+            </span>
+            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_archive hidden">
+            <i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_archive_string">0 Episódios</span>
+            </span>
+            <hr class="m-2">
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_total hidden">0 VODs no total</span>
+            <br><br>
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_youtube hidden">
+            <i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_youtube_string">0 VODs</span>
+            <br>
+            </span>
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_gdrive hidden">
+            <i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_gdrive_string">0 VODs</span>
+            <br>
+            </span>
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_archive hidden">
+            <i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_archive_string">0 VODs</span>
+            </span>
+            <hr class="m-2">
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_oficial hidden">0 VODs Oficiais</span>
+            <hr class="m-2">
+            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_extras hidden">0 Extras nos Episódios</span>
+            <br>
+            <span class="jogo_id_${debug_console}_${debug_nome}_vods_extras hidden">0 Extras nos VODs</span>
+            <hr class="m-2">
+            <span class="jogo_id_${debug_console}_${debug_nome}_analise hidden">Ánalise</span>
+            <hr class="m-2">
+            <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_episodios text-red-500 hidden">
+            <i class="fa fa-fw fa-exclamation-triangle"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_episodios_string">0 Episódios no modelo antigo</span>
+            </span>
+            <br>
+            <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_vods text-red-500 hidden">
+            <i class="fa fa-fw fa-exclamation-triangle"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_vods_string">0 VODs no modelo antigo</span>
+            </span>
+            <br>
+            <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_episodios text-yellow-500 hidden">
+            <i class="fa fa-fw fa-exclamation-triangle"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_episodios_string">0 Episódios sem data</span>
+            </span>
+            <br>
+            <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_vods text-yellow-500 hidden">
+            <i class="fa fa-fw fa-exclamation-triangle"></i> 
+            <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_vods_string">0 VODs sem data</span>
+            </span>
+        `;
+        */
+
+        let debug_jogos_estrutura = `
+            <hr class="mt-1">
+            <div class="divide-y-1 divide-white">
+                <div class="m-1 flex flex-col gap-2">
+                    <div>
+                        <span class="jogo_id_${debug_console}_${debug_nome}_episodios_total hidden">0 Episódios no total</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <div>
+                            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_youtube hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+                            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_youtube_string">0 Episódios</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_gdrive hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+                            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_gdrive_string">0 Episódios</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_archive hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+                            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_archive_string">0 Episódios</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-1 flex flex-col gap-2">
+                    <div>
+                        <span class="jogo_id_${debug_console}_${debug_nome}_vods_total hidden">0 VODs no total</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <div>
+                            <span class="jogo_id_${debug_console}_${debug_nome}_vods_youtube hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+                            <span class="jogo_id_${debug_console}_${debug_nome}_vods_youtube_string">0 VODs</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="jogo_id_${debug_console}_${debug_nome}_vods_gdrive hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+                            <span class="jogo_id_${debug_console}_${debug_nome}_vods_gdrive_string">0 VODs</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="jogo_id_${debug_console}_${debug_nome}_vods_archive hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+                            <span class="jogo_id_${debug_console}_${debug_nome}_vods_archive_string">0 VODs</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-1">
+                    <span class="jogo_id_${debug_console}_${debug_nome}_vods_oficial hidden">0 VODs Oficiais</span>
+                </div>
+                <div class="m-1 flex flex-col">
+                    <span class="jogo_id_${debug_console}_${debug_nome}_episodios_extras hidden">0 Extras nos Episódios</span>
+                    <span class="jogo_id_${debug_console}_${debug_nome}_vods_extras hidden">0 Extras nos VODs</span>
+                </div>
+                <div class="m-1">
+                    <span class="jogo_id_${debug_console}_${debug_nome}_analise hidden">Ánalise</span>
+                </div>
+                <div class="m-1 flex flex-col">
+                    <div>
+                        <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_episodios text-red-500 hidden">
+                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_episodios_string">0 Episódios no modelo antigo</span>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_vods text-red-500 hidden">
+                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_vods_string">0 VODs no modelo antigo</span>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_episodios text-yellow-500 hidden">
+                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_episodios_string">0 Episódios sem data</span>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_vods text-yellow-500 hidden">
+                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_vods_string">0 VODs sem data</span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <details>
+                        <summary>Tags</summary>
+                        <span class="jogo_id_${debug_console}_${debug_nome}_tags">${pesquisa_processar_string(debug_tags.replaceAll(/\s/g, "marcadorsuperespecifico")).replaceAll("marcadorsuperespecificomarcadorsuperespecifico", "marcadorsuperespecifico").replaceAll("marcadorsuperespecifico", ", ")}</span>
+                    </details>
+                </div>
+            </div>
+        `;
+        //${debug_tags.replaceAll(/\s/g, ", ").toLowerCase()}
+
+        document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += `${debug_jogos_estrutura}`;
 
         fetch(`video/${debug_console}/${debug_nome}/series.json`)
         .then(response => response.json())
@@ -352,14 +523,72 @@ function debug() {
 
             if (data.hasOwnProperty("episodios")) {
                 //olha a série episódios
-                debug_info.info[debug_nome] += `<br><span class="debug_episodios_${debug_console}_${debug_nome}">Carregando...</span>`;
+                //debug_info.info[debug_nome] += `<br><span class="debug_episodios_${debug_console}_${debug_nome}">Carregando...</span>`;
+                document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_total").classList.remove("hidden");
+                document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_total").innerHTML = "Carregando...";
 
                 fetch(`video/${debug_console}/${debug_nome}/episodios/videos.json`)
                 .then(response => response.json())
                 .then(data => {
-                    let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+                    //let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
 
-                    document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} Episódios`;
+                    //document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML = `${data.videos.length} Episódios no total<br>${debug_serie_icon} ${data.videos.length} Episódios`;
+
+                    //document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML = `${data.videos.length} Episódios no total`;
+                    document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_total").innerHTML = `${data.videos.length} Episódios no total`;
+
+                    //verificação de plataformas - Episódios
+                    let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0};
+
+                    for (var i = 0; i<data.videos.length; i++) {
+                        if (!data.videos[i].links.youtube == "") {
+                            json_video_plataforma_counter.youtube++;
+                        }
+                        if (!data.videos[i].links.gdrive == "") {
+                            json_video_plataforma_counter.gdrive++;
+                        }
+                        if (!data.videos[i].links.archive == "") {
+                            json_video_plataforma_counter.archive++;
+                        }
+                    }
+                    /*
+                    if (json_video_plataforma_counter.youtube > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `
+                    <br><i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+                    ${json_video_plataforma_counter.youtube} Episódios
+                    `;
+                    */
+
+                    if (json_video_plataforma_counter.youtube > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_youtube";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.youtube} Episódios`;
+                    }
+
+                    /*
+                    if (json_video_plataforma_counter.gdrive > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `
+                    <br><i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+                    ${json_video_plataforma_counter.gdrive} Episódios
+                    `;
+                    */
+
+                    if (json_video_plataforma_counter.gdrive > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_gdrive";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.gdrive} Episódios`;
+                    }
+
+                    /*
+                    if (json_video_plataforma_counter.archive > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `
+                    <br><i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+                    ${json_video_plataforma_counter.archive} Episódios
+                    `;
+                    */
+
+                    if (json_video_plataforma_counter.archive > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_archive";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.archive} Episódios`;
+                    }
 
                     //Detector de JSON antigo - JOGOS episodios
                     let json_antigo_jogos_counter = 0;
@@ -369,7 +598,12 @@ function debug() {
                             json_antigo_jogos_counter++;
                         }
                     }
-                    if (json_antigo_jogos_counter > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_jogos_counter} Episódios no modelo antigo</span>`;
+                    //if (json_antigo_jogos_counter > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_jogos_counter} Episódios no modelo antigo</span>`;
+                    if (json_antigo_jogos_counter > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_avisos_linkyt_episodios";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_antigo_jogos_counter} Episódios no modelo antigo`;
+                    }
 
                     //Detector de data - JOGOS episodios
                     let json_data_jogos_counter = 0;
@@ -379,25 +613,92 @@ function debug() {
                             json_data_jogos_counter++;
                         }
                     }
-                    if (json_data_jogos_counter > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_jogos_counter} Episódios sem data</span>`;
+                    //if (json_data_jogos_counter > 0) document.querySelector(".debug_episodios_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_jogos_counter} Episódios sem data</span>`;
+                    if (json_data_jogos_counter > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_avisos_data_episodios";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_data_jogos_counter} Episódios sem data`;
+                    }
 
                     if (data.hasOwnProperty("extras")) {
-                        debug_info.info_extras["ep-"+debug_nome] = `<br><span>${data.extras.length} Extras nos episódios</span>`;
-                        document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info_extras["ep-"+debug_nome];
+                        //debug_info.info_extras["ep-"+debug_nome] = `<br><span>${data.extras.length} Extras nos episódios</span>`;
+                        //document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info_extras["ep-"+debug_nome];
+
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_extras";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class).innerHTML = `${data.extras.length} Extras nos Episódios`;
                     }
                 })
             }
 
             if (data.hasOwnProperty("vodsarquivo")) {
                 //olha a série vods
-                debug_info.info[debug_nome] += `<br><span class="debug_vods_${debug_console}_${debug_nome}">Carregando...</span>`;
+                //debug_info.info[debug_nome] += `<br><span class="debug_vods_${debug_console}_${debug_nome}">Carregando...</span>`;
+                document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_vods_total").classList.remove("hidden");
+                document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_vods_total").innerHTML = "Carregando...";
 
                 fetch(`video/${debug_console}/${debug_nome}/vods/videos.json`)
                 .then(response => response.json())
                 .then(data => {
-                    let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+                    //let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
 
-                    document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} VODs`;
+                    //document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} VODs`;
+
+                    //document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML = `${data.videos.length} VODs no total`;
+                    document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_vods_total").innerHTML = `${data.videos.length} VODs no total`;
+
+                    //verificação de plataformas - VODs
+                    let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0};
+
+                    for (var i = 0; i<data.videos.length; i++) {
+                        if (!data.videos[i].links.youtube == "") {
+                            json_video_plataforma_counter.youtube++;
+                        }
+                        if (!data.videos[i].links.gdrive == "") {
+                            json_video_plataforma_counter.gdrive++;
+                        }
+                        if (!data.videos[i].links.archive == "") {
+                            json_video_plataforma_counter.archive++;
+                        }
+                    }
+                    /*
+                    if (json_video_plataforma_counter.youtube > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `
+                    <br><i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+                    ${json_video_plataforma_counter.youtube} VODs
+                    `;
+                    */
+
+                    if (json_video_plataforma_counter.youtube > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_youtube";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.youtube} VODs`;
+                    }
+
+                    /*
+                    if (json_video_plataforma_counter.gdrive > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `
+                    <br><i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+                    ${json_video_plataforma_counter.gdrive} VODs
+                    `;
+                    */
+
+                    if (json_video_plataforma_counter.gdrive > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_gdrive";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.gdrive} VODs`;
+                    }
+
+                    /*
+                    if (json_video_plataforma_counter.archive > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `
+                    <br><i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+                    ${json_video_plataforma_counter.archive} VODs
+                    `;
+                    */
+
+                    if (json_video_plataforma_counter.archive > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_archive";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.archive} VODs`;
+                    }
 
                     //Detector de JSON antigo - JOGOS vods
                     let json_antigo_jogos_counter = 0;
@@ -407,7 +708,12 @@ function debug() {
                             json_antigo_jogos_counter++;
                         }
                     }
-                    if (json_antigo_jogos_counter > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_jogos_counter} VODS no modelo antigo</span>`;
+                    //if (json_antigo_jogos_counter > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_jogos_counter} VODS no modelo antigo</span>`;
+                    if (json_antigo_jogos_counter > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_avisos_linkyt_vods";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_antigo_jogos_counter} VODs no modelo antigo`;
+                    }
 
                     //Detector de data - JOGOS vods
                     let json_data_jogos_counter = 0;
@@ -417,51 +723,173 @@ function debug() {
                             json_data_jogos_counter++;
                         }
                     }
-                    if (json_data_jogos_counter > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_jogos_counter} VODS sem data</span>`;
+                    //if (json_data_jogos_counter > 0) document.querySelector(".debug_vods_"+debug_console+"_"+debug_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_jogos_counter} VODS sem data</span>`;
+                    if (json_data_jogos_counter > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_avisos_data_vods";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_data_jogos_counter} VODs sem data`;
+                    }
 
                     if (data.hasOwnProperty("extras")) {
-                        debug_info.info_extras["vod-"+debug_nome] = `<br><span>${data.extras.length} Extras nos VODS</span>`;
-                        document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info_extras["vod-"+debug_nome];
+                        //debug_info.info_extras["vod-"+debug_nome] = `<br><span>${data.extras.length} Extras nos VODS</span>`;
+                        //document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info_extras["vod-"+debug_nome];
+
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_extras";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class).innerHTML = `${data.extras.length} Extras nos VODs`;
                     }
                 })
             }
 
-            if (data.hasOwnProperty("analise")) {
-                debug_info.info[debug_nome] += `<br><span>Análise</span>`;
+            if (data.hasOwnProperty("vodsoficiais")) {
+                //debug_info.info[debug_nome] += `<br><span>${data.vodsoficiais[0].quantidade} VODs Oficiais</span>`;
+
+                let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_oficial";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+                document.querySelector(cur_element_class).innerHTML = `${data.vodsoficiais[0].quantidade} VODs Oficiais`;
             }
-            document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info[debug_nome];
+
+            if (data.hasOwnProperty("analise")) {
+                //debug_info.info[debug_nome] += `<br><span>Análise</span>`;
+
+                let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_analise";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+            }
+            //document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome).innerHTML += debug_info.info[debug_nome];
         })
     }
 
     //debug da aba Outros
-    console.log("(2/3) Adicionando informações de debug na aba [Outros]");
+    console.log("(2/4) Adicionando informações de debug na aba [Outros]");
     let debug_todos_outros = document.querySelectorAll(".outro_titulo");
 
     for (var i = 0; i<dados_geral.outros.length; i++) {
         let debug_outro = dados_geral.outros[i];
         let debug_outro_nome = debug_outro.curto;
+        let debug_tags = debug_outro.tags;
 
-        debug_todos_outros[i].classList.add("jogo_id_outros_"+debug_outro_nome);
+        let debug_outros_estrutura = `
+            <hr class="mt-1">
+            <div class="divide-y-1 divide-white">
+                <div class="m-1 flex flex-col gap-2">
+                    <div>
+                        <span class="jogo_id_outros_${debug_outro_nome}_episodios_total hidden">0 Vídeos no total</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <div>
+                            <span class="jogo_id_outros_${debug_outro_nome}_episodios_youtube hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+                            <span class="jogo_id_outros_${debug_outro_nome}_episodios_youtube_string">0 Vídeos</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="jogo_id_outros_${debug_outro_nome}_episodios_gdrive hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+                            <span class="jogo_id_outros_${debug_outro_nome}_episodios_gdrive_string">0 Vídeos</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="jogo_id_outros_${debug_outro_nome}_episodios_archive hidden">
+                            <i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+                            <span class="jogo_id_outros_${debug_outro_nome}_episodios_archive_string">0 Vídeos</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-1">
+                    <span class="jogo_id_outros_${debug_outro_nome}_extras hidden">0 Extras</span>
+                </div>
+                <div class="m-1">
+                    <span class="jogo_id_outros_${debug_outro_nome}_analise hidden">Ánalise</span>
+                </div>
+                <div class="m-1 flex flex-col">
+                    <div>
+                        <span class="jogo_id_outros_${debug_outro_nome}_avisos_linkyt text-red-500 hidden">
+                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <span class="jogo_id_outros_${debug_outro_nome}_avisos_linkyt_string">0 Vídeos no modelo antigo</span>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="jogo_id_outros_${debug_outro_nome}_avisos_data text-yellow-500 hidden">
+                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <span class="jogo_id_outros_${debug_outro_nome}_avisos_data_string">0 Vídeos sem data</span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <details>
+                        <summary>Tags</summary>
+                        <span class="jogo_id_outros_${debug_outro_nome}_tags">${pesquisa_processar_string(debug_tags.replaceAll(/\s/g, "marcadorsuperespecifico")).replaceAll("marcadorsuperespecificomarcadorsuperespecifico", "marcadorsuperespecifico").replaceAll("marcadorsuperespecifico", ", ")}</span>
+                    </details>
+                </div>
+            </div>
+        `;
+
+        debug_todos_outros[i].innerHTML += `${debug_outros_estrutura}`;
+
+        //debug_todos_outros[i].classList.add("jogo_id_outros_"+debug_outro_nome);
 
         fetch(`video/outros/${debug_outro_nome}/videos.json`)
         .then(response => response.json())
         .then(data => {
-            debug_info.info_outro[debug_outro_nome] = "<br>";
+            //debug_info.info_outro[debug_outro_nome] = "<br>";
 
-            debug_info.info_outro[debug_outro_nome] += `<br><span class="debug_episodios_outros_${debug_outro_nome}">Carregando...</span>`;
+            //debug_info.info_outro[debug_outro_nome] += `<br><span class="debug_episodios_outros_${debug_outro_nome}">Carregando...</span>`;
 
-            let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+            //let debug_serie_icon = `<i class="fa fa-fw ${get_plataforma_icon(data.videos[data.videos.length-1].plataforma)}" title="${data.videos[data.videos.length-1].plataforma}"></i>`;
+
+            //verificação de plataformas - VODs
+            let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0};
+
+            for (var i = 0; i<data.videos.length; i++) {
+                if (!data.videos[i].links.youtube == "") {
+                    json_video_plataforma_counter.youtube++;
+                }
+                if (!data.videos[i].links.gdrive == "") {
+                    json_video_plataforma_counter.gdrive++;
+                }
+                if (!data.videos[i].links.archive == "") {
+                    json_video_plataforma_counter.archive++;
+                }
+            }
+
+            if (json_video_plataforma_counter.youtube > 0) {
+                let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_episodios_youtube";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+                document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.youtube} Vídeos`;
+            }
+
+            if (json_video_plataforma_counter.gdrive > 0) {
+                let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_episodios_gdrive";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+                document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.gdrive} Vídeos`;
+            }
+
+            if (json_video_plataforma_counter.archive > 0) {
+                let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_episodios_archive";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+                document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.archive} Vídeos`;
+            }
 
             if (data.hasOwnProperty("analise")) {
-                debug_info.info_outro[debug_outro_nome] += `<br><span>Análise</span>`;
+                //debug_info.info_outro[debug_outro_nome] += `<br><span>Análise</span>`;
+
+                let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_analise";
+                document.querySelector(cur_element_class).classList.remove("hidden");
             }
 
             if (data.hasOwnProperty("extras")) {
-                debug_info.info_outro[debug_outro_nome] += `<br><span>${data.extras.length} Extras</span>`;
+                //debug_info.info_outro[debug_outro_nome] += `<br><span>${data.extras.length} Extras</span>`;
+
+                let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_extras";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+                document.querySelector(cur_element_class).innerHTML = `${data.extras.length} Extras`;
             }
 
-            document.querySelector(".jogo_id_outros_"+debug_outro_nome).innerHTML += debug_info.info_outro[debug_outro_nome];
-            document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} Episódios`;
+            //document.querySelector(".jogo_id_outros_"+debug_outro_nome).innerHTML += debug_info.info_outro[debug_outro_nome];
+            //document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML = `${debug_serie_icon} ${data.videos.length} Episódios`;
+            document.querySelector(".jogo_id_outros_"+debug_outro_nome+"_episodios_total").classList.remove("hidden");
+            document.querySelector(".jogo_id_outros_"+debug_outro_nome+"_episodios_total").innerHTML = `${data.videos.length} Vídeos no total`;
 
             //Detector de JSON antigo - OUTROS
             let json_antigo_outros_counter = 0;
@@ -471,7 +899,12 @@ function debug() {
                     json_antigo_outros_counter++;
                 }
             }
-            if (json_antigo_outros_counter > 0) document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_outros_counter} Episódios no modelo antigo</span>`;
+            //if (json_antigo_outros_counter > 0) document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_antigo_outros_counter} Episódios no modelo antigo</span>`;
+            if (json_antigo_outros_counter > 0) {
+                let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_avisos_linkyt";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+                document.querySelector(cur_element_class+"_string").innerHTML = `${json_antigo_outros_counter} Vídeos no modelo antigo`;
+            }
 
             //Detector de data - OUTROS
             let json_data_outros_counter = 0;
@@ -481,37 +914,81 @@ function debug() {
                     json_data_outros_counter++;
                 }
             }
-            if (json_data_outros_counter > 0) document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_outros_counter} Episódios sem data</span>`;
+            //if (json_data_outros_counter > 0) document.querySelector(".debug_episodios_outros_"+debug_outro_nome).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> ${json_data_outros_counter} Episódios sem data</span>`;
+            if (json_data_outros_counter > 0) {
+                let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_avisos_data";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+                document.querySelector(cur_element_class+"_string").innerHTML = `${json_data_outros_counter} Vídeos sem data`;
+            }
         })
     }
 
     //debug da aba Standalone
-    console.log("(3/3) Adicionando informações de debug na aba [Independentes]");
+    console.log("(3/4) Adicionando informações de debug na aba [Independentes]");
 
     document.querySelectorAll(".standalone_titulo_youtube").forEach((element) =>
-        element.innerHTML += `<br><br><span>YouTube</span>`
+        element.innerHTML += `<hr class="m-1"><span>YouTube</span>`
     );
 
     document.querySelectorAll(".standalone_titulo_gdrive").forEach((element) =>
-        element.innerHTML += `<br><br><span>Google Drive</span>`
+        element.innerHTML += `<hr class="m-1"><span>Google Drive</span>`
     );
 
     document.querySelectorAll(".standalone_titulo_archive").forEach((element) =>
-        element.innerHTML += `<br><br><span>Internet Archive</span>`
+        element.innerHTML += `<hr class="m-1"><span>Internet Archive</span>`
     );
 
     //Detector de JSON antigo - STANDALONE
     for (var i = 0; i<dados_geral.standalone.length; i++) {
         if (dados_geral.standalone[i].hasOwnProperty("linkyt")) {
-            document.querySelector(".standalone_"+i).innerHTML += `<br><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> Vídeo no modelo antigo</span>`;
+            document.querySelector(".standalone_"+i).innerHTML += `<hr class="m-1"><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> Vídeo no modelo antigo</span>`;
         }
     }
 
     //Detector de data - STANDALONE
     for (var i = 0; i<dados_geral.standalone.length; i++) {
         if (!dados_geral.standalone[i].hasOwnProperty("data") || dados_geral.standalone[i].hasOwnProperty("data") && dados_geral.standalone[i].data == "") {
-            document.querySelector(".standalone_"+i).innerHTML += `<br><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> Vídeo sem data</span>`;
+            document.querySelector(".standalone_"+i).innerHTML += `<hr class="m-1"><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> Vídeo sem data</span>`;
         }
+    }
+
+    //Adicionar Tags
+    for (var i = 0; i<dados_geral.standalone.length; i++) {
+        document.querySelector(".standalone_"+i).innerHTML += `
+            <hr class="m-1">
+            <details>
+                <summary>Tags</summary>
+                <span>${pesquisa_processar_string(dados_geral.standalone[i].tags.replaceAll(/\s/g, "marcadorsuperespecifico")).replaceAll("marcadorsuperespecificomarcadorsuperespecifico", "marcadorsuperespecifico").replaceAll("marcadorsuperespecifico", ", ")}</span>
+            </details>
+        `;
+        //não me orgulho desse "marcadorsuperespecifico", mas funciona, então...
+        //${dados_geral.standalone[i].tags.replaceAll(/\s/g, ", ").toLowerCase()}
+    }
+
+    //debug da aba Franquias
+    console.log("(4/4) Adicionando informações de debug na aba [Franquias]");
+
+    for (var i = 0; i<Object.keys(dados_franquia).length; i++) {
+        let franquia_id = Object.keys(dados_franquia)[i];
+        document.querySelector(".franquia_titulo_"+franquia_id).innerHTML += `
+            <hr class="m-1"><span class="franquia_titulo_${franquia_id}_jogos">${dados_franquia[franquia_id].jogos[0]}
+        `;
+
+        for (var ijogo = 1; ijogo<dados_franquia[franquia_id].jogos.length; ijogo++) {
+            document.querySelector(".franquia_titulo_"+franquia_id+"_jogos").innerHTML += `, ${dados_franquia[franquia_id].jogos[ijogo]}`;
+        }
+    }
+
+    //Adicionar Tags
+    for (var i = 0; i<Object.keys(dados_franquia).length; i++) {
+        let franquia_id = Object.keys(dados_franquia)[i];
+        document.querySelector(".franquia_"+franquia_id).innerHTML += `
+            <hr class="m-1">
+            <details>
+                <summary>Tags</summary>
+                <span>${pesquisa_processar_string(dados_franquia[franquia_id].tags.replaceAll(/\s/g, "marcadorsuperespecifico")).replaceAll("marcadorsuperespecificomarcadorsuperespecifico", "marcadorsuperespecifico").replaceAll("marcadorsuperespecifico", ", ")}</span>
+            </details>
+        `;
     }
 
     console.groupEnd();

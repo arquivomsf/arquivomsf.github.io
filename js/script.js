@@ -128,14 +128,14 @@ function carregar_itens() {
 
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
             document.querySelector(".franquias_content_list").innerHTML += `
-                <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                <div class="franquia_item franquia_${franquia_id} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <a href="franquia?id=${franquia_id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                         <div class="relative h-auto">
                             <div class="w-auto h-[180px]">
                                 ${capas_html}
                             </div>
                         </div>
-                        <b class="text-center">${franquia_nome}</b>
+                        <b class="text-center franquia_titulo_${franquia_id}">${franquia_nome}</b>
                     </a>
                 </div>`;
         }

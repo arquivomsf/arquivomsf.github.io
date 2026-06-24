@@ -1,7 +1,7 @@
 {
   "sonic": {
     "nome": "Sonic the Hedgehog",
-    "tags": "Sonic the Hedgehog",
+    "tags": "Sonic the Hedgehog shadow sega",
     "jogos": [
       "sonic1",
       "soniccd",
@@ -19,7 +19,7 @@
   },
   "mario": {
     "nome": "Super Mario",
-    "tags": "Super Mario bros",
+    "tags": "Super Mario bros nintendo",
     "jogos": [
       "mario1",
       "mario64"
@@ -31,7 +31,7 @@
   },
   "castlevania": {
     "nome": "Castlevania",
-    "tags": "Castlevania akumajo akumajou dracula dorakyura",
+    "tags": "Castlevania akumajo akumajou dracula dorakyura konami",
     "jogos": [
       "castlelod",
       "symphony",
@@ -45,7 +45,7 @@
   },
   "gow": {
     "nome": "God of War",
-    "tags": "God of War gow",
+    "tags": "God of War gow sony",
     "jogos": [
       "gow1",
       "gow2"
@@ -97,7 +97,7 @@
   },
   "gta": {
     "nome": "Grand Theft Auto",
-    "tags": "Grand Theft Auto gta",
+    "tags": "Grand Theft Auto gta rockstar",
     "jogos": [
       "gta3",
       "gtavc"
