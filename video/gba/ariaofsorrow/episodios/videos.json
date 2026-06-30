@@ -3,7 +3,7 @@
     {
       "nome": "Castlevania: Aria of Sorrow (GBA)",
       "imagem": "jpg",
-      "quantidade": "8",
+      "quantidade": "10",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsjcJ6o5GbFZjYc4NZR5MMh",
@@ -147,6 +147,40 @@
         "horas": 0,
         "minutos": 47,
         "segundos": 45
+      }
+    },
+    {
+      "nome": "Castlevania: Aria of Sorrow de GBA | Parte 9",
+      "nome_original": "Jogando Castlevania: Aria of Sorrow de GBA | 2026-06-15 09-16-10",
+      "imagem": "jpg",
+      "data": "29/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/LXbHW9gpeAs",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-castlevania-aria-of-sorrow-gba/P09+-+Jogando+Castlevania%3A+Aria+of+Sorrow+de+GBA+%7C+2026-06-15+09-16-10.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 47,
+        "segundos": 28
+      }
+    },
+    {
+      "nome": "Castlevania: Aria of Sorrow de GBA | Parte 10",
+      "nome_original": "Jogando Castlevania: Aria of Sorrow de GBA | 2026-06-15 13-52-13",
+      "imagem": "jpg",
+      "data": "29/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tQvABrySt1M",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-castlevania-aria-of-sorrow-gba/P10+-+Jogando+Castlevania%3A+Aria+of+Sorrow+de+GBA+%7C+2026-06-15+13-52-13.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 49,
+        "segundos": 23
       }
     }
   ]
