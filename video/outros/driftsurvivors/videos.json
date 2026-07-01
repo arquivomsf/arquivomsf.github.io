@@ -3,7 +3,7 @@
     {
       "nome": "Drift Survivors",
       "imagem": "jpg",
-      "quantidade": "9",
+      "quantidade": "10",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLatVinKPr4A8",
@@ -162,7 +162,7 @@
       }
     },
     {
-      "nome": "Drift Survivors | Gameplay X",
+      "nome": "Drift Survivors | Gameplay 9",
       "nome_original": "Jogando Drift Survivors | 2026-06-15 14-46-17",
       "imagem": "jpg",
       "data": "16/06/2026",
@@ -170,12 +170,29 @@
       "links": {
         "youtube": "https://youtu.be/Z-s7G8V1QGE",
         "gdrive": "",
-        "archive": "https://archive.org/details/arquivomsf-drift-survivors/P0X+-+Jogando+Drift+Survivors+_+2026-06-15+14-46-17.mp4"
+        "archive": "https://archive.org/details/arquivomsf-drift-survivors/P09+-+Jogando+Drift+Survivors+_+2026-06-15+14-46-17.mp4"
       },
       "duracao": {
         "horas": 0,
         "minutos": 45,
         "segundos": 58
+      }
+    },
+    {
+      "nome": "Drift Survivors | Gameplay 10",
+      "nome_original": "Jogando Drift Survivors | 2026-06-16 08-17-23",
+      "imagem": "jpg",
+      "data": "30/06/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/OZ6HOOr9l98",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-drift-survivors/P10+-+Jogando+Drift+Survivors+_+2026-06-16+08-17-23.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 42,
+        "segundos": 0
       }
     }
   ]
