@@ -88,6 +88,14 @@ function carregar_itens() {
           document.querySelector(".original_label").classList.remove("hidden");
           document.querySelector(".original_string").classList.remove("hidden");
         }
+
+        if (dados_geral.standalone[i].hasOwnProperty("chat")) {
+          let chat_name;
+          if (dados_geral.standalone[i].chat == "") chat_name = video_nome_curto;
+          else chat_name = dados_geral.standalone[i].chat;
+          document.querySelector("#chatIframe").src = `video/${consoleAtual}/${chat_name}.html`;
+          document.querySelector(".chat_container").classList.remove("hidden");
+        }
       }
     }
     return;
@@ -140,6 +148,19 @@ function carregar_itens() {
           document.querySelector(".original_br").classList.remove("hidden");
           document.querySelector(".original_label").classList.remove("hidden");
           document.querySelector(".original_string").classList.remove("hidden");
+        }
+
+        if (dados_serie.extras[i].hasOwnProperty("chat")) {
+          let chat_name;
+          if (dados_serie.extras[i].chat == "") chat_name = extra_id;
+          else chat_name = dados_serie.extras[i].chat;
+
+          let serie_path;
+          if (consoleAtual == "outros") serie_path = `video/${consoleAtual}/${jogoAtual}`;
+          else serie_path = `video/${consoleAtual}/${jogoAtual}/${serieAtual}`;
+
+          document.querySelector("#chatIframe").src = `${serie_path}/${chat_name}.html`;
+          document.querySelector(".chat_container").classList.remove("hidden");
         }
       }
     }
@@ -197,6 +218,14 @@ function carregar_itens() {
       document.querySelector(".original_label").classList.remove("hidden");
       document.querySelector(".original_string").classList.remove("hidden");
     }
+
+    if (dados_serie.videos[episodioAtual].hasOwnProperty("chat")) {
+      let chat_name;
+      if (dados_serie.videos[episodioAtual].chat == "") chat_name = `${Number(episodioAtual)+1}`;
+      else chat_name = dados_serie.videos[episodioAtual].chat;
+      document.querySelector("#chatIframe").src = `video/${consoleAtual}/${jogoAtual}/${chat_name}.html`;
+      document.querySelector(".chat_container").classList.remove("hidden");
+    }
     return;
   }
 
@@ -249,11 +278,18 @@ function carregar_itens() {
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
 
-    console.log(dados_serie.videos[episodioAtual].hasOwnProperty("nome_original"));
     if (dados_serie.videos[episodioAtual].hasOwnProperty("nome_original")) {
       document.querySelector(".original_string").innerHTML = dados_serie.videos[episodioAtual].nome_original;
       document.querySelector(".original_br").classList.remove("hidden");
       document.querySelector(".original_label").classList.remove("hidden");
       document.querySelector(".original_string").classList.remove("hidden");
+    }
+
+    if (dados_serie.videos[episodioAtual].hasOwnProperty("chat")) {
+      let chat_name;
+      if (dados_serie.videos[episodioAtual].chat == "") chat_name = `${Number(episodioAtual)+1}`;
+      else chat_name = dados_serie.videos[episodioAtual].chat;
+      document.querySelector("#chatIframe").src = `video/${consoleAtual}/${jogoAtual}/${serieAtual}/${chat_name}.html`;
+      document.querySelector(".chat_container").classList.remove("hidden");
     }
 }
