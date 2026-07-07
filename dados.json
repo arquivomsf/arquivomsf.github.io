@@ -1377,29 +1377,18 @@
         "minutos": 19,
         "segundos": 32
       }
-    },
-    {
-      "nome": "Jogando Metal Hellsinger e Assistindo Vídeos",
-      "tags": "Jogando Metal Hellsinger e Assistindo Vídeos live instagram reels memes besteirol",
-      "imagem": "metalhellsinger1.jpg",
-      "consigla": "etc",
-      "curto": "metalhellsinger1",
-      "data": "01/07/2026",
-      "plataforma": "youtube",
-      "links": {
-        "youtube": "https://youtu.be/KpY9Pi9Kxn4",
-        "gdrive": "",
-        "archive": "https://archive.org/details/msf-algumas-lives-gravadas-e-videos-exclusivos/Jogando+Metal+Hellsinger+e+Assistindo+V%C3%ADdeos.mp4"
-      },
-      "duracao": {
-        "horas": 1,
-        "minutos": 53,
-        "segundos": 6
-      },
-      "chat": ""
     }
   ],
   "outros": [
+    {
+      "nome": "Fortnite 2018 a 2023 (Twitter)",
+      "tags": "Fortnite 2018 a 2023 Twitter Clipes XBOX",
+      "imagem": "5.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "fort-1823",
+      "categoria": "Fortnite"
+    },
     {
       "nome": "Próximas Atualizações do Subway Surfers",
       "tags": "Próximas Atualizações do Subway Surfers",
@@ -1687,6 +1676,15 @@
       "consigla": "outros",
       "curto": "driftsurvivors",
       "categoria": "PC"
+    },
+    {
+      "nome": "Metal Hellsinger",
+      "tags": "Metal Hellsinger PC VODs Assistindo Vídeos live instagram reels memes besteirol",
+      "imagem": "1.jpg",
+      "console": "Outros",
+      "consigla": "outros",
+      "curto": "metalhellsinger",
+      "categoria": "VODs"
     }
   ],
   "consoles": [

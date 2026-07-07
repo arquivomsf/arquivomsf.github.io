@@ -1,0 +1,51 @@
+{
+  "playlist": [
+    {
+      "nome": "Metal Hellsinger",
+      "imagem": "jpg",
+      "quantidade": "2",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLTE9PaOXrVms",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Metal Hellsinger e Assistindo Vídeos",
+      "imagem": "jpg",
+      "data": "01/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/KpY9Pi9Kxn4",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/P01+-+Jogando+Metal+Hellsinger+e+Assistindo+V%C3%ADdeos.mp4"
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 53,
+        "segundos": 6
+      },
+      "chat": ""
+    },
+    {
+      "nome": "Jogando Metal Hellsinger + Reacts",
+      "imagem": "jpg",
+      "data": "03/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/t4j-YjdxJW8",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/P02+-+Jogando+Metal+Hellsinger+%2B+Reacts.mp4"
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 28,
+        "segundos": 55
+      },
+      "chat": ""
+    }
+  ]
+}
