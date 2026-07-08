@@ -3,7 +3,7 @@
     {
       "nome": "Age of Empires 2",
       "imagem": "jpg",
-      "quantidade": "4",
+      "quantidade": "8",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtxz0jIvXrJ4AENCDnOIO13",
@@ -76,6 +76,74 @@
         "horas": 0,
         "minutos": 9,
         "segundos": 50
+      }
+    },
+    {
+      "nome": "Vitória com os Chineses no Age of Empires 2 HD",
+      "nome_original": "Jogando Age of Empires 2 HD | 2026-06-23 08-52-03",
+      "imagem": "jpg",
+      "data": "07/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/dbJ6gYn7sqk",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P05+-+Jogando+Age+of+Empires+2+HD+_+2026-06-23+08-52-03.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 21,
+        "segundos": 50
+      }
+    },
+    {
+      "nome": "Vitória com os Turcos no Age of Empires 2 HD",
+      "nome_original": "Jogando Age of Empires 2 HD | 2026-06-23 09-29-52",
+      "imagem": "jpg",
+      "data": "07/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/R61jwBqVFGc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P06+-+Jogando+Age+of+Empires+2+HD+_+2026-06-23+09-29-52.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 13
+      }
+    },
+    {
+      "nome": "Vitória com os Saracens no Age of Empires 2 HD",
+      "nome_original": "Jogando Age of Empires 2 HD | 2026-06-23 10-33-59",
+      "imagem": "jpg",
+      "data": "07/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/AP_WWH287Mg",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P07+-+Jogando+Age+of+Empires+2+HD+_+2026-06-23+10-33-59.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 7,
+        "segundos": 1
+      }
+    },
+    {
+      "nome": "Vitória com os Astecas no Age of Empires 2 HD",
+      "nome_original": "Jogando Age of Empires 2 HD | 2026-06-23 10-46-07",
+      "imagem": "jpg",
+      "data": "07/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/UbGpuJ06oJc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P08+-+Jogando+Age+of+Empires+2+HD+_+2026-06-23+10-46-07.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 19,
+        "segundos": 55
       }
     }
   ]
