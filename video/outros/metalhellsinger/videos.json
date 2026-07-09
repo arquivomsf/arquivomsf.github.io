@@ -3,7 +3,7 @@
     {
       "nome": "Metal Hellsinger",
       "imagem": "jpg",
-      "quantidade": "2",
+      "quantidade": "3",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLTE9PaOXrVms",
@@ -44,6 +44,23 @@
         "horas": 2,
         "minutos": 28,
         "segundos": 55
+      },
+      "chat": ""
+    },
+    {
+      "nome": "Games & Reacts",
+      "imagem": "jpg",
+      "data": "08/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Mg0vLs6Qud0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/P03+-+Games+%26+Reacts.mp4"
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 9,
+        "segundos": 30
       },
       "chat": ""
     }
