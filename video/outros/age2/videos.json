@@ -3,7 +3,7 @@
     {
       "nome": "Age of Empires 2",
       "imagem": "jpg",
-      "quantidade": "8",
+      "quantidade": "11",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtxz0jIvXrJ4AENCDnOIO13",
@@ -144,6 +144,57 @@
         "horas": 0,
         "minutos": 19,
         "segundos": 55
+      }
+    },
+    {
+      "nome": "Vitória contra os Franks e os Byzantines no Age of Empires 2 HD",
+      "nome_original": "Jogando Age of Empires 2 HD | 2026-06-24 08-34-45",
+      "imagem": "jpg",
+      "data": "13/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4v2Yaqrva6w",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P09+-+Jogando+Age+of+Empires+2+HD+_+2026-06-24+08-34-45.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 41,
+        "segundos": 36
+      }
+    },
+    {
+      "nome": "Vitória contra os Chineses no Age of Empires 2 HD",
+      "nome_original": "Jogando Age of Empires 2 HD | 2026-06-29 09-21-10",
+      "imagem": "jpg",
+      "data": "13/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SCJw4RaoBiA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P10+-+Jogando+Age+of+Empires+2+HD+_+2026-06-29+09-21-10.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 50,
+        "segundos": 6
+      }
+    },
+    {
+      "nome": "Vitória contra os Eslavos no Age of Empires 2 HD",
+      "nome_original": "Jogando Age of Empires 2 HD | 2026-06-29 10-36-54",
+      "imagem": "jpg",
+      "data": "13/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/6VQMfAsD2uw",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-age-of-empires-2/P11+-+Jogando+Age+of+Empires+2+HD+_+2026-06-29+10-36-54.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 22,
+        "segundos": 37
       }
     }
   ]
