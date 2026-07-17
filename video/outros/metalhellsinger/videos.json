@@ -12,9 +12,22 @@
       }
     }
   ],
+  "analise": [
+    {
+      "nome": "Metal Hellsinger de Xbox | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/R45X6Oso9DE",
+      "duracao": {
+        "horas": 0,
+        "minutos": 17,
+        "segundos": 54
+      }
+    }
+  ],
   "videos": [
     {
-      "nome": "Jogando Metal Hellsinger e Assistindo Vídeos",
+      "nome": "Metal Hellsinger Parte 1 + Reacts",
+      "nome_original": "Jogando Metal Hellsinger e Assistindo Vídeos",
       "imagem": "jpg",
       "data": "01/07/2026",
       "plataforma": "youtube",
@@ -31,7 +44,8 @@
       "chat": ""
     },
     {
-      "nome": "Jogando Metal Hellsinger + Reacts",
+      "nome": "Metal Hellsinger Parte 2 + Reacts",
+      "nome_original": "Jogando Metal Hellsinger + Reacts",
       "imagem": "jpg",
       "data": "03/07/2026",
       "plataforma": "youtube",
@@ -48,7 +62,8 @@
       "chat": ""
     },
     {
-      "nome": "Games & Reacts",
+      "nome": "Metal Hellsinger Parte 3 + Reacts",
+      "nome_original": "Games & Reacts",
       "imagem": "jpg",
       "data": "08/07/2026",
       "plataforma": "youtube",
@@ -61,6 +76,24 @@
         "horas": 2,
         "minutos": 9,
         "segundos": 30
+      },
+      "chat": ""
+    },
+    {
+      "nome": "Metal Hellsinger Parte 4 + Reacts",
+      "nome_original": "Games & Reacts",
+      "imagem": "jpg",
+      "data": "15/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/y9tEmrfbegY",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/P04+-+Games+%26+Reacts.mp4"
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 26,
+        "segundos": 10
       },
       "chat": ""
     }

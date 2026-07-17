@@ -1,0 +1,21 @@
+{
+    "_episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.jpg",
+            "quantidade": "?"
+        }
+    ],
+    "analise": [
+        {
+            "nome": "Review de Harry Potter e a Ordem da Fênix | Hogwarts Salva um Jogo Repetitivo?",
+            "imagem": "jpg",
+            "link": "https://youtu.be/Z0FEsIRa-48",
+            "duracao": {
+                "horas": 0,
+                "minutos": 12,
+                "segundos": 16
+            }
+        }
+    ]
+}

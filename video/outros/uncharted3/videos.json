@@ -1,0 +1,45 @@
+{
+  "playlist": [
+    {
+      "nome": "Uncharted 3",
+      "imagem": "jpg",
+      "quantidade": "1",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLTObW2R5XMaY",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-uncharted-3"
+      }
+    }
+  ],
+  "_analise": [
+    {
+      "nome": "Uncharted 3 | Análise do Jogo",
+      "imagem": "jpg",
+      "link": "https://youtu.be/",
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 8
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Uncharted 3 de PS3 | 2026-07-01 10-15-09",
+      "imagem": "jpg",
+      "data": "15/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/n6dGFplSzTk",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-uncharted-3"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 44,
+        "segundos": 15
+      }
+    }
+  ]
+}
