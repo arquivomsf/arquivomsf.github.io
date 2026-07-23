@@ -12,6 +12,25 @@
       }
     }
   ],
+  "extras": [
+    {
+      "nome": "Completando todas as civilizações no Age of Empires 2",
+      "id": "completandoage2",
+      "imagem": "completandoage2.jpg",
+      "data": "22/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/8J4lhMV2BIM",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 29,
+        "segundos": 10
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "Ganhando com Celtas no Age of Empires 2 HD",

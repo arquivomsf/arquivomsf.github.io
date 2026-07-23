@@ -1,9 +1,9 @@
 {
-    "_episodios": [
+    "episodios": [
         {
             "nome": "Episódios da CosTV",
             "imagem": "1.jpg",
-            "quantidade": "?"
+            "quantidade": "7"
         }
     ],
     "analise": [
