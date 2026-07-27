@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "24"
         }
     ],
     "analise": [
         {
             "nome": "Manhunt de PlayStation 2 | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/0EsV3dw4V8M",
             "duracao": {
                 "horas": 0,

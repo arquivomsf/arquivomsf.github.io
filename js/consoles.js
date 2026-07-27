@@ -32,7 +32,7 @@ function carregar_itens() {
                 <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
                         <div class="w-auto h-[225px]">
-                            <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.png" class="h-[225px] object-contain">
+                            <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.webp" class="h-[225px] object-contain">
                         </div>
                     </div>
                     <b class="text-center">${jogo_nome}</b>

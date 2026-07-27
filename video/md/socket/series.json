@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "4"
         }
     ],
     "analise": [
         {
             "nome": "Socket de Mega Drive | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/fwyV3fBiGNc",
             "duracao": {
                 "horas": 0,

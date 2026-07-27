@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Páscoa - Evento da DLive",
-      "imagem": "png",
+      "imagem": "webp",
       "quantidade": "5",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Páscoa - Evento da DLive (Dia 1)",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Páscoa - Evento da DLive (Dia 2)",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Páscoa - Evento da DLive (Dia 3)",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Páscoa - Evento da DLive (Dia 4)",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Páscoa - Evento da DLive (Dia 5)",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "archive",
       "links": {

@@ -53,7 +53,7 @@ function carregar_itens() {
 
                 document.querySelectorAll(".thumbnail").forEach(el => {
                     el.onerror = function() {
-                        el.src = `assets/img/generic.jpg`;
+                        el.src = `assets/img/generic.webp`;
                     }
                 });
             }

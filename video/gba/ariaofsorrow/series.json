@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "17"
         }
     ],
     "_analise": [
         {
             "nome": "Castlevania: Aria of Sorrow de GBA | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/",
             "duracao": {
                 "horas": 0,

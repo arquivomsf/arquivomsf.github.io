@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Super Mario Bros. (NES) ",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Super Mario Bros de NES - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "01/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Super Mario Bros de NES - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "02/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Super Mario Bros de NES - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Super Mario Bros de NES - Parte 4 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "04/09/2025",
       "plataforma": "youtube",
       "links": {

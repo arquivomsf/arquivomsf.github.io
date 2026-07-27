@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Left 4 Dead 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "34",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "_analise": [
     {
       "nome": "Left 4 Dead 2 | Análise do Jogo",
-      "imagem": "jpg",
+      "imagem": "webp",
       "link": "https://youtu.be/",
       "duracao": {
         "horas": 0,
@@ -28,7 +28,7 @@
     {
       "nome": "Testando o Left 4 Dead 2 no PC",
       "id": "testandol4d2",
-      "imagem": "../../etc/testandol4d2.jpg",
+      "imagem": "../../etc/testandol4d2.webp",
       "data": "03/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 1",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-17 09-31-19",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -64,7 +64,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 2",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-17 09-46-23",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -81,7 +81,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 3",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-17 10-01-25",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -98,7 +98,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 4",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-18 09-50-14",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -115,7 +115,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 5",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-18 10-05-21",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -132,7 +132,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 6",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-18 10-20-25",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -149,7 +149,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 7",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-18 10-35-30",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -166,7 +166,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 8",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 12-25-09",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -183,7 +183,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 9",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 12-28-59",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -200,7 +200,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 10",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 12-44-01",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -217,7 +217,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 11",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 12-59-04",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -234,7 +234,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 12",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 13-14-08",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -251,7 +251,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 13",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 13-29-11",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -268,7 +268,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 14",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 13-44-16",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -285,7 +285,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 15",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-22 13-11-54",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -302,7 +302,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 16",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-22 13-27-00",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -319,7 +319,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 17",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-22 13-42-03",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -336,7 +336,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 18",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-22 13-57-08",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -353,7 +353,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 19",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-22 14-12-12",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -370,7 +370,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 20",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-23 13-42-30",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -387,7 +387,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 21",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-23 13-57-34",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -404,7 +404,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 22",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-23 14-12-41",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -421,7 +421,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 23",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-23 14-27-48",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -438,7 +438,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 24",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-23 14-42-51",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -455,7 +455,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 25",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-24 09-39-15",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -472,7 +472,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 26",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-24 09-58-21",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -489,7 +489,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 27",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-24 10-28-29",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -506,7 +506,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 28",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-24 10-58-30",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -523,7 +523,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 29",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-24 11-28-37",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -540,7 +540,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 30",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-24 11-58-37",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -557,7 +557,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 31",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-26 20-00-51",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -574,7 +574,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 32",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-26 20-30-59",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -591,7 +591,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 33",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-28 10-35-24",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/05/2026",
       "plataforma": "youtube",
       "links": {
@@ -608,7 +608,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 34",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-28 10-40-38",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/05/2026",
       "plataforma": "youtube",
       "links": {

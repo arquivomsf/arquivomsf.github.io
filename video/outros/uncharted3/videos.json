@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Uncharted 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "1",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "_analise": [
     {
       "nome": "Uncharted 3 | Análise do Jogo",
-      "imagem": "jpg",
+      "imagem": "webp",
       "link": "https://youtu.be/",
       "duracao": {
         "horas": 0,
@@ -27,7 +27,7 @@
   "videos": [
     {
       "nome": "Jogando Uncharted 3 de PS3 | 2026-07-01 10-15-09",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/07/2025",
       "plataforma": "youtube",
       "links": {

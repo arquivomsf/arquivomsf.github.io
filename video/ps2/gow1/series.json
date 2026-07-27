@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "25"
         }
     ],
     "analise": [
         {
             "nome": "God of War PlayStation 2 | Mini Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/ovPUm1HWaiw",
             "duracao": {
                 "horas": 0,

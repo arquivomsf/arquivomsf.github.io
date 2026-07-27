@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Disney's Lilo & Stitch: Trouble in Paradise (PS1 - VOD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "5",
       "data": "26/08/2025",
       "plataforma": "youtube",
@@ -17,7 +17,7 @@
     {
       "nome": "Tech mostrando o ovo dele",
       "id": "ovo",
-      "imagem": "../../../etc/ovo.png",
+      "imagem": "../../../etc/ovo.webp",
       "data": "19/11/2025",
       "plataforma": "youtube",
       "links": {
@@ -34,7 +34,7 @@
     {
       "nome": "Lilo e Stitch de PS1 - Cena 1",
       "id": "lilo_cena1",
-      "imagem": "lilo_cena1.png",
+      "imagem": "lilo_cena1.webp",
       "data": "26/08/2025",
       "plataforma": "gdrive",
       "links": {
@@ -51,7 +51,7 @@
     {
       "nome": "Lilo e Stitch de PS1 - Cena 2",
       "id": "lilo_cena2",
-      "imagem": "lilo_cena2.png",
+      "imagem": "lilo_cena2.webp",
       "data": "26/08/2025",
       "plataforma": "gdrive",
       "links": {
@@ -68,7 +68,7 @@
     {
       "nome": "Lilo e Stitch de PS1 - Cena 3",
       "id": "lilo_cena3",
-      "imagem": "lilo_cena3.png",
+      "imagem": "lilo_cena3.webp",
       "data": "26/08/2025",
       "plataforma": "gdrive",
       "links": {
@@ -85,7 +85,7 @@
     {
       "nome": "Lilo e Stitch de PS1 - Cena 4",
       "id": "lilo_cena4",
-      "imagem": "lilo_cena4.png",
+      "imagem": "lilo_cena4.webp",
       "data": "26/08/2025",
       "plataforma": "gdrive",
       "links": {
@@ -102,7 +102,7 @@
     {
       "nome": "Lilo e Stitch de PS1 - Cena 5",
       "id": "lilo_cena5",
-      "imagem": "lilo_cena5.png",
+      "imagem": "lilo_cena5.webp",
       "data": "26/08/2025",
       "plataforma": "gdrive",
       "links": {
@@ -119,7 +119,7 @@
     {
       "nome": "Lilo e Stitch de PS1 - Cena 6",
       "id": "lilo_cena6",
-      "imagem": "lilo_cena6.png",
+      "imagem": "lilo_cena6.webp",
       "data": "26/08/2025",
       "plataforma": "gdrive",
       "links": {
@@ -136,7 +136,7 @@
     {
       "nome": "Lilo e Stitch de PS1 - Cena 7",
       "id": "lilo_cena7",
-      "imagem": "lilo_cena7.png",
+      "imagem": "lilo_cena7.webp",
       "data": "26/08/2025",
       "plataforma": "gdrive",
       "links": {
@@ -154,7 +154,7 @@
   "videos": [
     {
       "nome": "Lilo e Stitch (PS1) - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "26/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -170,7 +170,7 @@
     },
     {
       "nome": "Lilo e Stitch (PS1) - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "26/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -186,7 +186,7 @@
     },
     {
       "nome": "Lilo e Stitch (PS1) - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "26/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -202,7 +202,7 @@
     },
     {
       "nome": "Lilo e Stitch (PS1) - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "26/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -218,7 +218,7 @@
     },
     {
       "nome": "Lilo e Stitch (PS1) - VOD Extra",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "27/08/2025",
       "plataforma": "youtube",
       "links": {

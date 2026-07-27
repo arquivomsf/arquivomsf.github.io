@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Justice League Heroes (PS2 - VOD)",
-      "imagem": "png",
+      "imagem": "webp",
       "quantidade": "7",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "Justice League Heroes (PS2) - VOD 2.5",
       "id": "justiceleagueheroes2-5",
-      "imagem": "justiceleagueheroes2-5.jpg",
+      "imagem": "justiceleagueheroes2-5.webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "Justice League Heroes (PS2) - VOD 3.5",
       "id": "justiceleagueheroes3-5",
-      "imagem": "justiceleagueheroes3-5.jpg",
+      "imagem": "justiceleagueheroes3-5.webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     {
       "nome": "Justice League Heroes (PS2) - VOD 4.5",
       "id": "justiceleagueheroes4-5",
-      "imagem": "justiceleagueheroes4-5.jpg",
+      "imagem": "justiceleagueheroes4-5.webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -67,7 +67,7 @@
     {
       "nome": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK",
       "id": "primeiralivekick",
-      "imagem": "../../../etc/primeiralivekick.jpg",
+      "imagem": "../../../etc/primeiralivekick.webp",
       "data": "08/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -85,7 +85,7 @@
   "videos": [
     {
       "nome": "Justice League Heroes (PS2) - VOD 1",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -101,7 +101,7 @@
     },
     {
       "nome": "Justice League Heroes (PS2) - VOD 2",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -117,7 +117,7 @@
     },
     {
       "nome": "Justice League Heroes (PS2) - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -133,7 +133,7 @@
     },
     {
       "nome": "Justice League Heroes (PS2) - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/04/2026",
       "plataforma": "youtube",
       "links": {

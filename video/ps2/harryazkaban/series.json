@@ -2,14 +2,14 @@
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
-            "imagem": "1.png",
+            "imagem": "1.webp",
             "quantidade": "8"
         }
     ],
     "analise": [
         {
             "nome": "Review de Harry Potter e o Prisioneiro de Azkaban | Poderia Ter Ido Muito Além",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/LJdjLhiwQWI",
             "duracao": {
                 "horas": 0,

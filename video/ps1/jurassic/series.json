@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "13"
         }
     ],
     "analise": [
         {
             "nome": "The Lost World Jurassic Park de PlayStation 1 | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/R-AnnSoCl_I",
             "duracao": {
                 "horas": 0,

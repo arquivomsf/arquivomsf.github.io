@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Scarface: The World Is Yours (PS2 - VOD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "25",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀",
       "id": "moggador",
-      "imagem": "../../../etc/moggador.jpg",
+      "imagem": "../../../etc/moggador.webp",
       "data": "10/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 13.5",
       "id": "scarface13-5",
-      "imagem": "scarface13-5.jpg",
+      "imagem": "scarface13-5.webp",
       "data": "21/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 23.5",
       "id": "scarface23-5",
-      "imagem": "scarface23-5.jpg",
+      "imagem": "scarface23-5.webp",
       "data": "24/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -68,7 +68,7 @@
   "videos": [
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "09/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -84,7 +84,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "09/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -100,7 +100,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -116,7 +116,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -132,7 +132,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -148,7 +148,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -164,7 +164,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 7",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -180,7 +180,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 8",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -196,7 +196,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 9",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -212,7 +212,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 10",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -228,7 +228,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 11",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -244,7 +244,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 12",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -260,7 +260,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 13",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -276,7 +276,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 14",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -292,7 +292,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 15",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "23/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -308,7 +308,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 16",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "23/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -324,7 +324,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 17",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "23/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -340,7 +340,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 18 (Incompleto)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "23/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -356,7 +356,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 19",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -372,7 +372,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 20",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -388,7 +388,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 21",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -404,7 +404,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 22",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -420,7 +420,7 @@
     },
     {
       "nome": "Scarface: The World Is Yours (PS2) - VOD 23",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/08/2025",
       "plataforma": "youtube",
       "links": {

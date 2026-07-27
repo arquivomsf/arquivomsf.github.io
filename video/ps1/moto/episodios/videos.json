@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Moto Racer (PS1)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Moto Racer de PlayStation 1 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Moto Racer de PlayStation 1 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Moto Racer de PlayStation 1 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Moto Racer de PlayStation 1 - Parte 4 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "01/04/2022",
       "plataforma": "youtube",
       "links": {

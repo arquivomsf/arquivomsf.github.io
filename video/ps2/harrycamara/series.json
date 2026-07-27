@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "2"
         }
     ],
     "vodsoficiais": [
         {
             "nome": "VODs Oficiais",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuGEUvNy7rHOMoFEqsU_5I9",
             "quantidade": "8"
         }
@@ -17,7 +17,7 @@
     "analise": [
         {
             "nome": "Review de Harry Potter e a Câmara Secreta | O Jogo Mais Nostálgico da Franquia?",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/7d3j4SnY4EM",
             "duracao": {
                 "horas": 0,

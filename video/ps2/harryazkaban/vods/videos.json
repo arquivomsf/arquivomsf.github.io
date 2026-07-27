@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban (PS2 - VOD)",
-      "imagem": "png",
+      "imagem": "webp",
       "quantidade": "8",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 4.5",
       "id": "harryazkaban4-5",
-      "imagem": "harryazkaban4-5.jpg",
+      "imagem": "harryazkaban4-5.webp",
       "data": "23/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "Marcelo vendo memes do Instagram",
       "id": "reels1",
-      "imagem": "../../../etc/reels1.jpg",
+      "imagem": "../../../etc/reels1.webp",
       "data": "03/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     {
       "nome": "Marcelo vendo mais Reels no Instagram",
       "id": "reels2",
-      "imagem": "../../../etc/reels2.jpg",
+      "imagem": "../../../etc/reels2.webp",
       "data": "05/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -68,7 +68,7 @@
   "videos": [
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 1",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -84,7 +84,7 @@
     },
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 2",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -100,7 +100,7 @@
     },
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "23/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -116,7 +116,7 @@
     },
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 4",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -132,7 +132,7 @@
     },
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 5",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -148,7 +148,7 @@
     },
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 6",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -164,7 +164,7 @@
     },
     {
       "nome": "Harry Potter e o Prisioneiro de Azkaban de PS2 - VOD 7",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/03/2026",
       "plataforma": "youtube",
       "links": {

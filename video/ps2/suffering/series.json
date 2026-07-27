@@ -2,21 +2,21 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "13"
         }
     ],
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
-            "imagem": "1.png",
+            "imagem": "1.webp",
             "quantidade": "10"
         }
     ],
     "analise": [
         {
             "nome": "Review de The Suffering | Um Clássico Esquecido do Survival Horror?",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/XsI2Yxp6miY",
             "duracao": {
                 "horas": 0,

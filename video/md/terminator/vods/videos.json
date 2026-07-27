@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "The Terminator (MD - VOD)",
-      "imagem": "png",
+      "imagem": "webp",
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "The Terminator (MD) - VOD 1.5",
       "id": "terminator1-5",
-      "imagem": "terminator1-5.jpg",
+      "imagem": "terminator1-5.webp",
       "data": "05/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "The Terminator (MD) - VOD 2.5",
       "id": "terminator2-5",
-      "imagem": "terminator2-5.jpg",
+      "imagem": "terminator2-5.webp",
       "data": "05/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     {
       "nome": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos)",
       "id": "fla-cor-supercoparei2026",
-      "imagem": "../../../etc/fla-cor-supercoparei2026.jpg",
+      "imagem": "../../../etc/fla-cor-supercoparei2026.webp",
       "data": "05/04/2026",
       "plataforma": "archive",
       "links": {
@@ -68,7 +68,7 @@
   "videos": [
     {
       "nome": "The Terminator (MD) - VOD 1",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "05/04/2026",
       "plataforma": "youtube",
       "links": {
@@ -84,7 +84,7 @@
     },
     {
       "nome": "The Terminator (MD) - VOD 2",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "05/04/2026",
       "plataforma": "youtube",
       "links": {

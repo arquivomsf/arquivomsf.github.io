@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "The Terminator (MD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "5",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "The Terminator de Mega Drive - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 5 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
       "links": {

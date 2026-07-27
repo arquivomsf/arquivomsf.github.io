@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "3"
         }
     ],
     "analise": [
         {
             "nome": "Jackal de NES | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/2JRFtEgeqrY",
             "duracao": {
                 "horas": 0,

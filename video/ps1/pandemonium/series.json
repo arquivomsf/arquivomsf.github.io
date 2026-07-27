@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "13"
         }
     ],
     "analise": [
         {
             "nome": "Pandemonium de PlayStation 1 | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/7hoaAoymMIU",
             "duracao": {
                 "horas": 0,

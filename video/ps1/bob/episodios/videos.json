@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Bob Esponja (PS1)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "8",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/11/2021",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/11/2021",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "01/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "01/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -95,7 +95,7 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -111,7 +111,7 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 7",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -127,7 +127,7 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 8",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/12/2021",
       "plataforma": "youtube",
       "links": {

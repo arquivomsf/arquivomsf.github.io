@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Clair Obscur: Expedition 33 (Clipes)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "6",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "analise": [
     {
       "nome": "Clair Obscur: Expedition 33 | Análise do Jogo",
-      "imagem": "jpg",
+      "imagem": "webp",
       "link": "https://youtu.be/wv0czkH0tG8",
       "duracao": {
         "horas": 0,
@@ -27,7 +27,7 @@
   "videos": [
     {
       "nome": "Expedition 33 - Gameplay 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/07/2025",
       "plataforma": "youtube",
       "links": {
@@ -43,7 +43,7 @@
     },
     {
       "nome": "Expedition 33 - Gameplay 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/07/2025",
       "plataforma": "youtube",
       "links": {
@@ -59,7 +59,7 @@
     },
     {
       "nome": "Expedition 33 - Gameplay 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/07/2025",
       "plataforma": "youtube",
       "links": {
@@ -75,7 +75,7 @@
     },
     {
       "nome": "Expedition 33 - Gameplay 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/07/2025",
       "plataforma": "youtube",
       "links": {
@@ -91,7 +91,7 @@
     },
     {
       "nome": "Expedition 33 - Gameplay 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/07/2025",
       "plataforma": "youtube",
       "links": {
@@ -107,7 +107,7 @@
     },
     {
       "nome": "Expedition 33 - Gameplay 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/07/2025",
       "plataforma": "youtube",
       "links": {

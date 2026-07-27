@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "4"
         }
     ],
     "analise": [
         {
             "nome": "Sonic The Hedgehog de Mega Drive | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/D7SIHGWlfRI",
             "duracao": {
                 "horas": 0,

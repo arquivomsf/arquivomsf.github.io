@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Super Mario Bros. (NES - VOD) ",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "5",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Super Mario Bros (NES) - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "13/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Super Mario Bros (NES) - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "13/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Super Mario Bros (NES) - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "13/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Super Mario Bros (NES) - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "13/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Super Mario Bros (NES) - VOD Extra",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "13/09/2025",
       "plataforma": "youtube",
       "links": {

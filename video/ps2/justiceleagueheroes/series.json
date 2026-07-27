@@ -2,21 +2,21 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "38"
         }
     ],
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
-            "imagem": "1.png",
+            "imagem": "1.webp",
             "quantidade": "7"
         }
     ],
     "analise": [
         {
             "nome": "Review de Justice League Heroes | O Jogo da DC que Quase Ninguém Lembra",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/GBx53-pVSr0",
             "duracao": {
                 "horas": 0,

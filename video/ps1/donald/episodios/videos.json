@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Donald Duck Goin Quackers (PS1)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "6",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -95,7 +95,7 @@
     },
     {
       "nome": "Donald Duck Goin Quackers de PlayStation 1 - Parte 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "23/03/2022",
       "plataforma": "youtube",
       "links": {

@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "4"
         }
     ],
     "analise": [
         {
             "nome": "Cruis'n Exotica de N64 | Análise e Dicas",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/_GdAWt_HYq4",
             "duracao": {
                 "horas": 0,

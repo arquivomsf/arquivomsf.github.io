@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Alien Trilogy (PS1 - VOD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "12",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "Alien Trilogy (PS1) - VOD 7.5",
       "id": "alientri7-5",
-      "imagem": "alientri7-5.jpg",
+      "imagem": "alientri7-5.webp",
       "data": "02/11/2025",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "Alien Trilogy (PS1) - VOD 8.5",
       "id": "alientri8-5",
-      "imagem": "alientri8-5.jpg",
+      "imagem": "alientri8-5.webp",
       "data": "03/11/2025",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     {
       "nome": "Marcelo ouvindo a música +99 do Marcos",
       "id": "musicadomarcos",
-      "imagem": "../../../etc/musicadomarcos.jpg",
+      "imagem": "../../../etc/musicadomarcos.webp",
       "data": "02/11/2025",
       "plataforma": "youtube",
       "links": {
@@ -67,7 +67,7 @@
     {
       "nome": "Alien Trilogy (PS1) - VOD 9.5",
       "id": "alientri9-5",
-      "imagem": "alientri9-5.jpg",
+      "imagem": "alientri9-5.webp",
       "data": "03/11/2025",
       "plataforma": "youtube",
       "links": {
@@ -85,7 +85,7 @@
   "videos": [
     {
       "nome": "Alien Trilogy (PS1) - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "22/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -101,7 +101,7 @@
     },
     {
       "nome": "Alien Trilogy (PS1) - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "25/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -117,7 +117,7 @@
     },
     {
       "nome": "Alien Trilogy (PS1) - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "25/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -133,7 +133,7 @@
     },
     {
       "nome": "Alien Trilogy (PS1) - VOD 4",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "25/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -149,7 +149,7 @@
     },
     {
       "nome": "Alien Trilogy (PS1) - VOD 5",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "26/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -165,7 +165,7 @@
     },
     {
       "nome": "Alien Trilogy (PS1) - VOD 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "26/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -181,7 +181,7 @@
     },
     {
       "nome": "Alien Trilogy (PS1) - VOD 7",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "02/11/2025",
       "plataforma": "youtube",
       "links": {
@@ -197,7 +197,7 @@
     },
     {
       "nome": "Alien Trilogy (PS1) - VOD 8",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "03/11/2025",
       "plataforma": "youtube",
       "links": {
@@ -213,7 +213,7 @@
     },
     {
       "nome": "Alien Trilogy (PS1) - VOD 9",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "03/11/2025",
       "plataforma": "youtube",
       "links": {

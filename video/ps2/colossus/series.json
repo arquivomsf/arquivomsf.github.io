@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "19"
         }
     ],
     "analise": [
         {
             "nome": "Shadow of the Colossus de PlayStation 2 | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/G9XXdMT-FhM",
             "duracao": {
                 "horas": 0,

@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Pandemonium 2 (PS1 - VOD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "10",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 2.5",
       "id": "pandemonium2-2-5",
-      "imagem": "pandemonium2-2-5.jpg",
+      "imagem": "pandemonium2-2-5.webp",
       "data": "06/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 4.5",
       "id": "pandemonium2-4-5",
-      "imagem": "pandemonium2-4-5.jpg",
+      "imagem": "pandemonium2-4-5.webp",
       "data": "07/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -51,7 +51,7 @@
   "videos": [
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -67,7 +67,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -83,7 +83,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -99,7 +99,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -115,7 +115,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -131,7 +131,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -147,7 +147,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 7",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -163,7 +163,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - VOD 8",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/10/2025",
       "plataforma": "youtube",
       "links": {

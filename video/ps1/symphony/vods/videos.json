@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Castlevania: Symphony of the Night (PS1 - VOD)",
-      "imagem": "png",
+      "imagem": "webp",
       "quantidade": "3",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
       "id": "symphony_ps1",
-      "imagem": "../../../etc/symphony_ps1.png",
+      "imagem": "../../../etc/symphony_ps1.webp",
       "data": "23/02/2026",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
       "id": "symphony_psp",
-      "imagem": "../../../etc/symphony_psp.png",
+      "imagem": "../../../etc/symphony_psp.webp",
       "data": "23/02/2026",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     {
       "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
       "id": "symphony_ja",
-      "imagem": "../../../etc/symphony_ja.png",
+      "imagem": "../../../etc/symphony_ja.webp",
       "data": "23/02/2026",
       "plataforma": "youtube",
       "links": {
@@ -68,7 +68,7 @@
   "videos": [
     {
       "nome": "Castlevania: Symphony of the Night - VOD 1",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/02/2026",
       "plataforma": "youtube",
       "links": {
@@ -84,7 +84,7 @@
     },
     {
       "nome": "Castlevania: Symphony of the Night - VOD 2",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/02/2026",
       "plataforma": "youtube",
       "links": {
@@ -100,7 +100,7 @@
     },
     {
       "nome": "Castlevania: Symphony of the Night - VOD 3",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/02/2026",
       "plataforma": "youtube",
       "links": {

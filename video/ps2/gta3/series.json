@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "31"
         }
     ],
     "analise": [
         {
             "nome": "GTA 3 de PlayStation 2 | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/5l01kQU_M8Y",
             "duracao": {
                 "horas": 0,

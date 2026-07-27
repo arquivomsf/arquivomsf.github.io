@@ -2,21 +2,21 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "7"
         }
     ],
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
-            "imagem": "1.png",
+            "imagem": "1.webp",
             "quantidade": "3"
         }
     ],
     "vodsoficiais": [
         {
             "nome": "VODs Oficiais",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsUstehARxjwSQFzAjS5TZh",
             "quantidade": "11"
         }
@@ -24,7 +24,7 @@
     "analise": [
         {
             "nome": "Review de Castlevania: Symphony of the Night | Um dos Maiores Clássicos do PS1?",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/DgvWp2nR_fk",
             "duracao": {
                 "horas": 0,

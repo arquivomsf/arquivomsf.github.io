@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "7"
         }
     ],
     "analise": [
         {
             "nome": "Call of Duty World at War de PlayStation 2 | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/a7Rlm7OoMfc",
             "duracao": {
                 "horas": 0,

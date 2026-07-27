@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Harry Potter e a Pedra Filosofal (PS1)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "5",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS1 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "14/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS1 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS1 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS1 - Parte 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS1 - Parte 5 - Problema no Jogo",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/09/2025",
       "plataforma": "youtube",
       "links": {

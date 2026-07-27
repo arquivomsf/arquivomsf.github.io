@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Dia de São Patrício - Evento da DLive",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "2",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Dia de São Patrício - Evento da DLive (Dia 1)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/03/2026",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Dia de São Patrício - Evento da DLive (Dia 2)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/03/2026",
       "plataforma": "youtube",
       "links": {

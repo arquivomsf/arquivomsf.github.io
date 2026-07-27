@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Harry Potter and the Philosopher's Stone (PS1 - VOD)",
-      "imagem": "png",
+      "imagem": "webp",
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Harry Potter (PS1) - VOD 1",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "28/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Harry Potter (PS1) - VOD 2",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "28/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Harry Potter (PS1) - VOD 3",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "28/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Harry Potter (PS1) - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "28/08/2025",
       "plataforma": "youtube",
       "links": {

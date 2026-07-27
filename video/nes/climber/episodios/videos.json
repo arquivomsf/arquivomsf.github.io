@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Ice Climber (NES)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Ice Climber de NES - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "31/05/2022",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Ice Climber de NES - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "01/06/2022",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Ice Climber de NES - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "02/06/2022",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Ice Climber de NES - Parte 4 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "02/06/2022",
       "plataforma": "youtube",
       "links": {

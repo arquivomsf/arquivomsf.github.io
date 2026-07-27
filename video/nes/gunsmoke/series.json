@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "3"
         }
     ],
     "analise": [
         {
             "nome": "Gun.Smoke de NES | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/fbapV49tiL4",
             "duracao": {
                 "horas": 0,

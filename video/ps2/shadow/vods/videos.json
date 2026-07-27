@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Shadow the Hedgehog (PS2 - VOD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "2",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Shadow the Hedgehog (PS2) - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "31/03/2025",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Shadow the Hedgehog (PS2) - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "31/03/2025",
       "plataforma": "youtube",
       "links": {

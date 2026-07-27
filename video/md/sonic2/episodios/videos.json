@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Sonic The Hedgehog 2 (MD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "8",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/07/2024",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/07/2024",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/07/2024",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/07/2024",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/07/2024",
       "plataforma": "youtube",
       "links": {
@@ -95,7 +95,7 @@
     },
     {
       "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/07/2024",
       "plataforma": "youtube",
       "links": {
@@ -111,7 +111,7 @@
     },
     {
       "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 7",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "22/07/2024",
       "plataforma": "youtube",
       "links": {
@@ -127,7 +127,7 @@
     },
     {
       "nome": "Sonic the Hedgehog 2 de Mega Drive - Parte 8 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "23/07/2024",
       "plataforma": "youtube",
       "links": {

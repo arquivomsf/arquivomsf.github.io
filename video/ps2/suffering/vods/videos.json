@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "The Suffering (PS2 - VOD)",
-      "imagem": "png",
+      "imagem": "webp",
       "quantidade": "10",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "The Suffering (PS2) - VOD 2.5",
       "id": "suffering2-5",
-      "imagem": "suffering2-5.jpg",
+      "imagem": "suffering2-5.webp",
       "data": "08/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "The Suffering (PS2) - VOD 5.5",
       "id": "suffering5-5",
-      "imagem": "suffering5-5.jpg",
+      "imagem": "suffering5-5.webp",
       "data": "09/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     {
       "nome": "The Suffering (PS2) - VOD 7.5",
       "id": "suffering7-5",
-      "imagem": "suffering7-5.jpg",
+      "imagem": "suffering7-5.webp",
       "data": "10/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -68,7 +68,7 @@
   "videos": [
     {
       "nome": "The Suffering (PS2) - VOD 1",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "08/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -84,7 +84,7 @@
     },
     {
       "nome": "The Suffering (PS2) - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -100,7 +100,7 @@
     },
     {
       "nome": "The Suffering (PS2) - VOD 3",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "09/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -116,7 +116,7 @@
     },
     {
       "nome": "The Suffering (PS2) - VOD 4",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "09/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -132,7 +132,7 @@
     },
     {
       "nome": "The Suffering (PS2) - VOD 5",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "09/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -148,7 +148,7 @@
     },
     {
       "nome": "The Suffering (PS2) - VOD 6",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "10/01/2026",
       "plataforma": "youtube",
       "links": {
@@ -164,7 +164,7 @@
     },
     {
       "nome": "The Suffering (PS2) - VOD 7",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "10/01/2026",
       "plataforma": "youtube",
       "links": {

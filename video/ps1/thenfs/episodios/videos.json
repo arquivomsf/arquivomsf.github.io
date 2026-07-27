@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Road & Track Presents: The Need for Speed (PS1)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "5",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/11/2024",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/11/2024",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/11/2024",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/11/2024",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 5 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "22/11/2024",
       "plataforma": "youtube",
       "links": {

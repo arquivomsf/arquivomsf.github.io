@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Black (PS2 - VOD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "6",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Black (PS2) - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "27/07/2025",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Black (PS2) - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "02/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Black (PS2) - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "02/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Black (PS2) - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Black (PS2) - VOD 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/08/2025",
       "plataforma": "youtube",
       "links": {
@@ -95,7 +95,7 @@
     },
     {
       "nome": "Black (PS2) - VOD 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/08/2025",
       "plataforma": "youtube",
       "links": {

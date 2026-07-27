@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "37"
         }
     ],
     "analise": [
         {
             "nome": "GTA Vice City de PlayStation 2 | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/HXXB4vpn10s",
             "duracao": {
                 "horas": 0,

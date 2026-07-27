@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "4"
         }
     ],
     "analise": [
         {
             "nome": "Moto Racer de PlayStation 1 | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/B_4kio4a4f8",
             "duracao": {
                 "horas": 0,

@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Jackal (NES)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "3",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Jackal de NES - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "28/06/2022",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Jackal de NES - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/06/2022",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Jackal de NES - Parte 3 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "30/06/2022",
       "plataforma": "youtube",
       "links": {

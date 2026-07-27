@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "15"
         }
     ],
     "analise": [
         {
             "nome": "Light Crusader de Mega Drive | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/km2ik2q-xUA",
             "duracao": {
                 "horas": 0,

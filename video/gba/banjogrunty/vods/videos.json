@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge (GBA - VOD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "11",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "Marcelo conversando sobre jogos da Rockstar",
       "id": "rockstarcomp",
-      "imagem": "../../../etc/rockstarcomp.jpg",
+      "imagem": "../../../etc/rockstarcomp.webp",
       "data": "27/04/2025",
       "plataforma": "youtube",
       "links": {
@@ -34,7 +34,7 @@
   "videos": [
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -66,7 +66,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -82,7 +82,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -98,7 +98,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -114,7 +114,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -130,7 +130,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 7",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -146,7 +146,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 8",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "26/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -162,7 +162,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 9",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "27/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -178,7 +178,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD 10",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "27/06/2025",
       "plataforma": "youtube",
       "links": {
@@ -194,7 +194,7 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge de GBA - VOD Extra",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "27/06/2025",
       "plataforma": "youtube",
       "links": {

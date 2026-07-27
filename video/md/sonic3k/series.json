@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "14"
         }
     ],
     "analise": [
         {
             "nome": "Sonic 3 & Knuckles de Mega Drive | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/p-zemRoAKss",
             "duracao": {
                 "horas": 0,

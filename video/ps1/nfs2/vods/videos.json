@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Need for Speed 2 (PS1 - VOD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "5",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Need for Speed 2 de PS1 - VOD 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - VOD 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - VOD 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - VOD 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - VOD Extra",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {

@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "10"
         }
     ],
     "analise": [
         {
             "nome": "Review de The Godfather | O Melhor Jogo de Máfia do PS2?",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/6UuBTE1oyr8",
             "duracao": {
                 "horas": 0,
@@ -21,7 +21,7 @@
     "vodsoficiais": [
         {
             "nome": "VODs Oficiais",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvYFO3kDUmmO-c8wOTVnG2R",
             "quantidade": "9"
         }

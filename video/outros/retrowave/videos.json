@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Retrowave",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "6",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "_analise": [
     {
       "nome": "Retrowave | Análise do Jogo",
-      "imagem": "jpg",
+      "imagem": "webp",
       "link": "https://youtu.be/",
       "duracao": {
         "horas": 0,
@@ -28,7 +28,7 @@
     {
       "nome": "Retrowave - Gameplay 1",
       "nome_original": "Jogando Retrowave | 2026-05-29 09-18-19",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "12/06/2026",
       "plataforma": "youtube",
       "links": {
@@ -45,7 +45,7 @@
     {
       "nome": "Retrowave - Gameplay 2",
       "nome_original": "Jogando Retrowave | 2026-05-29 14-25-40",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/06/2026",
       "plataforma": "youtube",
       "links": {
@@ -62,7 +62,7 @@
     {
       "nome": "Retrowave - Gameplay 3",
       "nome_original": "Jogando Retrowave | 2026-05-29 15-20-48",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/06/2026",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     {
       "nome": "Retrowave - Gameplay 4",
       "nome_original": "Jogando Retro Wave | 2026-06-01 09-18-14",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/06/2026",
       "plataforma": "youtube",
       "links": {
@@ -96,7 +96,7 @@
     {
       "nome": "Retrowave - Gameplay 5",
       "nome_original": "Jogando Retro Wave | 2026-06-02 14-19-47",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/06/2026",
       "plataforma": "youtube",
       "links": {
@@ -113,7 +113,7 @@
     {
       "nome": "Retrowave - Gameplay 6",
       "nome_original": "Jogando Retrowave | 2026-06-03 11-28-49",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/06/2026",
       "plataforma": "youtube",
       "links": {

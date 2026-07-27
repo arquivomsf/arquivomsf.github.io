@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Assault Retribution (PS1)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Assault Retribution de PlayStation 1 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Assault Retribution de PlayStation 1 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Assault Retribution de PlayStation 1 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Assault Retribution de PlayStation 1 - Parte 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "20/12/2021",
       "plataforma": "youtube",
       "links": {

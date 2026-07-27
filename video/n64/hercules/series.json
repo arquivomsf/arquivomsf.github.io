@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "14"
         }
     ],
     "analise": [
         {
             "nome": "Hercules The Legendary Journeys de N64 | Análise e Dicas",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/mAYB1Y8Dr0Q",
             "duracao": {
                 "horas": 0,

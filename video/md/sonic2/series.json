@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "8"
         }
     ],
     "analise": [
         {
             "nome": "Sonic 2 de Mega Drive | Análise do Jogo",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/4n2Ydi3qcjI",
             "duracao": {
                 "horas": 0,

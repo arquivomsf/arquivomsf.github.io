@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Próximas Atualizações do Subway Surfers",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "80",
       "plataforma": "youtube",
       "links": {
@@ -16,7 +16,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Winter Holiday",
       "id": "natal2016",
-      "imagem": "natal2016.jpg",
+      "imagem": "natal2016.webp",
       "data": "27/12/2016",
       "plataforma": "youtube",
       "links": {
@@ -33,7 +33,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Amsterdam",
       "id": "amsterdam2017",
-      "imagem": "amsterdam2017.jpg",
+      "imagem": "amsterdam2017.webp",
       "data": "17/01/2017",
       "plataforma": "youtube",
       "links": {
@@ -50,7 +50,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Monaco",
       "id": "monaco2017",
-      "imagem": "monaco2017.jpg",
+      "imagem": "monaco2017.webp",
       "data": "18/04/2017",
       "plataforma": "youtube",
       "links": {
@@ -67,7 +67,7 @@
     {
       "nome": "Atualização do Subway Surfers depois do Hawaii 2017",
       "id": "hawaii2017",
-      "imagem": "hawaii2017.jpg",
+      "imagem": "hawaii2017.webp",
       "data": "08/05/2017",
       "plataforma": "youtube",
       "links": {
@@ -84,7 +84,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Copenhagen",
       "id": "copenhagen2017",
-      "imagem": "copenhagen2017.jpg",
+      "imagem": "copenhagen2017.webp",
       "data": "30/05/2017",
       "plataforma": "youtube",
       "links": {
@@ -101,7 +101,7 @@
     {
       "nome": "Atualização do Subway Surfers depois do Peru 2017",
       "id": "peru2017",
-      "imagem": "peru2017.jpg",
+      "imagem": "peru2017.webp",
       "data": "20/06/2017",
       "plataforma": "youtube",
       "links": {
@@ -118,7 +118,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Marrakesh",
       "id": "marrakesh2017",
-      "imagem": "marrakesh2017.jpg",
+      "imagem": "marrakesh2017.webp",
       "data": "07/07/2017",
       "plataforma": "youtube",
       "links": {
@@ -135,7 +135,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Shanghai",
       "id": "shanghai2017",
-      "imagem": "shanghai2017.jpg",
+      "imagem": "shanghai2017.webp",
       "data": "08/08/2017",
       "plataforma": "youtube",
       "links": {
@@ -152,7 +152,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Miami 2017",
       "id": "miami2017",
-      "imagem": "miami2017.jpg",
+      "imagem": "miami2017.webp",
       "data": "29/08/2017",
       "plataforma": "youtube",
       "links": {
@@ -169,7 +169,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Barcelona",
       "id": "barcelona2017",
-      "imagem": "barcelona2017.jpg",
+      "imagem": "barcelona2017.webp",
       "data": "19/09/2017",
       "plataforma": "youtube",
       "links": {
@@ -186,7 +186,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Singapore 2017",
       "id": "singapore2017",
-      "imagem": "singapore2017.jpg",
+      "imagem": "singapore2017.webp",
       "data": "10/10/2017",
       "plataforma": "youtube",
       "links": {
@@ -203,7 +203,7 @@
     {
       "nome": "Atualização do Subway Surfers depois do Mexico Halloween",
       "id": "mexico2017",
-      "imagem": "mexico2017.jpg",
+      "imagem": "mexico2017.webp",
       "data": "01/11/2017",
       "plataforma": "youtube",
       "links": {
@@ -220,7 +220,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Washington DC 2017",
       "id": "washington2017",
-      "imagem": "washington2017.jpg",
+      "imagem": "washington2017.webp",
       "data": "29/11/2017",
       "plataforma": "youtube",
       "links": {
@@ -237,7 +237,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Saint Petersburg",
       "id": "petersburg2017",
-      "imagem": "petersburg2017.jpg",
+      "imagem": "petersburg2017.webp",
       "data": "26/12/2017",
       "plataforma": "youtube",
       "links": {
@@ -254,7 +254,7 @@
     {
       "nome": "Atualização do Subway Surfers depois do Cairo",
       "id": "cairo2017",
-      "imagem": "cairo2017.jpg",
+      "imagem": "cairo2017.webp",
       "data": "17/01/2018",
       "plataforma": "youtube",
       "links": {
@@ -271,7 +271,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Chicago",
       "id": "chicago2018",
-      "imagem": "chicago2018.jpg",
+      "imagem": "chicago2018.webp",
       "data": "07/02/2018",
       "plataforma": "youtube",
       "links": {
@@ -288,7 +288,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Iceland",
       "id": "iceland2018",
-      "imagem": "iceland2018.jpg",
+      "imagem": "iceland2018.webp",
       "data": "10/04/2018",
       "plataforma": "youtube",
       "links": {
@@ -305,7 +305,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Buenos Aires",
       "id": "buenosaires2018",
-      "imagem": "buenosaires2018.jpg",
+      "imagem": "buenosaires2018.webp",
       "data": "01/05/2018",
       "plataforma": "youtube",
       "links": {
@@ -322,7 +322,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Monaco",
       "id": "monaco2018-1",
-      "imagem": "monaco2018-1.jpg",
+      "imagem": "monaco2018-1.webp",
       "data": "28/05/2018",
       "plataforma": "youtube",
       "links": {
@@ -339,7 +339,7 @@
     {
       "nome": "VEM AÍ UM LUGAR NOVO no Subway Surfers depois de Monaco",
       "id": "monaco2018-2",
-      "imagem": "monaco2018-2.jpg",
+      "imagem": "monaco2018-2.webp",
       "data": "29/05/2018",
       "plataforma": "youtube",
       "links": {
@@ -356,7 +356,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Venice Beach",
       "id": "venicebeach2018",
-      "imagem": "venicebeach2018.jpg",
+      "imagem": "venicebeach2018.webp",
       "data": "19/06/2018",
       "plataforma": "youtube",
       "links": {
@@ -373,7 +373,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Mumbai 2018",
       "id": "mumbai2018",
-      "imagem": "mumbai2018.jpg",
+      "imagem": "mumbai2018.webp",
       "data": "10/07/2018",
       "plataforma": "youtube",
       "links": {
@@ -390,7 +390,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Havana 2018",
       "id": "havana2018",
-      "imagem": "havana2018.jpg",
+      "imagem": "havana2018.webp",
       "data": "07/08/2018",
       "plataforma": "youtube",
       "links": {
@@ -407,7 +407,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Berlin",
       "id": "berlin2018",
-      "imagem": "berlin2018.jpg",
+      "imagem": "berlin2018.webp",
       "data": "18/09/2018",
       "plataforma": "youtube",
       "links": {
@@ -424,7 +424,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de Hong Kong",
       "id": "hongkong2018",
-      "imagem": "hongkong2018.jpg",
+      "imagem": "hongkong2018.webp",
       "data": "09/10/2018",
       "plataforma": "youtube",
       "links": {
@@ -441,7 +441,7 @@
     {
       "nome": "Atualização do Subway Surfers depois de New Orleans 2018",
       "id": "neworleans2018",
-      "imagem": "neworleans2018.jpg",
+      "imagem": "neworleans2018.webp",
       "data": "30/10/2018",
       "plataforma": "youtube",
       "links": {
@@ -458,7 +458,7 @@
     {
       "nome": "Subway Surfers São Petersburgo 2020 | Caçada Sazonal Nível 40 com Manny",
       "id": "petersburg2020",
-      "imagem": "petersburg2020.jpg",
+      "imagem": "petersburg2020.webp",
       "data": "06/01/2021",
       "plataforma": "youtube",
       "links": {
@@ -475,7 +475,7 @@
     {
       "nome": "Subway Surfers das Cavernas com Dinossauros",
       "id": "irlanda2024-2",
-      "imagem": "irlanda2024-2.jpg",
+      "imagem": "irlanda2024-2.webp",
       "data": "22/03/2024",
       "plataforma": "youtube",
       "links": {
@@ -493,7 +493,7 @@
   "videos": [
     {
       "nome": "Atualização do Subway Surfers depois de Houston 2019",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "26/11/2019",
       "plataforma": "youtube",
       "links": {
@@ -509,7 +509,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Winter Holiday 2019",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "28/12/2019",
       "plataforma": "youtube",
       "links": {
@@ -525,7 +525,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Chicago 2019",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/01/2020",
       "plataforma": "youtube",
       "links": {
@@ -541,7 +541,7 @@
     },
     {
       "nome": "VAZOU A ATUALIZAÇÃO DE HALLOWEEN do Subway Surfers de 2020",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/10/2020",
       "plataforma": "youtube",
       "links": {
@@ -557,7 +557,7 @@
     },
     {
       "nome": "Subway Surfers Estação Espacial | Caçada Sazonal | Próxima Atualização",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "27/01/2021",
       "plataforma": "youtube",
       "links": {
@@ -573,7 +573,7 @@
     },
     {
       "nome": "Subway Surfers Berlim 2021 | Próxima Atualização | Caçada Sazonal",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "10/03/2021",
       "plataforma": "youtube",
       "links": {
@@ -589,7 +589,7 @@
     },
     {
       "nome": "Próxima Atualização e Caçada Sazonal | Subway Surfers Copenhagen 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "01/06/2021",
       "plataforma": "youtube",
       "links": {
@@ -605,7 +605,7 @@
     },
     {
       "nome": "Próxima Atualização e Caçada Sazonal | Subway Surfers Chang'an",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "22/06/2021",
       "plataforma": "youtube",
       "links": {
@@ -621,7 +621,7 @@
     },
     {
       "nome": "Próxima Atualização e Caçada Sazonal | Subway Surfers Paris 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "13/07/2021",
       "plataforma": "youtube",
       "links": {
@@ -637,7 +637,7 @@
     },
     {
       "nome": "Subway Surfers Paris 2021 | Vazou a Próxima Atualização | Recorde com Bonnie",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/07/2021",
       "plataforma": "youtube",
       "links": {
@@ -653,7 +653,7 @@
     },
     {
       "nome": "Próxima Atualização e Caçada Sazonal | Subway Surfers Tóquio 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/08/2021",
       "plataforma": "youtube",
       "links": {
@@ -669,7 +669,7 @@
     },
     {
       "nome": "Subway Surfers Tóquio 2021 | Vazou a Próxima Atualização | Recorde com EZ Jive",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/08/2021",
       "plataforma": "youtube",
       "links": {
@@ -685,7 +685,7 @@
     },
     {
       "nome": "Próxima Atualização e 150 Chaves | Subway Surfers Mumbai 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/08/2021",
       "plataforma": "youtube",
       "links": {
@@ -701,7 +701,7 @@
     },
     {
       "nome": "Subway Surfers Mumbai 2021 | Vazou a Próxima Atualização | Recorde com Mina Robo",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "27/08/2021",
       "plataforma": "youtube",
       "links": {
@@ -717,7 +717,7 @@
     },
     {
       "nome": "Próxima Atualização e 200 Chaves | Subway Surfers Las Vegas 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "14/09/2021",
       "plataforma": "youtube",
       "links": {
@@ -733,7 +733,7 @@
     },
     {
       "nome": "Subway Surfers Las Vegas 2021 | Vazou a Próxima Atualização | Recorde com Akira",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/09/2021",
       "plataforma": "youtube",
       "links": {
@@ -749,7 +749,7 @@
     },
     {
       "nome": "Próxima Atualização de Halloween e 10 Chaves no Subway Surfers Marrakesh 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/10/2021",
       "plataforma": "youtube",
       "links": {
@@ -765,7 +765,7 @@
     },
     {
       "nome": "Atualização de Halloween do Subway Surfers depois de Marrakesh 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/10/2021",
       "plataforma": "youtube",
       "links": {
@@ -781,7 +781,7 @@
     },
     {
       "nome": "Subway Surfers Mexico Halloween 2021 | Próxima Atualização | Recorde com Jamie",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "25/10/2021",
       "plataforma": "youtube",
       "links": {
@@ -797,7 +797,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Mexico Halloween 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "29/10/2021",
       "plataforma": "youtube",
       "links": {
@@ -813,7 +813,7 @@
     },
     {
       "nome": "Subway Surfers Vancouver 2021 | Cyberpunk de Próxima Geração Adiado | Recorde com Boombot",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/11/2021",
       "plataforma": "youtube",
       "links": {
@@ -829,7 +829,7 @@
     },
     {
       "nome": "Subway Surfers Vancouver 2021 | Próxima Atualização | Recorde com Hugo Pirate",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/11/2021",
       "plataforma": "youtube",
       "links": {
@@ -845,7 +845,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Vancouver 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/11/2021",
       "plataforma": "youtube",
       "links": {
@@ -861,7 +861,7 @@
     },
     {
       "nome": "Subway Surfers Venice Beach 2021 | Próxima Atualização | Recorde com Bob the Blob",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -877,7 +877,7 @@
     },
     {
       "nome": "Atualização de Natal do Subway Surfers depois de Venice Beach 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "10/12/2021",
       "plataforma": "youtube",
       "links": {
@@ -893,7 +893,7 @@
     },
     {
       "nome": "Subway Surfers Polo Norte 2021 | Próxima Atualização | Recorde com Hou",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/01/2022",
       "plataforma": "youtube",
       "links": {
@@ -909,7 +909,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Polo Norte 2021",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/01/2022",
       "plataforma": "youtube",
       "links": {
@@ -925,7 +925,7 @@
     },
     {
       "nome": "Subway Surfers Cairo 2022 | Próxima Atualização | Recorde com Pride Jake",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/01/2022",
       "plataforma": "youtube",
       "links": {
@@ -941,7 +941,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Cairo 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "28/01/2022",
       "plataforma": "youtube",
       "links": {
@@ -957,7 +957,7 @@
     },
     {
       "nome": "Subway Surfers Ano Novo Lunar 2022 | Próxima Atualização | Recorde com Miss Maia",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "14/02/2022",
       "plataforma": "youtube",
       "links": {
@@ -973,7 +973,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Ano Novo Lunar 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/02/2022",
       "plataforma": "youtube",
       "links": {
@@ -989,7 +989,7 @@
     },
     {
       "nome": "Subway Surfers Barcelona 2022 | Próxima Atualização | Recorde com King Royal",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -1005,7 +1005,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Barcelona 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "11/03/2022",
       "plataforma": "youtube",
       "links": {
@@ -1021,7 +1021,7 @@
     },
     {
       "nome": "Atualização de 10 Anos do Subway Surfers depois de Monaco 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "13/05/2022",
       "plataforma": "youtube",
       "links": {
@@ -1037,7 +1037,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Copenhagen 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/06/2022",
       "plataforma": "youtube",
       "links": {
@@ -1053,7 +1053,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de San Francisco 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/06/2022",
       "plataforma": "youtube",
       "links": {
@@ -1069,7 +1069,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Iceland 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "14/07/2022",
       "plataforma": "youtube",
       "links": {
@@ -1085,7 +1085,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois da Cidade do Metrô",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "04/08/2022",
       "plataforma": "youtube",
       "links": {
@@ -1101,7 +1101,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois da Grécia 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "25/08/2022",
       "plataforma": "youtube",
       "links": {
@@ -1117,7 +1117,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois Shenzhen 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "15/09/2022",
       "plataforma": "youtube",
       "links": {
@@ -1133,7 +1133,7 @@
     },
     {
       "nome": "Atualização de Halloween do Subway Surfers depois de Mumbai 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "07/10/2022",
       "plataforma": "youtube",
       "links": {
@@ -1149,7 +1149,7 @@
     },
     {
       "nome": "VAZOU A PRIMEIRA IMAGEM da atualização do Subway Surfers depois de Mexico 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "25/10/2022",
       "plataforma": "youtube",
       "links": {
@@ -1165,7 +1165,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Mexico Halloween 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "28/10/2022",
       "plataforma": "youtube",
       "links": {
@@ -1181,7 +1181,7 @@
     },
     {
       "nome": "VAZOU O LOCAL DA ATUALIZAÇÃO do Subway Surfers depois de Luoyang",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "14/11/2022",
       "plataforma": "youtube",
       "links": {
@@ -1197,7 +1197,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Luoyang",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "17/11/2022",
       "plataforma": "youtube",
       "links": {
@@ -1213,7 +1213,7 @@
     },
     {
       "nome": "Atualização de Natal do Subway Surfers depois do Cairo 2022",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/12/2022",
       "plataforma": "youtube",
       "links": {
@@ -1229,7 +1229,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de New York 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "22/06/2023",
       "plataforma": "youtube",
       "links": {
@@ -1245,7 +1245,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Fantasy Fest 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "13/07/2023",
       "plataforma": "youtube",
       "links": {
@@ -1261,7 +1261,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Buenos Aires 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/08/2023",
       "plataforma": "youtube",
       "links": {
@@ -1277,7 +1277,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização do Subway Surfers depois do Rio 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/08/2023",
       "plataforma": "youtube",
       "links": {
@@ -1293,7 +1293,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Rio 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/08/2023",
       "plataforma": "youtube",
       "links": {
@@ -1309,7 +1309,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização do Subway Surfers depois de Tokyo 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "30/08/2023",
       "plataforma": "youtube",
       "links": {
@@ -1325,7 +1325,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Tokyo 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "14/09/2023",
       "plataforma": "youtube",
       "links": {
@@ -1341,7 +1341,7 @@
     },
     {
       "nome": "1º Vazamento do Halloween do Subway Surfers 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/09/2023",
       "plataforma": "youtube",
       "links": {
@@ -1357,7 +1357,7 @@
     },
     {
       "nome": "Atualização de Halloween do Subway Surfers em 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "05/10/2023",
       "plataforma": "youtube",
       "links": {
@@ -1373,7 +1373,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização do Subway Surfers após Halloween 2023",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "12/10/2023",
       "plataforma": "youtube",
       "links": {
@@ -1389,7 +1389,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Haunted Hood Halloween 2023",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "03/11/2023",
       "plataforma": "youtube",
       "links": {
@@ -1405,7 +1405,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização do Subway Surfers após o Seoul 2023",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "06/11/2023",
       "plataforma": "youtube",
       "links": {
@@ -1421,7 +1421,7 @@
     },
     {
       "nome": "Vazaram os Personagens do Subway Surfers depois de Seoul 2023",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "15/11/2023",
       "plataforma": "youtube",
       "links": {
@@ -1437,7 +1437,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Seoul 2023",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "16/11/2023",
       "plataforma": "youtube",
       "links": {
@@ -1453,7 +1453,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização de Natal do Subway Surfers 2023",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "23/11/2023",
       "plataforma": "youtube",
       "links": {
@@ -1469,7 +1469,7 @@
     },
     {
       "nome": "Atualização de Natal do Subway Surfers em 2023",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "08/12/2023",
       "plataforma": "youtube",
       "links": {
@@ -1485,7 +1485,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização do Subway Surfers depois do Natal 2023",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "20/12/2023",
       "plataforma": "youtube",
       "links": {
@@ -1501,7 +1501,7 @@
     },
     {
       "nome": "Primeira imagem do Subway Surfers depois de Shenzhen 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "09/01/2024",
       "plataforma": "youtube",
       "links": {
@@ -1517,7 +1517,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Shenzhen 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "26/01/2024",
       "plataforma": "youtube",
       "links": {
@@ -1533,7 +1533,7 @@
     },
     {
       "nome": "1º Vazamento do Subway Surfers depois de Grécia 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "01/02/2024",
       "plataforma": "youtube",
       "links": {
@@ -1549,7 +1549,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Grécia 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "15/02/2024",
       "plataforma": "youtube",
       "links": {
@@ -1565,7 +1565,7 @@
     },
     {
       "nome": "1º Vazamento do Subway Surfers depois de Rainhas de Vegas 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "21/02/2024",
       "plataforma": "youtube",
       "links": {
@@ -1581,7 +1581,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Vegas 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "08/03/2024",
       "plataforma": "youtube",
       "links": {
@@ -1597,7 +1597,7 @@
     },
     {
       "nome": "Vazou o Subway Surfers depois da Irlanda 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "13/03/2024",
       "plataforma": "youtube",
       "links": {
@@ -1613,7 +1613,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois da Irlanda 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "30/03/2024",
       "plataforma": "youtube",
       "links": {
@@ -1629,7 +1629,7 @@
     },
     {
       "nome": "Depois de Marrakesh do Subway Surfers vamos para onde?",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "05/04/2024",
       "plataforma": "youtube",
       "links": {
@@ -1645,7 +1645,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Marrakesh 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "19/04/2024",
       "plataforma": "youtube",
       "links": {
@@ -1661,7 +1661,7 @@
     },
     {
       "nome": "Já vazou o Subway Surfers depois de Underwater 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "27/04/2024",
       "plataforma": "youtube",
       "links": {
@@ -1677,7 +1677,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Underwater 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "15/05/2024",
       "plataforma": "youtube",
       "links": {
@@ -1693,7 +1693,7 @@
     },
     {
       "nome": "Já vazou o Subway Surfers depois do Classic 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "19/05/2024",
       "plataforma": "youtube",
       "links": {
@@ -1709,7 +1709,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois da Versão Clássica 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "05/06/2024",
       "plataforma": "youtube",
       "links": {
@@ -1725,7 +1725,7 @@
     },
     {
       "nome": "Já vazou o Subway Surfers depois de San Francisco 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "08/06/2024",
       "plataforma": "youtube",
       "links": {
@@ -1741,7 +1741,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de San Francisco 2024",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "24/06/2024",
       "plataforma": "youtube",
       "links": {
@@ -1757,7 +1757,7 @@
     },
     {
       "nome": "Já vazou o Subway Surfers depois de Hollywood",
-      "imagem": "png",
+      "imagem": "webp",
       "data": "29/06/2024",
       "plataforma": "youtube",
       "links": {

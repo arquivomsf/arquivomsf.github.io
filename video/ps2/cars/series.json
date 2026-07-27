@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.png",
+            "imagem": "1.webp",
             "quantidade": "16"
         }
     ],
     "analise": [
         {
             "nome": "Carros de PlayStation 2 vai além do conteúdo do filme",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/Zea353r9yj0",
             "duracao": {
                 "horas": 0,

@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Disney's Tarzan (N64)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "3",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Disney's Tarzan de Nintendo 64 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "06/03/2023",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Disney's Tarzan de Nintendo 64 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/03/2023",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Disney's Tarzan de Nintendo 64 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "09/03/2023",
       "plataforma": "youtube",
       "links": {

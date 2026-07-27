@@ -2,14 +2,14 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "5"
         }
     ],
     "vodsoficiais": [
         {
             "nome": "VODs Oficiais",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsdyE4fRUd7C3fjc_3MRPkw",
             "quantidade": "3"
         }
@@ -17,7 +17,7 @@
     "analise": [
         {
             "nome": "Review de Kirby: Nightmare in Dream Land | Vale a Fama que Tem?",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/5aWnrRCz9KU",
             "duracao": {
                 "horas": 0,

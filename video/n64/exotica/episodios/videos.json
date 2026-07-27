@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Cruis'n Exotica (N64)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Cruis'n Exotica de Nintendo 64 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "01/05/2023",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Cruis'n Exotica de Nintendo 64 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "02/05/2023",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Cruis'n Exotica de Nintendo 64 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "08/05/2023",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Cruis'n Exotica de Nintendo 64 - Parte 4 FINAL",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "09/05/2023",
       "plataforma": "youtube",
       "links": {

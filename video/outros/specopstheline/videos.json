@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Spec Ops: The Line (Clipes)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "5",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "analise": [
     {
       "nome": "Review de Spec Ops: The Line | Vale a Pena Mesmo com Gameplay Simples?",
-      "imagem": "jpg",
+      "imagem": "webp",
       "link": "https://youtu.be/rUEdlxOnxWg",
       "duracao": {
         "horas": 0,
@@ -28,7 +28,7 @@
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 1",
       "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-01-45",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/03/2025",
       "plataforma": "youtube",
       "links": {
@@ -45,7 +45,7 @@
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 2",
       "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-11-54",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/03/2025",
       "plataforma": "youtube",
       "links": {
@@ -62,7 +62,7 @@
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 3",
       "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-22-00",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/03/2025",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 4",
       "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-32-02",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/03/2025",
       "plataforma": "youtube",
       "links": {
@@ -96,7 +96,7 @@
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 5",
       "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-40-14",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "03/03/2025",
       "plataforma": "youtube",
       "links": {

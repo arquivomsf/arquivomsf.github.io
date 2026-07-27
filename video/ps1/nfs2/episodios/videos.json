@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Need for Speed 2 (PS1)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "7",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Need for Speed 2 de PS1 - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "21/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "23/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - Parte 4",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "24/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -79,7 +79,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - Parte 5",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "25/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -95,7 +95,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - Parte 6",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "26/09/2025",
       "plataforma": "youtube",
       "links": {
@@ -111,7 +111,7 @@
     },
     {
       "nome": "Need for Speed 2 de PS1 - Parte 7 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "27/09/2025",
       "plataforma": "youtube",
       "links": {

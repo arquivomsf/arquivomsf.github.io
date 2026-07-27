@@ -2,21 +2,21 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "7"
         }
     ],
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
-            "imagem": "1.jpg",
+            "imagem": "1.webp",
             "quantidade": "5"
         }
     ],
     "analise": [
         {
             "nome": "Review de Need for Speed 2 | O Clássico que Consolidou a Franquia",
-            "imagem": "jpg",
+            "imagem": "webp",
             "link": "https://youtu.be/Duw7wEnlhOc",
             "duracao": {
                 "horas": 0,

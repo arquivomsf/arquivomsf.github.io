@@ -2,7 +2,7 @@
   "playlist": [
     {
       "nome": "Socket (MD)",
-      "imagem": "jpg",
+      "imagem": "webp",
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
@@ -15,7 +15,7 @@
   "videos": [
     {
       "nome": "Socket de Mega Drive - Parte 1",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "18/05/2022",
       "plataforma": "youtube",
       "links": {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "Socket de Mega Drive - Parte 2",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/05/2022",
       "plataforma": "youtube",
       "links": {
@@ -47,7 +47,7 @@
     },
     {
       "nome": "Socket de Mega Drive - Parte 3",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/05/2022",
       "plataforma": "youtube",
       "links": {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Socket de Mega Drive - Parte 4 Final",
-      "imagem": "jpg",
+      "imagem": "webp",
       "data": "19/05/2022",
       "plataforma": "youtube",
       "links": {
