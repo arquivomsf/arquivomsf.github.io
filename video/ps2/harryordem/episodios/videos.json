@@ -3,7 +3,7 @@
     {
       "nome": "Harry Potter e a Ordem da Fênix (PS2)",
       "imagem": "webp",
-      "quantidade": "7",
+      "quantidade": "10",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLUHEYuIpoZJo",
@@ -130,6 +130,57 @@
         "horas": 0,
         "minutos": 9,
         "segundos": 48
+      }
+    },
+    {
+      "nome": "Jogando Harry Potter e a Ordem da Fênix de PS2 | Parte 8",
+      "nome_original": "Harry Potter e a Ordem da Fênix de PS2 | 2026-07-14 09-16-24",
+      "imagem": "webp",
+      "data": "29/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/QS3Jh2D73Vk",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-harry-potter-ordem-playstation-2/P08+-+Harry+Potter+e+a+Ordem+da+F%C3%AAnix+de+PS2+_+2026-07-14+09-16-24.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 45,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "Jogando Harry Potter e a Ordem da Fênix de PS2 | Parte 9",
+      "nome_original": "Harry Potter e a Ordem da Fênix de PS2 | 2026-07-14 11-58-06",
+      "imagem": "webp",
+      "data": "29/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tpBPl36jGlc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-harry-potter-ordem-playstation-2/P09+-+Harry+Potter+e+a+Ordem+da+F%C3%AAnix+de+PS2+_+2026-07-14+11-58-06.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "Jogando Harry Potter e a Ordem da Fênix de PS2 | Parte 10",
+      "nome_original": "Harry Potter e a Ordem da Fênix de PS2 | 2026-07-14 13-51-26",
+      "imagem": "webp",
+      "data": "29/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/KiHXxnMxbEg",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-harry-potter-ordem-playstation-2/P10+-+Harry+Potter+e+a+Ordem+da+F%C3%AAnix+de+PS2+_+2026-07-14+13-51-26.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 30,
+        "segundos": 20
       }
     }
   ]

@@ -24,6 +24,25 @@
       }
     }
   ],
+  "extras": [
+    {
+      "nome": "Metal Hellsinger: até onde consigo chegar no Leviathan?",
+      "id": "metalrogue1",
+      "imagem": "metalrogue1.webp",
+      "data": "29/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/5HDkiOR9MEA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 0,
+        "segundos": 25
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "Metal Hellsinger | Parte 1 + Reacts",
