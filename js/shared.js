@@ -38,6 +38,7 @@ var dados_jogo = "";
 var dados_serie = "";
 var dados_off = {"lostmedia": []};
 var dados_franquia = "";
+var dados_console_keys = {};
 
 async function fetch_dados(tipo,file,tipo2 = "",file2 = "",load = true) {
     let file_object = await fetch(file);
@@ -183,6 +184,8 @@ function carregar_consoles_temas(modo,parametro) {
             let console_nome = consoles[i].nome;
             let console_sigla = consoles[i].sigla;
 
+            dados_console_keys[console_sigla] = console_nome;
+
             let console_url = "";
             if(modo == "404") console_url = `https://arquivomsf.github.io/console?id=${console_sigla}`;
             else console_url = `console?id=${console_sigla}`;
@@ -215,8 +218,8 @@ function carregar_consoles_temas(modo,parametro) {
             for (var i = 0; i<jogos_objeto.length; i++){
                 let jogo_nome = jogos_objeto[i].nome;
                 let jogo_nome_curto = jogos_objeto[i].curto;
-                let jogo_console_nome = jogos_objeto[i].console;
-                let jogo_console_sigla = jogos_objeto[i].consigla;
+                let jogo_console_sigla = jogos_objeto[i].console;
+                let jogo_console_nome = `${get_console_name(jogo_console_sigla)} (${jogo_console_sigla.toUpperCase()})`;
 
                 //verificar se é o jogo atual pra tambem colocar no titulo da página
                 if(jogo_nome_curto == parametro){
@@ -866,29 +869,7 @@ function debug_disable() {
 }
 
 function get_console_name(sigla) {
-    switch(sigla) {
-        case "nes":
-            return "Nintendo"
-        break;
-        case "n64":
-            return "Nintendo 64"
-        break;
-        case "gba":
-            return "Game Boy Advance"
-        break;
-        case "md":
-            return "Mega Drive"
-        break;
-        case "dc":
-            return "Dreamcast"
-        break;
-        case "ps1":
-            return "PlayStation 1"
-        break;
-        case "ps2":
-            return "PlayStation 2"
-        break;
-    }
+    return dados_console_keys[sigla];
 }
 
 function get_plataforma_icon(plataforma) {

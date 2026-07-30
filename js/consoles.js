@@ -21,7 +21,7 @@ function carregar_itens() {
   for (var i = 0; i<dados_geral.jogos.length; i++){
     let jogo_nome = dados_geral.jogos[i].nome;
     let jogo_tags = dados_geral.jogos[i].tags;
-    let jogo_console_sigla = dados_geral.jogos[i].consigla;
+    let jogo_console_sigla = dados_geral.jogos[i].console;
     let jogo_nome_curto = dados_geral.jogos[i].curto;
     let nome_processado = pesquisa_processar_string(jogo_tags);
 

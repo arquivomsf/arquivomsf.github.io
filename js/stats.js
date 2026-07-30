@@ -50,7 +50,7 @@ function carregarStats(){
         document.querySelector(".counter-jogo").innerHTML = `${data.jogos.length} jogos`;
 
         for (var i = 0; i<data.jogos.length; i++){
-            let jogo_console_sigla = data.jogos[i].consigla;
+            let jogo_console_sigla = data.jogos[i].console;
             let jogo_nome_curto = data.jogos[i].curto;
             jogos_counter++;
             //document.querySelector(".counter-jogo").innerHTML = `${jogos_counter} jogos`;

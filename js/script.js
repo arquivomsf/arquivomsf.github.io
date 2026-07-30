@@ -12,7 +12,7 @@ function carregarDados() {
 function carregar_itens() {
     for (var i = 0; i<dados_geral.jogos.length; i++){
         let jogo_nome = dados_geral.jogos[i].nome;
-        let jogo_console_sigla = dados_geral.jogos[i].consigla;
+        let jogo_console_sigla = dados_geral.jogos[i].console;
         let jogo_console_nome = get_console_name(jogo_console_sigla);
         let jogo_nome_curto = dados_geral.jogos[i].curto;
         let jogo_tags = dados_geral.jogos[i].tags;
@@ -38,7 +38,7 @@ function carregar_itens() {
     for (var i = 0; i<dados_geral.standalone.length; i++){
         let standalone_nome = dados_geral.standalone[i].nome;
         let standalone_imagem = dados_geral.standalone[i].imagem;
-        let standalone_console_sigla = dados_geral.standalone[i].consigla;
+        let standalone_console_sigla = "etc";
         let standalone_nome_curto = dados_geral.standalone[i].curto;
         let standalone_tags = dados_geral.standalone[i].tags;
         let nome_processado = pesquisa_processar_string(standalone_tags);
@@ -66,7 +66,7 @@ function carregar_itens() {
     for (var i = 0; i<dados_geral.outros.length; i++){
         let outros_nome = dados_geral.outros[i].nome;
         let outros_imagem = dados_geral.outros[i].imagem;
-        let outros_console_sigla = dados_geral.outros[i].consigla;
+        let outros_console_sigla = "outros";
         let outros_nome_curto = dados_geral.outros[i].curto;
         let outros_categoria = dados_geral.outros[i].categoria;
         let outros_tags = dados_geral.outros[i].tags;

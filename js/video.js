@@ -234,27 +234,23 @@ function carregar_itens() {
   let video_plataforma = dados_serie.videos[episodioAtual].plataforma;
   let video_link = dados_serie.videos[episodioAtual].links[fonteAtual];
   let video_imagem = dados_serie.videos[episodioAtual].imagem;
-  for (var i = 0; i<dados_geral.consoles.length; i++){
-    let console_nome = dados_geral.consoles[i].nome;
-    let console_sigla = dados_geral.consoles[i].sigla;
-    if (console_sigla == consoleAtual) {
-      document.querySelector(".navbar-two").innerHTML = `${console_nome} (${console_sigla.toUpperCase()})`;
-      document.querySelector(".navbar-two").href = `console?id=${console_sigla}`;
-      document.querySelector(".navbar-two-sigla").innerHTML = `${console_sigla.toUpperCase()}`;
-      document.querySelector(".navbar-two-sigla").href = `console?id=${console_sigla}`;
-      for (var i = 0; i<dados_geral.jogos.length; i++){
-        let jogo_nome = dados_geral.jogos[i].nome;
-        let jogo_nome_curto = dados_geral.jogos[i].curto;
-        if (jogo_nome_curto == jogoAtual) {
-          document.querySelector(".navbar-three").innerHTML = `${jogo_nome}`;
-          document.querySelector(".navbar-three").href = `jogo?id=${jogo_nome_curto}&con=${console_sigla}`;
-          document.querySelector(".navbar-three-mobile").innerHTML = `${jogo_nome}`;
-          document.querySelector(".navbar-three-mobile").href = `jogo?id=${jogo_nome_curto}&con=${console_sigla}`;
-          document.querySelector(".video-title").innerHTML = `${video_nome}`;
-        }
-      }
+
+  document.querySelector(".navbar-two").innerHTML = `${get_console_name(consoleAtual)} (${consoleAtual.toUpperCase()})`;
+  document.querySelector(".navbar-two").href = `console?id=${consoleAtual}`;
+  document.querySelector(".navbar-two-sigla").innerHTML = `${consoleAtual.toUpperCase()}`;
+  document.querySelector(".navbar-two-sigla").href = `console?id=${consoleAtual}`;
+  for (var i = 0; i<dados_geral.jogos.length; i++){
+    let jogo_nome = dados_geral.jogos[i].nome;
+    let jogo_nome_curto = dados_geral.jogos[i].curto;
+    if (jogo_nome_curto == jogoAtual) {
+      document.querySelector(".navbar-three").innerHTML = `${jogo_nome}`;
+      document.querySelector(".navbar-three").href = `jogo?id=${jogo_nome_curto}&con=${consoleAtual}`;
+      document.querySelector(".navbar-three-mobile").innerHTML = `${jogo_nome}`;
+      document.querySelector(".navbar-three-mobile").href = `jogo?id=${jogo_nome_curto}&con=${consoleAtual}`;
+      document.querySelector(".video-title").innerHTML = `${video_nome}`;
     }
   }
+
   document.title = `${video_nome}`;
   document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
   document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
