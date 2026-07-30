@@ -17,6 +17,8 @@ function startTema() {
     }
     document.body.setAttribute("data-tema", tema);
     localStorage.setItem("tema", tema);
+
+    check_egg();
 }
 
 function setTema(tema_esc) {
@@ -219,6 +221,7 @@ function carregar_consoles_temas(modo,parametro) {
                 let jogo_nome = jogos_objeto[i].nome;
                 let jogo_nome_curto = jogos_objeto[i].curto;
                 let jogo_console_sigla = jogos_objeto[i].console;
+                if (modo == "outro") jogo_console_sigla = "outros";
                 let jogo_console_nome = `${get_console_name(jogo_console_sigla)} (${jogo_console_sigla.toUpperCase()})`;
 
                 //verificar se é o jogo atual pra tambem colocar no titulo da página
@@ -262,6 +265,8 @@ function setTab(cur_el,selected_tab) {
         el.classList.add("hidden");
     });
     document.querySelector("#"+selected_tab).classList.remove("hidden");
+
+    if (typeof jogoAtual !== 'undefined') if (jogoAtual == "evento-pascoa2026") try_egg(selected_tab);
 }
 
 //processar texto pra ser um pouquinho mais considerativo na digitação
@@ -902,4 +907,45 @@ function embed_replace(url, plataforma) {
         break;
     }
     return url
+}
+
+var current_tab = "ep_page";
+
+function try_egg(tab) {
+    if(!check_egg()) {
+        let random_number;
+        if (current_tab != tab && tab == "ep_page") random_number = Math.floor(Math.random(50)*50);
+        current_tab = tab;
+
+        if (random_number == 49) window.location.href = "https://arquivomsf.github.io/video/outros/evento-pascoa2026/tree";
+    }
+}
+
+function check_egg() {
+    let egg = localStorage.getItem("egg");
+    if (egg == null || egg == "undefined" || egg == false || egg == "false" || egg == "0" || egg == 0 || egg == "") {
+        egg = false;
+        localStorage.setItem("egg", egg);
+    }
+    else if (egg == true || egg == "true" || egg == "1" || egg == 1) {
+        egg = true;
+        localStorage.setItem("egg", egg);
+    }
+
+    if(egg) {
+        if (document.querySelector(".egg_div") == null) {
+            let spr_egg = "https://arquivomsf.github.io/video/outros/evento-pascoa2026/tree/spr_egg.png";
+            document.querySelector("#sidebar_main").innerHTML += `
+                <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Ovo</span>
+                <div class="maislinks_list flex flex-col mb-3 egg_div">
+                        <a title="Não tão importante, não tão desimportante." class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                            <img src="${spr_egg}" style="image-rendering: pixelated;">
+                        </a>
+                    </div>
+                </div>
+            `;
+        }
+    }
+
+    return egg;
 }
