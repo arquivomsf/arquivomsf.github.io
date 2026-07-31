@@ -1546,6 +1546,13 @@
       "imagem": "1.webp",
       "curto": "uncharted3",
       "categoria": "PS3"
+    },
+    {
+      "nome": "Outlast Trials",
+      "tags": "Outlast Trials PC",
+      "imagem": "1.webp",
+      "curto": "outlasttrials",
+      "categoria": "PC"
     }
   ],
   "consoles": [

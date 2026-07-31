@@ -1,0 +1,46 @@
+{
+  "playlist": [
+    {
+      "nome": "Outlast Trials",
+      "imagem": "webp",
+      "quantidade": "1",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLZhpCuiX9VoA",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-outlast-trials"
+      }
+    }
+  ],
+  "_analise": [
+    {
+      "nome": "Outlast Trials | Análise do Jogo",
+      "imagem": "webp",
+      "link": "https://youtu.be/",
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 8
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Outlast Trials | Gameplay do Tutorial",
+      "nome_original": "Outlast Trials Gameplay do Tutorial | 2026-07-27 21-14-31",
+      "imagem": "webp",
+      "data": "31/07/2025",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-outlast-trials"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 25,
+        "segundos": 1
+      }
+    }
+  ]
+}
