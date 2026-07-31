@@ -939,7 +939,8 @@ function check_egg() {
                 <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Ovo</span>
                 <div class="maislinks_list flex flex-col mb-3 egg_div">
                         <a title="Não tão importante, não tão desimportante." class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                            <img src="${spr_egg}" style="image-rendering: pixelated;">
+                            <img src="${spr_egg}" title="Não tão importante, não tão desimportante." style="image-rendering: pixelated;">
+                            <span class="sm:hidden">Não tão importante, não tão desimportante.</span>
                         </a>
                     </div>
                 </div>

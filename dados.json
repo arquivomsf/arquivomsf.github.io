@@ -1267,6 +1267,24 @@
         "minutos": 19,
         "segundos": 32
       }
+    },
+    {
+      "nome": "Todas as cutscenes - Castlevania: Aria of Sorrow",
+      "tags": "Todas as cutscenes - Castlevania: Aria of Sorrow inglês japonês english japanese jpn nintendo game boy gameboy advance gba",
+      "imagem": "ariacutscenes.webp",
+      "curto": "ariacutscenes",
+      "data": "30/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/PGvB3C7fpuo",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-todas-as-cutscenes-castlevania-aria-of-sorrow"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 59,
+        "segundos": 10
+      }
     }
   ],
   "outros": [

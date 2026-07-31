@@ -12,6 +12,33 @@
       }
     }
   ],
+  "extras": [
+    {
+      "nome": "Todas as cutscenes - Castlevania: Aria of Sorrow",
+      "id": "ariacutscenes",
+      "imagem": "../../../etc/ariacutscenes.webp",
+      "data": "30/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/PGvB3C7fpuo",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-todas-as-cutscenes-castlevania-aria-of-sorrow"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 59,
+        "segundos": 10
+      }
+    }
+  ],
+  "_info": [
+    {
+      "duracoes": {
+        "graham final legit": "00:06:16.62",
+        "subtitles intro": "00:00:24.58"
+      }
+    }
+  ],
   "videos": [
     {
       "nome": "Castlevania: Aria of Sorrow de GBA | Parte 1",
