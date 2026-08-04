@@ -1269,6 +1269,25 @@
       }
     },
     {
+      "nome": "Jogando Uncharted 3 de PS3",
+      "nome_original": "Jogando Uncharted 3 de PS3 | 2026-07-01 10-15-09",
+      "tags": "Jogando Uncharted 3 de PS3 | 2026-07-01 10-15-09 PS3 PlayStation 3",
+      "imagem": "uncharted3.webp",
+      "curto": "uncharted3",
+      "data": "15/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/n6dGFplSzTk",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-uncharted-3"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 44,
+        "segundos": 15
+      }
+    },
+    {
       "nome": "Todas as cutscenes - Castlevania: Aria of Sorrow",
       "tags": "Todas as cutscenes - Castlevania: Aria of Sorrow inglês japonês english japanese jpn nintendo game boy gameboy advance gba",
       "imagem": "ariacutscenes.webp",
@@ -1284,6 +1303,25 @@
         "horas": 0,
         "minutos": 59,
         "segundos": 10
+      }
+    },
+    {
+      "nome": "Outlast Trials | Gameplay do Tutorial",
+      "nome_original": "Outlast Trials Gameplay do Tutorial | 2026-07-27 21-14-31",
+      "tags": "Outlast Trials | Gameplay do Tutorial pc pause",
+      "imagem": "outlasttrials.webp",
+      "curto": "outlasttrials",
+      "data": "31/07/2025",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Iixjwx-xIIg",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-outlast-trials"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 25,
+        "segundos": 1
       }
     }
   ],
@@ -1539,20 +1577,6 @@
       "imagem": "1.webp",
       "curto": "metalhellsinger",
       "categoria": "VOD"
-    },
-    {
-      "nome": "Uncharted 3",
-      "tags": "Uncharted 3 PS3 PlayStation 3",
-      "imagem": "1.webp",
-      "curto": "uncharted3",
-      "categoria": "PS3"
-    },
-    {
-      "nome": "Outlast Trials",
-      "tags": "Outlast Trials PC",
-      "imagem": "1.webp",
-      "curto": "outlasttrials",
-      "categoria": "PC"
     }
   ],
   "consoles": [
