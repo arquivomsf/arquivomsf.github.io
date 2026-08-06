@@ -3,7 +3,7 @@
     {
       "nome": "Metal Hellsinger",
       "imagem": "webp",
-      "quantidade": "6",
+      "quantidade": "8",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLTE9PaOXrVms",
@@ -25,6 +25,42 @@
     }
   ],
   "extras": [
+    {
+      "nome": "Metal Hellsinger: Leviathan Mode | Gameplay 1",
+      "nome_original": "Metal Hellsinger: Leviathan Mode | 2026-07-22 08-32-29",
+      "id": "metalroguel1",
+      "imagem": "metalroguel1.webp",
+      "data": "22/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3DCO9fJoRrE",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/PR01+-+Metal+Hellsinger_+Leviathan+Mode+_+2026-07-22+08-32-29.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 47,
+        "segundos": 59
+      }
+    },
+    {
+      "nome": "Metal Hellsinger: Leviathan Mode | Gameplay 2",
+      "nome_original": "Metal Hellsinger: Leviathan Mode | 2026-07-22 09-20-35",
+      "id": "metalroguel2",
+      "imagem": "metalroguel2.webp",
+      "data": "22/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/xnkexXmxn3I",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/PR02+-+Metal+Hellsinger_+Leviathan+Mode+_+2026-07-22+09-20-35.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 22,
+        "segundos": 28
+      }
+    },
     {
       "nome": "Metal Hellsinger: até onde consigo chegar no Leviathan?",
       "id": "metalrogue1",
