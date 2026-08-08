@@ -3,7 +3,7 @@
     {
       "nome": "Metal Hellsinger",
       "imagem": "webp",
-      "quantidade": "8",
+      "quantidade": "9",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLTE9PaOXrVms",
@@ -76,6 +76,23 @@
         "horas": 2,
         "minutos": 0,
         "segundos": 25
+      }
+    },
+    {
+      "nome": "Chegou a hora de enfrentar o Level 10 no Leviathan de Metal Hellsinger!",
+      "id": "metalrogue2",
+      "imagem": "metalrogue2.webp",
+      "data": "07/08/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DVilT28iiDs",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 0
       }
     }
   ],

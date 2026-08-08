@@ -1,0 +1,21 @@
+{
+    "episodios": [
+        {
+            "nome": "Episódios da CosTV",
+            "imagem": "1.webp",
+            "quantidade": "1"
+        }
+    ],
+    "_analise": [
+        {
+            "nome": "Review de Batman: Chaos in Gotham",
+            "imagem": "webp",
+            "link": "https://youtu.be/",
+            "duracao": {
+                "horas": 0,
+                "minutos": 7,
+                "segundos": 53
+            }
+        }
+    ]
+}

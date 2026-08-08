@@ -14,13 +14,13 @@
     },
     {
       "nome": "Spider-Man 2: Enter: Electro",
-      "tags": "Spider-Man 2: Enter: Electro Spider Man 2 Enter Electro homem aranha miranha sony ps1 playstation 1",
+      "tags": "Spider-Man 2: Enter: Electro Spider Man homem aranha miranha sony ps1 playstation 1",
       "console": "ps1",
       "curto": "miranha"
     },
     {
       "nome": "The Lost World: Jurassic Park",
-      "tags": "The Lost World: Jurassic Park The Lost World Jurassic Park dino dinossauro sony ps1 playstation 1",
+      "tags": "The Lost World: Jurassic Park dinossauro sony ps1 playstation 1",
       "console": "ps1",
       "curto": "jurassic"
     },
@@ -32,13 +32,13 @@
     },
     {
       "nome": "T'ai Fu Wrath of the Tiger",
-      "tags": "T'ai Fu Wrath of the Tiger Tai taifu sony ps1 playstation 1",
+      "tags": "T'ai Fu Wrath of the Tiger taifu sony ps1 playstation 1",
       "console": "ps1",
       "curto": "taifu"
     },
     {
       "nome": "Disney's Donald Duck: Goin' Quackers",
-      "tags": "Disney's Donald Duck: Goin' Quackers pato donald sony ps1 playstation 1",
+      "tags": "Disney's Donald Duck: Goin' Quackers pato sony ps1 playstation 1",
       "console": "ps1",
       "curto": "donald"
     },
@@ -56,85 +56,85 @@
     },
     {
       "nome": "Metal Slug X",
-      "tags": "Metal Slug X sony ps1 playstation 1",
+      "tags": "Metal Slug X slugx sony ps1 playstation 1",
       "console": "ps1",
       "curto": "slugx"
     },
     {
       "nome": "Sonic The Hedgehog",
-      "tags": "Sonic The Hedgehog 1 Sonic 1 sega mega drive sega genesis",
+      "tags": "Sonic The Hedgehog 1 sonic1 sega mega drive genesis md",
       "console": "md",
       "curto": "sonic1"
     },
     {
       "nome": "QuackShot",
-      "tags": "QuackShot Starring Donald Duck disney Disney's pato donald sega mega drive sega genesis",
+      "tags": "QuackShot Starring Donald Duck Disney's pato sega mega drive genesis md",
       "console": "md",
       "curto": "quackshot"
     },
     {
       "nome": "Zero Tolerance",
-      "tags": "Zero Tolerance sega mega drive sega genesis",
+      "tags": "Zero Tolerance zerotol sega mega drive genesis md",
       "console": "md",
       "curto": "zerotol"
     },
     {
       "nome": "Socket",
-      "tags": "Socket tipo sonic soniclike sega mega drive sega genesis",
+      "tags": "Socket tipo soniclike sega mega drive genesis md",
       "console": "md",
       "curto": "socket"
     },
     {
       "nome": "Light Crusader",
-      "tags": "Light Crusader action rpg de ação sega mega drive sega genesis",
+      "tags": "Light Crusader action rpg de ação sega mega drive genesis md",
       "console": "md",
       "curto": "crusader"
     },
     {
       "nome": "Ice Climber",
-      "tags": "Ice Climber nes nintendo",
+      "tags": "Ice Climber nes nintendo nintendinho",
       "console": "nes",
       "curto": "climber"
     },
     {
       "nome": "Adventure Island",
-      "tags": "Adventure Island nes nintendo",
+      "tags": "Adventure Island advisland nes nintendo nintendinho",
       "console": "nes",
       "curto": "advisland"
     },
     {
       "nome": "Gun.Smoke",
-      "tags": "Gun.Smoke nes nintendo",
+      "tags": "Gun.Smoke nes nintendo nintendinho",
       "console": "nes",
       "curto": "gunsmoke"
     },
     {
       "nome": "DuckTales",
-      "tags": "DuckTales disney Scrooge McDuck Tio Patinhas McPato nes nintendo",
+      "tags": "DuckTales disney's Scrooge McDuck Tio Patinhas McPato nes nintendo nintendinho",
       "console": "nes",
       "curto": "ducktales"
     },
     {
       "nome": "Jackal",
-      "tags": "Jackal Final Commando: Akai Yousai nes nintendo",
+      "tags": "Jackal Final Commando: Akai Yousai nes nintendo nintendinho",
       "console": "nes",
       "curto": "jackal"
     },
     {
       "nome": "Super Mario 64",
-      "tags": "Super Mario 64 n64 nintendo 64",
+      "tags": "Super Mario 64 mario64 n64 nintendo 64",
       "console": "n64",
       "curto": "mario64"
     },
     {
       "nome": "Castlevania: Legacy of Darkness",
-      "tags": "Castlevania: Legacy of Darkness n64 nintendo 64",
+      "tags": "Castlevania: Legacy of Darkness castlelod n64 nintendo 64",
       "console": "n64",
       "curto": "castlelod"
     },
     {
       "nome": "Hercules: The Legendary Journeys",
-      "tags": "Hercules: The Legendary Journeys Hércules: A Lendária Jornada hercules da serie n64 nintendo 64",
+      "tags": "Hercules: The Legendary Journeys Hércules: A Lendária Jornada da serie n64 nintendo 64",
       "console": "n64",
       "curto": "hercules"
     },
@@ -146,13 +146,13 @@
     },
     {
       "nome": "Cruis'n Exotica",
-      "tags": "Cruis'n Exotica n64 nintendo 64",
+      "tags": "Cruis'n Exotica Cruisin n64 nintendo 64",
       "console": "n64",
       "curto": "exotica"
     },
     {
       "nome": "God of War",
-      "tags": "God of War God of War 1 deus da guerra 1 bom de guerra 1 sony ps2 playstation 2",
+      "tags": "God of War 1 deus da guerra bom de gow1 sony ps2 playstation 2",
       "console": "ps2",
       "curto": "gow1"
     },
@@ -176,25 +176,25 @@
     },
     {
       "nome": "Call of Duty 2 - Big Red One",
-      "tags": "Call of Duty 2 Big Red One COD 2 Big Red One sony ps2 playstation 2",
+      "tags": "Call of Duty 2 Big Red One cod bigred sony ps2 playstation 2",
       "console": "ps2",
       "curto": "bigred"
     },
     {
       "nome": "Sonic The Hedgehog 2",
-      "tags": "Sonic The Hedgehog 2 Sonic 2 sega mega drive sega genesis",
+      "tags": "Sonic The Hedgehog 2 sonic2 sega mega drive genesis md",
       "console": "md",
       "curto": "sonic2"
     },
     {
       "nome": "Sonic The Hedgehog 3 & Knuckles",
-      "tags": "Sonic The Hedgehog 3 & Knuckles Sonic 3 & Knuckles Sonic The Hedgehog 3 e Knuckles Sonic 3 e Knuckles Sonic 3K sega mega drive sega genesis",
+      "tags": "Sonic The Hedgehog 3 & Knuckles e Sonic 3K sonic3k sega mega drive genesis md",
       "console": "md",
       "curto": "sonic3k"
     },
     {
       "nome": "God of War II",
-      "tags": "God of War II God of War 2 deus da guerra 2 bom de guerra 2 sony ps2 playstation 2",
+      "tags": "God of War II 2 deus da guerra bom de gow2 sony ps2 playstation 2",
       "console": "ps2",
       "curto": "gow2"
     },
@@ -206,7 +206,7 @@
     },
     {
       "nome": "Sonic Adventure",
-      "tags": "Sonic Adventure sega dc sega dreamcast",
+      "tags": "Sonic Adventure sonicadv sega dc sega dreamcast",
       "console": "dc",
       "curto": "sonicadv"
     },
@@ -224,31 +224,31 @@
     },
     {
       "nome": "Manhunt",
-      "tags": "Manhunt caça homem sony ps2 playstation 2",
+      "tags": "Manhunt caça homem manhunt1 sony ps2 playstation 2",
       "console": "ps2",
       "curto": "manhunt1"
     },
     {
       "nome": "Road & Track Presents: The Need for Speed",
-      "tags": "Road & Track Presents: The Need for Speed the nfs sony ps1 playstation 1",
+      "tags": "Road & Track Presents: The Need for Speed the nfs thenfs sony ps1 playstation 1",
       "console": "ps1",
       "curto": "thenfs"
     },
     {
       "nome": "Sonic Adventure 2",
-      "tags": "Sonic Adventure 2 sega dc sega dreamcast",
+      "tags": "Sonic Adventure 2 sonicadv2 sega dc sega dreamcast",
       "console": "dc",
       "curto": "sonicadv2"
     },
     {
       "nome": "The Nightmare Before Christmas: Oogie's Revenge",
-      "tags": "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack Tim Burton sony ps2 playstation 2",
+      "tags": "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack nbxmas sony ps2 playstation 2",
       "console": "ps2",
       "curto": "nbxmas"
     },
     {
       "nome": "Grand Theft Auto III",
-      "tags": "Grand Theft Auto III gta iii gta 3 sony ps2 playstation 2",
+      "tags": "Grand Theft Auto III 3 gta gta3 sony ps2 playstation 2",
       "console": "ps2",
       "curto": "gta3"
     },
@@ -272,13 +272,13 @@
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge",
-      "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie gba banjo gba rare nintendo game boy gameboy advance gba",
+      "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie rare banjogrunty nintendo game boy gameboy advance gba",
       "console": "gba",
       "curto": "banjogrunty"
     },
     {
       "nome": "Grand Theft Auto: Vice City",
-      "tags": "Grand Theft Auto: Vice City gta vice city sony ps2 playstation 2",
+      "tags": "Grand Theft Auto: Vice City gta gtavc sony ps2 playstation 2",
       "console": "ps2",
       "curto": "gtavc"
     },
@@ -296,43 +296,43 @@
     },
     {
       "nome": "Super Mario Bros.",
-      "tags": "Super Mario Bros. mario 1 nes nintendo",
+      "tags": "Super Mario Bros. 1 mario1 nes nintendo nintendinho",
       "console": "nes",
       "curto": "mario1"
     },
     {
       "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
-      "tags": "Disney's Lilo & Stitch: Trouble in Paradise lilo e stitch sony ps1 playstation 1",
+      "tags": "Disney's Lilo & Stitch: Trouble in Paradise e Apuros no Paraíso sony ps1 playstation 1",
       "console": "ps1",
       "curto": "lilo"
     },
     {
       "nome": "Harry Potter and the Philosopher's Stone",
-      "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal sony ps1 playstation 1",
+      "tags": "Harry Potter and the Philosopher's Stone Sorcerer's e a Pedra Filosofal harry-ps1 sony ps1 playstation 1",
       "console": "ps1",
       "curto": "harry-ps1"
     },
     {
       "nome": "Need for Speed II",
-      "tags": "Need for Speed II Need for Speed 2 nfs 2 sony ps1 playstation 1",
+      "tags": "Need for Speed II 2 nfs nfs2 sony ps1 playstation 1",
       "console": "ps1",
       "curto": "nfs2"
     },
     {
       "nome": "Harry Potter and the Philosopher's Stone",
-      "tags": "Harry Potter and the Philosopher's Stone Harry Potter e a Pedra Filosofal sony ps2 playstation 2",
+      "tags": "Harry Potter and the Philosopher's Stone Sorcerer's e a Pedra Filosofal harry-ps2 sony ps2 playstation 2",
       "console": "ps2",
       "curto": "harry-ps2"
     },
     {
       "nome": "Pandemonium 2",
-      "tags": "Pandemonium 2 pão demônio 2 sony ps1 playstation 1",
+      "tags": "Pandemonium 2 pão demônio pandemonium2 sony ps1 playstation 1",
       "console": "ps1",
       "curto": "pandemonium2"
     },
     {
       "nome": "Alien Trilogy",
-      "tags": "Alien Trilogy sony ps1 playstation 1",
+      "tags": "Alien Trilogy alientri sony ps1 playstation 1",
       "console": "ps1",
       "curto": "alientri"
     },
@@ -350,75 +350,81 @@
     },
     {
       "nome": "Half-Life",
-      "tags": "Half-Life half life 1 valve sony ps2 playstation 2",
+      "tags": "Half-Life half life 1 valve hl1 sony ps2 playstation 2",
       "console": "ps2",
       "curto": "hl1"
     },
     {
       "nome": "Kirby: Nightmare in Dream Land",
-      "tags": "Kirby: Nightmare in Dream Land nintendo game boy gameboy advance gba",
+      "tags": "Kirby: Nightmare in Dream Land kirbynightmare nintendo game boy gameboy advance gba",
       "console": "gba",
       "curto": "kirbynightmare"
     },
     {
       "nome": "Harry Potter and the Chamber of Secrets",
-      "tags": "Harry Potter and the Chamber of Secrets Harry Potter e a Câmara Secreta sony ps2 playstation 2",
+      "tags": "Harry Potter and the Chamber of Secrets e a Câmara Secreta harrycamara sony ps2 playstation 2",
       "console": "ps2",
       "curto": "harrycamara"
     },
     {
       "nome": "The Godfather: The Game",
-      "tags": "The Godfather: The Game o poderoso chefão o jogo sony ps2 playstation 2",
+      "tags": "The Godfather: The Game o poderoso chefão sony ps2 playstation 2",
       "console": "ps2",
       "curto": "godfather"
     },
     {
       "nome": "Harry Potter and the Prisoner of Azkaban",
-      "tags": "Harry Potter and the Prisoner of Azkaban Harry Potter e o Prisioneiro de Azkaban sony ps2 playstation 2",
+      "tags": "Harry Potter and the Prisoner of Azkaban e o Prisioneiro de Azkaban harryazkaban sony ps2 playstation 2",
       "console": "ps2",
       "curto": "harryazkaban"
     },
     {
       "nome": "The Terminator",
-      "tags": "The Terminator exterminador do futuro sega mega drive sega genesis",
+      "tags": "The Terminator exterminador do futuro sega mega drive genesis md",
       "console": "md",
       "curto": "terminator"
     },
     {
       "nome": "Justice League Heroes",
-      "tags": "Justice League Heroes liga da justiça sony ps2 playstation 2",
+      "tags": "Justice League Heroes liga da justiça justiceleagueheroes sony ps2 playstation 2",
       "console": "ps2",
       "curto": "justiceleagueheroes"
     },
     {
       "nome": "Sonic The Hedgehog CD",
-      "tags": "Sonic The Hedgehog CD Sonic CD sega mega drive sega genesis",
+      "tags": "Sonic The Hedgehog CD soniccd sega mega drive genesis md",
       "console": "md",
       "curto": "soniccd"
     },
     {
       "nome": "Harry Potter and the Goblet of Fire",
-      "tags": "Harry Potter and the Goblet of Fire Harry Potter e o Cálice de Fogo sony ps2 playstation 2",
+      "tags": "Harry Potter and the Goblet of Fire e o Cálice de Fogo harrygoblet sony ps2 playstation 2",
       "console": "ps2",
       "curto": "harrygoblet"
     },
     {
       "nome": "Need for Speed III: Hot Pursuit",
-      "tags": "Need for Speed III: Hot Pursuit Need for Speed 3 nfs 3 sony ps1 playstation 1",
+      "tags": "Need for Speed III: Hot Pursuit 3 nfs nfs3 sony ps1 playstation 1",
       "console": "ps1",
       "curto": "nfs3"
     },
     {
       "nome": "Castlevania: Aria of Sorrow",
-      "tags": "Castlevania: Aria of Sorrow akumajo akumajou akumajyo dracula dorakyura akatsuki no minuet of dawn minueto do alvorecer ária da tristeza metroidvania soma cruz kurusu souma nintendo game boy gameboy advance gba",
+      "tags": "Castlevania: Aria of Sorrow ariaofsorrow akumajo akumajou akumajyo dracula dorakyura akatsuki no minuet of dawn minueto do alvorecer ária da tristeza metroidvania soma cruz kurusu souma nintendo game boy gameboy advance gba",
       "console": "gba",
       "curto": "ariaofsorrow"
     },
     {
       "nome": "Harry Potter and the Order of the Phoenix",
-      "tags": "Harry Potter and the Order of the Phoenix Harry Potter e a Ordem da Fênix sony ps2 playstation 2",
+      "tags": "Harry Potter and the Order of the Phoenix e a Ordem da Fênix harryordem sony ps2 playstation 2",
       "console": "ps2",
       "curto": "harryordem"
+    },
+    {
+      "nome": "Batman: Chaos in Gotham",
+      "tags": "Batman: Chaos in Gotham batmanchaos nintendo game boy gameboy color colour gbc",
+      "console": "gbc",
+      "curto": "batmanchaos"
     }
   ],
   "standalone": [
@@ -1587,6 +1593,10 @@
     {
       "nome": "Nintendo 64",
       "sigla": "n64"
+    },
+    {
+      "nome": "Game Boy Color",
+      "sigla": "gbc"
     },
     {
       "nome": "Game Boy Advance",

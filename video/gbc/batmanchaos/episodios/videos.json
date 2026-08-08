@@ -1,0 +1,34 @@
+{
+  "playlist": [
+    {
+      "nome": "Batman: Chaos in Gotham (GBC)",
+      "imagem": "webp",
+      "quantidade": "1",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLZWemY4RGaFs",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-batman-chaos-in-gotham-gbc"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Batman: Chaos in Gotham de GBC | Parte 1",
+      "nome_original": "Batman: Chaos in Gotham GBC Gameplay | 2026-07-24 13-06-23",
+      "imagem": "webp",
+      "data": "07/08/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/chj45870PlY",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-batman-chaos-in-gotham-gbc"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 15
+      }
+    }
+  ]
+}

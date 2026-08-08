@@ -123,5 +123,34 @@
       "ps2/harrycamara",
       "ps2/harryazkaban"
     ]
+  },
+  "disney": {
+    "nome": "Disney",
+    "tags": "Disney",
+    "jogos": [
+      "donald",
+      "quackshot",
+      "ducktales",
+      "tarzan",
+      "cars",
+      "lilo"
+    ],
+    "capas": [
+      "ps1/donald",
+      "md/quackshot",
+      "nes/ducktales"
+    ]
+  },
+  "dc": {
+    "nome": "DC Comics",
+    "tags": "DC Comics",
+    "jogos": [
+      "justiceleagueheroes",
+      "batmanchaos"
+    ],
+    "capas": [
+      "ps2/justiceleagueheroes",
+      "gbc/batmanchaos"
+    ]
   }
 }

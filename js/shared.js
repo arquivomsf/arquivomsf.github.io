@@ -154,14 +154,29 @@ function resetarString() {
 }
 
 //gerar string de timestamp pros videos na pagina
-function gerar_timestamp(horas, minutos, segundos) {
-    if (horas == 0 && minutos == 0 && segundos == 0) return "Perdido"
+function gerar_timestamp(horas, minutos, segundos, stats=false) {
+    if (!stats) {
+        if (horas == 0 && minutos == 0 && segundos == 0) return "Perdido"
 
-    if (horas > 0 && minutos < 10) minutos = String(minutos).padStart(2, '0');
-    segundos = String(segundos).padStart(2, '0');
+        if (horas > 0 && minutos < 10) minutos = String(minutos).padStart(2, '0');
+        segundos = String(segundos).padStart(2, '0');
 
-    if (horas > 0) return `${horas}:${minutos}:${segundos}`
-    return `${minutos}:${segundos}`
+        if (horas > 0) return `${horas}:${minutos}:${segundos}`
+        return `${minutos}:${segundos}`
+    } else {
+        if (segundos >= 60) {
+            minutos += Math.trunc(segundos/60);
+            segundos = segundos%60;
+        }
+        if (minutos >= 60) {
+            horas += Math.trunc(minutos/60);
+            minutos = minutos%60;
+        }
+
+        if (horas > 0) return `${horas}h ${minutos}m ${segundos}s`
+        if (minutos > 0) return `${minutos}m ${segundos}s`
+        return `${segundos}s`
+    }
 }
 
 //carregar consoles e temas na sidebar (especificamente na pagina de erro 404)
@@ -348,7 +363,7 @@ function debug() {
 
     for (var i = 0; i<dados_geral.jogos.length; i++) {
         let debug_jogo = dados_geral.jogos[i];
-        let debug_console = debug_jogo.consigla;
+        let debug_console = debug_jogo.console;
         let debug_nome = debug_jogo.curto;
         let debug_tags = debug_jogo.tags;
 

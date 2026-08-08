@@ -7,6 +7,7 @@ function carregarStats(){
     let jogos_horas_counter = 0;
     let jogos_minutos_counter = 0;
     let jogos_segundos_counter = 0;
+    let jogos_tempo = "";
 
     let jogos_episodios_counter = 0;
 
@@ -17,32 +18,24 @@ function carregarStats(){
     let standalone_horas_counter = 0;
     let standalone_minutos_counter = 0;
     let standalone_segundos_counter = 0;
+    let standalone_tempo = "";
 
     let outros_counter = 0;
     let outros_horas_counter = 0;
     let outros_minutos_counter = 0;
     let outros_segundos_counter = 0;
+    let outros_tempo = "";
 
     let total_horas_counter = 0;
     let total_minutos_counter = 0;
     let total_segundos_counter = 0;
+    let total_tempo = "";
 
     let lost_fortnite_counter = 0;
 
     document.querySelector(".counter-stickers").innerHTML = `${stickers_array.length} figurinhas do canal`;
     document.querySelector(".counter-stikersfollowers").innerHTML = `${followers_array.length} figurinhas dos seguidores`;
 
-    /*
-    fetch("dados.json")
-      .then(response => response.json())
-      .then(data => {
-          for (var i = 0; i<data.consoles.length; i++){
-            consoles_counter++;
-            document.querySelector(".counter-con").innerHTML = `${consoles_counter} consoles`;
-          }
-        
-      })
-    */
     fetch("dados.json")
       .then(response => response.json())
       .then(data => {
@@ -225,52 +218,24 @@ function carregarStats(){
         //converter tempos, segundos > minutos, minutos > horas
 
         //converter standalone
-        if (standalone_segundos_counter >= 60) {
-            standalone_minutos_counter += Math.trunc(standalone_segundos_counter/60);
-            standalone_segundos_counter = standalone_segundos_counter%60;
-        }
-        if (standalone_minutos_counter >= 60) {
-            standalone_horas_counter += Math.trunc(standalone_minutos_counter/60);
-            standalone_minutos_counter = standalone_minutos_counter%60;
-        }
+        standalone_tempo = gerar_timestamp(standalone_horas_counter, standalone_minutos_counter, standalone_segundos_counter, true);
 
         //converter jogos (episódios e vods)
-        if (jogos_segundos_counter >= 60) {
-            jogos_minutos_counter += Math.trunc(jogos_segundos_counter/60);
-            jogos_segundos_counter = jogos_segundos_counter%60;
-        }
-        if (jogos_minutos_counter >= 60) {
-            jogos_horas_counter += Math.trunc(jogos_minutos_counter/60);
-            jogos_minutos_counter = jogos_minutos_counter%60;
-        }
+        jogos_tempo = gerar_timestamp(jogos_horas_counter, jogos_minutos_counter, jogos_segundos_counter, true);
 
         //converter outros
-        if (outros_segundos_counter >= 60) {
-            outros_minutos_counter += Math.trunc(outros_segundos_counter/60);
-            outros_segundos_counter = outros_segundos_counter%60;
-        }
-        if (outros_minutos_counter >= 60) {
-            outros_horas_counter += Math.trunc(outros_minutos_counter/60);
-            outros_minutos_counter = outros_minutos_counter%60;
-        }
+        outros_tempo = gerar_timestamp(outros_horas_counter, outros_minutos_counter, outros_segundos_counter, true);
 
         //converter TUDO
         total_horas_counter = standalone_horas_counter + jogos_horas_counter + outros_horas_counter;
         total_minutos_counter = standalone_minutos_counter + jogos_minutos_counter + outros_minutos_counter;
         total_segundos_counter = standalone_segundos_counter + jogos_segundos_counter + outros_segundos_counter;
-        if (total_segundos_counter >= 60) {
-            total_minutos_counter += Math.trunc(total_segundos_counter/60);
-            total_segundos_counter = total_segundos_counter%60;
-        }
-        if (total_minutos_counter >= 60) {
-            total_horas_counter += Math.trunc(total_minutos_counter/60);
-            total_minutos_counter = total_minutos_counter%60;
-        }
+        total_tempo = gerar_timestamp(total_horas_counter, total_minutos_counter, total_segundos_counter, true);
 
-        document.querySelector(".counter-tempototalstandalone").innerHTML = `${Math.round(standalone_horas_counter)}h ${Math.round(standalone_minutos_counter)}m ${Math.round(standalone_segundos_counter)}s de vídeos independentes`;
-        document.querySelector(".counter-tempototaloutros").innerHTML = `${Math.round(outros_horas_counter)}h ${Math.round(outros_minutos_counter)}m ${Math.round(outros_segundos_counter)}s de vídeos marcados como "outros"`;
-        document.querySelector(".counter-tempototaljogo").innerHTML = `${Math.round(jogos_horas_counter)}h ${Math.round(jogos_minutos_counter)}m ${Math.round(jogos_segundos_counter)}s de vídeos de jogos`;
-        document.querySelector(".counter-tempototal").innerHTML = `${Math.round(total_horas_counter)}h ${Math.round(total_minutos_counter)}m ${Math.round(total_segundos_counter)}s de vídeos arquivados`;
+        document.querySelector(".counter-tempototalstandalone").innerHTML = `${standalone_tempo} de vídeos independentes`;
+        document.querySelector(".counter-tempototaloutros").innerHTML = `${outros_tempo} de vídeos marcados como "outros"`;
+        document.querySelector(".counter-tempototaljogo").innerHTML = `${jogos_tempo} de vídeos de jogos`;
+        document.querySelector(".counter-tempototal").innerHTML = `${total_tempo} de vídeos arquivados`;
     }, 500);
 
     fetch("off.json")

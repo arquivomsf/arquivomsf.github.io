@@ -309,6 +309,18 @@ body[data-tema="geo"] .console_list > a[href="console?id=ps2"], body[data-tema="
     margin: 0.5rem !important;
 }
 
+body[data-tema="geo"] .console_list > a[href="console?id=gbc"], body[data-tema="geo"] .console_list > a[href="https://arquivomsf.github.io/console?id=gbc"] {
+    background-image: url("../../assets/img/buttons/gbc.gif");
+    background-repeat: no-repeat;
+    height: 31px;
+
+    color: transparent !important;
+    user-select: none !important;
+
+    padding: 0 !important;
+    margin: 0.5rem !important;
+}
+
 body[data-tema="geo"] .btn-home {
     background-image: url("../../assets/img/buttons/anihome112g.gif");
     background-repeat: no-repeat;
