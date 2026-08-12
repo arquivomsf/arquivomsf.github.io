@@ -36,7 +36,7 @@ function carregar_itens() {
             <div class="relative h-auto">
                 <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
                 <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                    <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon(video_plataforma)}"></i>${video_duracao}</span>
+                    <span class="px-2 text-white"><i class="${get_plataforma_icon(video_plataforma)}"></i>${video_duracao}</span>
                 </div>
             </div>
             <b class="text-center">${video_nome}</b>
@@ -59,7 +59,7 @@ function carregar_itens() {
               <div class="relative h-auto">
                   <img src="${serie_path}/1.${playlist_imagem}" class="w-auto h-auto aspect-video object-contain">
                   <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
-                      <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="fa fa-fw ${get_plataforma_icon("playlist")}"></i>${playlist_quantidade}</span>
+                      <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="${get_plataforma_icon("playlist")}"></i>${playlist_quantidade}</span>
                   </div>
               </div>
               <b class="text-center">${playlist_nome}</b>
@@ -82,7 +82,7 @@ function carregar_itens() {
             <div class="relative h-auto">
                 <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
                 <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                    <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon(extra_plataforma)}"></i>${extra_duracao}</span>
+                    <span class="px-2 text-white"><i class="${get_plataforma_icon(extra_plataforma)}"></i>${extra_duracao}</span>
                 </div>
             </div>
             <b class="text-center">${extra_nome}</b>
@@ -104,7 +104,7 @@ function carregar_itens() {
               <div class="relative h-auto">
                   <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
                   <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                      <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon("youtube")}"></i>${serie_duracao}</span>
+                      <span class="px-2 text-white"><i class="${get_plataforma_icon("youtube")}"></i>${serie_duracao}</span>
                   </div>
               </div>
               <b class="text-center">${serie_nome}</b>

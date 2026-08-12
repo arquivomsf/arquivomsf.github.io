@@ -11,7 +11,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <title>Arquivo de Lives - MarceloSouzaF</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../../../../assets/fonts/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="../../../../assets/fonts/fontawesome/css/brands.min.css" rel="stylesheet" />
+    <link href="../../../../assets/fonts/fontawesome/css/solid.min.css" rel="stylesheet" />
+    <link href="../../../../assets/fonts/fontawesome/css/regular.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../../../../css/main.css"/>
     <script src="../../../../js/shared.js"></script>
     <script src="tree.js"></script>
@@ -21,18 +24,18 @@
     <nav class="px-2 bg-gray-800 sticky top-0 w-[100%] text-white flex flex-row sm:flex-row items-center z-10 navbar-default">
         <div class="tab w-[100%] flex flex-row justify-between">
             <div class="flex flex-row">
-                <div class="mt-3"><a href="https://arquivomsf.github.io/" class="navbar-home text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500"><i class="fa fa-home"></i></a></div>
+                <div class="mt-3"><a href="https://arquivomsf.github.io/" class="navbar-home text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500"><i class="fa-regular fa-home"></i></a></div>
             </div>
 
             <div class="flex flex-row">
-                <div class="cursor-pointer w-min my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500" onclick="sidebar_open()"><i class="fa fa-bars"></i></div>
+                <div class="cursor-pointer w-min my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500" onclick="sidebar_open()"><i class="fa-solid fa-bars"></i></div>
             </div>
         </div>
     </nav>
 
     <div class="hidden px-3 bg-white h-full w-[90%] sm:w-[400px] fixed! z-12 overflow-auto top-0 right-0 animate-right flex flex-col" id="sidebar_main">
         <div class="block">
-            <button class="float-right w-max border-none block outline-none tablinks cursor-pointer m-2 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-black/20 focus:bg-black/20" onclick="sidebar_close()"><i class="fa fa-close"></i></button>
+            <button class="float-right w-max border-none block outline-none tablinks cursor-pointer m-2 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-black/20 focus:bg-black/20" onclick="sidebar_close()"><i class="fa-solid fa-close"></i></button>
         </div>
         <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Consoles</span>
         <div class="console_list flex flex-col mb-3">
@@ -98,7 +101,7 @@
                     <div class="tela step-3 hidden">
                         <span class="maisinfo_text data_string text-center">* (Você recebeu o "Ovo".)</span>
                         <br><br>
-                        <div class="flex flex-row items-center">
+                        <div class="flex flex-row items-center gap-5">
                             <a onclick="update_step(4)" class="btn-dark select-none flex-auto">
                                 Olhar novamente
                             </a>

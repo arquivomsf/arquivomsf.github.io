@@ -53,7 +53,7 @@ function carregar_itens() {
                         <div class="relative h-auto">
                             <img src="video/${standalone_console_sigla}/${standalone_imagem}" class="w-auto h-auto aspect-video object-contain">
                             <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                                <span class="px-1 text-white"><i class="fa fa-fw ${get_plataforma_icon(standalone_plataforma)}"></i>${standalone_duracao}</span>
+                                <span class="px-2 text-white"><i class="${get_plataforma_icon(standalone_plataforma)}"></i>${standalone_duracao}</span>
                             </div>
                         </div>
                         <b class="standalone_${i} standalone_titulo_${standalone_plataforma} text-center">${standalone_nome}</b>
@@ -79,7 +79,7 @@ function carregar_itens() {
                         <div class="relative h-auto">
                             <img src="video/${outros_console_sigla}/${outros_nome_curto}/${outros_imagem}" class="w-auto h-auto aspect-video object-contain">
                             <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                                <span class="px-1 text-white">${outros_categoria}</span>
+                                <span class="px-2 text-white">${outros_categoria}</span>
                             </div>
                         </div>
                         <b class="outro_titulo text-center">${outros_nome}</b>

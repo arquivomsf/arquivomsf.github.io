@@ -41,7 +41,7 @@ function carregar_itens() {
                         <div class="relative h-auto">
                             <img src="video/etc/lost/${lost_imagem}" class="thumbnail w-auto h-auto aspect-video object-contain">
                             <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                                <span class="px-1 text-white">${lost_duracao}</span>
+                                <span class="px-2 text-white">${lost_duracao}</span>
                             </div>
                         </div>
                         <b class="text-center">${lost_nome}</b>

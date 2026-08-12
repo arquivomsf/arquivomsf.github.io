@@ -380,19 +380,19 @@ function debug() {
                     <div class="flex flex-col">
                         <div>
                             <span class="jogo_id_${debug_console}_${debug_nome}_episodios_youtube hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+                            <i class="${get_plataforma_icon("youtube")}" title="youtube"></i> 
                             <span class="jogo_id_${debug_console}_${debug_nome}_episodios_youtube_string">0 Episódios</span>
                             </span>
                         </div>
                         <div>
                             <span class="jogo_id_${debug_console}_${debug_nome}_episodios_gdrive hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+                            <i class="${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
                             <span class="jogo_id_${debug_console}_${debug_nome}_episodios_gdrive_string">0 Episódios</span>
                             </span>
                         </div>
                         <div>
                             <span class="jogo_id_${debug_console}_${debug_nome}_episodios_archive hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+                            <i class="${get_plataforma_icon("archive")}" title="archive"></i> 
                             <span class="jogo_id_${debug_console}_${debug_nome}_episodios_archive_string">0 Episódios</span>
                             </span>
                         </div>
@@ -405,19 +405,19 @@ function debug() {
                     <div class="flex flex-col">
                         <div>
                             <span class="jogo_id_${debug_console}_${debug_nome}_vods_youtube hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+                            <i class="${get_plataforma_icon("youtube")}" title="youtube"></i> 
                             <span class="jogo_id_${debug_console}_${debug_nome}_vods_youtube_string">0 VODs</span>
                             </span>
                         </div>
                         <div>
                             <span class="jogo_id_${debug_console}_${debug_nome}_vods_gdrive hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+                            <i class="${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
                             <span class="jogo_id_${debug_console}_${debug_nome}_vods_gdrive_string">0 VODs</span>
                             </span>
                         </div>
                         <div>
                             <span class="jogo_id_${debug_console}_${debug_nome}_vods_archive hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+                            <i class="${get_plataforma_icon("archive")}" title="archive"></i> 
                             <span class="jogo_id_${debug_console}_${debug_nome}_vods_archive_string">0 VODs</span>
                             </span>
                         </div>
@@ -436,25 +436,25 @@ function debug() {
                 <div class="m-1 flex flex-col">
                     <div>
                         <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_episodios text-red-500 hidden">
-                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <i class="fa-solid fa-triangle-exclamation"></i> 
                         <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_episodios_string">0 Episódios no modelo antigo</span>
                         </span>
                     </div>
                     <div>
                         <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_vods text-red-500 hidden">
-                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <i class="fa-solid fa-triangle-exclamation"></i> 
                         <span class="jogo_id_${debug_console}_${debug_nome}_avisos_linkyt_vods_string">0 VODs no modelo antigo</span>
                         </span>
                     </div>
                     <div>
                         <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_episodios text-yellow-500 hidden">
-                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <i class="fa-solid fa-triangle-exclamation"></i> 
                         <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_episodios_string">0 Episódios sem data</span>
                         </span>
                     </div>
                     <div>
                         <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_vods text-yellow-500 hidden">
-                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <i class="fa-solid fa-triangle-exclamation"></i> 
                         <span class="jogo_id_${debug_console}_${debug_nome}_avisos_data_vods_string">0 VODs sem data</span>
                         </span>
                     </div>
@@ -670,19 +670,19 @@ function debug() {
                     <div class="flex flex-col">
                         <div>
                             <span class="jogo_id_outros_${debug_outro_nome}_episodios_youtube hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("youtube")}" title="youtube"></i> 
+                            <i class="${get_plataforma_icon("youtube")}" title="youtube"></i> 
                             <span class="jogo_id_outros_${debug_outro_nome}_episodios_youtube_string">0 Vídeos</span>
                             </span>
                         </div>
                         <div>
                             <span class="jogo_id_outros_${debug_outro_nome}_episodios_gdrive hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
+                            <i class="${get_plataforma_icon("gdrive")}" title="gdrive"></i> 
                             <span class="jogo_id_outros_${debug_outro_nome}_episodios_gdrive_string">0 Vídeos</span>
                             </span>
                         </div>
                         <div>
                             <span class="jogo_id_outros_${debug_outro_nome}_episodios_archive hidden">
-                            <i class="fa fa-fw ${get_plataforma_icon("archive")}" title="archive"></i> 
+                            <i class="${get_plataforma_icon("archive")}" title="archive"></i> 
                             <span class="jogo_id_outros_${debug_outro_nome}_episodios_archive_string">0 Vídeos</span>
                             </span>
                         </div>
@@ -697,13 +697,13 @@ function debug() {
                 <div class="m-1 flex flex-col">
                     <div>
                         <span class="jogo_id_outros_${debug_outro_nome}_avisos_linkyt text-red-500 hidden">
-                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <i class="fa-solid fa-triangle-exclamation"></i> 
                         <span class="jogo_id_outros_${debug_outro_nome}_avisos_linkyt_string">0 Vídeos no modelo antigo</span>
                         </span>
                     </div>
                     <div>
                         <span class="jogo_id_outros_${debug_outro_nome}_avisos_data text-yellow-500 hidden">
-                        <i class="fa fa-fw fa-exclamation-triangle"></i> 
+                        <i class="fa-solid fa-triangle-exclamation"></i> 
                         <span class="jogo_id_outros_${debug_outro_nome}_avisos_data_string">0 Vídeos sem data</span>
                         </span>
                     </div>
@@ -819,14 +819,14 @@ function debug() {
     //Detector de JSON antigo - STANDALONE
     for (var i = 0; i<dados_geral.standalone.length; i++) {
         if (dados_geral.standalone[i].hasOwnProperty("linkyt")) {
-            document.querySelector(".standalone_"+i).innerHTML += `<hr class="m-1"><span class="text-red-500"><i class="fa fa-fw fa-exclamation-triangle"></i> Vídeo no modelo antigo</span>`;
+            document.querySelector(".standalone_"+i).innerHTML += `<hr class="m-1"><span class="text-red-500"><i class="fa-solid fa-triangle-exclamation"></i> Vídeo no modelo antigo</span>`;
         }
     }
 
     //Detector de data - STANDALONE
     for (var i = 0; i<dados_geral.standalone.length; i++) {
         if (!dados_geral.standalone[i].hasOwnProperty("data") || dados_geral.standalone[i].hasOwnProperty("data") && dados_geral.standalone[i].data == "") {
-            document.querySelector(".standalone_"+i).innerHTML += `<hr class="m-1"><span class="text-yellow-500"><i class="fa fa-fw fa-exclamation-triangle"></i> Vídeo sem data</span>`;
+            document.querySelector(".standalone_"+i).innerHTML += `<hr class="m-1"><span class="text-yellow-500"><i class="fa-solid fa-triangle-exclamation"></i> Vídeo sem data</span>`;
         }
     }
 
@@ -895,16 +895,16 @@ function get_console_name(sigla) {
 function get_plataforma_icon(plataforma) {
     switch(plataforma) {
         case "playlist":
-            return "fa-list"
+            return "pr-4 fa-solid fa-list"
         break;
         case "youtube":
-            return "fa-youtube-play"
+            return "pr-4 fa-brands fa-youtube"
         break;
         case "gdrive":
-            return "fa-google"
+            return "pr-4 fa-brands fa-google-drive"
         break;
         case "archive":
-            return "fa-institution"
+            return "pr-4 fa-brands fa-internet-archive"
         break;
     }
 }
