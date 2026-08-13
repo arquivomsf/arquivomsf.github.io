@@ -67,6 +67,7 @@
       "imagem": "metalrogue1.webp",
       "data": "29/07/2026",
       "plataforma": "youtube",
+      "direto": "",
       "links": {
         "youtube": "https://youtu.be/5HDkiOR9MEA",
         "gdrive": "",
@@ -84,15 +85,16 @@
       "imagem": "metalrogue2.webp",
       "data": "07/08/2026",
       "plataforma": "youtube",
+      "direto": "",
       "links": {
         "youtube": "https://youtu.be/DVilT28iiDs",
         "gdrive": "",
         "archive": ""
       },
       "duracao": {
-        "horas": 0,
-        "minutos": 0,
-        "segundos": 0
+        "horas": 3,
+        "minutos": 3,
+        "segundos": 7
       }
     }
   ],

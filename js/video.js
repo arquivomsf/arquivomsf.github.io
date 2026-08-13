@@ -3,6 +3,8 @@ var jogoAtual;
 var episodioAtual;
 var extra;
 
+var archive_embed_fix = true;
+
 function carregarDados() {
   procurarParam();
   carregar_embed_fetch();
@@ -63,9 +65,13 @@ function carregar_itens() {
         document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
         document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`);
 
-        if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`;
-        video_link = embed_replace(video_link, fonteAtual);
-        document.querySelector("#jsonIframe").src = `${video_link}`;
+        if (dados_geral.standalone[i].hasOwnProperty("direto") || fonteAtual == "archive" && archive_embed_fix) {
+          create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`);
+        } else {
+          if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`;
+          video_link = embed_replace(video_link, fonteAtual);
+          document.querySelector("#jsonIframe").src = `${video_link}`;
+        }
 
         let video_all_links = dados_geral.standalone[i].links;
         if (video_all_links.youtube != "") {
@@ -122,11 +128,17 @@ function carregar_itens() {
         document.querySelector(".video-title").innerHTML = `${extra_nome}`;
         document.title = `${extra_nome}`;
         document.querySelector('meta[property="og:title"]').setAttribute("content", `${extra_nome}`);
-        document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${extra_imagem}`);
+        let thumb_path = `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${extra_imagem}`;
+        if (consoleAtual == "outros") thumb_path = `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${extra_imagem}`;
+        document.querySelector('meta[property="og:image"]').setAttribute("content", thumb_path);
 
-        if (fonteAtual == "archive") extra_link = `${extra_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${extra_imagem}`;
-        extra_link = embed_replace(extra_link, fonteAtual);
-        document.querySelector("#jsonIframe").src = `${extra_link}`;
+        if (dados_serie.extras[i].hasOwnProperty("direto") || fonteAtual == "archive" && archive_embed_fix) {
+          create_fake_embed(extra_link,thumb_path);
+        } else {
+          if (fonteAtual == "archive") extra_link = `${extra_link}&poster=${thumb_path}`;
+          extra_link = embed_replace(extra_link, fonteAtual);
+          document.querySelector("#jsonIframe").src = `${extra_link}`;
+        }
 
         let extra_all_links = dados_serie.extras[i].links;
         if (extra_all_links.youtube != "") {
@@ -193,9 +205,13 @@ function carregar_itens() {
     document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
     document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
 
-    if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
-    video_link = embed_replace(video_link, fonteAtual);
-    document.querySelector("#jsonIframe").src = `${video_link}`;
+    if (dados_serie.videos[episodioAtual].hasOwnProperty("direto") || fonteAtual == "archive" && archive_embed_fix) {
+      create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
+    } else {
+      if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
+      video_link = embed_replace(video_link, fonteAtual);
+      document.querySelector("#jsonIframe").src = `${video_link}`;
+    }
 
     let video_all_links = dados_serie.videos[episodioAtual].links;
     if (video_all_links.youtube != "") {
@@ -255,9 +271,13 @@ function carregar_itens() {
   document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
   document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
 
-  if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
-  video_link = embed_replace(video_link, fonteAtual);
-  document.querySelector("#jsonIframe").src = `${video_link}`;
+  if (dados_serie.videos[episodioAtual].hasOwnProperty("direto") || fonteAtual == "archive" && archive_embed_fix) {
+    create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
+  } else {
+    if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
+    video_link = embed_replace(video_link, fonteAtual);
+    document.querySelector("#jsonIframe").src = `${video_link}`;
+  }
 
   let video_all_links = dados_serie.videos[episodioAtual].links;
     if (video_all_links.youtube != "") {
@@ -288,4 +308,25 @@ function carregar_itens() {
       document.querySelector("#chatIframe").src = `video/${consoleAtual}/${jogoAtual}/${serieAtual}/${chat_name}.html`;
       document.querySelector(".chat_container").classList.remove("hidden");
     }
+}
+
+function create_fake_embed(link,thumb) {
+  document.querySelector("#jsonIframe").srcdoc = `
+    <head>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link href="https://arquivomsf.github.io/assets/fonts/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+      <link href="https://arquivomsf.github.io/assets/fonts/fontawesome/css/solid.min.css" rel="stylesheet" />
+    </head>
+    <body>
+      <a href="${link}" target="_blank">
+        <img class="w-full h-auto aspect-video" src="${thumb}">
+      </a>
+      <div class="w-full h-auto aspect-video fixed top-0 left-0 z-2 bg-black opacity-50 pointer-events-none"></div>
+      <div class="w-full h-auto aspect-video fixed top-0 left-0 z-3 flex items-center cursor-pointer pointer-events-none">
+        <span class="text-white w-full text-center">
+          <i class="fa-solid fa-play text-[7em]"></i>
+        </span>
+      </div>
+    </body>
+  `;
 }
