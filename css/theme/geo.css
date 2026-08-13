@@ -80,17 +80,62 @@ body[data-tema="geo"] nav > div > div > div > a.navbar-home {
     background-image: url("../../assets/img/buttons/anihome112g.gif");
     background-repeat: no-repeat;
     width: 88px;
+    height: 31px;
     display: block;
     padding-top: 5px;
     padding-bottom: 0px;
+    margin-top: -3px;
 }
 
 body[data-tema="geo"] nav > div > div > div > a.navbar-home > i::before {
     content: "";
 }
 
+body[data-tema="geo"] .navbar-search > div > div > input {
+    height: 42px;
+}
+
+body[data-tema="geo"] .navbar-search > div > button:has(.fa-close) {
+    min-width: 90px;
+    height: 31px;
+    margin-top: 8.5px;
+    margin-bottom: 5.5px;
+    font-family: Arial !important;
+    background: none;
+    border: none;
+    border-radius: 0;
+    background-image: url("../../assets/img/buttons/aniback1g.gif");
+    background-repeat: no-repeat;
+}
+
+body[data-tema="geo"] .navbar-search > div > button:has(.fa-close) > i::before {
+    width: max-content;
+    font-family: Arial !important;
+    content: "";
+}
+
+
+body[data-tema="geo"] .search-btn > i {
+    width: max-content;
+    font-family: Arial !important;
+}
+
 body[data-tema="geo"] .search-btn > i::before {
     content: "Pesquisar";
+}
+
+body[data-tema="geo"] .egg_div > a {
+    width: 88px;
+    height: 31px;
+    background: none;
+    border: none;
+    border-radius: 0;
+    background-image: url("../../assets/img/buttons/egghead.jpg");
+    background-repeat: no-repeat;
+}
+
+body[data-tema="geo"] .spr_egg {
+    display: none;
 }
 
 body[data-tema="geo"] nav > div > div > div:not(:has(a)):not(:has(.navbar-divider)), body[data-tema="geo"] nav > div > button {
