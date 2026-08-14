@@ -3,7 +3,7 @@
     {
       "nome": "Batman: Chaos in Gotham (GBC)",
       "imagem": "webp",
-      "quantidade": "1",
+      "quantidade": "4",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLZWemY4RGaFs",
@@ -22,12 +22,63 @@
       "links": {
         "youtube": "https://youtu.be/chj45870PlY",
         "gdrive": "",
-        "archive": "https://archive.org/details/arquivomsf-batman-chaos-in-gotham-gbc"
+        "archive": "https://archive.org/details/arquivomsf-batman-chaos-in-gotham-gbc/P01+-+Batman_+Chaos+in+Gotham+GBC+Gameplay+_+2026-07-24+13-06-23.mp4"
       },
       "duracao": {
         "horas": 0,
         "minutos": 28,
         "segundos": 15
+      }
+    },
+    {
+      "nome": "Batman: Chaos in Gotham de GBC | Parte 2",
+      "nome_original": "Batman: Chaos in Gotham GBC Gameplay | 2026-07-27 19-39-29",
+      "imagem": "webp",
+      "data": "14/08/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ASZTf_NRvcU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-batman-chaos-in-gotham-gbc/P02+-+Batman_+Chaos+in+Gotham+GBC+Gameplay+_+2026-07-27+19-39-29.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 35
+      }
+    },
+    {
+      "nome": "Batman: Chaos in Gotham de GBC | Parte 3",
+      "nome_original": "Batman: Chaos in Gotham GBC Gameplay | 2026-07-28 12-00-33",
+      "imagem": "webp",
+      "data": "14/08/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/-z46YKt-1Xs",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-batman-chaos-in-gotham-gbc/P03+-+Batman_+Chaos+in+Gotham+GBC+Gameplay+_+2026-07-28+12-00-33.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 55
+      }
+    },
+    {
+      "nome": "Batman: Chaos in Gotham de GBC | Parte 4",
+      "nome_original": "Batman: Chaos in Gotham GBC Gameplay | 2026-07-29 08-51-33",
+      "imagem": "webp",
+      "data": "14/08/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/SnaXmWSzpY0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-batman-chaos-in-gotham-gbc/P04+-+Batman_+Chaos+in+Gotham+GBC+Gameplay+_+2026-07-29+08-51-33.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 17,
+        "segundos": 36
       }
     }
   ]

@@ -3,7 +3,7 @@ var jogoAtual;
 var episodioAtual;
 var extra;
 
-var archive_embed_fix = true;
+var force_fake_embed_archive = false;
 
 function carregarDados() {
   procurarParam();
@@ -65,10 +65,10 @@ function carregar_itens() {
         document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
         document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`);
 
-        if (dados_geral.standalone[i].hasOwnProperty("direto") || fonteAtual == "archive" && archive_embed_fix) {
+        if (dados_geral.standalone[i].hasOwnProperty("direto") || fonteAtual == "archive" && force_fake_embed_archive) {
           create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`);
         } else {
-          if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`;
+          if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`;
           video_link = embed_replace(video_link, fonteAtual);
           document.querySelector("#jsonIframe").src = `${video_link}`;
         }
@@ -132,10 +132,10 @@ function carregar_itens() {
         if (consoleAtual == "outros") thumb_path = `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${extra_imagem}`;
         document.querySelector('meta[property="og:image"]').setAttribute("content", thumb_path);
 
-        if (dados_serie.extras[i].hasOwnProperty("direto") || fonteAtual == "archive" && archive_embed_fix) {
+        if (dados_serie.extras[i].hasOwnProperty("direto") || fonteAtual == "archive" && force_fake_embed_archive) {
           create_fake_embed(extra_link,thumb_path);
         } else {
-          if (fonteAtual == "archive") extra_link = `${extra_link}&poster=${thumb_path}`;
+          if (fonteAtual == "archive") extra_link = `${extra_link}?poster=${thumb_path}`;
           extra_link = embed_replace(extra_link, fonteAtual);
           document.querySelector("#jsonIframe").src = `${extra_link}`;
         }
@@ -205,10 +205,10 @@ function carregar_itens() {
     document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
     document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
 
-    if (dados_serie.videos[episodioAtual].hasOwnProperty("direto") || fonteAtual == "archive" && archive_embed_fix) {
+    if (dados_serie.videos[episodioAtual].hasOwnProperty("direto") || fonteAtual == "archive" && force_fake_embed_archive) {
       create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
     } else {
-      if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
+      if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
       video_link = embed_replace(video_link, fonteAtual);
       document.querySelector("#jsonIframe").src = `${video_link}`;
     }
@@ -271,10 +271,10 @@ function carregar_itens() {
   document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
   document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
 
-  if (dados_serie.videos[episodioAtual].hasOwnProperty("direto") || fonteAtual == "archive" && archive_embed_fix) {
+  if (dados_serie.videos[episodioAtual].hasOwnProperty("direto") || fonteAtual == "archive" && force_fake_embed_archive) {
     create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
   } else {
-    if (fonteAtual == "archive") video_link = `${video_link}&poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
+    if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
     video_link = embed_replace(video_link, fonteAtual);
     document.querySelector("#jsonIframe").src = `${video_link}`;
   }
