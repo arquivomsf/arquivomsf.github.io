@@ -3,12 +3,32 @@
     {
       "nome": "Road & Track Presents: The Need for Speed (PS1)",
       "imagem": "webp",
-      "quantidade": "5",
+      "quantidade": "6",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvwkV9gpVnsWTUckl_2-xc5",
         "gdrive": "",
         "archive": ""
+      }
+    }
+  ],
+  "extras": [
+    {
+      "nome": "The Need for Speed: o início de uma das minhas franquias favoritas!",
+      "id": "thenfs_yt1",
+      "imagem": "thenfs_yt1.webp",
+      "data": "19/08/2026",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/naIC_Nghj5A",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 0
       }
     }
   ],
