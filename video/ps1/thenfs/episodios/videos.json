@@ -26,10 +26,11 @@
         "archive": ""
       },
       "duracao": {
-        "horas": 0,
-        "minutos": 0,
-        "segundos": 0
-      }
+        "horas": 1,
+        "minutos": 30,
+        "segundos": 5
+      },
+      "chat": ""
     }
   ],
   "videos": [
