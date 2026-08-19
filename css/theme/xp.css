@@ -380,7 +380,7 @@ body[data-tema="xp"] select:focus {
   background-color: #2267cb;
 }
 
-body[data-tema="xp"] .video-duracao {
+body[data-tema="xp"] .video-duracao, body[data-tema="xp"] .playlist-duracao {
   font-weight: normal;
 }
 

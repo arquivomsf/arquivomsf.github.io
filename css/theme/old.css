@@ -150,7 +150,7 @@ body[data-tema="old"] .tabcontent > div > div > * > b, body[data-tema="old"] .ta
     width: 100%;
 }
 
-body[data-tema="old"] .video-duracao {
+body[data-tema="old"] .video-duracao, body[data-tema="old"] .playlist-duracao {
     font-weight: normal;
 }
 

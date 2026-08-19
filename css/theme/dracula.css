@@ -135,7 +135,7 @@ body[data-tema="dracula"] .list-group-item::before {
   margin-right: 5px;
 }
 
-body[data-tema="dracula"] i:not(.fa) {
+body[data-tema="dracula"] .italic {
   font-style: normal;
   color: var(--dracula-purple) !important;
 }

@@ -30,7 +30,7 @@ body[data-tema="terminal"] .list-group-item::before {
   margin-right: 5px;
 }
 
-body[data-tema="terminal"] i:not(.fa) {
+body[data-tema="terminal"] .italic {
   font-style: normal;
   &::before {
     content: "[";

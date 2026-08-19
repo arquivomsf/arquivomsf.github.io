@@ -3,7 +3,7 @@
     {
       "nome": "Metal Hellsinger",
       "imagem": "webp",
-      "quantidade": "9",
+      "quantidade": "10",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLTE9PaOXrVms",
@@ -95,6 +95,24 @@
         "horas": 3,
         "minutos": 3,
         "segundos": 7
+      }
+    },
+    {
+      "nome": "Rumo ao Level 20 no Leviathan do Metal Hellsinger",
+      "id": "metalrogue3",
+      "imagem": "metalrogue3.webp",
+      "data": "26/08/2026",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/D3S4gWBUgGw",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 0
       }
     }
   ],

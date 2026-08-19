@@ -19,19 +19,7 @@ function carregar_itens() {
         let nome_processado = pesquisa_processar_string(jogo_tags);
 
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
-            document.querySelector(".jogos_content_list").innerHTML += `
-                <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
-                    <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                        <div class="w-auto h-[225px]">
-                            <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.webp" class="h-[225px] object-contain">
-                        </div>
-                        <b class="jogo_titulo text-center">${jogo_nome}</b>
-                    </a>
-                    <a href="console?id=${jogo_console_sigla}" class="p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                        <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${jogo_console_nome}</p>
-                        <p class="py-1 px-2 h-min w-fit m-auto flex-1 text-center">${jogo_console_sigla.toUpperCase()}</p>
-                    </a>
-                </div>`;
+            create_item("","jogo","jogos_content_list",i,jogo_console_sigla,jogo_nome,jogo_nome_curto);
         }
     }
 
@@ -47,19 +35,7 @@ function carregar_itens() {
             let standalone_duracao = gerar_timestamp(dados_geral.standalone[i].duracao.horas,dados_geral.standalone[i].duracao.minutos,dados_geral.standalone[i].duracao.segundos);
             let standalone_plataforma = dados_geral.standalone[i].plataforma;
             let standalone_link = dados_geral.standalone[i].links[standalone_plataforma];
-            document.querySelector(".standalone_content_list").innerHTML += `
-                <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                    <a href="embed?con=${standalone_console_sigla}&jogo=${standalone_nome_curto}&fonte=${standalone_plataforma}" class="p-1 flex flex-col flex-auto gap-2 items-center">
-                        <div class="relative h-auto">
-                            <img src="video/${standalone_console_sigla}/${standalone_imagem}" class="w-auto h-auto aspect-video object-contain">
-                            <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                                <span class="px-2 text-white"><i class="${get_plataforma_icon(standalone_plataforma)}"></i>${standalone_duracao}</span>
-                            </div>
-                        </div>
-                        <b class="standalone_${i} standalone_titulo_${standalone_plataforma} text-center">${standalone_nome}</b>
-                    </a>
-                </div>
-            `;
+            create_item("","standalone","standalone_content_list",i,standalone_console_sigla,standalone_nome,standalone_nome_curto,standalone_imagem,standalone_plataforma,standalone_duracao);
         }
     }
 
@@ -73,18 +49,7 @@ function carregar_itens() {
         let nome_processado = pesquisa_processar_string(outros_tags);
 
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
-            document.querySelector(".outros_content_list").innerHTML += `
-                <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                    <a href="serie?con=${outros_console_sigla}&jogo=${outros_nome_curto}" class="p-1 flex flex-col flex-auto gap-2 items-center">
-                        <div class="relative h-auto">
-                            <img src="video/${outros_console_sigla}/${outros_nome_curto}/${outros_imagem}" class="w-auto h-auto aspect-video object-contain">
-                            <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                                <span class="px-2 text-white">${outros_categoria}</span>
-                            </div>
-                        </div>
-                        <b class="outro_titulo text-center">${outros_nome}</b>
-                    </a>
-                </div>`;
+            create_item("","outro","outros_content_list",i,outros_console_sigla,outros_nome,outros_nome_curto,outros_imagem,"","","","",outros_categoria);
         }
     }
 

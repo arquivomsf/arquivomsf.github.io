@@ -298,7 +298,7 @@ body[data-tema="98"] select:focus {
   background-color: navy !important;
 }
 
-body[data-tema="98"] .video-duracao {
+body[data-tema="98"] .video-duracao, body[data-tema="98"] .playlist-duracao {
   font-weight: normal;
 }
 

@@ -27,17 +27,7 @@ function carregar_itens() {
 
     if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
       if(jogo_console_sigla == consoleAtual){
-        document.querySelector(".videos_content_list").innerHTML += `
-            <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="p-1 flex flex-col flex-auto gap-2 items-center">
-                    <div class="relative h-auto">
-                        <div class="w-auto h-[225px]">
-                            <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.webp" class="h-[225px] object-contain">
-                        </div>
-                    </div>
-                    <b class="text-center">${jogo_nome}</b>
-                </a>
-            </div>`;
+        create_item("","jogo_alt","videos_content_list",i,jogo_console_sigla,jogo_nome,jogo_nome_curto);
       }
     }
   }

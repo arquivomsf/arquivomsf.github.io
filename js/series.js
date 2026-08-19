@@ -30,19 +30,8 @@ function carregar_itens() {
       document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${video_imagem}`);
       let video_plataforma = dados_serie.videos[i].plataforma;
       let video_link = dados_serie.videos[i].links[video_plataforma];
-      document.querySelector(".ep_content_list").innerHTML += `
-        <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-        <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${video_plataforma}&id=${i}" class="p-1 flex flex-col flex-auto gap-2 items-center">
-            <div class="relative h-auto">
-                <img src="${serie_path}/${i+1}.${video_imagem}" class="w-auto h-auto aspect-video object-contain">
-                <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                    <span class="px-2 text-white"><i class="${get_plataforma_icon(video_plataforma)}"></i>${video_duracao}</span>
-                </div>
-            </div>
-            <b class="text-center">${video_nome}</b>
-        </a>
-        </div>
-      `;
+      if (consoleAtual == "outros") create_item("ep_outro","video","ep_content_list",i,consoleAtual,video_nome,jogoAtual,`${serie_path}/${i+1}.${video_imagem}`,video_plataforma,video_duracao);
+      else create_item("ep_serie","video","ep_content_list",i,consoleAtual,video_nome,jogoAtual,`${serie_path}/${i+1}.${video_imagem}`,video_plataforma,video_duracao,serieAtual);
   }
 
   //itens extras
@@ -53,18 +42,7 @@ function carregar_itens() {
     let playlist_plataforma = dados_serie.playlist[0].plataforma;
     let playlist_link = dados_serie.playlist[0].links[playlist_plataforma];
     let playlist_quantidade = dados_serie.playlist[0].quantidade;
-    document.querySelector(".extras_content_list").innerHTML += `
-      <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-          <a href="${playlist_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
-              <div class="relative h-auto">
-                  <img src="${serie_path}/1.${playlist_imagem}" class="w-auto h-auto aspect-video object-contain">
-                  <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
-                      <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 px-1 text-white inline-block align-middle"><i class="${get_plataforma_icon("playlist")}"></i>${playlist_quantidade}</span>
-                  </div>
-              </div>
-              <b class="text-center">${playlist_nome}</b>
-          </a>
-      </div>`;
+    create_item(playlist_link,"playlist","extras_content_list",0,"",playlist_nome,"",`${serie_path}/1.${playlist_imagem}`,"",playlist_quantidade);
     document.querySelector(".tabs-navbar").classList.remove("hidden");
   }
 
@@ -76,19 +54,8 @@ function carregar_itens() {
       let extra_plataforma = dados_serie.extras[i].plataforma;
       let extra_link = dados_serie.extras[i].links[extra_plataforma];
       let extra_id = dados_serie.extras[i].id;
-      document.querySelector(".extras_content_list").innerHTML += `
-        <div class="extras-item p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-        <a href="embed?con=${consoleAtual}&jogo=${jogoAtual}&serie=${serieAtual}&fonte=${extra_plataforma}&extra=true&id=${extra_id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
-            <div class="relative h-auto">
-                <img src="${serie_path}/${extra_imagem}" class="w-auto h-auto aspect-video object-contain">
-                <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                    <span class="px-2 text-white"><i class="${get_plataforma_icon(extra_plataforma)}"></i>${extra_duracao}</span>
-                </div>
-            </div>
-            <b class="text-center">${extra_nome}</b>
-        </a>
-        </div>
-      `;
+      if (consoleAtual == "outros") create_item("extra_outro","video","extras_content_list",i,consoleAtual,extra_nome,jogoAtual,`${serie_path}/${extra_imagem}`,extra_plataforma,extra_duracao,"",extra_id);
+      else create_item("extra_serie","video","extras_content_list",i,consoleAtual,extra_nome,jogoAtual,`${serie_path}/${extra_imagem}`,extra_plataforma,extra_duracao,serieAtual,extra_id);
       document.querySelector(".tabs-navbar").classList.remove("hidden");
     }
   }
@@ -98,17 +65,6 @@ function carregar_itens() {
     let serie_imagem = dados_serie.analise[0].imagem;
     let serie_link = dados_serie.analise[0].link;
     let serie_duracao = gerar_timestamp(dados_serie.analise[0].duracao.horas,dados_serie.analise[0].duracao.minutos,dados_serie.analise[0].duracao.segundos);
-    document.querySelector(".extras_content_list").innerHTML += `
-      <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-          <a href="${serie_link}" class="p-1 flex flex-col flex-auto gap-2 items-center" target="_blank">
-              <div class="relative h-auto">
-                  <img src="video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}" class="w-auto h-auto aspect-video object-contain">
-                  <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                      <span class="px-2 text-white"><i class="${get_plataforma_icon("youtube")}"></i>${serie_duracao}</span>
-                  </div>
-              </div>
-              <b class="text-center">${serie_nome}</b>
-          </a>
-      </div>`;
+    create_item(serie_link,"video","extras_content_list",0,consoleAtual,serie_nome,jogoAtual,`video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}`,"youtube",serie_duracao);
   }
 }

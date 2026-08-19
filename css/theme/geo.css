@@ -58,7 +58,7 @@ body[data-tema="geo"] .tabcontent > div > div > *:nth-child(2) {
     border-radius: 5px;
 }
 
-body[data-tema="geo"] .video-duracao {
+body[data-tema="geo"] .video-duracao, body[data-tema="geo"] .playlist-duracao {
   font-weight: normal;
 }
 
@@ -125,17 +125,23 @@ body[data-tema="geo"] .search-btn > i::before {
 }
 
 body[data-tema="geo"] .egg_div > a {
-    width: 88px;
-    height: 31px;
+    /*width: 88px;
+    height: 31px;*/
     background: none;
     border: none;
     border-radius: 0;
     background-image: url("../../assets/img/buttons/egghead.jpg");
     background-repeat: no-repeat;
+    background-position: 0.5rem 0.75rem;
 }
 
 body[data-tema="geo"] .spr_egg {
     display: none;
+}
+
+body[data-tema="geo"] .scr_litemdesc_slash_scr_litemdesc_gml_36_0 {
+    display: block;
+    padding-top: 41px;
 }
 
 body[data-tema="geo"] nav > div > div > div:not(:has(a)):not(:has(.navbar-divider)), body[data-tema="geo"] nav > div > button {
@@ -257,12 +263,12 @@ body[data-tema="geo"] #sidebar_main > span:nth-of-type(2)::after {
     background-position-y: center;
 }
 
-body[data-tema="geo"] .maislinks_list > a {
+body[data-tema="geo"] .maislinks_list:not(.egg_div) > a {
     color: Navy !important;
     background-color: transparent !important;
 }
 
-body[data-tema="geo"] .maislinks_list > a:hover {
+body[data-tema="geo"] .maislinks_list:not(.egg_div) > a:hover {
     text-decoration: underline !important;
 }
 

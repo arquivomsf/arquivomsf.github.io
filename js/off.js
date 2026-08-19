@@ -35,27 +35,13 @@ function carregar_itens() {
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
             if (fortnite_banido == "false" || (fortnite_banido == "true" && !nome_processado.toLowerCase().includes("fortnite"))) {
             let lost_duracao = gerar_timestamp(dados_off.lostmedia[i].duracao.horas,dados_off.lostmedia[i].duracao.minutos,dados_off.lostmedia[i].duracao.segundos);
-            document.querySelector(".videos_content_list").innerHTML += `
-                <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                    <div class="p-2 flex flex-col flex-auto gap-2 items-center">
-                        <div class="relative h-auto">
-                            <img src="video/etc/lost/${lost_imagem}" class="thumbnail w-auto h-auto aspect-video object-contain">
-                            <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                                <span class="px-2 text-white">${lost_duracao}</span>
-                            </div>
-                        </div>
-                        <b class="text-center">${lost_nome}</b>
-                    </div>
-                    <div class="p-2 flex flex-col flex-1 gap-2 items-center">
-                        <p class="py-1 px-2 h-min w-fit m-auto">${lost_data}</p>
-                    </div>
-                </div>`;
+            create_item("","off","videos_content_list",i,"",lost_nome,"",lost_imagem,"",lost_duracao,"","","",lost_data);
 
-                document.querySelectorAll(".thumbnail").forEach(el => {
-                    el.onerror = function() {
-                        el.src = `assets/img/generic.webp`;
-                    }
-                });
+            document.querySelectorAll(".thumbnail").forEach(el => {
+                el.onerror = function() {
+                    el.src = `assets/img/generic.webp`;
+                }
+            });
             }
         }
     }

@@ -924,6 +924,147 @@ function embed_replace(url, plataforma) {
     return url
 }
 
+function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo="",thumbnail="",plataforma="",duracao="",serie="",id="",categoria="",data="") {
+    if (type == "video") {
+        if (url == "ep_serie") url = `href="embed?con=${console}&jogo=${jogo}&serie=${serie}&fonte=${plataforma}&id=${i}"`;
+        else if (url == "ep_outro") url = `href="embed?con=${console}&jogo=${jogo}&fonte=${plataforma}&id=${i}"`;
+        else if (url == "extra_serie") url = `href="embed?con=${console}&jogo=${jogo}&serie=${serie}&fonte=${plataforma}&extra=true&id=${id}"`;
+        else if (url == "extra_outro") url = `href="embed?con=${console}&jogo=${jogo}&fonte=${plataforma}&extra=true&id=${id}"`;
+        else url = `href="${url}" target="_blank"`;
+
+        let extras_class = "";
+        if (class_name == "extras_content_list") extras_class = "extras-item";
+
+        document.querySelector("."+class_name).innerHTML += `
+            <div class="${extras_class} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
+                    <div class="relative h-auto">
+                        <img src="${thumbnail}" class="w-auto h-auto aspect-video object-contain">
+                        <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
+                            <span class="px-2 text-white"><i class="${get_plataforma_icon(plataforma)}"></i>${duracao}</span>
+                        </div>
+                    </div>
+                    <b class="text-center">${nome}</b>
+                </a>
+            </div>
+        `;
+        return
+    }
+    if (type == "playlist") {
+        if (url == "serie") url = `href="serie?con=${console}&jogo=${jogo}&serie=${serie}"`;
+        else url = `href="${url}" target="_blank"`;
+
+        let extras_class = "";
+        if (class_name == "extras_content_list") extras_class = "extras-item";
+
+        //duracao = quantidade
+
+        document.querySelector("."+class_name).innerHTML += `
+            <div class="${extras_class} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
+                    <div class="relative h-auto">
+                        <img src="${thumbnail}" class="w-auto h-auto aspect-video object-contain">
+                        <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
+                            <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 text-white inline-block align-middle"><i class="${get_plataforma_icon("playlist")}"></i>${duracao}</span>
+                        </div>
+                    </div>
+                    <b class="text-center">${nome}</b>
+                </a>
+            </div>
+        `;
+        return
+    }
+    if (type == "jogo") {
+        if (url == "") url = `href="jogo?con=${console}&id=${jogo}"`;
+        else url = `href="${url}" target="_blank"`;
+        document.querySelector("."+class_name).innerHTML += `
+            <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
+                <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                    <div class="w-auto h-[225px]">
+                        <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain">
+                    </div>
+                    <b class="jogo_titulo text-center">${nome}</b>
+                </a>
+                <a href="console?id=${console}" class="p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                    <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${get_console_name(console)}</p>
+                    <p class="py-1 px-2 h-min w-fit m-auto flex-1 text-center">${console.toUpperCase()}</p>
+                </a>
+            </div>
+        `;
+        return
+    }
+    if (type == "jogo_alt") {
+        if (url == "") url = `href="jogo?con=${console}&id=${jogo}"`;
+        else url = `href="${url}" target="_blank"`;
+        document.querySelector("."+class_name).innerHTML += `
+            <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
+                <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                    <div class="w-auto h-[225px]">
+                        <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain">
+                    </div>
+                    <b class="jogo_titulo text-center">${nome}</b>
+                </a>
+            </div>
+        `;
+        return
+    }
+    if (type == "standalone") {
+        if (url == "") url = `href="embed?con=${console}&jogo=${jogo}&fonte=${plataforma}"`;
+        else url = `href="${url}" target="_blank"`;
+        document.querySelector("."+class_name).innerHTML += `
+            <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
+                    <div class="relative h-auto">
+                        <img src="video/${console}/${thumbnail}" class="w-auto h-auto aspect-video object-contain">
+                        <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
+                            <span class="px-2 text-white"><i class="${get_plataforma_icon(plataforma)}"></i>${duracao}</span>
+                        </div>
+                    </div>
+                    <b class="standalone_${i} standalone_titulo_${plataforma} text-center">${nome}</b>
+                </a>
+            </div>
+        `;
+        return
+    }
+    if (type == "outro") {
+        if (url == "") url = `href="serie?con=${console}&jogo=${jogo}"`;
+        else url = `href="${url}" target="_blank"`;
+        document.querySelector("."+class_name).innerHTML += `
+            <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
+                    <div class="relative h-auto">
+                        <img src="video/${console}/${jogo}/${thumbnail}" class="w-auto h-auto aspect-video object-contain">
+                        <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
+                            <span class="px-2 text-white">${categoria}</span>
+                        </div>
+                    </div>
+                    <b class="outro_titulo text-center">${nome}</b>
+                </a>
+            </div>
+        `;
+        return
+    }
+    if (type == "off") {
+        document.querySelector("."+class_name).innerHTML += `
+            <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                <div class="p-2 flex flex-col flex-auto gap-2 items-center">
+                    <div class="relative h-auto">
+                        <img src="video/etc/lost/${thumbnail}" class="thumbnail w-auto h-auto aspect-video object-contain">
+                        <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
+                            <span class="px-2 text-white">${duracao}</span>
+                        </div>
+                    </div>
+                    <b class="text-center">${nome}</b>
+                </div>
+                <div class="p-2 flex flex-col flex-1 gap-2 items-center">
+                    <p class="py-1 px-2 h-min w-fit m-auto">${data}</p>
+                </div>
+            </div>
+        `;
+        return
+    }
+}
+
 var current_tab = "ep_page";
 
 function try_egg(tab) {

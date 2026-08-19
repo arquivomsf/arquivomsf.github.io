@@ -37,19 +37,7 @@ function carregar_itens() {
         let nome_processado = pesquisa_processar_string(jogo_tags);
 
         if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
-                document.querySelector(".jogos_content_list").innerHTML += `
-                    <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
-                        <a href="jogo?con=${jogo_console_sigla}&id=${jogo_nome_curto}" class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                            <div class="w-auto h-[225px]">
-                                <img src="capas/${jogo_console_sigla}/${jogo_nome_curto}.webp" class="h-[225px] object-contain">
-                            </div>
-                            <b class="jogo_titulo text-center">${jogo_nome}</b>
-                        </a>
-                        <a href="console?id=${jogo_console_sigla}" class="p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                            <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${jogo_console_nome}</p>
-                            <p class="py-1 px-2 h-min w-fit m-auto flex-1 text-center">${jogo_console_sigla.toUpperCase()}</p>
-                        </a>
-                    </div>`;
+            create_item("","jogo","jogos_content_list",i,jogo_console_sigla,jogo_nome,jogo_nome_curto);
         }
     }
 
