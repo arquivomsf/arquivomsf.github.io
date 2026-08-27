@@ -1583,6 +1583,13 @@
       "imagem": "1.webp",
       "curto": "metalhellsinger",
       "categoria": "VOD"
+    },
+    {
+      "nome": "Metal Hellsinger (Leviathan Mode)",
+      "tags": "Metal Hellsinger Leviathan Mode PC VODs live roguelike roguelite",
+      "imagem": "1.webp",
+      "curto": "metalleviathan",
+      "categoria": "VOD"
     }
   ],
   "consoles": [
