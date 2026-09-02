@@ -3,13 +3,34 @@
     {
       "nome": "Need for Speed 2 (PS1)",
       "imagem": "webp",
-      "quantidade": "7",
+      "quantidade": "8",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtZqdIlF5pQl5Rr8RjKGHv8",
         "gdrive": "",
         "archive": ""
       }
+    }
+  ],
+  "extras": [
+    {
+      "nome": "Need for Speed 2: onde começou minha paixão pelos jogos de corrida!",
+      "id": "nfs2_yt1",
+      "imagem": "../vods/nfs2_yt1.webp",
+      "data": "02/09/2026",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/6_6u33SN4sY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 0
+      },
+      "chat": "../vods/nfs2_yt1"
     }
   ],
   "videos": [
