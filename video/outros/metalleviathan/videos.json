@@ -3,7 +3,7 @@
     {
       "nome": "Metal Hellsinger (Modo Leviathan)",
       "imagem": "webp",
-      "quantidade": "5",
+      "quantidade": "6",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLUxLChgXH9sg",
@@ -108,6 +108,23 @@
         "horas": 3,
         "minutos": 34,
         "segundos": 28
+      }
+    },
+    {
+      "nome": "Metal Hellsinger Leviathan: o que falta para passar do Level 20?",
+      "imagem": "webp",
+      "data": "09/09/2026",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/K2b666Vl3Cg",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 57,
+        "segundos": 8
       }
     }
   ]
