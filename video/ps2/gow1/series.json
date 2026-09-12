@@ -8,6 +8,16 @@
     ],
     "analise": [
         {
+            "nome": "God of War | Análise e Gameplay de PS2",
+            "imagem": "webp",
+            "link": "https://youtu.be/cLmxBuuzXso",
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 15
+            }
+        },
+        {
             "nome": "Mini Review de God of War | Vale Jogar Sem Nostalgia?",
             "nome_original": "God of War PlayStation 2 | Mini Análise do Jogo",
             "imagem": "webp",

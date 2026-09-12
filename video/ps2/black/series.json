@@ -15,6 +15,16 @@
     ],
     "analise": [
         {
+            "nome": "Black | Análise e Gameplay de PS2",
+            "imagem": "webp",
+            "link": "https://youtu.be/-7IZoMQjuv0",
+            "duracao": {
+                "horas": 0,
+                "minutos": 9,
+                "segundos": 45
+            }
+        },
+        {
             "nome": "Review de Black | Esse Jogo Realmente Era Tudo Isso?",
             "nome_original": "Black de PlayStation 2 | Análise do Jogo",
             "imagem": "webp",

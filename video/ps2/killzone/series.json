@@ -15,6 +15,16 @@
     ],
     "analise": [
         {
+            "nome": "Killzone | Análise e Gameplay de PS2",
+            "imagem": "webp",
+            "link": "https://youtu.be/C5I8gAtpJ4E",
+            "duracao": {
+                "horas": 0,
+                "minutos": 8,
+                "segundos": 17
+            }
+        },
+        {
             "nome": "Review de Killzone | Esse Clássico do PS2 Envelheceu Bem?",
             "nome_original": "Killzone de PlayStation 2 | Análise do Jogo",
             "imagem": "webp",

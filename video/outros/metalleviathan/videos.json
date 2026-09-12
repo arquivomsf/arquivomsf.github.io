@@ -22,6 +22,16 @@
         "minutos": 17,
         "segundos": 54
       }
+    },
+    {
+      "nome": "Essa música tornou o final de Metal Hellsinger perfeito",
+      "imagem": "webp",
+      "link": "https://youtu.be/JrOPmBE3XfY",
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 38
+      }
     }
   ],
   "videos": [
@@ -111,7 +121,8 @@
       }
     },
     {
-      "nome": "Metal Hellsinger Leviathan: o que falta para passar do Level 20?",
+      "nome": "Metal Hellsinger Leviathan: A Segunda Ressureição com o upgrade No Surrender 2",
+      "nome_original": "Metal Hellsinger Leviathan: o que falta para passar do Level 20?",
       "imagem": "webp",
       "data": "09/09/2026",
       "plataforma": "youtube",

@@ -27,11 +27,11 @@ function carregar_itens() {
     let video_nome = dados_serie.videos[i].nome;
     let video_imagem = dados_serie.videos[i].imagem;
     let video_duracao = gerar_timestamp(dados_serie.videos[i].duracao.horas,dados_serie.videos[i].duracao.minutos,dados_serie.videos[i].duracao.segundos);
-      document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${video_imagem}`);
-      let video_plataforma = dados_serie.videos[i].plataforma;
-      let video_link = dados_serie.videos[i].links[video_plataforma];
-      if (consoleAtual == "outros") create_item("ep_outro","video","ep_content_list",i,consoleAtual,video_nome,jogoAtual,`${serie_path}/${i+1}.${video_imagem}`,video_plataforma,video_duracao);
-      else create_item("ep_serie","video","ep_content_list",i,consoleAtual,video_nome,jogoAtual,`${serie_path}/${i+1}.${video_imagem}`,video_plataforma,video_duracao,serieAtual);
+    document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${video_imagem}`);
+    let video_plataforma = dados_serie.videos[i].plataforma;
+    let video_link = dados_serie.videos[i].links[video_plataforma];
+    if (consoleAtual == "outros") create_item("ep_outro","video","ep_content_list",i,consoleAtual,video_nome,jogoAtual,`${serie_path}/${i+1}.${video_imagem}`,video_plataforma,video_duracao);
+    else create_item("ep_serie","video","ep_content_list",i,consoleAtual,video_nome,jogoAtual,`${serie_path}/${i+1}.${video_imagem}`,video_plataforma,video_duracao,serieAtual);
   }
 
   //itens extras
@@ -61,10 +61,15 @@ function carregar_itens() {
   }
 
   if (dados_serie.hasOwnProperty("analise")) {
-    let serie_nome = dados_serie.analise[0].nome;
-    let serie_imagem = dados_serie.analise[0].imagem;
-    let serie_link = dados_serie.analise[0].link;
-    let serie_duracao = gerar_timestamp(dados_serie.analise[0].duracao.horas,dados_serie.analise[0].duracao.minutos,dados_serie.analise[0].duracao.segundos);
-    create_item(serie_link,"video","extras_content_list",0,consoleAtual,serie_nome,jogoAtual,`video/${consoleAtual}/${jogoAtual}/analise.${serie_imagem}`,"youtube",serie_duracao);
+    for (var i = 0; i<dados_serie.analise.length; i++){
+      let thumbnail_name = "analise";
+      if (dados_serie.analise.length > 1) thumbnail_name = "analise"+(i+1);
+
+      let serie_nome = dados_serie.analise[i].nome;
+      let serie_imagem = dados_serie.analise[i].imagem;
+      let serie_link = dados_serie.analise[i].link;
+      let serie_duracao = gerar_timestamp(dados_serie.analise[i].duracao.horas,dados_serie.analise[i].duracao.minutos,dados_serie.analise[i].duracao.segundos);
+      create_item(serie_link,"video","extras_content_list",i,consoleAtual,serie_nome,jogoAtual,`video/${consoleAtual}/${jogoAtual}/${thumbnail_name}.${serie_imagem}`,"youtube",serie_duracao);
+    }
   }
 }

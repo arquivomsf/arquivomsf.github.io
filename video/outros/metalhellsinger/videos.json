@@ -22,6 +22,16 @@
         "minutos": 17,
         "segundos": 54
       }
+    },
+    {
+      "nome": "Essa música tornou o final de Metal Hellsinger perfeito",
+      "imagem": "webp",
+      "link": "https://youtu.be/JrOPmBE3XfY",
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 38
+      }
     }
   ],
   "videos": [
