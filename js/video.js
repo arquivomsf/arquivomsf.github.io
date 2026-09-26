@@ -74,17 +74,21 @@ function carregar_itens() {
         }
 
         let video_all_links = dados_geral.standalone[i].links;
-        if (video_all_links.youtube != "") {
+        if (video_all_links.hasOwnProperty("youtube") && video_all_links.youtube != "") {
           document.querySelector(".btn-youtube").href = video_all_links.youtube;
           document.querySelector(".btn-youtube").classList.remove("hidden");
         }
-        if (video_all_links.gdrive != "") {
+        if (video_all_links.hasOwnProperty("gdrive") && video_all_links.gdrive != "") {
           document.querySelector(".btn-gdrive").href = video_all_links.gdrive;
           document.querySelector(".btn-gdrive").classList.remove("hidden");
         }
-        if (video_all_links.archive != "") {
+        if (video_all_links.hasOwnProperty("archive") && video_all_links.archive != "") {
           document.querySelector(".btn-archive").href = video_all_links.archive;
           document.querySelector(".btn-archive").classList.remove("hidden");
+        }
+        if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
+          document.querySelector(".btn-rumble").href = video_all_links.rumble;
+          document.querySelector(".btn-rumble").classList.remove("hidden");
         }
         document.querySelector(".data_string").innerHTML = dados_geral.standalone[i].data;
 
@@ -141,17 +145,21 @@ function carregar_itens() {
         }
 
         let extra_all_links = dados_serie.extras[i].links;
-        if (extra_all_links.youtube != "") {
+        if (extra_all_links.hasOwnProperty("youtube") && extra_all_links.youtube != "") {
           document.querySelector(".btn-youtube").href = extra_all_links.youtube;
           document.querySelector(".btn-youtube").classList.remove("hidden");
         }
-        if (extra_all_links.gdrive != "") {
+        if (extra_all_links.hasOwnProperty("gdrive") && extra_all_links.gdrive != "") {
           document.querySelector(".btn-gdrive").href = extra_all_links.gdrive;
           document.querySelector(".btn-gdrive").classList.remove("hidden");
         }
-        if (extra_all_links.archive != "") {
+        if (extra_all_links.hasOwnProperty("archive") && extra_all_links.archive != "") {
           document.querySelector(".btn-archive").href = extra_all_links.archive;
           document.querySelector(".btn-archive").classList.remove("hidden");
+        }
+        if (extra_all_links.hasOwnProperty("rumble") && extra_all_links.rumble != "") {
+          document.querySelector(".btn-rumble").href = extra_all_links.rumble;
+          document.querySelector(".btn-rumble").classList.remove("hidden");
         }
         document.querySelector(".data_string").innerHTML = dados_serie.extras[i].data;
 
@@ -214,17 +222,21 @@ function carregar_itens() {
     }
 
     let video_all_links = dados_serie.videos[episodioAtual].links;
-    if (video_all_links.youtube != "") {
+    if (video_all_links.hasOwnProperty("youtube") && video_all_links.youtube != "") {
       document.querySelector(".btn-youtube").href = video_all_links.youtube;
       document.querySelector(".btn-youtube").classList.remove("hidden");
     }
-    if (video_all_links.gdrive != "") {
+    if (video_all_links.hasOwnProperty("gdrive") && video_all_links.gdrive != "") {
       document.querySelector(".btn-gdrive").href = video_all_links.gdrive;
       document.querySelector(".btn-gdrive").classList.remove("hidden");
     }
-    if (video_all_links.archive != "") {
+    if (video_all_links.hasOwnProperty("archive") && video_all_links.archive != "") {
       document.querySelector(".btn-archive").href = video_all_links.archive;
       document.querySelector(".btn-archive").classList.remove("hidden");
+    }
+    if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
+      document.querySelector(".btn-rumble").href = video_all_links.rumble;
+      document.querySelector(".btn-rumble").classList.remove("hidden");
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
 
@@ -280,17 +292,21 @@ function carregar_itens() {
   }
 
   let video_all_links = dados_serie.videos[episodioAtual].links;
-    if (video_all_links.youtube != "") {
+    if (video_all_links.hasOwnProperty("youtube") && video_all_links.youtube != "") {
       document.querySelector(".btn-youtube").href = video_all_links.youtube;
       document.querySelector(".btn-youtube").classList.remove("hidden");
     }
-    if (video_all_links.gdrive != "") {
+    if (video_all_links.hasOwnProperty("gdrive") && video_all_links.gdrive != "") {
       document.querySelector(".btn-gdrive").href = video_all_links.gdrive;
       document.querySelector(".btn-gdrive").classList.remove("hidden");
     }
-    if (video_all_links.archive != "") {
+    if (video_all_links.hasOwnProperty("archive") && video_all_links.archive != "") {
       document.querySelector(".btn-archive").href = video_all_links.archive;
       document.querySelector(".btn-archive").classList.remove("hidden");
+    }
+    if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
+      document.querySelector(".btn-rumble").href = video_all_links.rumble;
+      document.querySelector(".btn-rumble").classList.remove("hidden");
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
 

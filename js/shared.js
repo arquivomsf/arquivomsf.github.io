@@ -396,6 +396,12 @@ function debug() {
                             <span class="jogo_id_${debug_console}_${debug_nome}_episodios_archive_string">0 Episódios</span>
                             </span>
                         </div>
+                        <div>
+                            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_rumble hidden">
+                            <i class="${get_plataforma_icon("rumble")}" title="rumble"></i> 
+                            <span class="jogo_id_${debug_console}_${debug_nome}_episodios_rumble_string">0 Episódios</span>
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="m-1 flex flex-col gap-2">
@@ -419,6 +425,12 @@ function debug() {
                             <span class="jogo_id_${debug_console}_${debug_nome}_vods_archive hidden">
                             <i class="${get_plataforma_icon("archive")}" title="archive"></i> 
                             <span class="jogo_id_${debug_console}_${debug_nome}_vods_archive_string">0 VODs</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="jogo_id_${debug_console}_${debug_nome}_vods_rumble hidden">
+                            <i class="${get_plataforma_icon("rumble")}" title="rumble"></i> 
+                            <span class="jogo_id_${debug_console}_${debug_nome}_vods_rumble_string">0 VODs</span>
                             </span>
                         </div>
                     </div>
@@ -487,17 +499,20 @@ function debug() {
                     document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_total").innerHTML = `${data.videos.length} Episódios no total`;
 
                     //verificação de plataformas - Episódios
-                    let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0};
+                    let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0, rumble: 0};
 
                     for (var i = 0; i<data.videos.length; i++) {
-                        if (!data.videos[i].links.youtube == "") {
+                        if (data.videos[i].links.hasOwnProperty("youtube") && !data.videos[i].links.youtube == "") {
                             json_video_plataforma_counter.youtube++;
                         }
-                        if (!data.videos[i].links.gdrive == "") {
+                        if (data.videos[i].links.hasOwnProperty("gdrive") && !data.videos[i].links.gdrive == "") {
                             json_video_plataforma_counter.gdrive++;
                         }
-                        if (!data.videos[i].links.archive == "") {
+                        if (data.videos[i].links.hasOwnProperty("archive") && !data.videos[i].links.archive == "") {
                             json_video_plataforma_counter.archive++;
+                        }
+                        if (data.videos[i].links.hasOwnProperty("rumble") && !data.videos[i].links.rumble == "") {
+                            json_video_plataforma_counter.rumble++;
                         }
                     }
 
@@ -517,6 +532,12 @@ function debug() {
                         let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_archive";
                         document.querySelector(cur_element_class).classList.remove("hidden");
                         document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.archive} Episódios`;
+                    }
+
+                    if (json_video_plataforma_counter.rumble > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_rumble";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.rumble} Episódios`;
                     }
 
                     //Detector de JSON antigo - JOGOS episodios
@@ -568,17 +589,20 @@ function debug() {
                     document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_vods_total").innerHTML = `${data.videos.length} VODs no total`;
 
                     //verificação de plataformas - VODs
-                    let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0};
+                    let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0, rumble: 0};
 
                     for (var i = 0; i<data.videos.length; i++) {
-                        if (!data.videos[i].links.youtube == "") {
+                        if (data.videos[i].links.hasOwnProperty("youtube") && !data.videos[i].links.youtube == "") {
                             json_video_plataforma_counter.youtube++;
                         }
-                        if (!data.videos[i].links.gdrive == "") {
+                        if (data.videos[i].links.hasOwnProperty("gdrive") && !data.videos[i].links.gdrive == "") {
                             json_video_plataforma_counter.gdrive++;
                         }
-                        if (!data.videos[i].links.archive == "") {
+                        if (data.videos[i].links.hasOwnProperty("archive") && !data.videos[i].links.archive == "") {
                             json_video_plataforma_counter.archive++;
+                        }
+                        if (data.videos[i].links.hasOwnProperty("rumble") && !data.videos[i].links.rumble == "") {
+                            json_video_plataforma_counter.rumble++;
                         }
                     }
 
@@ -598,6 +622,12 @@ function debug() {
                         let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_archive";
                         document.querySelector(cur_element_class).classList.remove("hidden");
                         document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.archive} VODs`;
+                    }
+
+                    if (json_video_plataforma_counter.rumble > 0) {
+                        let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_rumble";
+                        document.querySelector(cur_element_class).classList.remove("hidden");
+                        document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.rumble} VODs`;
                     }
 
                     //Detector de JSON antigo - JOGOS vods
@@ -686,6 +716,12 @@ function debug() {
                             <span class="jogo_id_outros_${debug_outro_nome}_episodios_archive_string">0 Vídeos</span>
                             </span>
                         </div>
+                        <div>
+                            <span class="jogo_id_outros_${debug_outro_nome}_episodios_rumble hidden">
+                            <i class="${get_plataforma_icon("rumble")}" title="rumble"></i> 
+                            <span class="jogo_id_outros_${debug_outro_nome}_episodios_rumble_string">0 Vídeos</span>
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="m-1">
@@ -723,17 +759,20 @@ function debug() {
         .then(response => response.json())
         .then(data => {
             //verificação de plataformas - OUTROS
-            let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0};
+            let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0, rumble: 0};
 
             for (var i = 0; i<data.videos.length; i++) {
-                if (!data.videos[i].links.youtube == "") {
+                if (data.videos[i].links.hasOwnProperty("youtube") && !data.videos[i].links.youtube == "") {
                     json_video_plataforma_counter.youtube++;
                 }
-                if (!data.videos[i].links.gdrive == "") {
+                if (data.videos[i].links.hasOwnProperty("gdrive") && !data.videos[i].links.gdrive == "") {
                     json_video_plataforma_counter.gdrive++;
                 }
-                if (!data.videos[i].links.archive == "") {
+                if (data.videos[i].links.hasOwnProperty("archive") && !data.videos[i].links.archive == "") {
                     json_video_plataforma_counter.archive++;
+                }
+                if (data.videos[i].links.hasOwnProperty("rumble") && !data.videos[i].links.rumble == "") {
+                    json_video_plataforma_counter.rumble++;
                 }
             }
 
@@ -753,6 +792,12 @@ function debug() {
                 let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_episodios_archive";
                 document.querySelector(cur_element_class).classList.remove("hidden");
                 document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.archive} Vídeos`;
+            }
+
+            if (json_video_plataforma_counter.rumble > 0) {
+                let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_episodios_rumble";
+                document.querySelector(cur_element_class).classList.remove("hidden");
+                document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.rumble} Vídeos`;
             }
 
             if (data.hasOwnProperty("analise")) {
@@ -814,6 +859,10 @@ function debug() {
 
     document.querySelectorAll(".standalone_titulo_archive").forEach((element) =>
         element.innerHTML += `<hr class="m-1"><span>Internet Archive</span>`
+    );
+
+    document.querySelectorAll(".standalone_titulo_rumble").forEach((element) =>
+        element.innerHTML += `<hr class="m-1"><span>Rumble</span>`
     );
 
     //Detector de JSON antigo - STANDALONE
@@ -906,6 +955,9 @@ function get_plataforma_icon(plataforma) {
         case "archive":
             return "pr-4 fa-brands fa-internet-archive"
         break;
+        case "rumble":
+            return "pr-4 fa-regular fa-circle-play"
+        break;
     }
 }
 
@@ -919,6 +971,9 @@ function embed_replace(url, plataforma) {
         break;
         case "archive":
             url = url.replaceAll("details", "embed");
+        break;
+        case "rumble":
+            //if (!url.includes("shorts")) url = `https://rumble.com/embed/${url.split("/")[3].split("-")[0]}`;
         break;
     }
     return url

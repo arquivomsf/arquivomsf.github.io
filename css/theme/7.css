@@ -670,3 +670,7 @@ body[data-tema="7"] .btn-gdrive > i {
 body[data-tema="7"] .btn-archive > i {
   color: black;
 }
+
+body[data-tema="7"] .btn-rumble > i {
+  color: oklch(45.3% 0.124 130.933);
+}

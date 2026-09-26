@@ -408,8 +408,7 @@ body[data-tema="geo"] .btn-like {
     display: block;
 }
 
-body[data-tema="geo"] .btn-youtube {
-    background-image: url("../../assets/img/buttons/ytbutton.gif");
+body[data-tema="geo"] .btn-plataforma {
     background-repeat: no-repeat;
     height: 31px;
     width: 88px;
@@ -422,38 +421,22 @@ body[data-tema="geo"] .btn-youtube {
 
     border-radius: 0;
     border: none;
+}
+
+body[data-tema="geo"] .btn-youtube {
+    background-image: url("../../assets/img/buttons/ytbutton.gif");
 }
 
 body[data-tema="geo"] .btn-gdrive {
     background-image: url("../../assets/img/buttons/google_25wht.gif");
-    background-repeat: no-repeat;
-    height: 31px;
-    width: 88px;
-
-    color: transparent !important;
-    user-select: none !important;
-
-    padding: 0 !important;
-    margin: 0.5rem !important;
-
-    border-radius: 0;
-    border: none;
 }
 
 body[data-tema="geo"] .btn-archive {
     background-image: url("../../assets/img/buttons/internetarchive.gif");
-    background-repeat: no-repeat;
-    height: 31px;
-    width: 88px;
+}
 
-    color: transparent !important;
-    user-select: none !important;
-
-    padding: 0 !important;
-    margin: 0.5rem !important;
-
-    border-radius: 0;
-    border: none;
+body[data-tema="geo"] .btn-rumble {
+    background-image: url("../../assets/img/buttons/rambestgirl.png");
 }
 
 body[data-tema="geo"] .page-404 > div > div > div > p:has(.text-5xl)::before {

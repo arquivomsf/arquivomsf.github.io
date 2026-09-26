@@ -166,6 +166,15 @@
   background-color: oklch(79.523% 0.00009 271.152);
 }
 
+.btn-rumble {
+  background-color: oklch(64.8% 0.2 131.684);
+  color: black;
+}
+
+.btn-rumble:hover {
+  background-color: oklch(45.3% 0.124 130.933);
+}
+
 .list-group-item {
   position: relative;
   display: block;

@@ -492,3 +492,7 @@ body[data-tema="xp"] .btn-gdrive > i {
 body[data-tema="xp"] .btn-archive > i {
   color: black;
 }
+
+body[data-tema="xp"] .btn-rumble > i {
+  color: oklch(45.3% 0.124 130.933);
+}

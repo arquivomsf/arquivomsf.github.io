@@ -394,3 +394,11 @@ body[data-tema="98"] .btn-youtube > i {
 body[data-tema="98"] .btn-gdrive > i {
   color: oklch(35.214% 0.07717 237.238);
 }
+
+body[data-tema="98"] .btn-archive > i {
+  color: black;
+}
+
+body[data-tema="98"] .btn-rumble > i {
+  color: oklch(45.3% 0.124 130.933);
+}
