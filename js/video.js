@@ -69,6 +69,7 @@ function carregar_itens() {
           create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`);
         } else {
           if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`;
+          if (fonteAtual == "perdido") video_link = `video/erro?thumb=https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}&title=${video_nome}&original=${video_link}`;
           video_link = embed_replace(video_link, fonteAtual);
           document.querySelector("#jsonIframe").src = `${video_link}`;
         }
@@ -89,6 +90,10 @@ function carregar_itens() {
         if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
           document.querySelector(".btn-rumble").href = video_all_links.rumble;
           document.querySelector(".btn-rumble").classList.remove("hidden");
+        }
+        if (fonteAtual == "perdido") {
+          document.querySelector(".plataformas_label").classList.add("hidden");
+          document.querySelector(".plataformas_list").classList.add("hidden");
         }
         document.querySelector(".data_string").innerHTML = dados_geral.standalone[i].data;
 
@@ -140,6 +145,7 @@ function carregar_itens() {
           create_fake_embed(extra_link,thumb_path);
         } else {
           if (fonteAtual == "archive") extra_link = `${extra_link}?poster=${thumb_path}`;
+          if (fonteAtual == "perdido") video_link = `video/erro?thumb=${thumb_path}&title=${extra_nome}&original=${extra_link}`;
           extra_link = embed_replace(extra_link, fonteAtual);
           document.querySelector("#jsonIframe").src = `${extra_link}`;
         }
@@ -160,6 +166,10 @@ function carregar_itens() {
         if (extra_all_links.hasOwnProperty("rumble") && extra_all_links.rumble != "") {
           document.querySelector(".btn-rumble").href = extra_all_links.rumble;
           document.querySelector(".btn-rumble").classList.remove("hidden");
+        }
+        if (fonteAtual == "perdido") {
+          document.querySelector(".plataformas_label").classList.add("hidden");
+          document.querySelector(".plataformas_list").classList.add("hidden");
         }
         document.querySelector(".data_string").innerHTML = dados_serie.extras[i].data;
 
@@ -217,6 +227,7 @@ function carregar_itens() {
       create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
     } else {
       if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
+      if (fonteAtual == "perdido") video_link = `video/erro?thumb=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}&title=${video_nome}&original=${video_link}`;
       video_link = embed_replace(video_link, fonteAtual);
       document.querySelector("#jsonIframe").src = `${video_link}`;
     }
@@ -237,6 +248,10 @@ function carregar_itens() {
     if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
       document.querySelector(".btn-rumble").href = video_all_links.rumble;
       document.querySelector(".btn-rumble").classList.remove("hidden");
+    }
+    if (fonteAtual == "perdido") {
+      document.querySelector(".plataformas_label").classList.add("hidden");
+      document.querySelector(".plataformas_list").classList.add("hidden");
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
 
@@ -287,6 +302,7 @@ function carregar_itens() {
     create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
   } else {
     if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
+    if (fonteAtual == "perdido") video_link = `video/erro?thumb=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}&title=${video_nome}&original=${video_link}`;
     video_link = embed_replace(video_link, fonteAtual);
     document.querySelector("#jsonIframe").src = `${video_link}`;
   }
@@ -307,6 +323,10 @@ function carregar_itens() {
     if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
       document.querySelector(".btn-rumble").href = video_all_links.rumble;
       document.querySelector(".btn-rumble").classList.remove("hidden");
+    }
+    if (fonteAtual == "perdido") {
+      document.querySelector(".plataformas_label").classList.add("hidden");
+      document.querySelector(".plataformas_list").classList.add("hidden");
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
 

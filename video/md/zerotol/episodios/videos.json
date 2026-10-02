@@ -193,11 +193,12 @@
       "nome": "Zero Tolerance de Mega Drive - Parte 12",
       "imagem": "webp",
       "data": "11/05/2022",
-      "plataforma": "gdrive",
+      "plataforma": "perdido",
       "links": {
         "youtube": "",
-        "gdrive": "https://cos.tv/videos/play/36115038530475008",
-        "archive": ""
+        "gdrive": "",
+        "archive": "",
+        "perdido": "https://cos.tv/videos/play/36115038530475008"
       },
       "duracao": {
         "horas": 0,

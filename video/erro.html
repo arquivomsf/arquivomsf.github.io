@@ -1,0 +1,42 @@
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://arquivomsf.github.io/assets/fonts/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+  <link href="https://arquivomsf.github.io/assets/fonts/fontawesome/css/solid.min.css" rel="stylesheet" />
+</head>
+<body>
+  <img class="w-full h-auto aspect-video video_thumb" src="">
+  <div class="w-full h-auto aspect-video fixed top-0 left-0 z-2 bg-black opacity-50 pointer-events-none"></div>
+  <div class="w-full h-auto aspect-video fixed top-0 left-0 z-3 flex items-center cursor-pointer pointer-events-none">
+    <span class="text-white w-full text-center flex flex-col items-center">
+      <i class="fa-solid fa-xmark text-[7em]"></i>
+      <div class="flex flex-col gap-2">
+        <b class="video_title"></b>
+        <span>Vídeo indisponível</span>
+        <br>
+        <div>Link original: <a class="url_original pointer-events-auto hover:underline" target="_blank"></a></div>
+      </div>
+    </span>
+  </div>
+  <script>
+    var thumbnail = "";
+    var video_atual = "";
+    var url_original = "";
+
+    function procurarParam() {
+      let searchParams = new URLSearchParams(window.location.search);
+      thumbnail = searchParams.get('thumb');
+      video_atual = searchParams.get('title');
+      url_original = searchParams.get('original');
+    }
+    procurarParam();
+
+    function load_info() {
+      document.querySelector(".video_thumb").src = thumbnail;
+      document.querySelector(".video_title").innerHTML = video_atual;
+      document.querySelector(".url_original").innerHTML = url_original;
+      document.querySelector(".url_original").href = url_original;
+    }
+    load_info();
+  </script>
+</body>
+  

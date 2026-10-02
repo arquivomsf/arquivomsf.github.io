@@ -958,6 +958,9 @@ function get_plataforma_icon(plataforma) {
         case "rumble":
             return "pr-4 fa-regular fa-circle-play"
         break;
+        case "perdido":
+            return "pr-4 fa-solid fa-xmark"
+        break;
     }
 }
 
