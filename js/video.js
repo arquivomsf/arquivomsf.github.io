@@ -205,9 +205,9 @@ function carregar_itens() {
     let video_imagem = dados_serie.videos[episodioAtual].imagem;
     let console_sigla = "outros";
     document.querySelector(".navbar-two").innerHTML = `Outros`;
-    document.querySelector(".navbar-two").href = `https://arquivomsf.github.io/`;
+    document.querySelector(".navbar-two").href = `https://arquivomsf.github.io/?tab=outros`;
     document.querySelector(".navbar-two-sigla").innerHTML = `Outros`;
-    document.querySelector(".navbar-two-sigla").href = `https://arquivomsf.github.io/`;
+    document.querySelector(".navbar-two-sigla").href = `https://arquivomsf.github.io/?tab=outros`;
     for (var i = 0; i<dados_geral.outros.length; i++){
       let outros_nome = dados_geral.outros[i].nome;
       let outros_nome_curto = dados_geral.outros[i].curto;

@@ -16,6 +16,7 @@ function procurarParam() {
 }
 
 function remote_set_tab(page="jogos") {
+    if (page == "" || page == null || page == undefined) page = "jogos";
     document.querySelector(".tab_"+page).click();
 }
 

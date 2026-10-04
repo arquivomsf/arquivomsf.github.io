@@ -31,7 +31,6 @@ function carregar_itens() {
     for (var i = 0; i<franquia_atual_organizada.length; i++) {
         let jogo_nome = franquia_atual_organizada[i].nome;
         let jogo_console_sigla = franquia_atual_organizada[i].console;
-        let jogo_console_nome = get_console_name(jogo_console_sigla);
         let jogo_nome_curto = franquia_atual_organizada[i].curto;
         let jogo_tags = franquia_atual_organizada[i].tags;
         let nome_processado = pesquisa_processar_string(jogo_tags);

@@ -245,10 +245,10 @@ function carregar_consoles_temas(modo,parametro) {
                     document.querySelector(".navbar-three-mobile").innerHTML = `${jogo_nome}`;
                     if (modo == "outro") {
                         document.querySelector(".navbar-two").innerHTML = `Outros`;
-                        document.querySelector(".navbar-two").href = `https://arquivomsf.github.io/`;
+                        document.querySelector(".navbar-two").href = `https://arquivomsf.github.io/?tab=outros`;
 
                         document.querySelector(".navbar-two-sigla").innerHTML = `Outros`;
-                        document.querySelector(".navbar-two-sigla").href = `https://arquivomsf.github.io/`;
+                        document.querySelector(".navbar-two-sigla").href = `https://arquivomsf.github.io/?tab=outros`;
                     }
                     else {
                         document.querySelector(".navbar-two").innerHTML = `${jogo_console_nome}`;
