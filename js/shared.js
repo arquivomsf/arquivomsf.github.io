@@ -997,7 +997,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
             <div class="${extras_class} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
-                        <img src="${thumbnail}" class="w-auto h-auto aspect-video object-contain">
+                        <img src="${thumbnail}" class="w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                             <span class="px-2 text-white"><i class="${get_plataforma_icon(plataforma)}"></i>${duracao}</span>
                         </div>
@@ -1021,7 +1021,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
             <div class="${extras_class} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
-                        <img src="${thumbnail}" class="w-auto h-auto aspect-video object-contain">
+                        <img src="${thumbnail}" class="w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
                             <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 text-white inline-block align-middle"><i class="${get_plataforma_icon("playlist")}"></i>${duracao}</span>
                         </div>
@@ -1039,7 +1039,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
             <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
                 <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="w-auto h-[225px]">
-                        <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain">
+                        <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain" loading="lazy" decoding="async">
                     </div>
                     <b class="jogo_titulo text-center">${nome}</b>
                 </a>
@@ -1058,7 +1058,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
             <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
                 <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="w-auto h-[225px]">
-                        <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain">
+                        <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain" loading="lazy" decoding="async">
                     </div>
                     <b class="jogo_titulo text-center">${nome}</b>
                 </a>
@@ -1073,7 +1073,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
             <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
-                        <img src="video/${console}/${thumbnail}" class="w-auto h-auto aspect-video object-contain">
+                        <img src="video/${console}/${thumbnail}" class="w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                             <span class="px-2 text-white"><i class="${get_plataforma_icon(plataforma)}"></i>${duracao}</span>
                         </div>
@@ -1091,7 +1091,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
             <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
-                        <img src="video/${console}/${jogo}/${thumbnail}" class="w-auto h-auto aspect-video object-contain">
+                        <img src="video/${console}/${jogo}/${thumbnail}" class="w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                             <span class="px-2 text-white">${categoria}</span>
                         </div>
@@ -1107,7 +1107,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
             <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <div class="p-2 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
-                        <img src="video/etc/lost/${thumbnail}" class="thumbnail w-auto h-auto aspect-video object-contain">
+                        <img src="video/etc/lost/${thumbnail}" class="thumbnail w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                             <span class="px-2 text-white">${duracao}</span>
                         </div>

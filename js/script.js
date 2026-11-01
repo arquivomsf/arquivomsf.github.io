@@ -82,7 +82,7 @@ function get_franquia_capas(id,nome,capas) {
     if (capas.length == 1) {
         capas_html = `
             <div class="w-full h-[180px] flex flex-row franquia_album">
-                <img src="capas/${capas[0]}.webp" class="h-[180px] object-contain">
+                <img src="capas/${capas[0]}.webp" class="h-[180px] object-contain" loading="lazy" decoding="async">
             </div>
         `
     }
@@ -90,8 +90,8 @@ function get_franquia_capas(id,nome,capas) {
     if (capas.length == 2) {
         capas_html = `
             <div class="w-full h-[180px] flex flex-row franquia_album">
-                <img src="capas/${capas[0]}.webp" class="h-[180px] object-contain mr-[-60px] z-4 ring-2 ring-white">
-                <img src="capas/${capas[1]}.webp" class="h-[180px] object-contain z-3 ring-2 ring-white">
+                <img src="capas/${capas[0]}.webp" class="h-[180px] object-contain mr-[-60px] z-4 ring-2 ring-white" loading="lazy" decoding="async">
+                <img src="capas/${capas[1]}.webp" class="h-[180px] object-contain z-3 ring-2 ring-white" loading="lazy" decoding="async">
             </div>
         `
     }
@@ -99,9 +99,9 @@ function get_franquia_capas(id,nome,capas) {
     if (capas.length >= 3) {
         capas_html = `
             <div class="w-full h-[180px] flex flex-row franquia_album">
-                <img src="capas/${capas[0]}.webp" class="h-[180px] object-contain mr-[-60px] z-4 ring-2 ring-white">
-                <img src="capas/${capas[1]}.webp" class="h-[180px] object-contain mr-[-60px] z-3 ring-2 ring-white">
-                <img src="capas/${capas[2]}.webp" class="h-[180px] object-contain ring-2 ring-white">
+                <img src="capas/${capas[0]}.webp" class="h-[180px] object-contain mr-[-60px] z-4 ring-2 ring-white" loading="lazy" decoding="async">
+                <img src="capas/${capas[1]}.webp" class="h-[180px] object-contain mr-[-60px] z-3 ring-2 ring-white" loading="lazy" decoding="async">
+                <img src="capas/${capas[2]}.webp" class="h-[180px] object-contain ring-2 ring-white" loading="lazy" decoding="async">
             </div>
         `
     }
