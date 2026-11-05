@@ -1,0 +1,71 @@
+{
+  "playlist": [
+    {
+      "nome": "Need for Speed: V-Rally (PS1 - VOD)",
+      "imagem": "webp",
+      "quantidade": "3",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLU3pqhtxuXtY",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Need for Speed V-Rally - Arcade / Fácil",
+      "desc": "Gameplay comentado ao vivo do clássico Need for Speed V-Rally  de PlayStation 1.",
+      "imagem": "webp",
+      "data": "17/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/CcnjIwwZXiw",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 4
+      }
+    },
+    {
+      "nome": "Need for Speed V-Rally - Arcade / Médio",
+      "desc": "Gameplay comentado ao vivo do clássico Need for Speed V-Rally  de PlayStation 1.",
+      "imagem": "webp",
+      "data": "21/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/qoeXTyVPQQs",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 40,
+        "segundos": 47
+      }
+    },
+    {
+      "nome": "Need for Speed V-Rally de PlayStation 1 - Arcade / Difícil",
+      "desc": "Gameplay comentado ao vivo do clássico Need for Speed V-Rally de PlayStation 1.",
+      "imagem": "webp",
+      "data": "23/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/oFlOQq4MG5U",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 27,
+        "segundos": 7
+      }
+    }
+  ]
+}
