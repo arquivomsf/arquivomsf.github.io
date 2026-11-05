@@ -1,0 +1,107 @@
+{
+  "playlist": [
+    {
+      "nome": "Medal of Honor (PS1 - VOD)",
+      "imagem": "webp",
+      "quantidade": "5",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLDcJUlLRGzEg",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "MEDAL OF HONOR de PlayStation 1 - Parte 1 / O Começo",
+      "desc": "Gameplay comentado ao vivo do clássico Medal of Honor de PlayStation 1.",
+      "imagem": "webp",
+      "data": "14/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/w44CNAT4dO0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 15,
+        "segundos": 27
+      }
+    },
+    {
+      "nome": "MEDAL OF HONOR de PlayStation 1 - Parte 2 / O Navio",
+      "desc": "Gameplay comentado ao vivo do clássico Medal of Honor de PlayStation 1.",
+      "imagem": "webp",
+      "data": "15/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/spvkI8UJyKo",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 8,
+        "segundos": 57
+      }
+    },
+    {
+      "nome": "MEDAL OF HONOR de PlayStation 1 - Parte 3 / O Porto",
+      "desc": "Gameplay comentado ao vivo do clássico Medal of Honor de PlayStation 1.",
+      "imagem": "webp",
+      "data": "27/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/3WTUdkl4WPY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 56,
+        "segundos": 8
+      }
+    },
+    {
+      "nome": "MEDAL OF HONOR de PlayStation 1 - Parte 4 / O Submarino",
+      "desc": "Gameplay comentado ao vivo do clássico Medal of Honor de PlayStation 1.",
+      "imagem": "webp",
+      "data": "20/03/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/40KmDFqZMe8",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 24,
+        "segundos": 7
+      }
+    },
+    {
+      "nome": "MEDAL OF HONOR de PlayStation 1 - Parte 5 / Desarmando Bombas",
+      "desc": "Gameplay comentado ao vivo do clássico Medal of Honor de PlayStation 1.",
+      "imagem": "webp",
+      "data": "27/03/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/wNsiX6VDQMg",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 26,
+        "segundos": 21
+      }
+    }
+  ]
+}
