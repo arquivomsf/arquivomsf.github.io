@@ -1,0 +1,89 @@
+{
+  "playlist": [
+    {
+      "nome": "Crash Bandicoot (PS1 - VOD)",
+      "imagem": "webp",
+      "quantidade": "4",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLZkSdmZQR4zY",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "CLÁSSICO CRASH BANDICOOT de PlayStation 1 - Parte 1",
+      "desc": "Gameplay comentado ao vivo do clássico Crash Bandicoot de PlayStation 1.",
+      "imagem": "webp",
+      "data": "04/03/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/QYx8YJ8fmFI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 2,
+        "minutos": 2,
+        "segundos": 19
+      }
+    },
+    {
+      "nome": "CLÁSSICO CRASH BANDICOOT de PlayStation 1 - Parte 2",
+      "desc": "Gameplay comentado ao vivo do clássico Crash Bandicoot de PlayStation 1.",
+      "imagem": "webp",
+      "data": "08/03/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/_kkQnXcauR0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 12,
+        "segundos": 25
+      }
+    },
+    {
+      "nome": "CLÁSSICO CRASH BANDICOOT de PlayStation 1 - Parte 3",
+      "desc": "Gameplay comentado ao vivo do clássico Crash Bandicoot de PlayStation 1.",
+      "imagem": "webp",
+      "data": "15/03/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/0aZOaBpp9Zo",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 59,
+        "segundos": 37
+      }
+    },
+    {
+      "nome": "CLÁSSICO CRASH BANDICOOT de PlayStation 1 - Parte 4 / FINAL",
+      "desc": "Gameplay comentado ao vivo do clássico Crash Bandicoot de PlayStation 1.",
+      "imagem": "webp",
+      "data": "15/03/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/HCOoXpVSgcY",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 33,
+        "segundos": 21
+      }
+    }
+  ]
+}
