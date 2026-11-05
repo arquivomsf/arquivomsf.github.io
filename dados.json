@@ -1,6 +1,12 @@
 {
   "jogos": [
     {
+      "nome": "Xena: Warrior Princess",
+      "tags": "Xena: Warrior Princess Xena a Princesa Guerreira sony ps1 playstation 1",
+      "console": "ps1",
+      "curto": "xena"
+    },
+    {
       "nome": "SpongeBob SquarePants: SuperSponge",
       "tags": "SpongeBob SquarePants: SuperSponge bob esponja bope esponcha sony ps1 playstation 1",
       "console": "ps1",

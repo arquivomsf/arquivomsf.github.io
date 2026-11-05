@@ -1,0 +1,89 @@
+{
+  "playlist": [
+    {
+      "nome": "Xena: Warrior Princess (PS1 - VOD)",
+      "imagem": "webp",
+      "quantidade": "4",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLVlTLkMb9na0",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "ILHA DO TITÃ CRONOS - Xena a Princesa Guerreira do PlayStation 1",
+      "desc": "Jogando o clássico Xena Warrior Princess do PlayStation One.",
+      "imagem": "webp",
+      "data": "12/07/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/MqWeZ18zmfg",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 31,
+        "segundos": 58
+      }
+    },
+    {
+      "nome": "DRAGÃO DAS PROFUNDEZAS - Xena a Princesa Guerreira do PlayStation 1",
+      "desc": "Jogando o clássico Xena Warrior Princess do PlayStation One.",
+      "imagem": "webp",
+      "data": "28/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/Z3Cgy_9Dfo8",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 53,
+        "segundos": 56
+      }
+    },
+    {
+      "nome": "GOLEM DE PEDRA - Xena a Princesa Guerreira do PlayStation 1",
+      "desc": "Jogando o clássico Xena Warrior Princess do PlayStation One.",
+      "imagem": "webp",
+      "data": "26/03/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/dY5pW_p0__0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 5,
+        "segundos": 23
+      }
+    },
+    {
+      "nome": "MEDUSAS E GIGANTES - Xena a Princesa Guerreira do PlayStation 1",
+      "desc": "Jogando o clássico Xena Warrior Princess do PlayStation One.",
+      "imagem": "webp",
+      "data": "05/04/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/ohsAUDJiHVI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 57,
+        "segundos": 25
+      }
+    }
+  ]
+}
