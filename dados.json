@@ -1,6 +1,12 @@
 {
   "jogos": [
     {
+      "nome": "Crash Team Racing",
+      "tags": "Crash Team Racing ctr carlos sony ps1 playstation 1",
+      "console": "ps1",
+      "curto": "ctr"
+    },
+    {
       "nome": "Xena: Warrior Princess",
       "tags": "Xena: Warrior Princess Xena a Princesa Guerreira sony ps1 playstation 1",
       "console": "ps1",

@@ -1,0 +1,35 @@
+{
+  "playlist": [
+    {
+      "nome": "Crash Team Racing (PS1 - VOD)",
+      "imagem": "webp",
+      "quantidade": "1",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLTwwjjx1Cd8o",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Crash Team Racing com a Namorada",
+      "desc": "Jogando o clássico Crash Team Racing do PlayStation One com a minha namorada Juliana.",
+      "imagem": "webp",
+      "data": "11/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/FtrZI72qK84",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 23,
+        "segundos": 25
+      }
+    }
+  ]
+}
