@@ -1,0 +1,35 @@
+{
+  "playlist": [
+    {
+      "nome": "Test Drive: Off-Road 2 (PS1 - VOD)",
+      "imagem": "webp",
+      "quantidade": "1",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLfUBAAcFtjqo",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Test Drive Off Road 2 de PlayStation 1",
+      "desc": "Gameplay comentado ao vivo do clássico Teste Drive Off-Road 2 para PlayStation 1.",
+      "imagem": "webp",
+      "data": "15/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/ASf2BOem9Mk",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 39,
+        "segundos": 30
+      }
+    }
+  ]
+}
