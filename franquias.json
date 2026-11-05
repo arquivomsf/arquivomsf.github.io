@@ -87,12 +87,16 @@
     "jogos": [
       "thenfs",
       "nfs2",
-      "nfs3"
+      "nfs3",
+      "nfsur",
+      "nfsvrally"
     ],
     "capas": [
       "ps1/thenfs",
       "ps1/nfs2",
-      "ps1/nfs3"
+      "ps1/nfs3",
+      "ps1/nfsur",
+      "ps1/nfsvrally"
     ]
   },
   "gta": {
@@ -152,6 +156,18 @@
     "capas": [
       "ps2/justiceleagueheroes",
       "gbc/batmanchaos"
+    ]
+  },
+  "crash": {
+    "nome": "Crash Bandicoot",
+    "tags": "Crash Bandicoot",
+    "jogos": [
+      "crash1",
+      "ctr"
+    ],
+    "capas": [
+      "ps1/crash1",
+      "ps1/ctr"
     ]
   }
 }
