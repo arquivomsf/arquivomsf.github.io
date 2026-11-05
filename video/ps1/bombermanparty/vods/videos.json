@@ -1,0 +1,35 @@
+{
+  "playlist": [
+    {
+      "nome": "Bomberman: Party Edition (PS1 - VOD)",
+      "imagem": "webp",
+      "quantidade": "1",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLBQ_yfagZwCA",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Bomberman Party Edition de PlayStation 1",
+      "desc": "Gameplay comentado ao vivo do clássico Bomberman Party Edition para PlayStation 1.",
+      "imagem": "webp",
+      "data": "13/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/1bKQ5pUx8CI",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 18,
+        "segundos": 2
+      }
+    }
+  ]
+}
