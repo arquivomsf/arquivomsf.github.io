@@ -429,6 +429,25 @@
   ],
   "standalone": [
     {
+      "nome": "CALL OF DUTY BLACK OPS 2 / Multiplayer Local e Zombies",
+      "tags": "CALL OF DUTY BLACK OPS 2 / Multiplayer Local e Zombies",
+      "imagem": "codbo2_multlocalzombies.webp",
+      "curto": "codbo2_multlocalzombies",
+      "data": "19/04/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/xgw68_Q1r0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 17,
+        "segundos": 4
+      }
+    },
+    {
       "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
       "tags": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers coco",
       "imagem": "coco.webp",
@@ -1624,6 +1643,10 @@
     {
       "nome": "PlayStation 2",
       "sigla": "ps2"
+    },
+    {
+      "nome": "PlayStation Portable",
+      "sigla": "psp"
     }
   ],
   "temas": [
