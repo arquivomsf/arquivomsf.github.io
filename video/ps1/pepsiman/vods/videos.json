@@ -1,0 +1,53 @@
+{
+  "playlist": [
+    {
+      "nome": "Pepsiman (PS1 - VOD)",
+      "imagem": "webp",
+      "quantidade": "2",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLRhV748G4yOc",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Pepsiman de PlayStation 1 com a Namorada",
+      "desc": "Jogando o clássico Pepsiman do PlayStation One.",
+      "imagem": "webp",
+      "data": "12/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/r6IEU9CqX34",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 9,
+        "segundos": 34
+      }
+    },
+    {
+      "nome": "A CIDADE DO PEPSIMAN PRECISA DE AJUDA - Gameplay de PlayStation 1",
+      "desc": "Gameplay comentado ao vivo do clássico Pepsiman de PlayStation 1.",
+      "imagem": "webp",
+      "data": "20/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/G8Nrw6H0jL8",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 33,
+        "segundos": 56
+      }
+    }
+  ]
+}
