@@ -1,0 +1,35 @@
+{
+  "playlist": [
+    {
+      "nome": "Need for Speed: Underground Rivals (PSP - VOD)",
+      "imagem": "webp",
+      "quantidade": "1",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLAVGDmJxdp6E",
+        "gdrive": "",
+        "archive": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Jogando Need for Speed Underground Rivals de PSP",
+      "desc": "Jogando Need for Speed Underground Rivals de PlayStation Portátil.",
+      "imagem": "webp",
+      "data": "13/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/eeWPBA2O63E",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 56,
+        "segundos": 22
+      }
+    }
+  ]
+}
