@@ -14,6 +14,42 @@
   ],
   "extras": [
     {
+      "nome": "Live da Nostalgia - Need for Speed 2 de PlayStation 1",
+      "id": "nfs2_ytold1",
+      "imagem": "nfs2_ytold1.webp",
+      "data": "10/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/cLE6cvBOXdA",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 8,
+        "segundos": 48
+      }
+    },
+    {
+      "nome": "Namorada jogando Need for Speed 2 de PlayStation 1",
+      "id": "nfs2_ytold2",
+      "imagem": "nfs2_ytold2.webp",
+      "data": "10/02/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/4k-HNRXFpNU",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 1,
+        "segundos": 41
+      }
+    },
+    {
       "nome": "Need for Speed 2: onde começou minha paixão pelos jogos de corrida!",
       "id": "nfs2_yt1",
       "imagem": "nfs2_yt1.webp",
