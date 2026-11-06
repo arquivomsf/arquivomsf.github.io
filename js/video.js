@@ -104,6 +104,13 @@ function carregar_itens() {
           document.querySelector(".original_string").classList.remove("hidden");
         }
 
+        if (dados_geral.standalone[i].hasOwnProperty("desc")) {
+          document.querySelector(".desc_string").innerHTML = dados_geral.standalone[i].desc;
+          document.querySelector(".desc_br").classList.remove("hidden");
+          document.querySelector(".desc_label").classList.remove("hidden");
+          document.querySelector(".desc_string").classList.remove("hidden");
+        }
+
         if (dados_geral.standalone[i].hasOwnProperty("chat")) {
           let chat_name;
           if (dados_geral.standalone[i].chat == "") chat_name = video_nome_curto;
@@ -178,6 +185,13 @@ function carregar_itens() {
           document.querySelector(".original_br").classList.remove("hidden");
           document.querySelector(".original_label").classList.remove("hidden");
           document.querySelector(".original_string").classList.remove("hidden");
+        }
+
+        if (dados_serie.extras[i].hasOwnProperty("desc")) {
+          document.querySelector(".desc_string").innerHTML = dados_serie.extras[i].desc;
+          document.querySelector(".desc_br").classList.remove("hidden");
+          document.querySelector(".desc_label").classList.remove("hidden");
+          document.querySelector(".desc_string").classList.remove("hidden");
         }
 
         if (dados_serie.extras[i].hasOwnProperty("chat")) {
@@ -262,6 +276,13 @@ function carregar_itens() {
       document.querySelector(".original_string").classList.remove("hidden");
     }
 
+    if (dados_serie.videos[episodioAtual].hasOwnProperty("desc")) {
+      document.querySelector(".desc_string").innerHTML = dados_serie.videos[episodioAtual].desc;
+      document.querySelector(".desc_br").classList.remove("hidden");
+      document.querySelector(".desc_label").classList.remove("hidden");
+      document.querySelector(".desc_string").classList.remove("hidden");
+    }
+
     if (dados_serie.videos[episodioAtual].hasOwnProperty("chat")) {
       let chat_name;
       if (dados_serie.videos[episodioAtual].chat == "") chat_name = `${Number(episodioAtual)+1}`;
@@ -335,6 +356,13 @@ function carregar_itens() {
       document.querySelector(".original_br").classList.remove("hidden");
       document.querySelector(".original_label").classList.remove("hidden");
       document.querySelector(".original_string").classList.remove("hidden");
+    }
+
+    if (dados_serie.videos[episodioAtual].hasOwnProperty("desc")) {
+      document.querySelector(".desc_string").innerHTML = dados_serie.videos[episodioAtual].desc;
+      document.querySelector(".desc_br").classList.remove("hidden");
+      document.querySelector(".desc_label").classList.remove("hidden");
+      document.querySelector(".desc_string").classList.remove("hidden");
     }
 
     if (dados_serie.videos[episodioAtual].hasOwnProperty("chat")) {
