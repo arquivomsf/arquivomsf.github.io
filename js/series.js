@@ -36,7 +36,7 @@ function carregar_itens() {
 
   //itens extras
   document.querySelector(".tabs-navbar").classList.add("hidden");
-  if (dados_serie.hasOwnProperty("playlist")) {
+  if (Object.hasOwn(dados_serie, "playlist")) {
     let playlist_nome = dados_serie.playlist[0].nome;
     let playlist_imagem = dados_serie.playlist[0].imagem;
     let playlist_plataforma = dados_serie.playlist[0].plataforma;
@@ -46,7 +46,7 @@ function carregar_itens() {
     document.querySelector(".tabs-navbar").classList.remove("hidden");
   }
 
-  if (dados_serie.hasOwnProperty("extras")) {
+  if (Object.hasOwn(dados_serie, "extras")) {
     for (var i = 0; i<dados_serie.extras.length; i++){
       let extra_nome = dados_serie.extras[i].nome;
       let extra_imagem = dados_serie.extras[i].imagem;
@@ -60,7 +60,7 @@ function carregar_itens() {
     }
   }
 
-  if (dados_serie.hasOwnProperty("analise")) {
+  if (Object.hasOwn(dados_serie, "analise")) {
     for (var i = 0; i<dados_serie.analise.length; i++){
       let thumbnail_name = "analise";
       if (dados_serie.analise.length > 1) thumbnail_name = "analise"+(i+1);

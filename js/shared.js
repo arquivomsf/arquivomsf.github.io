@@ -488,7 +488,7 @@ function debug() {
             debug_info.info[debug_nome] = "<br>";
             debug_info.info_extras[debug_nome] = "";
 
-            if (data.hasOwnProperty("episodios")) {
+            if (Object.hasOwn(data, "episodios")) {
                 //olha o atributo [episodios] do jogo e o json dessa pasta
                 document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_total").classList.remove("hidden");
                 document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_total").innerHTML = "Carregando...";
@@ -502,16 +502,16 @@ function debug() {
                     let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0, rumble: 0};
 
                     for (var i = 0; i<data.videos.length; i++) {
-                        if (data.videos[i].links.hasOwnProperty("youtube") && !data.videos[i].links.youtube == "") {
+                        if (Object.hasOwn(data.videos[i].links, "youtube") && !data.videos[i].links.youtube == "") {
                             json_video_plataforma_counter.youtube++;
                         }
-                        if (data.videos[i].links.hasOwnProperty("gdrive") && !data.videos[i].links.gdrive == "") {
+                        if (Object.hasOwn(data.videos[i].links, "gdrive") && !data.videos[i].links.gdrive == "") {
                             json_video_plataforma_counter.gdrive++;
                         }
-                        if (data.videos[i].links.hasOwnProperty("archive") && !data.videos[i].links.archive == "") {
+                        if (Object.hasOwn(data.videos[i].links, "archive") && !data.videos[i].links.archive == "") {
                             json_video_plataforma_counter.archive++;
                         }
-                        if (data.videos[i].links.hasOwnProperty("rumble") && !data.videos[i].links.rumble == "") {
+                        if (Object.hasOwn(data.videos[i].links, "rumble") && !data.videos[i].links.rumble == "") {
                             json_video_plataforma_counter.rumble++;
                         }
                     }
@@ -544,7 +544,7 @@ function debug() {
                     let json_antigo_jogos_counter = 0;
 
                     for (var i = 0; i<data.videos.length; i++) {
-                        if (data.videos[i].hasOwnProperty("linkyt")) {
+                        if (Object.hasOwn(data.videos[i], "linkyt")) {
                             json_antigo_jogos_counter++;
                         }
                     }
@@ -559,7 +559,7 @@ function debug() {
                     let json_data_jogos_counter = 0;
 
                     for (var i = 0; i<data.videos.length; i++) {
-                        if (!data.videos[i].hasOwnProperty("data") || data.videos[i].hasOwnProperty("data") && data.videos[i].data == "") {
+                        if (!Object.hasOwn(data.videos[i], "data") || Object.hasOwn(data.videos[i], "data") && data.videos[i].data == "") {
                             json_data_jogos_counter++;
                         }
                     }
@@ -570,7 +570,7 @@ function debug() {
                         document.querySelector(cur_element_class+"_string").innerHTML = `${json_data_jogos_counter} Episódios sem data`;
                     }
 
-                    if (data.hasOwnProperty("extras")) {
+                    if (Object.hasOwn(data, "extras")) {
                         let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_episodios_extras";
                         document.querySelector(cur_element_class).classList.remove("hidden");
                         document.querySelector(cur_element_class).innerHTML = `${data.extras.length} Extras nos Episódios`;
@@ -578,7 +578,7 @@ function debug() {
                 })
             }
 
-            if (data.hasOwnProperty("vodsarquivo")) {
+            if (Object.hasOwn(data, "vodsarquivo")) {
                 //olha o atributo [vodsarquivo] do jogo e o json da pasta [vods]
                 document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_vods_total").classList.remove("hidden");
                 document.querySelector(".jogo_id_"+debug_console+"_"+debug_nome+"_vods_total").innerHTML = "Carregando...";
@@ -592,16 +592,16 @@ function debug() {
                     let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0, rumble: 0};
 
                     for (var i = 0; i<data.videos.length; i++) {
-                        if (data.videos[i].links.hasOwnProperty("youtube") && !data.videos[i].links.youtube == "") {
+                        if (Object.hasOwn(data.videos[i].links, "youtube") && !data.videos[i].links.youtube == "") {
                             json_video_plataforma_counter.youtube++;
                         }
-                        if (data.videos[i].links.hasOwnProperty("gdrive") && !data.videos[i].links.gdrive == "") {
+                        if (Object.hasOwn(data.videos[i].links, "gdrive") && !data.videos[i].links.gdrive == "") {
                             json_video_plataforma_counter.gdrive++;
                         }
-                        if (data.videos[i].links.hasOwnProperty("archive") && !data.videos[i].links.archive == "") {
+                        if (Object.hasOwn(data.videos[i].links, "archive") && !data.videos[i].links.archive == "") {
                             json_video_plataforma_counter.archive++;
                         }
-                        if (data.videos[i].links.hasOwnProperty("rumble") && !data.videos[i].links.rumble == "") {
+                        if (Object.hasOwn(data.videos[i].links, "rumble") && !data.videos[i].links.rumble == "") {
                             json_video_plataforma_counter.rumble++;
                         }
                     }
@@ -634,7 +634,7 @@ function debug() {
                     let json_antigo_jogos_counter = 0;
 
                     for (var i = 0; i<data.videos.length; i++) {
-                        if (data.videos[i].hasOwnProperty("linkyt")) {
+                        if (Object.hasOwn(data.videos[i], "linkyt")) {
                             json_antigo_jogos_counter++;
                         }
                     }
@@ -649,7 +649,7 @@ function debug() {
                     let json_data_jogos_counter = 0;
 
                     for (var i = 0; i<data.videos.length; i++) {
-                        if (!data.videos[i].hasOwnProperty("data") || data.videos[i].hasOwnProperty("data") && data.videos[i].data == "") {
+                        if (!Object.hasOwn(data.videos[i], "data") || Object.hasOwn(data.videos[i], "data") && data.videos[i].data == "") {
                             json_data_jogos_counter++;
                         }
                     }
@@ -660,7 +660,7 @@ function debug() {
                         document.querySelector(cur_element_class+"_string").innerHTML = `${json_data_jogos_counter} VODs sem data`;
                     }
 
-                    if (data.hasOwnProperty("extras")) {
+                    if (Object.hasOwn(data, "extras")) {
                         let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_extras";
                         document.querySelector(cur_element_class).classList.remove("hidden");
                         document.querySelector(cur_element_class).innerHTML = `${data.extras.length} Extras nos VODs`;
@@ -668,13 +668,13 @@ function debug() {
                 })
             }
 
-            if (data.hasOwnProperty("vodsoficiais")) {
+            if (Object.hasOwn(data, "vodsoficiais")) {
                 let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_vods_oficial";
                 document.querySelector(cur_element_class).classList.remove("hidden");
                 document.querySelector(cur_element_class).innerHTML = `${data.vodsoficiais[0].quantidade} VODs Oficiais`;
             }
 
-            if (data.hasOwnProperty("analise")) {
+            if (Object.hasOwn(data, "analise")) {
                 let cur_element_class = ".jogo_id_"+debug_console+"_"+debug_nome+"_analise";
                 document.querySelector(cur_element_class).classList.remove("hidden");
             }
@@ -762,16 +762,16 @@ function debug() {
             let json_video_plataforma_counter = {youtube: 0, gdrive: 0, archive: 0, rumble: 0};
 
             for (var i = 0; i<data.videos.length; i++) {
-                if (data.videos[i].links.hasOwnProperty("youtube") && !data.videos[i].links.youtube == "") {
+                if (Object.hasOwn(data.videos[i].links, "youtube") && !data.videos[i].links.youtube == "") {
                     json_video_plataforma_counter.youtube++;
                 }
-                if (data.videos[i].links.hasOwnProperty("gdrive") && !data.videos[i].links.gdrive == "") {
+                if (Object.hasOwn(data.videos[i].links, "gdrive") && !data.videos[i].links.gdrive == "") {
                     json_video_plataforma_counter.gdrive++;
                 }
-                if (data.videos[i].links.hasOwnProperty("archive") && !data.videos[i].links.archive == "") {
+                if (Object.hasOwn(data.videos[i].links, "archive") && !data.videos[i].links.archive == "") {
                     json_video_plataforma_counter.archive++;
                 }
-                if (data.videos[i].links.hasOwnProperty("rumble") && !data.videos[i].links.rumble == "") {
+                if (Object.hasOwn(data.videos[i].links, "rumble") && !data.videos[i].links.rumble == "") {
                     json_video_plataforma_counter.rumble++;
                 }
             }
@@ -800,12 +800,12 @@ function debug() {
                 document.querySelector(cur_element_class+"_string").innerHTML = `${json_video_plataforma_counter.rumble} Vídeos`;
             }
 
-            if (data.hasOwnProperty("analise")) {
+            if (Object.hasOwn(data, "analise")) {
                 let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_analise";
                 document.querySelector(cur_element_class).classList.remove("hidden");
             }
 
-            if (data.hasOwnProperty("extras")) {
+            if (Object.hasOwn(data, "extras")) {
                 let cur_element_class = ".jogo_id_outros_"+debug_outro_nome+"_extras";
                 document.querySelector(cur_element_class).classList.remove("hidden");
                 document.querySelector(cur_element_class).innerHTML = `${data.extras.length} Extras`;
@@ -818,7 +818,7 @@ function debug() {
             let json_antigo_outros_counter = 0;
 
             for (var i = 0; i<data.videos.length; i++) {
-                if (data.videos[i].hasOwnProperty("linkyt")) {
+                if (Object.hasOwn(data.videos[i], "linkyt")) {
                     json_antigo_outros_counter++;
                 }
             }
@@ -833,7 +833,7 @@ function debug() {
             let json_data_outros_counter = 0;
 
             for (var i = 0; i<data.videos.length; i++) {
-                if (!data.videos[i].hasOwnProperty("data") || data.videos[i].hasOwnProperty("data") && data.videos[i].data == "") {
+                if (!Object.hasOwn(data.videos[i], "data") || Object.hasOwn(data.videos[i], "data") && data.videos[i].data == "") {
                     json_data_outros_counter++;
                 }
             }
@@ -867,14 +867,14 @@ function debug() {
 
     //Detector de JSON antigo - STANDALONE
     for (var i = 0; i<dados_geral.standalone.length; i++) {
-        if (dados_geral.standalone[i].hasOwnProperty("linkyt")) {
+        if (Object.hasOwn(dados_geral.standalone[i], "linkyt")) {
             document.querySelector(".standalone_"+i).innerHTML += `<hr class="m-1"><span class="text-red-500"><i class="fa-solid fa-triangle-exclamation"></i> Vídeo no modelo antigo</span>`;
         }
     }
 
     //Detector de data - STANDALONE
     for (var i = 0; i<dados_geral.standalone.length; i++) {
-        if (!dados_geral.standalone[i].hasOwnProperty("data") || dados_geral.standalone[i].hasOwnProperty("data") && dados_geral.standalone[i].data == "") {
+        if (!Object.hasOwn(dados_geral.standalone[i], "data") || Object.hasOwn(dados_geral.standalone[i], "data") && dados_geral.standalone[i].data == "") {
             document.querySelector(".standalone_"+i).innerHTML += `<hr class="m-1"><span class="text-yellow-500"><i class="fa-solid fa-triangle-exclamation"></i> Vídeo sem data</span>`;
         }
     }

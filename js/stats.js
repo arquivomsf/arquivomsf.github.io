@@ -51,7 +51,7 @@ function carregarStats(){
             fetch(`video/${jogo_console_sigla}/${jogo_nome_curto}/series.json`)
             .then(response => response.json())
             .then(data => {
-                if (data.hasOwnProperty("episodios")) {
+                if (Object.hasOwn(data, "episodios")) {
                     
 
             fetch(`video/${jogo_console_sigla}/${jogo_nome_curto}/episodios/videos.json`)
@@ -75,7 +75,7 @@ function carregarStats(){
                     document.querySelector(".counter-mediaep").innerHTML = `${Math.round(jogos_episodios_counter/jogos_counter)} vídeos por jogo (média)`;
                 }
 
-                if (data.hasOwnProperty("extras")) {
+                if (Object.hasOwn(data, "extras")) {
                     for (var i = 0; i<data.extras.length; i++){
                         let video_horas = data.extras[i].duracao.horas;
                         let video_minutos = data.extras[i].duracao.minutos;
@@ -98,7 +98,7 @@ function carregarStats(){
 
                 }
 
-                if (data.hasOwnProperty("vodsarquivo")) {
+                if (Object.hasOwn(data, "vodsarquivo")) {
                     
 
             fetch(`video/${jogo_console_sigla}/${jogo_nome_curto}/vods/videos.json`)
@@ -123,7 +123,7 @@ function carregarStats(){
                     document.querySelector(".counter-mediavod").innerHTML = `${Math.round(jogos_vods_counter/jogos_comvod_counter)} VODs por jogo (média)`;
                 }
 
-                if (data.hasOwnProperty("extras")) {
+                if (Object.hasOwn(data, "extras")) {
                     for (var i = 0; i<data.extras.length; i++){
                         let video_horas = data.extras[i].duracao.horas;
                         let video_minutos = data.extras[i].duracao.minutos;
@@ -191,7 +191,7 @@ function carregarStats(){
 
             }
 
-            if (data.hasOwnProperty("extras")) {
+            if (Object.hasOwn(data, "extras")) {
                 for (var i = 0; i<data.extras.length; i++){
                     let outros_video_horas = data.extras[i].duracao.horas;
                     let outros_video_minutos = data.extras[i].duracao.minutos;

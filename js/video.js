@@ -65,7 +65,7 @@ function carregar_itens() {
         document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
         document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`);
 
-        if (dados_geral.standalone[i].hasOwnProperty("direto") || fonteAtual == "archive" && force_fake_embed_archive) {
+        if (Object.hasOwn(dados_geral.standalone[i], "direto") || fonteAtual == "archive" && force_fake_embed_archive) {
           create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`);
         } else {
           if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${video_imagem}`;
@@ -75,19 +75,19 @@ function carregar_itens() {
         }
 
         let video_all_links = dados_geral.standalone[i].links;
-        if (video_all_links.hasOwnProperty("youtube") && video_all_links.youtube != "") {
+        if (Object.hasOwn(video_all_links, "youtube") && video_all_links.youtube != "") {
           document.querySelector(".btn-youtube").href = video_all_links.youtube;
           document.querySelector(".btn-youtube").classList.remove("hidden");
         }
-        if (video_all_links.hasOwnProperty("gdrive") && video_all_links.gdrive != "") {
+        if (Object.hasOwn(video_all_links, "gdrive") && video_all_links.gdrive != "") {
           document.querySelector(".btn-gdrive").href = video_all_links.gdrive;
           document.querySelector(".btn-gdrive").classList.remove("hidden");
         }
-        if (video_all_links.hasOwnProperty("archive") && video_all_links.archive != "") {
+        if (Object.hasOwn(video_all_links, "archive") && video_all_links.archive != "") {
           document.querySelector(".btn-archive").href = video_all_links.archive;
           document.querySelector(".btn-archive").classList.remove("hidden");
         }
-        if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
+        if (Object.hasOwn(video_all_links, "rumble") && video_all_links.rumble != "") {
           document.querySelector(".btn-rumble").href = video_all_links.rumble;
           document.querySelector(".btn-rumble").classList.remove("hidden");
         }
@@ -97,21 +97,21 @@ function carregar_itens() {
         }
         document.querySelector(".data_string").innerHTML = dados_geral.standalone[i].data;
 
-        if (dados_geral.standalone[i].hasOwnProperty("nome_original")) {
+        if (Object.hasOwn(dados_geral.standalone[i], "nome_original")) {
           document.querySelector(".original_string").innerHTML = dados_geral.standalone[i].nome_original;
           document.querySelector(".original_br").classList.remove("hidden");
           document.querySelector(".original_label").classList.remove("hidden");
           document.querySelector(".original_string").classList.remove("hidden");
         }
 
-        if (dados_geral.standalone[i].hasOwnProperty("desc")) {
+        if (Object.hasOwn(dados_geral.standalone[i], "desc")) {
           document.querySelector(".desc_string").innerHTML = dados_geral.standalone[i].desc;
           document.querySelector(".desc_br").classList.remove("hidden");
           document.querySelector(".desc_label").classList.remove("hidden");
           document.querySelector(".desc_string").classList.remove("hidden");
         }
 
-        if (dados_geral.standalone[i].hasOwnProperty("chat")) {
+        if (Object.hasOwn(dados_geral.standalone[i], "chat")) {
           let chat_name;
           if (dados_geral.standalone[i].chat == "") chat_name = video_nome_curto;
           else chat_name = dados_geral.standalone[i].chat;
@@ -148,7 +148,7 @@ function carregar_itens() {
         if (consoleAtual == "outros") thumb_path = `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${extra_imagem}`;
         document.querySelector('meta[property="og:image"]').setAttribute("content", thumb_path);
 
-        if (dados_serie.extras[i].hasOwnProperty("direto") || fonteAtual == "archive" && force_fake_embed_archive) {
+        if (Object.hasOwn(dados_serie.extras[i], "direto") || fonteAtual == "archive" && force_fake_embed_archive) {
           create_fake_embed(extra_link,thumb_path);
         } else {
           if (fonteAtual == "archive") extra_link = `${extra_link}?poster=${thumb_path}`;
@@ -158,19 +158,19 @@ function carregar_itens() {
         }
 
         let extra_all_links = dados_serie.extras[i].links;
-        if (extra_all_links.hasOwnProperty("youtube") && extra_all_links.youtube != "") {
+        if (Object.hasOwn(extra_all_links, "youtube") && extra_all_links.youtube != "") {
           document.querySelector(".btn-youtube").href = extra_all_links.youtube;
           document.querySelector(".btn-youtube").classList.remove("hidden");
         }
-        if (extra_all_links.hasOwnProperty("gdrive") && extra_all_links.gdrive != "") {
+        if (Object.hasOwn(extra_all_links, "gdrive") && extra_all_links.gdrive != "") {
           document.querySelector(".btn-gdrive").href = extra_all_links.gdrive;
           document.querySelector(".btn-gdrive").classList.remove("hidden");
         }
-        if (extra_all_links.hasOwnProperty("archive") && extra_all_links.archive != "") {
+        if (Object.hasOwn(extra_all_links, "archive") && extra_all_links.archive != "") {
           document.querySelector(".btn-archive").href = extra_all_links.archive;
           document.querySelector(".btn-archive").classList.remove("hidden");
         }
-        if (extra_all_links.hasOwnProperty("rumble") && extra_all_links.rumble != "") {
+        if (Object.hasOwn(extra_all_links, "rumble") && extra_all_links.rumble != "") {
           document.querySelector(".btn-rumble").href = extra_all_links.rumble;
           document.querySelector(".btn-rumble").classList.remove("hidden");
         }
@@ -180,21 +180,21 @@ function carregar_itens() {
         }
         document.querySelector(".data_string").innerHTML = dados_serie.extras[i].data;
 
-        if (dados_serie.extras[i].hasOwnProperty("nome_original")) {
+        if (Object.hasOwn(dados_serie.extras[i], "nome_original")) {
           document.querySelector(".original_string").innerHTML = dados_serie.extras[i].nome_original;
           document.querySelector(".original_br").classList.remove("hidden");
           document.querySelector(".original_label").classList.remove("hidden");
           document.querySelector(".original_string").classList.remove("hidden");
         }
 
-        if (dados_serie.extras[i].hasOwnProperty("desc")) {
+        if (Object.hasOwn(dados_serie.extras[i], "desc")) {
           document.querySelector(".desc_string").innerHTML = dados_serie.extras[i].desc;
           document.querySelector(".desc_br").classList.remove("hidden");
           document.querySelector(".desc_label").classList.remove("hidden");
           document.querySelector(".desc_string").classList.remove("hidden");
         }
 
-        if (dados_serie.extras[i].hasOwnProperty("chat")) {
+        if (Object.hasOwn(dados_serie.extras[i], "chat")) {
           let chat_name;
           if (dados_serie.extras[i].chat == "") chat_name = extra_id;
           else chat_name = dados_serie.extras[i].chat;
@@ -237,7 +237,7 @@ function carregar_itens() {
     document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
     document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
 
-    if (dados_serie.videos[episodioAtual].hasOwnProperty("direto") || fonteAtual == "archive" && force_fake_embed_archive) {
+    if (Object.hasOwn(dados_serie.videos[episodioAtual], "direto") || fonteAtual == "archive" && force_fake_embed_archive) {
       create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
     } else {
       if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
@@ -247,19 +247,19 @@ function carregar_itens() {
     }
 
     let video_all_links = dados_serie.videos[episodioAtual].links;
-    if (video_all_links.hasOwnProperty("youtube") && video_all_links.youtube != "") {
+    if (Object.hasOwn(video_all_links, "youtube") && video_all_links.youtube != "") {
       document.querySelector(".btn-youtube").href = video_all_links.youtube;
       document.querySelector(".btn-youtube").classList.remove("hidden");
     }
-    if (video_all_links.hasOwnProperty("gdrive") && video_all_links.gdrive != "") {
+    if (Object.hasOwn(video_all_links, "gdrive") && video_all_links.gdrive != "") {
       document.querySelector(".btn-gdrive").href = video_all_links.gdrive;
       document.querySelector(".btn-gdrive").classList.remove("hidden");
     }
-    if (video_all_links.hasOwnProperty("archive") && video_all_links.archive != "") {
+    if (Object.hasOwn(video_all_links, "archive") && video_all_links.archive != "") {
       document.querySelector(".btn-archive").href = video_all_links.archive;
       document.querySelector(".btn-archive").classList.remove("hidden");
     }
-    if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
+    if (Object.hasOwn(video_all_links, "rumble") && video_all_links.rumble != "") {
       document.querySelector(".btn-rumble").href = video_all_links.rumble;
       document.querySelector(".btn-rumble").classList.remove("hidden");
     }
@@ -269,21 +269,21 @@ function carregar_itens() {
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
 
-    if (dados_serie.videos[episodioAtual].hasOwnProperty("nome_original")) {
+    if (Object.hasOwn(dados_serie.videos[episodioAtual], "nome_original")) {
       document.querySelector(".original_string").innerHTML = dados_serie.videos[episodioAtual].nome_original;
       document.querySelector(".original_br").classList.remove("hidden");
       document.querySelector(".original_label").classList.remove("hidden");
       document.querySelector(".original_string").classList.remove("hidden");
     }
 
-    if (dados_serie.videos[episodioAtual].hasOwnProperty("desc")) {
+    if (Object.hasOwn(dados_serie.videos[episodioAtual], "desc")) {
       document.querySelector(".desc_string").innerHTML = dados_serie.videos[episodioAtual].desc;
       document.querySelector(".desc_br").classList.remove("hidden");
       document.querySelector(".desc_label").classList.remove("hidden");
       document.querySelector(".desc_string").classList.remove("hidden");
     }
 
-    if (dados_serie.videos[episodioAtual].hasOwnProperty("chat")) {
+    if (Object.hasOwn(dados_serie.videos[episodioAtual], "chat")) {
       let chat_name;
       if (dados_serie.videos[episodioAtual].chat == "") chat_name = `${Number(episodioAtual)+1}`;
       else chat_name = dados_serie.videos[episodioAtual].chat;
@@ -319,7 +319,7 @@ function carregar_itens() {
   document.querySelector('meta[property="og:title"]').setAttribute("content", `${video_nome}`);
   document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
 
-  if (dados_serie.videos[episodioAtual].hasOwnProperty("direto") || fonteAtual == "archive" && force_fake_embed_archive) {
+  if (Object.hasOwn(dados_serie.videos[episodioAtual], "direto") || fonteAtual == "archive" && force_fake_embed_archive) {
     create_fake_embed(video_link,`https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`);
   } else {
     if (fonteAtual == "archive") video_link = `${video_link}?poster=https://arquivomsf.github.io/video/${consoleAtual}/${jogoAtual}/${serieAtual}/${Number(episodioAtual)+1}.${video_imagem}`;
@@ -329,19 +329,19 @@ function carregar_itens() {
   }
 
   let video_all_links = dados_serie.videos[episodioAtual].links;
-    if (video_all_links.hasOwnProperty("youtube") && video_all_links.youtube != "") {
+    if (Object.hasOwn(video_all_links, "youtube") && video_all_links.youtube != "") {
       document.querySelector(".btn-youtube").href = video_all_links.youtube;
       document.querySelector(".btn-youtube").classList.remove("hidden");
     }
-    if (video_all_links.hasOwnProperty("gdrive") && video_all_links.gdrive != "") {
+    if (Object.hasOwn(video_all_links, "gdrive") && video_all_links.gdrive != "") {
       document.querySelector(".btn-gdrive").href = video_all_links.gdrive;
       document.querySelector(".btn-gdrive").classList.remove("hidden");
     }
-    if (video_all_links.hasOwnProperty("archive") && video_all_links.archive != "") {
+    if (Object.hasOwn(video_all_links, "archive") && video_all_links.archive != "") {
       document.querySelector(".btn-archive").href = video_all_links.archive;
       document.querySelector(".btn-archive").classList.remove("hidden");
     }
-    if (video_all_links.hasOwnProperty("rumble") && video_all_links.rumble != "") {
+    if (Object.hasOwn(video_all_links, "rumble") && video_all_links.rumble != "") {
       document.querySelector(".btn-rumble").href = video_all_links.rumble;
       document.querySelector(".btn-rumble").classList.remove("hidden");
     }
@@ -351,21 +351,21 @@ function carregar_itens() {
     }
     document.querySelector(".data_string").innerHTML = dados_serie.videos[episodioAtual].data;
 
-    if (dados_serie.videos[episodioAtual].hasOwnProperty("nome_original")) {
+    if (Object.hasOwn(dados_serie.videos[episodioAtual], "nome_original")) {
       document.querySelector(".original_string").innerHTML = dados_serie.videos[episodioAtual].nome_original;
       document.querySelector(".original_br").classList.remove("hidden");
       document.querySelector(".original_label").classList.remove("hidden");
       document.querySelector(".original_string").classList.remove("hidden");
     }
 
-    if (dados_serie.videos[episodioAtual].hasOwnProperty("desc")) {
+    if (Object.hasOwn(dados_serie.videos[episodioAtual], "desc")) {
       document.querySelector(".desc_string").innerHTML = dados_serie.videos[episodioAtual].desc;
       document.querySelector(".desc_br").classList.remove("hidden");
       document.querySelector(".desc_label").classList.remove("hidden");
       document.querySelector(".desc_string").classList.remove("hidden");
     }
 
-    if (dados_serie.videos[episodioAtual].hasOwnProperty("chat")) {
+    if (Object.hasOwn(dados_serie.videos[episodioAtual], "chat")) {
       let chat_name;
       if (dados_serie.videos[episodioAtual].chat == "") chat_name = `${Number(episodioAtual)+1}`;
       else chat_name = dados_serie.videos[episodioAtual].chat;

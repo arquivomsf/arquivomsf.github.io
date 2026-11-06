@@ -14,14 +14,14 @@ function procurarParam() {
 }
 
 function carregar_itens() {
-  if (dados_jogo.hasOwnProperty("episodios")) {
+  if (Object.hasOwn(dados_jogo, "episodios")) {
     let serie_nome = dados_jogo.episodios[0].nome;
     let serie_imagem = dados_jogo.episodios[0].imagem;
     let serie_quantidade = dados_jogo.episodios[0].quantidade;
     create_item("serie","playlist","series_content_list",0,consoleAtual,serie_nome,jogoAtual,`video/${consoleAtual}/${jogoAtual}/episodios/${serie_imagem}`,"",serie_quantidade,"episodios");
   }
 
-  if (dados_jogo.hasOwnProperty("vodsoficiais")) {
+  if (Object.hasOwn(dados_jogo, "vodsoficiais")) {
     let serie_nome = dados_jogo.vodsoficiais[0].nome;
     let serie_imagem = dados_jogo.vodsoficiais[0].imagem;
     let serie_link = dados_jogo.vodsoficiais[0].link;
@@ -29,14 +29,14 @@ function carregar_itens() {
     create_item(serie_link,"playlist","series_content_list",0,"",serie_nome,"",`video/${consoleAtual}/${jogoAtual}/vodsoficiais.${serie_imagem}`,"",serie_quantidade);
   }
 
-  if (dados_jogo.hasOwnProperty("vodsarquivo")) {
+  if (Object.hasOwn(dados_jogo, "vodsarquivo")) {
     let serie_nome = dados_jogo.vodsarquivo[0].nome;
     let serie_imagem = dados_jogo.vodsarquivo[0].imagem;
     let serie_quantidade = dados_jogo.vodsarquivo[0].quantidade;
     create_item("serie","playlist","series_content_list",0,consoleAtual,serie_nome,jogoAtual,`video/${consoleAtual}/${jogoAtual}/vods/${serie_imagem}`,"",serie_quantidade,"vods");
   }
 
-  if (dados_jogo.hasOwnProperty("analise")) {
+  if (Object.hasOwn(dados_jogo, "analise")) {
     for (var i = 0; i<dados_jogo.analise.length; i++){
       let thumbnail_name = "analise";
       if (dados_jogo.analise.length > 1) thumbnail_name = "analise"+(i+1);
