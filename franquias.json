@@ -94,9 +94,7 @@
     "capas": [
       "ps1/thenfs",
       "ps1/nfs2",
-      "ps1/nfs3",
-      "ps1/nfsur",
-      "ps1/nfsvrally"
+      "ps1/nfs3"
     ]
   },
   "gta": {
