@@ -76,7 +76,7 @@ function layout_menu_lateral(atual, raiz) {
         </div>
         <span class="${LAYOUT_TITULO_MENU}">Temas</span>
         <div class="themes_list flex flex-col mb-3">
-          <select onchange="setTema(this);" name="choose_theme" id="themes_select" class="nav-link px-2 py-3 float-left w-auto border-1 block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20"></select>
+          <select onchange="setTema(this);" name="choose_theme" id="themes_select" autocomplete="off" class="nav-link px-2 py-3 float-left w-auto border-1 block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20"></select>
         </div>
         <span class="${LAYOUT_TITULO_MENU}">Mais links</span>
         <div class="maislinks_list flex flex-col mb-3">

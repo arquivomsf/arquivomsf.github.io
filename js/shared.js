@@ -21,6 +21,13 @@ function startTema() {
     check_egg();
 }
 
+window.addEventListener("pageshow", function() {
+    let select = document.getElementById("themes_select");
+    let salvo = null;
+    try { salvo = localStorage.getItem("tema"); } catch (e) {}
+    if (select && salvo && select.querySelector(`option[value="${salvo}"]`)) select.value = salvo;
+});
+
 function setTema(tema_esc) {
     tema = tema_esc.value;
     if (document.querySelector(".page-404") == null) {
