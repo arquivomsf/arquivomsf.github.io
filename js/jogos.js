@@ -7,21 +7,23 @@ var quantidades_calculadas = {};
 
 async function carregarDados() {
   procurarParam();
-  await calcular_quantidades_que_faltam();
-  fetch_dados("jogo",`video/${consoleAtual}/${jogoAtual}/series.json`);
   carregar_consoles_temas("jogo",jogoAtual);
+
+  await fetch_dados("jogo",`video/${consoleAtual}/${jogoAtual}/series.json`,"","",false);
+  await calcular_quantidades_que_faltam(dados_jogo);
+  carregar_itens();
 }
 
-async function calcular_quantidades_que_faltam() {
+//baixa, ao mesmo tempo, os videos.json das séries que não declaram "quantidade" só para contar os vídeos
+async function calcular_quantidades_que_faltam(series) {
   let pasta = `video/${consoleAtual}/${jogoAtual}`;
-  let series = await (await fetch(`${pasta}/series.json`)).json();
 
-  for (const [chave, subpasta] of [["episodios", "episodios"], ["vodsarquivo", "vods"]]) {
-    if (!Object.hasOwn(series, chave) || Object.hasOwn(series[chave][0], "quantidade")) continue;
+  await Promise.all([["episodios", "episodios"], ["vodsarquivo", "vods"]].map(async ([chave, subpasta]) => {
+    if (!Object.hasOwn(series, chave) || Object.hasOwn(series[chave][0], "quantidade")) return;
 
-    let lista = await (await fetch(`${pasta}/${subpasta}/videos.json`)).json();
+    let lista = await carregar_json(`${pasta}/${subpasta}/videos.json`);
     quantidades_calculadas[chave] = lista.videos.length;
-  }
+  }));
 }
 
 function procurarParam() {

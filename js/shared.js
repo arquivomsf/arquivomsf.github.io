@@ -42,50 +42,44 @@ var dados_off = {"lostmedia": []};
 var dados_franquia = "";
 var dados_console_keys = {};
 
-async function fetch_dados(tipo,file,tipo2 = "",file2 = "",load = true) {
-    let file_object = await fetch(file);
-    let json_data = await file_object.json();
+//Baixa um JSON uma única vez por página: pedidos repetidos da mesma URL
+//(ex.: o dados.json, que a página e o menu lateral usam) reaproveitam o mesmo download.
+var json_em_cache = {};
+function carregar_json(url) {
+    if (!json_em_cache[url]) {
+        json_em_cache[url] = fetch(url).then(resposta => resposta.json());
+        json_em_cache[url].catch(() => delete json_em_cache[url]); //se falhar, a próxima tentativa baixa de novo
+    }
+    return json_em_cache[url];
+}
 
+function guardar_dados(tipo, dados) {
     switch(tipo) {
         case "geral":
-            dados_geral = json_data;
+            dados_geral = dados;
         break;
         case "jogo":
-            dados_jogo = json_data;
+            dados_jogo = dados;
         break;
         case "serie":
-            dados_serie = json_data;
+            dados_serie = dados;
         break;
         case "lost":
-            dados_off = json_data;
+            dados_off = dados;
         break;
         case "franquia":
-            dados_franquia = json_data;
+            dados_franquia = dados;
         break;
     }
+}
 
-    if (file2 != "") {
-        let file2_object = await fetch(file2);
-        let json2_data = await file2_object.json();
+//baixa 1 ou 2 JSONs ao mesmo tempo, guarda nas variáveis dados_* e (se load) monta a página
+async function fetch_dados(tipo,file,tipo2 = "",file2 = "",load = true) {
+    let [json_data, json2_data] = await Promise.all([carregar_json(file), (file2 != "") ? carregar_json(file2) : null]);
 
-        switch(tipo2) {
-            case "geral":
-                dados_geral = json2_data;
-            break;
-            case "jogo":
-                dados_jogo = json2_data;
-            break;
-            case "serie":
-                dados_serie = json2_data;
-            break;
-            case "lost":
-                dados_off = json2_data;
-            break;
-            case "franquia":
-                dados_franquia = json2_data;
-            break;
-        }
-    }
+    guardar_dados(tipo, json_data);
+    if (file2 != "") guardar_dados(tipo2, json2_data);
+
     if (load) carregar_itens();
 }
 
@@ -94,11 +88,20 @@ async function fetch_dados(tipo,file,tipo2 = "",file2 = "",load = true) {
 var pesquisa_array = [];
 var pesquisando = 0;
 
+//A busca guarda o que foi digitado na hora, mas só redesenha a lista ao parar de digitar (150 ms).
+var pesquisa_timer = null;
+
 function pesquisarJogo() {
     pesquisa_array = pesquisa_processar_array(document.querySelector("#inputPesquisa").value);
 
     debug_disable();
 
+    clearTimeout(pesquisa_timer);
+    pesquisa_timer = setTimeout(atualizar_lista_da_pesquisa, 150);
+}
+
+function atualizar_lista_da_pesquisa() {
+    pesquisa_timer = null;
     resetarJogos();
     carregar_itens();
 }
@@ -128,6 +131,8 @@ function changePesquisa(on_off) {
     }
     if (!pesquisa_array == "" && on_off == "off") {
         pesquisando = 0;
+        clearTimeout(pesquisa_timer);
+        pesquisa_timer = null;
         resetarString();
         resetarJogos();
         carregar_itens();
@@ -183,8 +188,7 @@ function carregar_consoles_temas(modo,parametro) {
     if (modo == "normal" || modo == "console" || modo == "jogo" || modo == "outro") json_url = "dados.json";
     if (modo == "404") json_url = parametro;
 
-    fetch(json_url)
-    .then(response => response.json())
+    carregar_json(json_url)
     .then(data => {
         let consoles = data.consoles;
         let temas = data.temas;
@@ -200,8 +204,8 @@ function carregar_consoles_temas(modo,parametro) {
             if(modo == "404") console_url = `https://arquivomsf.github.io/console?id=${console_sigla}`;
             else console_url = `console?id=${console_sigla}`;
 
-            document.querySelector(".console_list").innerHTML += `
-                <a href="${console_url}" class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">${console_nome} (${console_sigla.toUpperCase()})</a>`;
+            document.querySelector(".console_list").insertAdjacentHTML("beforeend", `
+                <a href="${console_url}" class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">${console_nome} (${console_sigla.toUpperCase()})</a>`);
             
             //se estiver no modo console, verificar se é o console atual pra tambem colocar no titulo da página
             if(modo == "console" && console_sigla == parametro){
@@ -216,8 +220,8 @@ function carregar_consoles_temas(modo,parametro) {
         for (var i = 0; i<temas.length; i++){
             let tema_nome = temas[i].nome;
             let tema_valor = temas[i].valor;
-            document.querySelector("#themes_select").innerHTML += `
-            <option value="${tema_valor}">${tema_nome}</option>`;
+            document.querySelector("#themes_select").insertAdjacentHTML("beforeend", `
+            <option value="${tema_valor}">${tema_nome}</option>`);
         }
 
         //se estiver no modo jogo/série, verificar jogos
@@ -708,7 +712,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         let extras_class = "";
         if (class_name == "extras_content_list") extras_class = "extras-item";
 
-        document.querySelector("."+class_name).innerHTML += `
+        document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="${extras_class} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
@@ -720,7 +724,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <b class="text-center">${nome}</b>
                 </a>
             </div>
-        `;
+        `);
         return
     }
     if (type == "playlist") {
@@ -732,7 +736,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
 
         //duracao = quantidade
 
-        document.querySelector("."+class_name).innerHTML += `
+        document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="${extras_class} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
@@ -744,13 +748,13 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <b class="text-center">${nome}</b>
                 </a>
             </div>
-        `;
+        `);
         return
     }
     if (type == "jogo") {
         if (url == "") url = `href="jogo?con=${console}&id=${jogo}"`;
         else url = `href="${url}" target="_blank"`;
-        document.querySelector("."+class_name).innerHTML += `
+        document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
                 <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="w-auto h-[225px]">
@@ -763,13 +767,13 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <p class="py-1 px-2 h-min w-fit m-auto flex-1 text-center">${console.toUpperCase()}</p>
                 </a>
             </div>
-        `;
+        `);
         return
     }
     if (type == "jogo_alt") {
         if (url == "") url = `href="jogo?con=${console}&id=${jogo}"`;
         else url = `href="${url}" target="_blank"`;
-        document.querySelector("."+class_name).innerHTML += `
+        document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
                 <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="w-auto h-[225px]">
@@ -778,13 +782,13 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <b class="jogo_titulo text-center">${nome}</b>
                 </a>
             </div>
-        `;
+        `);
         return
     }
     if (type == "standalone") {
         if (url == "") url = `href="embed?con=${console}&jogo=${jogo}&fonte=${plataforma}"`;
         else url = `href="${url}" target="_blank"`;
-        document.querySelector("."+class_name).innerHTML += `
+        document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
@@ -796,13 +800,13 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <b class="standalone_${i} standalone_titulo_${plataforma} text-center">${nome}</b>
                 </a>
             </div>
-        `;
+        `);
         return
     }
     if (type == "outro") {
         if (url == "") url = `href="serie?con=${console}&jogo=${jogo}"`;
         else url = `href="${url}" target="_blank"`;
-        document.querySelector("."+class_name).innerHTML += `
+        document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
@@ -814,11 +818,11 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <b class="outro_titulo text-center">${nome}</b>
                 </a>
             </div>
-        `;
+        `);
         return
     }
     if (type == "off") {
-        document.querySelector("."+class_name).innerHTML += `
+        document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <div class="p-2 flex flex-col flex-auto gap-2 items-center">
                     <div class="relative h-auto">
@@ -833,7 +837,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <p class="py-1 px-2 h-min w-fit m-auto">${data}</p>
                 </div>
             </div>
-        `;
+        `);
         return
     }
 }
@@ -864,7 +868,7 @@ function check_egg() {
     if(egg) {
         if (document.querySelector(".egg_div") == null) {
             let spr_egg = "https://arquivomsf.github.io/video/outros/evento-pascoa2026/tree/spr_egg.png";
-            document.querySelector("#sidebar_main").innerHTML += `
+            document.querySelector("#sidebar_main").insertAdjacentHTML("beforeend", `
                 <span class="px-2 py-4 float-left w-auto border-none block outline-none font-bold">Ovo</span>
                 <div class="maislinks_list flex flex-col mb-3 egg_div">
                         <a title="Não tão importante, não tão desimportante." class="nav-link px-2 py-3 float-left w-auto border-none block outline-none transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
@@ -873,7 +877,7 @@ function check_egg() {
                         </a>
                     </div>
                 </div>
-            `;
+            `);
         }
     }
 

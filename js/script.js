@@ -62,7 +62,7 @@ function carregar_itens() {
         let franquia_capa = dados_franquia[franquia_id].capas;
 
         if (item_corresponde_a_pesquisa(dados_franquia[franquia_id])) {
-            document.querySelector(".franquias_content_list").innerHTML += get_franquia_capas(franquia_id,franquia_nome,franquia_capa);
+            document.querySelector(".franquias_content_list").insertAdjacentHTML("beforeend", get_franquia_capas(franquia_id,franquia_nome,franquia_capa));
         }
     }
 }

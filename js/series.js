@@ -28,7 +28,6 @@ function carregar_itens() {
     let video_nome = dados_serie.videos[i].nome;
     let video_imagem = dados_serie.videos[i].imagem;
     let video_duracao = gerar_timestamp(dados_serie.videos[i].duracao.horas,dados_serie.videos[i].duracao.minutos,dados_serie.videos[i].duracao.segundos);
-    document.querySelector('meta[property="og:image"]').setAttribute("content", `https://arquivomsf.github.io/${serie_path}/1.${video_imagem}`);
     let video_plataforma = dados_serie.videos[i].plataforma;
     let video_link = dados_serie.videos[i].links[video_plataforma];
     if (consoleAtual == "outros") create_item("ep_outro","video","ep_content_list",i,consoleAtual,video_nome,jogoAtual,`${serie_path}/${i+1}.${video_imagem}`,video_plataforma,video_duracao);
