@@ -1,5 +1,6 @@
 var consoleAtual;
 var jogoAtual;
+var serieAtual;
 var serie_path;
 
 function carregarDados() {
@@ -41,7 +42,7 @@ function carregar_itens() {
     let playlist_imagem = dados_serie.playlist[0].imagem;
     let playlist_plataforma = dados_serie.playlist[0].plataforma;
     let playlist_link = dados_serie.playlist[0].links[playlist_plataforma];
-    let playlist_quantidade = dados_serie.playlist[0].quantidade;
+    let playlist_quantidade = dados_serie.playlist[0].quantidade ?? dados_serie.videos.length;
     create_item(playlist_link,"playlist","extras_content_list",0,"",playlist_nome,"",`${serie_path}/1.${playlist_imagem}`,"",playlist_quantidade);
     document.querySelector(".tabs-navbar").classList.remove("hidden");
   }

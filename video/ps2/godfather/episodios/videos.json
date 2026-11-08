@@ -4,7 +4,6 @@
       "nome": "The Godfather (PS2)",
       "imagem": "webp",
       "link": "",
-      "quantidade": "10",
       "plataforma": "archive",
       "links": {
         "youtube": "",
@@ -16,6 +15,7 @@
   "videos": [
     {
       "nome": "The Godfather de PlayStation 2 - Começo do jogo",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -32,6 +32,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Parte do Hospital",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -48,6 +49,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Continuando cena do hospital",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -64,6 +66,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Fuga de carro",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -80,6 +83,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Mira automática ruim",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -96,6 +100,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Pistola Dourada",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -112,6 +117,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Comprando a doze prata",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -128,6 +134,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Sonny",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -144,6 +151,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Paz entre as famílias",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",
@@ -160,6 +168,7 @@
     },
     {
       "nome": "The Godfather de PlayStation 2 - Zerei e nem percebi",
+      "desc": "Gameplay de The Godfather de PlayStation 2.",
       "imagem": "webp",
       "data": "13/02/2026",
       "plataforma": "archive",

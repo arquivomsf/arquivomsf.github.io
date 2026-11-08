@@ -3,7 +3,6 @@
     {
       "nome": "The Terminator (MD)",
       "imagem": "webp",
-      "quantidade": "5",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvv9sAeJXDvNuDJjFA8JioKa",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "The Terminator de Mega Drive - Parte 1",
+      "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 2",
+      "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 3",
+      "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 4",
+      "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 5 Final",
+      "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
       "plataforma": "youtube",

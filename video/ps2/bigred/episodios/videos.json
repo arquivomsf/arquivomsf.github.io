@@ -3,7 +3,6 @@
     {
       "nome": "COD 2 Big Red One (PS2)",
       "imagem": "webp",
-      "quantidade": "12",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvskR4NtGwy0X6wxY9umNCHe",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 1",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "23/03/2024",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 2",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "24/03/2024",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 3",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "25/03/2024",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 4",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "26/03/2024",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 5",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "27/03/2024",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 6",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "28/03/2024",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 7",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "29/03/2024",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 8",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "30/03/2024",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 9",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "31/03/2024",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 10",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "01/04/2024",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 11",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "02/04/2024",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "COD 2 Big Red One de PlayStation 2 - Parte 12 FINAL",
+      "desc": "Gameplay comentado de Call of Duty Big Red One de PlayStation 2.",
       "imagem": "webp",
       "data": "03/04/2024",
       "plataforma": "youtube",

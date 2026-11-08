@@ -3,7 +3,6 @@
     {
       "nome": "Need for Speed 3 (PS1)",
       "imagem": "webp",
-      "quantidade": "7",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsEn9sEbS3uPSRu_A8gDiDj",
@@ -16,6 +15,7 @@
     {
       "nome": "Need for Speed 3 de PlayStation 1 | Parte 1",
       "nome_original": "Jogando Need for Speed 3 de PlayStation 1 | 2026-05-12 10-19-21",
+      "desc": "Gameplay de NFS3 de PS1.",
       "imagem": "webp",
       "data": "31/05/2026",
       "plataforma": "youtube",
@@ -33,6 +33,7 @@
     {
       "nome": "Need for Speed 3 de PlayStation 1 | Parte 2",
       "nome_original": "Jogando Need for Speed 3 de PlayStation 1 | 2026-05-12 11-09-35",
+      "desc": "Gameplay de NFS3 de PS1.",
       "imagem": "webp",
       "data": "31/05/2026",
       "plataforma": "youtube",
@@ -50,6 +51,7 @@
     {
       "nome": "Need for Speed 3 de PlayStation 1 | Parte 3",
       "nome_original": "Jogando Need for Speed 3 de PlayStation 1 | 2026-05-13 12-52-50",
+      "desc": "Gameplay de NFS3 de PS1.",
       "imagem": "webp",
       "data": "31/05/2026",
       "plataforma": "youtube",
@@ -101,6 +103,7 @@
     {
       "nome": "Need for Speed 3 de PlayStation 1 | Parte 6",
       "nome_original": "Jogando Need for Speed 3 de PlayStation 1 | 2026-05-18 12-33-51",
+      "desc": "Gameplay de NFS3 de PS1.",
       "imagem": "webp",
       "data": "05/06/2026",
       "plataforma": "youtube",

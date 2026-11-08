@@ -3,7 +3,6 @@
     {
       "nome": "Manhunt (PS2)",
       "imagem": "webp",
-      "quantidade": "24",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvAVHGRsOBxkqm50drNQ9l1",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Manhunt de PlayStation 2 - Parte 1",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "19/10/2024",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 2",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "20/10/2024",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 3",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "21/10/2024",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 4",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "22/10/2024",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 5",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "23/10/2024",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 6",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "24/10/2024",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 7",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "25/10/2024",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 8",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "26/10/2024",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 9",
+      "desc": "Gameplay comentado de Manhunt de PlayStation 2.",
       "imagem": "webp",
       "data": "27/10/2024",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 10",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "29/10/2024",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 11",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "30/10/2024",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 12",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "31/10/2024",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 13",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "01/11/2024",
       "plataforma": "youtube",
@@ -223,6 +235,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 14",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "02/11/2024",
       "plataforma": "youtube",
@@ -239,6 +252,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 15",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "03/11/2024",
       "plataforma": "youtube",
@@ -255,6 +269,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 16",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "04/11/2024",
       "plataforma": "youtube",
@@ -271,6 +286,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 17",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "05/11/2024",
       "plataforma": "youtube",
@@ -287,6 +303,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 18",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "06/11/2024",
       "plataforma": "youtube",
@@ -303,6 +320,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 19",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "07/11/2024",
       "plataforma": "youtube",
@@ -319,6 +337,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 20",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "08/11/2024",
       "plataforma": "youtube",
@@ -335,6 +354,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 21",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "10/11/2024",
       "plataforma": "youtube",
@@ -351,6 +371,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 22",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "12/11/2024",
       "plataforma": "youtube",
@@ -367,6 +388,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 23",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "13/11/2024",
       "plataforma": "youtube",
@@ -383,6 +405,7 @@
     },
     {
       "nome": "Manhunt de PlayStation 2 - Parte 24 Final",
+      "desc": "Gameplay comentado de Manhunt.",
       "imagem": "webp",
       "data": "14/11/2024",
       "plataforma": "youtube",

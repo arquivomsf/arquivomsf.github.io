@@ -3,7 +3,6 @@
     {
       "nome": "QuackShot (MD)",
       "imagem": "webp",
-      "quantidade": "6",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvtNa2eLyRYXkHDcZRNGo1rT",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "QuackShot de Mega Drive - Parte 1",
+      "desc": "Gameplay comentado de QuackShot Starring Donald Duck de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "25/04/2022",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "QuackShot de Mega Drive - Parte 2",
+      "desc": "Gameplay comentado de QuackShot Starring Donald Duck de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "27/04/2022",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "QuackShot de Mega Drive - Parte 3",
+      "desc": "Gameplay comentado de QuackShot Starring Donald Duck de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "28/04/2022",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "QuackShot de Mega Drive - Parte 4",
+      "desc": "Gameplay comentado de QuackShot Starring Donald Duck de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "29/04/2022",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "QuackShot de Mega Drive - Parte 5",
+      "desc": "Gameplay comentado de QuackShot Starring Donald Duck de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "03/05/2022",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "QuackShot de Mega Drive - Parte 6",
+      "desc": "Gameplay comentado de QuackShot Starring Donald Duck de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "03/05/2022",
       "plataforma": "youtube",

@@ -3,7 +3,6 @@
     {
       "nome": "Batman: Chaos in Gotham (GBC)",
       "imagem": "webp",
-      "quantidade": "4",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLZWemY4RGaFs",
@@ -16,6 +15,7 @@
     {
       "nome": "Batman: Chaos in Gotham de GBC | Parte 1",
       "nome_original": "Batman: Chaos in Gotham GBC Gameplay | 2026-07-24 13-06-23",
+      "desc": "Batman: Chaos in Gotham gameplay.",
       "imagem": "webp",
       "data": "07/08/2026",
       "plataforma": "youtube",
@@ -33,6 +33,7 @@
     {
       "nome": "Batman: Chaos in Gotham de GBC | Parte 2",
       "nome_original": "Batman: Chaos in Gotham GBC Gameplay | 2026-07-27 19-39-29",
+      "desc": "Batman: Chaos in Gotham gameplay.",
       "imagem": "webp",
       "data": "14/08/2026",
       "plataforma": "youtube",
@@ -50,6 +51,7 @@
     {
       "nome": "Batman: Chaos in Gotham de GBC | Parte 3",
       "nome_original": "Batman: Chaos in Gotham GBC Gameplay | 2026-07-28 12-00-33",
+      "desc": "Batman: Chaos in Gotham gameplay.",
       "imagem": "webp",
       "data": "14/08/2026",
       "plataforma": "youtube",
@@ -67,6 +69,7 @@
     {
       "nome": "Batman: Chaos in Gotham de GBC | Parte 4",
       "nome_original": "Batman: Chaos in Gotham GBC Gameplay | 2026-07-29 08-51-33",
+      "desc": "Batman: Chaos in Gotham gameplay.",
       "imagem": "webp",
       "data": "14/08/2026",
       "plataforma": "youtube",

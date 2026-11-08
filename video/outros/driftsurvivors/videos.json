@@ -3,7 +3,6 @@
     {
       "nome": "Drift Survivors",
       "imagem": "webp",
-      "quantidade": "14",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLatVinKPr4A8",
@@ -29,6 +28,7 @@
     {
       "nome": "Drift Survivors | Gameplay 1",
       "nome_original": "Jogando Drift Survivors | 2026-06-09 15-10-31",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "24/06/2026",
       "plataforma": "youtube",
@@ -63,6 +63,7 @@
     {
       "nome": "Drift Survivors | Gameplay 3",
       "nome_original": "Jogando Drift Survivors | 2026-06-12 08-55-43",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "26/06/2026",
       "plataforma": "youtube",
@@ -80,6 +81,7 @@
     {
       "nome": "Drift Survivors | Gameplay 4",
       "nome_original": "Jogando Drift Survivors | 2026-06-12 09-34-47",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "26/06/2026",
       "plataforma": "youtube",
@@ -97,6 +99,7 @@
     {
       "nome": "Drift Survivors | Gameplay 5",
       "nome_original": "Jogando Drift Survivors | 2026-06-12 21-31-36",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "29/06/2026",
       "plataforma": "youtube",
@@ -114,6 +117,7 @@
     {
       "nome": "Drift Survivors | Gameplay 6",
       "nome_original": "Jogando Drift Survivors | 2026-06-12 22-18-58",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "29/06/2026",
       "plataforma": "youtube",
@@ -165,6 +169,7 @@
     {
       "nome": "Drift Survivors | Gameplay 9",
       "nome_original": "Jogando Drift Survivors | 2026-06-15 14-46-17",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "16/06/2026",
       "plataforma": "youtube",
@@ -199,6 +204,7 @@
     {
       "nome": "Drift Survivors | Gameplay 11",
       "nome_original": "Jogando Drift Survivors | 2026-06-17 09-38-36",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "03/07/2026",
       "plataforma": "youtube",
@@ -216,6 +222,7 @@
     {
       "nome": "Drift Survivors | Gameplay 12",
       "nome_original": "Jogando Drift Survivors | 2026-06-17 10-28-39.mp4",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "03/07/2026",
       "plataforma": "youtube",
@@ -250,6 +257,7 @@
     {
       "nome": "Drift Survivors | Gameplay 14",
       "nome_original": "Jogando Drift Survivors | 2026-06-19 12-15-11",
+      "desc": "Gameplay de Drift Survivors da Steam.",
       "imagem": "webp",
       "data": "03/07/2026",
       "plataforma": "youtube",

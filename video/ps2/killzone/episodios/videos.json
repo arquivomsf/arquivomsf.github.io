@@ -3,7 +3,6 @@
     {
       "nome": "Killzone (PS2)",
       "imagem": "webp",
-      "quantidade": "33",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvu3IXNVAialSHe5ywX4Z-IO",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Killzone de PlayStation 2 - Parte 1",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "02/04/2025",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 2",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "03/04/2025",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 3",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "04/04/2025",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 4",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "05/04/2025",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 5",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "06/04/2025",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 6",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "07/04/2025",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 7",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "08/04/2025",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 8",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "09/04/2025",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 9",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "10/04/2025",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 10",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "11/04/2025",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 11",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "12/04/2025",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 12",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "13/04/2025",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 13",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "14/04/2025",
       "plataforma": "youtube",
@@ -223,6 +235,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 14",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "15/04/2025",
       "plataforma": "youtube",
@@ -239,6 +252,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 15",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "16/04/2025",
       "plataforma": "youtube",
@@ -255,6 +269,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 16",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "17/04/2025",
       "plataforma": "youtube",
@@ -271,6 +286,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 17",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "18/04/2025",
       "plataforma": "youtube",
@@ -287,6 +303,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 18",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "19/04/2025",
       "plataforma": "youtube",
@@ -303,6 +320,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 19",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "20/04/2025",
       "plataforma": "youtube",
@@ -319,6 +337,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 20",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "21/04/2025",
       "plataforma": "youtube",
@@ -335,6 +354,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 21",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "22/04/2025",
       "plataforma": "youtube",
@@ -351,6 +371,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 22",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "23/04/2025",
       "plataforma": "youtube",
@@ -367,6 +388,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 23",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "24/04/2025",
       "plataforma": "youtube",
@@ -383,6 +405,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 24",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "25/04/2025",
       "plataforma": "youtube",
@@ -399,6 +422,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 25",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "26/04/2025",
       "plataforma": "youtube",
@@ -415,6 +439,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 26",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "27/04/2025",
       "plataforma": "youtube",
@@ -431,6 +456,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 27",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "28/04/2025",
       "plataforma": "youtube",
@@ -447,6 +473,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 28",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "29/04/2025",
       "plataforma": "youtube",
@@ -463,6 +490,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 29",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "30/04/2025",
       "plataforma": "youtube",
@@ -479,6 +507,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 30",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "01/05/2025",
       "plataforma": "youtube",
@@ -495,6 +524,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 31",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "02/05/2025",
       "plataforma": "youtube",
@@ -511,6 +541,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 32",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "03/05/2025",
       "plataforma": "youtube",
@@ -527,6 +558,7 @@
     },
     {
       "nome": "Killzone de PlayStation 2 - Parte 33 Final",
+      "desc": "Gameplay comentado de Killzone de PlayStation 2.",
       "imagem": "webp",
       "data": "04/05/2025",
       "plataforma": "youtube",

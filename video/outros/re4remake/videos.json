@@ -3,7 +3,6 @@
     {
       "nome": "Resident Evil 4 Remake (Clipes)",
       "imagem": "webp",
-      "quantidade": "28",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvzclQXXB4fucCbsVBKEHKe",
@@ -28,6 +27,7 @@
   "videos": [
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 1",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "08/09/2025",
       "plataforma": "youtube",
@@ -44,6 +44,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 2",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "08/09/2025",
       "plataforma": "youtube",
@@ -60,6 +61,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 3",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "08/09/2025",
       "plataforma": "youtube",
@@ -76,6 +78,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 4",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "08/09/2025",
       "plataforma": "youtube",
@@ -92,6 +95,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 5",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "18/09/2025",
       "plataforma": "youtube",
@@ -108,6 +112,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 6",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "18/09/2025",
       "plataforma": "youtube",
@@ -124,6 +129,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 7",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "18/09/2025",
       "plataforma": "youtube",
@@ -140,6 +146,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 8",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "18/09/2025",
       "plataforma": "youtube",
@@ -156,6 +163,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 9",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "18/09/2025",
       "plataforma": "youtube",
@@ -172,6 +180,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 10",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -188,6 +197,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 11",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -204,6 +214,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 12",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -220,6 +231,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 13",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -236,6 +248,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 14",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -252,6 +265,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 15",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -268,6 +282,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 16",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -284,6 +299,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 17",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -300,6 +316,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 18",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -316,6 +333,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 19",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -332,6 +350,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 20",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -348,6 +367,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 21",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -364,6 +384,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 22",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -380,6 +401,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 23",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -396,6 +418,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 24",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -412,6 +435,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 25",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -428,6 +452,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 26",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -444,6 +469,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 27",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -460,6 +486,7 @@
     },
     {
       "nome": "RE4 Remake - Xbox Series S Gameplay 28",
+      "desc": "Gameplay de RE4 Remake.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",

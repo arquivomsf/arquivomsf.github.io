@@ -3,7 +3,6 @@
     {
       "nome": "Red Dead Revolver (PS2)",
       "imagem": "webp",
-      "quantidade": "13",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvMM8D-I1W1LBuh2PgL4dJy",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 1",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "13/09/2023",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 2",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "24/09/2023",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 3",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "25/09/2023",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 4",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "26/09/2023",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 5",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "27/09/2023",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 6",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "28/09/2023",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 7",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "29/09/2023",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 8",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "30/11/2023",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 9",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "01/12/2023",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 10",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "05/12/2023",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 11",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "06/12/2023",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 12",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "07/12/2023",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "Red Dead Revolver de PlayStation 2 - Parte 13",
+      "desc": "Gameplay comentado de Red Dead Revolver.",
       "imagem": "webp",
       "data": "07/01/2024",
       "plataforma": "youtube",

@@ -2,15 +2,13 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.webp",
-            "quantidade": "4"
+            "imagem": "1.webp"
         }
     ],
     "vodsarquivo": [
         {
             "nome": "VODs do Arquivo",
-            "imagem": "1.webp",
-            "quantidade": "5"
+            "imagem": "1.webp"
         }
     ],
     "analise": [

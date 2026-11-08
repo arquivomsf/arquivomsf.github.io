@@ -3,7 +3,6 @@
     {
       "nome": "Bunny Miner",
       "imagem": "webp",
-      "quantidade": "11",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsVQNrxr5qesb6EjwR2mfOe",
@@ -33,6 +32,7 @@
     {
       "nome": "Bunny Miner - Gameplay 2",
       "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-12-08",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -50,6 +50,7 @@
     {
       "nome": "Bunny Miner - Gameplay 3",
       "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-22-17",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "archive",
@@ -118,6 +119,7 @@
     {
       "nome": "Bunny Miner - Gameplay 7",
       "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-42-26",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -135,6 +137,7 @@
     {
       "nome": "Bunny Miner - Gameplay 8",
       "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-47-26",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -152,6 +155,7 @@
     {
       "nome": "Bunny Miner - Gameplay 9",
       "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-52-31",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -169,6 +173,7 @@
     {
       "nome": "Bunny Miner - Gameplay 10",
       "nome_original": "Bunny Miner Gameplay | 2026-04-05 20-57-32",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -186,6 +191,7 @@
     {
       "nome": "Bunny Miner - Gameplay 11",
       "nome_original": "Bunny Miner Gameplay | 2026-04-05 21-02-37",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",

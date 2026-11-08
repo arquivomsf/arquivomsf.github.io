@@ -3,7 +3,6 @@
     {
       "nome": "Harry Potter e a Pedra Filosofal (PS2)",
       "imagem": "webp",
-      "quantidade": "16",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuzrS_EL0QSWOdATOQqJ8n5",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 1",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "29/09/2025",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 2",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 3",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "01/10/2025",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 4",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "02/10/2025",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 5",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "03/10/2025",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 6",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "04/10/2025",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 7",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "05/10/2025",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 8",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "06/10/2025",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 9",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "07/10/2025",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 10",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "08/10/2025",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 11",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "09/10/2025",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 12",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "10/10/2025",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 13",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "11/10/2025",
       "plataforma": "youtube",
@@ -223,6 +235,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 14",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "13/10/2025",
       "plataforma": "youtube",
@@ -239,6 +252,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 15",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "14/10/2025",
       "plataforma": "youtube",
@@ -255,6 +269,7 @@
     },
     {
       "nome": "Harry Potter e a Pedra Filosofal de PS2 - Parte 16 Final",
+      "desc": "Gameplay de Harry Potter e a Pedra Filosofal de PS2.",
       "imagem": "webp",
       "data": "15/10/2025",
       "plataforma": "youtube",

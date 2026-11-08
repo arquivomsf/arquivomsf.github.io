@@ -3,7 +3,6 @@
     {
       "nome": "The Suffering (PS2)",
       "imagem": "webp",
-      "quantidade": "13",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvCko8up9k3WpSodVdt3ENU",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "The Suffering de PS2 - Parte 1",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "11/11/2025",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 2",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "12/11/2025",
       "plataforma": "youtube",
@@ -63,6 +64,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 4",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "14/11/2025",
       "plataforma": "youtube",
@@ -79,6 +81,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 5",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "15/11/2025",
       "plataforma": "youtube",
@@ -95,6 +98,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 6",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "16/11/2025",
       "plataforma": "youtube",
@@ -111,6 +115,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 7",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "17/11/2025",
       "plataforma": "youtube",
@@ -127,6 +132,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 8",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "18/11/2025",
       "plataforma": "youtube",
@@ -143,6 +149,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 9",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "19/11/2025",
       "plataforma": "youtube",
@@ -159,6 +166,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 10",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "20/11/2025",
       "plataforma": "youtube",
@@ -175,6 +183,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 11",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "21/11/2025",
       "plataforma": "youtube",
@@ -191,6 +200,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 12",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "22/11/2025",
       "plataforma": "youtube",
@@ -207,6 +217,7 @@
     },
     {
       "nome": "The Suffering de PS2 - Parte 13",
+      "desc": "Gameplay de The Suffering de PS2.",
       "imagem": "webp",
       "data": "23/11/2025",
       "plataforma": "youtube",

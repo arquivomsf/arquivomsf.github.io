@@ -27,6 +27,7 @@
   "extras": [
     {
       "nome": "Testando o Left 4 Dead 2 no PC",
+      "desc": "Gameplay de L4D2.",
       "id": "testandol4d2",
       "imagem": "../../etc/testandol4d2.webp",
       "data": "03/04/2026",
@@ -47,6 +48,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 1",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-17 09-31-19",
+      "desc": "Gameplay de Left 4 Dead 2 no PC.",
       "imagem": "webp",
       "data": "17/04/2026",
       "plataforma": "youtube",
@@ -64,6 +66,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 2",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-17 09-46-23",
+      "desc": "Gameplay de Left 4 Dead 2 no PC.",
       "imagem": "webp",
       "data": "17/04/2026",
       "plataforma": "youtube",
@@ -81,6 +84,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 3",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-17 10-01-25",
+      "desc": "Gameplay de Left 4 Dead 2 no PC.",
       "imagem": "webp",
       "data": "17/04/2026",
       "plataforma": "youtube",
@@ -166,6 +170,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 8",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 12-25-09",
+      "desc": "Gameplay de Left 4 Dead 2 no PC.",
       "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
@@ -183,6 +188,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 9",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 12-28-59",
+      "desc": "Gameplay de Left 4 Dead 2 no PC.",
       "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
@@ -200,6 +206,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 10",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 12-44-01",
+      "desc": "Gameplay de Left 4 Dead 2 no PC.",
       "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
@@ -217,6 +224,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 11",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 12-59-04",
+      "desc": "Gameplay de Left 4 Dead 2 no PC.",
       "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
@@ -234,6 +242,7 @@
     {
       "nome": "Left 4 Dead 2 - Gameplay 12",
       "nome_original": "Jogando Left 4 Dead 2 | 2026-04-16 13-14-08",
+      "desc": "Gameplay de Left 4 Dead 2 no PC.",
       "imagem": "webp",
       "data": "29/04/2026",
       "plataforma": "youtube",
@@ -448,7 +457,7 @@
       },
       "duracao": {
         "horas": 0,
-        "minutos":7,
+        "minutos": 7,
         "segundos": 53
       }
     },

@@ -3,7 +3,6 @@
     {
       "nome": "Jogos de Navegador Online (2026)",
       "imagem": "webp",
-      "quantidade": "12",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvszcoIXZq6-ufKzPZdnlsRV",
@@ -16,6 +15,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 1",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 20-13-55",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "04/04/2026",
       "plataforma": "youtube",
@@ -33,6 +33,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 2",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 20-21-44",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "04/04/2026",
       "plataforma": "youtube",
@@ -50,6 +51,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 3",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 20-26-48",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "04/04/2026",
       "plataforma": "youtube",
@@ -67,6 +69,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 4",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 20-31-51",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "06/04/2026",
       "plataforma": "youtube",
@@ -84,6 +87,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 5",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 20-36-53",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "06/04/2026",
       "plataforma": "youtube",
@@ -101,6 +105,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 6",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 20-41-59",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "06/04/2026",
       "plataforma": "youtube",
@@ -118,6 +123,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 7",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 20-46-59",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "06/04/2026",
       "plataforma": "youtube",
@@ -152,6 +158,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 9",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 20-57-04",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -169,6 +176,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 10",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 21-02-07",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",
@@ -186,6 +194,7 @@
     {
       "nome": "Jogos de Navegador Online - Gameplay 11",
       "nome_original": "Jogos de Navegador Online | 2026-04-04 21-07-12",
+      "desc": "Gameplay de jogos no navegador no PC.",
       "imagem": "webp",
       "data": "21/04/2026",
       "plataforma": "youtube",

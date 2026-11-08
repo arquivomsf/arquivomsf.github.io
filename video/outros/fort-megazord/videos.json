@@ -3,7 +3,6 @@
     {
       "nome": "Megazord Power Rangers no Fortnite (Clipes)",
       "imagem": "webp",
-      "quantidade": "7",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtpjHSlT780Snlg8tr6PMDV",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Parte 1 - Megazord Power Rangers no Fortnite",
+      "desc": "Gameplay de Fortnite no Xbox.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Parte 2 - Megazord Power Rangers no Fortnite",
+      "desc": "Gameplay de Fortnite no Xbox.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Parte 3 - Megazord Power Rangers no Fortnite",
+      "desc": "Gameplay de Fortnite no Xbox.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Parte 4 - Megazord Power Rangers no Fortnite",
+      "desc": "Gameplay de Fortnite no Xbox.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Parte 5 - Megazord Power Rangers no Fortnite",
+      "desc": "Gameplay de Fortnite no Xbox.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Parte 6 - Megazord Power Rangers no Fortnite",
+      "desc": "Gameplay de Fortnite no Xbox.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "Parte 7 - Megazord Power Rangers no Fortnite",
+      "desc": "Gameplay de Fortnite no Xbox.",
       "imagem": "webp",
       "data": "22/09/2025",
       "plataforma": "youtube",

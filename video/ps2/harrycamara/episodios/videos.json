@@ -3,7 +3,6 @@
     {
       "nome": "Harry Potter and the Chamber of Secrets (PS2)",
       "imagem": "webp",
-      "quantidade": "2",
       "plataforma": "archive",
       "links": {
         "youtube": "",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Harry Potter and the Chamber of Secrets de PS2 | Parte 1",
+      "desc": "Gameplay de Harry Potter and the Chamber of Secrets de PS2.",
       "imagem": "webp",
       "data": "11/01/2026",
       "plataforma": "archive",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Harry Potter and the Chamber of Secrets de PS2 | Parte 2",
+      "desc": "Gameplay de Harry Potter and the Chamber of Secrets de PS2.",
       "imagem": "webp",
       "data": "11/01/2026",
       "plataforma": "archive",

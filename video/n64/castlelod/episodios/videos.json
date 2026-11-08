@@ -3,7 +3,6 @@
     {
       "nome": "Castlevania Legacy of Darkness (N64)",
       "imagem": "webp",
-      "quantidade": "13",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuJceLsgskcuAaxuPvFqNge",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 1",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "18/01/2023",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 2",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "18/01/2023",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 3",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "20/01/2023",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 4",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "20/01/2023",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 5",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "22/01/2023",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 6",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "23/01/2023",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 7",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "23/01/2023",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 8",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "24/01/2023",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 9",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "25/01/2023",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 10",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "26/01/2023",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 11",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "30/01/2023",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 12",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "31/01/2023",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "Castlevania Legacy of Darkness de Nintendo 64 - Parte 13",
+      "desc": "Gameplay comentado de Castlevania Legacy of Darkness de Nintendo 64.",
       "imagem": "webp",
       "data": "01/02/2023",
       "plataforma": "youtube",

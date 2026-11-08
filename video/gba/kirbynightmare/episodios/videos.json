@@ -3,7 +3,6 @@
     {
       "nome": "Kirby: Nightmare In Dream Land (GBA)",
       "imagem": "webp",
-      "quantidade": "5",
       "plataforma": "archive",
       "links": {
         "youtube": "",
@@ -63,6 +62,7 @@
     },
     {
       "nome": "Kirby Nightmare In Dream Land De GBA | Parte 4",
+      "desc": "Gameplay comentado de Kirby Nightmare in Dream Land de GBA.",
       "imagem": "webp",
       "data": "27/12/2025",
       "plataforma": "archive",
@@ -79,6 +79,7 @@
     },
     {
       "nome": "Kirby Nightmare In Dream Land De GBA | Parte 5 Final",
+      "desc": "Gameplay comentado de Kirby Nightmare in Dream Land de GBA.",
       "imagem": "webp",
       "data": "28/12/2025",
       "plataforma": "archive",

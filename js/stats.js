@@ -1,255 +1,98 @@
-function carregarStats(){
+// Página de estatísticas: lê todos os JSONs do acervo e soma quantidades e durações.
+
+//busca um JSON; se falhar (arquivo faltando, etc.), avisa no console e segue sem ele
+async function buscar_json(url) {
+    try {
+        const resposta = await fetch(url);
+        if (!resposta.ok) throw new Error(resposta.status);
+        return await resposta.json();
+    } catch (erro) {
+        console.warn(`stats: não consegui ler ${url} (${erro})`);
+        return null;
+    }
+}
+
+function escrever(classe, texto) {
+    document.querySelector("."+classe).innerHTML = texto;
+}
+
+//Resultado de uma lista de vídeos (videos + extras de um videos.json): quantos são e quanto duram.
+//Todos os tempos ficam em segundos; só viram "1h 2m 3s" na hora de exibir.
+function somar_videos(dados_json) {
+    const itens = [...(dados_json.videos || []), ...(dados_json.extras || [])];
+    const segundos = itens.reduce((total, v) => total + v.duracao.horas*3600 + v.duracao.minutos*60 + v.duracao.segundos, 0);
+    return { quantidade: itens.length, segundos: segundos };
+}
+
+function somar_listas(listas) {
+    return listas.filter(l => l).map(somar_videos).reduce(
+        (soma, l) => ({ quantidade: soma.quantidade + l.quantidade, segundos: soma.segundos + l.segundos }),
+        { quantidade: 0, segundos: 0 });
+}
+
+function tempo_formatado(segundos) {
+    return gerar_timestamp(0, 0, segundos, true);
+}
+
+async function carregarStats() {
     carregar_consoles_temas("normal","");
 
-    let consoles_counter = 0;
+    escrever("counter-stickers", `${stickers_array.length} figurinhas do canal`);
+    escrever("counter-stikersfollowers", `${followers_array.length} figurinhas dos seguidores`);
 
-    let jogos_counter = 0;
-    let jogos_horas_counter = 0;
-    let jogos_minutos_counter = 0;
-    let jogos_segundos_counter = 0;
-    let jogos_tempo = "";
+    const dados = await buscar_json("dados.json");
+    escrever("counter-con", `${dados.consoles.length} consoles`);
+    escrever("counter-jogo", `${dados.jogos.length} jogos`);
 
-    let jogos_episodios_counter = 0;
+    //busca tudo em paralelo
+    const [jogos, outros, lostmedia] = await Promise.all([
+        Promise.all(dados.jogos.map(async jogo => {
+            const pasta = `video/${jogo.console}/${jogo.curto}`;
+            const series = await buscar_json(`${pasta}/series.json`);
+            return {
+                episodios: series && Object.hasOwn(series, "episodios") ? await buscar_json(`${pasta}/episodios/videos.json`) : null,
+                vods: series && Object.hasOwn(series, "vodsarquivo") ? await buscar_json(`${pasta}/vods/videos.json`) : null
+            };
+        })),
+        Promise.all(dados.outros.map(outro => buscar_json(`video/outros/${outro.curto}/videos.json`))),
+        buscar_json("off.json")
+    ]);
 
-    let jogos_comvod_counter = 0;
-    let jogos_vods_counter = 0;
+    const episodios = somar_listas(jogos.map(j => j.episodios));
+    const vods = somar_listas(jogos.map(j => j.vods));
+    const jogos_com_vod = jogos.filter(j => j.vods).length;
+    const standalone = somar_videos({ videos: dados.standalone });
+    const outros_soma = somar_listas(outros);
 
-    let standalone_counter = 0;
-    let standalone_horas_counter = 0;
-    let standalone_minutos_counter = 0;
-    let standalone_segundos_counter = 0;
-    let standalone_tempo = "";
+    const jogos_segundos = episodios.segundos + vods.segundos;
+    const total_videos = episodios.quantidade + vods.quantidade + standalone.quantidade + outros_soma.quantidade;
+    const total_segundos = jogos_segundos + standalone.segundos + outros_soma.segundos;
 
-    let outros_counter = 0;
-    let outros_horas_counter = 0;
-    let outros_minutos_counter = 0;
-    let outros_segundos_counter = 0;
-    let outros_tempo = "";
+    escrever("counter-total", `${total_videos} vídeos arquivados`);
+    escrever("counter-tempototal", `${tempo_formatado(total_segundos)} de vídeos arquivados`);
 
-    let total_horas_counter = 0;
-    let total_minutos_counter = 0;
-    let total_segundos_counter = 0;
-    let total_tempo = "";
+    escrever("counter-tempototaljogo", `${tempo_formatado(jogos_segundos)} de vídeos de jogos`);
 
-    let lost_fortnite_counter = 0;
+    if (episodios.quantidade > 0) {
+        escrever("counter-ep", `${episodios.quantidade} vídeos de jogos`);
+        escrever("counter-mediaep", `${Math.round(episodios.quantidade/dados.jogos.length)} vídeos por jogo (média)`);
+    }
 
-    document.querySelector(".counter-stickers").innerHTML = `${stickers_array.length} figurinhas do canal`;
-    document.querySelector(".counter-stikersfollowers").innerHTML = `${followers_array.length} figurinhas dos seguidores`;
+    if (vods.quantidade > 0) {
+        escrever("counter-vods", `${vods.quantidade} VODs de jogos`);
+        escrever("counter-mediavod", `${Math.round(vods.quantidade/jogos_com_vod)} VODs por jogo (média)`);
+    }
 
-    fetch("dados.json")
-      .then(response => response.json())
-      .then(data => {
-        document.querySelector(".counter-con").innerHTML = `${data.consoles.length} consoles`;
-        document.querySelector(".counter-jogo").innerHTML = `${data.jogos.length} jogos`;
+    escrever("counter-standalone", `${dados.standalone.length} vídeos independentes`);
+    escrever("counter-tempototalstandalone", `${tempo_formatado(standalone.segundos)} de vídeos independentes`);
 
-        for (var i = 0; i<data.jogos.length; i++){
-            let jogo_console_sigla = data.jogos[i].console;
-            let jogo_nome_curto = data.jogos[i].curto;
-            jogos_counter++;
-            //document.querySelector(".counter-jogo").innerHTML = `${jogos_counter} jogos`;
+    if (outros_soma.quantidade > 0) escrever("counter-outros", `${outros_soma.quantidade} vídeos marcados como "outros"`);
+    escrever("counter-tempototaloutros", `${tempo_formatado(outros_soma.segundos)} de vídeos marcados como "outros"`);
 
-            fetch(`video/${jogo_console_sigla}/${jogo_nome_curto}/series.json`)
-            .then(response => response.json())
-            .then(data => {
-                if (Object.hasOwn(data, "episodios")) {
-                    
+    if (lostmedia) {
+        escrever("counter-lostmedia", `${lostmedia.lostmedia.length} vídeos perdidos`);
 
-            fetch(`video/${jogo_console_sigla}/${jogo_nome_curto}/episodios/videos.json`)
-            .then(response => response.json())
-            .then(data => {
-                for (var i = 0; i<data.videos.length; i++){
-                    let video_horas = data.videos[i].duracao.horas;
-                    let video_minutos = data.videos[i].duracao.minutos;
-                    let video_segundos = data.videos[i].duracao.segundos;
-                    jogos_episodios_counter++;
-                    jogos_horas_counter += video_horas;
-                    jogos_minutos_counter += video_minutos;
-                    jogos_segundos_counter += video_segundos;
-                    total_horas_counter += video_horas;
-                    total_minutos_counter += video_minutos;
-                    total_segundos_counter += video_segundos;
-                    //console.log("ep "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
-
-                    document.querySelector(".counter-ep").innerHTML = `${jogos_episodios_counter} vídeos de jogos`;
-                    document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
-                    document.querySelector(".counter-mediaep").innerHTML = `${Math.round(jogos_episodios_counter/jogos_counter)} vídeos por jogo (média)`;
-                }
-
-                if (Object.hasOwn(data, "extras")) {
-                    for (var i = 0; i<data.extras.length; i++){
-                        let video_horas = data.extras[i].duracao.horas;
-                        let video_minutos = data.extras[i].duracao.minutos;
-                        let video_segundos = data.extras[i].duracao.segundos;
-                        jogos_episodios_counter++;
-                        jogos_horas_counter += video_horas;
-                        jogos_minutos_counter += video_minutos;
-                        jogos_segundos_counter += video_segundos;
-                        total_horas_counter += video_horas;
-                        total_minutos_counter += video_minutos;
-                        total_segundos_counter += video_segundos;
-                        //console.log("ep extra "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
-
-                        document.querySelector(".counter-ep").innerHTML = `${jogos_episodios_counter} vídeos de jogos`;
-                        document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
-                        document.querySelector(".counter-mediaep").innerHTML = `${Math.round(jogos_episodios_counter/jogos_counter)} vídeos por jogo (média)`;
-                    }
-                }
-            })
-
-                }
-
-                if (Object.hasOwn(data, "vodsarquivo")) {
-                    
-
-            fetch(`video/${jogo_console_sigla}/${jogo_nome_curto}/vods/videos.json`)
-            .then(response => response.json())
-            .then(data => {
-                jogos_comvod_counter++;
-                for (var i = 0; i<data.videos.length; i++){
-                    let video_horas = data.videos[i].duracao.horas;
-                    let video_minutos = data.videos[i].duracao.minutos;
-                    let video_segundos = data.videos[i].duracao.segundos;
-                    jogos_vods_counter++;
-                    jogos_horas_counter += video_horas;
-                    jogos_minutos_counter += video_minutos;
-                    jogos_segundos_counter += video_segundos;
-                    total_horas_counter += video_horas;
-                    total_minutos_counter += video_minutos;
-                    total_segundos_counter += video_segundos;
-                    //console.log("vod "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
-                    
-                    document.querySelector(".counter-vods").innerHTML = `${jogos_vods_counter} VODs de jogos`;
-                    document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
-                    document.querySelector(".counter-mediavod").innerHTML = `${Math.round(jogos_vods_counter/jogos_comvod_counter)} VODs por jogo (média)`;
-                }
-
-                if (Object.hasOwn(data, "extras")) {
-                    for (var i = 0; i<data.extras.length; i++){
-                        let video_horas = data.extras[i].duracao.horas;
-                        let video_minutos = data.extras[i].duracao.minutos;
-                        let video_segundos = data.extras[i].duracao.segundos;
-                        jogos_vods_counter++;
-                        jogos_horas_counter += video_horas;
-                        jogos_minutos_counter += video_minutos;
-                        jogos_segundos_counter += video_segundos;
-                        total_horas_counter += video_horas;
-                        total_minutos_counter += video_minutos;
-                        total_segundos_counter += video_segundos;
-                        //console.log("vod extra "+jogos_horas_counter+jogos_minutos_counter+":"+jogos_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
-                        
-                        document.querySelector(".counter-vods").innerHTML = `${jogos_vods_counter} VODs de jogos`;
-                        document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
-                        document.querySelector(".counter-mediavod").innerHTML = `${Math.round(jogos_vods_counter/jogos_comvod_counter)} VODs por jogo (média)`;
-                    }
-                }
-            })
-
-                }
-
-            })
-          }
-          document.querySelector(".counter-standalone").innerHTML = `${data.standalone.length} vídeos independentes`;
-          for (var i = 0; i<data.standalone.length; i++){
-            let standalone_video_horas = data.standalone[i].duracao.horas;
-            let standalone_video_minutos = data.standalone[i].duracao.minutos;
-            let standalone_video_segundos = data.standalone[i].duracao.segundos;
-            standalone_counter++;
-            standalone_horas_counter += standalone_video_horas;
-            standalone_minutos_counter += standalone_video_minutos;
-            standalone_segundos_counter += standalone_video_segundos;
-            total_horas_counter += standalone_video_horas;
-            total_minutos_counter += standalone_video_minutos;
-            total_segundos_counter += standalone_video_segundos;
-            //console.log("standalone "+standalone_horas_counter+standalone_minutos_counter+":"+standalone_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
-
-            //document.querySelector(".counter-standalone").innerHTML = `${standalone_counter} vídeos independentes`;
-            document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
-          }
-
-          for (var i = 0; i<data.outros.length; i++){
-            let outros_nome_curto = data.outros[i].curto;
-
-            fetch(`video/outros/${outros_nome_curto}/videos.json`)
-            .then(response => response.json())
-            .then(data => {
-
-            for (var i = 0; i<data.videos.length; i++){
-                let outros_video_horas = data.videos[i].duracao.horas;
-                let outros_video_minutos = data.videos[i].duracao.minutos;
-                let outros_video_segundos = data.videos[i].duracao.segundos;
-                outros_counter++;
-                outros_horas_counter += outros_video_horas;
-                outros_minutos_counter += outros_video_minutos;
-                outros_segundos_counter += outros_video_segundos;
-                total_horas_counter += outros_video_horas;
-                total_minutos_counter += outros_video_minutos;
-                total_segundos_counter += outros_video_segundos;
-                //console.log("outros "+outros_horas_counter+outros_minutos_counter+":"+outros_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
-
-                document.querySelector(".counter-outros").innerHTML = `${outros_counter} vídeos marcados como "outros"`;
-                document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
-
-            }
-
-            if (Object.hasOwn(data, "extras")) {
-                for (var i = 0; i<data.extras.length; i++){
-                    let outros_video_horas = data.extras[i].duracao.horas;
-                    let outros_video_minutos = data.extras[i].duracao.minutos;
-                    let outros_video_segundos = data.extras[i].duracao.segundos;
-                    outros_counter++;
-                    outros_horas_counter += outros_video_horas;
-                    outros_minutos_counter += outros_video_minutos;
-                    outros_segundos_counter += outros_video_segundos;
-                    total_horas_counter += outros_video_horas;
-                    total_minutos_counter += outros_video_minutos;
-                    total_segundos_counter += outros_video_segundos;
-                    //console.log("outros extra "+outros_horas_counter+outros_minutos_counter+":"+outros_segundos_counter+"/"+total_horas_counter+total_minutos_counter+":"+total_segundos_counter);
-
-                    document.querySelector(".counter-outros").innerHTML = `${outros_counter} vídeos marcados como "outros"`;
-                    document.querySelector(".counter-total").innerHTML = `${jogos_episodios_counter+jogos_vods_counter+standalone_counter+outros_counter} vídeos arquivados`;
-
-                }
-            }
-
-            })
-          }
-      })
-      setInterval(function () {
-        //converter tempos, segundos > minutos, minutos > horas
-
-        //converter standalone
-        standalone_tempo = gerar_timestamp(standalone_horas_counter, standalone_minutos_counter, standalone_segundos_counter, true);
-
-        //converter jogos (episódios e vods)
-        jogos_tempo = gerar_timestamp(jogos_horas_counter, jogos_minutos_counter, jogos_segundos_counter, true);
-
-        //converter outros
-        outros_tempo = gerar_timestamp(outros_horas_counter, outros_minutos_counter, outros_segundos_counter, true);
-
-        //converter TUDO
-        total_horas_counter = standalone_horas_counter + jogos_horas_counter + outros_horas_counter;
-        total_minutos_counter = standalone_minutos_counter + jogos_minutos_counter + outros_minutos_counter;
-        total_segundos_counter = standalone_segundos_counter + jogos_segundos_counter + outros_segundos_counter;
-        total_tempo = gerar_timestamp(total_horas_counter, total_minutos_counter, total_segundos_counter, true);
-
-        document.querySelector(".counter-tempototalstandalone").innerHTML = `${standalone_tempo} de vídeos independentes`;
-        document.querySelector(".counter-tempototaloutros").innerHTML = `${outros_tempo} de vídeos marcados como "outros"`;
-        document.querySelector(".counter-tempototaljogo").innerHTML = `${jogos_tempo} de vídeos de jogos`;
-        document.querySelector(".counter-tempototal").innerHTML = `${total_tempo} de vídeos arquivados`;
-    }, 500);
-
-    fetch("off.json")
-        .then(response => response.json())
-        .then(data => {
-            document.querySelector(".counter-lostmedia").innerHTML = `${data.lostmedia.length} vídeos perdidos`;
-            
-            for (var i = 0; i<data.lostmedia.length; i++){
-                let nome_processado = pesquisa_processar_string(data.lostmedia[i].tags);
-                if (nome_processado.toLowerCase().includes("fortnite")) {
-                    lost_fortnite_counter++;
-                    document.querySelector(".counter-lostfortnite").innerHTML = `e ${lost_fortnite_counter} desses são de Fortnite (informação relevante)`;
-                }
-            }
-            
-        })
+        const fortnite = lostmedia.lostmedia.filter(item => pesquisa_processar_string(texto_de_busca(item)).includes("fortnite")).length;
+        if (fortnite > 0) escrever("counter-lostfortnite", `e ${fortnite} desses são de Fortnite (informação relevante)`);
+    }
 }

@@ -1,0 +1,17 @@
+name: Validar dados
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar JSONs, capas, thumbnails e links
+        run: python3 tools/validar.py
+
+      - name: Checar sintaxe dos scripts
+        run: for f in js/*.js; do node --check "$f"; done

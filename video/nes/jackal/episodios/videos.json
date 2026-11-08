@@ -3,7 +3,6 @@
     {
       "nome": "Jackal (NES)",
       "imagem": "webp",
-      "quantidade": "3",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuVqGCD7DmzxFYnWdgTgu9S",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Jackal de NES - Parte 1",
+      "desc": "Gameplay comentado de Jackal de Nintendo Enterteinment System NES.",
       "imagem": "webp",
       "data": "28/06/2022",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Jackal de NES - Parte 2",
+      "desc": "Gameplay comentado de Jackal de Nintendo Enterteinment System NES.",
       "imagem": "webp",
       "data": "29/06/2022",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Jackal de NES - Parte 3 Final",
+      "desc": "Gameplay comentado de Jackal de Nintendo Enterteinment System NES.",
       "imagem": "webp",
       "data": "30/06/2022",
       "plataforma": "youtube",

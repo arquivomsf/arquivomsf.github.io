@@ -3,7 +3,6 @@
     {
       "nome": "Castlevania: Symphony of the Night (PS1)",
       "imagem": "webp",
-      "quantidade": "7",
       "plataforma": "archive",
       "links": {
         "youtube": "",
@@ -68,6 +67,7 @@
   "videos": [
     {
       "nome": "Castlevania SOTN de PS1 | Cavernas Invertidas",
+      "desc": "Gameplay de Castlevania Symphony of the Night de PlayStation 1.",
       "imagem": "webp",
       "data": "23/11/2025",
       "plataforma": "archive",
@@ -84,6 +84,7 @@
     },
     {
       "nome": "Castlevania SOTN de PS1 | As Bruxinhas",
+      "desc": "Gameplay de Castlevania Symphony of the Night de PlayStation 1.",
       "imagem": "webp",
       "data": "25/11/2025",
       "plataforma": "archive",
@@ -100,6 +101,7 @@
     },
     {
       "nome": "Castlevania SOTN de PS1 | Boss Mais Difícil",
+      "desc": "Gameplay de Castlevania Symphony of the Night de PlayStation 1.",
       "imagem": "webp",
       "data": "06/12/2025",
       "plataforma": "archive",
@@ -116,6 +118,7 @@
     },
     {
       "nome": "Castlevania SOTN de PS1 | Clone do Alucard",
+      "desc": "Gameplay de Castlevania Symphony of the Night de PlayStation 1.",
       "imagem": "webp",
       "data": "07/12/2025",
       "plataforma": "archive",
@@ -132,6 +135,7 @@
     },
     {
       "nome": "Castlevania SOTN de PS1 - Terminando de Explorar",
+      "desc": "Gameplay de Castlevania Symphony of the Night de PlayStation 1.",
       "imagem": "webp",
       "data": "08/12/2025",
       "plataforma": "archive",
@@ -148,6 +152,7 @@
     },
     {
       "nome": "Castlevania SOTN de PS1 - Cadê o Drácula",
+      "desc": "Gameplay de Castlevania Symphony of the Night de PlayStation 1.",
       "imagem": "webp",
       "data": "09/12/2025",
       "plataforma": "archive",
@@ -164,6 +169,7 @@
     },
     {
       "nome": "Castlevania SOTN de PS1 - Final do Jogo",
+      "desc": "Gameplay de Castlevania Symphony of the Night de PlayStation 1.",
       "imagem": "webp",
       "data": "10/12/2025",
       "plataforma": "archive",

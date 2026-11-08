@@ -32,10 +32,8 @@ function carregar_itens() {
         let jogo_nome = franquia_atual_organizada[i].nome;
         let jogo_console_sigla = franquia_atual_organizada[i].console;
         let jogo_nome_curto = franquia_atual_organizada[i].curto;
-        let jogo_tags = franquia_atual_organizada[i].tags;
-        let nome_processado = pesquisa_processar_string(jogo_tags);
 
-        if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
+        if (item_corresponde_a_pesquisa(franquia_atual_organizada[i])) {
             create_item("","jogo","jogos_content_list",i,jogo_console_sigla,jogo_nome,jogo_nome_curto);
         }
     }

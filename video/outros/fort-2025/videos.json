@@ -3,7 +3,6 @@
     {
       "nome": "Fortnite 2025 (Clipes)",
       "imagem": "webp",
-      "quantidade": "26",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvt9as6fXp4PKGRlm8dLtKYY",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Gameplay 1 - Fortnite Outubro 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "27/10/2025",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Gameplay 2 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Gameplay 3 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Gameplay 4 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Gameplay 5 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Gameplay 6 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "Gameplay 7 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "Gameplay 8 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "Gameplay 9 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "Gameplay 10 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "24/10/2025",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "Gameplay 11 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "Gameplay 12 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "Gameplay 13 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -223,6 +235,7 @@
     },
     {
       "nome": "Gameplay 14 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -239,6 +252,7 @@
     },
     {
       "nome": "Gameplay 15 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -255,6 +269,7 @@
     },
     {
       "nome": "Gameplay 16 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -271,6 +286,7 @@
     },
     {
       "nome": "Gameplay 17 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -287,6 +303,7 @@
     },
     {
       "nome": "Gameplay 18 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -303,6 +320,7 @@
     },
     {
       "nome": "Gameplay 19 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -319,6 +337,7 @@
     },
     {
       "nome": "Gameplay 20 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -335,6 +354,7 @@
     },
     {
       "nome": "Gameplay 21 - Fortnite 2025",
+      "desc": "Gameplay de Fortnite.",
       "imagem": "webp",
       "data": "28/10/2025",
       "plataforma": "youtube",
@@ -415,6 +435,7 @@
     },
     {
       "nome": "Andando de Carrinho da Marge no Fortnite 2025",
+      "desc": "Gameplay de Fortnite no Xbox.",
       "imagem": "webp",
       "data": "31/12/2025",
       "plataforma": "youtube",

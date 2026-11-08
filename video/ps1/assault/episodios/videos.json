@@ -3,7 +3,6 @@
     {
       "nome": "Assault Retribution (PS1)",
       "imagem": "webp",
-      "quantidade": "4",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvv9q-uOfGsxbMHiqHI2fUHN",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Assault Retribution de PlayStation 1 - Parte 1",
+      "desc": "Gameplay comentado de Assault Retribution.",
       "imagem": "webp",
       "data": "16/12/2021",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Assault Retribution de PlayStation 1 - Parte 2",
+      "desc": "Gameplay comentado de Assault Retribution.",
       "imagem": "webp",
       "data": "16/12/2021",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Assault Retribution de PlayStation 1 - Parte 3",
+      "desc": "Gameplay comentado de Assault Retribution.",
       "imagem": "webp",
       "data": "20/12/2021",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Assault Retribution de PlayStation 1 - Parte 4",
+      "desc": "Gameplay comentado de Assault Retribution.",
       "imagem": "webp",
       "data": "20/12/2021",
       "plataforma": "youtube",

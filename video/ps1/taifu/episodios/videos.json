@@ -3,7 +3,6 @@
     {
       "nome": "Tai Fu Wrath of the Tiger (PS1)",
       "imagem": "webp",
-      "quantidade": "9",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvtAhrZAPK09TkYVPgp1l9zn",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Tai Fu Wrath of the Tiger de PlayStation 1 - Parte 1",
+      "desc": "Gameplay comentado de T'ai Fu Wrath of the Tiger de PS1.",
       "imagem": "webp",
       "data": "04/03/2022",
       "plataforma": "youtube",

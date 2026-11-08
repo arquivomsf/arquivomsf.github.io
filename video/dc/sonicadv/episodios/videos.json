@@ -3,7 +3,6 @@
     {
       "nome": "Sonic Adventure (DC)",
       "imagem": "webp",
-      "quantidade": "26",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsQLkEmfL7gTHcckPMB5M5R",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 1",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "20/08/2024",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 2",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "21/08/2024",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 3",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "21/08/2024",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 4",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "22/08/2024",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 5",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "22/08/2024",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 6",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "24/08/2024",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 7",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "24/08/2024",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 8",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "25/08/2024",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 9",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "25/08/2024",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 10",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "26/08/2024",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 11",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "26/08/2024",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 12",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "27/08/2024",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 13",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "27/08/2024",
       "plataforma": "youtube",
@@ -223,6 +235,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 14",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "28/08/2024",
       "plataforma": "youtube",
@@ -239,6 +252,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 15",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "28/08/2024",
       "plataforma": "youtube",
@@ -255,6 +269,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 16",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "29/08/2024",
       "plataforma": "youtube",
@@ -271,6 +286,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 17",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "29/08/2024",
       "plataforma": "youtube",
@@ -287,6 +303,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 18",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "30/08/2024",
       "plataforma": "youtube",
@@ -303,6 +320,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 19",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "31/08/2024",
       "plataforma": "youtube",
@@ -319,6 +337,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 20",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "31/08/2024",
       "plataforma": "youtube",
@@ -335,6 +354,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 21",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "01/09/2024",
       "plataforma": "youtube",
@@ -351,6 +371,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 22",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "01/09/2024",
       "plataforma": "youtube",
@@ -367,6 +388,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 23",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "02/09/2024",
       "plataforma": "youtube",
@@ -383,6 +405,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 24",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "02/09/2024",
       "plataforma": "youtube",
@@ -399,6 +422,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 25",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "03/09/2024",
       "plataforma": "youtube",
@@ -415,6 +439,7 @@
     },
     {
       "nome": "Sonic Adventure de Dreamcast - Parte 26 Final",
+      "desc": "Gameplay comentado de Sonic Adventure de Dreamcast.",
       "imagem": "webp",
       "data": "03/09/2024",
       "plataforma": "youtube",

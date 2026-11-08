@@ -1,7 +1,7 @@
 {
   "sonic": {
     "nome": "Sonic the Hedgehog",
-    "tags": "Sonic the Hedgehog shadow sega",
+    "tags": "shadow sega",
     "jogos": [
       "sonic1",
       "soniccd",
@@ -19,7 +19,7 @@
   },
   "mario": {
     "nome": "Super Mario",
-    "tags": "Super Mario bros nintendo",
+    "tags": "bros nintendo",
     "jogos": [
       "mario1",
       "mario64"
@@ -31,7 +31,7 @@
   },
   "castlevania": {
     "nome": "Castlevania",
-    "tags": "Castlevania akumajo akumajou dracula dorakyura konami",
+    "tags": "akumajo akumajou dracula dorakyura konami",
     "jogos": [
       "castlelod",
       "symphony",
@@ -45,7 +45,7 @@
   },
   "gow": {
     "nome": "God of War",
-    "tags": "God of War gow sony",
+    "tags": "gow sony",
     "jogos": [
       "gow1",
       "gow2"
@@ -57,7 +57,7 @@
   },
   "cod": {
     "nome": "Call of Duty",
-    "tags": "Call of Duty cod",
+    "tags": "cod",
     "jogos": [
       "finest",
       "bigred",
@@ -71,7 +71,6 @@
   },
   "pandemonium": {
     "nome": "Pandemonium",
-    "tags": "Pandemonium",
     "jogos": [
       "pandemonium",
       "pandemonium2"
@@ -83,7 +82,7 @@
   },
   "nfs": {
     "nome": "Need for Speed",
-    "tags": "Need for Speed nfs",
+    "tags": "nfs",
     "jogos": [
       "thenfs",
       "nfs2",
@@ -99,7 +98,7 @@
   },
   "gta": {
     "nome": "Grand Theft Auto",
-    "tags": "Grand Theft Auto gta rockstar",
+    "tags": "gta rockstar",
     "jogos": [
       "gta3",
       "gtavc"
@@ -111,7 +110,6 @@
   },
   "harry": {
     "nome": "Harry Potter",
-    "tags": "Harry Potter",
     "jogos": [
       "harry-ps1",
       "harry-ps2",
@@ -128,7 +126,6 @@
   },
   "disney": {
     "nome": "Disney",
-    "tags": "Disney",
     "jogos": [
       "donald",
       "quackshot",
@@ -146,7 +143,6 @@
   },
   "dc": {
     "nome": "DC Comics",
-    "tags": "DC Comics",
     "jogos": [
       "justiceleagueheroes",
       "batmanchaos"
@@ -158,7 +154,6 @@
   },
   "crash": {
     "nome": "Crash Bandicoot",
-    "tags": "Crash Bandicoot",
     "jogos": [
       "crash1",
       "ctr"

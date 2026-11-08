@@ -2,8 +2,7 @@
     "episodios": [
         {
             "nome": "Episódios da CosTV",
-            "imagem": "1.webp",
-            "quantidade": "16"
+            "imagem": "1.webp"
         }
     ],
     "vodsarquivo": [

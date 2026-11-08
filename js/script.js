@@ -25,10 +25,8 @@ function carregar_itens() {
         let jogo_nome = dados_geral.jogos[i].nome;
         let jogo_console_sigla = dados_geral.jogos[i].console;
         let jogo_nome_curto = dados_geral.jogos[i].curto;
-        let jogo_tags = dados_geral.jogos[i].tags;
-        let nome_processado = pesquisa_processar_string(jogo_tags);
 
-        if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
+        if (item_corresponde_a_pesquisa(dados_geral.jogos[i])) {
             create_item("","jogo","jogos_content_list",i,jogo_console_sigla,jogo_nome,jogo_nome_curto);
         }
     }
@@ -38,10 +36,8 @@ function carregar_itens() {
         let standalone_imagem = dados_geral.standalone[i].imagem;
         let standalone_console_sigla = "etc";
         let standalone_nome_curto = dados_geral.standalone[i].curto;
-        let standalone_tags = dados_geral.standalone[i].tags;
-        let nome_processado = pesquisa_processar_string(standalone_tags);
 
-        if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
+        if (item_corresponde_a_pesquisa(dados_geral.standalone[i])) {
             let standalone_duracao = gerar_timestamp(dados_geral.standalone[i].duracao.horas,dados_geral.standalone[i].duracao.minutos,dados_geral.standalone[i].duracao.segundos);
             let standalone_plataforma = dados_geral.standalone[i].plataforma;
             create_item("","standalone","standalone_content_list",i,standalone_console_sigla,standalone_nome,standalone_nome_curto,standalone_imagem,standalone_plataforma,standalone_duracao);
@@ -54,10 +50,8 @@ function carregar_itens() {
         let outros_console_sigla = "outros";
         let outros_nome_curto = dados_geral.outros[i].curto;
         let outros_categoria = dados_geral.outros[i].categoria;
-        let outros_tags = dados_geral.outros[i].tags;
-        let nome_processado = pesquisa_processar_string(outros_tags);
 
-        if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
+        if (item_corresponde_a_pesquisa(dados_geral.outros[i])) {
             create_item("","outro","outros_content_list",i,outros_console_sigla,outros_nome,outros_nome_curto,outros_imagem,"","","","",outros_categoria);
         }
     }
@@ -65,12 +59,9 @@ function carregar_itens() {
     for (var i = 0; i<Object.keys(dados_franquia).length; i++) {
         let franquia_id = Object.keys(dados_franquia)[i];
         let franquia_nome = dados_franquia[franquia_id].nome;
-        let franquia_tags = dados_franquia[franquia_id].tags;
-        let nome_processado = pesquisa_processar_string(franquia_tags);
-
         let franquia_capa = dados_franquia[franquia_id].capas;
 
-        if(pesquisa_array.every(v=> nome_processado.search(v) >= 0) || pesquisa_array == "") {
+        if (item_corresponde_a_pesquisa(dados_franquia[franquia_id])) {
             document.querySelector(".franquias_content_list").innerHTML += get_franquia_capas(franquia_id,franquia_nome,franquia_capa);
         }
     }

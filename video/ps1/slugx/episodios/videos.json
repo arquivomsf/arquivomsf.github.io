@@ -3,7 +3,6 @@
     {
       "nome": "Metal Slug X (PS1)",
       "imagem": "webp",
-      "quantidade": "2",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvvnCnS8XNajYcfKW_5cg_8H",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Metal Slug X de PlayStation 1 - Parte 1",
+      "desc": "Gameplay comentado de Metal Slug X de PlayStation 1.",
       "imagem": "webp",
       "data": "13/04/2022",
       "plataforma": "youtube",

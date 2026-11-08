@@ -3,7 +3,6 @@
     {
       "nome": "Próximas Atualizações do Subway Surfers",
       "imagem": "webp",
-      "quantidade": "80",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvb094f-E_DwEPbm3iAtr02",
@@ -669,6 +668,7 @@
     },
     {
       "nome": "Subway Surfers Tóquio 2021 | Vazou a Próxima Atualização | Recorde com EZ Jive",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "06/08/2021",
       "plataforma": "youtube",
@@ -701,6 +701,7 @@
     },
     {
       "nome": "Subway Surfers Mumbai 2021 | Vazou a Próxima Atualização | Recorde com Mina Robo",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "27/08/2021",
       "plataforma": "youtube",
@@ -749,6 +750,7 @@
     },
     {
       "nome": "Próxima Atualização de Halloween e 10 Chaves no Subway Surfers Marrakesh 2021",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "05/10/2021",
       "plataforma": "youtube",
@@ -765,6 +767,7 @@
     },
     {
       "nome": "Atualização de Halloween do Subway Surfers depois de Marrakesh 2021",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "08/10/2021",
       "plataforma": "youtube",
@@ -781,6 +784,7 @@
     },
     {
       "nome": "Subway Surfers Mexico Halloween 2021 | Próxima Atualização | Recorde com Jamie",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "25/10/2021",
       "plataforma": "youtube",
@@ -797,6 +801,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Mexico Halloween 2021",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "29/10/2021",
       "plataforma": "youtube",
@@ -813,6 +818,7 @@
     },
     {
       "nome": "Subway Surfers Vancouver 2021 | Cyberpunk de Próxima Geração Adiado | Recorde com Boombot",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "03/11/2021",
       "plataforma": "youtube",
@@ -829,6 +835,7 @@
     },
     {
       "nome": "Subway Surfers Vancouver 2021 | Próxima Atualização | Recorde com Hugo Pirate",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "15/11/2021",
       "plataforma": "youtube",
@@ -845,6 +852,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Vancouver 2021",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "19/11/2021",
       "plataforma": "youtube",
@@ -861,6 +869,7 @@
     },
     {
       "nome": "Subway Surfers Venice Beach 2021 | Próxima Atualização | Recorde com Bob the Blob",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "06/12/2021",
       "plataforma": "youtube",
@@ -893,6 +902,7 @@
     },
     {
       "nome": "Subway Surfers Polo Norte 2021 | Próxima Atualização | Recorde com Hou",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "03/01/2022",
       "plataforma": "youtube",
@@ -909,6 +919,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Polo Norte 2021",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "07/01/2022",
       "plataforma": "youtube",
@@ -925,6 +936,7 @@
     },
     {
       "nome": "Subway Surfers Cairo 2022 | Próxima Atualização | Recorde com Pride Jake",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "24/01/2022",
       "plataforma": "youtube",
@@ -941,6 +953,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Cairo 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "28/01/2022",
       "plataforma": "youtube",
@@ -957,6 +970,7 @@
     },
     {
       "nome": "Subway Surfers Ano Novo Lunar 2022 | Próxima Atualização | Recorde com Miss Maia",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "14/02/2022",
       "plataforma": "youtube",
@@ -973,6 +987,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Ano Novo Lunar 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "18/02/2022",
       "plataforma": "youtube",
@@ -989,6 +1004,7 @@
     },
     {
       "nome": "Subway Surfers Barcelona 2022 | Próxima Atualização | Recorde com King Royal",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "07/03/2022",
       "plataforma": "youtube",
@@ -1005,6 +1021,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Barcelona 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "11/03/2022",
       "plataforma": "youtube",
@@ -1021,6 +1038,7 @@
     },
     {
       "nome": "Atualização de 10 Anos do Subway Surfers depois de Monaco 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "13/05/2022",
       "plataforma": "youtube",
@@ -1037,6 +1055,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Copenhagen 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "03/06/2022",
       "plataforma": "youtube",
@@ -1053,6 +1072,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de San Francisco 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "24/06/2022",
       "plataforma": "youtube",
@@ -1069,6 +1089,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Iceland 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "14/07/2022",
       "plataforma": "youtube",
@@ -1085,6 +1106,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois da Cidade do Metrô",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "04/08/2022",
       "plataforma": "youtube",
@@ -1101,6 +1123,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois da Grécia 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "25/08/2022",
       "plataforma": "youtube",
@@ -1117,6 +1140,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois Shenzhen 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "15/09/2022",
       "plataforma": "youtube",
@@ -1133,6 +1157,7 @@
     },
     {
       "nome": "Atualização de Halloween do Subway Surfers depois de Mumbai 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "07/10/2022",
       "plataforma": "youtube",
@@ -1165,6 +1190,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Mexico Halloween 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "28/10/2022",
       "plataforma": "youtube",
@@ -1181,6 +1207,7 @@
     },
     {
       "nome": "VAZOU O LOCAL DA ATUALIZAÇÃO do Subway Surfers depois de Luoyang",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "14/11/2022",
       "plataforma": "youtube",
@@ -1197,6 +1224,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Luoyang",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "17/11/2022",
       "plataforma": "youtube",
@@ -1213,6 +1241,7 @@
     },
     {
       "nome": "Atualização de Natal do Subway Surfers depois do Cairo 2022",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "05/12/2022",
       "plataforma": "youtube",
@@ -1229,6 +1258,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de New York 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "22/06/2023",
       "plataforma": "youtube",
@@ -1245,6 +1275,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Fantasy Fest 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "13/07/2023",
       "plataforma": "youtube",
@@ -1261,6 +1292,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Buenos Aires 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "03/08/2023",
       "plataforma": "youtube",
@@ -1293,6 +1325,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Rio 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "24/08/2023",
       "plataforma": "youtube",
@@ -1325,6 +1358,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Tokyo 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "14/09/2023",
       "plataforma": "youtube",
@@ -1357,6 +1391,7 @@
     },
     {
       "nome": "Atualização de Halloween do Subway Surfers em 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "05/10/2023",
       "plataforma": "youtube",
@@ -1373,6 +1408,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização do Subway Surfers após Halloween 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "12/10/2023",
       "plataforma": "youtube",
@@ -1405,6 +1441,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização do Subway Surfers após o Seoul 2023",
+      "desc": "Vídeo sobre o game Subway Surfers.",
       "imagem": "webp",
       "data": "06/11/2023",
       "plataforma": "youtube",
@@ -1421,6 +1458,7 @@
     },
     {
       "nome": "Vazaram os Personagens do Subway Surfers depois de Seoul 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "15/11/2023",
       "plataforma": "youtube",
@@ -1453,6 +1491,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização de Natal do Subway Surfers 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "23/11/2023",
       "plataforma": "youtube",
@@ -1469,6 +1508,7 @@
     },
     {
       "nome": "Atualização de Natal do Subway Surfers em 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "08/12/2023",
       "plataforma": "youtube",
@@ -1485,6 +1525,7 @@
     },
     {
       "nome": "1º Vazamento da Atualização do Subway Surfers depois do Natal 2023",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "20/12/2023",
       "plataforma": "youtube",
@@ -1501,6 +1542,7 @@
     },
     {
       "nome": "Primeira imagem do Subway Surfers depois de Shenzhen 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "09/01/2024",
       "plataforma": "youtube",
@@ -1517,6 +1559,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Shenzhen 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "26/01/2024",
       "plataforma": "youtube",
@@ -1533,6 +1576,7 @@
     },
     {
       "nome": "1º Vazamento do Subway Surfers depois de Grécia 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "01/02/2024",
       "plataforma": "youtube",
@@ -1549,6 +1593,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Grécia 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "15/02/2024",
       "plataforma": "youtube",
@@ -1565,6 +1610,7 @@
     },
     {
       "nome": "1º Vazamento do Subway Surfers depois de Rainhas de Vegas 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "21/02/2024",
       "plataforma": "youtube",
@@ -1581,6 +1627,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Vegas 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "08/03/2024",
       "plataforma": "youtube",
@@ -1597,6 +1644,7 @@
     },
     {
       "nome": "Vazou o Subway Surfers depois da Irlanda 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "13/03/2024",
       "plataforma": "youtube",
@@ -1613,6 +1661,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois da Irlanda 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "30/03/2024",
       "plataforma": "youtube",
@@ -1629,6 +1678,7 @@
     },
     {
       "nome": "Depois de Marrakesh do Subway Surfers vamos para onde?",
+      "desc": "Comentando sobre atualização futura do Subway Surfers.",
       "imagem": "webp",
       "data": "05/04/2024",
       "plataforma": "youtube",
@@ -1645,6 +1695,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Marrakesh 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "19/04/2024",
       "plataforma": "youtube",
@@ -1661,6 +1712,7 @@
     },
     {
       "nome": "Já vazou o Subway Surfers depois de Underwater 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "27/04/2024",
       "plataforma": "youtube",
@@ -1677,6 +1729,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Underwater 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "15/05/2024",
       "plataforma": "youtube",
@@ -1693,6 +1746,7 @@
     },
     {
       "nome": "Já vazou o Subway Surfers depois do Classic 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "19/05/2024",
       "plataforma": "youtube",
@@ -1709,6 +1763,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois da Versão Clássica 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "05/06/2024",
       "plataforma": "youtube",
@@ -1725,6 +1780,7 @@
     },
     {
       "nome": "Já vazou o Subway Surfers depois de San Francisco 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "08/06/2024",
       "plataforma": "youtube",
@@ -1741,6 +1797,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de San Francisco 2024",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "24/06/2024",
       "plataforma": "youtube",
@@ -1757,6 +1814,7 @@
     },
     {
       "nome": "Já vazou o Subway Surfers depois de Hollywood",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "webp",
       "data": "29/06/2024",
       "plataforma": "youtube",

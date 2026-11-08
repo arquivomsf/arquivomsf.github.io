@@ -3,7 +3,6 @@
     {
       "nome": "The Lost World Jurassic Park (PS1)",
       "imagem": "webp",
-      "quantidade": "13",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvsiMz3cFR8oEoqr8TToHQQB",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 1",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "15/01/2022",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 2",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "15/01/2022",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 3",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "17/01/2022",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 4",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "17/01/2022",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 5",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "19/01/2022",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 6",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "19/01/2022",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 7",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "24/01/2022",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 8",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "24/01/2022",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 9",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "26/01/2022",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 10",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "26/01/2022",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 11",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "07/02/2022",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 12",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "07/02/2022",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "The Lost World Jurassic Park de PlayStation 1 - Parte 13 FINAL",
+      "desc": "Gameplay comentado de The Lost World Jurassic Park de PS1.",
       "imagem": "webp",
       "data": "09/02/2022",
       "plataforma": "youtube",

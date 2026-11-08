@@ -3,7 +3,6 @@
     {
       "nome": "Homem Aranha 2 (PS1)",
       "imagem": "webp",
-      "quantidade": "6",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvtHE6X6S5Ok-C4O3DxcEsd-",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Homem Aranha 2 de PlayStation 1 - Parte 1",
+      "desc": "Gameplay comentado de Spider Man Enter Electro de PS1.",
       "imagem": "webp",
       "data": "22/12/2021",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Homem Aranha 2 de PlayStation 1 - Parte 2",
+      "desc": "Gameplay comentado de Spider Man 2 Enter Electro de PS1.",
       "imagem": "webp",
       "data": "22/12/2021",
       "plataforma": "youtube",
@@ -63,6 +64,7 @@
     },
     {
       "nome": "Homem Aranha 2 de PlayStation 1 - Parte 4",
+      "desc": "Gameplay comentado de Spider Man 2 Enter Electro de PS1.",
       "imagem": "webp",
       "data": "03/01/2022",
       "plataforma": "youtube",
@@ -79,6 +81,7 @@
     },
     {
       "nome": "Homem Aranha 2 de PlayStation 1 - Parte 5",
+      "desc": "Gameplay comentado de Spider Man 2 Enter Electro de PS1.",
       "imagem": "webp",
       "data": "03/01/2022",
       "plataforma": "youtube",
@@ -95,6 +98,7 @@
     },
     {
       "nome": "Homem Aranha 2 de PlayStation 1 - Parte 6",
+      "desc": "Gameplay comentado de Spider Man 2 Enter Electro de PS1.",
       "imagem": "webp",
       "data": "05/01/2022",
       "plataforma": "youtube",

@@ -3,7 +3,6 @@
     {
       "nome": "Sonic The Hedgehog (MD)",
       "imagem": "webp",
-      "quantidade": "4",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvuyrihR_1UZ6kec-paeWPdo",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Sonic The Hedgehog de Mega Drive - Parte 1",
+      "desc": "Gameplay comentado de Sonic the Hedgehog de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "18/04/2022",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Sonic The Hedgehog de Mega Drive - Parte 2",
+      "desc": "Gameplay comentado de Sonic the Hedgehog de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "19/04/2022",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Sonic The Hedgehog de Mega Drive - Parte 3",
+      "desc": "Gameplay comentado de Sonic the Hedgehog de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "20/04/2022",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Sonic The Hedgehog de Mega Drive - Parte 4 Final",
+      "desc": "Gameplay comentado de Sonic the Hedgehog de Sega Mega Drive / Genesis.",
       "imagem": "webp",
       "data": "22/04/2022",
       "plataforma": "youtube",

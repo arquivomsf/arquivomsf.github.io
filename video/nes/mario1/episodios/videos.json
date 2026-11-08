@@ -3,7 +3,6 @@
     {
       "nome": "Super Mario Bros. (NES) ",
       "imagem": "webp",
-      "quantidade": "4",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsGgynFMKb-ymrEpswJ4Z9l",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Super Mario Bros de NES - Parte 1",
+      "desc": "Gameplay comentado de Super Mario Bros de NES.",
       "imagem": "webp",
       "data": "01/09/2025",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Super Mario Bros de NES - Parte 2",
+      "desc": "Gameplay comentado de Super Mario Bros de NES.",
       "imagem": "webp",
       "data": "02/09/2025",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Super Mario Bros de NES - Parte 3",
+      "desc": "Gameplay comentado de Super Mario Bros de NES.",
       "imagem": "webp",
       "data": "03/09/2025",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Super Mario Bros de NES - Parte 4 Final",
+      "desc": "Gameplay comentado de Super Mario Bros de NES.",
       "imagem": "webp",
       "data": "04/09/2025",
       "plataforma": "youtube",

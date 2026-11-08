@@ -3,7 +3,6 @@
     {
       "nome": "The Nightmare Before Christmas: Oogie's Revenge (PS2)",
       "imagem": "webp",
-      "quantidade": "22",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvKeKryr1gtXRvV0uogTi5z",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 1",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "22/12/2024",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 2",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "23/12/2024",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 3",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "24/12/2024",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 4",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "25/12/2024",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 5",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "26/12/2024",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 6",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "27/12/2024",
       "plataforma": "youtube",
@@ -111,6 +116,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 7",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "28/12/2024",
       "plataforma": "youtube",
@@ -127,6 +133,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 8",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "29/12/2024",
       "plataforma": "youtube",
@@ -143,6 +150,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 9",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "30/12/2024",
       "plataforma": "youtube",
@@ -159,6 +167,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 10",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "31/12/2024",
       "plataforma": "youtube",
@@ -175,6 +184,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 11",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "01/01/2025",
       "plataforma": "youtube",
@@ -191,6 +201,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 12",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "02/01/2025",
       "plataforma": "youtube",
@@ -207,6 +218,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 13",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "03/01/2025",
       "plataforma": "youtube",
@@ -223,6 +235,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 14",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "04/01/2025",
       "plataforma": "youtube",
@@ -239,6 +252,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 15",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "05/01/2025",
       "plataforma": "youtube",
@@ -255,6 +269,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 16",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "06/01/2025",
       "plataforma": "youtube",
@@ -271,6 +286,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 17",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "07/01/2025",
       "plataforma": "youtube",
@@ -287,6 +303,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 18",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "08/01/2025",
       "plataforma": "youtube",
@@ -303,6 +320,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 19",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "09/01/2025",
       "plataforma": "youtube",
@@ -319,6 +337,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 20",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "10/01/2025",
       "plataforma": "youtube",
@@ -335,6 +354,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 21",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "11/01/2025",
       "plataforma": "youtube",
@@ -351,6 +371,7 @@
     },
     {
       "nome": "The Nightmare Before Christmas de PlayStation 2 - Parte 22 Final",
+      "desc": "Gameplay comentado de The Nightmare Before Christmas de PlayStation 2.",
       "imagem": "webp",
       "data": "12/01/2025",
       "plataforma": "youtube",

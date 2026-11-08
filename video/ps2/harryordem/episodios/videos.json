@@ -3,7 +3,6 @@
     {
       "nome": "Harry Potter e a Ordem da Fênix (PS2)",
       "imagem": "webp",
-      "quantidade": "10",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLUHEYuIpoZJo",
@@ -101,6 +100,7 @@
     {
       "nome": "Jogando Harry Potter e a Ordem da Fênix de PS2 | Parte 6",
       "nome_original": "Harry Potter e a Ordem da Fênix de PS2 | 2026-07-08 12-37-17",
+      "desc": "Gameplay de Harry Potter e a Ordem da Fênix.",
       "imagem": "webp",
       "data": "22/07/2026",
       "plataforma": "youtube",
@@ -118,6 +118,7 @@
     {
       "nome": "Jogando Harry Potter e a Ordem da Fênix de PS2 | Parte 7",
       "nome_original": "Harry Potter e a Ordem da Fênix de PS2 | 2026-07-08 12-44-08",
+      "desc": "Gameplay de Harry Potter e a Ordem da Fênix.",
       "imagem": "webp",
       "data": "22/07/2026",
       "plataforma": "youtube",

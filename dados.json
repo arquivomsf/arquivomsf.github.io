@@ -2,481 +2,478 @@
   "jogos": [
     {
       "nome": "Crash Team Racing",
-      "tags": "Crash Team Racing ctr carlos sony ps1 playstation 1",
+      "tags": "carlos sony",
       "console": "ps1",
       "curto": "ctr"
     },
     {
       "nome": "Xena: Warrior Princess",
-      "tags": "Xena: Warrior Princess Xena a Princesa Guerreira sony ps1 playstation 1",
+      "tags": "Princesa Guerreira sony",
       "console": "ps1",
       "curto": "xena"
     },
     {
       "nome": "Pepsiman",
-      "tags": "Pepsiman sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "pepsiman"
     },
     {
       "nome": "Need for Speed: Underground Rivals",
-      "tags": "Need for Speed: Underground Rivals nfsur sony psp playstation portable",
+      "tags": "sony",
       "console": "psp",
       "curto": "nfsur"
     },
     {
       "nome": "Bomberman: Party Edition",
-      "tags": "Bomberman: Party Edition bombermanparty sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "bombermanparty"
     },
     {
       "nome": "Medal of Honor",
-      "tags": "Medal of Honor medalofhonor sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "medalofhonor"
     },
     {
       "nome": "Test Drive: Off-Road 2",
-      "tags": "Test Drive: Off-Road 2 offroad2 sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "offroad2"
     },
     {
       "nome": "Need for Speed: V-Rally",
-      "tags": "Need for Speed: V-Rally nfsvrally sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "nfsvrally"
     },
     {
       "nome": "Crash Bandicoot",
-      "tags": "Crash Bandicoot crash1 carlos sony ps1 playstation 1",
+      "tags": "carlos sony",
       "console": "ps1",
       "curto": "crash1"
     },
     {
       "nome": "SpongeBob SquarePants: SuperSponge",
-      "tags": "SpongeBob SquarePants: SuperSponge bob esponja bope esponcha sony ps1 playstation 1",
+      "tags": "esponja bope esponcha sony",
       "console": "ps1",
       "curto": "bob"
     },
     {
       "nome": "Assault: Retribution",
-      "tags": "Assault: Retribution sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "assault"
     },
     {
       "nome": "Spider-Man 2: Enter: Electro",
-      "tags": "Spider-Man 2: Enter: Electro Spider Man homem aranha miranha sony ps1 playstation 1",
+      "tags": "homem aranha sony",
       "console": "ps1",
       "curto": "miranha"
     },
     {
       "nome": "The Lost World: Jurassic Park",
-      "tags": "The Lost World: Jurassic Park dinossauro sony ps1 playstation 1",
+      "tags": "dinossauro sony",
       "console": "ps1",
       "curto": "jurassic"
     },
     {
       "nome": "Disruptor",
-      "tags": "Disruptor sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "disruptor"
     },
     {
       "nome": "T'ai Fu Wrath of the Tiger",
-      "tags": "T'ai Fu Wrath of the Tiger taifu sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "taifu"
     },
     {
       "nome": "Disney's Donald Duck: Goin' Quackers",
-      "tags": "Disney's Donald Duck: Goin' Quackers pato sony ps1 playstation 1",
+      "tags": "pato sony",
       "console": "ps1",
       "curto": "donald"
     },
     {
       "nome": "Moto Racer",
-      "tags": "Moto Racer sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "moto"
     },
     {
       "nome": "Nightmare Creatures",
-      "tags": "Nightmare Creatures sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "nightmare"
     },
     {
       "nome": "Metal Slug X",
-      "tags": "Metal Slug X slugx sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "slugx"
     },
     {
       "nome": "Sonic The Hedgehog",
-      "tags": "Sonic The Hedgehog 1 sonic1 sega mega drive genesis md",
+      "tags": "sega genesis",
       "console": "md",
       "curto": "sonic1"
     },
     {
       "nome": "QuackShot",
-      "tags": "QuackShot Starring Donald Duck Disney's pato sega mega drive genesis md",
+      "tags": "Starring Donald Duck Disney's pato sega genesis",
       "console": "md",
       "curto": "quackshot"
     },
     {
       "nome": "Zero Tolerance",
-      "tags": "Zero Tolerance zerotol sega mega drive genesis md",
+      "tags": "sega genesis",
       "console": "md",
       "curto": "zerotol"
     },
     {
       "nome": "Socket",
-      "tags": "Socket tipo soniclike sega mega drive genesis md",
+      "tags": "tipo soniclike sega genesis",
       "console": "md",
       "curto": "socket"
     },
     {
       "nome": "Light Crusader",
-      "tags": "Light Crusader action rpg de ação sega mega drive genesis md",
+      "tags": "action rpg ação sega genesis",
       "console": "md",
       "curto": "crusader"
     },
     {
       "nome": "Ice Climber",
-      "tags": "Ice Climber nes nintendo nintendinho",
+      "tags": "nintendinho",
       "console": "nes",
       "curto": "climber"
     },
     {
       "nome": "Adventure Island",
-      "tags": "Adventure Island advisland nes nintendo nintendinho",
+      "tags": "nintendinho",
       "console": "nes",
       "curto": "advisland"
     },
     {
       "nome": "Gun.Smoke",
-      "tags": "Gun.Smoke nes nintendo nintendinho",
+      "tags": "nintendinho",
       "console": "nes",
       "curto": "gunsmoke"
     },
     {
       "nome": "DuckTales",
-      "tags": "DuckTales disney's Scrooge McDuck Tio Patinhas McPato nes nintendo nintendinho",
+      "tags": "disney's Scrooge McDuck Tio Patinhas McPato nintendinho",
       "console": "nes",
       "curto": "ducktales"
     },
     {
       "nome": "Jackal",
-      "tags": "Jackal Final Commando: Akai Yousai nes nintendo nintendinho",
+      "tags": "Final Commando: Akai Yousai nintendinho",
       "console": "nes",
       "curto": "jackal"
     },
     {
       "nome": "Super Mario 64",
-      "tags": "Super Mario 64 mario64 n64 nintendo 64",
       "console": "n64",
       "curto": "mario64"
     },
     {
       "nome": "Castlevania: Legacy of Darkness",
-      "tags": "Castlevania: Legacy of Darkness castlelod n64 nintendo 64",
       "console": "n64",
       "curto": "castlelod"
     },
     {
       "nome": "Hercules: The Legendary Journeys",
-      "tags": "Hercules: The Legendary Journeys Hércules: A Lendária Jornada da serie n64 nintendo 64",
+      "tags": "Lendária Jornada serie",
       "console": "n64",
       "curto": "hercules"
     },
     {
       "nome": "Disney's Tarzan",
-      "tags": "Disney's Tarzan n64 nintendo 64",
       "console": "n64",
       "curto": "tarzan"
     },
     {
       "nome": "Cruis'n Exotica",
-      "tags": "Cruis'n Exotica Cruisin n64 nintendo 64",
+      "tags": "Cruisin",
       "console": "n64",
       "curto": "exotica"
     },
     {
       "nome": "God of War",
-      "tags": "God of War 1 deus da guerra bom de gow1 sony ps2 playstation 2",
+      "tags": "deus da guerra bom de sony",
       "console": "ps2",
       "curto": "gow1"
     },
     {
       "nome": "Red Dead Revolver",
-      "tags": "Red Dead Revolver red dead redemption sony ps2 playstation 2",
+      "tags": "redemption sony",
       "console": "ps2",
       "curto": "revolver"
     },
     {
       "nome": "Cars",
-      "tags": "Cars carros sony ps2 playstation 2",
+      "tags": "carros sony",
       "console": "ps2",
       "curto": "cars"
     },
     {
       "nome": "Call of Duty - Finest Hour",
-      "tags": "Call of Duty Finest Hour cod sony ps2 playstation 2",
+      "tags": "cod sony",
       "console": "ps2",
       "curto": "finest"
     },
     {
       "nome": "Call of Duty 2 - Big Red One",
-      "tags": "Call of Duty 2 Big Red One cod bigred sony ps2 playstation 2",
+      "tags": "cod sony",
       "console": "ps2",
       "curto": "bigred"
     },
     {
       "nome": "Sonic The Hedgehog 2",
-      "tags": "Sonic The Hedgehog 2 sonic2 sega mega drive genesis md",
+      "tags": "sega genesis",
       "console": "md",
       "curto": "sonic2"
     },
     {
       "nome": "Sonic The Hedgehog 3 & Knuckles",
-      "tags": "Sonic The Hedgehog 3 & Knuckles e Sonic 3K sonic3k sega mega drive genesis md",
+      "tags": "sega genesis",
       "console": "md",
       "curto": "sonic3k"
     },
     {
       "nome": "God of War II",
-      "tags": "God of War II 2 deus da guerra bom de gow2 sony ps2 playstation 2",
+      "tags": "deus da guerra bom de sony",
       "console": "ps2",
       "curto": "gow2"
     },
     {
       "nome": "Call of Duty World at War Final Fronts",
-      "tags": "Call of Duty World at War Final Fronts cod guerra sony ps2 playstation 2",
+      "tags": "cod guerra sony",
       "console": "ps2",
       "curto": "fronts"
     },
     {
       "nome": "Sonic Adventure",
-      "tags": "Sonic Adventure sonicadv sega dc sega dreamcast",
+      "tags": "sega sega",
       "console": "dc",
       "curto": "sonicadv"
     },
     {
       "nome": "Shadow of the Colossus",
-      "tags": "Shadow of the Colossus sony ps2 playstation 2",
+      "tags": "sony",
       "console": "ps2",
       "curto": "colossus"
     },
     {
       "nome": "Pandemonium",
-      "tags": "Pandemonium 1 pão demônio 1 sony ps1 playstation 1",
+      "tags": "pão demônio sony",
       "console": "ps1",
       "curto": "pandemonium"
     },
     {
       "nome": "Manhunt",
-      "tags": "Manhunt caça homem manhunt1 sony ps2 playstation 2",
+      "tags": "caça homem sony",
       "console": "ps2",
       "curto": "manhunt1"
     },
     {
       "nome": "Road & Track Presents: The Need for Speed",
-      "tags": "Road & Track Presents: The Need for Speed the nfs thenfs sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "thenfs"
     },
     {
       "nome": "Sonic Adventure 2",
-      "tags": "Sonic Adventure 2 sonicadv2 sega dc sega dreamcast",
+      "tags": "sega sega",
       "console": "dc",
       "curto": "sonicadv2"
     },
     {
       "nome": "The Nightmare Before Christmas: Oogie's Revenge",
-      "tags": "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge O Estranho Mundo de Jack nbxmas sony ps2 playstation 2",
+      "tags": "Tim Burton's Estranho Mundo de Jack sony",
       "console": "ps2",
       "curto": "nbxmas"
     },
     {
       "nome": "Grand Theft Auto III",
-      "tags": "Grand Theft Auto III 3 gta gta3 sony ps2 playstation 2",
+      "tags": "sony",
       "console": "ps2",
       "curto": "gta3"
     },
     {
       "nome": "Shadow the Hedgehog",
-      "tags": "Shadow the Hedgehog edgy damn armas tiros balas armado atirar atirando sonic sega sony ps2 playstation 2",
+      "tags": "edgy damn armas tiros balas armado atirar atirando sonic sega sony",
       "console": "ps2",
       "curto": "shadow"
     },
     {
       "nome": "The Sims",
-      "tags": "The Sims sony ps2 playstation 2",
+      "tags": "sony",
       "console": "ps2",
       "curto": "sims"
     },
     {
       "nome": "Killzone",
-      "tags": "Killzone sony ps2 playstation 2",
+      "tags": "sony",
       "console": "ps2",
       "curto": "killzone"
     },
     {
       "nome": "Banjo-Kazooie: Grunty's Revenge",
-      "tags": "Banjo-Kazooie: Grunty's Revenge banjo kazooie rare banjogrunty nintendo game boy gameboy advance gba",
+      "tags": "rare nintendo",
       "console": "gba",
       "curto": "banjogrunty"
     },
     {
       "nome": "Grand Theft Auto: Vice City",
-      "tags": "Grand Theft Auto: Vice City gta gtavc sony ps2 playstation 2",
+      "tags": "sony",
       "console": "ps2",
       "curto": "gtavc"
     },
     {
       "nome": "Black",
-      "tags": "Black sony ps2 playstation 2",
+      "tags": "sony",
       "console": "ps2",
       "curto": "black"
     },
     {
       "nome": "Scarface: The World Is Yours",
-      "tags": "Scarface: The World Is Yours sony ps2 playstation 2",
+      "tags": "sony",
       "console": "ps2",
       "curto": "scarface"
     },
     {
       "nome": "Super Mario Bros.",
-      "tags": "Super Mario Bros. 1 mario1 nes nintendo nintendinho",
+      "tags": "nintendinho",
       "console": "nes",
       "curto": "mario1"
     },
     {
       "nome": "Disney's Lilo & Stitch: Trouble in Paradise",
-      "tags": "Disney's Lilo & Stitch: Trouble in Paradise e Apuros no Paraíso sony ps1 playstation 1",
+      "tags": "Apuros no Paraíso sony",
       "console": "ps1",
       "curto": "lilo"
     },
     {
       "nome": "Harry Potter and the Philosopher's Stone",
-      "tags": "Harry Potter and the Philosopher's Stone Sorcerer's e a Pedra Filosofal harry-ps1 sony ps1 playstation 1",
+      "tags": "Sorcerer's Pedra Filosofal sony",
       "console": "ps1",
       "curto": "harry-ps1"
     },
     {
       "nome": "Need for Speed II",
-      "tags": "Need for Speed II 2 nfs nfs2 sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "nfs2"
     },
     {
       "nome": "Harry Potter and the Philosopher's Stone",
-      "tags": "Harry Potter and the Philosopher's Stone Sorcerer's e a Pedra Filosofal harry-ps2 sony ps2 playstation 2",
+      "tags": "Sorcerer's Pedra Filosofal sony",
       "console": "ps2",
       "curto": "harry-ps2"
     },
     {
       "nome": "Pandemonium 2",
-      "tags": "Pandemonium 2 pão demônio pandemonium2 sony ps1 playstation 1",
+      "tags": "pão demônio sony",
       "console": "ps1",
       "curto": "pandemonium2"
     },
     {
       "nome": "Alien Trilogy",
-      "tags": "Alien Trilogy alientri sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "alientri"
     },
     {
       "nome": "The Suffering",
-      "tags": "The Suffering sofrimento xibiu sony ps2 playstation 2",
+      "tags": "sofrimento xibiu sony",
       "console": "ps2",
       "curto": "suffering"
     },
     {
       "nome": "Castlevania: Symphony of the Night",
-      "tags": "Castlevania: Symphony of the Night akumajo akumajou akumajyo dracula dorakyura gekka no yasokyoku yasoukyoku nocturne in the moonlight noturno ao luar sinfonia da noite metroidvania alucard sony ps1 playstation 1",
+      "tags": "akumajo akumajou akumajyo dracula dorakyura gekka no yasokyoku yasoukyoku nocturne in moonlight noturno ao luar sinfonia da noite metroidvania alucard sony",
       "console": "ps1",
       "curto": "symphony"
     },
     {
       "nome": "Half-Life",
-      "tags": "Half-Life half life 1 valve hl1 sony ps2 playstation 2",
+      "tags": "valve sony",
       "console": "ps2",
       "curto": "hl1"
     },
     {
       "nome": "Kirby: Nightmare in Dream Land",
-      "tags": "Kirby: Nightmare in Dream Land kirbynightmare nintendo game boy gameboy advance gba",
+      "tags": "nintendo",
       "console": "gba",
       "curto": "kirbynightmare"
     },
     {
       "nome": "Harry Potter and the Chamber of Secrets",
-      "tags": "Harry Potter and the Chamber of Secrets e a Câmara Secreta harrycamara sony ps2 playstation 2",
+      "tags": "Secreta sony",
       "console": "ps2",
       "curto": "harrycamara"
     },
     {
       "nome": "The Godfather: The Game",
-      "tags": "The Godfather: The Game o poderoso chefão sony ps2 playstation 2",
+      "tags": "poderoso chefão sony",
       "console": "ps2",
       "curto": "godfather"
     },
     {
       "nome": "Harry Potter and the Prisoner of Azkaban",
-      "tags": "Harry Potter and the Prisoner of Azkaban e o Prisioneiro de Azkaban harryazkaban sony ps2 playstation 2",
+      "tags": "Prisioneiro de sony",
       "console": "ps2",
       "curto": "harryazkaban"
     },
     {
       "nome": "The Terminator",
-      "tags": "The Terminator exterminador do futuro sega mega drive genesis md",
+      "tags": "exterminador do futuro sega genesis",
       "console": "md",
       "curto": "terminator"
     },
     {
       "nome": "Justice League Heroes",
-      "tags": "Justice League Heroes liga da justiça justiceleagueheroes sony ps2 playstation 2",
+      "tags": "liga da justiça sony",
       "console": "ps2",
       "curto": "justiceleagueheroes"
     },
     {
       "nome": "Sonic The Hedgehog CD",
-      "tags": "Sonic The Hedgehog CD soniccd sega mega drive genesis md",
+      "tags": "sega genesis",
       "console": "md",
       "curto": "soniccd"
     },
     {
       "nome": "Harry Potter and the Goblet of Fire",
-      "tags": "Harry Potter and the Goblet of Fire e o Cálice de Fogo harrygoblet sony ps2 playstation 2",
+      "tags": "Cálice de Fogo sony",
       "console": "ps2",
       "curto": "harrygoblet"
     },
     {
       "nome": "Need for Speed III: Hot Pursuit",
-      "tags": "Need for Speed III: Hot Pursuit 3 nfs nfs3 sony ps1 playstation 1",
+      "tags": "sony",
       "console": "ps1",
       "curto": "nfs3"
     },
     {
       "nome": "Castlevania: Aria of Sorrow",
-      "tags": "Castlevania: Aria of Sorrow ariaofsorrow akumajo akumajou akumajyo dracula dorakyura akatsuki no minuet of dawn minueto do alvorecer ária da tristeza metroidvania soma cruz kurusu souma nintendo game boy gameboy advance gba",
+      "tags": "akumajo akumajou akumajyo dracula dorakyura akatsuki no minuet dawn minueto do alvorecer da tristeza metroidvania soma cruz kurusu souma nintendo",
       "console": "gba",
       "curto": "ariaofsorrow"
     },
     {
       "nome": "Harry Potter and the Order of the Phoenix",
-      "tags": "Harry Potter and the Order of the Phoenix e a Ordem da Fênix harryordem sony ps2 playstation 2",
+      "tags": "da Fênix sony",
       "console": "ps2",
       "curto": "harryordem"
     },
     {
       "nome": "Batman: Chaos in Gotham",
-      "tags": "Batman: Chaos in Gotham batmanchaos nintendo game boy gameboy color colour gbc",
+      "tags": "nintendo colour",
       "console": "gbc",
       "curto": "batmanchaos"
     }
@@ -484,7 +481,6 @@
   "standalone": [
     {
       "nome": "CALL OF DUTY BLACK OPS 2 / Multiplayer Local e Zombies",
-      "tags": "CALL OF DUTY BLACK OPS 2 / Multiplayer Local e Zombies",
       "imagem": "codbo2_multlocalzombies.webp",
       "curto": "codbo2_multlocalzombies",
       "data": "19/04/2017",
@@ -503,7 +499,6 @@
     },
     {
       "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
-      "tags": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers coco",
       "imagem": "coco.webp",
       "curto": "coco",
       "data": "03/01/2020",
@@ -521,7 +516,7 @@
     },
     {
       "nome": "Sarrada do MarceloSouzaF",
-      "tags": "Sarrada do MarceloSouzaF meme edit edição",
+      "tags": "meme edit edição",
       "imagem": "sarrada.webp",
       "curto": "sarrada",
       "data": "11/11/2020",
@@ -539,7 +534,6 @@
     },
     {
       "nome": "Passeio de Bike pelo Parque Malwee em 2020",
-      "tags": "Passeio de Bike pelo Parque Malwee em 2020",
       "imagem": "bike2020.webp",
       "curto": "bike2020",
       "data": "02/12/2020",
@@ -557,7 +551,7 @@
     },
     {
       "nome": "Testando Layout para Gameplays de PlayStation 1",
-      "tags": "Testando Layout para Gameplays de PlayStation 1 spongebob bob esponja ps1 psx",
+      "tags": "spongebob bob esponja ps1 psx",
       "imagem": "layout.webp",
       "curto": "layout",
       "data": "28/11/2021",
@@ -575,7 +569,6 @@
     },
     {
       "nome": "2 Anos do Canal na COSTV",
-      "tags": "2 Anos do Canal na COSTV",
       "imagem": "2anos_costv.webp",
       "curto": "2anos_costv",
       "data": "03/01/2022",
@@ -593,7 +586,6 @@
     },
     {
       "nome": "Adeus Hill Climb Racing 2",
-      "tags": "Adeus Hill Climb Racing 2",
       "imagem": "adeushillclimb2.webp",
       "curto": "adeushillclimb2",
       "data": "04/03/2022",
@@ -611,7 +603,6 @@
     },
     {
       "nome": "Vazou o NOVO SEGREDO do SUBWAY SURFERS",
-      "tags": "Vazou o NOVO SEGREDO do SUBWAY SURFERS",
       "imagem": "subwaysegredo.webp",
       "curto": "subwaysegredo",
       "data": "03/05/2022",
@@ -629,7 +620,6 @@
     },
     {
       "nome": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
-      "tags": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
       "imagem": "terminando_passe_fortnite3_3.webp",
       "curto": "terminando_passe_fortnite3_3",
       "data": "13/09/2022",
@@ -647,7 +637,6 @@
     },
     {
       "nome": "2 Mil Inscritos no Canal na COSTV",
-      "tags": "2 Mil Inscritos no Canal na COSTV",
       "imagem": "2milsubs_costv.webp",
       "curto": "2milsubs_costv",
       "data": "15/12/2022",
@@ -665,7 +654,6 @@
     },
     {
       "nome": "Bem Vindo ao Canal MarceloSouzaF - Trailer 2023",
-      "tags": "Bem Vindo ao Canal MarceloSouzaF - Trailer 2023 Trailer do Canal 2023",
       "imagem": "trailer2023.webp",
       "curto": "trailer2023",
       "data": "23/12/2022",
@@ -683,7 +671,6 @@
     },
     {
       "nome": "3 anos do canal na COSTV",
-      "tags": "3 anos do canal na COSTV",
       "imagem": "3anos_costv.webp",
       "curto": "3anos_costv",
       "data": "10/01/2023",
@@ -701,7 +688,6 @@
     },
     {
       "nome": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
-      "tags": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
       "imagem": "especial_29anos.webp",
       "curto": "especial_29anos",
       "data": "21/02/2023",
@@ -719,7 +705,6 @@
     },
     {
       "nome": "Gaming Channel Trailer | #Consensus2023",
-      "tags": "Gaming Channel Trailer | #Consensus2023",
       "imagem": "trailer2023_cos.webp",
       "curto": "trailer2023_cos",
       "data": "26/04/2023",
@@ -737,7 +722,6 @@
     },
     {
       "nome": "Feliz Aniversário COSTV #4ANOSDECOSTV",
-      "tags": "Feliz Aniversário COSTV #4ANOSDECOSTV",
       "imagem": "4anos_costv.webp",
       "curto": "4anos_costv",
       "data": "17/06/2023",
@@ -755,7 +739,6 @@
     },
     {
       "nome": "Era pra ser um novo recorde no Subway Surfers",
-      "tags": "Era pra ser um novo recorde no Subway Surfers",
       "imagem": "recordefalhosub.webp",
       "curto": "recordefalhosub",
       "data": "03/05/2024",
@@ -773,7 +756,6 @@
     },
     {
       "nome": "3 MIL INSCRITOS NA COSTV",
-      "tags": "3 MIL INSCRITOS NA COSTV",
       "imagem": "3milsubs_costv.webp",
       "curto": "3milsubs_costv",
       "data": "09/07/2024",
@@ -791,7 +773,7 @@
     },
     {
       "nome": "A MAIOR LIVE DO CANAL - 10 Horas de Duração",
-      "tags": "A MAIOR LIVE DO CANAL - 10 Horas de Duração recorde",
+      "tags": "recorde",
       "imagem": "livegrandona.webp",
       "curto": "livegrandona",
       "data": "13/12/2024",
@@ -809,7 +791,7 @@
     },
     {
       "nome": "Marcelo reagindo à comentários em vídeo de Subway Money",
-      "tags": "Marcelo reagindo à comentários em vídeo de Subway Money Subway Surfers",
+      "tags": "Surfers",
       "imagem": "kkkkkkkkk.webp",
       "curto": "kkkkkkkkk",
       "data": "02/08/2024",
@@ -827,7 +809,6 @@
     },
     {
       "nome": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
-      "tags": "Marcelo sendo visitado por besouro + Dj Cleiton rasta",
       "imagem": "besouro.webp",
       "curto": "besouro",
       "data": "27/01/2025",
@@ -845,7 +826,7 @@
     },
     {
       "nome": "Fim da maior live do canal (10 Horas)",
-      "tags": "Fim da maior live do canal (10 Horas) recorde de maior live",
+      "tags": "recorde de",
       "imagem": "maiorliveclipe.webp",
       "curto": "maiorliveclipe",
       "data": "29/01/2025",
@@ -863,7 +844,7 @@
     },
     {
       "nome": "Tentando jogar o melhor jogo de corrida de todos os tempos",
-      "tags": "Tentando jogar o melhor jogo de corrida de todos os tempos need for speed most wanted nfs most wanted",
+      "tags": "need for speed nfs",
       "imagem": "mostwantedteste.webp",
       "curto": "mostwantedteste",
       "data": "12/06/2025",
@@ -881,7 +862,7 @@
     },
     {
       "nome": "Marcelo conversando sobre jogos da Rockstar",
-      "tags": "Marcelo conversando sobre jogos da Rockstar grand theft auto gta red dead revolver red dead redemption",
+      "tags": "grand theft auto gta red dead revolver red dead redemption",
       "imagem": "rockstarcomp.webp",
       "curto": "rockstarcomp",
       "data": "27/04/2025",
@@ -899,7 +880,7 @@
     },
     {
       "nome": "Gameplay de Killzone 2 no PlayStation 3",
-      "tags": "Gameplay de Killzone 2 no PlayStation 3 ps3",
+      "tags": "ps3",
       "imagem": "killzone2gameplay.webp",
       "curto": "killzone2gameplay",
       "data": "03/06/2025",
@@ -917,7 +898,7 @@
     },
     {
       "nome": "Testando filtros do emulador",
-      "tags": "Testando filtros do emulador shaders retroarch",
+      "tags": "shaders retroarch",
       "imagem": "emufiltros.webp",
       "curto": "emufiltros",
       "data": "06/08/2025",
@@ -935,7 +916,7 @@
     },
     {
       "nome": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀",
-      "tags": "🔥 POV: Marcelo Alpha Elite Rizz CEO DA LUCIDEZ Fazendo Looksmaxxing E Farmando Aura MOGGANDO Leitores Elitistas BETA CODED, Professores MID Das Escolas E Zumbis BRAINROT Por Slop De Subway Surfers 💀 livros escola inteligência sigma based",
+      "tags": "livros inteligência sigma based",
       "imagem": "moggador.webp",
       "curto": "moggador",
       "data": "10/08/2025",
@@ -953,7 +934,7 @@
     },
     {
       "nome": "Tech mostrando o ovo dele",
-      "tags": "Tech mostrando o ovo dele hitbox",
+      "tags": "hitbox",
       "imagem": "ovo.webp",
       "curto": "ovo",
       "data": "19/11/2025",
@@ -971,7 +952,6 @@
     },
     {
       "nome": "Existe um Subway Surfers Brainrot?!",
-      "tags": "Existe um Subway Surfers Brainrot subway brainrot",
       "imagem": "subwaybrainrot.webp",
       "curto": "subwaybrainrot",
       "data": "22/10/2025",
@@ -989,7 +969,6 @@
     },
     {
       "nome": "Mais um Subway Surfers Brainrot",
-      "tags": "Mais um Subway Surfers Brainrot subway brainrot",
       "imagem": "subwaybrainrot2.webp",
       "curto": "subwaybrainrot2",
       "data": "23/10/2025",
@@ -1007,7 +986,7 @@
     },
     {
       "nome": "Roleta do Malsebo - 15/10/2025 a 20/10/2025",
-      "tags": "Roleta do Malsebo - 15/10/2025 a 20/10/2025 roleta do marcelo cassino malsebobet malsebo bet marcelobet marcelo bet",
+      "tags": "marcelo cassino malsebobet bet marcelobet marcelo bet",
       "imagem": "roleta.webp",
       "curto": "roleta",
       "data": "22/10/2025",
@@ -1025,7 +1004,6 @@
     },
     {
       "nome": "CAFEZIN DA MANHA",
-      "tags": "CAFEZIN DA MANHA",
       "imagem": "cafezin.webp",
       "curto": "cafezin",
       "data": "21/10/2025",
@@ -1043,7 +1021,7 @@
     },
     {
       "nome": "Marcelo ouvindo a música +99 do Marcos",
-      "tags": "Marcelo ouvindo a música +99 do Marcos +18 proibida",
+      "tags": "+18 proibida",
       "imagem": "musicadomarcos.webp",
       "curto": "musicadomarcos",
       "data": "02/11/2025",
@@ -1061,7 +1039,6 @@
     },
     {
       "nome": "🔴 É SÓ UM TESTE, NÃO É LIVE REAL OFICIAL",
-      "tags": "🔴 É SÓ UM TESTE, NÃO É LIVE REAL OFICIAL",
       "imagem": "testeyoutube1.webp",
       "curto": "testeyoutube1",
       "data": "06/11/2025",
@@ -1079,7 +1056,6 @@
     },
     {
       "nome": "MAIS UM TESTE, 123 TESTE TESTANDO ALOU",
-      "tags": "MAIS UM TESTE, 123 TESTE TESTANDO ALOU",
       "imagem": "testeyoutube2.webp",
       "curto": "testeyoutube2",
       "data": "06/11/2025",
@@ -1097,7 +1073,7 @@
     },
     {
       "nome": "Marcelo explicando motivo da troca de plataforma pras lives",
-      "tags": "Marcelo explicando motivo da troca de plataforma pras lives dlive scam dscam china atraso no pagamento drama de marcelosouzaf perdeu tudo morando de aluguel não sobrou nada pro beta não sobrou nada pro betinha não sobra nada pro beta não sobra nada pro betinha",
+      "tags": "dlive china atraso no pagamento drama marcelosouzaf perdeu tudo morando aluguel não sobrou nada pro beta não sobrou nada pro betinha não sobra nada pro beta não sobra nada pro betinha",
       "imagem": "dscam.webp",
       "curto": "dscam",
       "data": "19/11/2025",
@@ -1115,7 +1091,6 @@
     },
     {
       "nome": "Experimentando 5 Doces Asiáticos",
-      "tags": "Experimentando 5 Doces Asiáticos",
       "imagem": "5doces.webp",
       "curto": "5doces",
       "data": "01/12/2025",
@@ -1133,7 +1108,6 @@
     },
     {
       "nome": "Minha Primeira vez jogando no Super Nintendo",
-      "tags": "Minha Primeira vez jogando no Super Nintendo",
       "imagem": "1vezsnes.webp",
       "curto": "1vezsnes",
       "data": "01/12/2025",
@@ -1151,7 +1125,7 @@
     },
     {
       "nome": "Subway Surfers Polo Norte 2025 está INCRÍVEL nesse natal",
-      "tags": "Subway Surfers Polo Norte 2025 está INCRÍVEL nesse natal irônico",
+      "tags": "irônico",
       "imagem": "polonorte2025.webp",
       "curto": "polonorte2025",
       "data": "09/12/2025",
@@ -1169,7 +1143,7 @@
     },
     {
       "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
-      "tags": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night en ps1 playstation 1",
+      "tags": "playstation",
       "imagem": "symphony_ps1.webp",
       "curto": "symphony_ps1",
       "data": "23/02/2026",
@@ -1187,7 +1161,7 @@
     },
     {
       "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
-      "tags": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night en psp playstation portable",
+      "tags": "playstation portable",
       "imagem": "symphony_psp.webp",
       "curto": "symphony_psp",
       "data": "23/02/2026",
@@ -1205,7 +1179,7 @@
     },
     {
       "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
-      "tags": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night ja ps1 playstation 1 psp portable",
+      "tags": "ps1 playstation 1 psp portable",
       "imagem": "symphony_ja.webp",
       "curto": "symphony_ja",
       "data": "23/02/2026",
@@ -1223,7 +1197,7 @@
     },
     {
       "nome": "Marcelo vendo memes do Instagram",
-      "tags": "Marcelo vendo memes do Instagram reels besteirol",
+      "tags": "besteirol",
       "imagem": "reels1.webp",
       "curto": "reels1",
       "data": "03/03/2026",
@@ -1241,7 +1215,7 @@
     },
     {
       "nome": "Marcelo vendo mais Reels no Instagram",
-      "tags": "Marcelo vendo mais Reels no Instagram memes besteirol",
+      "tags": "memes besteirol",
       "imagem": "reels2.webp",
       "curto": "reels2",
       "data": "05/03/2026",
@@ -1259,7 +1233,6 @@
     },
     {
       "nome": "Testando o Left 4 Dead 2 no PC",
-      "tags": "Testando o Left 4 Dead 2 no PC",
       "imagem": "testandol4d2.webp",
       "curto": "testandol4d2",
       "data": "03/04/2026",
@@ -1277,7 +1250,7 @@
     },
     {
       "nome": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos)",
-      "tags": "Marcelo reagindo a Flamengo X Corinthians na Supercopa Rei 2026 (melhores momentos) melhores momentos futebol 0x2 2x0 0 x 2 2 x 0",
+      "tags": "futebol 0x2 2x0",
       "imagem": "fla-cor-supercoparei2026.webp",
       "curto": "fla-cor-supercoparei2026",
       "data": "05/04/2026",
@@ -1295,7 +1268,7 @@
     },
     {
       "nome": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis)",
-      "tags": "Marcelo adivinhando países no WorldGuessr (GeoGuessr Grátis) worldguesser geoguesser geografia mapa cidades",
+      "tags": "worldguesser geoguesser geografia mapa cidades",
       "imagem": "worldguessr.webp",
       "curto": "worldguessr",
       "data": "06/04/2026",
@@ -1313,7 +1286,7 @@
     },
     {
       "nome": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK",
-      "tags": "A INACREDITÁVEL PRIMEIRA LIVE NA KICK live incrível magnífica",
+      "tags": "incrível magnífica",
       "imagem": "primeiralivekick.webp",
       "curto": "primeiralivekick",
       "data": "08/04/2026",
@@ -1331,7 +1304,7 @@
     },
     {
       "nome": "ADEUS DLIVE.. foi bom enquanto durou...",
-      "tags": "ADEUS DLIVE.. foi bom enquanto durou... última live na dlive morreu",
+      "tags": "última na morreu",
       "imagem": "adeusdlive.webp",
       "curto": "adeusdlive",
       "data": "12/04/2026",
@@ -1350,7 +1323,7 @@
     {
       "nome": "Jogando Uncharted 3 de PS3",
       "nome_original": "Jogando Uncharted 3 de PS3 | 2026-07-01 10-15-09",
-      "tags": "Jogando Uncharted 3 de PS3 | 2026-07-01 10-15-09 PS3 PlayStation 3",
+      "tags": "2026-07-01 10-15-09 PlayStation",
       "imagem": "uncharted3.webp",
       "curto": "uncharted3",
       "data": "15/07/2025",
@@ -1368,7 +1341,7 @@
     },
     {
       "nome": "Todas as cutscenes - Castlevania: Aria of Sorrow",
-      "tags": "Todas as cutscenes - Castlevania: Aria of Sorrow inglês japonês english japanese jpn nintendo game boy gameboy advance gba",
+      "tags": "inglês japonês english japanese jpn nintendo game boy gameboy advance gba",
       "imagem": "ariacutscenes.webp",
       "curto": "ariacutscenes",
       "data": "30/07/2026",
@@ -1387,7 +1360,7 @@
     {
       "nome": "Outlast Trials | Gameplay do Tutorial",
       "nome_original": "Outlast Trials Gameplay do Tutorial | 2026-07-27 21-14-31",
-      "tags": "Outlast Trials | Gameplay do Tutorial pc pause",
+      "tags": "pc pause",
       "imagem": "outlasttrials.webp",
       "curto": "outlasttrials",
       "data": "31/07/2025",
@@ -1407,259 +1380,251 @@
   "outros": [
     {
       "nome": "XBOX (Twitter)",
-      "tags": "XBOX Twitter Clipes XBOX",
+      "tags": "Clipes",
       "imagem": "3.webp",
       "curto": "xboxmisc-antigo",
       "categoria": "XBOX"
     },
     {
       "nome": "Fortnite 2018 a 2023 (Twitter)",
-      "tags": "Fortnite 2018 a 2023 Twitter Clipes XBOX",
+      "tags": "Clipes XBOX",
       "imagem": "5.webp",
       "curto": "fort-1823",
       "categoria": "Fortnite"
     },
     {
       "nome": "Gears of War (Twitter)",
-      "tags": "Gears of War Twitter Clipes XBOX",
+      "tags": "Clipes",
       "imagem": "3.webp",
       "curto": "gears-antigo",
       "categoria": "XBOX"
     },
     {
       "nome": "Próximas Atualizações do Subway Surfers",
-      "tags": "Próximas Atualizações do Subway Surfers",
       "imagem": "1.webp",
       "curto": "subwayteasers",
       "categoria": "Subway"
     },
     {
       "nome": "Lives gravadas (16/03/2023 a 20/04/2023)",
-      "tags": "Lives gravadas (16/03/2023 a 20/04/2023) Kartrider Drift Tomb Raider Reloaded Fortnite SSSnaker Variados",
+      "tags": "Kartrider Drift Tomb Raider Reloaded Fortnite SSSnaker",
       "imagem": "1.webp",
       "curto": "marcoabril2023",
       "categoria": "Variados"
     },
     {
       "nome": "Clair Obscur: Expedition 33",
-      "tags": "Clair Obscur: Expedition 33 Clipes XBOX",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "expedition33",
       "categoria": "XBOX"
     },
     {
       "nome": "Resident Evil 4 Remake",
-      "tags": "Resident Evil 4 Remake Clipes XBOX re4 re 4 re4 remake re 4 remake",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "re4remake",
       "categoria": "XBOX"
     },
     {
       "nome": "Megazord Power Rangers no Fortnite",
-      "tags": "Megazord Power Rangers no Fortnite Clipes XBOX",
+      "tags": "Clipes XBOX",
       "imagem": "1.webp",
       "curto": "fort-megazord",
       "categoria": "Fortnite"
     },
     {
       "nome": "Fortnite (2025)",
-      "tags": "Fortnite 2025 Clipes XBOX",
+      "tags": "Clipes XBOX",
       "imagem": "1.webp",
       "curto": "fort-2025",
       "categoria": "Fortnite"
     },
     {
       "nome": "Gear.Club Unlimited 2",
-      "tags": "Gear.Club Unlimited 2 Clipes XBOX",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "gearunl2",
       "categoria": "XBOX"
     },
     {
       "nome": "Fortnite (2026)",
-      "tags": "Fortnite 2026 Clipes XBOX",
+      "tags": "Clipes XBOX",
       "imagem": "1.webp",
       "curto": "fort-2026",
       "categoria": "Fortnite"
     },
     {
       "nome": "The Crew 2",
-      "tags": "The Crew 2 Clipes XBOX",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "thecrew2",
       "categoria": "XBOX"
     },
     {
       "nome": "Spec Ops: The Line",
-      "tags": "Spec Ops The Line Clipes XBOX",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "specopstheline",
       "categoria": "XBOX"
     },
     {
       "nome": "High on Life 2",
-      "tags": "High on Life 2 Clipes XBOX",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "highonlife2",
       "categoria": "XBOX"
     },
     {
       "nome": "Warhammer 40,000: Space Marine 2",
-      "tags": "Warhammer 40,000: Space Marine 2 II 40k 40000 40.000 40 mil Clipes XBOX",
+      "tags": "II mil Clipes",
       "imagem": "1.webp",
       "curto": "wh40k-spacemarine2",
       "categoria": "XBOX"
     },
     {
       "nome": "Dia de São Patrício (2026)",
-      "tags": "Dia de São Patrício 2026 Evento da DLive",
       "imagem": "1.webp",
       "curto": "evento-patrick",
       "categoria": "Evento da DLive"
     },
     {
       "nome": "Northern Merge",
-      "tags": "Northern Merge jogos navegador dlive",
+      "tags": "jogos dlive",
       "imagem": "1.webp",
       "curto": "northern",
       "categoria": "Navegador"
     },
     {
       "nome": "Gears of War: Reloaded",
-      "tags": "Gears of War: Reloaded xbox",
       "imagem": "1.webp",
       "curto": "gearsreloaded",
       "categoria": "XBOX"
     },
     {
       "nome": "Páscoa (2026)",
-      "tags": "Páscoa 2026 Evento da DLive",
+      "tags": "ovo egg forgotten man homem esquecido tree arvore ogg",
       "imagem": "1.webp",
       "curto": "evento-pascoa2026",
       "categoria": "Evento da DLive"
     },
     {
       "nome": "Island Cities",
-      "tags": "Island Cities xbox",
       "imagem": "1.webp",
       "curto": "islandcities",
       "categoria": "XBOX"
     },
     {
       "nome": "Jogos de Navegador Online (2026)",
-      "tags": "Jogos de Navegador Online 2026 Clipes",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "browser-2026",
       "categoria": "Navegador"
     },
     {
       "nome": "Bunny Miner",
-      "tags": "Bunny Miner jogos navegador",
+      "tags": "jogos",
       "imagem": "1.webp",
       "curto": "bunnyminer",
       "categoria": "Navegador"
     },
     {
       "nome": "Geometry Dash da Shopee",
-      "tags": "Geometry Dash da Shopee jogos navegador",
+      "tags": "jogos",
       "imagem": "1.webp",
       "curto": "gdshopee",
       "categoria": "Navegador"
     },
     {
       "nome": "Knight Survival",
-      "tags": "Knight Survival jogos navegador",
+      "tags": "jogos",
       "imagem": "1.webp",
       "curto": "knightsurvival",
       "categoria": "Navegador"
     },
     {
       "nome": "Left 4 Dead 2",
-      "tags": "Left 4 Dead 2 Clipes PC",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "l4d2",
       "categoria": "PC"
     },
     {
       "nome": "Subway Surfers da Poki (2026)",
-      "tags": "Subway Surfers da Poki 2026 jogos navegador",
+      "tags": "jogos",
       "imagem": "1.webp",
       "curto": "subwaypoki2026",
       "categoria": "Navegador"
     },
     {
       "nome": "Empire City",
-      "tags": "Empire City jogos navegador",
+      "tags": "jogos",
       "imagem": "1.webp",
       "curto": "empirecity",
       "categoria": "Navegador"
     },
     {
       "nome": "Cyberpunk 2077",
-      "tags": "Cyberpunk 2077 Clipes XBOX",
+      "tags": "Clipes",
       "imagem": "1.webp",
       "curto": "cyberpunk",
       "categoria": "XBOX"
     },
     {
       "nome": "Hill Climb Racing Lite",
-      "tags": "Hill Climb Racing Lite jogos navegador",
+      "tags": "jogos",
       "imagem": "1.webp",
       "curto": "hcrlite",
       "categoria": "Navegador"
     },
     {
       "nome": "Tower Swap",
-      "tags": "Tower Swap jogos navegador",
+      "tags": "jogos",
       "imagem": "1.webp",
       "curto": "towerswap",
       "categoria": "Navegador"
     },
     {
       "nome": "Subway Surfers City (2026)",
-      "tags": "Subway Surfers City 2026 jogos celular android",
+      "tags": "jogos celular android",
       "imagem": "1.webp",
       "curto": "subwaycity-2026",
       "categoria": "Subway"
     },
     {
       "nome": "Age of Empires 2",
-      "tags": "Age of Empires 2 PC",
       "imagem": "1.webp",
       "curto": "age2",
       "categoria": "PC"
     },
     {
       "nome": "Keep on Mining!",
-      "tags": "Keep on Mining! PC",
       "imagem": "1.webp",
       "curto": "keeponmining",
       "categoria": "PC"
     },
     {
       "nome": "Retrowave",
-      "tags": "Retrowave PC",
       "imagem": "1.webp",
       "curto": "retrowave",
       "categoria": "PC"
     },
     {
       "nome": "Drift Survivors",
-      "tags": "Drift Survivors PC",
       "imagem": "1.webp",
       "curto": "driftsurvivors",
       "categoria": "PC"
     },
     {
       "nome": "Metal Hellsinger",
-      "tags": "Metal Hellsinger PC VODs Assistindo Vídeos live instagram reels memes besteirol",
+      "tags": "PC VODs Assistindo Vídeos live instagram reels memes besteirol",
       "imagem": "1.webp",
       "curto": "metalhellsinger",
       "categoria": "VOD"
     },
     {
       "nome": "Metal Hellsinger (Leviathan Mode)",
-      "tags": "Metal Hellsinger Leviathan Mode PC VODs live roguelike roguelite",
+      "tags": "PC VODs live roguelike roguelite",
       "imagem": "1.webp",
       "curto": "metalleviathan",
       "categoria": "VOD"

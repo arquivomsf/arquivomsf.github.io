@@ -3,7 +3,6 @@
     {
       "nome": "Pandemonium 2 (PS1)",
       "imagem": "webp",
-      "quantidade": "16",
       "plataforma": "youtube",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvc0Y5cdum5-4oviO5i1Ska",
@@ -15,6 +14,7 @@
   "videos": [
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 1",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -31,6 +31,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 2",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -47,6 +48,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 3",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -63,6 +65,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 4",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -79,6 +82,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 5",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -95,6 +99,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 6",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -127,6 +132,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 8",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -143,6 +149,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 9",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -159,6 +166,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 10",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -175,6 +183,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 11",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -191,6 +200,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 12",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -207,6 +217,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 13",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -223,6 +234,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 14",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -239,6 +251,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 15",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
@@ -255,6 +268,7 @@
     },
     {
       "nome": "Pandemonium 2 de PlayStation 1 - Parte 16 Final",
+      "desc": "Gameplay de Pandemonium 2 de PlayStation 1.",
       "imagem": "webp",
       "data": "30/09/2025",
       "plataforma": "youtube",
