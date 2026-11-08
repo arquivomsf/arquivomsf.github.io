@@ -14,6 +14,8 @@
   "videos": [
     {
       "nome": "Disney's Tarzan de Nintendo 64 - Parte 1",
+      "nome_original": "Disney's Tarzan de N64 | Parte 1",
+      "desc": "Gameplay comentado de Disney's Tarzan de Nintendo 64",
       "imagem": "webp",
       "data": "06/03/2023",
       "plataforma": "youtube",
@@ -30,6 +32,8 @@
     },
     {
       "nome": "Disney's Tarzan de Nintendo 64 - Parte 2",
+      "nome_original": "Disney's Tarzan de N64 | Parte 2",
+      "desc": "Gameplay comentado de Disney's Tarzan de Nintendo 64",
       "imagem": "webp",
       "data": "08/03/2023",
       "plataforma": "youtube",
@@ -46,6 +50,8 @@
     },
     {
       "nome": "Disney's Tarzan de Nintendo 64 - Parte 3",
+      "nome_original": "Disney's Tarzan de N64 | Parte 3",
+      "desc": "Gameplay comentado de Disney's Tarzan de Nintendo 64",
       "imagem": "webp",
       "data": "09/03/2023",
       "plataforma": "youtube",

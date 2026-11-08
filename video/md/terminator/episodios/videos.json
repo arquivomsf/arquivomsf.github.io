@@ -14,6 +14,7 @@
   "videos": [
     {
       "nome": "The Terminator de Mega Drive - Parte 1",
+      "nome_original": "The Terminator de Mega Drive | Parte 1",
       "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
@@ -31,6 +32,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 2",
+      "nome_original": "The Terminator de Mega Drive | Parte 2",
       "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
@@ -48,6 +50,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 3",
+      "nome_original": "The Terminator de Mega Drive | Parte 3",
       "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
@@ -65,6 +68,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 4",
+      "nome_original": "The Terminator de Mega Drive | Parte 4",
       "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",
@@ -82,6 +86,7 @@
     },
     {
       "nome": "The Terminator de Mega Drive - Parte 5 Final",
+      "nome_original": "The Terminator de Mega Drive | Parte 5 Final",
       "desc": "Gameplay de The Terminator de Mega Drive.",
       "imagem": "webp",
       "data": "20/03/2026",

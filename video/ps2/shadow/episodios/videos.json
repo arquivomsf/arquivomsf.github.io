@@ -14,6 +14,7 @@
   "videos": [
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 1",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 1",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "25/02/2025",
@@ -31,6 +32,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 2",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 2",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "26/02/2025",
@@ -48,6 +50,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 3",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 3",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "27/02/2025",
@@ -65,6 +68,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 4",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 4",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "28/02/2025",
@@ -82,6 +86,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 5",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 5",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "01/03/2025",
@@ -99,6 +104,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 6",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 6",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "02/03/2025",
@@ -116,6 +122,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 7",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 7",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "03/03/2025",
@@ -133,6 +140,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 8",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 8",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "04/03/2025",
@@ -150,6 +158,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 9",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 9",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "05/03/2025",
@@ -167,6 +176,7 @@
     },
     {
       "nome": "Shadow the Hedgehog de PlayStation 2 - Parte 10 Final",
+      "nome_original": "Shadow the Hedgehog de PlayStation 2 | Parte 10 Final",
       "desc": "Gameplay comentado de Shadow the Hedgehog.",
       "imagem": "webp",
       "data": "06/03/2025",

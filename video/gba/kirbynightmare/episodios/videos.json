@@ -13,7 +13,9 @@
   ],
   "videos": [
     {
-      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 1",
+      "nome": "Kirby Nightmare in Dream Land de GBA | Parte 1",
+      "nome_original": "Kirby Nightmare in Dream Land de GBA | Parte 1 #HoHoCOS ",
+      "desc": "Gameplay comentado de Kirby Nightmare in Dream Land de GBA.",
       "imagem": "webp",
       "data": "21/12/2025",
       "plataforma": "archive",
@@ -29,7 +31,9 @@
       }
     },
     {
-      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 2",
+      "nome": "Kirby Nightmare in Dream Land de GBA | Parte 2",
+      "nome_original": "Kirby Nightmare in Dream Land de GBA | Parte 2 #HoHoCOS ",
+      "desc": "Gameplay comentado de Kirby Nightmare in Dream Land de GBA.",
       "imagem": "webp",
       "data": "25/12/2025",
       "plataforma": "archive",
@@ -45,7 +49,9 @@
       }
     },
     {
-      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 3",
+      "nome": "Kirby Nightmare in Dream Land de GBA | Parte 3",
+      "nome_original": "Kirby Nightmare in Dream Land de GBA | Parte 3 #HoHoCOS ",
+      "desc": "Gameplay comentado de Kirby Nightmare in Dream Land de GBA.",
       "imagem": "webp",
       "data": "26/12/2025",
       "plataforma": "archive",
@@ -61,7 +67,7 @@
       }
     },
     {
-      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 4",
+      "nome": "Kirby Nightmare in Dream Land de GBA | Parte 4",
       "desc": "Gameplay comentado de Kirby Nightmare in Dream Land de GBA.",
       "imagem": "webp",
       "data": "27/12/2025",
@@ -78,7 +84,7 @@
       }
     },
     {
-      "nome": "Kirby Nightmare In Dream Land De GBA | Parte 5 Final",
+      "nome": "Kirby Nightmare in Dream Land de GBA | Parte 5 Final",
       "desc": "Gameplay comentado de Kirby Nightmare in Dream Land de GBA.",
       "imagem": "webp",
       "data": "28/12/2025",

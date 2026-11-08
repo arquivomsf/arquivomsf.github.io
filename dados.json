@@ -499,6 +499,8 @@
     },
     {
       "nome": "ESCONDI ISSO TEMPO DEMAIS - Subway Surfers",
+      "nome_original": "ESCONDI ISSO TEMPO DEMAIS | Subway Surfers",
+      "desc": "Chegou a hora de falar a verdade sobre o que acho da Coco do Subway Surfers.",
       "imagem": "coco.webp",
       "curto": "coco",
       "data": "03/01/2020",
@@ -534,6 +536,7 @@
     },
     {
       "nome": "Passeio de Bike pelo Parque Malwee em 2020",
+      "desc": "Dando uma volta na lagoa do Parque Malwee de Jaraguá do Sul - Santa Catarina em Dezembro de 2020.",
       "imagem": "bike2020.webp",
       "curto": "bike2020",
       "data": "02/12/2020",
@@ -551,6 +554,7 @@
     },
     {
       "nome": "Testando Layout para Gameplays de PlayStation 1",
+      "desc": "Live de teste que rolou na Dlive para testar o layout que criei para fazer gameplays de PS1.",
       "tags": "spongebob bob esponja ps1 psx",
       "imagem": "layout.webp",
       "curto": "layout",
@@ -569,6 +573,7 @@
     },
     {
       "nome": "2 Anos do Canal na COSTV",
+      "desc": "Comentando como foram esses dois anos na plataforma.",
       "imagem": "2anos_costv.webp",
       "curto": "2anos_costv",
       "data": "03/01/2022",
@@ -603,6 +608,7 @@
     },
     {
       "nome": "Vazou o NOVO SEGREDO do SUBWAY SURFERS",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "subwaysegredo.webp",
       "curto": "subwaysegredo",
       "data": "03/05/2022",
@@ -620,6 +626,7 @@
     },
     {
       "nome": "Terminando o Passe e Recompensas Bônus da Temporada 3 do Capítulo 3 do Fortnite",
+      "desc": "Gameplay comentado de Fortnite.",
       "imagem": "terminando_passe_fortnite3_3.webp",
       "curto": "terminando_passe_fortnite3_3",
       "data": "13/09/2022",
@@ -637,6 +644,7 @@
     },
     {
       "nome": "2 Mil Inscritos no Canal na COSTV",
+      "desc": "Vídeo agradecendo os dois mil inscritos aqui no meu canal na COSTV.",
       "imagem": "2milsubs_costv.webp",
       "curto": "2milsubs_costv",
       "data": "15/12/2022",
@@ -671,6 +679,7 @@
     },
     {
       "nome": "3 anos do canal na COSTV",
+      "desc": "Comentando sobre como foi estar na COSTV nesses três primeiros anos do canal por aqui.",
       "imagem": "3anos_costv.webp",
       "curto": "3anos_costv",
       "data": "10/01/2023",
@@ -688,6 +697,7 @@
     },
     {
       "nome": "Especial do Meu Aniversário de 29 Anos | Jogando Clássicos do Canal",
+      "desc": "Live gravada especial comemorando meus 29 anos.",
       "imagem": "especial_29anos.webp",
       "curto": "especial_29anos",
       "data": "21/02/2023",
@@ -722,6 +732,7 @@
     },
     {
       "nome": "Feliz Aniversário COSTV #4ANOSDECOSTV",
+      "desc": "Parabéns á COSTV e sua comunidade por esses 4 anos!",
       "imagem": "4anos_costv.webp",
       "curto": "4anos_costv",
       "data": "17/06/2023",
@@ -739,6 +750,7 @@
     },
     {
       "nome": "Era pra ser um novo recorde no Subway Surfers",
+      "desc": "Gameplay comentado de Subway Surfers.",
       "imagem": "recordefalhosub.webp",
       "curto": "recordefalhosub",
       "data": "03/05/2024",
@@ -756,6 +768,7 @@
     },
     {
       "nome": "3 MIL INSCRITOS NA COSTV",
+      "desc": "Obrigado a todos que me acompanham por aqui.",
       "imagem": "3milsubs_costv.webp",
       "curto": "3milsubs_costv",
       "data": "09/07/2024",
@@ -773,6 +786,7 @@
     },
     {
       "nome": "A MAIOR LIVE DO CANAL - 10 Horas de Duração",
+      "nome_original": "A MAIOR LIVE DO CANAL | 10 Horas de Duração",
       "tags": "recorde",
       "imagem": "livegrandona.webp",
       "curto": "livegrandona",
@@ -880,6 +894,7 @@
     },
     {
       "nome": "Gameplay de Killzone 2 no PlayStation 3",
+      "desc": "Gameplay comentado de Killzone 2 de PlayStation 3.",
       "tags": "ps3",
       "imagem": "killzone2gameplay.webp",
       "curto": "killzone2gameplay",
@@ -952,6 +967,7 @@
     },
     {
       "nome": "Existe um Subway Surfers Brainrot?!",
+      "desc": "Gameplay de uma cópia de Subway Surf.",
       "imagem": "subwaybrainrot.webp",
       "curto": "subwaybrainrot",
       "data": "22/10/2025",
@@ -969,6 +985,7 @@
     },
     {
       "nome": "Mais um Subway Surfers Brainrot",
+      "desc": "Gameplay de uma cópia de Subway Surf.",
       "imagem": "subwaybrainrot2.webp",
       "curto": "subwaybrainrot2",
       "data": "23/10/2025",
@@ -1233,6 +1250,7 @@
     },
     {
       "nome": "Testando o Left 4 Dead 2 no PC",
+      "desc": "Gameplay de L4D2.",
       "imagem": "testandol4d2.webp",
       "curto": "testandol4d2",
       "data": "03/04/2026",
@@ -1323,6 +1341,7 @@
     {
       "nome": "Jogando Uncharted 3 de PS3",
       "nome_original": "Jogando Uncharted 3 de PS3 | 2026-07-01 10-15-09",
+      "desc": "Gameplay de Uncharted 3 de PS3.",
       "tags": "2026-07-01 10-15-09 PlayStation",
       "imagem": "uncharted3.webp",
       "curto": "uncharted3",

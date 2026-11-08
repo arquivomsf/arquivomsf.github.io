@@ -14,6 +14,8 @@
   "videos": [
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 1",
+      "nome_original": "Bob Esponja de PlayStation 1 | Parte 1 | SpongeBob SquarePants SuperSponge",
+      "desc": "Gameplay comentado de SpongeBob SquarePants SuperSponge de PlayStation 1.",
       "imagem": "webp",
       "data": "29/11/2021",
       "plataforma": "youtube",
@@ -30,6 +32,8 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 2",
+      "nome_original": "Bob Espoja de PlayStation 1 | Parte 2 | SpongeBob SquarePants SuperSponge",
+      "desc": "Gameplay comentado de SpongeBob SquarePants SuperSponge de PlayStation 1.",
       "imagem": "webp",
       "data": "29/11/2021",
       "plataforma": "youtube",
@@ -46,6 +50,8 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 3",
+      "nome_original": "Bob Espoja de PlayStation 1 | Parte 3 | SpongeBob SquarePants SuperSponge",
+      "desc": "Gameplay comentado de SpongeBob SquarePants SuperSponge de PlayStation 1.",
       "imagem": "webp",
       "data": "01/12/2021",
       "plataforma": "youtube",
@@ -62,6 +68,8 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 4",
+      "nome_original": "Bob Espoja de PlayStation 1 | Parte 4 | SpongeBob SquarePants SuperSponge",
+      "desc": "Gameplay comentado de SpongeBob SquarePants SuperSponge de PlayStation 1.",
       "imagem": "webp",
       "data": "01/12/2021",
       "plataforma": "youtube",
@@ -78,6 +86,8 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 5",
+      "nome_original": "Bob Espoja de PlayStation 1 | Parte 5 | SpongeBob SquarePants SuperSponge",
+      "desc": "Gameplay comentado de SpongeBob SquarePants SuperSponge de PlayStation 1.",
       "imagem": "webp",
       "data": "06/12/2021",
       "plataforma": "youtube",
@@ -94,6 +104,8 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 6",
+      "nome_original": "Bob Espoja de PlayStation 1 | Parte 6 | SpongeBob SquarePants SuperSponge",
+      "desc": "Gameplay comentado de SpongeBob SquarePants SuperSponge de PlayStation 1.",
       "imagem": "webp",
       "data": "06/12/2021",
       "plataforma": "youtube",
@@ -110,6 +122,8 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 7",
+      "nome_original": "Bob Espoja de PlayStation 1 | Parte 7 | SpongeBob SquarePants SuperSponge",
+      "desc": "Gameplay comentado de SpongeBob SquarePants SuperSponge de PlayStation 1.",
       "imagem": "webp",
       "data": "08/12/2021",
       "plataforma": "youtube",
@@ -126,6 +140,8 @@
     },
     {
       "nome": "Bob Esponja de PlayStation 1 - Parte 8",
+      "nome_original": "Bob Espoja de PlayStation 1 | Parte 8 | SpongeBob SquarePants SuperSponge",
+      "desc": "Gameplay comentado de SpongeBob SquarePants SuperSponge de PlayStation 1.",
       "imagem": "webp",
       "data": "08/12/2021",
       "plataforma": "youtube",

@@ -14,6 +14,7 @@
   "videos": [
     {
       "nome": "Gun.Smoke de NES - Parte 1",
+      "nome_original": "Gun.Smoke de NES | Parte 1",
       "desc": "Gameplay comentado de Gun Smoke de Nintendo Enterteinment System NES.",
       "imagem": "webp",
       "data": "15/06/2022",
@@ -31,6 +32,7 @@
     },
     {
       "nome": "Gun.Smoke de NES - Parte 2",
+      "nome_original": "Gun.Smoke de NES | Parte 2",
       "desc": "Gameplay comentado de Gun Smoke de Nintendo Enterteinment System NES.",
       "imagem": "webp",
       "data": "20/06/2022",
@@ -48,6 +50,7 @@
     },
     {
       "nome": "Gun.Smoke de NES - Parte 3 Final",
+      "nome_original": "Gun.Smoke de NES | Parte 3 Final",
       "desc": "Gameplay comentado de Gun Smoke de Nintendo Enterteinment System NES.",
       "imagem": "webp",
       "data": "20/06/2022",

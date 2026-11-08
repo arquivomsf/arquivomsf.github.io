@@ -14,6 +14,7 @@
   "videos": [
     {
       "nome": "Metal Slug X de PlayStation 1 - Parte 1",
+      "nome_original": "Metal Slug X de PlayStation 1 | Parte 1",
       "desc": "Gameplay comentado de Metal Slug X de PlayStation 1.",
       "imagem": "webp",
       "data": "13/04/2022",
@@ -31,6 +32,8 @@
     },
     {
       "nome": "Metal Slug X de PlayStation 1 - Parte 2",
+      "nome_original": "Metal Slug X de PlayStation 1 | Parte 2 Final",
+      "desc": "Gameplay comentado de Metal Slug X de PlayStation 1.",
       "imagem": "webp",
       "data": "13/04/2022",
       "plataforma": "youtube",

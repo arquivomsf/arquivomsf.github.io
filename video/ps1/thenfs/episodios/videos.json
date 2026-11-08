@@ -36,6 +36,7 @@
   "videos": [
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 1",
+      "nome_original": "The Need for Speed de PlayStation 1 | Parte 1",
       "desc": "Gameplay comentado de NFS 1 de PS1.",
       "imagem": "webp",
       "data": "18/11/2024",
@@ -53,6 +54,7 @@
     },
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 2",
+      "nome_original": "The Need for Speed de PlayStation 1 | Parte 2",
       "desc": "Gameplay comentado de NFS 1 de PS1.",
       "imagem": "webp",
       "data": "19/11/2024",
@@ -70,6 +72,7 @@
     },
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 3",
+      "nome_original": "The Need for Speed de PlayStation 1 | Parte 3",
       "desc": "Gameplay comentado de NFS 1 de PS1.",
       "imagem": "webp",
       "data": "20/11/2024",
@@ -87,6 +90,7 @@
     },
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 4",
+      "nome_original": "The Need for Speed de PlayStation 1 | Parte 4",
       "desc": "Gameplay comentado de NFS 1 de PS1.",
       "imagem": "webp",
       "data": "21/11/2024",
@@ -104,6 +108,7 @@
     },
     {
       "nome": "The Need for Speed de PlayStation 1 - Parte 5 Final",
+      "nome_original": "The Need for Speed de PlayStation 1 | Parte 5 Final",
       "desc": "Gameplay comentado de NFS 1 de PS1.",
       "imagem": "webp",
       "data": "22/11/2024",

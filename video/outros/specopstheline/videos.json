@@ -27,7 +27,8 @@
   "videos": [
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 1",
-      "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-01-45",
+      "nome_original": "Spec Ops The Line de Xbox | 2026-03-02 13-01-45",
+      "desc": "Gameplay de Spec Ops The Line de Xbox.",
       "imagem": "webp",
       "data": "03/03/2026",
       "plataforma": "youtube",
@@ -44,7 +45,8 @@
     },
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 2",
-      "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-11-54",
+      "nome_original": "Spec Ops The Line de Xbox | 2026-03-02 13-11-54",
+      "desc": "Gameplay de Spec Ops The Line de Xbox.",
       "imagem": "webp",
       "data": "03/03/2026",
       "plataforma": "youtube",
@@ -61,7 +63,8 @@
     },
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 3",
-      "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-22-00",
+      "nome_original": "Spec Ops The Line de Xbox | 2026-03-02 13-22-00",
+      "desc": "Gameplay de Spec Ops The Line de Xbox.",
       "imagem": "webp",
       "data": "03/03/2026",
       "plataforma": "youtube",
@@ -78,7 +81,8 @@
     },
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 4",
-      "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-32-02",
+      "nome_original": "Spec Ops The Line de Xbox | 2026-03-02 13-32-02",
+      "desc": "Gameplay de Spec Ops The Line de Xbox.",
       "imagem": "webp",
       "data": "03/03/2026",
       "plataforma": "youtube",
@@ -95,7 +99,8 @@
     },
     {
       "nome": "Spec Ops: The Line de Xbox - Gameplay 5",
-      "nome_original": "Spec Ops The Line de Xbox - 2026-03-02 13-40-14",
+      "nome_original": "Spec Ops The Line de Xbox | 2026-03-02 13-40-14",
+      "desc": "Gameplay de Spec Ops The Line de Xbox.",
       "imagem": "webp",
       "data": "03/03/2026",
       "plataforma": "youtube",
