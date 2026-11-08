@@ -8,7 +8,7 @@ jobs:
   validar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Validar JSONs, capas, thumbnails e links
         run: python3 tools/validar.py
