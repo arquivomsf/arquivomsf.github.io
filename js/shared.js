@@ -359,7 +359,7 @@ function sidebar_close() {
 
 var debug_mode = false;
 
-const DEBUG_PLATAFORMAS = ["youtube", "gdrive", "archive", "rumble"];
+const DEBUG_PLATAFORMAS = ["youtube", "gdrive", "archive", "rumble", "perdido"];
 
 //o título de cada card de cada aba (jogos, outros, independentes, franquias); o painel de debug é escrito dentro dele
 const DEBUG_TITULOS_DOS_CARDS = ".jogo_titulo, .outro_titulo, [class*=\"standalone_titulo_\"], [class*=\"franquia_titulo_\"]";
