@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de SpongeBob SuperSponge | Um Clássico com Muitos Defeitos",
-            "nome_original": "SpongeBob SquarePants SuperSponge de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/b1eG7r52gQ0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 50
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de SpongeBob SuperSponge | Um Clássico com Muitos Defeitos",
+      "nome_original": "SpongeBob SquarePants SuperSponge de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/b1eG7r52gQ0"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 50
+      }
+    }
+  ]
 }

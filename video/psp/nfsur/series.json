@@ -1,8 +1,11 @@
 {
-    "vodsarquivo": [
-        {
-            "nome": "VODs",
-            "imagem": "1.webp"
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "VODs",
+      "imagem": "vods/1.webp",
+      "redirect": "pasta",
+      "pasta": "vods"
+    }
+  ]
 }

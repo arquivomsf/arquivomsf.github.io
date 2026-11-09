@@ -1,22 +1,28 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp",
-            "quantidade": "10"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Ice Climber | O Jogo Que Todo Dono de NES Conhecia",
-            "nome_original": "Ice Climber de NES | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/z47IN2TFBBg",
-            "duracao": {
-                "horas": 0,
-                "minutos": 11,
-                "segundos": 40
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios",
+      "quantidade": "10"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Ice Climber | O Jogo Que Todo Dono de NES Conhecia",
+      "nome_original": "Ice Climber de NES | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/z47IN2TFBBg"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 11,
+        "segundos": 40
+      }
+    }
+  ]
 }

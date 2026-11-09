@@ -1,20 +1,26 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Hercules The Legendary Journeys de N64 | Análise e Dicas",
-            "imagem": "webp",
-            "link": "https://youtu.be/mAYB1Y8Dr0Q",
-            "duracao": {
-                "horas": 0,
-                "minutos": 21,
-                "segundos": 48
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Hercules The Legendary Journeys de N64 | Análise e Dicas",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mAYB1Y8Dr0Q"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 21,
+        "segundos": 48
+      }
+    }
+  ]
 }

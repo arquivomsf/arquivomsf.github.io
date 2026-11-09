@@ -1,29 +1,35 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsoficiais": [
-        {
-            "nome": "VODs Oficiais",
-            "imagem": "webp",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsdyE4fRUd7C3fjc_3MRPkw",
-            "quantidade": "3"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Kirby: Nightmare in Dream Land | Vale a Fama que Tem?",
-            "nome_original": "Kirby: Nightmare in Dream Land de GBA | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/5aWnrRCz9KU",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 49
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs Oficiais",
+      "imagem": "vodsoficiais.webp",
+      "redirect": "link",
+      "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsdyE4fRUd7C3fjc_3MRPkw",
+      "quantidade": "3"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Kirby: Nightmare in Dream Land | Vale a Fama que Tem?",
+      "nome_original": "Kirby: Nightmare in Dream Land de GBA | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/5aWnrRCz9KU"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 49
+      }
+    }
+  ]
 }

@@ -1,16 +1,19 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsoficiais": [
-        {
-            "nome": "VODs Oficiais",
-            "imagem": "webp",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuQa0yWdYS8v1nrJaNHx0Ks",
-            "quantidade": "3"
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs Oficiais",
+      "imagem": "vodsoficiais.webp",
+      "redirect": "link",
+      "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuQa0yWdYS8v1nrJaNHx0Ks",
+      "quantidade": "3"
+    }
+  ]
 }

@@ -49,18 +49,22 @@ async function carregarStats() {
         Promise.all(dados.jogos.map(async jogo => {
             const pasta = `video/${jogo.console}/${jogo.curto}`;
             const series = await buscar_json(`${pasta}/series.json`);
+
+            //todas as playlists de pasta do jogo; a pasta "vods" conta como VODs e qualquer outra como episódios
+            const playlists = ((series && series.itens) || []).filter(item => item.tipo == "playlist" && item.redirect == "pasta");
+            const listas = await Promise.all(playlists.map(async item => ({ pasta: item.pasta, lista: await buscar_json(`${pasta}/${item.pasta}/videos.json`) })));
             return {
-                episodios: series && Object.hasOwn(series, "episodios") ? await buscar_json(`${pasta}/episodios/videos.json`) : null,
-                vods: series && Object.hasOwn(series, "vodsarquivo") ? await buscar_json(`${pasta}/vods/videos.json`) : null
+                episodios: listas.filter(l => l.pasta != "vods").map(l => l.lista),
+                vods: listas.filter(l => l.pasta == "vods").map(l => l.lista)
             };
         })),
         Promise.all(dados.outros.map(outro => buscar_json(`video/outros/${outro.curto}/videos.json`))),
         buscar_json("off.json")
     ]);
 
-    const episodios = somar_listas(jogos.map(j => j.episodios));
-    const vods = somar_listas(jogos.map(j => j.vods));
-    const jogos_com_vod = jogos.filter(j => j.vods).length;
+    const episodios = somar_listas(jogos.flatMap(j => j.episodios));
+    const vods = somar_listas(jogos.flatMap(j => j.vods));
+    const jogos_com_vod = jogos.filter(j => j.vods.length > 0).length;
     const standalone = somar_videos({ videos: dados.standalone });
     const outros_soma = somar_listas(outros);
 

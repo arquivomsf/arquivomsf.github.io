@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Assault: Retribution | Ação Frenética do Início ao Fim",
-            "nome_original": "Assault Retribution de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/Xwi-1onfa-o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 29
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Assault: Retribution | Ação Frenética do Início ao Fim",
+      "nome_original": "Assault Retribution de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Xwi-1onfa-o"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 29
+      }
+    }
+  ]
 }

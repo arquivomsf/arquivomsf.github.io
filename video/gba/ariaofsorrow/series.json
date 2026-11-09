@@ -1,21 +1,53 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Castlevania: Aria of Sorrow | Supera Symphony of the Night?",
-            "nome_original": "Castlevania: Aria of Sorrow de GBA | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/1haRSle3wQY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 54
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Castlevania: Aria of Sorrow | Supera Symphony of the Night?",
+      "nome_original": "Castlevania: Aria of Sorrow de GBA | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/1haRSle3wQY"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 54
+      }
+    },
+    {
+      "tipo": "video",
+      "nome": "Todas as cutscenes - Castlevania: Aria of Sorrow",
+      "imagem": "../../etc/ariacutscenes.webp",
+      "redirect": "embed",
+      "curto": "ariacutscenes",
+      "data": "30/07/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/PGvB3C7fpuo",
+        "archive": "https://archive.org/details/arquivomsf-todas-as-cutscenes-castlevania-aria-of-sorrow"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 59,
+        "segundos": 10
+      }
+    }
+  ],
+  "_info": [
+    {
+      "duracoes": {
+        "graham final legit": "00:06:16.62",
+        "subtitles intro": "00:00:24.58"
+      }
+    }
+  ]
 }

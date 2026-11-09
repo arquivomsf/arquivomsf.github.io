@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Metal Slug X | Um Clássico Obrigatório Para Fãs de Arcade",
-            "nome_original": "Metal Slug X de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/yWOS3k1dn_A",
-            "duracao": {
-                "horas": 0,
-                "minutos": 4,
-                "segundos": 58
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Metal Slug X | Um Clássico Obrigatório Para Fãs de Arcade",
+      "nome_original": "Metal Slug X de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/yWOS3k1dn_A"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 58
+      }
+    }
+  ]
 }

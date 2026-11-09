@@ -1,31 +1,42 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "God of War | Análise e Gameplay de PS2",
-            "imagem": "webp",
-            "link": "https://youtu.be/cLmxBuuzXso",
-            "duracao": {
-                "horas": 0,
-                "minutos": 9,
-                "segundos": 15
-            }
-        },
-        {
-            "nome": "Mini Review de God of War | Vale Jogar Sem Nostalgia?",
-            "nome_original": "God of War PlayStation 2 | Mini Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/ovPUm1HWaiw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 3,
-                "segundos": 10
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "God of War | Análise e Gameplay de PS2",
+      "imagem": "analise1.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/cLmxBuuzXso"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 15
+      }
+    },
+    {
+      "tipo": "video",
+      "nome": "Mini Review de God of War | Vale Jogar Sem Nostalgia?",
+      "nome_original": "God of War PlayStation 2 | Mini Análise do Jogo",
+      "imagem": "analise2.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ovPUm1HWaiw"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 3,
+        "segundos": 10
+      }
+    }
+  ]
 }

@@ -1,20 +1,26 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Não suportei o final do Red Dead Revolver",
-            "imagem": "webp",
-            "link": "https://youtu.be/7c9DwgLmb6U",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 53
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Não suportei o final do Red Dead Revolver",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/7c9DwgLmb6U"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 53
+      }
+    }
+  ]
 }

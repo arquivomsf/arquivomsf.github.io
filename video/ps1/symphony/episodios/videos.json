@@ -11,59 +11,6 @@
       }
     }
   ],
-  "extras": [
-    {
-      "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
-      "id": "symphony_ps1",
-      "imagem": "../../../etc/symphony_ps1.webp",
-      "data": "23/02/2026",
-      "plataforma": "youtube",
-      "links": {
-        "youtube": "https://youtu.be/Y9J4CR4Ksh0",
-        "gdrive": "",
-        "archive": ""
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 31,
-        "segundos": 4
-      }
-    },
-    {
-      "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
-      "id": "symphony_psp",
-      "imagem": "../../../etc/symphony_psp.webp",
-      "data": "23/02/2026",
-      "plataforma": "youtube",
-      "links": {
-        "youtube": "https://youtu.be/k3AxyiZgLas",
-        "gdrive": "",
-        "archive": ""
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 28,
-        "segundos": 45
-      }
-    },
-    {
-      "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
-      "id": "symphony_ja",
-      "imagem": "../../../etc/symphony_ja.webp",
-      "data": "23/02/2026",
-      "plataforma": "youtube",
-      "links": {
-        "youtube": "https://youtu.be/mU1SU81TsXk",
-        "gdrive": "",
-        "archive": ""
-      },
-      "duracao": {
-        "horas": 0,
-        "minutos": 32,
-        "segundos": 51
-      }
-    }
-  ],
   "videos": [
     {
       "nome": "Castlevania SOTN de PS1 | Cavernas Invertidas",

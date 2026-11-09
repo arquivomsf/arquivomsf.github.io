@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Adventure Island | Um Clássico Excelente, Mas Brutalmente Difícil",
-            "nome_original": "Adventure Island de NES | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/28rvnCAJbbY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 34
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Adventure Island | Um Clássico Excelente, Mas Brutalmente Difícil",
+      "nome_original": "Adventure Island de NES | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/28rvnCAJbbY"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 34
+      }
+    }
+  ]
 }

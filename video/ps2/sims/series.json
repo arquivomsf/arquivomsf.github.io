@@ -1,27 +1,34 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsarquivo": [
-        {
-            "nome": "VODs do Arquivo",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de The Sims de PS2 | A Versão de Console Era Limitada Demais?",
-            "nome_original": "The Sims de PlayStation 2 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/puIgn6LoeUs",
-            "duracao": {
-                "horas": 0,
-                "minutos": 19,
-                "segundos": 29
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs do Arquivo",
+      "imagem": "vods/1.webp",
+      "redirect": "pasta",
+      "pasta": "vods"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de The Sims de PS2 | A Versão de Console Era Limitada Demais?",
+      "nome_original": "The Sims de PlayStation 2 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/puIgn6LoeUs"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 19,
+        "segundos": 29
+      }
+    }
+  ]
 }

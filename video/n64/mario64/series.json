@@ -1,20 +1,26 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Super Mario 64 de N64 | Análise e Dicas",
-            "imagem": "webp",
-            "link": "https://youtu.be/tSoTEc5Vpco",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 9
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Super Mario 64 de N64 | Análise e Dicas",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/tSoTEc5Vpco"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 9
+      }
+    }
+  ]
 }

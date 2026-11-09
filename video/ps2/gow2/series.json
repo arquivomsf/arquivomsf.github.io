@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de God of War 2 | É Nostalgia ou Ainda é Um Jogaço?",
-            "nome_original": "God of War 2 de PlayStation 2 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/i66RDYr6QZo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 7,
-                "segundos": 57
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de God of War 2 | É Nostalgia ou Ainda é Um Jogaço?",
+      "nome_original": "God of War 2 de PlayStation 2 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/i66RDYr6QZo"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 7,
+        "segundos": 57
+      }
+    }
+  ]
 }

@@ -1,28 +1,35 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "2.webp"
-        }
-    ],
-    "vodsarquivo": [
-        {
-            "nome": "VODs do Arquivo",
-            "imagem": "2.webp",
-            "quantidade": "12"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Alien Trilogy | O Tempo Foi Cruel com Esse Clássico?",
-            "nome_original": "Alien Trilogy de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/Yy1D5xViG5o",
-            "duracao": {
-                "horas": 0,
-                "minutos": 14,
-                "segundos": 9
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/2.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs do Arquivo",
+      "imagem": "vods/2.webp",
+      "redirect": "pasta",
+      "pasta": "vods",
+      "quantidade": "12"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Alien Trilogy | O Tempo Foi Cruel com Esse Clássico?",
+      "nome_original": "Alien Trilogy de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Yy1D5xViG5o"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 9
+      }
+    }
+  ]
 }

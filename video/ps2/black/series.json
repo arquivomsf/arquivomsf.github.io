@@ -1,37 +1,49 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsarquivo": [
-        {
-            "nome": "VODs do Arquivo",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Black | Análise e Gameplay de PS2",
-            "imagem": "webp",
-            "link": "https://youtu.be/-7IZoMQjuv0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 9,
-                "segundos": 45
-            }
-        },
-        {
-            "nome": "Review de Black | Esse Jogo Realmente Era Tudo Isso?",
-            "nome_original": "Black de PlayStation 2 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/V31OMZ1-P-k",
-            "duracao": {
-                "horas": 0,
-                "minutos": 17,
-                "segundos": 25
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs do Arquivo",
+      "imagem": "vods/1.webp",
+      "redirect": "pasta",
+      "pasta": "vods"
+    },
+    {
+      "tipo": "video",
+      "nome": "Black | Análise e Gameplay de PS2",
+      "imagem": "analise1.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/-7IZoMQjuv0"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 45
+      }
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Black | Esse Jogo Realmente Era Tudo Isso?",
+      "nome_original": "Black de PlayStation 2 | Análise do Jogo",
+      "imagem": "analise2.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/V31OMZ1-P-k"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 17,
+        "segundos": 25
+      }
+    }
+  ]
 }

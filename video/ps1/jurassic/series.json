@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de The Lost World Jurassic Park | O Dinossauro Não Era o Maior Inimigo",
-            "nome_original": "The Lost World Jurassic Park de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/R-AnnSoCl_I",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 53
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de The Lost World Jurassic Park | O Dinossauro Não Era o Maior Inimigo",
+      "nome_original": "The Lost World Jurassic Park de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/R-AnnSoCl_I"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 53
+      }
+    }
+  ]
 }

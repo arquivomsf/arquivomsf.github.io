@@ -117,6 +117,92 @@ def checar_videos_json(caminho, pasta):
     return len(videos)
 
 
+def quantidade_invalida(q):
+    """'quantidade' opcional: vazia/ausente é ok; se existir, precisa ser um número maior que 0."""
+    if q is None or q == "":
+        return False
+    try:
+        return int(q) <= 0
+    except (TypeError, ValueError):
+        return True
+
+
+def checar_series_json(base, series):
+    """series.json = {"itens": [...]}, cada item com "tipo": "playlist" ou "video"."""
+    arquivo = f"{base}/series.json"
+    if "itens" not in series:
+        erro(f"{arquivo}: formato antigo (sem 'itens')")
+        return
+    itens = series["itens"]
+    if not isinstance(itens, list) or not itens:
+        erro(f"{arquivo}: 'itens' precisa ser uma lista com pelo menos 1 item")
+        return
+
+    pastas_usadas = set()
+    curtos = set()
+    for i, item in enumerate(itens):
+        onde = f"{arquivo} item #{i + 1} ({item.get('nome', '?')})"
+        tipo = item.get("tipo")
+        if not item.get("nome"):
+            erro(f"{onde}: sem 'nome'")
+        if item.get("imagem") and not os.path.exists(os.path.join(base, item["imagem"])):
+            erro(f"{onde}: imagem não encontrada ({base}/{item['imagem']})")
+        elif not item.get("imagem"):
+            erro(f"{onde}: sem 'imagem' (caminho a partir da pasta do jogo, ex.: episodios/1.webp)")
+
+        if tipo == "playlist":
+            redirect = item.get("redirect")
+            if quantidade_invalida(item.get("quantidade")):
+                aviso(f"{onde}: 'quantidade' inválida ({item.get('quantidade')!r}; esperado um número maior que 0)")
+            if redirect == "pasta":
+                pasta = item.get("pasta")
+                if not pasta:
+                    erro(f"{onde}: playlist com redirect 'pasta' precisa de 'pasta'")
+                    continue
+                if pasta in pastas_usadas:
+                    aviso(f"{onde}: a pasta '{pasta}' já é usada por outra playlist deste jogo")
+                pastas_usadas.add(pasta)
+                n = checar_videos_json(f"{base}/{pasta}/videos.json", f"{base}/{pasta}")
+                if quantidade_desatualizada(item.get("quantidade"), n):
+                    aviso(f"{onde}: diz {item.get('quantidade')} itens, mas {pasta}/videos.json tem {n} (número provavelmente desatualizado)")
+            elif redirect == "link":
+                if not item.get("link"):
+                    erro(f"{onde}: playlist com redirect 'link' precisa de 'link'")
+                if item.get("pasta"):
+                    aviso(f"{onde}: tem 'pasta', mas o redirect é 'link' (a pasta é ignorada)")
+            else:
+                erro(f"{onde}: playlist com 'redirect' inválido ({redirect!r}; use 'pasta' ou 'link')")
+
+        elif tipo == "video":
+            redirect = item.get("redirect")
+            plataforma = item.get("plataforma")
+            if redirect not in ("direto", "embed"):
+                erro(f"{onde}: vídeo com 'redirect' inválido ({redirect!r}; use 'direto' ou 'embed')")
+            if not plataforma:
+                erro(f"{onde}: vídeo sem 'plataforma'")
+            elif not (item.get("links") or {}).get(plataforma):
+                erro(f"{onde}: plataforma '{plataforma}' sem link em links.{plataforma}")
+            if not isinstance(item.get("duracao"), dict):
+                erro(f"{onde}: sem 'duracao'")
+            if item.get("data") is not None and not data_valida(item.get("data")):
+                erro(f"{onde}: data fora do formato DD/MM/AAAA ({item.get('data')!r})")
+            if redirect == "embed":
+                if not item.get("curto"):
+                    erro(f"{onde}: vídeo com redirect 'embed' precisa de 'curto' (o identificador na URL da página de vídeo)")
+                elif item["curto"] in curtos:
+                    erro(f"{onde}: 'curto' repetido ({item['curto']})")
+                curtos.add(item.get("curto"))
+                if not data_valida(item.get("data")):
+                    erro(f"{onde}: vídeo com redirect 'embed' precisa de 'data' (DD/MM/AAAA)")
+        else:
+            erro(f"{onde}: 'tipo' inválido ({tipo!r}; use 'playlist' ou 'video')")
+
+    # pastas com videos.json que nenhuma playlist usa
+    for sub in sorted(os.listdir(base)):
+        if os.path.isfile(os.path.join(base, sub, "videos.json")) and sub not in pastas_usadas:
+            aviso(f"{base}/{sub}: pasta com videos.json, mas nenhuma playlist do series.json aponta para ela (não aparece no site)")
+
+
 def main():
     dados = carregar("dados.json")
     franquias = carregar("franquias.json")
@@ -144,26 +230,7 @@ def main():
         series = carregar(f"{base}/series.json")
         if series is None:
             continue
-        for chave_serie, pasta in (("episodios", "episodios"), ("vodsarquivo", "vods")):
-            if chave_serie not in series:
-                continue
-            n = checar_videos_json(f"{base}/{pasta}/videos.json", f"{base}/{pasta}")
-            for s in series[chave_serie]:
-                if quantidade_desatualizada(s.get("quantidade"), n):
-                    aviso(f"{base}/series.json: '{chave_serie}' diz {s.get('quantidade')} itens, mas {pasta}/videos.json tem {n} (número provavelmente desatualizado)")
-
-        # vodsoficiais aponta para um link externo (não há videos.json para contar), então a quantidade é obrigatória
-        for s in series.get("vodsoficiais", []):
-            q = s.get("quantidade")
-            if q is None or q == "":
-                aviso(f"{base}/series.json: 'vodsoficiais' sem 'quantidade' (o card mostraria \"undefined\"; aqui ela é obrigatória)")
-            else:
-                try:
-                    valido = int(q) > 0
-                except (TypeError, ValueError):
-                    valido = False
-                if not valido:
-                    aviso(f"{base}/series.json: 'vodsoficiais' com 'quantidade' inválida ({q!r}; esperado um número maior que 0)")
+        checar_series_json(base, series)
 
     # pastas de jogo que existem no disco mas não estão em dados.json
     if os.path.isdir("video"):

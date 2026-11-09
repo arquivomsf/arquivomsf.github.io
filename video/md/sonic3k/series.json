@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Sonic 3 & Knuckles | Ele Realmente é Tudo Isso?",
-            "nome_original": "Sonic 3 & Knuckles de Mega Drive | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/p-zemRoAKss",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 17
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Sonic 3 & Knuckles | Ele Realmente é Tudo Isso?",
+      "nome_original": "Sonic 3 & Knuckles de Mega Drive | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/p-zemRoAKss"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 17
+      }
+    }
+  ]
 }

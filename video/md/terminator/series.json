@@ -1,28 +1,35 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsarquivo": [
-        {
-            "nome": "VODs do Arquivo",
-            "imagem": "1.webp",
-            "quantidade": "4"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de The Terminator | O Filme Virou um Bom Jogo?",
-            "nome_original": "The Terminator de Mega Drive | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/Dgmj3CYhHp0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 9,
-                "segundos": 23
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs do Arquivo",
+      "imagem": "vods/1.webp",
+      "redirect": "pasta",
+      "pasta": "vods",
+      "quantidade": "4"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de The Terminator | O Filme Virou um Bom Jogo?",
+      "nome_original": "The Terminator de Mega Drive | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Dgmj3CYhHp0"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 23
+      }
+    }
+  ]
 }

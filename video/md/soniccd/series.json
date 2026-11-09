@@ -1,23 +1,28 @@
 {
-    "vodsoficiais": [
-        {
-            "nome": "VODs Oficiais",
-            "imagem": "webp",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvugGdidD7cf8ZTnZUdzNzCZ",
-            "quantidade": "1"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Sonic CD | As Viagens no Tempo Ainda Funcionam Tão Bem?",
-            "nome_original": "Sonic CD de Mega Drive com Sega CD | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/J42UEpJKjNw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 39
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "VODs Oficiais",
+      "imagem": "vodsoficiais.webp",
+      "redirect": "link",
+      "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvugGdidD7cf8ZTnZUdzNzCZ",
+      "quantidade": "1"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Sonic CD | As Viagens no Tempo Ainda Funcionam Tão Bem?",
+      "nome_original": "Sonic CD de Mega Drive com Sega CD | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/J42UEpJKjNw"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 39
+      }
+    }
+  ]
 }

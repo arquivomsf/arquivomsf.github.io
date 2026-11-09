@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de GTA Vice City | A Nostalgia dos Anos 80 em Forma de Jogo",
-            "nome_original": "GTA Vice City de PlayStation 2 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/HXXB4vpn10s",
-            "duracao": {
-                "horas": 0,
-                "minutos": 13,
-                "segundos": 16
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de GTA Vice City | A Nostalgia dos Anos 80 em Forma de Jogo",
+      "nome_original": "GTA Vice City de PlayStation 2 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/HXXB4vpn10s"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 13,
+        "segundos": 16
+      }
+    }
+  ]
 }

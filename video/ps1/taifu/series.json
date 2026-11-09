@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de T'ai Fu Wrath of the Tiger | O PS1 Teve o Seu Próprio Kung Fu Panda?",
-            "nome_original": "T'ai Fu: Wrath of the Tiger de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/gxrKnbbFbek",
-            "duracao": {
-                "horas": 0,
-                "minutos": 5,
-                "segundos": 6
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de T'ai Fu Wrath of the Tiger | O PS1 Teve o Seu Próprio Kung Fu Panda?",
+      "nome_original": "T'ai Fu: Wrath of the Tiger de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/gxrKnbbFbek"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 6
+      }
+    }
+  ]
 }

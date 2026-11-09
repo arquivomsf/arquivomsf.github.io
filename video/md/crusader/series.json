@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Light Crusader | Uma Joia Escondida do Mega Drive",
-            "nome_original": "Light Crusader de Mega Drive | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/km2ik2q-xUA",
-            "duracao": {
-                "horas": 0,
-                "minutos": 13,
-                "segundos": 44
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Light Crusader | Uma Joia Escondida do Mega Drive",
+      "nome_original": "Light Crusader de Mega Drive | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/km2ik2q-xUA"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 13,
+        "segundos": 44
+      }
+    }
+  ]
 }

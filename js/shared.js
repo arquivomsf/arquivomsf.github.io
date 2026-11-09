@@ -361,6 +361,9 @@ var debug_mode = false;
 
 const DEBUG_PLATAFORMAS = ["youtube", "gdrive", "archive", "rumble"];
 
+//o título de cada card de cada aba (jogos, outros, independentes, franquias); o painel de debug é escrito dentro dele
+const DEBUG_TITULOS_DOS_CARDS = ".jogo_titulo, .outro_titulo, [class*=\"standalone_titulo_\"], [class*=\"franquia_titulo_\"]";
+
 //ativar modo de debug que permite
     //ver a plataforma em que as séries ou vídeos estão disponíveis
     //ver se um jogo tem análise
@@ -385,6 +388,8 @@ function debug() {
 
     console.log("(4/4) Adicionando informações de debug na aba [Franquias]");
     debug_aba_franquias();
+
+    document.querySelectorAll(DEBUG_TITULOS_DOS_CARDS).forEach(titulo => titulo.classList.add("w-full"));
 
     console.groupEnd();
 
@@ -462,7 +467,8 @@ function debug_fileira(etiquetas) {
 }
 
 //bloco de uma lista: nome + total no topo e uma etiqueta por plataforma (youtube, gdrive, archive, rumble)
-function debug_html_plataformas(base, unidade) {
+//"detalhe" é um texto pequeno ao lado do nome (ex.: a pasta da playlist)
+function debug_html_plataformas(base, unidade, detalhe = "") {
     let etiquetas = DEBUG_PLATAFORMAS.map(plataforma => {
         let icone = get_plataforma_icon(plataforma).replace("pr-4 ", "");
         return `<span class="${base}_${plataforma} hidden"><span class="${DEBUG_CHIP} ${DEBUG_COR.info}"><i class="${icone}" title="${plataforma}"></i><span class="${base}_${plataforma}_string">0</span></span></span>`;
@@ -470,8 +476,11 @@ function debug_html_plataformas(base, unidade) {
 
     return `
                 <div class="${base}_total hidden rounded-md bg-white/5 px-2 py-1.5">
-                    <div class="flex items-baseline justify-between gap-2">
-                        <span class="font-semibold">${unidade}</span>
+                    <div class="flex items-start justify-between gap-2">
+                        <div>
+                            <div class="font-semibold">${unidade}</div>${detalhe ? `
+                            <div class="text-xs font-normal opacity-60">${detalhe}</div>` : ""}
+                        </div>
                         <span class="${base}_total_n text-xs opacity-80">0</span>
                     </div>
                     <div class="mt-1 flex flex-wrap gap-1">${etiquetas}</div>
@@ -492,16 +501,69 @@ function debug_html_tags(item, classe_do_span = "") {
                 </details>`;
 }
 
+//As "tags" ficam sempre num painel separado.
+function debug_painel_tags(item) {
+    return debug_painel(debug_html_tags(item));
+}
+
 function debug_html_jogo(base, jogo) {
-    return debug_painel(`${debug_html_plataformas(base+"_episodios", "Episódios")}${debug_html_plataformas(base+"_vods", "VODs")}${debug_fileira(
-        debug_chip_escondido(base+"_vods_oficial", "0 VODs Oficiais") +
-        debug_chip_escondido(base+"_episodios_extras", "0 Extras nos Episódios") +
-        debug_chip_escondido(base+"_vods_extras", "0 Extras nos VODs") +
-        debug_chip_escondido(base+"_analise", "Análise"))}${debug_fileira(
-        debug_html_aviso(base+"_avisos_linkyt_episodios", "erro", "0 Episódios no modelo antigo") +
-        debug_html_aviso(base+"_avisos_linkyt_vods", "erro", "0 VODs no modelo antigo") +
-        debug_html_aviso(base+"_avisos_data_episodios", "aviso", "0 Episódios sem data") +
-        debug_html_aviso(base+"_avisos_data_vods", "aviso", "0 VODs sem data"))}${debug_html_tags(jogo, base+"_tags")}`);
+    return `<div class="${base}_info"></div>${debug_painel_tags(jogo)}`;
+}
+
+//Problemas de preenchimento de um item do series.json (similar ao funcionamento do validar.py)
+function debug_problemas_do_item(item, i) {
+    let onde = `Item ${i + 1}`;
+    let p = [];
+
+    if (item.tipo == "playlist") {
+        if (item.redirect == "pasta") { if (!item.pasta) p.push(`${onde}: playlist sem "pasta"`); }
+        else if (item.redirect == "link") { if (!item.link) p.push(`${onde}: playlist sem "link"`); }
+        else p.push(`${onde}: playlist com "redirect" inválido (${item.redirect})`);
+    }
+    else if (item.tipo == "video") {
+        if (item.redirect != "direto" && item.redirect != "embed") p.push(`${onde}: vídeo com "redirect" inválido (${item.redirect})`);
+        if (!item.plataforma || !item.links || !item.links[item.plataforma]) p.push(`${onde}: vídeo sem link na plataforma`);
+        if (item.redirect == "embed" && !item.curto) p.push(`${onde}: vídeo embed sem "curto"`);
+        if (item.redirect == "embed" && !item.data) p.push(`${onde}: vídeo embed sem data`);
+    }
+    else p.push(`${onde}: "tipo" desconhecido (${item.tipo})`);
+
+    return p;
+}
+
+//Painel de informações de um jogo, montado a partir da lista "itens" do series.json:
+//uma caixa por playlist de pasta (com plataformas, extras e avisos), uma etiqueta por playlist de link,
+//uma etiqueta por tipo de redirect dos vídeos e os problemas de preenchimento.
+function debug_html_jogo_info(base, itens) {
+    let caixas = "";
+    let etiquetas = "";
+    let problemas = "";
+    let videos = { direto: 0, embed: 0 };
+
+    itens.forEach((item, i) => {
+        let b = `${base}_item${i}`;
+
+        debug_problemas_do_item(item, i).forEach(texto => problemas += debug_chip(texto, "erro", DEBUG_ICONE_AVISO));
+
+        if (item.tipo == "playlist" && item.redirect == "pasta") {
+            caixas += debug_html_plataformas(b, item.nome, `pasta: ${item.pasta}`) + debug_fileira(
+                debug_chip_escondido(b+"_extras", "0 Extras") +
+                debug_html_aviso(b+"_avisos_linkyt", "erro", "0 vídeos no modelo antigo") +
+                debug_html_aviso(b+"_avisos_data", "aviso", "0 vídeos sem data"));
+        }
+        else if (item.tipo == "playlist") {
+            etiquetas += debug_chip(`${item.nome}: ${item.quantidade ?? "sem quantidade"} (link)`);
+        }
+        else if (item.tipo == "video" && Object.hasOwn(videos, item.redirect)) {
+            videos[item.redirect]++;
+        }
+    });
+
+    Object.keys(videos).forEach(redirect => {
+        if (videos[redirect] > 0) etiquetas += debug_chip(`${videos[redirect]} ${videos[redirect] > 1 ? "Vídeos" : "Vídeo"} (${redirect})`);
+    });
+
+    return debug_painel(caixas + (etiquetas ? debug_fileira(etiquetas) : "") + (problemas ? debug_fileira(problemas) : ""));
 }
 
 function debug_html_outro(base, outro) {
@@ -509,22 +571,22 @@ function debug_html_outro(base, outro) {
         debug_chip_escondido(base+"_extras", "0 Extras") +
         debug_chip_escondido(base+"_analise", "Análise"))}${debug_fileira(
         debug_html_aviso(base+"_avisos_linkyt", "erro", "0 Vídeos no modelo antigo") +
-        debug_html_aviso(base+"_avisos_data", "aviso", "0 Vídeos sem data"))}${debug_html_tags(outro, base+"_tags")}`);
+        debug_html_aviso(base+"_avisos_data", "aviso", "0 Vídeos sem data"))}`) + debug_painel_tags(outro);
 }
 
 // ---------- análise dos videos.json ----------
 
 //Lê um videos.json e preenche o que o debug_html_* deixou escondido.
 //c = nomes das classes e textos desta lista:
-//    base (prefixo das classes de total/plataformas), unidade ("Episódios", "VODs"...),
-//    extras, texto_extras, aviso_antigo, aviso_data, carregando, analise
+//    base (prefixo das classes de total/plataformas), unidade,
+//    extras, texto_extras, aviso_antigo, aviso_data, carregando, analise,
+//    declarada (se tiver a "quantidade" escrita no JSON, aparece ao lado do total)
 function debug_analisar_lista(url, c) {
     if (c.carregando) {
         debug_total(c.base, "Carregando...");
     }
 
-    fetch(url)
-    .then(response => response.json())
+    carregar_json(url)
     .then(data => {
         let videos = data.videos;
 
@@ -541,7 +603,7 @@ function debug_analisar_lista(url, c) {
             debug_texto(c.extras, debug_chip(c.texto_extras(data.extras.length)));
         }
 
-        debug_total(c.base, `${videos.length} no total`);
+        debug_total(c.base, `${videos.length} no total` + (c.declarada != undefined ? ` (declara ${c.declarada})` : ""));
 
         //Detector de JSON antigo
         let antigos = videos.filter(v => Object.hasOwn(v, "linkyt")).length;
@@ -571,33 +633,21 @@ function debug_aba_jogos() {
         titulos[i].classList.add(base);
         document.querySelector("."+base).innerHTML += debug_html_jogo(base, jogo);
 
-        fetch(`${pasta}/series.json`)
-        .then(response => response.json())
+        carregar_json(`${pasta}/series.json`)
         .then(series => {
-            //olha o atributo [episodios] do jogo e o json dessa pasta
-            if (Object.hasOwn(series, "episodios")) {
-                debug_analisar_lista(`${pasta}/episodios/videos.json`, {
-                    base: base+"_episodios", unidade: "Episódios", carregando: true,
-                    extras: base+"_episodios_extras", texto_extras: n => `${n} Extras nos Episódios`,
-                    aviso_antigo: base+"_avisos_linkyt_episodios", aviso_data: base+"_avisos_data_episodios"
+            document.querySelector(`.${base}_info`).innerHTML = debug_html_jogo_info(base, series.itens);
+
+            //cada playlist de pasta tem o seu videos.json
+            series.itens.forEach((item, k) => {
+                if (item.tipo != "playlist" || item.redirect != "pasta") return;
+
+                let b = `${base}_item${k}`;
+                debug_analisar_lista(`${pasta}/${item.pasta}/videos.json`, {
+                    base: b, unidade: "vídeos", carregando: true, declarada: item.quantidade,
+                    extras: b+"_extras", texto_extras: n => `${n} Extras`,
+                    aviso_antigo: b+"_avisos_linkyt", aviso_data: b+"_avisos_data"
                 });
-            }
-
-            //olha o atributo [vodsarquivo] do jogo e o json da pasta [vods]
-            if (Object.hasOwn(series, "vodsarquivo")) {
-                debug_analisar_lista(`${pasta}/vods/videos.json`, {
-                    base: base+"_vods", unidade: "VODs", carregando: true,
-                    extras: base+"_vods_extras", texto_extras: n => `${n} Extras nos VODs`,
-                    aviso_antigo: base+"_avisos_linkyt_vods", aviso_data: base+"_avisos_data_vods"
-                });
-            }
-
-            if (Object.hasOwn(series, "vodsoficiais")) {
-                debug_revelar(base+"_vods_oficial");
-                debug_texto(base+"_vods_oficial", debug_chip(`${series.vodsoficiais[0].quantidade} VODs Oficiais`));
-            }
-
-            if (Object.hasOwn(series, "analise")) debug_analise(base+"_analise", series.analise);
+            });
         })
     });
 }
@@ -644,7 +694,7 @@ function debug_aba_franquias() {
         let franquia = dados_franquia[id];
         let jogos = franquia.jogos.map(curto => debug_chip(curto)).join("");
 
-        document.querySelector(".franquia_titulo_"+id).innerHTML += debug_painel(debug_fileira(jogos) + debug_html_tags(franquia));
+        document.querySelector(".franquia_titulo_"+id).innerHTML += debug_painel(debug_fileira(jogos)) + debug_painel_tags(franquia);
     });
 }
 
@@ -714,6 +764,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         else if (url == "ep_outro") url = `href="embed?con=${console}&jogo=${jogo}&fonte=${plataforma}&id=${i}"`;
         else if (url == "extra_serie") url = `href="embed?con=${console}&jogo=${jogo}&serie=${serie}&fonte=${plataforma}&extra=true&id=${id}"`;
         else if (url == "extra_outro") url = `href="embed?con=${console}&jogo=${jogo}&fonte=${plataforma}&extra=true&id=${id}"`;
+        else if (url == "jogo_video") url = `href="embed?con=${console}&jogo=${jogo}&video=${id}&fonte=${plataforma}"`;
         else url = `href="${url}" target="_blank"`;
 
         let extras_class = "";

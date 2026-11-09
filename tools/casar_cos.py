@@ -309,7 +309,7 @@ def main():
     if args.simular:
         print("\n(--simular: nenhum JSON do site foi alterado)")
     elif alterados:
-        print("\nConfira com `git diff` e rode `python3 tools/validar.py`.")
+        print("\nConfira as diferenças e rode `python3 tools/validar.py`.")
 
 
 if __name__ == "__main__":

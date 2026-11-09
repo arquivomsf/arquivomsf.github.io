@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Need for Speed 3: Hot Pursuit | O Clássico que Definiu as Perseguições Policiais",
-            "nome_original": "Need for Speed 3: Hot Pursuit de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/2f8xsatSq3I",
-            "duracao": {
-                "horas": 0,
-                "minutos": 11,
-                "segundos": 29
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Need for Speed 3: Hot Pursuit | O Clássico que Definiu as Perseguições Policiais",
+      "nome_original": "Need for Speed 3: Hot Pursuit de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/2f8xsatSq3I"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 11,
+        "segundos": 29
+      }
+    }
+  ]
 }

@@ -1,28 +1,35 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsarquivo": [
-        {
-            "nome": "VODs do Arquivo",
-            "imagem": "1.webp",
-            "quantidade": "10"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de The Suffering | Um Clássico Esquecido do Survival Horror?",
-            "nome_original": "The Suffering de PlayStation 2 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/XsI2Yxp6miY",
-            "duracao": {
-                "horas": 0,
-                "minutos": 24,
-                "segundos": 48
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs do Arquivo",
+      "imagem": "vods/1.webp",
+      "redirect": "pasta",
+      "pasta": "vods",
+      "quantidade": "10"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de The Suffering | Um Clássico Esquecido do Survival Horror?",
+      "nome_original": "The Suffering de PlayStation 2 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/XsI2Yxp6miY"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 24,
+        "segundos": 48
+      }
+    }
+  ]
 }

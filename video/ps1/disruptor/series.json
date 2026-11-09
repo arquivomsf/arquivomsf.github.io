@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Disruptor | O Shooter Que Quase Ninguém Conhece",
-            "nome_original": "Disruptor de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/3y3qSP6-a",
-            "duracao": {
-                "horas": 0,
-                "minutos": 5,
-                "segundos": 35
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Disruptor | O Shooter Que Quase Ninguém Conhece",
+      "nome_original": "Disruptor de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3y3qSP6-a"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 35
+      }
+    }
+  ]
 }

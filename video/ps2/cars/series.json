@@ -1,20 +1,26 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Carros de PlayStation 2 vai além do conteúdo do filme",
-            "imagem": "webp",
-            "link": "https://youtu.be/Zea353r9yj0",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 31
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Carros de PlayStation 2 vai além do conteúdo do filme",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Zea353r9yj0"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 31
+      }
+    }
+  ]
 }

@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Zero Tolerance | O Mega Drive Conseguia Mesmo Rodar FPS?",
-            "nome_original": "Zero Tolerance de Mega Drive | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/oXUUmqfVHWw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 14,
-                "segundos": 26
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Zero Tolerance | O Mega Drive Conseguia Mesmo Rodar FPS?",
+      "nome_original": "Zero Tolerance de Mega Drive | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/oXUUmqfVHWw"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 26
+      }
+    }
+  ]
 }

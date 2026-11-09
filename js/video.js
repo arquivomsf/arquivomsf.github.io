@@ -4,6 +4,7 @@ var serieAtual;
 var fonteAtual;
 var episodioAtual;
 var extra;
+var videoAtual;
 
 // Endereço público do site (og:image e links do player precisam ser absolutos)
 const URL_DO_SITE = "https://arquivomsf.github.io";
@@ -26,12 +27,18 @@ function procurarParam() {
   fonteAtual = searchParams.get('fonte');
   episodioAtual = searchParams.get('id');
   extra = searchParams.get('extra');
+  videoAtual = searchParams.get('video');
 }
 
 function carregar_embed_fetch() {
   //vídeo standalone
   if (consoleAtual == "etc") {
     fetch_dados("geral","dados.json");
+    return;
+  }
+  //vídeo do series.json de um jogo (tipo "video" com redirect "embed")
+  if (videoAtual) {
+    fetch_dados("jogo",`video/${consoleAtual}/${jogoAtual}/series.json`,"geral","dados.json");
     return;
   }
   //vídeo outro
@@ -48,7 +55,7 @@ function carregar_embed_fetch() {
   fetch_dados("serie",`video/${consoleAtual}/${jogoAtual}/${serieAtual}/videos.json`,"geral","dados.json");
 }
 
-// Os 4 tipos de página de vídeo (standalone, extra, outros, episódio) só diferem em:
+// Os 5 tipos de página de vídeo (standalone, vídeo do series.json, extra, outros, episódio) só diferem em:
 //   - de onde vem o item (dados.json ou videos.json)
 //   - em que pasta ficam as imagens e o chat
 //   - se mostram o "breadcrumb" (console → jogo) ou escondem a navegação
@@ -58,6 +65,12 @@ function montar_contexto() {
   if (consoleAtual == "etc") {
     let item = dados_geral.standalone.find(v => v.curto == jogoAtual);
     return { item: item, pasta: "video/etc", thumb: item && item.imagem, chat_padrao: item && item.curto, esconde_navegacao: true };
+  }
+
+  //vídeo do series.json: funciona como um independente, só que a imagem e o chat ficam na pasta do jogo e a navegação aparece
+  if (videoAtual) {
+    let item = dados_jogo.itens.find(v => v.tipo == "video" && v.curto == videoAtual);
+    return { item: item, pasta: `video/${consoleAtual}/${jogoAtual}`, thumb: item && item.imagem, chat_padrao: item && item.curto, esconde_navegacao: false };
   }
 
   let pasta = (consoleAtual == "outros") ? `video/outros/${jogoAtual}` : `video/${consoleAtual}/${jogoAtual}/${serieAtual}`;
@@ -93,7 +106,7 @@ function carregar_itens() {
   montar_player(item, thumb);
   montar_botoes_plataformas(item);
 
-  document.querySelector(".data_string").innerHTML = item.data;
+  document.querySelector(".data_string").innerHTML = item.data ?? "";
   mostrar_campo_opcional(item, "nome_original", "original");
   mostrar_campo_opcional(item, "desc", "desc");
 

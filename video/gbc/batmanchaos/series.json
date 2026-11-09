@@ -1,20 +1,26 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Batman: Chaos in Gotham | O Batman Esquecido do Game Boy Color",
-            "imagem": "webp",
-            "link": "https://youtu.be/YImZS8h9m4g",
-            "duracao": {
-                "horas": 0,
-                "minutos": 7,
-                "segundos": 53
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Batman: Chaos in Gotham | O Batman Esquecido do Game Boy Color",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/YImZS8h9m4g"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 7,
+        "segundos": 53
+      }
+    }
+  ]
 }

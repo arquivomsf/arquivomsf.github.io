@@ -1,35 +1,96 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsarquivo": [
-        {
-            "nome": "VODs do Arquivo",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsoficiais": [
-        {
-            "nome": "VODs Oficiais",
-            "imagem": "webp",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsUstehARxjwSQFzAjS5TZh",
-            "quantidade": "11"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Castlevania: Symphony of the Night | Um dos Maiores Clássicos do PS1?",
-            "nome_original": "Castlevania: Symphony of the Night de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/DgvWp2nR_fk",
-            "duracao": {
-                "horas": 0,
-                "minutos": 14,
-                "segundos": 53
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs Oficiais",
+      "imagem": "vodsoficiais.webp",
+      "redirect": "link",
+      "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsUstehARxjwSQFzAjS5TZh",
+      "quantidade": "11"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs do Arquivo",
+      "imagem": "vods/1.webp",
+      "redirect": "pasta",
+      "pasta": "vods"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Castlevania: Symphony of the Night | Um dos Maiores Clássicos do PS1?",
+      "nome_original": "Castlevania: Symphony of the Night de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DgvWp2nR_fk"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 53
+      }
+    },
+    {
+      "tipo": "video",
+      "nome": "[Inglês Original] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "imagem": "../../etc/symphony_ps1.webp",
+      "redirect": "embed",
+      "curto": "symphony_ps1",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Y9J4CR4Ksh0",
+        "archive": "https://archive.org/details/msf-todas-as-cutscenes-castlevania-symphony-of-the-night/%5BIngl%C3%AAs+Original%5D+Todas+as+cutscenes+-+Castlevania%3A+Symphony+of+the+Night.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 31,
+        "segundos": 4
+      }
+    },
+    {
+      "tipo": "video",
+      "nome": "[Inglês Refeito] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "imagem": "../../etc/symphony_psp.webp",
+      "redirect": "embed",
+      "curto": "symphony_psp",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/k3AxyiZgLas",
+        "archive": "https://archive.org/details/msf-todas-as-cutscenes-castlevania-symphony-of-the-night/%5BIngl%C3%AAs+Refeito%5D+Todas+as+cutscenes+-+Castlevania%3A+Symphony+of+the+Night.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 28,
+        "segundos": 45
+      }
+    },
+    {
+      "tipo": "video",
+      "nome": "[Japonês] Todas as cutscenes - Castlevania: Symphony of the Night",
+      "imagem": "../../etc/symphony_ja.webp",
+      "redirect": "embed",
+      "curto": "symphony_ja",
+      "data": "23/02/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/mU1SU81TsXk",
+        "archive": "https://archive.org/details/msf-todas-as-cutscenes-castlevania-symphony-of-the-night/%5BJapon%C3%AAs%5D+Todas+as+cutscenes+-+Castlevania%3A+Symphony+of+the+Night.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 32,
+        "segundos": 51
+      }
+    }
+  ]
 }

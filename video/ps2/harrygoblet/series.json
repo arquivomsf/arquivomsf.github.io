@@ -1,21 +1,27 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Harry Potter e o Cálice de Fogo | O Jogo Mais Diferente da Franquia",
-            "nome_original": "Harry Potter e o Cálice de Fogo de PlayStation 2 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/GiLfaDYe8Bw",
-            "duracao": {
-                "horas": 0,
-                "minutos": 11,
-                "segundos": 57
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Harry Potter e o Cálice de Fogo | O Jogo Mais Diferente da Franquia",
+      "nome_original": "Harry Potter e o Cálice de Fogo de PlayStation 2 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/GiLfaDYe8Bw"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 11,
+        "segundos": 57
+      }
+    }
+  ]
 }

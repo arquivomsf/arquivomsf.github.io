@@ -1,20 +1,26 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Call of Duty Finest Hour 20 anos depois",
-            "imagem": "webp",
-            "link": "https://youtu.be/wip1lNuEPJc",
-            "duracao": {
-                "horas": 0,
-                "minutos": 12,
-                "segundos": 17
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Call of Duty Finest Hour 20 anos depois",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/wip1lNuEPJc"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 12,
+        "segundos": 17
+      }
+    }
+  ]
 }

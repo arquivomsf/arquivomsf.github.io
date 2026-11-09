@@ -1,20 +1,26 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Disney's Tarzan de N64 | Análise e Dicas",
-            "imagem": "webp",
-            "link": "https://youtu.be/ozswMdUxUFo",
-            "duracao": {
-                "horas": 0,
-                "minutos": 9,
-                "segundos": 33
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "video",
+      "nome": "Disney's Tarzan de N64 | Análise e Dicas",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ozswMdUxUFo"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 9,
+        "segundos": 33
+      }
+    }
+  ]
 }

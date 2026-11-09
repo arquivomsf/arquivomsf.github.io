@@ -1,22 +1,28 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp",
-            "quantidade": "6"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de The Need for Speed | O Primeiro NFS Ainda Consegue Divertir?",
-            "nome_original": "The Need for Speed de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/td3k1ffL8Ts",
-            "duracao": {
-                "horas": 0,
-                "minutos": 14,
-                "segundos": 42
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios",
+      "quantidade": "6"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de The Need for Speed | O Primeiro NFS Ainda Consegue Divertir?",
+      "nome_original": "The Need for Speed de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/td3k1ffL8Ts"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 42
+      }
+    }
+  ]
 }

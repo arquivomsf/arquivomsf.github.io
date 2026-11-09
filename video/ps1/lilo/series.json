@@ -1,27 +1,34 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsarquivo": [
-        {
-            "nome": "VODs do Arquivo",
-            "imagem": "1.webp"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Lilo & Stitch | Uma Pequena Aventura no PS1",
-            "nome_original": "Lilo & Stitch de PlayStation 1 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/Ddhc1acjU5w",
-            "duracao": {
-                "horas": 0,
-                "minutos": 8,
-                "segundos": 11
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs do Arquivo",
+      "imagem": "vods/1.webp",
+      "redirect": "pasta",
+      "pasta": "vods"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Lilo & Stitch | Uma Pequena Aventura no PS1",
+      "nome_original": "Lilo & Stitch de PlayStation 1 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Ddhc1acjU5w"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 11
+      }
+    }
+  ]
 }

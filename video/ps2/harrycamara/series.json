@@ -1,29 +1,35 @@
 {
-    "episodios": [
-        {
-            "nome": "Episódios da CosTV",
-            "imagem": "1.webp"
-        }
-    ],
-    "vodsoficiais": [
-        {
-            "nome": "VODs Oficiais",
-            "imagem": "webp",
-            "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuGEUvNy7rHOMoFEqsU_5I9",
-            "quantidade": "8"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Harry Potter e a Câmara Secreta | O Jogo Mais Nostálgico da Franquia?",
-            "nome_original": "Harry Potter e a Câmara Secreta de PlayStation 2 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/7d3j4SnY4EM",
-            "duracao": {
-                "horas": 0,
-                "minutos": 10,
-                "segundos": 41
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "Episódios da CosTV",
+      "imagem": "episodios/1.webp",
+      "redirect": "pasta",
+      "pasta": "episodios"
+    },
+    {
+      "tipo": "playlist",
+      "nome": "VODs Oficiais",
+      "imagem": "vodsoficiais.webp",
+      "redirect": "link",
+      "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuGEUvNy7rHOMoFEqsU_5I9",
+      "quantidade": "8"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Harry Potter e a Câmara Secreta | O Jogo Mais Nostálgico da Franquia?",
+      "nome_original": "Harry Potter e a Câmara Secreta de PlayStation 2 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/7d3j4SnY4EM"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 41
+      }
+    }
+  ]
 }

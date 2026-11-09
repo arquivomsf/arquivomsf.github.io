@@ -1,22 +1,28 @@
 {
-    "vodsarquivo": [
-        {
-            "nome": "VODs do Arquivo",
-            "imagem": "1.webp",
-            "quantidade": "8"
-        }
-    ],
-    "analise": [
-        {
-            "nome": "Review de Harry Potter e o Prisioneiro de Azkaban | Poderia Ter Ido Muito Além",
-            "nome_original": "Harry Potter e o Prisioneiro de Azkaban de PlayStation 2 | Análise do Jogo",
-            "imagem": "webp",
-            "link": "https://youtu.be/LJdjLhiwQWI",
-            "duracao": {
-                "horas": 0,
-                "minutos": 16,
-                "segundos": 58
-            }
-        }
-    ]
+  "itens": [
+    {
+      "tipo": "playlist",
+      "nome": "VODs do Arquivo",
+      "imagem": "vods/1.webp",
+      "redirect": "pasta",
+      "pasta": "vods",
+      "quantidade": "8"
+    },
+    {
+      "tipo": "video",
+      "nome": "Review de Harry Potter e o Prisioneiro de Azkaban | Poderia Ter Ido Muito Além",
+      "nome_original": "Harry Potter e o Prisioneiro de Azkaban de PlayStation 2 | Análise do Jogo",
+      "imagem": "analise.webp",
+      "redirect": "direto",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/LJdjLhiwQWI"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 16,
+        "segundos": 58
+      }
+    }
+  ]
 }
