@@ -111,9 +111,10 @@ def checar_videos_json(caminho, pasta):
         ids.add(e.get("id"))
         checar_item_de_video(e, onde, pasta, e.get("imagem"))
 
+    disponiveis = sum(1 for v in videos if isinstance(v, dict) and v.get("plataforma") != "perdido")  # perdidos não contam
     for p in dados.get("playlist", []):
-        if quantidade_desatualizada(p.get("quantidade"), len(videos)):
-            aviso(f"{caminho}: a playlist diz {p.get('quantidade')} vídeos, mas há {len(videos)} arquivados (número provavelmente desatualizado)")
+        if quantidade_desatualizada(p.get("quantidade"), disponiveis):
+            aviso(f"{caminho}: a playlist diz {p.get('quantidade')} vídeos, mas há {disponiveis} arquivados (número provavelmente desatualizado)")
     return len(videos)
 
 

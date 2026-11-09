@@ -41,7 +41,8 @@ function carregar_itens() {
     let playlist_imagem = dados_serie.playlist[0].imagem;
     let playlist_plataforma = dados_serie.playlist[0].plataforma;
     let playlist_link = dados_serie.playlist[0].links[playlist_plataforma];
-    let playlist_quantidade = dados_serie.playlist[0].quantidade ?? dados_serie.videos.length;
+    //sem "quantidade" declarada, conta os vídeos da série, menos os perdidos (que não têm vídeo para assistir)
+    let playlist_quantidade = dados_serie.playlist[0].quantidade ?? dados_serie.videos.filter(v => v.plataforma != "perdido").length;
     create_item(playlist_link,"playlist","extras_content_list",0,"",playlist_nome,"",`${serie_path}/1.${playlist_imagem}`,"",playlist_quantidade);
     document.querySelector(".tabs-navbar").classList.remove("hidden");
   }
