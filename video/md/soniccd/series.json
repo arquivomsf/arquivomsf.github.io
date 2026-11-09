@@ -1,12 +1,24 @@
 {
   "itens": [
     {
-      "tipo": "playlist",
-      "nome": "VODs Oficiais",
-      "imagem": "vodsoficiais.webp",
-      "redirect": "link",
-      "link": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvugGdidD7cf8ZTnZUdzNzCZ",
-      "quantidade": "1"
+      "tipo": "video",
+      "nome": "Jogando Sonic CD Do Começo Ao Fim",
+      "nome_original": "Jogando Sonic CD pela primeira vez!",
+      "imagem": "cd_vod.webp",
+      "redirect": "embed",
+      "curto": "cd_vod",
+      "chat": "",
+      "data": "10/04/2026",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/4aZ44t1ZI0g",
+        "archive": "https://archive.org/details/arquivomsf-sonic-cd-completo"
+      },
+      "duracao": {
+        "horas": 3,
+        "minutos": 59,
+        "segundos": 33
+      }
     },
     {
       "tipo": "video",

@@ -5,8 +5,7 @@
       "nome": "Episódios da CosTV",
       "imagem": "episodios/1.webp",
       "redirect": "pasta",
-      "pasta": "episodios",
-      "quantidade": "10"
+      "pasta": "episodios"
     },
     {
       "tipo": "video",
