@@ -10,7 +10,7 @@
 //           "franquia"  início → [titulo "Franquia"], com botão de busca
 //           "jogo"      início → Console → Jogo (a barra de jogo para celular é escrita por jogos.js, series.js e video.js)
 //   titulo  texto do último item (só "simples" e "franquia")
-//   atual   página que o menu lateral deve deixar com link vazio: "off", "stats" ou "ripdlive"
+//   atual   página que o menu lateral deve deixar com link vazio: "off", "stats", "ripdlive" ou "thumbsvelhas"
 //   raiz    caminho até a raiz do site: "" (padrão), "../" (pasta ripdlive) ou o endereço completo (404.html)
 
 const LAYOUT_BOTAO = "text-center cursor-pointer py-2.5 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500";
@@ -22,7 +22,8 @@ const LAYOUT_TITULO_MENU = "px-2 py-4 float-left w-auto border-none block outlin
 const LAYOUT_LINKS = [
     ["off", "off", "OFF (Lost Media)"],
     ["stats", "stats", "Estatísticas"],
-    ["ripdlive", "ripdlive/sobre", "RIP DLive"]
+    ["ripdlive", "ripdlive/sobre", "RIP DLive"],
+    ["thumbsvelhas", "thumbsvelhas", "Thumbnails originais"]
 ];
 
 function layout_item(conteudo) {

@@ -1396,6 +1396,13 @@
   ],
   "outros": [
     {
+      "nome": "Clipes (Twitch)",
+      "tags": "XBOX Subway Surfers",
+      "imagem": "1.webp",
+      "curto": "clipes-twitch",
+      "categoria": "Clipes"
+    },
+    {
       "nome": "XBOX (Twitter)",
       "tags": "Clipes",
       "imagem": "3.webp",

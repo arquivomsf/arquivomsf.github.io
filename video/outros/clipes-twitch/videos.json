@@ -1,0 +1,90 @@
+{
+  "playlist": [
+    {
+      "nome": "Clipes (Twitch)",
+      "imagem": "webp",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomf-clips-twitch"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "nome": "Primeira Live - Teste pelo iPhone",
+      "url_original": "AbstemiousGlamorousToadBuddhaBar",
+      "autor": "Otanizio",
+      "imagem": "webp",
+      "data": "26/10/2017",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomf-clips-twitch/20171026_AbstemiousGlamorousToadBuddhaBar_source.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 11
+      }
+    },
+    {
+      "nome": "Teste live pelo iPhone",
+      "url_original": "KathishDelightfulPieCeilingCat",
+      "autor": "kauaEmanuel",
+      "categoria": "Subway Surfers",
+      "imagem": "webp",
+      "data": "04/02/2018",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomf-clips-twitch/20180204_KathishDelightfulPieCeilingCat_source.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 33
+      }
+    },
+    {
+      "nome": "TESTE XBOX",
+      "url_original": "NiceSpinelessVanillaTBTacoLeft",
+      "categoria": "Call of Duty: Infinite Warfare",
+      "imagem": "webp",
+      "data": "06/02/2018",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomf-clips-twitch/20180206_NiceSpinelessVanillaTBTacoLeft_source.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 35
+      }
+    },
+    {
+      "nome": "Upando no multiplayer",
+      "url_original": "AuspiciousDeliciousRadicchioVoteNay",
+      "autor": "iago10s",
+      "categoria": "Gears of War: Judgment",
+      "imagem": "webp",
+      "data": "25/09/2018",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomf-clips-twitch/20180925_AuspiciousDeliciousRadicchioVoteNay_source.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 0,
+        "segundos": 30
+      }
+    }
+  ]
+}
