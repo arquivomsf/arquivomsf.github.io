@@ -17,12 +17,13 @@ function carregar_itens() {
         let thumb_data = dados_thumbs.videos[i].data;
         let thumb_plataforma = dados_thumbs.videos[i].plataforma;
         let thumb_link = dados_thumbs.videos[i].links[thumb_plataforma];
+        let thumb_desc = dados_thumbs.videos[i].desc;
 
         thumb_imagem = thumb_imagem.replaceAll(/[\|]/g,"_");
         thumb_imagem = thumb_imagem.replaceAll(/[\?]/g,"_");
         
         if (item_corresponde_a_pesquisa(dados_thumbs.videos[i])) {
-            create_item(thumb_link,"thumbs","videos_content_list",i,"",thumb_nome,"",thumb_imagem,"","","","","",thumb_data);
+            create_item(thumb_link,"thumbs","videos_content_list",i,"",thumb_nome,"",thumb_imagem,"","","","","",thumb_data,thumb_desc);
 
             document.querySelectorAll(".thumbnail").forEach(el => {
                 el.onerror = function() {

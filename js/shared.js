@@ -761,7 +761,7 @@ function embed_replace(url, plataforma) {
     return url
 }
 
-function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo="",thumbnail="",plataforma="",duracao="",serie="",id="",categoria="",data="") {
+function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo="",thumbnail="",plataforma="",duracao="",serie="",id="",categoria="",data="",desc="") {
     if (type == "video") {
         if (url == "ep_serie") url = `href="embed?con=${console}&jogo=${jogo}&serie=${serie}&fonte=${plataforma}&id=${i}"`;
         else if (url == "ep_outro") url = `href="embed?con=${console}&jogo=${jogo}&fonte=${plataforma}&id=${i}"`;
@@ -908,6 +908,12 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                 <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <img src="video/etc/lost/${thumbnail}" class="thumbnail w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                     <b class="text-center">${nome}</b>
+                    <div class="mt-2 flex flex-col gap-1.5 rounded-lg border border-white/20 bg-black/30 p-2 text-left text-sm font-normal w-full">
+                        <details class="text-xs">
+                            <summary class="cursor-pointer opacity-80 text-base">Descrição</summary>
+                            <span class="break-words">${desc}</span>
+                        </details>
+                    </div>
                 </a>
                 <a ${url} class="p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <p class="py-1 px-2 h-min w-fit m-auto">${data}</p>
