@@ -903,17 +903,20 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
     }
     if (type == "thumbs") {
         url = `href="${url}" target="_blank"`;
+        let item_desc = (desc == "") ? "" : `
+            <div class="mt-2 flex flex-col gap-1.5 rounded-lg border border-white/20 bg-black/30 p-2 text-left text-sm font-normal w-full">
+                <details class="text-xs">
+                    <summary class="cursor-pointer opacity-80 text-base">Descrição</summary>
+                    <span class="break-words">${desc}</span>
+                </details>
+            </div>`;
+
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
                 <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <img src="video/etc/lost/${thumbnail}" class="thumbnail w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                     <b class="text-center">${nome}</b>
-                    <div class="mt-2 flex flex-col gap-1.5 rounded-lg border border-white/20 bg-black/30 p-2 text-left text-sm font-normal w-full">
-                        <details class="text-xs">
-                            <summary class="cursor-pointer opacity-80 text-base">Descrição</summary>
-                            <span class="break-words">${desc}</span>
-                        </details>
-                    </div>
+                    ${item_desc}
                 </a>
                 <a ${url} class="p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <p class="py-1 px-2 h-min w-fit m-auto">${data}</p>

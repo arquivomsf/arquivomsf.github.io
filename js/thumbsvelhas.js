@@ -11,6 +11,8 @@ function carregarDados() {
 }
 
 function carregar_itens() {
+    resetarJogos();
+    
     for (var i = 0; i<dados_thumbs.videos.length; i++){
         let thumb_nome = dados_thumbs.videos[i].nome;
         let thumb_imagem = `video/etc/thumbsvelhas/${dados_thumbs.videos[i].imagem}`;
