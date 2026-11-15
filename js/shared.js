@@ -914,7 +914,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
             <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
                 <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                    <img src="video/etc/lost/${thumbnail}" class="thumbnail w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
+                    <img src="video/etc/thumbsvelhas/${thumbnail}" class="thumbnail w-full h-auto aspect-video object-contain" loading="lazy" decoding="async">
                     <b class="text-center">${nome}</b>
                     ${item_desc}
                 </a>

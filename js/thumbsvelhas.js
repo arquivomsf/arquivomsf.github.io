@@ -15,7 +15,7 @@ function carregar_itens() {
     
     for (var i = 0; i<dados_thumbs.videos.length; i++){
         let thumb_nome = dados_thumbs.videos[i].nome;
-        let thumb_imagem = `video/etc/thumbsvelhas/${dados_thumbs.videos[i].imagem}`;
+        let thumb_imagem = `${dados_thumbs.videos[i].imagem}`;
         let thumb_data = dados_thumbs.videos[i].data;
         let thumb_plataforma = dados_thumbs.videos[i].plataforma;
         let thumb_link = dados_thumbs.videos[i].links[thumb_plataforma];
