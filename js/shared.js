@@ -438,11 +438,11 @@ function debug_total(base, texto) {
 // Tudo nasce escondido ("hidden") com texto "0"; debug_analisar_lista revela e preenche o que existir.
 // A cor e o formato das etiquetas ficam todos aqui nas constantes abaixo.
 
-const DEBUG_CHIP = "inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-normal leading-tight";
+const DEBUG_CHIP = "item_chip inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-normal leading-tight";
 const DEBUG_COR = {
-    info: "bg-white/10 text-white",
-    erro: "bg-red-500/20 text-red-300 ring-1 ring-red-500/50",
-    aviso: "bg-yellow-500/20 text-yellow-200 ring-1 ring-yellow-500/50"
+    info: "chip_info bg-white/10 text-black",
+    erro: "chip_erro bg-red-500/20 text-red-300 ring-1 ring-red-500/50",
+    aviso: "chip_aviso bg-yellow-500/20 text-yellow-200 ring-1 ring-yellow-500/50"
 };
 const DEBUG_ICONE_AVISO = `<i class="fa-solid fa-triangle-exclamation"></i>`;
 
@@ -459,14 +459,14 @@ function debug_chip_escondido(classe, texto, cor = "info", icone = "") {
 //a moldura escura do painel; "linhas" são os blocos de dentro
 function debug_painel(linhas) {
     return `
-            <div class="mt-2 flex flex-col gap-1.5 rounded-lg border border-white/20 bg-black/30 p-2 text-left text-sm font-normal">${linhas}
+            <div class="item_painel mt-2 flex flex-col gap-1.5 rounded-lg border border-white/20 bg-black/30 p-2 text-left text-sm font-normal">${linhas}
             </div>`;
 }
 
 //uma fileira de etiquetas que quebra de linha quando falta espaço
 function debug_fileira(etiquetas) {
     return `
-                <div class="flex flex-wrap gap-1">${etiquetas}</div>`;
+                <div class="item_fileira flex flex-wrap gap-1">${etiquetas}</div>`;
 }
 
 //bloco de uma lista: nome + total no topo e uma etiqueta por plataforma (youtube, gdrive, archive, rumble)
@@ -474,7 +474,7 @@ function debug_fileira(etiquetas) {
 function debug_html_plataformas(base, unidade, detalhe = "") {
     let etiquetas = DEBUG_PLATAFORMAS.map(plataforma => {
         let icone = get_plataforma_icon(plataforma).replace("pr-4 ", "");
-        return `<span class="${base}_${plataforma} hidden"><span class="${DEBUG_CHIP} ${DEBUG_COR.info}"><i class="${icone}" title="${plataforma}"></i><span class="${base}_${plataforma}_string">0</span></span></span>`;
+        return `<span class="chip_plataforma ${base}_${plataforma} hidden"><span class="${DEBUG_CHIP} ${DEBUG_COR.info}"><i class="${icone}" title="${plataforma}"></i><span class="${base}_${plataforma}_string">0</span></span></span>`;
     }).join("");
 
     return `
@@ -498,7 +498,7 @@ function debug_html_aviso(classe, cor, texto) {
 function debug_html_tags(item, classe_do_span = "") {
     let classe = (classe_do_span == "") ? "" : ` ${classe_do_span}`;
     return `
-                <details class="text-xs">
+                <details class="item_moretext text-xs">
                     <summary class="cursor-pointer opacity-80 text-base">Tags</summary>
                     <span class="break-words${classe}">${debug_tags(item)}</span>
                 </details>`;
@@ -904,7 +904,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
     if (type == "thumbs") {
         url = `href="${url}" target="_blank"`;
         let item_desc = (desc == "") ? "" : `
-            <div class="mt-2 flex flex-col gap-1.5 rounded-lg border border-white/20 bg-black/30 p-2 text-left text-sm font-normal w-full">
+            <div class="item_painel mt-2 flex flex-col gap-1.5 rounded-lg border border-white/20 bg-black/30 p-2 text-left text-sm font-normal w-full">
                 <details class="text-xs">
                     <summary class="cursor-pointer opacity-80 text-base">Descrição</summary>
                     <span class="break-words">${desc}</span>

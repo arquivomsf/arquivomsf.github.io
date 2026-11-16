@@ -214,3 +214,11 @@ body[data-tema="netruim"] .spr_egg {
 body[data-tema="netruim"] .scr_litemdesc_slash_scr_litemdesc_gml_36_0 {
   display: block;
 }
+
+body[data-tema="netruim"] .item_painel {
+  background: inherit;
+}
+
+body[data-tema="netruim"] .item_painel * {
+  color: black;
+}

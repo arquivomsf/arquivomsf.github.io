@@ -228,3 +228,7 @@ body[data-tema="darkgold"] .btn-dark:hover, body[data-tema="darkgold"] .btn-dark
     border-color: rgb(255, 223, 32);
     border-radius: 5px;
 }
+
+body[data-tema="darkgold"] .item_chip {
+  color: white;
+}

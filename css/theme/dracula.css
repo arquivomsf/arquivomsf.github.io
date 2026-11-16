@@ -147,3 +147,19 @@ body[data-tema="dracula"] .btn-dark:not(:hover), body[data-tema="dracula"] .btn-
 body[data-tema="dracula"] span.maisinfo_text {
   color: var(--dracula-orange) !important;
 }
+
+body[data-tema="dracula"] .item_painel * {
+  color: var(--dracula-fg);
+}
+
+body[data-tema="dracula"] .chip_info {
+  color: var(--dracula-fg);
+}
+
+body[data-tema="dracula"] .chip_erro {
+  color: var(--dracula-red);
+}
+
+body[data-tema="dracula"] .chip_aviso {
+  color: var(--dracula-yellow);
+}

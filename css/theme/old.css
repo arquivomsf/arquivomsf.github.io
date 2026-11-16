@@ -306,3 +306,15 @@ body[data-tema="old"] .page-404 > div > div {
     box-shadow: none !important;
     border: none !important;
 }
+
+body[data-tema="old"] .item_painel {
+  background: inherit;
+}
+
+body[data-tema="old"] .item_painel * {
+  color: #333;
+}
+
+body[data-tema="old"] .item_chip {
+  border-radius: 3px;
+}

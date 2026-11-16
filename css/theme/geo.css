@@ -478,3 +478,19 @@ body[data-tema="geo"] .franquia_album > img:nth-child(2) {
 body[data-tema="geo"] .franquia_album > img:nth-child(3) {
     display: none;
 }
+
+body[data-tema="geo"] .item_painel {
+    background-color: white;
+    padding: 10px 2%;
+    outline-color: silver;
+    outline-style: ridge;
+    border-radius: 0;
+}
+
+body[data-tema="geo"] .item_painel * {
+  color: black;
+}
+
+body[data-tema="geo"] .item_painel *:hover {
+  text-decoration: none;
+}

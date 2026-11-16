@@ -50,3 +50,7 @@ body[data-tema="terminal"] .btn-plataforma {
   border: 1px solid white !important;
   color: white !important;
 }
+
+body[data-tema="terminal"] .item_chip {
+  color: white;
+}

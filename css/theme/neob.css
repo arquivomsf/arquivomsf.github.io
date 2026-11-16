@@ -269,3 +269,32 @@ body[data-tema="neob"] .franquia_album > img {
   border-radius: 0;
   box-shadow: none !important;
 }
+
+body[data-tema="neob"] .item_painel {
+  background-color: var(--neob-yellow);
+  border: 1px solid black !important;
+  border-radius: 0;
+  box-shadow: 5px 5px black !important;
+}
+
+body[data-tema="neob"] .item_painel * {
+  color: black;
+}
+
+body[data-tema="neob"] .item_chip {
+  border: 1px solid black !important;
+  border-radius: 0;
+  box-shadow: 5px 5px black !important;
+}
+
+body[data-tema="neob"] .chip_info {
+  background-color: white;
+}
+
+body[data-tema="neob"] .chip_erro {
+  background-color: var(--neob-red);
+}
+
+body[data-tema="neob"] .chip_aviso {
+  background-color: var(--neob-orange);
+}

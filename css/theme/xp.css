@@ -496,3 +496,33 @@ body[data-tema="xp"] .btn-archive > i {
 body[data-tema="xp"] .btn-rumble > i {
   color: oklch(45.3% 0.124 130.933);
 }
+
+body[data-tema="xp"] .item_painel {
+  box-shadow: none;
+  background: #fff;
+  border: 1px solid #d0d0bf;
+  border-radius: 4px;
+}
+
+body[data-tema="xp"] .item_painel * {
+  color: black;
+}
+
+body[data-tema="xp"] .item_chip {
+  box-shadow: none;
+  background: #fff;
+  border: 1px solid #d0d0bf;
+  border-radius: 4px;
+}
+
+body[data-tema="xp"] .chip_erro {
+  background: crimson;
+}
+
+body[data-tema="xp"] .chip_erro * {
+  color: white;
+}
+
+body[data-tema="xp"] .chip_aviso {
+  background: gold;
+}

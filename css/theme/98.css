@@ -402,3 +402,34 @@ body[data-tema="98"] .btn-archive > i {
 body[data-tema="98"] .btn-rumble > i {
   color: oklch(45.3% 0.124 130.933);
 }
+
+body[data-tema="98"] .item_painel {
+  color: black;
+  background: silver;
+  border: none;
+  box-shadow: inset -1px -1px #dfdfdf,inset 1px 1px grey;
+  border-radius: 0;
+}
+
+body[data-tema="98"] .item_painel * {
+  color: black;
+}
+
+body[data-tema="98"] .item_chip {
+  background: silver;
+  border: none;
+  box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+  border-radius: 0;
+}
+
+body[data-tema="98"] .chip_erro {
+  background: crimson;
+}
+
+body[data-tema="98"] .chip_erro * {
+  color: white;
+}
+
+body[data-tema="98"] .chip_aviso {
+  background: gold;
+}

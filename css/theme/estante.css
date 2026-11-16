@@ -154,3 +154,7 @@ body[data-tema="estante"] .tabcontent > .stats_content_list > div:last-child {
 body[data-tema="estante"] .list-group-item {
   border-color: white !important;
 }
+
+body[data-tema="estante"] .item_chip {
+  color: white;
+}

@@ -134,3 +134,7 @@ body[data-tema="retro"] .btn-plataforma:hover, body[data-tema="retro"] .btn-plat
     animation: borderColor 0.5s alternate infinite;
   }
 }
+
+body[data-tema="retro"] .item_chip {
+  color: white;
+}

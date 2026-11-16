@@ -20,8 +20,8 @@ const LAYOUT_TITULO_MENU = "px-2 py-4 float-left w-auto border-none block outlin
 
 //links do "Mais links" do menu lateral: [página (para o "atual"), caminho, texto]
 const LAYOUT_LINKS = [
-    ["off", "off", "OFF (Lost Media)"],
     ["stats", "stats", "Estatísticas"],
+    ["off", "off", "OFF (Lost Media)"],
     ["ripdlive", "ripdlive/sobre", "RIP DLive"],
     ["thumbsvelhas", "thumbsvelhas", "Thumbnails originais"]
 ];
