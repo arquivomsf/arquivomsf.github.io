@@ -13,7 +13,62 @@
   ],
   "extras": [
     {
+      "nome": "É o fim do Subway Surfers para Android? Cadê atualização de Sydney?",
+      "desc": "Comentando sobre a atualização de Sydney estar atrasada no Android e o que isso pode significar, e qual seria o motivo desse atraso.",
+      "id": "atrasosydney2016",
+      "imagem": "atrasosydney2016.webp",
+      "data": "22/04/2016",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/dRijiXiTD6E",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/atrasosydney2016.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 42
+      }
+    },
+    {
+      "nome": "Qual será atualização do Subway Surfers depois de Sydney 2016?",
+      "desc": "Comentando sobre qual sera a próxima atualização do Subway Surfers depois de Sydney 2016 usando as imagens que a desenvolvedora postou pra tentar adivinhar qual será o próximo destino do jogo.",
+      "id": "sydney2016",
+      "imagem": "sydney2016.webp",
+      "data": "09/05/2016",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/64c7p1-oQTo",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/sydney2016.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 3,
+        "segundos": 38
+      }
+    },
+    {
+      "nome": "PERSONAGEM REVELADO! Subway Surfers Halloween 2016",
+      "desc": "Descubra como será o personagem da atualização de Halloween 2016 do Subway Surfers.",
+      "id": "personagemnatal2016",
+      "imagem": "personagemnatal2016.webp",
+      "data": "12/10/2016",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/ozesUarqeO0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/personagemnatal2016.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 8
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois de Winter Holiday",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois de Winter Holiday / Natal 2016.",
       "id": "natal2016",
       "imagem": "natal2016.webp",
       "data": "27/12/2016",
@@ -31,6 +86,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Amsterdam",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois de Amsterdam.",
       "id": "amsterdam2017",
       "imagem": "amsterdam2017.webp",
       "data": "17/01/2017",
@@ -47,7 +103,152 @@
       }
     },
     {
+      "nome": "A grande atualização do Subway Surfers está chegando!",
+      "desc": "Comentando sobre a grande atualização de novidades do Subway Surfers que a desenvolvedora do jogo comentou nas redes sociais.",
+      "id": "grandeatualizacao2017",
+      "imagem": "grandeatualizacao2017.webp",
+      "data": "02/02/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/-SwOtxa_rPs",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/grandeatualizacao2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 6,
+        "segundos": 0
+      }
+    },
+    {
+      "nome": "Terá como salvar o Subway Surfers na nuvem? DESCUBRA AGORA!",
+      "desc": "Consegui uma resposta da desenvolvedora do Subway Surfers com relação a salvar o jogo na nuvem e se ela pretende adicionar isso ao game um dia.",
+      "id": "cloudsave2017",
+      "imagem": "cloudsave2017.webp",
+      "data": "05/02/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/DixasQ_L1hg",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/cloudsave2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 6,
+        "segundos": 10
+      }
+    },
+    {
+      "nome": "Cadê Subway Surfers Moscow e Vancouver? CONSEGUI RESPOSTAS",
+      "desc": "Muitos se perguntam o porque ainda não voltaram as atualizações de Moscow e Vancouver no Subway Surfers até hoje, eu consegui uma resposta da desenvolvedora do jogo nas redes sociais.",
+      "id": "moscowvancouversumiu",
+      "imagem": "moscowvancouversumiu.webp",
+      "data": "06/02/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/JZ85aDx-uJU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/moscowvancouversumiu.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 55
+      }
+    },
+    {
+      "nome": "Atualização do Subway Surfers depois de San Francisco 2017",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois de San Francisco em 2017.",
+      "id": "sanfrancisco2017",
+      "imagem": "sanfrancisco2017.webp",
+      "data": "07/02/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3MH3cNOwMYc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/sanfrancisco2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 6,
+        "segundos": 12
+      }
+    },
+    {
+      "nome": "Atualização do Subway Surfers depois da Arabia 2017",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois da Arabia em 2017.",
+      "id": "arabia2017",
+      "imagem": "arabia2017.webp",
+      "data": "28/02/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/QV_R_cl7_5g",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/arabia2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 10,
+        "segundos": 29
+      }
+    },
+    {
+      "nome": "Atualização do Subway Surfers depois de Bangkok 2017",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois de Bangkok em 2017.",
+      "id": "bangkok2017",
+      "imagem": "bangkok2017.webp",
+      "data": "28/03/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/R2V0JfaiM6c",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/bangkok2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 8,
+        "segundos": 52
+      }
+    },
+    {
+      "nome": "NOVO PERSONAGEM REVELADO no Subway Surfers Monaco",
+      "desc": "Mostrando como será o personagem da atualização do Subway Surfers que virá depois de Bangkok 2017 que acredito que seja Monaco.",
+      "id": "bangkok2017-2",
+      "imagem": "bangkok2017-2.webp",
+      "data": "29/03/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/v77uIvW7K4g",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/bangkok2017-2.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 41
+      }
+    },
+    {
+      "nome": "A Mega Atualização do Subway Surfers - Primeira Novidade?",
+      "desc": "Gameplay comentado de Subway Surfers mostrando a primeira grande novidade que surgiu dobre a mega atualização de aniversário que o jogo receberá esse ano.",
+      "id": "1deabril2017",
+      "imagem": "1deabril2017.webp",
+      "data": "01/04/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/Wjz98AIl5_I",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/1deabril2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 6,
+        "segundos": 36
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois de Monaco",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois de Monaco em 2017.",
       "id": "monaco2017",
       "imagem": "monaco2017.webp",
       "data": "18/04/2017",
@@ -64,7 +265,44 @@
       }
     },
     {
+      "nome": "Convite pro Aniversário do Subway Surfers",
+      "desc": "Mostrando o convite para a atualização do aniversário de 5 anos do Subway Surfers que irá aconteceu no mês de maio de 2017.",
+      "id": "conviteaniversario",
+      "imagem": "conviteaniversario.webp",
+      "data": "21/04/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/b67ZDCdtxFc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/conviteaniversario.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 13
+      }
+    },
+    {
+      "nome": "PERSONAGEM NOVA DE ANIVERSÁRIO do Subway Surfers",
+      "desc": "Mostrando como será a personagem do aniversário de 5 anos do Subway Surfers que virá com atualização de Copenhagen em 2017.",
+      "id": "freyahawaii2017",
+      "imagem": "freyahawaii2017.webp",
+      "data": "06/05/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/avMjZSYTVTk",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/freyahawaii2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 3,
+        "segundos": 42
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois do Hawaii 2017",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois do Hawaii em 2017.",
       "id": "hawaii2017",
       "imagem": "hawaii2017.webp",
       "data": "08/05/2017",
@@ -81,7 +319,26 @@
       }
     },
     {
+      "nome": "PERSONAGEM NÓRDICA no Subway Surfers Copenhagen",
+      "desc": "Comentando sobre a segunda roupa da personagem do Subway Surfers Copenhagen que é inspirada na Mitologia Nórdica da Dinamarca.",
+      "id": "nordicacopenhagen2017",
+      "imagem": "nordicacopenhagen2017.webp",
+      "data": "10/05/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/TQV0a8iE2Ic",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/nordicacopenhagen2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 21
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois de Copenhagen",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois de Copenhagen.",
       "id": "copenhagen2017",
       "imagem": "copenhagen2017.webp",
       "data": "30/05/2017",
@@ -99,6 +356,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Peru 2017",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois do Peru em 2017.",
       "id": "peru2017",
       "imagem": "peru2017.webp",
       "data": "20/06/2017",
@@ -115,7 +373,26 @@
       }
     },
     {
+      "nome": "CONHEÇA A NOVA PERSONAGEM do Subway Surfers Marrakesh",
+      "desc": "Mostrando como será a personagem da atualização do Subway Surfers que virá depois do Peru 2017 que será Marrakesh.",
+      "id": "personagemperu2017",
+      "imagem": "personagemperu2017.webp",
+      "data": "20/06/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/R2U5BJuCoQ0",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/personagemperu2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 2,
+        "segundos": 50
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois de Marrakesh",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois do Marrakesh.",
       "id": "marrakesh2017",
       "imagem": "marrakesh2017.webp",
       "data": "07/07/2017",
@@ -132,7 +409,26 @@
       }
     },
     {
+      "nome": "Bate Papo #4 - iPhone de 2017 e Subway Surfers depois de Shanghai",
+      "desc": "Comentando sobre o iPhone que deve sair esse ano e sobre a próxima atualização do Subway Surfers, também respondendo perguntas dos inscritos.",
+      "id": "chatshanghai2017",
+      "imagem": "chatshanghai2017.webp",
+      "data": "07/08/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/qGZjEj6DwW4",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/chatshanghai2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 52,
+        "segundos": 49
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois de Shanghai",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois de Shanghai.",
       "id": "shanghai2017",
       "imagem": "shanghai2017.webp",
       "data": "08/08/2017",
@@ -150,6 +446,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Miami 2017",
+      "desc": "Descubra nesse vídeo qual sera a atualização do Subway Surfers depois de Miami 2017.<br><br>Tuite do Guilherme: <a href='https://x.com/SurfersGArt/status/902544851035709440'>https://x.com/SurfersGArt/status/902544851035709440</a>",
       "id": "miami2017",
       "imagem": "miami2017.webp",
       "data": "29/08/2017",
@@ -166,7 +463,26 @@
       }
     },
     {
+      "nome": "CONHEÇA O NOVO PERSONAGEM do Subway Surfers Barcelona",
+      "desc": "Mostrando como será o personagem da atualização do Subway Surfers que virá depois de Miami 2017 que será Barcelona.",
+      "id": "diegomiami2017",
+      "imagem": "diegomiami2017.webp",
+      "data": "29/08/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/jO52ny_ooAw",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/diegomiami2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 7,
+        "segundos": 43
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois de Barcelona",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Barcelona 2017.",
       "id": "barcelona2017",
       "imagem": "barcelona2017.webp",
       "data": "19/09/2017",
@@ -183,7 +499,26 @@
       }
     },
     {
+      "nome": "CONHEÇA A NOVA JIA do Subway Surfers Singapore 2017",
+      "desc": "Mostrando a terceira roupa que a personagem Jia vai receber no Subway Surfers na atualização de Singapore / Singapura em 2017.",
+      "id": "jiasingapore2017",
+      "imagem": "jiasingapore2017.webp",
+      "data": "20/09/2017",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/x__dpPhjcOU",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/jiasingapore2017.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 6,
+        "segundos": 39
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois de Singapore 2017",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Singapore / Singapura 2017.",
       "id": "singapore2017",
       "imagem": "singapore2017.webp",
       "data": "10/10/2017",
@@ -201,6 +536,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Mexico Halloween",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois do Mexico Halloween 2017.",
       "id": "mexico2017",
       "imagem": "mexico2017.webp",
       "data": "01/11/2017",
@@ -218,6 +554,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Washington DC 2017",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Washington DC 2017.",
       "id": "washington2017",
       "imagem": "washington2017.webp",
       "data": "29/11/2017",
@@ -235,6 +572,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Saint Petersburg",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Saint Petersburg.",
       "id": "petersburg2017",
       "imagem": "petersburg2017.webp",
       "data": "26/12/2017",
@@ -252,6 +590,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois do Cairo",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois do Cairo 2017.",
       "id": "cairo2017",
       "imagem": "cairo2017.webp",
       "data": "17/01/2018",
@@ -269,6 +608,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Chicago",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Chicago 2018.",
       "id": "chicago2018",
       "imagem": "chicago2018.webp",
       "data": "07/02/2018",
@@ -286,6 +626,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Iceland",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Iceland 2018.",
       "id": "iceland2018",
       "imagem": "iceland2018.webp",
       "data": "10/04/2018",
@@ -303,6 +644,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Buenos Aires",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Buenos Aires 2018.",
       "id": "buenosaires2018",
       "imagem": "buenosaires2018.webp",
       "data": "01/05/2018",
@@ -320,6 +662,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Monaco",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Monaco 2018.",
       "id": "monaco2018-1",
       "imagem": "monaco2018-1.webp",
       "data": "28/05/2018",
@@ -337,6 +680,7 @@
     },
     {
       "nome": "VEM AÍ UM LUGAR NOVO no Subway Surfers depois de Monaco",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Monaco 2018, agora com uma informação nova.",
       "id": "monaco2018-2",
       "imagem": "monaco2018-2.webp",
       "data": "29/05/2018",
@@ -354,6 +698,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Venice Beach",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Venice Beach 2018.",
       "id": "venicebeach2018",
       "imagem": "venicebeach2018.webp",
       "data": "19/06/2018",
@@ -371,6 +716,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Mumbai 2018",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Mumbai 2018.",
       "id": "mumbai2018",
       "imagem": "mumbai2018.webp",
       "data": "10/07/2018",
@@ -388,6 +734,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Havana 2018",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Havana 2018.",
       "id": "havana2018",
       "imagem": "havana2018.webp",
       "data": "07/08/2018",
@@ -405,6 +752,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Berlin",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois de Berlin 2018.",
       "id": "berlin2018",
       "imagem": "berlin2018.webp",
       "data": "18/09/2018",
@@ -422,6 +770,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de Hong Kong",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois do World Tour Hong Kong.",
       "id": "hongkong2018",
       "imagem": "hongkong2018.webp",
       "data": "09/10/2018",
@@ -439,6 +788,7 @@
     },
     {
       "nome": "Atualização do Subway Surfers depois de New Orleans 2018",
+      "desc": "Descubra nesse vídeo qual será a atualização do Subway Surfers depois do World Tour New Orleans / Nova Orleans em 2018.",
       "id": "neworleans2018",
       "imagem": "neworleans2018.webp",
       "data": "30/10/2018",
@@ -455,7 +805,44 @@
       }
     },
     {
+      "nome": "NOVIDADE BOMBÁSTICA no Subway Surfers San Francisco 2019?",
+      "desc": "Comentando uma possível novidade bombástica na atualização de San Francisco 2019 do Subway Surfers.",
+      "id": "missmaia",
+      "imagem": "missmaia.webp",
+      "data": "06/03/2019",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/3yLPJmq0ejw",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/missmaia.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 4,
+        "segundos": 53
+      }
+    },
+    {
+      "nome": "VAZOU O NOVO MENU de Personagens do Subway Surfers",
+      "desc": "Mostrando como possivelmente será o novo menu de personagens do Subway Surfers com base em um vazamento que uma inscrita do canal me mandou.",
+      "id": "novomenu",
+      "imagem": "novomenu.webp",
+      "data": "13/12/2019",
+      "plataforma": "youtube",
+      "links": {
+        "youtube": "https://youtu.be/7bQIiJD2Cxc",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-subway-teasers/novomenu.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 21
+      }
+    },
+    {
       "nome": "Subway Surfers São Petersburgo 2020 | Caçada Sazonal Nível 40 com Manny",
+      "desc": "Gameplay comentado de Subway Surfers Natal 2020 em Saint Petersburg fazendo pontuação alta e ganhando moedas na atualização atual com o personagem que vocês escolheram sem usar hack de dinheiro infinito ou qualquer versão mod apk do jogo, completando o desafio diário pra ganhar uma super caixa misteriosa e também evoluindo na caçada sazonal desse update.<br>Nessa série de vídeos eu também comento sobre novidades ou curiosidades do mundo dos games e tecnologia em geral.",
       "id": "petersburg2020",
       "imagem": "petersburg2020.webp",
       "data": "06/01/2021",
@@ -473,6 +860,7 @@
     },
     {
       "nome": "Subway Surfers das Cavernas com Dinossauros",
+      "desc": "Mostrando o vazamento do trailer da Sybo Games TV no qual deu entender que teremos um world tour em atualização ou evento especial no tempo das cavernas jurássico onde o Jake terá que correr dos dinossauros.",
       "id": "irlanda2024-2",
       "imagem": "irlanda2024-2.webp",
       "data": "22/03/2024",
