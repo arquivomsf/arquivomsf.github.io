@@ -17,8 +17,7 @@ function carregar_itens() {
         let thumb_nome = dados_thumbs.videos[i].nome;
         let thumb_imagem = `${dados_thumbs.videos[i].imagem}`;
         let thumb_data = dados_thumbs.videos[i].data;
-        let thumb_plataforma = dados_thumbs.videos[i].plataforma;
-        let thumb_link = dados_thumbs.videos[i].links[thumb_plataforma];
+        let thumb_link = dados_thumbs.videos[i].link;
         let thumb_desc = dados_thumbs.videos[i].desc;
 
         thumb_imagem = thumb_imagem.replaceAll(/[\|]/g,"_");
