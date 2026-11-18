@@ -136,6 +136,42 @@
         "minutos": 57,
         "segundos": 8
       }
+    },
+    {
+      "nome": "Metal Hellsinger ficou viciante com esse modo roguelite",
+      "desc": "Voltei para Metal: Hellsinger 4 anos depois e já acumulei 27 horas de jogo! Completei a campanha novamente e passei mais de 20 horas no Leviathan, um modo roguelite com Echo Voids, upgrades permanentes e muita progressão. Também falo sobre jogar no mouse e teclado e sobre a incrível trilha sonora que torna esse FPS ainda mais viciante.",
+      "imagem": "webp",
+      "data": "04/10/2026",
+      "plataforma": "archive",
+      "direto": "",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/PR03+-+Metal+Hellsinger+ficou+viciante+com+esse+modo+roguelite.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 5,
+        "segundos": 38
+      }
+    },
+    {
+      "nome": "O que acontece gastando 3.000 Void Echoes no Leviathan do Metal Hellsinger?",
+      "desc": "Neste vídeo, fui até o limite dos upgrades do Leviathan em Metal Hellsinger! Gastei todas as minhas Void Echoes em melhorias e mostro como funciona essa progressão, além de compartilhar dicas e estratégias para aproveitar melhor os upgrades e avançar cada vez mais no modo. Se você está jogando Leviathan, este vídeo pode ajudar a melhorar suas runs!",
+      "imagem": "webp",
+      "data": "04/10/2026",
+      "plataforma": "archive",
+      "direto": "",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/PR04+-+O+que+acontece+gastando+3.000+Void+Echoes+no+Leviathan+do+Metal+Hellsinger.mp4"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 46,
+        "segundos": 20
+      }
     }
   ]
 }

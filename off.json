@@ -23,6 +23,24 @@
   ],
   "lostmedia": [
     {
+      "nome": "CALL OF DUTY BLACK OPS 2 / Multiplayer Local e Zombies",
+      "imagem": "codbo2_multlocalzombies.webp",
+      "curto": "codbo2_multlocalzombies",
+      "data": "19/04/2017",
+      "plataforma": "youtube",
+      "direto": "",
+      "links": {
+        "youtube": "https://youtu.be/xgw68_Q1r0",
+        "gdrive": "",
+        "archive": ""
+      },
+      "duracao": {
+        "horas": 1,
+        "minutos": 17,
+        "segundos": 4
+      }
+    },
+    {
       "nome": "Atualização do Subway Surfers depois de Marrakesh 2018",
       "imagem": "",
       "curto": "",

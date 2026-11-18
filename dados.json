@@ -480,24 +480,6 @@
   ],
   "standalone": [
     {
-      "nome": "CALL OF DUTY BLACK OPS 2 / Multiplayer Local e Zombies",
-      "imagem": "codbo2_multlocalzombies.webp",
-      "curto": "codbo2_multlocalzombies",
-      "data": "19/04/2017",
-      "plataforma": "youtube",
-      "direto": "",
-      "links": {
-        "youtube": "https://youtu.be/xgw68_Q1r0",
-        "gdrive": "",
-        "archive": ""
-      },
-      "duracao": {
-        "horas": 1,
-        "minutos": 17,
-        "segundos": 4
-      }
-    },
-    {
       "nome": "ESCONDI ISSO TEMPO DEMAIS | Subway Surfers",
       "desc": "Chegou a hora de falar a verdade sobre o que acho da Coco do Subway Surfers.",
       "imagem": "coco.webp",
@@ -852,6 +834,24 @@
         "horas": 0,
         "minutos": 2,
         "segundos": 39
+      }
+    },
+    {
+      "nome": "Como fazer LIVES com OBS STUDIO 🤩 | AULA com MARCELO SOUZA Canal MARCELOSOUZAF | #Dicas Tô Shegando ",
+      "desc": "Neste vídeo você vai aprender a Como fazer LIVES com OBS STUDIO 🤩 | AULA com MARCELO SOUZA Canal MARCELOSOUZAF | #Dicas #tutorial | Aprenda no canal Tô Shegando na COS.TV 🔥<br><br>✅ MARCELOSOUZAF: https://cos.tv/channel/16570413463283712 😍<br><br>✅ Quem gostou deixe o seu like e se inscreva no canal Tô Shegando e no MarceloSouzaF 👍<br><br>✅ Compre os emojis tô Shegando 🥰<br><br>✅ Seja VIP TÔ SHEGANDO e ganhe benefícios 🎁<br><br>✅ Agradeço a Deus por todas as coisas 🙏❤️<br><br>✅ Obrigada amigos e parceiros 🤝<br><br>✅ Tamo jun",
+      "imagem": "aula_marcelo.webp",
+      "curto": "aula_marcelo",
+      "data": "20/02/2025",
+      "plataforma": "archive",
+      "links": {
+        "youtube": "",
+        "gdrive": "",
+        "archive": "https://archive.org/details/arquivomsf-aula-obs"
+      },
+      "duracao": {
+        "horas": 0,
+        "minutos": 14,
+        "segundos": 15
       }
     },
     {
