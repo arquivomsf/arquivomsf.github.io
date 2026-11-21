@@ -688,7 +688,10 @@ function debug_aba_standalone() {
         //Detector de data
         if (!Object.hasOwn(video, "data") || video.data == "") avisos += debug_chip("Vídeo sem data", "aviso", DEBUG_ICONE_AVISO);
 
-        card.innerHTML += debug_painel((avisos ? debug_fileira(avisos) : "") + debug_html_tags(video));
+        //Painel com a data do vídeo
+        let data = video.data ? debug_painel(debug_fileira(video.data)) : "";
+
+        card.innerHTML += data + debug_painel((avisos ? debug_fileira(avisos) : "") + debug_html_tags(video));
     });
 }
 
