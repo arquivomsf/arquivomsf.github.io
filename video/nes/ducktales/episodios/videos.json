@@ -5,9 +5,7 @@
       "imagem": "webp",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvu3JKZ_srB8sZQpRv67jLL8",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvu3JKZ_srB8sZQpRv67jLL8"
       }
     }
   ],
@@ -19,9 +17,7 @@
       "data": "21/06/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/QUpcgOE73YU",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/QUpcgOE73YU"
       },
       "duracao": {
         "horas": 0,
@@ -36,9 +32,7 @@
       "data": "21/06/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/QWBPSRGEd9E",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/QWBPSRGEd9E"
       },
       "duracao": {
         "horas": 0,
@@ -53,9 +47,7 @@
       "data": "22/06/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/B2RHRacQnQQ",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/B2RHRacQnQQ"
       },
       "duracao": {
         "horas": 0,
@@ -70,9 +62,7 @@
       "data": "23/06/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/ie9cFuj0lLk",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/ie9cFuj0lLk"
       },
       "duracao": {
         "horas": 0,

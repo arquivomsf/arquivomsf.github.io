@@ -5,9 +5,7 @@
       "imagem": "webp",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PLUxLChgXH9sg",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/playlist?list=PLUxLChgXH9sg"
       }
     }
   ],
@@ -42,7 +40,6 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/3DCO9fJoRrE",
-        "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/PR01+-+Metal+Hellsinger_+Leviathan+Mode+_+2026-07-22+08-32-29.mp4"
       },
       "duracao": {
@@ -59,7 +56,6 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/xnkexXmxn3I",
-        "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/PR02+-+Metal+Hellsinger_+Leviathan+Mode+_+2026-07-22+09-20-35.mp4"
       },
       "duracao": {
@@ -75,9 +71,7 @@
       "plataforma": "youtube",
       "direto": "",
       "links": {
-        "youtube": "https://youtu.be/5HDkiOR9MEA",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/5HDkiOR9MEA"
       },
       "duracao": {
         "horas": 2,
@@ -92,9 +86,7 @@
       "plataforma": "youtube",
       "direto": "",
       "links": {
-        "youtube": "https://youtu.be/DVilT28iiDs",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/DVilT28iiDs"
       },
       "duracao": {
         "horas": 3,
@@ -109,9 +101,7 @@
       "plataforma": "youtube",
       "direto": "",
       "links": {
-        "youtube": "https://youtu.be/D3S4gWBUgGw",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/D3S4gWBUgGw"
       },
       "duracao": {
         "horas": 3,
@@ -127,9 +117,7 @@
       "plataforma": "youtube",
       "direto": "",
       "links": {
-        "youtube": "https://youtu.be/K2b666Vl3Cg",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/K2b666Vl3Cg"
       },
       "duracao": {
         "horas": 1,
@@ -145,8 +133,6 @@
       "plataforma": "archive",
       "direto": "",
       "links": {
-        "youtube": "",
-        "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/PR03+-+Metal+Hellsinger+ficou+viciante+com+esse+modo+roguelite.mp4"
       },
       "duracao": {
@@ -163,8 +149,6 @@
       "plataforma": "archive",
       "direto": "",
       "links": {
-        "youtube": "",
-        "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-metal-hellsinger-vods/PR04+-+O+que+acontece+gastando+3.000+Void+Echoes+no+Leviathan+do+Metal+Hellsinger.mp4"
       },
       "duracao": {

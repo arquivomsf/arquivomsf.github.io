@@ -6,9 +6,7 @@
       "quantidade": "6",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuafdQRQN322EksTNoSAZOO",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuafdQRQN322EksTNoSAZOO"
       }
     }
   ],
@@ -21,9 +19,7 @@
       "plataforma": "youtube",
       "direto": "",
       "links": {
-        "youtube": "https://youtu.be/cLE6cvBOXdA",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/cLE6cvBOXdA"
       },
       "duracao": {
         "horas": 1,
@@ -39,9 +35,7 @@
       "plataforma": "youtube",
       "direto": "",
       "links": {
-        "youtube": "https://youtu.be/4k-HNRXFpNU",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/4k-HNRXFpNU"
       },
       "duracao": {
         "horas": 1,
@@ -57,9 +51,7 @@
       "plataforma": "youtube",
       "direto": "",
       "links": {
-        "youtube": "https://youtu.be/6_6u33SN4sY",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/6_6u33SN4sY"
       },
       "duracao": {
         "horas": 2,
@@ -76,9 +68,7 @@
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/wGD16PVN0TE",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/wGD16PVN0TE"
       },
       "duracao": {
         "horas": 1,
@@ -92,9 +82,7 @@
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/deRKgJ843uM",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/deRKgJ843uM"
       },
       "duracao": {
         "horas": 1,
@@ -108,9 +96,7 @@
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/dgXTguuVlgM",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/dgXTguuVlgM"
       },
       "duracao": {
         "horas": 1,
@@ -124,9 +110,7 @@
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/wh22i9WbmbA",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/wh22i9WbmbA"
       },
       "duracao": {
         "horas": 0,
@@ -140,9 +124,7 @@
       "data": "05/10/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/gF9_scLBnBg",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/gF9_scLBnBg"
       },
       "duracao": {
         "horas": 0,

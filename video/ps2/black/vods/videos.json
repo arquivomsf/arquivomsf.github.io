@@ -5,9 +5,7 @@
       "imagem": "webp",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/watch?v=UTvRv-D6iSs&list=PL1_Ius-LHAvs20cVh8Sdss2Vx4VbDZQFJ",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/watch?v=UTvRv-D6iSs&list=PL1_Ius-LHAvs20cVh8Sdss2Vx4VbDZQFJ"
       }
     }
   ],
@@ -18,9 +16,7 @@
       "data": "27/07/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/UTvRv-D6iSs",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/UTvRv-D6iSs"
       },
       "duracao": {
         "horas": 1,
@@ -34,9 +30,7 @@
       "data": "02/08/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/nLxp9FHpo94",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/nLxp9FHpo94"
       },
       "duracao": {
         "horas": 1,
@@ -50,9 +44,7 @@
       "data": "02/08/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/kd0YekCAjdQ",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/kd0YekCAjdQ"
       },
       "duracao": {
         "horas": 0,
@@ -66,9 +58,7 @@
       "data": "05/08/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/4Kv1okqxuX0",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/4Kv1okqxuX0"
       },
       "duracao": {
         "horas": 0,
@@ -82,9 +72,7 @@
       "data": "05/08/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/yXZSWmJDkks",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/yXZSWmJDkks"
       },
       "duracao": {
         "horas": 1,
@@ -98,9 +86,7 @@
       "data": "06/08/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/mEVACEbhhRY",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/mEVACEbhhRY"
       },
       "duracao": {
         "horas": 1,

@@ -5,9 +5,7 @@
       "imagem": "webp",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvvr7KQIkIZko_RVQLSYRP5-",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvvr7KQIkIZko_RVQLSYRP5-"
       }
     }
   ],
@@ -20,8 +18,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/TKX7oAI87bI",
-        "gdrive": "https://drive.google.com/file/d/1Qmh3N6MCIda-tw0H5_WN4gKYt8nhWBBt/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1Qmh3N6MCIda-tw0H5_WN4gKYt8nhWBBt/view"
       },
       "duracao": {
         "horas": 0,
@@ -37,8 +34,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/zYvCKIcpcwQ",
-        "gdrive": "https://drive.google.com/file/d/1MbHLXkiqZkz50f-juMccXhmjcBzu2zck/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1MbHLXkiqZkz50f-juMccXhmjcBzu2zck/view"
       },
       "duracao": {
         "horas": 0,
@@ -54,8 +50,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/oyrYhosi17s",
-        "gdrive": "https://drive.google.com/file/d/1K9KifnDWNObK8d3OKPwRoCRCElxW0w7O/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1K9KifnDWNObK8d3OKPwRoCRCElxW0w7O/view"
       },
       "duracao": {
         "horas": 0,
@@ -71,8 +66,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/1S5FxMBOCHo",
-        "gdrive": "https://drive.google.com/file/d/1V8d6gSEGUOvolvX-l7eqyIhcmc0fouq8/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1V8d6gSEGUOvolvX-l7eqyIhcmc0fouq8/view"
       },
       "duracao": {
         "horas": 0,
@@ -88,8 +82,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/Ow_Uqd1IBgs",
-        "gdrive": "https://drive.google.com/file/d/1toRgU2lYFQ0Ve-NPlidUvSsGqWc9MPWg/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1toRgU2lYFQ0Ve-NPlidUvSsGqWc9MPWg/view"
       },
       "duracao": {
         "horas": 0,
@@ -105,8 +98,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/AaLAmVn9Bew",
-        "gdrive": "https://drive.google.com/file/d/1ZPXQx6bQ1B9XIZTP-jpMU1OU_sw9oT77/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1ZPXQx6bQ1B9XIZTP-jpMU1OU_sw9oT77/view"
       },
       "duracao": {
         "horas": 0,

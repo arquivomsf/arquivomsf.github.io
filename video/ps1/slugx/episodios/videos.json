@@ -5,9 +5,7 @@
       "imagem": "webp",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvvnCnS8XNajYcfKW_5cg_8H",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtube.com/playlist?list=PL1_Ius-LHAvvnCnS8XNajYcfKW_5cg_8H"
       }
     }
   ],
@@ -19,9 +17,7 @@
       "data": "13/04/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/iDw-0cFjakU",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/iDw-0cFjakU"
       },
       "duracao": {
         "horas": 0,
@@ -37,9 +33,7 @@
       "data": "13/04/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/-A9iHXsZoCg",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/-A9iHXsZoCg"
       },
       "duracao": {
         "horas": 0,

@@ -5,9 +5,7 @@
       "imagem": "webp",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsYVOzRUCYDR5hUxItmw4R_",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvsYVOzRUCYDR5hUxItmw4R_"
       }
     }
   ],
@@ -19,9 +17,7 @@
       "data": "15/06/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/14HcJXgxzG0",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/14HcJXgxzG0"
       },
       "duracao": {
         "horas": 0,
@@ -36,9 +32,7 @@
       "data": "20/06/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/uJitFqp6_SI",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/uJitFqp6_SI"
       },
       "duracao": {
         "horas": 0,
@@ -53,9 +47,7 @@
       "data": "20/06/2022",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/vW9xka30JAc",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/vW9xka30JAc"
       },
       "duracao": {
         "horas": 0,

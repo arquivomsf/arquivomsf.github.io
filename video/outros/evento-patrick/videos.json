@@ -5,9 +5,7 @@
       "imagem": "webp",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuaSe8svAkOFsb7L0tAhIan",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvuaSe8svAkOFsb7L0tAhIan"
       }
     }
   ],
@@ -18,9 +16,7 @@
       "data": "18/03/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/qmJCTe3x6X4",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/qmJCTe3x6X4"
       },
       "duracao": {
         "horas": 2,
@@ -34,9 +30,7 @@
       "data": "18/03/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/lpyBJR2t76g",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/lpyBJR2t76g"
       },
       "duracao": {
         "horas": 1,

@@ -6,9 +6,7 @@
       "quantidade": "4",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtTGBTxPSlNmn76cvDUghmr",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvtTGBTxPSlNmn76cvDUghmr"
       }
     }
   ],
@@ -20,9 +18,7 @@
       "data": "05/04/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/mDH0R1rw3mY",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/mDH0R1rw3mY"
       },
       "duracao": {
         "horas": 0,
@@ -37,9 +33,7 @@
       "data": "05/04/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/71wIYyonot0",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/71wIYyonot0"
       },
       "duracao": {
         "horas": 1,
@@ -54,8 +48,6 @@
       "data": "05/04/2026",
       "plataforma": "archive",
       "links": {
-        "youtube": "",
-        "gdrive": "",
         "archive": "https://archive.org/details/arquivomsf-flamengo-x-corinthians-supercopa-rei-2026-melhores-momentos"
       },
       "duracao": {
@@ -72,9 +64,7 @@
       "data": "05/04/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/5DzKBsROflc",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/5DzKBsROflc"
       },
       "duracao": {
         "horas": 0,
@@ -88,9 +78,7 @@
       "data": "05/04/2026",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/uy5nyiz_aC0",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/uy5nyiz_aC0"
       },
       "duracao": {
         "horas": 0,

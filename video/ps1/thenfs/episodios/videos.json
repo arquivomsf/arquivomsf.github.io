@@ -6,9 +6,7 @@
       "quantidade": "6",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvwkV9gpVnsWTUckl_2-xc5",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvwkV9gpVnsWTUckl_2-xc5"
       }
     }
   ],
@@ -21,9 +19,7 @@
       "plataforma": "youtube",
       "direto": "",
       "links": {
-        "youtube": "https://youtu.be/naIC_Nghj5A",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/naIC_Nghj5A"
       },
       "duracao": {
         "horas": 1,
@@ -42,8 +38,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/2az_WYVW0jM",
-        "gdrive": "https://drive.google.com/file/d/1kb8GAJSHwSnH8tg2oDP4lHoSVfMh_bnn/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1kb8GAJSHwSnH8tg2oDP4lHoSVfMh_bnn/view"
       },
       "duracao": {
         "horas": 0,
@@ -59,8 +54,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/tUn9YQiJOak",
-        "gdrive": "https://drive.google.com/file/d/1rBwUxvn7OttVQcWFtsDJjUsoyx7AZfIU/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1rBwUxvn7OttVQcWFtsDJjUsoyx7AZfIU/view"
       },
       "duracao": {
         "horas": 0,
@@ -76,8 +70,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/aktg2Oydsck",
-        "gdrive": "https://drive.google.com/file/d/1Nr-bam0XWEM0YVBi6uaNUlkH9jvT2RiR/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1Nr-bam0XWEM0YVBi6uaNUlkH9jvT2RiR/view"
       },
       "duracao": {
         "horas": 0,
@@ -93,8 +86,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/pN8P-BZuGKM",
-        "gdrive": "https://drive.google.com/file/d/1LWre-PUxxb2ZPrwCPpAt7e1Ch6BM3qCJ/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1LWre-PUxxb2ZPrwCPpAt7e1Ch6BM3qCJ/view"
       },
       "duracao": {
         "horas": 0,
@@ -110,8 +102,7 @@
       "plataforma": "youtube",
       "links": {
         "youtube": "https://youtu.be/NTjDucLDgoU",
-        "gdrive": "https://drive.google.com/file/d/1I6Z1FTj57rzU-QjZEiwfYPAW36abi7in/view",
-        "archive": ""
+        "gdrive": "https://drive.google.com/file/d/1I6Z1FTj57rzU-QjZEiwfYPAW36abi7in/view"
       },
       "duracao": {
         "horas": 0,

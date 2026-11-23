@@ -5,9 +5,7 @@
       "imagem": "webp",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvlSULCuPu2A5SMbtTIyYGG",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://www.youtube.com/playlist?list=PL1_Ius-LHAvvlSULCuPu2A5SMbtTIyYGG"
       }
     }
   ],
@@ -18,9 +16,7 @@
       "data": "31/03/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/gZepsoCOaSo",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/gZepsoCOaSo"
       },
       "duracao": {
         "horas": 1,
@@ -34,9 +30,7 @@
       "data": "31/03/2025",
       "plataforma": "youtube",
       "links": {
-        "youtube": "https://youtu.be/je0QET9131k",
-        "gdrive": "",
-        "archive": ""
+        "youtube": "https://youtu.be/je0QET9131k"
       },
       "duracao": {
         "horas": 1,
