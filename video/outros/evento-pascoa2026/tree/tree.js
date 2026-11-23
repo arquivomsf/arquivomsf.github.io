@@ -22,4 +22,6 @@ function get_egg() {
 function unleash() {
     document.querySelector(".man_ogg").play();
     document.querySelector(".darkness").classList.add("hidden");
+
+    definir_titulo("Árvore");
 }

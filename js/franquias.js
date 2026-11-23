@@ -39,8 +39,7 @@ function carregar_itens() {
     }
 
     document.querySelector(".navbar-two").innerHTML = `${dados_franquia[franquiaAtual].nome}`;
-    document.title = `Arquivo - ${dados_franquia[franquiaAtual].nome}`;
-    document.querySelector('meta[property="og:title"]').setAttribute("content", `Arquivo - ${dados_franquia[franquiaAtual].nome}`);
+    definir_titulo(`${dados_franquia[franquiaAtual].nome} - ArquivoMSF`);
 }
 
 function organizar_jogos(ordem, jogos, itens) {

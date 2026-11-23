@@ -9,7 +9,7 @@
 //           "console"   início → Console (escrito por js/consoles.js e video.js em .navbar-two / .navbar-two-sigla)
 //           "franquia"  início → [titulo "Franquia"], com botão de busca
 //           "jogo"      início → Console → Jogo (a barra de jogo para celular é escrita por jogos.js, series.js e video.js)
-//   titulo  texto do último item (só "simples" e "franquia")
+//   titulo  texto do último item (só "simples" e "franquia") - em "simples" também vira o título da aba
 //   atual   página que o menu lateral deve deixar com link vazio: "off", "stats", "ripdlive" ou "thumbsvelhas"
 //   raiz    caminho até a raiz do site: "" (padrão), "../" (pasta ripdlive) ou o endereço completo (404.html)
 
@@ -125,5 +125,9 @@ function layout_html({ tipo = "simples", titulo = "", atual = "", raiz = "" }) {
 
 //escreve o layout no lugar da tag <script> que chamou esta função
 function montar_layout(opcoes) {
+    if (opcoes.tipo == "simples" && opcoes.titulo) {
+        document.title = `${opcoes.titulo} - ArquivoMSF`;
+        document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
+    }
     document.currentScript.insertAdjacentHTML("beforebegin", layout_html(opcoes));
 }

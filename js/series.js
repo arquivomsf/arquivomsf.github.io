@@ -15,6 +15,13 @@ function carregarDados() {
   else carregar_consoles_temas("jogo",jogoAtual);
 }
 
+async function titulo_da_serie(jogo_nome) {
+  if (consoleAtual == "outros") return jogo_nome;
+  let series = await carregar_json(`video/${consoleAtual}/${jogoAtual}/series.json`);
+  let playlist = (series.itens ?? []).find(item => item.tipo == "playlist" && item.pasta == serieAtual);
+  return `${jogo_nome} (${playlist?.nome ?? serieAtual})`;
+}
+
 function procurarParam() {
   let searchParams = new URLSearchParams(window.location.search);
   consoleAtual = searchParams.get('con');
