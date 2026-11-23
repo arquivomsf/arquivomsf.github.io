@@ -46,6 +46,7 @@ var dados_geral = "";
 var dados_jogo = "";
 var dados_serie = "";
 var dados_off = {"lostmedia": []};
+var dados_thumbs = {"videos": []};
 var dados_franquia = "";
 var dados_console_keys = {};
 
