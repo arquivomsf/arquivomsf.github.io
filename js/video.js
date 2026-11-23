@@ -159,7 +159,7 @@ function montar_navegacao(video_nome) {
 }
 
 function montar_player(item, thumb) {
-  let video_link = item.links[fonteAtual];
+  let video_link = item.links[fonteAtual] ?? "";
 
   if (Object.hasOwn(item, "direto") || fonteAtual == "archive" && force_fake_embed_archive) {
     create_fake_embed(video_link, thumb);
