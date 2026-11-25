@@ -38,6 +38,8 @@ function layout_navegacao(tipo, titulo) {
 
     if (tipo == "simples") return divisor + layout_item(`<a href="" class="navbar-two ${LAYOUT_BOTAO}">${titulo}</a>`);
     if (tipo == "franquia") return divisor + layout_item(`<a href="" class="navbar-two ${LAYOUT_BOTAO} inline">${titulo}</a>`);
+    if (tipo == "thumbsvelhas") return divisor + layout_item(`<a href="" class="navbar-two ${LAYOUT_BOTAO} inline">${titulo}</a>`);
+    if (tipo == "off") return divisor + layout_item(`<a href="" class="navbar-two ${LAYOUT_BOTAO} inline">${titulo}</a>`);
 
     let quebra = (tipo == "console") ? "sm" : "md";
     let console_e_sigla =
@@ -89,7 +91,7 @@ function layout_menu_lateral(atual, raiz) {
 }
 
 function layout_html({ tipo = "simples", titulo = "", atual = "", raiz = "" }) {
-    let tem_busca = (tipo == "home" || tipo == "console" || tipo == "franquia");
+    let tem_busca = (tipo == "home" || tipo == "console" || tipo == "franquia" || tipo == "thumbsvelhas" || tipo == "off");
     let botao_busca = tem_busca
         ? `<div class="search-btn tablinks cursor-pointer my-1 py-2 px-3.5 rounded-sm bg-inherit transition-all duration-150 hover:bg-gray-500 focus:bg-gray-500" onclick="abrir_pesquisa()"><i class="fa-solid fa-search"></i></div>`
         : "";
