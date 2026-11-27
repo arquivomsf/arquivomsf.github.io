@@ -789,15 +789,15 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         if (class_name == "extras_content_list") extras_class = "extras-item";
 
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
-            <div class="${extras_class} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <div class="${extras_class} item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+                <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="relative h-auto">
                         <img src="${thumbnail}" class="w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                             <span class="px-2 text-white ${TEXTO_SOLTO}" ${texto_solto(duracao)}><i class="${get_plataforma_icon(plataforma)}"></i></span>
                         </div>
                     </div>
-                    <b class="text-center">${nome}</b>
+                    <b class="jogo_titulo text-center">${nome}</b>
                 </a>
             </div>
         `);
@@ -813,15 +813,15 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         //duracao = quantidade
 
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
-            <div class="${extras_class} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <div class="${extras_class} item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+                <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="relative h-auto">
                         <img src="${thumbnail}" class="w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="playlist-duracao z-2 absolute h-full w-[30%] bottom-0 right-0 bg-black/70">
                             <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 text-white inline-block align-middle ${TEXTO_SOLTO}" ${texto_solto(duracao)}><i class="${get_plataforma_icon("playlist")}"></i></span>
                         </div>
                     </div>
-                    <b class="text-center">${nome}</b>
+                    <b class="jogo_titulo text-center">${nome}</b>
                 </a>
             </div>
         `);
@@ -831,17 +831,18 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         if (url == "") url = `href="jogo?con=${console}&id=${jogo}"`;
         else url = `href="${url}" target="_blank"`;
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
-            <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
-                <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+                <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="w-auto h-[225px]">
                         <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain" loading="lazy" decoding="async">
                     </div>
                     <b class="jogo_titulo text-center">${nome}</b>
                 </a>
-                <a href="console?id=${console}" class="p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                <a href="console?id=${console}" class="item_info_label p-2 flex flex-row grow-0 *:not-first:border-l *:border-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${get_console_name(console)}</p>
                     <p class="py-1 px-2 h-min w-fit m-auto flex-1 text-center"><span class="${TEXTO_SOLTO}" ${texto_solto(console.toUpperCase())}></span></p>
                 </a>
+                <div class="item_info_debug debug_${type} p-2 hidden"></div>
             </div>
         `);
         return
@@ -850,8 +851,8 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         if (url == "") url = `href="jogo?con=${console}&id=${jogo}"`;
         else url = `href="${url}" target="_blank"`;
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
-            <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 cursor-pointer">
-                <a ${url} class="p-2 flex flex-col flex-auto gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+                <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="w-auto h-[225px]">
                         <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain" loading="lazy" decoding="async">
                     </div>
@@ -865,16 +866,17 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         if (url == "") url = `href="embed?con=${console}&jogo=${jogo}&fonte=${plataforma}"`;
         else url = `href="${url}" target="_blank"`;
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
-            <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <div class="item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+                <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="relative h-auto">
                         <img src="video/${console}/${thumbnail}" class="w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                             <span class="px-2 text-white ${TEXTO_SOLTO}" ${texto_solto(duracao)}><i class="${get_plataforma_icon(plataforma)}"></i></span>
                         </div>
                     </div>
-                    <b class="standalone_${i} standalone_titulo_${plataforma} text-center">${nome}</b>
+                    <b class="jogo_titulo text-center">${nome}</b>
                 </a>
+                <div class="item_info_debug debug_${type} standalone_${i} standalone_${plataforma} p-2 hidden"></div>
             </div>
         `);
         return
@@ -883,34 +885,43 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
         if (url == "") url = `href="serie?con=${console}&jogo=${jogo}"`;
         else url = `href="${url}" target="_blank"`;
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
-            <div class="p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                <a ${url} class="p-1 flex flex-col flex-auto gap-2 items-center">
+            <div class="item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+                <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="relative h-auto">
                         <img src="video/${console}/${jogo}/${thumbnail}" class="w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
                             <span class="px-2 text-white ${TEXTO_SOLTO}" ${texto_solto(categoria)}></span>
                         </div>
                     </div>
-                    <b class="outro_titulo text-center">${nome}</b>
+                    <b class="jogo_titulo outro_titulo text-center">${nome}</b>
                 </a>
+                <div class="item_info_debug debug_${type} p-2 hidden"></div>
             </div>
         `);
         return
     }
     if (type == "off") {
+        url = "";
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
-            <div class="bg-white flex flex-col divide-y-1 divide-gray-300 shadow-md rounded-md border border-gray-200 transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                <div class="p-2 flex flex-col flex-auto gap-2 items-center">
+            <div class="item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+                <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <div class="relative h-auto">
                         <img src="video/etc/lost/${thumbnail}" class="thumbnail w-auto h-auto aspect-video object-contain" loading="lazy" decoding="async">
                         <div class="video-duracao z-2 absolute bottom-[8px] right-[8px] bg-black/70">
-                            <span class="px-2 text-white">${duracao}</span>
+                            <span class="px-2 text-white ${TEXTO_SOLTO}" ${texto_solto(duracao)}></span>
                         </div>
                     </div>
-                    <b class="text-center">${nome}</b>
-                </div>
-                <div class="p-2 flex flex-col flex-1 gap-2 items-center">
-                    <p class="py-1 px-2 h-min w-fit m-auto">${data}</p>
+                    <b class="jogo_titulo text-center">${nome}</b>
+                </a>
+                <a ${url} class="item_info_label p-2 flex flex-row grow-0 *:not-first:border-l *:border-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                    <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${data}</p>
+                    <p class="py-1 px-2 h-min w-fit m-auto flex-1 text-center hidden"><span class="${TEXTO_SOLTO}" ${texto_solto(console.toUpperCase())}></span></p>
+                </a>
+                <div class="item_info_desc flex-1 grow-0 transition-all duration-150 hover:bg-black/20 focus:bg-black/20 ${desc == "" ? "hidden" : ""}">
+                    <details class="m-auto p-2">
+                        <summary class="cursor-pointer py-2">Descrição</summary>
+                        <span class="break-words">${desc}</span>
+                    </details>
                 </div>
             </div>
         `);
@@ -918,26 +929,22 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
     }
     if (type == "thumbs") {
         url = `href="${url}" target="_blank"`;
-        let item_desc = (desc == "") ? "" : `
-                <div class="order-2 flex-auto px-2 pt-4 pb-2">
-                    <div class="item_painel flex flex-col gap-1.5 rounded-lg border border-white/20 bg-black/30 p-2 text-left text-sm font-normal w-full">
-                        <details class="text-xs">
-                            <summary class="cursor-pointer opacity-80 text-base">Descrição</summary>
-                            <span class="break-words">${desc}</span>
-                        </details>
-                    </div>
-                </div>`;
-        let com_desc = (desc != "");
-
         document.querySelector("."+class_name).insertAdjacentHTML("beforeend", `
-            <div class="bg-white flex flex-col ${com_desc ? "" : "divide-y-1 divide-gray-300"} shadow-md rounded-md border border-gray-200">
-                <a ${url} class="order-1 p-2 ${com_desc ? "pb-0" : "flex-auto"} flex flex-col gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+            <div class="item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+                <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <img src="video/etc/thumbsvelhas/${thumbnail}" class="thumbnail w-full h-auto aspect-video object-cover" loading="lazy" decoding="async">
-                    <b class="text-center">${nome}</b>
+                    <b class="jogo_titulo text-center">${nome}</b>
                 </a>
-                <a ${url} class="order-3 ${com_desc ? "border-t border-gray-300" : ""} p-2 flex flex-row divide-x-1 divide-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-                    <p class="py-1 px-2 h-min w-fit m-auto">${data}</p>
-                </a>${item_desc}
+                <a ${url} class="item_info_label p-2 flex flex-row grow-0 *:not-first:border-l *:border-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
+                    <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${data}</p>
+                    <p class="py-1 px-2 h-min w-fit m-auto flex-1 text-center hidden"><span class="${TEXTO_SOLTO}" ${texto_solto(console.toUpperCase())}></span></p>
+                </a>
+                <div class="item_info_desc flex-1 grow-0 transition-all duration-150 hover:bg-black/20 focus:bg-black/20 ${desc == "" ? "hidden" : ""}">
+                    <details class="m-auto p-2">
+                        <summary class="cursor-pointer py-2">Descrição</summary>
+                        <span class="break-words">${desc}</span>
+                    </details>
+                </div>
             </div>
         `);
         return

@@ -26,6 +26,7 @@ function carregar_itens() {
         let lost_nome = dados_off.lostmedia[i].nome;
         let lost_imagem = dados_off.lostmedia[i].imagem;
         let lost_data = dados_off.lostmedia[i].data;
+        let lost_desc = dados_off.lostmedia[i].desc;
         let nome_processado = pesquisa_processar_string(texto_de_busca(dados_off.lostmedia[i]));
 
         lost_imagem = lost_imagem.replaceAll(/[\|]/g,"_");
@@ -34,7 +35,7 @@ function carregar_itens() {
         if (item_corresponde_a_pesquisa(dados_off.lostmedia[i])) {
             if (fortnite_banido == "false" || (fortnite_banido == "true" && !nome_processado.toLowerCase().includes("fortnite"))) {
             let lost_duracao = gerar_timestamp(dados_off.lostmedia[i].duracao.horas,dados_off.lostmedia[i].duracao.minutos,dados_off.lostmedia[i].duracao.segundos);
-            create_item("","off","videos_content_list",i,"",lost_nome,"",lost_imagem,"",lost_duracao,"","","",lost_data);
+            create_item("","off","videos_content_list",i,"",lost_nome,"",lost_imagem,"",lost_duracao,"","","",lost_data,lost_desc);
 
             document.querySelectorAll(".thumbnail").forEach(el => {
                 el.onerror = function() {
