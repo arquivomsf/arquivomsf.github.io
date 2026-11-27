@@ -98,15 +98,16 @@ function get_franquia_capas(id,nome,capas) {
     }
 
     let resultado = `
-        <div class="franquia_item franquia_${id} p-1 bg-white flex flex-col shadow-md rounded-md border border-gray-200 cursor-pointer transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
-            <a href="franquia?id=${id}" class="p-1 flex flex-col flex-auto gap-2 items-center">
+        <div class="item_card franquia_item franquia_${id} bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
+            <a href="franquia?id=${id}" class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                 <div class="relative h-auto">
                     <div class="w-auto h-[180px]">
                         ${capas_html}
                     </div>
                 </div>
-                <b class="text-center franquia_titulo_${id}">${nome}</b>
+                <b class="item_titulo text-center">${nome}</b>
             </a>
+            <div class="item_info_debug debug_franquia debug_franquia_${id} p-2 hidden"></div>
         </div>`;
 
     return resultado;

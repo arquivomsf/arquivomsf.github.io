@@ -705,7 +705,7 @@ function debug_aba_franquias() {
         let franquia = dados_franquia[id];
         let jogos = franquia.jogos.map(curto => debug_chip(curto)).join("");
 
-        document.querySelector(".franquia_titulo_"+id).innerHTML += debug_painel(debug_fileira(jogos)) + debug_painel_tags(franquia);
+        document.querySelector(".debug_franquia_"+id).innerHTML += debug_painel(debug_fileira(jogos)) + debug_painel_tags(franquia);
     });
 }
 
