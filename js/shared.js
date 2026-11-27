@@ -371,14 +371,11 @@ var debug_mode = false;
 
 const DEBUG_PLATAFORMAS = ["youtube", "gdrive", "archive", "rumble", "perdido"];
 
-//o título de cada card de cada aba (jogos, outros, independentes, franquias); o painel de debug é escrito dentro dele
-const DEBUG_TITULOS_DOS_CARDS = ".jogo_titulo, .outro_titulo, [class*=\"standalone_titulo_\"], [class*=\"franquia_titulo_\"]";
-
 //ativar modo de debug que permite
     //ver a plataforma em que as séries ou vídeos estão disponíveis
     //ver se um jogo tem análise
     //ver avisos nos dados (formato antigo, vídeos sem data)
-function debug() {
+function debug(from_page=false) {
     if (document.body.classList.contains("debug_ativado")) return "⚠️ Erro: Modo de debug já ativado";
     if (window.location.pathname != "/" && window.location.pathname != "/index.html") return "⚠️ Erro: O modo de debug funciona apenas na página inicial\nhttps://arquivomsf.github.io/";
     if (pesquisa_array != "") return "⚠️ Erro: Tentativa de ativar o modo de debug durante uma pesquisa";
@@ -386,6 +383,8 @@ function debug() {
     console.group("Ativando modo de debug...");
     debug_mode = true;
     document.body.classList.add("debug_ativado");
+
+    document.querySelectorAll(".item_info_debug").forEach(el => el.classList.toggle("hidden", false));
 
     console.log("(1/4) Adicionando informações de debug na aba [Jogos]");
     debug_aba_jogos();
@@ -399,11 +398,10 @@ function debug() {
     console.log("(4/4) Adicionando informações de debug na aba [Franquias]");
     debug_aba_franquias();
 
-    document.querySelectorAll(DEBUG_TITULOS_DOS_CARDS).forEach(titulo => titulo.classList.add("w-full"));
-
     console.groupEnd();
 
-    return "✅ Modo de debug ativado";
+    if (from_page) console.log("✅ Modo de debug ativado");
+    else return "✅ Modo de debug ativado";
 }
 
 // ---------- ajudantes ----------
@@ -634,7 +632,7 @@ function debug_analisar_lista(url, c) {
 // ---------- uma função por aba ----------
 
 function debug_aba_jogos() {
-    let titulos = document.querySelectorAll(".jogo_titulo");
+    let titulos = document.querySelectorAll(".debug_jogo");
 
     dados_geral.jogos.forEach((jogo, i) => {
         let base = `jogo_id_${jogo.console}_${jogo.curto}`;
@@ -663,7 +661,7 @@ function debug_aba_jogos() {
 }
 
 function debug_aba_outros() {
-    let titulos = document.querySelectorAll(".outro_titulo");
+    let titulos = document.querySelectorAll(".debug_outro");
 
     dados_geral.outros.forEach((outro, i) => {
         let base = `jogo_id_outros_${outro.curto}`;
@@ -682,7 +680,7 @@ function debug_aba_standalone() {
     let fontes = {youtube: "YouTube", gdrive: "Google Drive", archive: "Internet Archive", rumble: "Rumble"};
 
     Object.keys(fontes).forEach(fonte => {
-        document.querySelectorAll(".standalone_titulo_"+fonte).forEach(el => el.innerHTML += debug_painel(debug_fileira(debug_chip(fontes[fonte]))));
+        document.querySelectorAll(".standalone_"+fonte).forEach(el => el.innerHTML += debug_painel(debug_fileira(debug_chip(fontes[fonte]))));
     });
 
     dados_geral.standalone.forEach((video, i) => {
@@ -714,7 +712,7 @@ function debug_aba_franquias() {
 function enable_debug_from_page() {
     if (document.querySelector("#inputPesquisa").value == "debug()") {
         fechar_pesquisa();
-        debug();
+        debug(true);
     }
 }
 
@@ -797,7 +795,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                             <span class="px-2 text-white ${TEXTO_SOLTO}" ${texto_solto(duracao)}><i class="${get_plataforma_icon(plataforma)}"></i></span>
                         </div>
                     </div>
-                    <b class="jogo_titulo text-center">${nome}</b>
+                    <b class="item_titulo text-center">${nome}</b>
                 </a>
             </div>
         `);
@@ -821,7 +819,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                             <span class="z-2 absolute bottom-1/2 translate-1/2 right-1/2 text-white inline-block align-middle ${TEXTO_SOLTO}" ${texto_solto(duracao)}><i class="${get_plataforma_icon("playlist")}"></i></span>
                         </div>
                     </div>
-                    <b class="jogo_titulo text-center">${nome}</b>
+                    <b class="item_titulo text-center">${nome}</b>
                 </a>
             </div>
         `);
@@ -836,7 +834,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <div class="w-auto h-[225px]">
                         <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain" loading="lazy" decoding="async">
                     </div>
-                    <b class="jogo_titulo text-center">${nome}</b>
+                    <b class="item_titulo text-center">${nome}</b>
                 </a>
                 <a href="console?id=${console}" class="item_info_label p-2 flex flex-row grow-0 *:not-first:border-l *:border-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${get_console_name(console)}</p>
@@ -856,7 +854,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                     <div class="w-auto h-[225px]">
                         <img src="capas/${console}/${jogo}.webp" class="h-[225px] object-contain" loading="lazy" decoding="async">
                     </div>
-                    <b class="jogo_titulo text-center">${nome}</b>
+                    <b class="item_titulo text-center">${nome}</b>
                 </a>
             </div>
         `);
@@ -874,7 +872,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                             <span class="px-2 text-white ${TEXTO_SOLTO}" ${texto_solto(duracao)}><i class="${get_plataforma_icon(plataforma)}"></i></span>
                         </div>
                     </div>
-                    <b class="jogo_titulo text-center">${nome}</b>
+                    <b class="item_titulo text-center">${nome}</b>
                 </a>
                 <div class="item_info_debug debug_${type} standalone_${i} standalone_${plataforma} p-2 hidden"></div>
             </div>
@@ -893,7 +891,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                             <span class="px-2 text-white ${TEXTO_SOLTO}" ${texto_solto(categoria)}></span>
                         </div>
                     </div>
-                    <b class="jogo_titulo outro_titulo text-center">${nome}</b>
+                    <b class="item_titulo text-center">${nome}</b>
                 </a>
                 <div class="item_info_debug debug_${type} p-2 hidden"></div>
             </div>
@@ -911,7 +909,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
                             <span class="px-2 text-white ${TEXTO_SOLTO}" ${texto_solto(duracao)}></span>
                         </div>
                     </div>
-                    <b class="jogo_titulo text-center">${nome}</b>
+                    <b class="item_titulo text-center">${nome}</b>
                 </a>
                 <a ${url} class="item_info_label p-2 flex flex-row grow-0 *:not-first:border-l *:border-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${data}</p>
@@ -933,7 +931,7 @@ function create_item(url="",type="",class_name="",i=0,console="",nome="",jogo=""
             <div class="item_card bg-white flex flex-col *:not-first:border-t *:border-gray-300 shadow-md rounded-md border border-gray-200">
                 <a ${url} class="item_info_main p-2 flex flex-col grow gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <img src="video/etc/thumbsvelhas/${thumbnail}" class="thumbnail w-full h-auto aspect-video object-cover" loading="lazy" decoding="async">
-                    <b class="jogo_titulo text-center">${nome}</b>
+                    <b class="item_titulo text-center">${nome}</b>
                 </a>
                 <a ${url} class="item_info_label p-2 flex flex-row grow-0 *:not-first:border-l *:border-gray-300 flex-1 gap-2 items-center transition-all duration-150 hover:bg-black/20 focus:bg-black/20">
                     <p class="py-1 px-2 h-min w-fit m-auto flex-auto text-center">${data}</p>
