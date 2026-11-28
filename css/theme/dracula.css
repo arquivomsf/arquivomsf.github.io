@@ -163,3 +163,15 @@ body[data-tema="dracula"] .chip_erro {
 body[data-tema="dracula"] .chip_aviso {
   color: var(--dracula-yellow);
 }
+
+body[data-tema="dracula"] .item_info_desc {
+  color: var(--dracula-purple) !important;
+}
+
+body[data-tema="dracula"] .item_info_desc:hover {
+  background-color: var(--dracula-sel) !important;
+}
+
+body[data-tema="dracula"] .item_info_desc span {
+  color: var(--dracula-fg) !important;
+}

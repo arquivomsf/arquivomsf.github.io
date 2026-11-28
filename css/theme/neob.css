@@ -163,7 +163,7 @@ body[data-tema="neob"] .tabcontent > div > div:nth-child(9n+9) {
   background-color: var(--neob-darkpink);
 }
 
-body[data-tema="neob"] .tabcontent > div > div > a:nth-child(1), body[data-tema="neob"] .tabcontent > .videos_content_list > div > div {
+body[data-tema="neob"] .tabcontent > div > div > a:nth-child(1), body[data-tema="neob"] .tabcontent > .videos_content_list > div > div:not(.item_info_desc) {
   border: none !important;
 }
 
@@ -297,4 +297,12 @@ body[data-tema="neob"] .chip_erro {
 
 body[data-tema="neob"] .chip_aviso {
   background-color: var(--neob-orange);
+}
+
+body[data-tema="neob"] .item_info_desc {
+  background-color: var(--neob-yellow);
+  border: 1px solid black !important;
+  border-radius: 0;
+  box-shadow: 5px 5px black !important;
+  margin: 15px !important;
 }

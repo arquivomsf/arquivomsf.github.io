@@ -222,3 +222,17 @@ body[data-tema="netruim"] .item_painel {
 body[data-tema="netruim"] .item_painel * {
   color: black;
 }
+
+body[data-tema="netruim"] .item_info_desc {
+  background-color: revert !important;
+  color: revert !important;
+  border: revert;
+  border-radius: revert;
+  box-shadow: revert;
+  text-decoration: revert;
+  transition: none !important;
+}
+
+body[data-tema="netruim"] .item_info_label p {
+  border: revert;
+}
