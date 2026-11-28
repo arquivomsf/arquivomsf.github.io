@@ -526,3 +526,34 @@ body[data-tema="xp"] .chip_erro * {
 body[data-tema="xp"] .chip_aviso {
   background: gold;
 }
+
+body[data-tema="xp"] .item_info_label, body[data-tema="xp"] .item_info_desc {
+  margin: 20px 20px auto 20px !important;
+
+  color: #222 !important;
+  border: 1px solid #003c74;
+  background: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
+  box-shadow: none;
+  border-radius: 3px !important;
+
+  transition: none !important;
+}
+
+body[data-tema="xp"] .item_info_label:active, body[data-tema="xp"] .item_info_desc:active {
+  box-shadow: none;
+  background: linear-gradient(180deg,#cdcac3,#e3e3db 8%,#e5e5de 94%,#f2f2f1);
+}
+
+body[data-tema="xp"] .item_info_label:hover, body[data-tema="xp"] .item_info_desc:hover {
+  box-shadow: inset -1px 1px #fff0cf,inset 1px 2px #fdd889,inset -2px 2px #fbc761,inset 2px -2px #e5a01a;
+}
+
+body[data-tema="xp"] .item_info_label:focus, body[data-tema="xp"] .item_info_desc:focus {
+  box-shadow: inset -1px 1px #cee7ff,inset 1px 2px #98b8ea,inset -2px 2px #bcd4f6,inset 1px -1px #89ade4,inset 2px -2px #89ade4;
+  outline: 1px dotted #000;
+  outline-offset: -4px;
+}
+
+body[data-tema="xp"] .item_info_debug {
+  border: none;
+}

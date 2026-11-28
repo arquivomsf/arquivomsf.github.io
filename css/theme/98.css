@@ -433,3 +433,29 @@ body[data-tema="98"] .chip_erro * {
 body[data-tema="98"] .chip_aviso {
   background: gold;
 }
+
+body[data-tema="98"] .item_info_label {
+  margin: 20px 20px auto 20px !important;
+
+  box-shadow: none;
+  background-color: silver !important;
+
+  box-shadow: inset 1px 1px #fff,inset 2px 2px #dfdfdf,inset -1px -1px #0a0a0a,inset -2px -2px grey;
+
+  border: none !important;
+}
+
+body[data-tema="98"] .item_info_desc {
+  margin: 20px 20px auto 20px !important;
+
+  box-shadow: none;
+  background-color: silver !important;
+
+  box-shadow: inset 1px 1px #fff,inset 2px 2px #dfdfdf,inset -1px -1px #0a0a0a,inset -2px -2px grey;
+
+  border: none !important;
+}
+
+body[data-tema="98"] .item_info_debug {
+  border: none;
+}

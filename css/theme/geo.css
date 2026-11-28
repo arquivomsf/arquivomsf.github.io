@@ -488,9 +488,23 @@ body[data-tema="geo"] .item_painel {
 }
 
 body[data-tema="geo"] .item_painel * {
-  color: black;
+    color: black;
 }
 
 body[data-tema="geo"] .item_painel *:hover {
-  text-decoration: none;
+    text-decoration: none;
+}
+
+body[data-tema="geo"] .item_info_debug {
+    border: none;
+}
+
+body[data-tema="geo"] .item_info_desc {
+    background-color: white;
+    padding: 10px 2%;
+    outline-color: silver;
+    outline-style: ridge;
+    border-radius: 0;
+
+    margin: 0.5rem;
 }
